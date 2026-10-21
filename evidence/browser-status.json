@@ -1,0 +1,1 @@
+{"browserRequired":"Firefox","status":"not-run","reason":"No system Firefox command; existing Playwright Firefox executable /home/agent/.cache/ms-playwright/firefox-1497/firefox/firefox is absent","installedBrowser":false,"chromiumUsed":false,"newGalleryScreenshot":null,"historicalEvidence":"Source modules retain historical Firefox reports; these are not new gallery acceptance."}

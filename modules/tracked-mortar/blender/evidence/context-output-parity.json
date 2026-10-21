@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "definitionSha256": "db916a98023b825b534268e57831b79f52505e110aa878b57a0ed21f4d205486",
+  "contextRegressionTests": 15,
+  "defaultAndVariantGLBBytesUnchanged": true,
+  "variants": [
+    {
+      "variant": "reference",
+      "sha256": "bda7aaa6bf736cbc38b896609fec24251bf0beec0adec738b68d9781b17257b5",
+      "unchanged": true
+    },
+    {
+      "variant": "standard",
+      "sha256": "9d5b523461a55d1ca9616c9a6aa99258d377cd59e3d46c1ca1a8ced72e27dec4",
+      "unchanged": true
+    },
+    {
+      "variant": "inspection",
+      "sha256": "84ef601e7ff5bd383c9cd120c33142169b32bd3df71a9265055ae54581ed4ab8",
+      "unchanged": true
+    },
+    {
+      "variant": "legacy60",
+      "sha256": "ed2d7535b2dddd1f9876b900b50fb5f886609e206b978b2f19bebdfb812bfc08",
+      "unchanged": true
+    },
+    {
+      "variant": "boundary",
+      "sha256": "702098d7dbbc76bc54b47975fc34ce936baa9a9562d4aecd9abe573b44cdfe02",
+      "unchanged": true
+    },
+    {
+      "variant": "desert",
+      "sha256": "cbca41ead8cf6072da6fd977fcc3de41a139ff816dc8b04161ca14b0e9bbf2bd",
+      "unchanged": true
+    },
+    {
+      "variant": "digital",
+      "sha256": "05e547303a27734fa179de72b0ab63b80979067b1602af91e7ccb59e180ee5a3",
+      "unchanged": true
+    },
+    {
+      "variant": "urban",
+      "sha256": "21ce906551042697e3a090e1c52c0738341c20dfada03ca6a40d7f574e355e5f",
+      "unchanged": true
+    },
+    {
+      "variant": "claude",
+      "sha256": "a996b0aef802af8371747f1bb587d147361ba12e44c301b17fc61eb2c5539503",
+      "unchanged": true
+    }
+  ],
+  "renderEvidenceRemainsBoundToSameGLBHashes": true,
+  "unchangedVisualSources": [
+    {
+      "path": "modules/tracked-mortar/model.mjs",
+      "sha256": "37115619c255af5f914be8c6ad4e43dbf9ebf75fef7fd6eb52a56d81ea2b9432",
+      "unchangedFromGzipV2": true
+    },
+    {
+      "path": "modules/tracked-mortar/blender-kit.mjs",
+      "sha256": "ebbcc5078f421cdfe92301029eb8d369dbc2ffef84d204befa0f7f2527da9c5c",
+      "unchangedFromGzipV2": true
+    }
+  ]
+}

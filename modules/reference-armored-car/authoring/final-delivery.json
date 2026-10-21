@@ -1,0 +1,117 @@
+{
+  "taskId": "reference-armored-car-blender-rebuild",
+  "status": "Completed implementation and scoped verification; parent owns review/publication",
+  "baseline": "BitDG/PGF main02681b6 source snapshot",
+  "generator": {
+    "id": "reference-armored-car",
+    "version": "1.1.0",
+    "visualRevision": "2026-10-10-blender-brown-diamond-tank-finish"
+  },
+  "checks": {
+    "actualBlenderMCP": "PASS: authoring, source exports, actual PGF GLB reimport/renders, native .blend compression/reopen",
+    "nodeAndSharedWorker": "17/17 PASS with pinned Three0.180.0, actual independent worker_threads transport",
+    "runtimeGLBVariants": "12 actual Node variants reimported, sockets/maps/triangles preserved",
+    "tankPatterns": "all45 source painters exercised; four full-resolution representative pixel comparisons to existing headless adapter",
+    "browser": "PASS for listed real native Firefox157.0.1 UI, parameter, download, reimport, cancellation, framing, idle and disposal checks",
+    "previewBuild": "PASS,5.17s isolated two-module acceptance build with available Vite8.1.5",
+    "nativeSourceCompression": "13,045,141\u21923,750,973 bytes; actual reopened scene snapshot exact"
+  },
+  "dynamicInterfaceScope": {
+    "runtimeAssembly": "Offline Blender-authored geometry kit; synchronous Three core assembly plus canonical async definition/PBR",
+    "visualControls": [
+      "uniform scale",
+      "turret yaw and gun elevation as rigid visible rotations",
+      "original paint/roughness/weathering and shared tank45-pattern material rebuild",
+      "antennas/markings independent visibility",
+      "three real geometry detail steps over preserved24\u201364 range"
+    ],
+    "sockets": "7 total: placement plus6 visual pose/attachment sockets",
+    "explode": "Preview-only transform changes; actual exported browser GLB is byte-identical before/after explode",
+    "workerLifecycle": "Shared generation/export Worker; shared Offscreen render Worker; cancellation retains completed asset, idle renders zero new frames and disposal terminates Worker",
+    "notProvided": [
+      "Live Blender invocation for each slider",
+      "physical suspension or moving-track simulation",
+      "skeletal animation clips",
+      "functional weapon mechanism, ballistics or fabrication design"
+    ]
+  },
+  "notRun": [
+    "Full PGF production build with project-pinned Vite8.3.0",
+    "PGF stdio MCP end-to-end (server dependencies deliberately not expanded)",
+    "Dynamic product GIF/recording (native tools expose screenshots/input, no recording API; parent approved explicit limitation)"
+  ],
+  "limits": [
+    "Original photo silhouette is manually reviewed, hidden faces/dimensions inferred from AI sheet; no numerical likeness score",
+    "AO is not preserved by current AssetIR path",
+    "69 refers to AssetIR primitives, not measured shared-renderer calls; independent actual GLB review measured70 including floor",
+    "Cross-Canvas whole-file identity is not claimed: actual digital color pixels differ max7/255 and mean0.630/255, remaining5 map pixels identical",
+    "Disposed resource counters retain cached69 geometries/6textures; no claim of measuredzeroGPUallocations"
+  ],
+  "sourceBindings": [
+    {
+      "path": "modules/reference-armored-car/core.mjs",
+      "bytes": 6834,
+      "sha256": "151e848b4edfa8b39efa766f7ea7508e442e49b8296c5fe0951f8847797d8a14"
+    },
+    {
+      "path": "modules/reference-armored-car/definition.mjs",
+      "bytes": 5421,
+      "sha256": "9d02a4de292166bdeec0759b368e5bc94c0e6dc9d3a44781d75b6897bda13f3a"
+    },
+    {
+      "path": "modules/reference-armored-car/finish-pixels.mjs",
+      "bytes": 1618,
+      "sha256": "0054979795c317c6808f71a4e8abf4678e859a4f8c6fa5e9197e69295250af4d"
+    },
+    {
+      "path": "modules/tank/src/portable-vehicle-finish.mjs",
+      "bytes": 5992,
+      "sha256": "83180817c7203f5a0c5fa53327b65bb773fd6bc94bcd88c6eff864f2cf0752f0"
+    },
+    {
+      "path": "modules/tank/upstream/src/turret-surface-materials.mjs",
+      "bytes": 6885,
+      "sha256": "47633ed13f8e39f37ef33adfb9b0abed3966bd5fbe51375f0dfb7b898c6848c7"
+    },
+    {
+      "path": "modules/tank/upstream/vendor/legacy-tank-source/src/vehicles/materials.js",
+      "bytes": 261332,
+      "sha256": "0cef74c7fe9cec5ec8282febf7b89e3e731a6c6dfd432594b0044f11832cc798"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/reference-armored-car-tank-kit.blend",
+      "bytes": 3750973,
+      "sha256": "11369888071ceda6f2bb859dd6eecee7e9cc74219e23c56e0038703c5e99e9ca"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/reference-armored-car-high.glb",
+      "bytes": 11067956,
+      "sha256": "8cffdc445b12d365508315be3601bd99023c31aeafcf77771db1c31c993492f8"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/reference-armored-car-medium.glb",
+      "bytes": 9259336,
+      "sha256": "2140c687da27b86eb319d0c94d917a6c5f9720988f445e10ad824d703a44bb32"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/reference-armored-car-low.glb",
+      "bytes": 6167204,
+      "sha256": "c04efca4e6d168925c26edc130f86b53d60d1ce6b5bb89607aa6d637390a187d"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/runtime-reference.glb",
+      "bytes": 5777548,
+      "sha256": "fcb8b328512fd4c80339b7890449a317ea28d13795e406238aed1ea833190760"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/runtime-tank-desert.glb",
+      "bytes": 6007100,
+      "sha256": "71b0b238579da8796e480bd929ad4be11fccd57f78be467ec34d14ca66d47909"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/browser-digital-urban.glb",
+      "bytes": 5875660,
+      "sha256": "b4badd548b684a10644954fb6f0df6e229d3d165df4748e070b6d942bed73751"
+    }
+  ]
+}

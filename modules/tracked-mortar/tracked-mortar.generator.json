@@ -1,0 +1,12 @@
+{
+  "apiVersion": "1",
+  "id": "tracked-mortar",
+  "version": "2.0.0",
+  "label": "履带重型臼炮",
+  "entry": "./definition.mjs",
+  "workbench": {
+    "category": "machines",
+    "entry": "./workbench.js",
+    "collectionId": "dot-model-generator"
+  }
+}

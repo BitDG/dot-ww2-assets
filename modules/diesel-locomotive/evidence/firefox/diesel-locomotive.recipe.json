@@ -1,0 +1,27 @@
+{
+  "format": "PGF.ComponentRecipe",
+  "version": 1,
+  "generator": "diesel-locomotive",
+  "seed": "pgf-components-1",
+  "params": {
+    "bodyLength": 1,
+    "bodyWidth": 1,
+    "bodyHeight": 1,
+    "bogieSpacing": 1,
+    "wheelScale": 1,
+    "detail": "medium",
+    "fanCount": 4,
+    "grilleDensity": 0.6,
+    "rivetDensity": 0.55,
+    "weathering": 0.28,
+    "paintColor": "#7d8589",
+    "metalColor": "#737a7d",
+    "showRails": true,
+    "showRailings": true,
+    "showGrilles": true,
+    "showRivets": true,
+    "camoPattern": "digital",
+    "camoEnvironment": "urban",
+    "camoScale": 1.6
+  }
+}

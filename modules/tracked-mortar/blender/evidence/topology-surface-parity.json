@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "placementsIdentical": true,
+  "before": "bf423de71b728c33cb4330545e74a532627bee209e44a52ef1eab292ec30fa65",
+  "after": "1a06ab665eb85937f7b00646dbe57cc864d1df14c63eb1041071868fa117e5ac",
+  "retainedPrototypeTriangles": 11224,
+  "removedPrototypeTriangles": 1004,
+  "remainingDegeneratePrototypeTriangles": 0,
+  "maxNormalComponentDelta": 0.00009999563917517662,
+  "comparison": "Oriented triangle positions and UV corners exact; split normals within 0.0001 Blender custom-normal quantization tolerance"
+}

@@ -1,0 +1,1 @@
+Native Blender material experiment, completed before user clarified PGF materials should be retained. These bakes are preserved but NOT imported by the active generator. No final material acceptance is claimed.

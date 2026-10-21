@@ -1,0 +1,5 @@
+# Fixed GLB inputs/receipts and exact N4 source provenance survive Windows checkout.
+assets/*.glb binary
+evidence/*.glb binary
+exterior-correction.mjs text eol=lf
+sequence-core.mjs text eol=lf

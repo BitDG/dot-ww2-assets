@@ -1,0 +1,19 @@
+{
+  "format": "PGF.ComponentRecipe",
+  "version": 1,
+  "generator": "tracked-mortar",
+  "seed": "pgf-components-1",
+  "params": {
+    "camoPattern": "digital",
+    "camoEnvironment": "urban",
+    "camoScale": 1.6,
+    "paintColor": "#a2aaaf",
+    "length": 12,
+    "elevation": 0,
+    "barrelScale": 1.15,
+    "weathering": 0.65,
+    "detail": "high",
+    "railings": true,
+    "exploded": 0
+  }
+}

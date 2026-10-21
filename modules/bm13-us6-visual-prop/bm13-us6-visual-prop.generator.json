@@ -1,0 +1,7 @@
+{
+  "apiVersion": "1",
+  "id": "bm13-us6-visual-prop",
+  "version": "0.1.0",
+  "label": "BM-13N / Studebaker US6 \u00b7 \u5916\u89c2\u6e38\u620f\u8d44\u4ea7",
+  "entry": "./definition.mjs"
+}

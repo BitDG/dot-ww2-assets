@@ -1,0 +1,399 @@
+{
+  "status": "PASS_ACTUAL_TEN_VIEW_RENDER_AND_UNCHANGED_CORE",
+  "timeUTC": "2026-10-14T04:36:50.490937+00:00",
+  "sourceGLB": "QF17-Q6-PGF-medium.glb",
+  "sourceSHA256": "6a9afc0cbf9cf5f14241d4280bf4645ee2d80933e13f09e83de473c89a5b7575",
+  "sourceTriangles": 50776,
+  "assetMeshes": 24,
+  "nativeReviewFile": "/workspace/scratch/6a4c729be230/qf17-production/authoring/QF17-Q6-final-PGF-review.blend",
+  "nativePackedImages": [
+    {
+      "name": "texture-0",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-1",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-2",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "unchangedFreezeFiles": 28,
+  "actualMCPReceipts": 12,
+  "originalRenderViews": [
+    {
+      "view": "hero",
+      "source": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-medium.glb",
+      "sourceSHA256": "6a9afc0cbf9cf5f14241d4280bf4645ee2d80933e13f09e83de473c89a5b7575",
+      "projection": "ORTHO",
+      "camera": [
+        9.0,
+        -11.0,
+        7.199999809265137
+      ],
+      "rotationEuler": [
+        1.152294397354126,
+        -5.4799457416265795e-08,
+        0.6987190246582031
+      ],
+      "target": [
+        0,
+        -0.287,
+        0.9768
+      ],
+      "scale": 9.100000381469727,
+      "resolution": [
+        1200,
+        850
+      ],
+      "samples": 192,
+      "render": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-hero.png",
+      "fileSHA256": "840d1f47096dfae67bd07c19147ca5c6494e887c639c436f4838e2cce5670108",
+      "receiptSHA256": "9b837078b3a00aef5f0ba3721d5bc9f05fd71e2d215cb5df7251b88e8a830cbc",
+      "pixelStddev": [
+        28.83069424429187,
+        27.567781390336307,
+        27.630029432801617
+      ]
+    },
+    {
+      "view": "side",
+      "source": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-medium.glb",
+      "sourceSHA256": "6a9afc0cbf9cf5f14241d4280bf4645ee2d80933e13f09e83de473c89a5b7575",
+      "projection": "ORTHO",
+      "camera": [
+        20.0,
+        -0.28700000047683716,
+        0.9768000245094299
+      ],
+      "rotationEuler": [
+        1.5707963705062866,
+        -0.0,
+        1.5707963705062866
+      ],
+      "target": [
+        0,
+        -0.287,
+        0.9768
+      ],
+      "scale": 9.100000381469727,
+      "resolution": [
+        1500,
+        620
+      ],
+      "samples": 192,
+      "render": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-side.png",
+      "fileSHA256": "4256b1bb8b7216fc2e8c40a998fe5ee1ce60b1eab2624b541d569ace1802979b",
+      "receiptSHA256": "519f6e87eaf7398fb585febd1fbe96f0e1f0f113d8ecd0de5bccef4aa114cf90",
+      "pixelStddev": [
+        17.105233257203576,
+        16.247544870645363,
+        16.286231019166266
+      ]
+    },
+    {
+      "view": "top",
+      "source": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-medium.glb",
+      "sourceSHA256": "6a9afc0cbf9cf5f14241d4280bf4645ee2d80933e13f09e83de473c89a5b7575",
+      "projection": "ORTHO",
+      "camera": [
+        0.0,
+        -0.28700000047683716,
+        20.0
+      ],
+      "rotationEuler": [
+        0.0,
+        0.0,
+        1.5707963705062866
+      ],
+      "target": [
+        0,
+        -0.287,
+        0.9768
+      ],
+      "scale": 9.100000381469727,
+      "resolution": [
+        1500,
+        620
+      ],
+      "samples": 192,
+      "render": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-top.png",
+      "fileSHA256": "87584709a0a323388fd5834d6e4af35d397b993fb3cf0a5440756a253731f775",
+      "receiptSHA256": "e7137bed62ff1382dfe2ab5918a23d4953df0de8dbdefe4e14fdc7e4009f5b95",
+      "pixelStddev": [
+        27.34174838762161,
+        26.16808120419072,
+        26.281399193847694
+      ]
+    },
+    {
+      "view": "front",
+      "source": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-medium.glb",
+      "sourceSHA256": "6a9afc0cbf9cf5f14241d4280bf4645ee2d80933e13f09e83de473c89a5b7575",
+      "projection": "ORTHO",
+      "camera": [
+        0.0,
+        -20.0,
+        1.1200000047683716
+      ],
+      "rotationEuler": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "target": [
+        0,
+        0,
+        1.12
+      ],
+      "scale": 3.799999952316284,
+      "resolution": [
+        850,
+        800
+      ],
+      "samples": 192,
+      "render": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-front.png",
+      "fileSHA256": "1229a274790ff63f9f5ba9b720016d41f374f43922025ac3d47082325a02c147",
+      "receiptSHA256": "90ef3bb9fe144d58dc9417d4e44cf6b6fe2441a7a1502533e93269aa08007fdd",
+      "pixelStddev": [
+        21.13656232126474,
+        20.09282591772816,
+        20.118322214128664
+      ]
+    },
+    {
+      "view": "detail-wheel",
+      "source": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-medium.glb",
+      "sourceSHA256": "6a9afc0cbf9cf5f14241d4280bf4645ee2d80933e13f09e83de473c89a5b7575",
+      "projection": "ORTHO",
+      "camera": [
+        5.0,
+        -3.0,
+        2.0999999046325684
+      ],
+      "rotationEuler": [
+        1.2732609510421753,
+        -3.206928056442848e-09,
+        0.8925898671150208
+      ],
+      "target": [
+        1.14,
+        0.11,
+        0.58
+      ],
+      "scale": 1.649999976158142,
+      "resolution": [
+        900,
+        800
+      ],
+      "samples": 192,
+      "render": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-detail-wheel.png",
+      "fileSHA256": "3415442aac1e9f813b77c172fea00acd5ad48c5978df0dcd319d0391aabe494f",
+      "receiptSHA256": "4932a824ec0e1ed37b8386daa71a3e5c85e4094a30d7b2433646205643b6435c",
+      "pixelStddev": [
+        53.24177731331,
+        52.213646166320466,
+        52.01471508482517
+      ]
+    },
+    {
+      "view": "detail-shield",
+      "source": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-medium.glb",
+      "sourceSHA256": "6a9afc0cbf9cf5f14241d4280bf4645ee2d80933e13f09e83de473c89a5b7575",
+      "projection": "ORTHO",
+      "camera": [
+        5.0,
+        -7.0,
+        4.0
+      ],
+      "rotationEuler": [
+        1.2633785009384155,
+        -1.0887193369057968e-08,
+        0.5693939328193665
+      ],
+      "target": [
+        0.5,
+        0.03,
+        1.35
+      ],
+      "scale": 2.1500000953674316,
+      "resolution": [
+        900,
+        800
+      ],
+      "samples": 192,
+      "render": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-detail-shield.png",
+      "fileSHA256": "27c234db1a82c1077276c86baf0a2f0af7f09d67b87a29b3612b73ba067d3ff7",
+      "receiptSHA256": "8c94e376b166534d3cf24c7936d0d4edae849186013f9b5110e39d52d2cf4d21",
+      "pixelStddev": [
+        41.98805320467232,
+        40.51348165681886,
+        40.54932494145503
+      ]
+    },
+    {
+      "view": "detail-trails",
+      "source": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-medium.glb",
+      "sourceSHA256": "6a9afc0cbf9cf5f14241d4280bf4645ee2d80933e13f09e83de473c89a5b7575",
+      "projection": "ORTHO",
+      "camera": [
+        0.0,
+        8.0,
+        6.5
+      ],
+      "rotationEuler": [
+        0.7512233853340149,
+        5.966895599840427e-08,
+        3.141592502593994
+      ],
+      "target": [
+        0,
+        2.35,
+        0.45
+      ],
+      "scale": 3.9000000953674316,
+      "resolution": [
+        900,
+        800
+      ],
+      "samples": 192,
+      "render": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-detail-trails.png",
+      "fileSHA256": "1f2db9acdeafbb31cb496fdff5e6c4948e78f321e6d93a2f42f837e950f14cdf",
+      "receiptSHA256": "699742b199a18535d89dbafc93d5882e490be620e83d43b504dd8f06a1a5893f",
+      "pixelStddev": [
+        32.70366999189881,
+        31.111445308204765,
+        31.205524873007743
+      ]
+    },
+    {
+      "view": "detail-muzzle",
+      "source": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-medium.glb",
+      "sourceSHA256": "6a9afc0cbf9cf5f14241d4280bf4645ee2d80933e13f09e83de473c89a5b7575",
+      "projection": "ORTHO",
+      "camera": [
+        2.0,
+        -6.0,
+        2.299999952316284
+      ],
+      "rotationEuler": [
+        1.2715082168579102,
+        -1.7425705323148577e-09,
+        0.8519663214683533
+      ],
+      "target": [
+        0,
+        -4.25,
+        1.48
+      ],
+      "scale": 0.949999988079071,
+      "resolution": [
+        900,
+        800
+      ],
+      "samples": 192,
+      "render": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-detail-muzzle.png",
+      "fileSHA256": "3637f01e164a0a05d36c8da7853da2efd086155f1272a0dbcd96f67e833266f0",
+      "receiptSHA256": "8662188decf2e53de3bfb384604aaec24a8dba2fa6d6b1eda82e3a736d29668e",
+      "pixelStddev": [
+        40.30629990642892,
+        38.76875783762098,
+        38.96219510110139
+      ]
+    },
+    {
+      "view": "detail-carriage",
+      "source": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-medium.glb",
+      "sourceSHA256": "6a9afc0cbf9cf5f14241d4280bf4645ee2d80933e13f09e83de473c89a5b7575",
+      "projection": "ORTHO",
+      "camera": [
+        5.0,
+        6.0,
+        3.5
+      ],
+      "rotationEuler": [
+        1.2581812143325806,
+        1.88697228509227e-07,
+        2.370971918106079
+      ],
+      "target": [
+        0,
+        0.85,
+        1.18
+      ],
+      "scale": 2.299999952316284,
+      "resolution": [
+        900,
+        800
+      ],
+      "samples": 192,
+      "render": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-detail-carriage.png",
+      "fileSHA256": "488e500f1e8789b1e5e467772dc542bb6e3a2e35a39ce0ba098964aa3d447123",
+      "receiptSHA256": "fd206788c38e30826a2c4f0897a4cb12cc5861d1d5400376b3efd709107bd6a2",
+      "pixelStddev": [
+        55.586586210860716,
+        53.8160692628742,
+        53.88587753652628
+      ]
+    },
+    {
+      "view": "detail-tail",
+      "source": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-medium.glb",
+      "sourceSHA256": "6a9afc0cbf9cf5f14241d4280bf4645ee2d80933e13f09e83de473c89a5b7575",
+      "projection": "ORTHO",
+      "camera": [
+        5.0,
+        6.0,
+        2.5999999046325684
+      ],
+      "rotationEuler": [
+        1.106438398361206,
+        8.649845284480762e-08,
+        2.1859827041625977
+      ],
+      "target": [
+        1.25,
+        3.35,
+        0.3
+      ],
+      "scale": 1.75,
+      "resolution": [
+        900,
+        800
+      ],
+      "samples": 192,
+      "render": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-detail-tail.png",
+      "fileSHA256": "c51ab50c76716b03e68301472f67443957600e399a006bee874669eeeda6ea44",
+      "receiptSHA256": "fc3216d47ca9e448d04fe5e9276fb3f04dafa36287f5dfd809ce06b549e01ddd",
+      "pixelStddev": [
+        28.7648817793101,
+        27.083260710999472,
+        27.24423038836239
+      ]
+    }
+  ],
+  "orthographicChecks": {
+    "sideExactAxis": true,
+    "topExact90Degrees": true,
+    "frontExactAxis": true
+  },
+  "renderEngine": "Blender 4.3.2 Cycles CPU 192 samples; existing build has no OIDN",
+  "historicalAccuracy": "Simplified unmeasured art reconstruction; no high-similarity certification",
+  "animation": "none",
+  "noGeometryOrMaterialReplacementForRendering": true,
+  "qualityObservation": "Medium detail retains visibly faceted muzzle and tire contours in close-up; reviewed as simplified game art, not a high-precision historical replica."
+}

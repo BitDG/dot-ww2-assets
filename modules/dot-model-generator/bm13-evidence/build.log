@@ -1,0 +1,96 @@
+vite v8.3.0 building client environment for production...
+transforming...
+
+new URL('./assets/props.glb',import.meta.url) doesn't exist at build time, it will remain unchanged to be resolved at runtime. If this is intended, you can use the /* @vite-ignore */ comment to suppress this warning.
+
+./upstream/public/fonts/noto-serif-sc-500.woff2 referenced in ./upstream/public/fonts/noto-serif-sc-500.woff2 didn't resolve at build time, it will remain unchanged to be resolved at runtime
+✓ 1239 modules transformed.
+✗ Build failed in 15.69s
+error during build:
+Build failed with 79 errors:
+
+[plugin vite:build-html] /workspace/scratch/6a4c729be230/pgf-author-recovery/D4-F2-verified-recovery-20261012T0520Z/runtime/play.html
+Error: Failed to resolve /modules/kaiju-combat/play.js from /workspace/scratch/6a4c729be230/pgf-author-recovery/D4-F2-verified-recovery-20261012T0520Z/runtime/play.html
+    at file:///workspace/scratch/6a4c729be230/pgf-author-recovery/D4-F2-verified-recovery-20261012T0520Z/evidence/restored-deps/node_modules/vite/dist/node/chunks/node.js:31215:64
+    at async Promise.all (index 0)
+    at async TransformPluginContextImpl.handler (file:///workspace/scratch/6a4c729be230/pgf-author-recovery/D4-F2-verified-recovery-20261012T0520Z/evidence/restored-deps/node_modules/vite/dist/node/chunks/node.js:31312:5)
+    at async plugin (file:///workspace/scratch/6a4c729be230/pgf-author-recovery/D4-F2-verified-recovery-20261012T0520Z/evidence/restored-deps/node_modules/rolldown/dist/shared/bindingify-input-options-XQ0947n1.mjs:1539:16)
+    at async plugin.<computed> (file:///workspace/scratch/6a4c729be230/pgf-author-recovery/D4-F2-verified-recovery-20261012T0520Z/evidence/restored-deps/node_modules/rolldown/dist/shared/bindingify-input-options-XQ0947n1.mjs:2127:12)
+[31m[UNRESOLVED_IMPORT] [0mCould not resolve '../kit' in modules/insect-world/src/builders/mole-cricket.ts
+    [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m modules/insect-world/src/builders/mole-cricket.ts:22:98 [38;5;246m][0m
+    [38;5;246m│[0m
+ [38;5;246m22 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0m[38;5;249m{[0m[38;5;249m [0m[38;5;249ma[0m[38;5;249mn[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249mn[0m[38;5;249ma[0m[38;5;249mP[0m[38;5;249ma[0m[38;5;249mi[0m[38;5;249mr[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mc[0m[38;5;249mh[0m[38;5;249mi[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mc[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mu[0m[38;5;249mn[0m[38;5;249md[0m[38;5;249mE[0m[38;5;249my[0m[38;5;249me[0m[38;5;249mP[0m[38;5;249ma[0m[38;5;249mi[0m[38;5;249mr[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249ma[0m[38;5;249ml[0m[38;5;249mi[0m[38;5;249mz[0m[38;5;249me[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249ml[0m[38;5;249me[0m[38;5;249mg[0m[38;5;249mP[0m[38;5;249ma[0m[38;5;249mi[0m[38;5;249mr[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249ml[0m[38;5;249mo[0m[38;5;249mf[0m[38;5;249mt[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249ms[0m[38;5;249mp[0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249md[0m[38;5;249ml[0m[38;5;249me[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mw[0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249mg[0m[38;5;249mP[0m[38;5;249ma[0m[38;5;249mi[0m[38;5;249mr[0m[38;5;249m [0m[38;5;249m}[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m"../kit"[38;5;249m;[0m
+ [38;5;240m   │[0m                                                                                                  ────┬───  
+ [38;5;240m   │[0m                                                                                                      ╰───── Module not found.
+ [38;5;240m   │[0m 
+ [38;5;240m   │[0m [38;5;115mHelp[0m: 'modules/insect-world/src/builders/mole-cricket.ts' is imported by the following path:
+ [38;5;240m   │[0m         - modules/insect-world/src/builders/mole-cricket.ts
+ [38;5;240m   │[0m         - modules/insect-world/src/registry.js
+ [38;5;240m   │[0m         - modules/insect-world/src/editor.js
+ [38;5;240m   │[0m         - modules/insect-world/src/integration.js
+ [38;5;240m   │[0m         - src/generator-registry.js
+ [38;5;240m   │[0m         - src/main.js
+ [38;5;240m   │[0m         - index.html
+[38;5;246m────╯[0m
+
+[31m[UNRESOLVED_IMPORT] [0mCould not resolve '../kit' in modules/insect-world/src/builders/assassin-bug.ts
+    [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m modules/insect-world/src/builders/assassin-bug.ts:21:160 [38;5;246m][0m
+    [38;5;246m│[0m
+ [38;5;246m21 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0m[38;5;249m{[0m[38;5;249m [0m[38;5;249ma[0m[38;5;249mb[0m[38;5;249md[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249mE[0m[38;5;249mn[0m[38;5;249mv[0m[38;5;249me[0m[38;5;249ml[0m[38;5;249mo[0m[38;5;249mp[0m[38;5;249me[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249ma[0m[38;5;249mn[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249mn[0m[38;5;249ma[0m[38;5;249mP[0m[38;5;249ma[0m[38;5;249mi[0m[38;5;249mr[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mc[0m[38;5;249mh[0m[38;5;249mi[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mc[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mu[0m[38;5;249mn[0m[38;5;249md[0m[38;5;249mE[0m[38;5;249my[0m[38;5;249me[0m[38;5;249mP[0m[38;5;249ma[0m[38;5;249mi[0m[38;5;249mr[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249ma[0m[38;5;249ml[0m[38;5;249mi[0m[38;5;249mz[0m[38;5;249me[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249ml[0m[38;5;249me[0m[38;5;249mg[0m[38;5;249mP[0m[38;5;249ma[0m[38;5;249mi[0m[38;5;249mr[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249ml[0m[38;5;249mo[0m[38;5;249mf[0m[38;5;249mt[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249ms[0m[38;5;249me[0m[38;5;249mg[0m[38;5;249mm[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249md[0m[38;5;249mA[0m[38;5;249mb[0m[38;5;249md[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249ms[0m[38;5;249me[0m[38;5;249mg[0m[38;5;249mm[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249md[0m[38;5;249mA[0m[38;5;249mb[0m[38;5;249md[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249mM[0m[38;5;249me[0m[38;5;249mm[0m[38;5;249mb[0m[38;5;249mr[0m[38;5;249ma[0m[38;5;249mn[0m[38;5;249me[0m[38;5;249ms[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249ms[0m[38;5;249mp[0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249md[0m[38;5;249ml[0m[38;5;249me[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mw[0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249mg[0m[38;5;249mP[0m[38;5;249ma[0m[38;5;249mi[0m[38;5;249mr[0m[38;5;249m [0m[38;5;249m}[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m"../kit"[38;5;249m;[0m
+ [38;5;240m   │[0m                                                                                                                                                                ────┬───  
+ [38;5;240m   │[0m                                                                                                                                                                    ╰───── Module not found.
+ [38;5;240m   │[0m 
+ [38;5;240m   │[0m [38;5;115mHelp[0m: 'modules/insect-world/src/builders/assassin-bug.ts' is imported by the following path:
+ [38;5;240m   │[0m         - modules/insect-world/src/builders/assassin-bug.ts
+ [38;5;240m   │[0m         - modules/insect-world/src/registry.js
+ [38;5;240m   │[0m         - modules/insect-world/src/editor.js
+ [38;5;240m   │[0m         - modules/insect-world/src/integration.js
+ [38;5;240m   │[0m         - src/generator-registry.js
+ [38;5;240m   │[0m         - src/main.js
+ [38;5;240m   │[0m         - index.html
+[38;5;246m────╯[0m
+
+[31m[UNRESOLVED_IMPORT] [0mCould not resolve '../kit' in modules/insect-world/src/builders/cicada.ts
+    [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m modules/insect-world/src/builders/cicada.ts:18:164 [38;5;246m][0m
+    [38;5;246m│[0m
+ [38;5;246m18 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0m[38;5;249m{[0m[38;5;249m [0m[38;5;249ma[0m[38;5;249mn[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249mn[0m[38;5;249ma[0m[38;5;249mP[0m[38;5;249ma[0m[38;5;249mi[0m[38;5;249mr[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mc[0m[38;5;249mh[0m[38;5;249mi[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mc[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mu[0m[38;5;249mn[0m[38;5;249md[0m[38;5;249mE[0m[38;5;249my[0m[38;5;249me[0m[38;5;249mP[0m[38;5;249ma[0m[38;5;249mi[0m[38;5;249mr[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249ma[0m[38;5;249ml[0m[38;5;249mi[0m[38;5;249mz[0m[38;5;249me[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249ml[0m[38;5;249me[0m[38;5;249mg[0m[38;5;249mP[0m[38;5;249ma[0m[38;5;249mi[0m[38;5;249mr[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mm[0m[38;5;249me[0m[38;5;249mm[0m[38;5;249mb[0m[38;5;249mr[0m[38;5;249ma[0m[38;5;249mn[0m[38;5;249me[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mo[0m[38;5;249mc[0m[38;5;249me[0m[38;5;249ml[0m[38;5;249ml[0m[38;5;249mi[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249ms[0m[38;5;249mt[0m[38;5;249mr[0m[38;5;249mu[0m[38;5;249mm[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249ms[0m[38;5;249me[0m[38;5;249mg[0m[38;5;249mm[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249md[0m[38;5;249mA[0m[38;5;249mb[0m[38;5;249md[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249ms[0m[38;5;249me[0m[38;5;249mg[0m[38;5;249mm[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249md[0m[38;5;249mA[0m[38;5;249mb[0m[38;5;249md[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249mM[0m[38;5;249me[0m[38;5;249mm[0m[38;5;249mb[0m[38;5;249mr[0m[38;5;249ma[0m[38;5;249mn[0m[38;5;249me[0m[38;5;249ms[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249ms[0m[38;5;249mp[0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249md[0m[38;5;249ml[0m[38;5;249me[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mw[0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249mg[0m[38;5;249mP[0m[38;5;249ma[0m[38;5;249mi[0m[38;5;249mr[0m[38;5;249m [0m[38;5;249m}[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m"../kit"[38;5;249m;[0m
+ [38;5;240m   │[0m                                                                                                                                                                    ────┬───  
+ [38;5;240m   │[0m                                                                                                                                                                        ╰───── Module not found.
+ [38;5;240m   │[0m 
+ [38;5;240m   │[0m [38;5;115mHelp[0m: 'modules/insect-world/src/builders/cicada.ts' is imported by the following path:
+ [38;5;240m   │[0m         - modules/insect-world/src/builders/cicada.ts
+ [38;5;240m   │[0m         - modules/insect-world/src/registry.js
+ [38;5;240m   │[0m         - modules/insect-world/src/editor.js
+ [38;5;240m   │[0m         - modules/insect-world/src/integration.js
+ [38;5;240m   │[0m         - src/generator-registry.js
+ [38;5;240m   │[0m         - src/main.js
+ [38;5;240m   │[0m         - index.html
+[38;5;246m────╯[0m
+
+[31m[UNRESOLVED_IMPORT] [0mCould not resolve '../kit' in modules/insect-world/src/builders/treehopper.ts
+    [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m modules/insect-world/src/builders/treehopper.ts:35:117 [38;5;246m][0m
+    [38;5;246m│[0m
+ [38;5;246m35 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0m[38;5;249m{[0m[38;5;249m [0m[38;5;249ma[0m[38;5;249mn[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249mn[0m[38;5;249ma[0m[38;5;249mP[0m[38;5;249ma[0m[38;5;249mi[0m[38;5;249mr[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mc[0m[38;5;249mh[0m[38;5;249mi[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mc[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mu[0m[38;5;249mn[0m[38;5;249md[0m[38;5;249mE[0m[38;5;249my[0m[38;5;249me[0m[38;5;249mP[0m[38;5;249ma[0m[38;5;249mi[0m[38;5;249mr[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249ma[0m[38;5;249ml[0m[38;5;249mi[0m[38;5;249mz[0m[38;5;249me[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249ml[0m[38;5;249me[0m[38;5;249mg[0m[38;5;249mP[0m[38;5;249ma[0m[38;5;249mi[0m[38;5;249mr[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249ml[0m[38;5;249mo[0m[38;5;249mf[0m[38;5;249mt[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mm[0m[38;5;249me[0m[38;5;249mm[0m[38;5;249mb[0m[38;5;249mr[0m[38;5;249ma[0m[38;5;249mn[0m[38;5;249me[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249ms[0m[38;5;249mt[0m[38;5;249mr[0m[38;5;249mu[0m[38;5;249mm[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249ms[0m[38;5;249mp[0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249md[0m[38;5;249ml[0m[38;5;249me[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mw[0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249mg[0m[38;5;249mP[0m[38;5;249ma[0m[38;5;249mi[0m[38;5;249mr[0m[38;5;249m [0m[38;5;249m}[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m"../kit"[38;5;249m;[0m
+ [38;5;240m   │[0m                                                                                                                     ────┬───  
+ [38;5;240m   │[0m                                                                                                                         ╰───── Module not found.
+ [38;5;240m   │[0m 
+ [38;5;240m   │[0m [38;5;115mHelp[0m: 'modules/insect-world/src/builders/treehopper.ts' is imported by the following path:
+ [38;5;240m   │[0m         - modules/insect-world/src/builders/treehopper.ts
+ [38;5;240m   │[0m         - modules/insect-world/src/registry.js
+ [38;5;240m   │[0m         - modules/insect-world/src/editor.js
+ [38;5;240m   │[0m         - modules/insect-world/src/integration.js
+ [38;5;240m   │[0m         - src/generator-registry.js
+ [38;5;240m   │[0m         - src/main.js
+ [38;5;240m   │[0m         - index.html
+[38;5;246m────╯[0m
+
+...
+    at aggregateBindingErrorsIntoJsError (file:///workspace/scratch/6a4c729be230/pgf-author-recovery/D4-F2-verified-recovery-20261012T0520Z/evidence/restored-deps/node_modules/rolldown/dist/shared/error-CRNyaqoL.mjs:48:18)
+    at unwrapBindingResult (file:///workspace/scratch/6a4c729be230/pgf-author-recovery/D4-F2-verified-recovery-20261012T0520Z/evidence/restored-deps/node_modules/rolldown/dist/shared/error-CRNyaqoL.mjs:18:128)
+    at #build (file:///workspace/scratch/6a4c729be230/pgf-author-recovery/D4-F2-verified-recovery-20261012T0520Z/evidence/restored-deps/node_modules/rolldown/dist/shared/rolldown-B-jRyK4b.mjs:133:34)
+    at async buildEnvironment (file:///workspace/scratch/6a4c729be230/pgf-author-recovery/D4-F2-verified-recovery-20261012T0520Z/evidence/restored-deps/node_modules/vite/dist/node/chunks/node.js:34082:66)
+    at async Object.build (file:///workspace/scratch/6a4c729be230/pgf-author-recovery/D4-F2-verified-recovery-20261012T0520Z/evidence/restored-deps/node_modules/vite/dist/node/chunks/node.js:34503:19)
+    at async Object.buildApp (file:///workspace/scratch/6a4c729be230/pgf-author-recovery/D4-F2-verified-recovery-20261012T0520Z/evidence/restored-deps/node_modules/vite/dist/node/chunks/node.js:34500:153)
+    at async CAC.<anonymous> (file:///workspace/scratch/6a4c729be230/pgf-author-recovery/D4-F2-verified-recovery-20261012T0520Z/evidence/restored-deps/node_modules/vite/dist/node/cli.js:780:3) {
+  errors: [Getter/Setter]
+}

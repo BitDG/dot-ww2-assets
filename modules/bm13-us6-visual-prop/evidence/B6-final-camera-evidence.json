@@ -1,0 +1,226 @@
+{
+  "fixedGlbSha256": "68a2e6056c01a03ad25478c43080abb7fd682396c8e570b6614361e547de5830",
+  "cameras": [
+    {
+      "view": "hero",
+      "projection": "ORTHO",
+      "position": [
+        -12.0,
+        -15.0,
+        10.0
+      ],
+      "rotationEuler": [
+        1.172548532485962,
+        -4.7289621107893254e-08,
+        -0.678498387336731
+      ],
+      "orthoScale": 11.5,
+      "path": "/workspace/scratch/6a4c729be230/bm13-production/evidence/final/BM13-B6-PGF-hero.png",
+      "imageSha256": "42c118e84d6d9348080c3e08ae0c00104d96e47806ebd061a09cfdb20cdc72c3",
+      "sourceGlbSha256": "68a2e6056c01a03ad25478c43080abb7fd682396c8e570b6614361e547de5830",
+      "receipt": "024-B6-PGF-hero-side.receipt.json",
+      "renderer": "Blender CPU Cycles",
+      "samples": 128,
+      "denoising": false
+    },
+    {
+      "view": "side",
+      "projection": "ORTHO",
+      "position": [
+        -20.0,
+        -0.11500024795532227,
+        1.9557727575302124
+      ],
+      "rotationEuler": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "orthoScale": 11.5,
+      "path": "/workspace/scratch/6a4c729be230/bm13-production/evidence/final/BM13-B6-PGF-side.png",
+      "imageSha256": "2aa7f134a29065d115f0db4d6cdf87295d051ad7362d02144453b5f455662ae9",
+      "sourceGlbSha256": "68a2e6056c01a03ad25478c43080abb7fd682396c8e570b6614361e547de5830",
+      "receipt": "024-B6-PGF-hero-side.receipt.json",
+      "renderer": "Blender CPU Cycles",
+      "samples": 128,
+      "denoising": false
+    },
+    {
+      "view": "front",
+      "projection": "ORTHO",
+      "position": [
+        0.0,
+        -20.0,
+        1.9557727575302124
+      ],
+      "rotationEuler": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "orthoScale": 11.5,
+      "path": "/workspace/scratch/6a4c729be230/bm13-production/evidence/final/BM13-B6-PGF-front.png",
+      "imageSha256": "d4e44b6a59fc0de5df5256005d1b4e46525fb275c0449d7761d629354cd66ad6",
+      "sourceGlbSha256": "68a2e6056c01a03ad25478c43080abb7fd682396c8e570b6614361e547de5830",
+      "receipt": "025-B6-PGF-front-top.receipt.json",
+      "renderer": "Blender CPU Cycles",
+      "samples": 128,
+      "denoising": false
+    },
+    {
+      "view": "top",
+      "projection": "ORTHO",
+      "position": [
+        0.0,
+        -0.11500024795532227,
+        25.0
+      ],
+      "rotationEuler": [
+        0.0,
+        0.0,
+        1.5707963705062866
+      ],
+      "orthoScale": 11.5,
+      "path": "/workspace/scratch/6a4c729be230/bm13-production/evidence/final/BM13-B6-PGF-top.png",
+      "imageSha256": "4555fc351459310aac81220856c368779dea1ba5fa83fd42eaa05a8d6dd919d6",
+      "sourceGlbSha256": "68a2e6056c01a03ad25478c43080abb7fd682396c8e570b6614361e547de5830",
+      "receipt": "025-B6-PGF-front-top.receipt.json",
+      "renderer": "Blender CPU Cycles",
+      "samples": 128,
+      "denoising": false
+    },
+    {
+      "view": "detail01-cab",
+      "projection": "ORTHO",
+      "position": [
+        -6.0,
+        -7.0,
+        4.199999809265137
+      ],
+      "rotationEuler": [
+        1.3724130392074585,
+        6.921766271261731e-09,
+        -0.812914252281189
+      ],
+      "orthoScale": 3.4000000953674316,
+      "path": "/workspace/scratch/6a4c729be230/bm13-production/evidence/final/BM13-B6-PGF-detail01-cab.png",
+      "imageSha256": "188b54d77641075e41f64aa11b11a5669fba661c6c2c828b10addc7d11e9ae7c",
+      "sourceGlbSha256": "68a2e6056c01a03ad25478c43080abb7fd682396c8e570b6614361e547de5830",
+      "receipt": "030-B6-single-detail.receipt.json",
+      "renderer": "Blender CPU Cycles",
+      "samples": 128,
+      "denoising": false
+    },
+    {
+      "view": "detail02-hood-grille",
+      "projection": "ORTHO",
+      "position": [
+        -5.0,
+        -10.0,
+        4.0
+      ],
+      "rotationEuler": [
+        1.3206748962402344,
+        1.1715398429146262e-08,
+        -0.6386350989341736
+      ],
+      "orthoScale": 3.5999999046325684,
+      "path": "/workspace/scratch/6a4c729be230/bm13-production/evidence/final/BM13-B6-PGF-detail02-hood-grille.png",
+      "imageSha256": "ad67cf8ced2a38a729a11f68abebc369bdd2ffcabd7f31c6ae7ba4a58c1d7a6c",
+      "sourceGlbSha256": "68a2e6056c01a03ad25478c43080abb7fd682396c8e570b6614361e547de5830",
+      "receipt": "031-B6-single-detail.receipt.json",
+      "renderer": "Blender CPU Cycles",
+      "samples": 128,
+      "denoising": false
+    },
+    {
+      "view": "detail03-front-wheel",
+      "projection": "ORTHO",
+      "position": [
+        -6.0,
+        -6.199999809265137,
+        2.299999952316284
+      ],
+      "rotationEuler": [
+        1.3044906854629517,
+        -7.03671290125385e-08,
+        -1.0380715131759644
+      ],
+      "orthoScale": 2.549999952316284,
+      "path": "/workspace/scratch/6a4c729be230/bm13-production/evidence/final/BM13-B6-PGF-detail03-front-wheel.png",
+      "imageSha256": "3675ed0fda72cd77df4f24a9567e3da4c962063840215555429a5c1bd33fc0f9",
+      "sourceGlbSha256": "68a2e6056c01a03ad25478c43080abb7fd682396c8e570b6614361e547de5830",
+      "receipt": "032-B6-single-detail.receipt.json",
+      "renderer": "Blender CPU Cycles",
+      "samples": 128,
+      "denoising": false
+    },
+    {
+      "view": "detail04-rear-wheels",
+      "projection": "ORTHO",
+      "position": [
+        -7.0,
+        5.400000095367432,
+        2.4000000953674316
+      ],
+      "rotationEuler": [
+        1.3419742584228516,
+        -7.181427719160638e-08,
+        -2.0205559730529785
+      ],
+      "orthoScale": 4.199999809265137,
+      "path": "/workspace/scratch/6a4c729be230/bm13-production/evidence/final/BM13-B6-PGF-detail04-rear-wheels.png",
+      "imageSha256": "7073079de96ab446b9171762aa2e501ab2f32c54003f99d97742b4e8c6931e12",
+      "sourceGlbSha256": "68a2e6056c01a03ad25478c43080abb7fd682396c8e570b6614361e547de5830",
+      "receipt": "033-B6-single-detail.receipt.json",
+      "renderer": "Blender CPU Cycles",
+      "samples": 128,
+      "denoising": false
+    },
+    {
+      "view": "detail05-empty-rack",
+      "projection": "ORTHO",
+      "position": [
+        -7.0,
+        5.0,
+        7.0
+      ],
+      "rotationEuler": [
+        1.177520990371704,
+        -1.0353414126029747e-07,
+        -2.077274799346924
+      ],
+      "orthoScale": 7.400000095367432,
+      "path": "/workspace/scratch/6a4c729be230/bm13-production/evidence/final/BM13-B6-PGF-detail05-empty-rack.png",
+      "imageSha256": "879a3bedc8035dae1eef41b620829d33cddaafe4925460bbc28b38ea779de5fd",
+      "sourceGlbSha256": "68a2e6056c01a03ad25478c43080abb7fd682396c8e570b6614361e547de5830",
+      "receipt": "034-B6-single-detail.receipt.json",
+      "renderer": "Blender CPU Cycles",
+      "samples": 128,
+      "denoising": false
+    },
+    {
+      "view": "detail06-step-seams",
+      "projection": "ORTHO",
+      "position": [
+        -6.0,
+        -4.0,
+        3.5
+      ],
+      "rotationEuler": [
+        1.2310887575149536,
+        7.95129011521567e-08,
+        -1.137054443359375
+      ],
+      "orthoScale": 2.700000047683716,
+      "path": "/workspace/scratch/6a4c729be230/bm13-production/evidence/final/BM13-B6-PGF-detail06-step-seams.png",
+      "imageSha256": "5d482b4842ddf902c5bcf16d3bf56ef738efe5264d998b6ee804331bd307e129",
+      "sourceGlbSha256": "68a2e6056c01a03ad25478c43080abb7fd682396c8e570b6614361e547de5830",
+      "receipt": "035-B6-single-detail.receipt.json",
+      "renderer": "Blender CPU Cycles",
+      "samples": 128,
+      "denoising": false
+    }
+  ],
+  "topViewStrict90Degrees": true
+}

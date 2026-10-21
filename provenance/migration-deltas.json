@@ -1,0 +1,26 @@
+{
+  "unchangedFiles": 1393,
+  "modified": [
+    {
+      "path": "modules/bm13-us6-visual-prop/sources.mjs",
+      "sourceSHA256": "f5c4f8b296bdadbd6b8c2a0c409524f3ab829f0e31eda657048ba912558b9035",
+      "currentSHA256": "72b427c22af3320df8208881852e9fba5ca71607f8290ccadc94689b0dc25702"
+    },
+    {
+      "path": "modules/dot-model-generator/catalog.mjs",
+      "sourceSHA256": "c3ed8944aa8362cdfa37d8a6f202325fb556f99b06a288c804f4c45b209d92bd",
+      "currentSHA256": "fd4e2e39c688e5719b32f28dea10a8c989188b84cdf8325468b17babab0257fe"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/sources.mjs",
+      "sourceSHA256": "f7a94edb029636618089a0b1c5358d9b18b7008ab1264b3d7191e1cf9d98afab",
+      "currentSHA256": "1625b917804e2727374037e9f926f7c9a3d6f6ae6e2387efd64de49571748758"
+    },
+    {
+      "path": "modules/qf17-visual-prop/sources.mjs",
+      "sourceSHA256": "7f080b6952227a4159c82cdf84336ad2db07b9e160099545d03d1095caa12e7e",
+      "currentSHA256": "4916a8c76c877aa2b46d2bf2fa47ec4dbae51cc900d5bddebaaf6a52579ba0ef"
+    }
+  ],
+  "reason": "Three literal source-URL maps for Vite production assets; catalog wording distinguishes historical PGF verification and K5 references-only recovery. No geometry/material algorithm or source model bytes modified."
+}

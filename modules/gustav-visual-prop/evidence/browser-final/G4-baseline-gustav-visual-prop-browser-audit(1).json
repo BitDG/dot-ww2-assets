@@ -1,0 +1,656 @@
+{
+  "before": {
+    "recipe": {
+      "format": "PGF.ComponentRecipe",
+      "version": 1,
+      "generator": "gustav-visual-prop",
+      "seed": "pgf-components-1",
+      "params": {
+        "silhouetteLength": 1,
+        "silhouetteWidth": 1,
+        "silhouetteHeight": 1,
+        "wheelVisualScale": 1,
+        "shellLengthFactor": 1,
+        "frameChunkiness": 1,
+        "detail": "medium",
+        "rivetDensity": 0.55,
+        "weathering": 0.28,
+        "paintColor": "#747c80",
+        "metalColor": "#727a80",
+        "showRails": true,
+        "showRailings": true,
+        "showStairs": true,
+        "showRivets": true,
+        "showRearDeck": true,
+        "showDecorativeBoxes": true,
+        "camoPattern": "original",
+        "camoEnvironment": "desert",
+        "camoScale": 1
+      }
+    },
+    "diagnostics": {
+      "frames": 14,
+      "pending": false,
+      "active": true,
+      "disposed": false,
+      "renderWorker": true,
+      "contextLost": false,
+      "geometries": 19,
+      "textures": 6,
+      "workerTerminated": false,
+      "renderRPC": 0,
+      "busy": false,
+      "exporting": false,
+      "invalidEdit": false,
+      "worker": false,
+      "exportWorker": false,
+      "stats": {
+        "triangles": 83844,
+        "renderedTriangles": 133124,
+        "drawCalls": 74,
+        "bytes": 5556014,
+        "texturePixels": 393216,
+        "meshes": 19,
+        "nodes": 82,
+        "generationMs": 2350
+      },
+      "operation": 4,
+      "assetSeed": "pgf-components-1"
+    },
+    "renderer": {
+      "frames": 14,
+      "pending": false,
+      "active": true,
+      "disposed": false,
+      "renderWorker": true,
+      "contextLost": false,
+      "geometries": 19,
+      "textures": 6,
+      "maxX": 0.8470048876824914,
+      "maxY": 0.39644660198365594,
+      "camera": {
+        "position": [
+          30.337360339577344,
+          20.605634461579065,
+          39.00517757945661
+        ],
+        "target": [
+          0,
+          3.2699999818205834,
+          0
+        ],
+        "aspect": 0.8369098712446352,
+        "near": 0.2724864213796706,
+        "far": 79.61545923805531
+      }
+    },
+    "asset": {
+      "bounds": {
+        "min": [
+          -13,
+          1.7881394143159923e-9,
+          -2.434999942779541
+        ],
+        "max": [
+          13,
+          6.539999961853027,
+          2.434999942779541
+        ]
+      },
+      "materials": 7,
+      "textures": 6,
+      "sockets": 6,
+      "source": {
+        "visualOnly": true,
+        "unitMeaning": "Unmeasured arbitrary art proportions",
+        "hiddenFaces": "Artistic inference",
+        "detail": "medium",
+        "kitSha256": "e54fc3dc5bf2d369618ab9b33d80d53a5dda7863d5b0a46b048672b4cf873715",
+        "wheelCenters": [
+          {
+            "name": "wheel--1--1--1-0",
+            "center": [
+              -4.55,
+              0.7050000000000001,
+              -1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1--1--1-1",
+            "center": [
+              -5.29,
+              0.7050000000000001,
+              -1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1--1--1-2",
+            "center": [
+              -6.029999999999999,
+              0.7050000000000001,
+              -1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1--1--1-3",
+            "center": [
+              -6.77,
+              0.7050000000000001,
+              -1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1--1--1-4",
+            "center": [
+              -7.51,
+              0.7050000000000001,
+              -1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1--1--1-5",
+            "center": [
+              -8.25,
+              0.7050000000000001,
+              -1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1--1--1-6",
+            "center": [
+              -8.989999999999998,
+              0.7050000000000001,
+              -1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1--1-1-0",
+            "center": [
+              4.55,
+              0.7050000000000001,
+              -1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1--1-1-1",
+            "center": [
+              5.29,
+              0.7050000000000001,
+              -1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1--1-1-2",
+            "center": [
+              6.029999999999999,
+              0.7050000000000001,
+              -1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1--1-1-3",
+            "center": [
+              6.77,
+              0.7050000000000001,
+              -1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1--1-1-4",
+            "center": [
+              7.51,
+              0.7050000000000001,
+              -1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1--1-1-5",
+            "center": [
+              8.25,
+              0.7050000000000001,
+              -1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1--1-1-6",
+            "center": [
+              8.989999999999998,
+              0.7050000000000001,
+              -1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1-1--1-0",
+            "center": [
+              -4.55,
+              0.7050000000000001,
+              -1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1-1--1-1",
+            "center": [
+              -5.29,
+              0.7050000000000001,
+              -1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1-1--1-2",
+            "center": [
+              -6.029999999999999,
+              0.7050000000000001,
+              -1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1-1--1-3",
+            "center": [
+              -6.77,
+              0.7050000000000001,
+              -1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1-1--1-4",
+            "center": [
+              -7.51,
+              0.7050000000000001,
+              -1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1-1--1-5",
+            "center": [
+              -8.25,
+              0.7050000000000001,
+              -1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1-1--1-6",
+            "center": [
+              -8.989999999999998,
+              0.7050000000000001,
+              -1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1-1-1-0",
+            "center": [
+              4.55,
+              0.7050000000000001,
+              -1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1-1-1-1",
+            "center": [
+              5.29,
+              0.7050000000000001,
+              -1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1-1-1-2",
+            "center": [
+              6.029999999999999,
+              0.7050000000000001,
+              -1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1-1-1-3",
+            "center": [
+              6.77,
+              0.7050000000000001,
+              -1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1-1-1-4",
+            "center": [
+              7.51,
+              0.7050000000000001,
+              -1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1-1-1-5",
+            "center": [
+              8.25,
+              0.7050000000000001,
+              -1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel--1-1-1-6",
+            "center": [
+              8.989999999999998,
+              0.7050000000000001,
+              -1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1--1--1-0",
+            "center": [
+              -4.55,
+              0.7050000000000001,
+              1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1--1--1-1",
+            "center": [
+              -5.29,
+              0.7050000000000001,
+              1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1--1--1-2",
+            "center": [
+              -6.029999999999999,
+              0.7050000000000001,
+              1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1--1--1-3",
+            "center": [
+              -6.77,
+              0.7050000000000001,
+              1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1--1--1-4",
+            "center": [
+              -7.51,
+              0.7050000000000001,
+              1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1--1--1-5",
+            "center": [
+              -8.25,
+              0.7050000000000001,
+              1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1--1--1-6",
+            "center": [
+              -8.989999999999998,
+              0.7050000000000001,
+              1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1--1-1-0",
+            "center": [
+              4.55,
+              0.7050000000000001,
+              1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1--1-1-1",
+            "center": [
+              5.29,
+              0.7050000000000001,
+              1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1--1-1-2",
+            "center": [
+              6.029999999999999,
+              0.7050000000000001,
+              1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1--1-1-3",
+            "center": [
+              6.77,
+              0.7050000000000001,
+              1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1--1-1-4",
+            "center": [
+              7.51,
+              0.7050000000000001,
+              1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1--1-1-5",
+            "center": [
+              8.25,
+              0.7050000000000001,
+              1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1--1-1-6",
+            "center": [
+              8.989999999999998,
+              0.7050000000000001,
+              1.03275
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1-1--1-0",
+            "center": [
+              -4.55,
+              0.7050000000000001,
+              1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1-1--1-1",
+            "center": [
+              -5.29,
+              0.7050000000000001,
+              1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1-1--1-2",
+            "center": [
+              -6.029999999999999,
+              0.7050000000000001,
+              1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1-1--1-3",
+            "center": [
+              -6.77,
+              0.7050000000000001,
+              1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1-1--1-4",
+            "center": [
+              -7.51,
+              0.7050000000000001,
+              1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1-1--1-5",
+            "center": [
+              -8.25,
+              0.7050000000000001,
+              1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1-1--1-6",
+            "center": [
+              -8.989999999999998,
+              0.7050000000000001,
+              1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1-1-1-0",
+            "center": [
+              4.55,
+              0.7050000000000001,
+              1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1-1-1-1",
+            "center": [
+              5.29,
+              0.7050000000000001,
+              1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1-1-1-2",
+            "center": [
+              6.029999999999999,
+              0.7050000000000001,
+              1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1-1-1-3",
+            "center": [
+              6.77,
+              0.7050000000000001,
+              1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1-1-1-4",
+            "center": [
+              7.51,
+              0.7050000000000001,
+              1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1-1-1-5",
+            "center": [
+              8.25,
+              0.7050000000000001,
+              1.94225
+            ],
+            "radius": 0.365
+          },
+          {
+            "name": "wheel-1-1-1-6",
+            "center": [
+              8.989999999999998,
+              0.7050000000000001,
+              1.94225
+            ],
+            "radius": 0.365
+          }
+        ],
+        "railTop": 0.34,
+        "partSource": "PGF rule-kit, bridge rail descriptors, curve-infrastructure; actual Blender MCP exterior prototypes"
+      }
+    },
+    "viewport": {
+      "width": 1364,
+      "height": 1024,
+      "scrollWidth": 1364
+    },
+    "scope": "Actual PGF shell/workbench/Worker/renderer, restricted single-entry preview registry; not a complete application build"
+  },
+  "after": {
+    "frames": 14,
+    "pending": false,
+    "active": false,
+    "disposed": true,
+    "renderWorker": false,
+    "contextLost": null,
+    "geometries": 19,
+    "textures": 6,
+    "workerTerminated": true,
+    "renderRPC": 0,
+    "busy": false,
+    "exporting": false,
+    "invalidEdit": false,
+    "worker": false,
+    "exportWorker": false,
+    "stats": {
+      "triangles": 83844,
+      "renderedTriangles": 133124,
+      "drawCalls": 74,
+      "bytes": 5556014,
+      "texturePixels": 393216,
+      "meshes": 19,
+      "nodes": 82,
+      "generationMs": 2350
+    },
+    "operation": 5,
+    "assetSeed": "pgf-components-1"
+  },
+  "action": "explicit preview disposal"
+}

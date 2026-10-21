@@ -1,0 +1,10 @@
+✔ actual PGF low/medium/high AssetIR: runtime binding, art scales, static GLB unchanged by tow/fire (4214.082083ms)
+✔ actual PGF hidden barrel fails closed rather than emitting from a missing mouth (312.212752ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4761.934197

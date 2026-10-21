@@ -1,0 +1,351 @@
+[
+  {
+    "assetId": "reference-armored-car",
+    "label": "参考图四轮装甲车",
+    "description": "Blender 外观部件库；视觉姿态、漆面与细节参数沿用原模块。分解仅影响预览，GLB 保留装配姿态。",
+    "status": "adapter-available",
+    "verification": "firefox-runtime-verified",
+    "capabilities": {
+      "preview": "shared-viewport",
+      "parameters": "native-schema",
+      "materials": "pgf-portable-vehicle-finish",
+      "animation": "movement-preview",
+      "staticGLB": "native-export",
+      "recipe": "native-json"
+    },
+    "animationVerification": "unified-firefox-verified",
+    "source": {
+      "kind": "blender-authored-parametric-kit",
+      "visualAcceptance": "review-required",
+      "definition": "modules/reference-armored-car/definition.mjs"
+    },
+    "backend": {
+      "type": "pgf-native-definition",
+      "moduleId": "reference-armored-car",
+      "recipeGenerator": "reference-armored-car"
+    }
+  },
+  {
+    "assetId": "tracked-mortar",
+    "label": "履带重型臼炮",
+    "description": "Blender 外观重建与共享 Worker 装配；保存当前静态展示姿态，隐藏面为推测。",
+    "status": "adapter-available",
+    "verification": "firefox-runtime-verified",
+    "capabilities": {
+      "preview": "shared-viewport",
+      "parameters": "native-schema",
+      "materials": "pgf-portable-vehicle-finish",
+      "animation": "movement-preview",
+      "staticGLB": "native-export",
+      "recipe": "native-json"
+    },
+    "animationVerification": "unified-firefox-verified",
+    "source": {
+      "kind": "blender-authored-parametric-kit",
+      "visualAcceptance": "unscored-review-required",
+      "definition": "modules/tracked-mortar/definition.mjs"
+    },
+    "backend": {
+      "type": "pgf-native-definition",
+      "moduleId": "tracked-mortar",
+      "recipeGenerator": "tracked-mortar"
+    }
+  },
+  {
+    "assetId": "gustav-visual-prop",
+    "label": "古斯塔夫 · 外观游戏道具",
+    "description": "非功能性外观；未测量艺术比例。保留原部件、涂装、细节档与静态 GLB。",
+    "status": "adapter-available",
+    "verification": "firefox-runtime-verified",
+    "capabilities": {
+      "preview": "shared-viewport",
+      "parameters": "native-schema",
+      "materials": "pgf-portable-vehicle-finish",
+      "animation": "movement-and-fire-preview",
+      "staticGLB": "native-export",
+      "recipe": "native-json"
+    },
+    "animationVerification": "unified-firefox-verified",
+    "source": {
+      "kind": "blender-authored-parametric-kit",
+      "visualAcceptance": "review-required",
+      "definition": "modules/gustav-visual-prop/definition.mjs"
+    },
+    "backend": {
+      "type": "pgf-native-definition",
+      "moduleId": "gustav-visual-prop",
+      "recipeGenerator": "gustav-visual-prop"
+    }
+  },
+  {
+    "assetId": "diesel-locomotive",
+    "label": "柴油机车 · 外观模型",
+    "description": "非功能性外观；未测量艺术比例。保留原车身、轮组、涂装与静态 GLB。",
+    "status": "adapter-available",
+    "verification": "firefox-runtime-verified",
+    "capabilities": {
+      "preview": "shared-viewport",
+      "parameters": "native-schema",
+      "materials": "pgf-portable-vehicle-finish",
+      "animation": "movement-preview",
+      "staticGLB": "native-export",
+      "recipe": "native-json"
+    },
+    "animationVerification": "unified-firefox-verified",
+    "source": {
+      "kind": "blender-authored-parametric-kit",
+      "visualAcceptance": "review-required",
+      "definition": "modules/diesel-locomotive/definition.mjs"
+    },
+    "backend": {
+      "type": "pgf-native-definition",
+      "moduleId": "diesel-locomotive",
+      "recipeGenerator": "diesel-locomotive"
+    }
+  },
+  {
+    "assetId": "armored-4x4",
+    "label": "旧悍马 · 装甲越野车 v1",
+    "description": "保留旧模型和配方；原模块视觉复核未通过。与新版参考图四轮装甲车独立。",
+    "status": "adapter-available",
+    "verification": "firefox-runtime-verified",
+    "capabilities": {
+      "preview": "shared-viewport",
+      "parameters": "native-schema",
+      "materials": "native-reference-finish",
+      "animation": "movement-preview",
+      "staticGLB": "native-export",
+      "recipe": "native-json"
+    },
+    "animationVerification": "unified-firefox-verified",
+    "source": {
+      "kind": "legacy-procedural-threejs",
+      "visualAcceptance": "not-passed",
+      "definition": "modules/armored-4x4/definition.mjs"
+    },
+    "backend": {
+      "type": "pgf-native-definition",
+      "moduleId": "armored-4x4",
+      "recipeGenerator": "armored-4x4"
+    }
+  },
+  {
+    "assetId": "k5-railway-prop",
+    "label": "K5(E) 利奥波德 · 制作中",
+    "description": "K2 外观源码已保留，尚未完成运行与导出验收。暂不开放生成、材质编辑或导出。",
+    "status": "source-only",
+    "verification": "runtime-unverified",
+    "capabilities": {
+      "preview": "unavailable",
+      "parameters": "unavailable",
+      "materials": "unavailable",
+      "animation": "unavailable",
+      "staticGLB": "unavailable",
+      "recipe": "unavailable"
+    },
+    "source": {
+      "kind": "blender-authored-parametric-kit",
+      "definition": "modules/k5-railway-prop/definition.mjs",
+      "stage": "K2"
+    },
+    "backend": {
+      "type": "unavailable",
+      "moduleId": "k5-railway-prop",
+      "reason": "等待运行、GLB 和 Firefox 验收"
+    }
+  },
+  {
+    "assetId": "nebelwerfer41-visual-prop",
+    "label": "Nebelwerfer 41 · 外观美术资产",
+    "description": "固定 Blender 外观资产，PGF 涂装与 5 组部件可见性；静态 GLB。未提供在线几何重建，独立发射演出不包含在导出 GLB 中。",
+    "status": "adapter-available",
+    "verification": "firefox-runtime-verified",
+    "capabilities": {
+      "preview": "shared-viewport",
+      "parameters": "native-schema",
+      "materials": "pgf-portable-vehicle-finish",
+      "animation": "hosted-launch-preview",
+      "staticGLB": "native-export",
+      "recipe": "native-json",
+      "procedural": false,
+      "onlineRemodeling": false,
+      "partVisibility": true
+    },
+    "source": {
+      "kind": "authored-asset-assembly",
+      "definition": "modules/nebelwerfer41-visual-prop/definition.mjs",
+      "stage": "N5",
+      "geometrySource": "fixed-blender-authored-exterior-glb",
+      "hostedAnimationVerification": "unified-firefox-verified",
+      "animation": {
+        "assetId": "nebelwerfer41-launch-presentation",
+        "stage": "N4",
+        "version": "0.4.2",
+        "status": "standalone-runtime-verified",
+        "visualAcceptance": "review-required",
+        "export": "not-glb-animation"
+      }
+    },
+    "backend": {
+      "type": "pgf-native-definition",
+      "moduleId": "nebelwerfer41-visual-prop",
+      "recipeGenerator": "nebelwerfer41-visual-prop"
+    }
+  },
+  {
+    "assetId": "qf25-visual-prop",
+    "label": "QF25 MkII / MkI-L · 外观游戏道具",
+    "description": "固定三档 Blender 外观资产；无布罩、无袋，保留硬盒。PGF 共享涂装、艺术比例和部件开关；牵引滚动与局部烟云仅用于预览，静态 GLB 不含演出。",
+    "status": "adapter-available",
+    "verification": "firefox-runtime-verified",
+    "capabilities": {
+      "preview": "shared-viewport",
+      "parameters": "native-schema",
+      "materials": "pgf-shared-metal-finish",
+      "animation": "tow-and-smoke-preview",
+      "staticGLB": "native-export",
+      "recipe": "native-json",
+      "procedural": false,
+      "onlineRemodeling": false,
+      "partVisibility": true,
+      "artProportions": true
+    },
+    "animationVerification": "unified-firefox-verified",
+    "source": {
+      "kind": "authored-asset-assembly",
+      "definition": "modules/qf25-visual-prop/definition.mjs",
+      "stage": "Q2",
+      "geometrySource": "fixed-blender-authored-exterior-glb",
+      "visualAcceptance": "review-required",
+      "appearance": "cloth-cover-and-bag-physically-removed-hard-box-retained",
+      "animation": {
+        "assetId": "qf25-visual-runtime",
+        "status": "unified-firefox-verified",
+        "export": "not-glb-animation"
+      }
+    },
+    "backend": {
+      "type": "pgf-native-definition",
+      "moduleId": "qf25-visual-prop",
+      "recipeGenerator": "qf25-visual-prop"
+    }
+  },
+  {
+    "assetId": "flakzwilling43-visual-prop",
+    "label": "Flakzwilling 43 · 外观游戏道具",
+    "description": "固定三档 Blender 外观资产；三脚底架、无轮。共享 PGF 材质、艺术比例与部件开关。朝向展示和同时烟云属于游戏美术演出，不代表真实发射顺序、时序或性能。",
+    "status": "adapter-available",
+    "verification": "firefox-runtime-verified",
+    "capabilities": {
+      "preview": "shared-viewport",
+      "parameters": "native-schema",
+      "materials": "pgf-shared-metal-finish",
+      "animation": "game-art-display-and-smoke",
+      "staticGLB": "native-export",
+      "recipe": "native-json",
+      "procedural": false,
+      "onlineRemodeling": false,
+      "partVisibility": true,
+      "artProportions": true,
+      "selfPropelled": false
+    },
+    "animationVerification": "unified-firefox-verified",
+    "source": {
+      "kind": "authored-asset-assembly",
+      "definition": "modules/flakzwilling43-visual-prop/definition.mjs",
+      "stage": "F2",
+      "geometrySource": "fixed-blender-authored-exterior-glb",
+      "visualAcceptance": "review-required",
+      "animation": {
+        "assetId": "flakzwilling43-visual-runtime",
+        "status": "unified-firefox-verified",
+        "export": "not-glb-animation",
+        "historicalFiringFootage": "not-confirmed"
+      }
+    },
+    "backend": {
+      "type": "pgf-native-definition",
+      "moduleId": "flakzwilling43-visual-prop",
+      "recipeGenerator": "flakzwilling43-visual-prop"
+    }
+  },
+  {
+    "assetId": "bm13-us6-visual-prop",
+    "label": "BM-13N / Studebaker US6 · 外观游戏资产",
+    "description": "固定三档 Blender 外观资产；1944 US6 艺术外观、水平空载后架。PGF 共享涂装、整体艺术比例与八组部件开关；三轴十轮保持静态，不含发射或行驶动画。部分细节与隐藏面为推测。",
+    "status": "adapter-available",
+    "verification": "firefox-runtime-verified",
+    "capabilities": {
+      "preview": "shared-viewport",
+      "parameters": "native-schema",
+      "materials": "pgf-shared-metal-finish",
+      "animation": "none",
+      "staticGLB": "native-export",
+      "recipe": "native-json",
+      "procedural": false,
+      "onlineRemodeling": false,
+      "partVisibility": true,
+      "artProportions": true
+    },
+    "animationVerification": "not-provided-static-only",
+    "source": {
+      "kind": "authored-asset-assembly",
+      "definition": "modules/bm13-us6-visual-prop/definition.mjs",
+      "stage": "B6",
+      "geometrySource": "fixed-blender-authored-exterior-glb",
+      "visualAcceptance": "review-required",
+      "appearance": "1944-us6-exterior-interpretation-empty-fixed-horizontal-rack",
+      "historicalFidelity": "grille-rear-fenders-and-hidden-surfaces-unverified",
+      "animation": {
+        "status": "not-provided",
+        "export": "static-glb-only"
+      }
+    },
+    "backend": {
+      "type": "pgf-native-definition",
+      "moduleId": "bm13-us6-visual-prop",
+      "recipeGenerator": "bm13-us6-visual-prop"
+    }
+  },
+  {
+    "assetId": "qf17-visual-prop",
+    "label": "QF17 Mk I / Mk I 轮式炮架 · 外观游戏资产",
+    "description": "固定三档 Blender 外观资产；正常单轴双轮、展开双尾架与水平炮管。PGF 共享涂装、整体艺术比例和八组部件开关；仅静态外观，不含牵引、发射或烟云动画。非测量美术重建，隐藏面与小件含推测。",
+    "status": "adapter-available",
+    "verification": "firefox-runtime-verified",
+    "capabilities": {
+      "preview": "shared-viewport",
+      "parameters": "native-schema",
+      "materials": "pgf-shared-metal-finish",
+      "animation": "none",
+      "staticGLB": "native-export",
+      "recipe": "native-json",
+      "procedural": false,
+      "onlineRemodeling": false,
+      "partVisibility": true,
+      "artProportions": true,
+      "selfPropelled": false
+    },
+    "animationVerification": "not-provided-static-only",
+    "source": {
+      "kind": "authored-asset-assembly",
+      "definition": "modules/qf17-visual-prop/definition.mjs",
+      "stage": "Q6",
+      "geometrySource": "fixed-blender-authored-exterior-glb",
+      "visualAcceptance": "review-required",
+      "sources": "modules/qf17-visual-prop/sources.mjs",
+      "provenance": "modules/qf17-visual-prop/adapter-provenance.json",
+      "appearance": "mk-i-gun-on-mk-i-wheeled-carriage-horizontal-deployed-split-trails",
+      "historicalFidelity": "unmeasured-simplified-exterior-hidden-surfaces-and-small-fittings-inferred",
+      "animation": {
+        "status": "not-provided",
+        "export": "static-glb-only"
+      }
+    },
+    "backend": {
+      "type": "pgf-native-definition",
+      "moduleId": "qf17-visual-prop",
+      "recipeGenerator": "qf17-visual-prop"
+    }
+  }
+]

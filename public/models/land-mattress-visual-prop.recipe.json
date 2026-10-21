@@ -1,0 +1,24 @@
+{
+  "generator": "land-mattress-visual-prop",
+  "version": "0.1.0",
+  "seed": "dot-gallery-20261021",
+  "params": {
+    "camoPattern": "original",
+    "camoEnvironment": "desert",
+    "camoScale": 1,
+    "detail": "medium",
+    "artScale": 1,
+    "paintColor": "#777e7d",
+    "roughness": 0.66,
+    "weathering": 0.24,
+    "showBundle": true,
+    "showRackFrame": true,
+    "showCarriage": true,
+    "showWheels": true,
+    "showFenders": true,
+    "showDrawbar": true,
+    "showSupports": true,
+    "showFittings": true
+  },
+  "quality": "medium"
+}

@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "source": "pgf-vehicle-browser-qa/gustav-visual-prop.glb",
+  "sha256": "5ff4e0cce2a2f150f633eeb0fe389251ab4509dc3031ea4f3424451b998ff024",
+  "serializedBytes": 6419312,
+  "three": "180",
+  "triangles": 146012,
+  "draws": 74,
+  "nonfinite": 0,
+  "duplicateTriangles": 0,
+  "decodedTextures": 6,
+  "sockets": 6,
+  "recipe": {
+    "generator": "gustav-visual-prop",
+    "version": "1.1.2",
+    "seed": "pgf-components-1",
+    "params": {
+      "silhouetteLength": 1,
+      "silhouetteWidth": 1,
+      "silhouetteHeight": 1,
+      "wheelVisualScale": 1,
+      "shellLengthFactor": 1,
+      "frameChunkiness": 1,
+      "detail": "medium",
+      "rivetDensity": 0.55,
+      "weathering": 0.28,
+      "paintColor": "#747c80",
+      "metalColor": "#727a80",
+      "showRails": true,
+      "showRailings": true,
+      "showStairs": true,
+      "showRivets": true,
+      "showRearDeck": true,
+      "showDecorativeBoxes": true,
+      "camoPattern": "original",
+      "camoEnvironment": "desert",
+      "camoScale": 1
+    }
+  },
+  "actualDownloadedRecipe": "pgf-vehicle-browser-qa/gustav-visual-prop.recipe.json",
+  "recipeMatches": true,
+  "bounds": {
+    "min": [
+      -13,
+      1.7881394143159923e-9,
+      -2.434999942779541
+    ],
+    "max": [
+      13,
+      6.539999961853027,
+      2.434999942779541
+    ]
+  }
+}

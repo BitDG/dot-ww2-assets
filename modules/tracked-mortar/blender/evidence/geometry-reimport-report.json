@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "objects": 1336,
+  "meshes": 1327,
+  "sharedMeshDatablocks": 81,
+  "roadWheels": 22,
+  "finiteCoordinates": true,
+  "studioExcluded": true,
+  "blenderBoundsXYZ": [
+    [
+      -1.8450000286102295,
+      1.8450000286102295
+    ],
+    [
+      -5.343000411987305,
+      5.253776550292969
+    ],
+    [
+      0.031999994069337845,
+      4.522335529327393
+    ]
+  ],
+  "coordinateMapping": "Blender (X,Y,Z) -> PGF (X,Z,-Y)",
+  "materials": 6,
+  "note": "This checks the Blender exterior kit. Final PGF textures, collider and sockets require separate runtime roundtrip tests."
+}

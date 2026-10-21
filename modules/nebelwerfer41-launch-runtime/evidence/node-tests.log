@@ -1,0 +1,19 @@
+✔ read-only N4 anchors through PGF wrappers are invariant under host transforms (6.485148ms)
+✔ transient root follows transformed scene and asset without parenting to the asset (2.734147ms)
+✔ borrowed projectile geometry, material and texture survive owned clone disposal (3.196101ms)
+✔ N4 final visual references and shared PGFCombatFX bytes match the frozen source (7.544865ms)
+✔ actual N5 binding, deterministic replay, pause, host inactivity and completion (1636.33454ms)
+✔ disposed async initialization cannot attach its late result; source lease released (36.112121ms)
+✔ initial stale validity cancels one attempt but old retained runtime can be played again (88.609449ms)
+✔ reset cancels pending play; repeated play shares one loader; retry after error (82.826048ms)
+✔ unavailable tube cluster is truthful and does not allocate or invent anchors (0.815844ms)
+✔ actual authored projectile is loaded; runtime owns no display canvas or scheduler (14.570526ms)
+✔ bounds covers static geometry, frozen art paths and visible billboards in transformed host space (113.642633ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3440.374676

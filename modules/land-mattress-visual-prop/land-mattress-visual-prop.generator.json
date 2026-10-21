@@ -1,0 +1,7 @@
+{
+ "apiVersion":"1",
+ "id":"land-mattress-visual-prop",
+ "version":"0.1.0",
+ "label":"Land Mattress No.8 Mk I · 静态外观游戏资产",
+ "entry":"./definition.mjs"
+}

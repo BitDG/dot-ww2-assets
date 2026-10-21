@@ -1,0 +1,110 @@
+BlenderMCP addon registered
+Server thread started
+TASK_MCP_READY={"pid": 5, "host": "127.0.0.1", "port": 19876, "blender_version": "4.3.2", "addon_version": [1, 8], "addon_protocol": 13, "addon_sha256": "eb0facf69781a30e69792532087d8d41c6a14fcd323353250abe7988ee297fa5", "background": true, "lifecycle_adapter": "explicit main-thread upstream queue pump", "telemetry_disabled": true, "integrations": {"polyhaven": false, "sketchfab": false, "polypizza": false, "hyper3d": false, "hunyuan3d": false, "tripo": false}, "hard_timeout_seconds": 21600}
+Blender 4.3.2
+Fra:1 Mem:24.51M (Peak 24.51M) | Time:497673:59:31.93 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Diesel paint-clean material calibration sheet
+Fra:1 Mem:24.51M (Peak 24.51M) | Time:497673:59:31.93 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:24.51M (Peak 24.51M) | Time:497673:59:31.93 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading diesel-paint-clean-baseColor
+Fra:1 Mem:25.55M (Peak 58.63M) | Time:497673:59:32.64 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Diesel paint-clean material calibration sheet
+Fra:1 Mem:25.55M (Peak 58.63M) | Time:497673:59:32.64 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:25.54M (Peak 58.63M) | Time:497673:59:32.64 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading diesel-paint-clean-normal
+Fra:1 Mem:25.54M (Peak 58.63M) | Time:497673:59:32.64 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading diesel-paint-clean-baseColor
+Fra:1 Mem:26.58M (Peak 59.67M) | Time:497673:59:34.44 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Diesel paint-clean material calibration sheet
+Fra:1 Mem:26.58M (Peak 59.67M) | Time:497673:59:34.44 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:26.58M (Peak 59.67M) | Time:497673:59:34.44 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading diesel-paint-clean-orm
+Fra:1 Mem:27.58M (Peak 59.67M) | Time:497673:59:34.44 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading diesel-paint-clean-baseColor
+Fra:1 Mem:28.39M (Peak 60.70M) | Time:497673:59:35.15 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Diesel paint-clean material calibration sheet
+Fra:1 Mem:28.39M (Peak 60.70M) | Time:497673:59:35.15 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Diesel paint-worn material calibration sheet
+Fra:1 Mem:28.39M (Peak 60.70M) | Time:497673:59:35.15 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:28.39M (Peak 60.70M) | Time:497673:59:35.15 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading diesel-paint-worn-baseColor
+Fra:1 Mem:28.39M (Peak 60.70M) | Time:497673:59:35.15 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading diesel-paint-clean-normal
+Fra:1 Mem:29.39M (Peak 60.70M) | Time:497673:59:35.15 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading diesel-paint-clean-baseColor
+Fra:1 Mem:33.40M (Peak 60.70M) | Time:497673:59:35.15 | Mem:1.00M, Peak:1.00M | Scene | Updating Images | Loading diesel-paint-clean-orm
+Fra:1 Mem:29.46M (Peak 62.52M) | Time:497673:59:36.14 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Diesel paint-clean material calibration sheet
+Fra:1 Mem:29.46M (Peak 62.52M) | Time:497673:59:36.14 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Diesel paint-worn material calibration sheet
+Fra:1 Mem:29.46M (Peak 62.52M) | Time:497673:59:36.14 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:29.46M (Peak 62.52M) | Time:497673:59:36.14 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading diesel-paint-worn-normal
+Fra:1 Mem:29.46M (Peak 62.52M) | Time:497673:59:36.14 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading diesel-paint-clean-normal
+Fra:1 Mem:36.47M (Peak 62.52M) | Time:497673:59:36.14 | Mem:1.00M, Peak:1.00M | Scene | Updating Images | Loading diesel-paint-worn-baseColor
+Fra:1 Mem:30.48M (Peak 63.61M) | Time:497673:59:40.00 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Diesel paint-clean material calibration sheet
+Fra:1 Mem:30.48M (Peak 63.61M) | Time:497673:59:40.00 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Diesel paint-worn material calibration sheet
+Fra:1 Mem:30.48M (Peak 63.61M) | Time:497673:59:40.00 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:30.48M (Peak 63.61M) | Time:497673:59:40.00 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading diesel-paint-clean-baseColor
+Fra:1 Mem:30.48M (Peak 63.61M) | Time:497673:59:40.00 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading diesel-paint-worn-orm
+Fra:1 Mem:33.48M (Peak 63.61M) | Time:497673:59:40.00 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading diesel-paint-clean-normal
+Fra:1 Mem:35.49M (Peak 63.61M) | Time:497673:59:40.00 | Mem:1.00M, Peak:1.00M | Scene | Updating Images | Loading diesel-paint-worn-normal
+Fra:1 Mem:36.49M (Peak 63.61M) | Time:497673:59:40.00 | Mem:2.00M, Peak:2.00M | Scene | Updating Images | Loading diesel-paint-clean-orm
+Fra:1 Mem:36.49M (Peak 63.61M) | Time:497673:59:40.00 | Mem:3.00M, Peak:3.00M | Scene | Updating Images | Loading diesel-paint-worn-baseColor
+Fra:1 Mem:32.15M (Peak 64.61M) | Time:497673:59:41.22 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Diesel paint-clean material calibration sheet
+Fra:1 Mem:32.15M (Peak 64.61M) | Time:497673:59:41.22 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Diesel steel material calibration sheet
+Fra:1 Mem:32.15M (Peak 64.61M) | Time:497673:59:41.22 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Diesel paint-worn material calibration sheet
+Fra:1 Mem:32.15M (Peak 64.61M) | Time:497673:59:41.22 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:32.14M (Peak 64.61M) | Time:497673:59:41.22 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading diesel-steel-baseColor
+Fra:1 Mem:33.14M (Peak 64.61M) | Time:497673:59:41.22 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading diesel-paint-clean-baseColor
+Fra:1 Mem:36.14M (Peak 64.61M) | Time:497673:59:41.22 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading diesel-paint-clean-normal
+Fra:1 Mem:37.16M (Peak 64.61M) | Time:497673:59:41.22 | Mem:1.00M, Peak:1.00M | Scene | Updating Images | Loading diesel-paint-worn-orm
+Fra:1 Mem:38.16M (Peak 64.61M) | Time:497673:59:41.22 | Mem:2.00M, Peak:2.00M | Scene | Updating Images | Loading diesel-paint-worn-normal
+Fra:1 Mem:39.16M (Peak 64.61M) | Time:497673:59:41.22 | Mem:3.00M, Peak:3.00M | Scene | Updating Images | Loading diesel-paint-clean-orm
+Fra:1 Mem:38.16M (Peak 64.61M) | Time:497673:59:41.22 | Mem:4.00M, Peak:4.00M | Scene | Updating Images | Loading diesel-paint-worn-baseColor
+Fra:1 Mem:33.32M (Peak 66.29M) | Time:497673:59:41.92 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Diesel paint-clean material calibration sheet
+Fra:1 Mem:33.32M (Peak 66.29M) | Time:497673:59:41.92 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Diesel paint-worn material calibration sheet
+Fra:1 Mem:33.32M (Peak 66.29M) | Time:497673:59:41.92 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:33.31M (Peak 66.29M) | Time:497673:59:41.92 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading diesel-steel-normal
+Fra:1 Mem:34.31M (Peak 66.29M) | Time:497673:59:41.92 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading diesel-paint-clean-orm
+Fra:1 Mem:40.33M (Peak 66.29M) | Time:497673:59:41.92 | Mem:1.00M, Peak:1.00M | Scene | Updating Images | Loading diesel-steel-baseColor
+Fra:1 Mem:41.33M (Peak 66.29M) | Time:497673:59:41.92 | Mem:2.00M, Peak:2.00M | Scene | Updating Images | Loading diesel-paint-worn-baseColor
+Fra:1 Mem:42.33M (Peak 66.29M) | Time:497673:59:41.92 | Mem:3.00M, Peak:3.00M | Scene | Updating Images | Loading diesel-paint-worn-normal
+Fra:1 Mem:43.33M (Peak 66.29M) | Time:497673:59:41.92 | Mem:4.00M, Peak:4.00M | Scene | Updating Images | Loading diesel-paint-worn-orm
+Fra:1 Mem:34.35M (Peak 67.47M) | Time:497673:59:43.73 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Diesel paint-clean material calibration sheet
+Fra:1 Mem:34.35M (Peak 67.47M) | Time:497673:59:43.73 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Diesel paint-worn material calibration sheet
+Fra:1 Mem:34.35M (Peak 67.47M) | Time:497673:59:43.73 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:34.35M (Peak 67.47M) | Time:497673:59:43.73 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading diesel-paint-clean-baseColor
+Fra:1 Mem:34.35M (Peak 67.47M) | Time:497673:59:43.73 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading diesel-paint-clean-normal
+Fra:1 Mem:40.35M (Peak 67.47M) | Time:497673:59:43.73 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading diesel-paint-clean-orm
+Fra:1 Mem:41.36M (Peak 67.47M) | Time:497673:59:43.73 | Mem:1.00M, Peak:1.00M | Scene | Updating Images | Loading diesel-paint-worn-baseColor
+Fra:1 Mem:42.36M (Peak 67.47M) | Time:497673:59:43.73 | Mem:2.00M, Peak:2.00M | Scene | Updating Images | Loading diesel-steel-normal
+Fra:1 Mem:43.36M (Peak 67.47M) | Time:497673:59:43.73 | Mem:3.00M, Peak:3.00M | Scene | Updating Images | Loading diesel-paint-worn-normal
+Fra:1 Mem:44.36M (Peak 67.47M) | Time:497673:59:43.73 | Mem:4.00M, Peak:4.00M | Scene | Updating Images | Loading diesel-paint-worn-orm
+Fra:1 Mem:45.36M (Peak 67.47M) | Time:497673:59:43.73 | Mem:5.00M, Peak:5.00M | Scene | Updating Images | Loading diesel-steel-baseColor
+Connected to client: ('127.0.0.1', 33384)
+Client handler started
+Queued command: get_addon_info
+Executing handler for get_addon_info
+Handler execution complete
+Queued command: execute_code
+Executing handler for execute_code
+Handler execution complete
+Queued command: get_telemetry_consent
+Executing handler for get_telemetry_consent
+Handler execution complete
+Queued command: get_addon_info
+Executing handler for get_addon_info
+Handler execution complete
+Queued command: get_polyhaven_status
+Queued command: get_sketchfab_status
+Executing handler for get_sketchfab_status
+Handler execution complete
+Queued command: get_polypizza_status
+Executing handler for get_polypizza_status
+Handler execution complete
+Queued command: get_hunyuan3d_status
+Executing handler for get_hunyuan3d_status
+Handler execution complete
+Queued command: get_hyper3d_status
+Executing handler for get_hyper3d_status
+Handler execution complete
+Queued command: execute_code
+Executing handler for execute_code
+Handler execution complete
+Queued command: execute_code
+Executing handler for execute_code
+Handler execution complete
+Client disconnected
+Client handler stopped
+Error accepting connection: [Errno 9] Bad file descriptor
+BlenderMCP server stopped
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+TASK_MCP_STOPPED
+
+Blender quit

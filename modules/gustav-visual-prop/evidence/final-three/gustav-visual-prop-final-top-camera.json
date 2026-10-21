@@ -1,0 +1,136 @@
+{
+  "generator": "gustav-visual-prop",
+  "version": "1.1.2",
+  "view": "top",
+  "resolution": [
+    1600,
+    420
+  ],
+  "sourceGLBSha256": "3e988dcd4e60a72996030c23a58e54476a12ab08264ecc3cfa6308b968d54590",
+  "source": "gustav-final.glb",
+  "camera": {
+    "type": "OrthographicCamera",
+    "position": [
+      0,
+      43.26999998180058,
+      0.00003999999999999333
+    ],
+    "quaternion": [
+      -0.7071064276330685,
+      0,
+      0,
+      0.7071071347398497
+    ],
+    "target": [
+      0,
+      3.2699999818205834,
+      0
+    ],
+    "up": [
+      0,
+      0,
+      -1
+    ],
+    "lookDirection": [
+      0,
+      -0.9999999999995001,
+      -0.0000010000000000287559
+    ],
+    "matrixWorld": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0.0000010000000000287557,
+      -0.9999999999994998,
+      0,
+      0,
+      0.9999999999994998,
+      0.0000010000000000287557,
+      0,
+      0,
+      43.26999998180058,
+      0.00003999999999999333,
+      1
+    ],
+    "projectionMatrix": [
+      0.06993006993006992,
+      0,
+      0,
+      0,
+      0,
+      0.2664002664002664,
+      0,
+      0,
+      0,
+      0,
+      -0.01000050002500125,
+      0,
+      0,
+      0,
+      -1.00010000500025,
+      1
+    ],
+    "left": -14.3,
+    "right": 14.3,
+    "top": 3.75375,
+    "bottom": -3.75375
+  },
+  "pixelsPerArtUnit": 55.94405594405594,
+  "bounds": {
+    "min": [
+      -13,
+      1.7881394143159923e-9,
+      -2.434999942779541
+    ],
+    "max": [
+      13,
+      6.539999961853027,
+      2.434999942779541
+    ]
+  },
+  "preset": "imported-glb",
+  "recipe": {
+    "generator": "gustav-visual-prop",
+    "version": "1.1.2",
+    "seed": "gustav-art-1",
+    "params": {
+      "silhouetteLength": 1,
+      "silhouetteWidth": 1,
+      "silhouetteHeight": 1,
+      "wheelVisualScale": 1,
+      "shellLengthFactor": 1,
+      "frameChunkiness": 1,
+      "detail": "medium",
+      "rivetDensity": 0.55,
+      "weathering": 0.28,
+      "paintColor": "#747c80",
+      "metalColor": "#727a80",
+      "showRails": true,
+      "showRailings": true,
+      "showStairs": true,
+      "showRivets": true,
+      "showRearDeck": true,
+      "showDecorativeBoxes": true,
+      "camoPattern": "original",
+      "camoEnvironment": "desert",
+      "camoScale": 1
+    }
+  },
+  "triangles": 146012,
+  "meshes": 74,
+  "frames": 24,
+  "renderer": {
+    "frame": 59,
+    "calls": 75,
+    "triangles": 146014,
+    "points": 0,
+    "lines": 0
+  },
+  "memory": {
+    "geometries": 20,
+    "textures": 8
+  },
+  "rendering": "Actual Three GLTFLoader, antialiased WebGL, shared PBR pixels; no Monte Carlo sampling noise"
+}

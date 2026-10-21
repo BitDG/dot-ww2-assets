@@ -1,0 +1,16 @@
+vite v8.3.0 building client environment for production...
+transforming...
+✓ 55 modules transformed.
+rendering chunks...
+computing gzip size...
+modules/qf25-visual-prop/evidence/isolated-q2-dist/modules/qf25-visual-prop/tests/build-entry.html      0.30 kB │ gzip:   0.22 kB
+modules/qf25-visual-prop/evidence/isolated-q2-dist/assets/preview.worker-BebvGUvu.js                1,891.42 kB
+modules/qf25-visual-prop/evidence/isolated-q2-dist/assets/asset-export.worker-BjK2yNhg.js           1,958.05 kB
+modules/qf25-visual-prop/evidence/isolated-q2-dist/assets/worker-IuGh8G9I.js                        2,611.45 kB
+modules/qf25-visual-prop/evidence/isolated-q2-dist/assets/QF25-Q2-low-CLtIXmQV.glb                  3,123.20 kB
+modules/qf25-visual-prop/evidence/isolated-q2-dist/assets/QF25-Q2-geometry-BluJoDkZ.glb             4,836.73 kB
+modules/qf25-visual-prop/evidence/isolated-q2-dist/assets/QF25-Q2-high-Ch3fVtxz.glb                 5,689.36 kB
+modules/qf25-visual-prop/evidence/isolated-q2-dist/assets/build-entry-OPnUNV30.css                      5.21 kB │ gzip:   1.63 kB
+modules/qf25-visual-prop/evidence/isolated-q2-dist/assets/build-entry-Bl75hFYA.js                   2,282.25 kB │ gzip: 457.62 kB
+
+✓ built in 2.86s

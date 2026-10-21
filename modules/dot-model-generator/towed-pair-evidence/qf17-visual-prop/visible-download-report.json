@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "source": "Actual Firefox visible Export GLB button download",
+  "originalFilename": "qf17-visual-prop(3).glb",
+  "bytes": 1432284,
+  "sha256": "b2f5b9c14b6f31fee2fd1e869cabf7ca2ab6c8506692c1ca178df0121efb7518",
+  "generator": {
+    "id": "qf17-visual-prop",
+    "version": "0.1.0"
+  },
+  "sourceAsset": {
+    "kind": "Blender MCP exterior with reused PGF tire geometry",
+    "sha256": "6a786420f3bb9bc7383d4b6703c48d2708ca9f0d9fcb18c74ee9bad80313c115",
+    "stage": "Q6",
+    "quality": "medium"
+  },
+  "recipe": {
+    "generator": "qf17-visual-prop",
+    "version": "0.1.0",
+    "seed": "pgf-components-1",
+    "params": {
+      "camoPattern": "original",
+      "camoEnvironment": "desert",
+      "camoScale": 1,
+      "detail": "medium",
+      "artScale": 1,
+      "paintColor": "#777e7d",
+      "roughness": 0.66,
+      "weathering": 0.24,
+      "showBarrel": true,
+      "showShield": true,
+      "showCarriage": true,
+      "showLeftWheel": true,
+      "showRightWheel": true,
+      "showLeftTrail": true,
+      "showRightTrail": true,
+      "showFittings": true
+    },
+    "quality": "medium"
+  },
+  "statistics": {
+    "triangles": 50776,
+    "renderedTriangles": 50776,
+    "vertices": 46212,
+    "instances": 24,
+    "draws": 24,
+    "bytes": 2176423,
+    "nodes": 36,
+    "meshes": 24,
+    "textures": 3,
+    "materials": 7,
+    "dimensions": [
+      3.3299999237060547,
+      1.9662867188450668,
+      8.380000352859497
+    ]
+  },
+  "independentGLTFLoader": {
+    "meshes": 24,
+    "triangles": 50776,
+    "decodedImages": 3,
+    "animations": 0
+  }
+}

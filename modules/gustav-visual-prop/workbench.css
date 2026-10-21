@@ -1,0 +1,7 @@
+/* Local PC inspector fix. Shared shell and other modules remain unchanged. */
+#rock-lab.gustav-visual-workbench .studio-inspector > .plugin-fields {flex:1 1 auto;min-height:0;overflow-y:auto;align-content:start}
+#rock-lab.gustav-visual-workbench .studio-inspector > :not(.plugin-fields) {flex:0 0 auto}
+/* Color picker and its editable hex share one row without clipping at PC widths. */
+#rock-lab.gustav-visual-workbench .plugin-field .pgf-color-control {display:flex;min-width:0;gap:8px}
+#rock-lab.gustav-visual-workbench .plugin-field .pgf-color-control>input[type=color] {flex:0 0 36px;width:36px;min-width:36px;max-width:36px;height:30px}
+#rock-lab.gustav-visual-workbench .plugin-field .pgf-color-control>input:not([type=color]) {flex:1 1 0%;width:0;min-width:0;max-width:100%}

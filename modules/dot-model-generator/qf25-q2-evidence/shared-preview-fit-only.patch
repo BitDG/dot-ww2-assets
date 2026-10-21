@@ -1,0 +1,13 @@
+--- D4/src/plugins/preview.js
++++ I2/src/plugins/preview.js
+@@ -43,8 +43,9 @@
+     if (!handle || width < 1 || height < 1) return;
+     const sphere = (runtime?.bounds?.()??new THREE.Box3().setFromObject(handle.object)).getBoundingSphere(new THREE.Sphere());
+     clipSphere=sphere;
+-    const next = fittedDistance(sphere), ratio = preserve && fitted ? camera.position.distanceTo(controls.target) / fitted : 1;
+     const direction = camera.position.clone().sub(controls.target).normalize();
++    const preferred = runtime?.framingDistance?.(camera,sphere,direction);
++    const next = Number.isFinite(preferred)&&preferred>0?preferred:fittedDistance(sphere), ratio = preserve && fitted ? camera.position.distanceTo(controls.target) / fitted : 1;
+     controls.target.copy(sphere.center); camera.position.copy(sphere.center).addScaledVector(direction, next * ratio);updateClip(); camera.updateProjectionMatrix(); fitted = next; controls.update(); loop.invalidate();
+   }
+   function resize() {

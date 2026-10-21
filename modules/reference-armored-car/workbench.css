@@ -1,0 +1,11 @@
+/* Module-owned PC fix: the shared inspector is a clipped flex column. Keep
+   its heading/tabs/actions fixed while the existing field nodes scroll. */
+#rock-lab.reference-armored-workbench .studio-inspector > .plugin-fields {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  align-content: start;
+}
+#rock-lab.reference-armored-workbench .studio-inspector > :not(.plugin-fields) {
+  flex: 0 0 auto;
+}

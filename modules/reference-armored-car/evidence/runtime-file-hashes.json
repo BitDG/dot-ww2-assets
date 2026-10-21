@@ -1,0 +1,110 @@
+[
+  {
+    "variant": "reference",
+    "bytes": 5777548,
+    "sha256": "fcb8b328512fd4c80339b7890449a317ea28d13795e406238aed1ea833190760",
+    "triangles": 107826,
+    "draws": 69,
+    "textures": 6,
+    "sockets": 7
+  },
+  {
+    "variant": "forward",
+    "bytes": 5777520,
+    "sha256": "adfd44483bbd0660576f580257e16c4f76697a382d34a559feec59b74241e9f7",
+    "triangles": 107826,
+    "draws": 69,
+    "textures": 6,
+    "sockets": 7
+  },
+  {
+    "variant": "clean",
+    "bytes": 5704684,
+    "sha256": "0c39dd10896e5b4c838574eb7131616df48681a5013aeb37d53052354e3bfc59",
+    "triangles": 107826,
+    "draws": 69,
+    "textures": 6,
+    "sockets": 7
+  },
+  {
+    "variant": "dusty",
+    "bytes": 5818384,
+    "sha256": "5ef9e44ef88e62a1c8b87a89602b654c59b968f770c779141f1a62514c3d4718",
+    "triangles": 107826,
+    "draws": 69,
+    "textures": 6,
+    "sockets": 7
+  },
+  {
+    "variant": "low",
+    "bytes": 3871264,
+    "sha256": "cd5384f572486a898535b51702a1e5e4db99ce0523864e1e71ee2852d20333aa",
+    "triangles": 62683,
+    "draws": 69,
+    "textures": 6,
+    "sockets": 7
+  },
+  {
+    "variant": "high",
+    "bytes": 6905584,
+    "sha256": "480a1ca6213d5d075d03ef983a17084f59e30154aa014390f4c8a5e10279910c",
+    "triangles": 141358,
+    "draws": 69,
+    "textures": 6,
+    "sockets": 7
+  },
+  {
+    "variant": "scale-half",
+    "bytes": 5777556,
+    "sha256": "9d056d48407a91ed627c9a284f6e63d2140902f740fed3791e25b8ab3b617290",
+    "triangles": 107826,
+    "draws": 69,
+    "textures": 6,
+    "sockets": 7
+  },
+  {
+    "variant": "scale-double",
+    "bytes": 5777548,
+    "sha256": "87a0a3508853656d50601c4b2cffdc856d6b559162bb1b6f1bc16fc2fcabc209",
+    "triangles": 107826,
+    "draws": 69,
+    "textures": 6,
+    "sockets": 7
+  },
+  {
+    "variant": "legacy-pose",
+    "bytes": 5675280,
+    "sha256": "b66b638b86791317e756d161af609ebf72b6264207e77134505beb8310a87df7",
+    "triangles": 106157,
+    "draws": 65,
+    "textures": 6,
+    "sockets": 7
+  },
+  {
+    "variant": "tank-desert",
+    "bytes": 6007100,
+    "sha256": "71b0b238579da8796e480bd929ad4be11fccd57f78be467ec34d14ca66d47909",
+    "triangles": 107826,
+    "draws": 69,
+    "textures": 6,
+    "sockets": 7
+  },
+  {
+    "variant": "tank-digital",
+    "bytes": 5862144,
+    "sha256": "2f2172ea8a8ce161b70b16ee89d13cfddea77924dfeb915f22db2c8778f3676f",
+    "triangles": 107826,
+    "draws": 69,
+    "textures": 6,
+    "sockets": 7
+  },
+  {
+    "variant": "tank-claude",
+    "bytes": 5839012,
+    "sha256": "7e1e3f5b7f8d3828f06b0ec9cc2b27bb024e7d22e4b73a9c424c81f5e0ba40c4",
+    "triangles": 107826,
+    "draws": 69,
+    "textures": 6,
+    "sockets": 7
+  }
+]

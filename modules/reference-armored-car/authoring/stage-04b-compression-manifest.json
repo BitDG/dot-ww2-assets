@@ -1,0 +1,72 @@
+{
+  "taskId": "reference-armored-car-blender-rebuild",
+  "stage": "04b-native-lossless-blend-compression",
+  "status": "PASS: actual Blender MCP native compress=True and exact scene equality after actual reopen",
+  "inherits": "stage-04-review-manifest.json; all original frozen payload bytes remain immutable",
+  "inheritsManifestSha256": "352fa441c36067964f7a7498e669381cafb8b91e8e3a64d319d19aec4464b366",
+  "payloadRoot": "/workspace/scratch/6a4c729be230/pgf-armored-stage04b-payload",
+  "replacement": {
+    "path": "modules/reference-armored-car/assets/blender/reference-armored-car-tank-kit.blend",
+    "oldBytes": 13045141,
+    "oldSha256": "f0fbb4b889fe8956edfd6bf1b49cbc8217fce96ffcbef1c24f9a1f09e07fb5a5",
+    "newBytes": 3750973,
+    "newSha256": "11369888071ceda6f2bb859dd6eecee7e9cc74219e23c56e0038703c5e99e9ca"
+  },
+  "sceneValidation": {
+    "status": "PASS",
+    "source": "/workspace/scratch/6a4c729be230/pgf-armored-stage04-payload/modules/reference-armored-car/assets/blender/reference-armored-car-tank-kit.blend",
+    "target": "/workspace/scratch/6a4c729be230/pgf-armored-stage04b-payload/modules/reference-armored-car/assets/blender/reference-armored-car-tank-kit.blend",
+    "blender": "4.3.2",
+    "nativeCompress": true,
+    "actualReopen": true,
+    "exactSnapshotEqual": true,
+    "objects": 92,
+    "meshes": 69,
+    "materials": 10,
+    "images": 21,
+    "checked": [
+      "object names, parenting, stored transforms and visibility",
+      "all mesh positions, vertex normals, loop indices, polygon ranges, material assignments and UV layers",
+      "material numeric factors, node types/default socket values, image references and shader links",
+      "all packed image bytes, sizes and color-space names"
+    ]
+  },
+  "publishInstructions": "Use every original stage04 entry unchanged except replace the one named .blend with this payload file. Add this manifest and the source/validation evidence listed here. Original stage04 audit remains historical and is not rewritten.",
+  "files": [
+    {
+      "path": "modules/reference-armored-car/assets/blender/reference-armored-car-tank-kit.blend",
+      "bytes": 3750973,
+      "sha256": "11369888071ceda6f2bb859dd6eecee7e9cc74219e23c56e0038703c5e99e9ca"
+    },
+    {
+      "path": "dev/reference-armored-car-blender-compress.py",
+      "bytes": 3729,
+      "sha256": "7fb10a5545c33453da61a9ab773f5d241d25ee9d47a44aa07016c1f4b5ca4686"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/11-native-blend-compression.json",
+      "bytes": 1264,
+      "sha256": "7b744441afaf5c0c7c40324e1fe9f29bae6bac3cc9c9a4a6f9b5d360feea1c36"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/11-native-blend-compress-mcp.json",
+      "bytes": 34663,
+      "sha256": "5ef56347b9a6d5d1c6ba5245eace0e49ddcf6050298636c4c8b060484edc4e6b"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/11-native-blend-compress-mcp.runtime.json",
+      "bytes": 603,
+      "sha256": "bb652afc6aba8a86c7323ef7140940e7d39b63bab3be949bc19971adebeac1c2"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/11-native-blend-compress-mcp.blender.log",
+      "bytes": 2534,
+      "sha256": "9cbbc28f61736e30e970b7a64fb949645bd62cd79a49cdcc00fd67220d31ef98"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/11-native-blend-compress.log",
+      "bytes": 1390,
+      "sha256": "640b21382616878b8a33322b5ff5d471087438a1ffaa3f41ea5f2220b9f69e72"
+    }
+  ]
+}

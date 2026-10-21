@@ -1,0 +1,53 @@
+{
+  "status": "passed for scoped Firefox acceptance; explicit not-run items retained",
+  "browser": "dot cloud Firefox 157.0.1",
+  "version": "1.2.1",
+  "servedManifestSha256": "fd72bd29ad8220300229d377233332a8cc2b5921b6668aa8a4466a402638e7fe",
+  "scope": "Actual PGF shell/workbench/Worker/renderer with isolated single-entry registry; not full production application",
+  "passed": [
+    "five actual 500x380 preset PNGs and parameter labels",
+    "default/high/low generation",
+    "short-wide-high and long-narrow-low proportions, wheel and bogie-spacing controls",
+    "950x900 full inspector, gallery and model framing",
+    "visible cancellation retaining prior result, then regenerate",
+    "recipe save/import",
+    "actual camouflage and original GLB downloads and browser GLTFLoader reimport",
+    "independent Node readGLB and GLTFLoader decode of both browser files",
+    "optional camouflage world-density correction and original restoration",
+    "imported GLB preset/recipe identity corrected",
+    "idle frame count and explicit disposal",
+    "1440x900 and 1600x900 full viewport: model, inspector and action buttons visible in actual Firefox RDM camera PNGs"
+  ],
+  "lifecycle": {
+    "idleBefore": 70,
+    "idleAfter": 70,
+    "idleDelta": 0,
+    "disposed": true,
+    "active": false,
+    "workerTerminated": true,
+    "renderRPC": 0
+  },
+  "notRun": [
+    "real interaction GIF: documented native browser tools expose single-frame capture, no recording API",
+    "full production Vite8.3 build",
+    "complete repository tests",
+    "PGF stdio MCP end-to-end",
+    "hardware performance certification or GPU heap measurement"
+  ],
+  "limitations": [
+    "PGF camouflage texture repeats at 4/camoScale art-unit period and box-projection axis seams can exist",
+    "D6 Cycles images show sampling grain; clear actual Three images supplied separately",
+    "prior v1 camera receipts retain stale preset label; exact model SHA and embedded recipe establish medium, UI identity subsequently fixed",
+    "no historical model identification or dimensional measurement accuracy claim"
+  ],
+  "wideEvidence": [
+    {
+      "file": "firefox/diesel-final-viewport1440.png",
+      "sha256": "c2b75f6ac0da952bebbb6baa434ce2fb7ee82a90439fbb151dad82082da8e5bc"
+    },
+    {
+      "file": "firefox/diesel-final-viewport1600.png",
+      "sha256": "bf3e00c6bd114f42a3218e4e7004afdf9a4f9a5c3a5f04e0bcda20c5220ffebb"
+    }
+  ]
+}

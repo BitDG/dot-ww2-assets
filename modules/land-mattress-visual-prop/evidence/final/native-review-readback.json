@@ -1,0 +1,330 @@
+{
+  "status": "PASS_INDEPENDENT_NATIVE_BLEND_READBACK",
+  "sha256": "36c397bdf1f6f530f3608ac2b99353fc4785f379bb69d3704fd001fb8c17eb33",
+  "bytes": 4214798,
+  "scenes": [
+    {
+      "scene": "LM_Fixed_GLB_detail01-mouths",
+      "render": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-detail01-mouths.png",
+      "objects": 44,
+      "meshes": 27,
+      "camera": "LM_Fixed_Camera.005",
+      "samples": 192
+    },
+    {
+      "scene": "LM_Fixed_GLB_detail02-side-frame",
+      "render": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-detail02-side-frame.png",
+      "objects": 44,
+      "meshes": 27,
+      "camera": "LM_Fixed_Camera.006",
+      "samples": 192
+    },
+    {
+      "scene": "LM_Fixed_GLB_detail03-wheel",
+      "render": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-detail03-wheel.png",
+      "objects": 44,
+      "meshes": 27,
+      "camera": "LM_Fixed_Camera.007",
+      "samples": 192
+    },
+    {
+      "scene": "LM_Fixed_GLB_detail04-fender",
+      "render": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-detail04-fender.png",
+      "objects": 44,
+      "meshes": 27,
+      "camera": "LM_Fixed_Camera.008",
+      "samples": 192
+    },
+    {
+      "scene": "LM_Fixed_GLB_detail05-drawbar",
+      "render": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-detail05-drawbar.png",
+      "objects": 44,
+      "meshes": 27,
+      "camera": "LM_Fixed_Camera.009",
+      "samples": 192
+    },
+    {
+      "scene": "LM_Fixed_GLB_detail06-carriage.001",
+      "render": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-detail06-carriage.png",
+      "objects": 44,
+      "meshes": 27,
+      "camera": "LM_Fixed_Camera",
+      "samples": 192
+    },
+    {
+      "scene": "LM_Fixed_GLB_front",
+      "render": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-front.png",
+      "objects": 44,
+      "meshes": 27,
+      "camera": "LM_Fixed_Camera.004",
+      "samples": 192
+    },
+    {
+      "scene": "LM_Fixed_GLB_hero.001",
+      "render": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-hero.png",
+      "objects": 44,
+      "meshes": 27,
+      "camera": "LM_Fixed_Camera.001",
+      "samples": 192
+    },
+    {
+      "scene": "LM_Fixed_GLB_side",
+      "render": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-side.png",
+      "objects": 44,
+      "meshes": 27,
+      "camera": "LM_Fixed_Camera.002",
+      "samples": 192
+    },
+    {
+      "scene": "LM_Fixed_GLB_top",
+      "render": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-top.png",
+      "objects": 44,
+      "meshes": 27,
+      "camera": "LM_Fixed_Camera.003",
+      "samples": 192
+    }
+  ],
+  "images": [
+    {
+      "name": "texture-0",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-0.001",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-0.002",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-0.003",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-0.004",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-0.005",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-0.006",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-0.007",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-0.008",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-0.009",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-1",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-1.001",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-1.002",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-1.003",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-1.004",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-1.005",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-1.006",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-1.007",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-1.008",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-1.009",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-2",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-2.001",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-2.002",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-2.003",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-2.004",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-2.005",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-2.006",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-2.007",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-2.008",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture-2.009",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    }
+  ],
+  "animationActions": 0
+}

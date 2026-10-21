@@ -1,0 +1,7 @@
+{
+  "apiVersion": "1",
+  "id": "qf17-visual-prop",
+  "version": "0.1.0",
+  "label": "QF 17磅炮 Mk I / Mk I炮架 · 静态外观游戏资产",
+  "entry": "./definition.mjs"
+}

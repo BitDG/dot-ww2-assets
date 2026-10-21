@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "dotVersion": "0.6.0",
+  "scope": "isolated real unified workbench entry, not whole repository build",
+  "includesFinalProjectedFit": true,
+  "assets": [
+    {
+      "source": "modules/qf25-visual-prop/assets/QF25-Q2-geometry.glb",
+      "artifact": ".runtime/final-unified-build/assets/QF25-Q2-geometry-BluJoDkZ.glb",
+      "sha256": "69ba1127753c21e64aac45d98f0ff02fa7868020b483ac182b7225ce91364251",
+      "byteIdentical": true
+    },
+    {
+      "source": "modules/qf25-visual-prop/assets/QF25-Q2-low.glb",
+      "artifact": ".runtime/final-unified-build/assets/QF25-Q2-low-CLtIXmQV.glb",
+      "sha256": "f7422f7c04915a3cf4ccab8f92d873339e113f88e2e4d8ae7f5d9357fbb588fa",
+      "byteIdentical": true
+    },
+    {
+      "source": "modules/qf25-visual-prop/assets/QF25-Q2-high.glb",
+      "artifact": ".runtime/final-unified-build/assets/QF25-Q2-high-Ch3fVtxz.glb",
+      "sha256": "49a5f536f5941d82b5a428416bc9da4991e874ef5de156c830a42fdd4570ca06",
+      "byteIdentical": true
+    },
+    {
+      "source": "modules/flakzwilling43-visual-prop/assets/FZ43-F2-high.glb",
+      "artifact": ".runtime/final-unified-build/assets/FZ43-F2-high-CEZjspmx.glb",
+      "sha256": "4199b7a5f700fce25f33a14476d19ecce7ea844be5f6b40d9067a8acc6915a74",
+      "byteIdentical": true
+    },
+    {
+      "source": "modules/flakzwilling43-visual-prop/assets/FZ43-F2-geometry.glb",
+      "artifact": ".runtime/final-unified-build/assets/FZ43-F2-geometry-opN2Ds-d.glb",
+      "sha256": "4f1d831d1deb439bccbd3d4686cb5c71184ec3fbb7828793b064d79b31223aa4",
+      "byteIdentical": true
+    },
+    {
+      "source": "modules/flakzwilling43-visual-prop/assets/FZ43-F2-low.glb",
+      "artifact": ".runtime/final-unified-build/assets/FZ43-F2-low-FtZgyZCa.glb",
+      "sha256": "78686e356e48a2c7ee14e2fc02a7587b7e040fd1631a071ec59d1252c18abc6d",
+      "byteIdentical": true
+    }
+  ]
+}

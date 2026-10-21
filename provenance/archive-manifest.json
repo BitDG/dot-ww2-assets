@@ -1,0 +1,44 @@
+[
+  {
+    "path": "archive/k5/README-provenance.md",
+    "sourcePath": "modules/k5-railway-prop/references/README-provenance.md",
+    "commit": "dab71c83f2ce9c928d9c4c8b79e3a414b0c11118",
+    "sha256": "4460fc9a449df4c002dd4e826fe2e043cb17b7a5437bc3d5fc477c94501d2b4f"
+  },
+  {
+    "path": "archive/k5/k5-six-exterior-details.png",
+    "sourcePath": "modules/k5-railway-prop/references/k5-six-exterior-details.png",
+    "commit": "dab71c83f2ce9c928d9c4c8b79e3a414b0c11118",
+    "sha256": "ba9f04923e7b5d9e59a5e13ef7a34077ab8d95c19a1cccc5eab36bbb04615cba"
+  },
+  {
+    "path": "archive/k5/k5-three-view-v2.png",
+    "sourcePath": "modules/k5-railway-prop/references/k5-three-view-v2.png",
+    "commit": "dab71c83f2ce9c928d9c4c8b79e3a414b0c11118",
+    "sha256": "ce6164eaa5342c5e6f9126baf4aa7658327425ba6bee6d1f17ff1b660ac2b1a0"
+  },
+  {
+    "path": "archive/k5/six-details-prompt.txt",
+    "sourcePath": "modules/k5-railway-prop/references/six-details-prompt.txt",
+    "commit": "dab71c83f2ce9c928d9c4c8b79e3a414b0c11118",
+    "sha256": "fc29d54e979598b6bd82c9c0b3ed036bb9d9505d6bece07e94a4b6cbc29abd1f"
+  },
+  {
+    "path": "archive/k5/three-view-correction-prompt.txt",
+    "sourcePath": "modules/k5-railway-prop/references/three-view-correction-prompt.txt",
+    "commit": "dab71c83f2ce9c928d9c4c8b79e3a414b0c11118",
+    "sha256": "0c4687e424da3413c3c2a305d2646289590ec091acdbdf3bb3209fd06924d028"
+  },
+  {
+    "path": "archive/k5/three-view-prompt.txt",
+    "sourcePath": "modules/k5-railway-prop/references/three-view-prompt.txt",
+    "commit": "dab71c83f2ce9c928d9c4c8b79e3a414b0c11118",
+    "sha256": "7884ce0fb7f61b89117202720b7d3b98ce1f99b67d4d7cf110443468b7e93a1b"
+  },
+  {
+    "path": "archive/k5/catalog-source-claim.json",
+    "sourcePath": "modules/dot-model-generator/source-models/k5-railway-prop.model-source.json",
+    "commit": "6423b1aacb94a1fd71bb9d9ad9b6de16aba4c082",
+    "sha256": "ac918e5df8b2d61fa665c08bc935396addda7071045581f58fdefc58aec76482"
+  }
+]

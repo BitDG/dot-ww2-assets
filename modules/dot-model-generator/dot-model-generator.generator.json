@@ -1,0 +1,12 @@
+{
+  "apiVersion": "1",
+  "id": "dot-model-generator",
+  "version": "0.9.0",
+  "label": "dot 模型生成器",
+  "entry": "./definition.mjs",
+  "notes": "统一模型入口；原有已接入模型保留各自参数、材质、配方与静态GLB，并已通过Firefox运行验收。QF25 Q2提供预览专用牵引滚动与局部烟云；Flakzwilling 43 F2提供朝向展示与艺术烟云，不代表真实发射顺序或性能。K5保持源码阶段，不开放生成。运行验收不等同于历史复刻或视觉评分。 BM13 B6新增静态三档资产、八组部件与PGF共享材质；Node静态与真实Firefox统一工作台运行已验，不含运动或发射动画。 QF17 Q6已冻结并接入独立静态外观参数；已通过共享Firefox程序和可见窗口验收，动画保持未提供。 Land Mattress L3已冻结独立静态三档和5×6外观合同；Firefox统一工作台运行已验，动画未提供。",
+  "workbench": {
+    "category": "machines",
+    "entry": "./workbench.js"
+  }
+}

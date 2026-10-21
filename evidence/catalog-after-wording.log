@@ -1,0 +1,16 @@
+✔ stable catalog contains eleven adapters with separate runtime verification and one unavailable source (4.999211ms)
+✔ native recipes remain untouched and cannot cross model schemas (4.845683ms)
+✔ workspace snapshots use isolated native slots and reject unknown/malformed data (1.541037ms)
+✔ manifest is module-owned and has the standard automatic workbench entry (11.631615ms)
+✔ authored N41 adapter does not pretend to rebuild geometry or export animation (0.859345ms)
+✔ QF25 fixed art uses shared material and preview-only tow/smoke without removed-cloth controls (0.344366ms)
+✔ Flakzwilling art preview does not claim driving or historical firing footage (0.239199ms)
+✔ BM13 is a separate fixed static art entry with no inherited Firefox or animation claim (0.290467ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 140.366968

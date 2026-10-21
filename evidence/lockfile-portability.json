@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "localLinks": [],
+  "packages": 61,
+  "installedNewPackages": false,
+  "method": "Regenerated package-lock metadata with local node_modules symlink temporarily absent; registry integrity hashes retained"
+}

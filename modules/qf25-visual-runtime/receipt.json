@@ -1,0 +1,71 @@
+{
+  "task_id": "qf25-visual-runtime",
+  "stage": "R4-Q2",
+  "status": "node-and-real-asset-validated-browser-pending",
+  "version": "R4",
+  "testCounts": {
+    "fixture": 10,
+    "actualSourceGLB": 2,
+    "actualPGF": 2,
+    "totalPassed": 14
+  },
+  "staticSourceHash": "69ba1127753c21e64aac45d98f0ff02fa7868020b483ac182b7225ce91364251",
+  "modifiedOnly": "modules/qf25-visual-runtime",
+  "sharedUIEdited": false,
+  "githubWrites": false,
+  "browserOperated": false,
+  "remaining": [
+    "Parent-assigned PGF browser integration visual/lifecycle QA"
+  ],
+  "entry": "index.mjs:createQf25VisualRuntime",
+  "methods": [
+    "play(tow|fire)",
+    "pause",
+    "seek",
+    "reset",
+    "setActive",
+    "update",
+    "bounds",
+    "diagnostics",
+    "dispose"
+  ],
+  "adapterVersion": "1.1.0",
+  "sourceStage": "Q2",
+  "verifiedAt": "2026-10-12T09:19:38Z",
+  "latestTestLog": "evidence/q2-all-tests.tap",
+  "runtimeImplementationChanged": false,
+  "borrowedResourceDisposals": 0,
+  "documentationScope": "README/interface-proposal remain historical R3/Q1; this receipt and Q2 evidence define current verified stage",
+  "staticOutputCrossCheck": {
+    "status": "resolved: distinct recipes and scene wrappers; both hashes independently checked",
+    "traceability": "qf25-production/q2/receipts/Q2-output-traceability.json",
+    "artReview": {
+      "path": "qf25-production/q2/assets/QF25-Q2-PGF-original.glb",
+      "sha256": "2b1bffc9747d678569ec21b0cd536228b3cec378367f3f5366a82a2ea28a99c2",
+      "seed": "qf25-q2-art",
+      "instanceId": "q2",
+      "contentHash": "q2"
+    },
+    "adapterAcceptance": {
+      "path": "modules/qf25-visual-prop/evidence/default-static.glb",
+      "sha256": "e3fb44b09dda2d0c226f44985d09c8302c73877d6789561434efe7c3db1254b4",
+      "seed": "qf25-pgf-acceptance-1",
+      "instanceId": "qf25-visual-prop (asset.id)",
+      "contentHash": "qf25"
+    }
+  },
+  "runtimeTestRecipe": {
+    "seed": "qf25-runtime-pgf-acceptance",
+    "sceneWrapper": {
+      "instanceId": "qf25",
+      "contentHash": "qf25",
+      "assetContentHash": "qf25"
+    },
+    "writer": "writeSceneGLB",
+    "writerOptions": {
+      "preserveSemantics": true
+    },
+    "variantsReport": "evidence/actual-asset-report.json",
+    "note": "These fresh test exports are distinct from both art-review and adapter-acceptance outputs. Each is checked byte-identical before and after runtime playback."
+  }
+}

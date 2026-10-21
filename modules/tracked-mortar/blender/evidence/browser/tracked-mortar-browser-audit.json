@@ -1,0 +1,251 @@
+{
+  "before": {
+    "recipe": {
+      "format": "PGF.ComponentRecipe",
+      "version": 1,
+      "generator": "tracked-mortar",
+      "seed": "pgf-components-1",
+      "params": {
+        "camoPattern": "auto",
+        "camoEnvironment": "urban",
+        "camoScale": 1.6,
+        "paintColor": "#a2aaaf",
+        "length": 12,
+        "elevation": 0,
+        "barrelScale": 1.15,
+        "weathering": 0.65,
+        "detail": "high",
+        "railings": true,
+        "exploded": 0
+      }
+    },
+    "diagnostics": {
+      "frames": 80,
+      "pending": false,
+      "active": true,
+      "disposed": false,
+      "renderWorker": true,
+      "contextLost": false,
+      "geometries": 21,
+      "textures": 15,
+      "workerTerminated": false,
+      "renderRPC": 0,
+      "busy": false,
+      "exporting": false,
+      "invalidEdit": false,
+      "worker": false,
+      "exportWorker": false,
+      "stats": {
+        "triangles": 109900,
+        "renderedTriangles": 109900,
+        "drawCalls": 21,
+        "bytes": 5781656,
+        "texturePixels": 983040,
+        "meshes": 21,
+        "nodes": 30,
+        "generationMs": 2076
+      },
+      "operation": 41,
+      "assetSeed": "pgf-components-1"
+    },
+    "renderer": {
+      "frames": 80,
+      "pending": false,
+      "active": true,
+      "disposed": false,
+      "renderWorker": true,
+      "contextLost": false,
+      "geometries": 21,
+      "textures": 15,
+      "maxX": 0.7861481891088153,
+      "maxY": 0.539835001762185,
+      "camera": {
+        "position": [
+          14.61373151745927,
+          10.627871547428088,
+          18.838695186460004
+        ],
+        "target": [
+          0,
+          2.277167823165655,
+          0.04961180686950683
+        ],
+        "aspect": 0.8369098712446352,
+        "near": 0.13125873047698566,
+        "far": 38.35135730073119
+      }
+    },
+    "asset": {
+      "bounds": {
+        "min": [
+          -1.8450000286102295,
+          0.03199999779462814,
+          -5.834887504577637
+        ],
+        "max": [
+          1.8450000286102295,
+          4.522335648536682,
+          5.93411111831665
+        ]
+      },
+      "materials": 6,
+      "textures": 15,
+      "sockets": 3,
+      "colliders": 1,
+      "visualRevision": "blender-clean-topology-tank-finish-1",
+      "materialSource": "PGF tank portable-vehicle-finish / existing turret-surface-materials",
+      "camouflage": {
+        "pattern": "urbanblock",
+        "environment": "urban",
+        "colors": [
+          "#6e716f",
+          "#494c4b",
+          "#8b8d8b",
+          "#303233"
+        ],
+        "scale": 1.6,
+        "source": "Existing PGF tank bakePgfCamo painter"
+      },
+      "source": {
+        "method": "Blender MCP authored reusable exterior kit",
+        "primary": "supplied grey side/top/opposite-side image",
+        "secondary": "AI-generated front/side/top sheet",
+        "fidelity": "unscored visual approximation",
+        "hiddenSurfaces": "inferred; AI front is not measured",
+        "dimensions": "game-art proportions, not manufacturing measurements",
+        "sourceGLBSha256": "1a06ab665eb85937f7b00646dbe57cc864d1df14c63eb1041071868fa117e5ac"
+      }
+    },
+    "viewport": {
+      "width": 1364,
+      "height": 1024,
+      "scrollWidth": 1364
+    },
+    "scope": "Actual PGF shell/workbench/Worker/renderer, restricted two-entry preview registry; not a complete application build"
+  },
+  "after": {
+    "recipe": {
+      "format": "PGF.ComponentRecipe",
+      "version": 1,
+      "generator": "tracked-mortar",
+      "seed": "pgf-components-1",
+      "params": {
+        "camoPattern": "auto",
+        "camoEnvironment": "urban",
+        "camoScale": 1.6,
+        "paintColor": "#a2aaaf",
+        "length": 12,
+        "elevation": 0,
+        "barrelScale": 1.15,
+        "weathering": 0.65,
+        "detail": "high",
+        "railings": true,
+        "exploded": 0
+      }
+    },
+    "diagnostics": {
+      "frames": 80,
+      "pending": false,
+      "active": true,
+      "disposed": false,
+      "renderWorker": true,
+      "contextLost": false,
+      "geometries": 21,
+      "textures": 15,
+      "workerTerminated": false,
+      "renderRPC": 0,
+      "busy": false,
+      "exporting": false,
+      "invalidEdit": false,
+      "worker": false,
+      "exportWorker": false,
+      "stats": {
+        "triangles": 109900,
+        "renderedTriangles": 109900,
+        "drawCalls": 21,
+        "bytes": 5781656,
+        "texturePixels": 983040,
+        "meshes": 21,
+        "nodes": 30,
+        "generationMs": 2076
+      },
+      "operation": 41,
+      "assetSeed": "pgf-components-1"
+    },
+    "renderer": {
+      "frames": 80,
+      "pending": false,
+      "active": true,
+      "disposed": false,
+      "renderWorker": true,
+      "contextLost": false,
+      "geometries": 21,
+      "textures": 15,
+      "maxX": 0.7861481891088153,
+      "maxY": 0.539835001762185,
+      "camera": {
+        "position": [
+          14.61373151745927,
+          10.627871547428088,
+          18.838695186460004
+        ],
+        "target": [
+          0,
+          2.277167823165655,
+          0.04961180686950683
+        ],
+        "aspect": 0.8369098712446352,
+        "near": 0.13125873047698566,
+        "far": 38.35135730073119
+      }
+    },
+    "asset": {
+      "bounds": {
+        "min": [
+          -1.8450000286102295,
+          0.03199999779462814,
+          -5.834887504577637
+        ],
+        "max": [
+          1.8450000286102295,
+          4.522335648536682,
+          5.93411111831665
+        ]
+      },
+      "materials": 6,
+      "textures": 15,
+      "sockets": 3,
+      "colliders": 1,
+      "visualRevision": "blender-clean-topology-tank-finish-1",
+      "materialSource": "PGF tank portable-vehicle-finish / existing turret-surface-materials",
+      "camouflage": {
+        "pattern": "urbanblock",
+        "environment": "urban",
+        "colors": [
+          "#6e716f",
+          "#494c4b",
+          "#8b8d8b",
+          "#303233"
+        ],
+        "scale": 1.6,
+        "source": "Existing PGF tank bakePgfCamo painter"
+      },
+      "source": {
+        "method": "Blender MCP authored reusable exterior kit",
+        "primary": "supplied grey side/top/opposite-side image",
+        "secondary": "AI-generated front/side/top sheet",
+        "fidelity": "unscored visual approximation",
+        "hiddenSurfaces": "inferred; AI front is not measured",
+        "dimensions": "game-art proportions, not manufacturing measurements",
+        "sourceGLBSha256": "1a06ab665eb85937f7b00646dbe57cc864d1df14c63eb1041071868fa117e5ac"
+      }
+    },
+    "viewport": {
+      "width": 1364,
+      "height": 1024,
+      "scrollWidth": 1364
+    },
+    "scope": "Actual PGF shell/workbench/Worker/renderer, restricted two-entry preview registry; not a complete application build"
+  },
+  "idleFramesDelta": 0
+}

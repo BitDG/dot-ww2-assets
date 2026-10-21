@@ -1,0 +1,12 @@
+{
+  "apiVersion": "1",
+  "id": "nebelwerfer41-visual-prop",
+  "version": "1.0.1",
+  "label": "Nebelwerfer 41 · 外观美术资产",
+  "entry": "./definition.mjs",
+  "workbench": {
+    "category": "machines",
+    "entry": "./workbench.js",
+    "collectionId": "dot-model-generator"
+  }
+}

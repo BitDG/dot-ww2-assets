@@ -1,0 +1,56 @@
+{
+  "module": "nebelwerfer41-launch-runtime",
+  "version": "1.0.1-hosted",
+  "sourceCheckpoint": "N4-runtime-20261012T0403Z",
+  "sourceVersion": "0.4.2-runtime",
+  "sourceArchiveSha256": "89787a8b90e19dba6c384d383f7634379fd9af8a111d32b5bcd0889d81a238db",
+  "sourceVerification": "Byte-identical portable source references; no alternate choreography or FX implementation",
+  "files": [
+    {
+      "path": "n4-source/sequence-core.mjs",
+      "source": "src/sequence-core.mjs",
+      "sha256": "f86986e4b96ce8e3b2500f7300406f1e92c38c6c939200ca002a49878d4e0341"
+    },
+    {
+      "path": "n4-source/pgf-fx-adapter.mjs",
+      "source": "src/pgf-fx-adapter.mjs",
+      "sha256": "77aa818302bd163736fd587ba829678a7ae8702b70a7a67faf87a785d0298e3c"
+    },
+    {
+      "path": "assets/stage-comet.glb",
+      "source": "assets/stage-comet.glb",
+      "sha256": "8fc49710fc0cbfb4f8ad9072693d98c6f0529164823a527a484b2d350740a8af"
+    }
+  ],
+  "sharedRuntime": [
+    {
+      "path": "../combat-fx/runtime/tank-shot-effects.mjs",
+      "sha256": "2ed5f1b3945ac9e8a34e79f81ab34f1f74cdf15350a65bf5f077dacee9fc0f85"
+    },
+    {
+      "path": "../combat-fx/runtime/visual-effects-config.mjs",
+      "sha256": "d2b48b0ff901ede77abd5325c8a9fa28df2d333bfade3431222de2c4e6b9447c"
+    },
+    {
+      "path": "../combat-fx/runtime/volume-particle-material.mjs",
+      "sha256": "d7b517adcdbd15415197891e7ee6b87f1e8202e698aba71682b9655a93a786d1"
+    },
+    {
+      "path": "../combat-fx/runtime/scene-weather.mjs",
+      "sha256": "d5b3b01389b559dd2c153ee3e77f8a6f8c24ce73750d2b5d3bf70d9b45d47103"
+    }
+  ],
+  "hostAssetBaseline": "N5-exterior-adapter-20261012T0354Z / nebelwerfer41-visual-prop 1.0.1",
+  "hostAssetOwnership": "Borrowed scene, object, AssetIR, geometry, materials and textures; host alone disposes them",
+  "runtimeOwnership": "One transient root outside the asset hierarchy, six cloned authored art projectiles, original shared PGFCombatFX instance",
+  "validation": {
+    "node": "passed",
+    "unifiedHostBrowser": "passed: D4 Firefox 157, 105/105 checks, no browser or shader errors",
+    "browserEvidence": {
+      "path": "evidence/d4-host-browser-report.json",
+      "sha256": "b919120593f2c9a82d8b9e6a9d1b6afed3cf66315783fb14e36bd037075bfa24",
+      "scope": "Original PGF single viewport; N41 six art cues and actual PGF FX, pause/hide/reset, missing tube cluster, static exports, repeated-route cache stability, final disposal"
+    }
+  },
+  "publication": "No GitHub or deployment action performed"
+}

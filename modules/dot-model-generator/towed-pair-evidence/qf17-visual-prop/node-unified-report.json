@@ -1,0 +1,94 @@
+{
+  "assetId": "qf17-visual-prop",
+  "status": "passed",
+  "checks": [
+    "single native schema/defaults delegated",
+    "low actual unified/native byte equivalence and GLB readback",
+    "medium actual unified/native byte equivalence and GLB readback",
+    "high actual unified/native byte equivalence and GLB readback",
+    "pre-aborted unified generation rejected"
+  ],
+  "exports": {
+    "low": {
+      "sha256": "7bbc53430e1316e1d73bd66cb5f52f1d8448b0d93a8245a13cf0e0fe26d607f3",
+      "bytes": 726332,
+      "stats": {
+        "triangles": 24944,
+        "renderedTriangles": 24944,
+        "vertices": 25836,
+        "instances": 23,
+        "draws": 23,
+        "bytes": 1181842,
+        "nodes": 34,
+        "meshes": 23,
+        "textures": 3,
+        "materials": 6,
+        "dimensions": [
+          3.3299999237060547,
+          1.9662867188453674,
+          8.380000352859497
+        ]
+      },
+      "source": {
+        "kind": "Blender MCP exterior with reused PGF tire geometry",
+        "sha256": "2a154b3f8ee14df4cf02a0326808219296a68ae8d4a487c9e227274262bceb2b",
+        "stage": "Q6",
+        "quality": "low"
+      }
+    },
+    "medium": {
+      "sha256": "ea01ebf501a2b5888b63d33450d51ad24ebafc12f26d554cee020733b83e95f8",
+      "bytes": 1434704,
+      "stats": {
+        "triangles": 50776,
+        "renderedTriangles": 50776,
+        "vertices": 46212,
+        "instances": 24,
+        "draws": 24,
+        "bytes": 2203167,
+        "nodes": 35,
+        "meshes": 24,
+        "textures": 3,
+        "materials": 6,
+        "dimensions": [
+          3.3299999237060547,
+          1.9662867188453674,
+          8.380000352859497
+        ]
+      },
+      "source": {
+        "kind": "Blender MCP exterior with reused PGF tire geometry",
+        "sha256": "6a786420f3bb9bc7383d4b6703c48d2708ca9f0d9fcb18c74ee9bad80313c115",
+        "stage": "Q6",
+        "quality": "medium"
+      }
+    },
+    "high": {
+      "sha256": "6cf20ff9ccfa5aa660f87b865fd4b674cb7e7a8dc2852763126783e9fb38b4d0",
+      "bytes": 2656776,
+      "stats": {
+        "triangles": 101224,
+        "renderedTriangles": 101224,
+        "vertices": 81897,
+        "instances": 24,
+        "draws": 24,
+        "bytes": 3950463,
+        "nodes": 35,
+        "meshes": 24,
+        "textures": 3,
+        "materials": 6,
+        "dimensions": [
+          3.3299999237060547,
+          1.9662867188453674,
+          8.380000352859497
+        ]
+      },
+      "source": {
+        "kind": "Blender MCP exterior with reused PGF tire geometry",
+        "sha256": "4cd7cc6372760f9832438c22eebd76e199aafb0a75398b547cc5deaa22651ee7",
+        "stage": "Q6",
+        "quality": "high"
+      }
+    }
+  }
+}

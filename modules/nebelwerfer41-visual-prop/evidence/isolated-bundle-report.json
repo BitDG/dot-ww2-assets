@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "version": "1.0.1",
+  "build": "Isolated Vite browser Worker library build",
+  "runtime": "Executed emitted bundle in Node with browser Worker message contract; not real browser QA",
+  "source": "Vite-emitted static asset URL",
+  "stats": {
+    "triangles": 30444,
+    "renderedTriangles": 30444,
+    "drawCalls": 109,
+    "bytes": 2200140,
+    "texturePixels": 786432,
+    "meshes": 109,
+    "nodes": 115
+  }
+}

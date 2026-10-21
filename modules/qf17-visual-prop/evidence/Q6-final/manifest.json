@@ -1,0 +1,48 @@
+{
+  "stage": "Q6-final-actual-PGF-renders",
+  "status": "render-evidence-complete-core-unchanged",
+  "files": [
+    {
+      "path": "QF17-Q6-PGF-hero.png",
+      "bytes": 1061639,
+      "sha256": "840d1f47096dfae67bd07c19147ca5c6494e887c639c436f4838e2cce5670108",
+      "suggestedRepoPath": "modules/qf17-visual-prop/evidence/Q6-final/QF17-Q6-PGF-hero.png"
+    },
+    {
+      "path": "QF17-Q6-PGF-six-details.png",
+      "bytes": 1920087,
+      "sha256": "62de4714e621fcc889383523c0698f9e943b9cf6663e3bf481a2fba5c31bab3e",
+      "suggestedRepoPath": "modules/qf17-visual-prop/evidence/Q6-final/QF17-Q6-PGF-six-details.png"
+    },
+    {
+      "path": "QF17-Q6-PGF-three-view.png",
+      "bytes": 1432782,
+      "sha256": "4b006b7106c1d9f49d6e38fa36a4380ebb46f90ff1e725b065bd0fdce0f5975e",
+      "suggestedRepoPath": "modules/qf17-visual-prop/evidence/Q6-final/QF17-Q6-PGF-three-view.png"
+    },
+    {
+      "path": "QF17-Q6-final-render-evidence.zip",
+      "bytes": 14026483,
+      "sha256": "0e18a32d25a387339e369ab282396c2e9e217479ecc2198ff3209c12334a654a",
+      "suggestedRepoPath": "modules/qf17-visual-prop/evidence/Q6-final/QF17-Q6-final-render-evidence.zip"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 1001,
+      "sha256": "407e1be6e64e2ef85aeae13e3f19f356f2ccd4f24b94b49fb5270fbd84116234",
+      "suggestedRepoPath": "modules/qf17-visual-prop/evidence/Q6-final/README.zh-CN.md"
+    },
+    {
+      "path": "actual-render-verification.json",
+      "bytes": 11726,
+      "sha256": "400cb5698baa70d291a3d2960f0d2817707c60a1faeb3da2d4d2927f4a34f1f2",
+      "suggestedRepoPath": "modules/qf17-visual-prop/evidence/Q6-final/actual-render-verification.json"
+    },
+    {
+      "path": "render-plan.json",
+      "bytes": 4169,
+      "sha256": "58c4f60d974f91575169b2dff6221f9ed651748e82ede8058ab30984cd03ad41",
+      "suggestedRepoPath": "modules/qf17-visual-prop/evidence/Q6-final/render-plan.json"
+    }
+  ]
+}

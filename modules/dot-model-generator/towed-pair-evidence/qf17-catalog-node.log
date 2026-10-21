@@ -1,0 +1,35 @@
+✔ all runnable catalog models preserve isolated recipes across repeated switching (15.735085ms)
+✔ reference-armored-car: canceled replacement retains successful asset and discards stale completion (0.656949ms)
+✔ tracked-mortar: canceled replacement retains successful asset and discards stale completion (0.220472ms)
+✔ gustav-visual-prop: canceled replacement retains successful asset and discards stale completion (0.233952ms)
+✔ diesel-locomotive: canceled replacement retains successful asset and discards stale completion (0.355184ms)
+✔ armored-4x4: canceled replacement retains successful asset and discards stale completion (0.230066ms)
+✔ nebelwerfer41-visual-prop: canceled replacement retains successful asset and discards stale completion (0.214933ms)
+✔ qf25-visual-prop: canceled replacement retains successful asset and discards stale completion (0.177597ms)
+✔ flakzwilling43-visual-prop: canceled replacement retains successful asset and discards stale completion (0.178098ms)
+✔ bm13-us6-visual-prop: canceled replacement retains successful asset and discards stale completion (4.058817ms)
+✔ qf17-visual-prop: canceled replacement retains successful asset and discards stale completion (0.257828ms)
+✔ stable catalog contains ten adapters with separate runtime verification and one unavailable source (9.9695ms)
+✔ native recipes remain untouched and cannot cross model schemas (1.218974ms)
+✔ workspace snapshots use isolated native slots and reject unknown/malformed data (2.013709ms)
+✔ manifest is module-owned and has the standard automatic workbench entry (16.565185ms)
+✔ authored N41 adapter does not pretend to rebuild geometry or export animation (0.523798ms)
+✔ QF25 fixed art uses shared material and preview-only tow/smoke without removed-cloth controls (0.266852ms)
+✔ Flakzwilling art preview does not claim driving or historical firing footage (0.19942ms)
+✔ BM13 is a separate fixed static art entry with no inherited Firefox or animation claim (0.154803ms)
+✔ generic collection collapses navigation without mutating registry or IDs (6.077364ms)
+✔ future metadata-only members automatically join parent search and count once (0.207832ms)
+✔ missing parent, cycles and self-reference do not hide inaccessible tools (0.182335ms)
+✔ nested valid collections project to the outermost visible parent (0.135764ms)
+✔ five already registered model manifests declare the same collection without deleting routes (40.234257ms)
+✔ single workbench uses one shared preview, one schema inspector, no nested mounts (6.301592ms)
+✔ animation panel avoids the host automatic section wrapping and tab arrows skip hidden groups (0.889078ms)
+✔ shared color enhancement stays compact inside the unified inspector (0.501214ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 265.538213

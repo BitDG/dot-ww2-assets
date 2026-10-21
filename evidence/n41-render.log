@@ -1,0 +1,750 @@
+10:50:45 | INFO: Data are loaded, start creating Blender stuff
+10:50:45 | INFO: Blender create Mesh node mesh-0
+10:50:45 | INFO: Blender create Mesh node mesh-1
+10:50:45 | INFO: Blender create Mesh node mesh-2
+10:50:45 | INFO: Blender create Mesh node mesh-3
+10:50:45 | INFO: Blender create Mesh node mesh-4
+10:50:45 | INFO: Blender create Mesh node mesh-5
+10:50:45 | INFO: Blender create Mesh node mesh-6
+10:50:45 | INFO: Blender create Mesh node mesh-7
+10:50:45 | INFO: Blender create Mesh node mesh-8
+10:50:45 | INFO: Blender create Mesh node mesh-9
+10:50:45 | INFO: Blender create Mesh node mesh-10
+10:50:45 | INFO: Blender create Mesh node mesh-11
+10:50:45 | INFO: Blender create Mesh node mesh-12
+10:50:45 | INFO: Blender create Mesh node mesh-13
+10:50:45 | INFO: Blender create Mesh node mesh-14
+10:50:45 | INFO: Blender create Mesh node mesh-15
+10:50:45 | INFO: Blender create Mesh node mesh-16
+10:50:45 | INFO: Blender create Mesh node mesh-17
+10:50:45 | INFO: Blender create Mesh node mesh-18
+10:50:45 | INFO: Blender create Mesh node mesh-19
+10:50:45 | INFO: Blender create Mesh node mesh-20
+10:50:45 | INFO: Blender create Mesh node mesh-21
+10:50:45 | INFO: Blender create Mesh node mesh-22
+10:50:45 | INFO: Blender create Mesh node mesh-23
+10:50:45 | INFO: Blender create Mesh node mesh-24
+10:50:45 | INFO: Blender create Mesh node mesh-25
+10:50:45 | INFO: Blender create Mesh node mesh-26
+10:50:45 | INFO: Blender create Mesh node mesh-27
+10:50:45 | INFO: Blender create Mesh node mesh-28
+10:50:45 | INFO: Blender create Mesh node mesh-29
+10:50:45 | INFO: Blender create Mesh node mesh-30
+10:50:45 | INFO: Blender create Mesh node mesh-31
+10:50:45 | INFO: Blender create Mesh node mesh-32
+10:50:45 | INFO: Blender create Mesh node mesh-33
+10:50:45 | INFO: Blender create Mesh node mesh-34
+10:50:45 | INFO: Blender create Mesh node mesh-35
+10:50:45 | INFO: Blender create Mesh node mesh-36
+10:50:45 | INFO: Blender create Mesh node mesh-37
+10:50:45 | INFO: Blender create Mesh node mesh-38
+10:50:45 | INFO: Blender create Mesh node mesh-39
+10:50:45 | INFO: Blender create Mesh node mesh-40
+10:50:45 | INFO: Blender create Mesh node mesh-41
+10:50:45 | INFO: Blender create Mesh node mesh-42
+10:50:45 | INFO: Blender create Mesh node mesh-43
+10:50:45 | INFO: Blender create Mesh node mesh-44
+10:50:45 | INFO: Blender create Mesh node mesh-45
+10:50:45 | INFO: Blender create Mesh node mesh-46
+10:50:45 | INFO: Blender create Mesh node mesh-47
+10:50:45 | INFO: Blender create Mesh node mesh-48
+10:50:45 | INFO: Blender create Mesh node mesh-49
+10:50:45 | INFO: Blender create Mesh node mesh-50
+10:50:45 | INFO: Blender create Mesh node mesh-51
+10:50:45 | INFO: Blender create Mesh node mesh-52
+10:50:45 | INFO: Blender create Mesh node mesh-53
+10:50:45 | INFO: Blender create Mesh node mesh-54
+10:50:45 | INFO: Blender create Mesh node mesh-55
+10:50:45 | INFO: Blender create Mesh node mesh-56
+10:50:45 | INFO: Blender create Mesh node mesh-57
+10:50:45 | INFO: Blender create Mesh node mesh-58
+10:50:45 | INFO: Blender create Mesh node mesh-59
+10:50:45 | INFO: Blender create Mesh node mesh-60
+10:50:45 | INFO: Blender create Mesh node mesh-61
+10:50:45 | INFO: Blender create Mesh node mesh-62
+10:50:45 | INFO: Blender create Mesh node mesh-63
+10:50:45 | INFO: Blender create Mesh node mesh-64
+10:50:45 | INFO: Blender create Mesh node mesh-65
+10:50:45 | INFO: Blender create Mesh node mesh-66
+10:50:45 | INFO: Blender create Mesh node mesh-67
+10:50:45 | INFO: Blender create Mesh node mesh-68
+10:50:45 | INFO: Blender create Mesh node mesh-69
+10:50:45 | INFO: Blender create Mesh node mesh-70
+10:50:45 | INFO: Blender create Mesh node mesh-71
+10:50:45 | INFO: Blender create Mesh node mesh-72
+10:50:45 | INFO: Blender create Mesh node mesh-73
+10:50:45 | INFO: Blender create Mesh node mesh-74
+10:50:45 | INFO: Blender create Mesh node mesh-75
+10:50:45 | INFO: Blender create Mesh node mesh-76
+10:50:45 | INFO: Blender create Mesh node mesh-77
+10:50:45 | INFO: Blender create Mesh node mesh-78
+10:50:45 | INFO: Blender create Mesh node mesh-79
+10:50:45 | INFO: Blender create Mesh node mesh-80
+10:50:45 | INFO: Blender create Mesh node mesh-81
+10:50:45 | INFO: Blender create Mesh node mesh-82
+10:50:45 | INFO: Blender create Mesh node mesh-83
+10:50:45 | INFO: Blender create Mesh node mesh-84
+10:50:45 | INFO: Blender create Mesh node mesh-85
+10:50:45 | INFO: Blender create Mesh node mesh-86
+10:50:45 | INFO: Blender create Mesh node mesh-87
+10:50:45 | INFO: Blender create Mesh node mesh-88
+10:50:45 | INFO: Blender create Mesh node mesh-89
+10:50:45 | INFO: Blender create Mesh node mesh-90
+10:50:45 | INFO: Blender create Mesh node mesh-91
+10:50:45 | INFO: Blender create Mesh node mesh-92
+10:50:45 | INFO: Blender create Mesh node mesh-93
+10:50:45 | INFO: Blender create Mesh node mesh-94
+10:50:45 | INFO: Blender create Mesh node mesh-95
+10:50:45 | INFO: Blender create Mesh node mesh-96
+10:50:45 | INFO: Blender create Mesh node mesh-97
+10:50:45 | INFO: Blender create Mesh node mesh-98
+10:50:45 | INFO: Blender create Mesh node mesh-99
+10:50:45 | INFO: Blender create Mesh node mesh-100
+10:50:45 | INFO: Blender create Mesh node mesh-101
+10:50:45 | INFO: Blender create Mesh node mesh-102
+10:50:45 | INFO: Blender create Mesh node mesh-103
+10:50:45 | INFO: Blender create Mesh node mesh-104
+10:50:45 | INFO: Blender create Mesh node mesh-105
+10:50:45 | INFO: Blender create Mesh node mesh-106
+10:50:45 | INFO: Blender create Mesh node mesh-107
+10:50:45 | INFO: Blender create Mesh node mesh-108
+10:50:45 | INFO: Blender create Mesh node mesh-109
+10:50:45 | INFO: Blender create Mesh node mesh-110
+10:50:45 | INFO: Blender create Mesh node mesh-111
+10:50:45 | INFO: Blender create Mesh node mesh-112
+10:50:45 | INFO: Blender create Mesh node mesh-113
+10:50:45 | INFO: Blender create Mesh node mesh-114
+10:50:45 | INFO: Blender create Mesh node mesh-115
+10:50:45 | INFO: Blender create Mesh node mesh-116
+10:50:45 | INFO: Blender create Mesh node mesh-117
+10:50:45 | INFO: Blender create Mesh node mesh-118
+10:50:45 | INFO: Blender create Mesh node mesh-119
+10:50:45 | INFO: Blender create Mesh node mesh-120
+10:50:45 | INFO: Blender create Mesh node mesh-121
+10:50:45 | INFO: Blender create Mesh node mesh-122
+10:50:45 | INFO: Blender create Mesh node mesh-123
+10:50:45 | INFO: Blender create Mesh node mesh-124
+10:50:45 | INFO: Blender create Mesh node mesh-125
+10:50:45 | INFO: Blender create Mesh node mesh-126
+10:50:45 | INFO: Blender create Mesh node mesh-127
+10:50:45 | INFO: Blender create Mesh node mesh-128
+10:50:45 | INFO: Blender create Mesh node mesh-129
+10:50:45 | INFO: Blender create Mesh node mesh-130
+10:50:45 | INFO: Blender create Mesh node mesh-131
+10:50:45 | INFO: Blender create Mesh node mesh-132
+10:50:45 | INFO: Blender create Mesh node mesh-133
+10:50:46 | INFO: Blender create Mesh node mesh-134
+10:50:46 | INFO: Blender create Mesh node mesh-135
+10:50:46 | INFO: Blender create Mesh node mesh-136
+10:50:46 | INFO: Blender create Mesh node mesh-137
+10:50:46 | INFO: Blender create Mesh node mesh-138
+10:50:46 | INFO: Blender create Mesh node mesh-139
+10:50:46 | INFO: Blender create Mesh node mesh-140
+10:50:46 | INFO: Blender create Mesh node mesh-141
+10:50:46 | INFO: Blender create Mesh node mesh-142
+10:50:46 | INFO: Blender create Mesh node mesh-143
+10:50:46 | INFO: Blender create Mesh node mesh-144
+10:50:46 | INFO: Blender create Mesh node mesh-145
+10:50:46 | INFO: Blender create Mesh node mesh-146
+10:50:46 | INFO: Blender create Mesh node mesh-147
+10:50:46 | INFO: Blender create Mesh node mesh-148
+10:50:46 | INFO: Blender create Mesh node mesh-149
+10:50:46 | INFO: Blender create Mesh node mesh-150
+10:50:46 | INFO: Blender create Mesh node mesh-151
+10:50:46 | INFO: Blender create Mesh node mesh-152
+10:50:46 | INFO: Blender create Mesh node mesh-153
+10:50:46 | INFO: Blender create Mesh node mesh-154
+10:50:46 | INFO: Blender create Mesh node mesh-155
+10:50:46 | INFO: Blender create Mesh node mesh-156
+10:50:46 | INFO: Blender create Mesh node mesh-157
+10:50:46 | INFO: Blender create Mesh node mesh-158
+10:50:46 | INFO: Blender create Mesh node mesh-159
+10:50:46 | INFO: Blender create Mesh node mesh-160
+10:50:46 | INFO: Blender create Mesh node mesh-161
+10:50:46 | INFO: Blender create Mesh node mesh-162
+10:50:46 | INFO: Blender create Mesh node mesh-163
+10:50:46 | INFO: Blender create Mesh node mesh-164
+10:50:46 | INFO: Blender create Mesh node mesh-165
+10:50:46 | INFO: Blender create Mesh node mesh-166
+10:50:46 | INFO: Blender create Mesh node mesh-167
+10:50:46 | INFO: Blender create Mesh node mesh-168
+10:50:46 | INFO: Blender create Mesh node mesh-169
+10:50:46 | INFO: Blender create Mesh node mesh-170
+10:50:46 | INFO: Blender create Mesh node mesh-171
+10:50:46 | INFO: Blender create Mesh node mesh-172
+10:50:46 | INFO: Blender create Mesh node mesh-173
+10:50:46 | INFO: Blender create Mesh node mesh-174
+10:50:46 | INFO: Blender create Mesh node mesh-175
+10:50:46 | INFO: Blender create Mesh node mesh-176
+10:50:46 | INFO: Blender create Mesh node mesh-177
+10:50:46 | INFO: Blender create Mesh node mesh-178
+10:50:46 | INFO: Blender create Mesh node mesh-179
+10:50:46 | INFO: Blender create Mesh node mesh-180
+10:50:46 | INFO: Blender create Mesh node mesh-181
+10:50:46 | INFO: Blender create Mesh node mesh-182
+10:50:46 | INFO: Blender create Mesh node mesh-183
+10:50:46 | INFO: Blender create Mesh node mesh-184
+10:50:46 | INFO: Blender create Mesh node mesh-185
+10:50:46 | INFO: Blender create Mesh node mesh-186
+10:50:46 | INFO: Blender create Mesh node mesh-187
+10:50:46 | INFO: Blender create Mesh node mesh-188
+10:50:46 | INFO: Blender create Mesh node mesh-189
+10:50:46 | INFO: Blender create Mesh node mesh-190
+10:50:46 | INFO: Blender create Mesh node mesh-191
+10:50:46 | INFO: Blender create Mesh node mesh-192
+10:50:46 | INFO: Blender create Mesh node mesh-193
+10:50:46 | INFO: Blender create Mesh node mesh-194
+10:50:46 | INFO: Blender create Mesh node mesh-195
+10:50:46 | INFO: Blender create Mesh node mesh-196
+10:50:46 | INFO: Blender create Mesh node mesh-197
+10:50:46 | INFO: Blender create Mesh node mesh-198
+10:50:46 | INFO: Blender create Mesh node mesh-199
+10:50:46 | INFO: Blender create Mesh node mesh-200
+10:50:46 | INFO: Blender create Mesh node mesh-201
+10:50:46 | INFO: Blender create Mesh node mesh-202
+10:50:46 | INFO: Blender create Mesh node mesh-203
+10:50:46 | INFO: Blender create Mesh node mesh-204
+10:50:46 | INFO: Blender create Mesh node mesh-205
+10:50:46 | INFO: Blender create Mesh node mesh-206
+10:50:46 | INFO: Blender create Mesh node mesh-207
+10:50:46 | INFO: Blender create Mesh node mesh-208
+10:50:46 | INFO: Blender create Mesh node mesh-209
+10:50:46 | INFO: Blender create Mesh node mesh-210
+10:50:46 | INFO: Blender create Mesh node mesh-211
+10:50:46 | INFO: Blender create Mesh node mesh-212
+10:50:46 | INFO: Blender create Mesh node mesh-213
+10:50:46 | INFO: Blender create Mesh node mesh-214
+10:50:46 | INFO: Blender create Mesh node mesh-215
+10:50:46 | INFO: Blender create Mesh node mesh-216
+10:50:46 | INFO: Blender create Mesh node mesh-217
+10:50:46 | INFO: Blender create Mesh node mesh-218
+10:50:46 | INFO: Blender create Mesh node mesh-219
+10:50:46 | INFO: Blender create Mesh node mesh-220
+10:50:46 | INFO: Blender create Mesh node mesh-221
+10:50:46 | INFO: Blender create Mesh node mesh-222
+10:50:46 | INFO: Blender create Mesh node mesh-223
+10:50:46 | INFO: Blender create Mesh node mesh-224
+10:50:46 | INFO: Blender create Mesh node mesh-225
+10:50:46 | INFO: Blender create Mesh node mesh-226
+10:50:46 | INFO: Blender create Mesh node mesh-227
+10:50:46 | INFO: Blender create Mesh node mesh-228
+10:50:46 | INFO: Blender create Mesh node mesh-229
+10:50:46 | INFO: Blender create Mesh node mesh-230
+10:50:46 | INFO: Blender create Mesh node mesh-231
+10:50:46 | INFO: Blender create Mesh node mesh-232
+10:50:46 | INFO: Blender create Mesh node mesh-233
+10:50:46 | INFO: Blender create Mesh node mesh-234
+10:50:46 | INFO: Blender create Mesh node mesh-235
+10:50:46 | INFO: Blender create Mesh node mesh-236
+10:50:46 | INFO: Blender create Mesh node mesh-237
+10:50:46 | INFO: Blender create Mesh node mesh-238
+10:50:46 | INFO: Blender create Mesh node mesh-239
+10:50:46 | INFO: Blender create Mesh node mesh-240
+10:50:46 | INFO: Blender create Mesh node mesh-241
+10:50:46 | INFO: Blender create Mesh node mesh-242
+10:50:46 | INFO: Blender create Mesh node mesh-243
+10:50:46 | INFO: Blender create Mesh node mesh-244
+10:50:46 | INFO: Blender create Mesh node mesh-245
+10:50:46 | INFO: Blender create Mesh node mesh-246
+10:50:46 | INFO: Blender create Mesh node mesh-247
+10:50:46 | INFO: Blender create Mesh node mesh-248
+10:50:46 | INFO: Blender create Mesh node mesh-249
+10:50:46 | INFO: Blender create Mesh node mesh-250
+10:50:46 | INFO: Blender create Mesh node mesh-251
+10:50:46 | INFO: Blender create Mesh node mesh-252
+10:50:46 | INFO: Blender create Mesh node mesh-253
+10:50:46 | INFO: Blender create Mesh node mesh-254
+10:50:46 | INFO: Blender create Mesh node mesh-255
+10:50:46 | INFO: Blender create Mesh node mesh-256
+10:50:46 | INFO: Blender create Mesh node mesh-257
+10:50:46 | INFO: Blender create Mesh node mesh-258
+10:50:46 | INFO: Blender create Mesh node mesh-259
+10:50:46 | INFO: Blender create Mesh node mesh-260
+10:50:46 | INFO: Blender create Mesh node mesh-261
+10:50:46 | INFO: Blender create Mesh node mesh-262
+10:50:46 | INFO: Blender create Mesh node mesh-263
+10:50:46 | INFO: Blender create Mesh node mesh-264
+10:50:46 | INFO: Blender create Mesh node mesh-265
+10:50:46 | INFO: Blender create Mesh node mesh-266
+10:50:46 | INFO: Blender create Mesh node mesh-267
+10:50:46 | INFO: Blender create Mesh node mesh-268
+10:50:46 | INFO: Blender create Mesh node mesh-269
+10:50:46 | INFO: Blender create Mesh node mesh-270
+10:50:46 | INFO: Blender create Mesh node mesh-271
+10:50:46 | INFO: Blender create Mesh node mesh-272
+10:50:46 | INFO: Blender create Mesh node mesh-273
+10:50:46 | INFO: Blender create Mesh node mesh-274
+10:50:46 | INFO: Blender create Mesh node mesh-275
+10:50:46 | INFO: Blender create Mesh node mesh-276
+10:50:46 | INFO: Blender create Mesh node mesh-277
+10:50:46 | INFO: Blender create Mesh node mesh-278
+10:50:46 | INFO: Blender create Mesh node mesh-279
+10:50:46 | INFO: Blender create Mesh node mesh-280
+10:50:46 | INFO: Blender create Mesh node mesh-281
+10:50:46 | INFO: Blender create Mesh node mesh-282
+10:50:46 | INFO: Blender create Mesh node mesh-283
+10:50:46 | INFO: Blender create Mesh node mesh-284
+10:50:46 | INFO: Blender create Mesh node mesh-285
+10:50:46 | INFO: Blender create Mesh node mesh-286
+10:50:46 | INFO: Blender create Mesh node mesh-287
+10:50:46 | INFO: Blender create Mesh node mesh-288
+10:50:46 | INFO: Blender create Mesh node mesh-289
+10:50:46 | INFO: Blender create Mesh node mesh-290
+10:50:46 | INFO: Blender create Mesh node mesh-291
+10:50:46 | INFO: Blender create Mesh node mesh-292
+10:50:46 | INFO: Blender create Mesh node mesh-293
+10:50:46 | INFO: Blender create Mesh node mesh-294
+10:50:46 | INFO: Blender create Mesh node mesh-295
+10:50:46 | INFO: Blender create Mesh node mesh-296
+10:50:46 | INFO: Blender create Mesh node mesh-297
+10:50:46 | INFO: Blender create Mesh node mesh-298
+10:50:46 | INFO: Blender create Mesh node mesh-299
+10:50:46 | INFO: Blender create Mesh node mesh-300
+10:50:46 | INFO: Blender create Mesh node mesh-301
+10:50:46 | INFO: Blender create Mesh node mesh-302
+10:50:46 | INFO: Blender create Mesh node mesh-303
+10:50:46 | INFO: Blender create Mesh node mesh-304
+10:50:46 | INFO: Blender create Mesh node mesh-305
+10:50:46 | INFO: Blender create Mesh node mesh-306
+10:50:46 | INFO: Blender create Mesh node mesh-307
+10:50:46 | INFO: Blender create Mesh node mesh-308
+10:50:46 | INFO: Blender create Mesh node mesh-309
+10:50:46 | INFO: Blender create Mesh node mesh-310
+10:50:46 | INFO: Blender create Mesh node mesh-311
+10:50:46 | INFO: Blender create Mesh node mesh-312
+10:50:46 | INFO: Blender create Mesh node mesh-313
+10:50:46 | INFO: Blender create Mesh node mesh-314
+10:50:46 | INFO: Blender create Mesh node mesh-315
+10:50:46 | INFO: Blender create Mesh node mesh-316
+10:50:46 | INFO: Blender create Mesh node mesh-317
+10:50:46 | INFO: Blender create Mesh node mesh-318
+10:50:46 | INFO: Blender create Mesh node mesh-319
+10:50:46 | INFO: Blender create Mesh node mesh-320
+10:50:46 | INFO: Blender create Mesh node mesh-321
+10:50:46 | INFO: Blender create Mesh node mesh-322
+10:50:46 | INFO: Blender create Mesh node mesh-323
+10:50:46 | INFO: Blender create Mesh node mesh-324
+10:50:46 | INFO: Blender create Mesh node mesh-325
+10:50:46 | INFO: Blender create Mesh node mesh-326
+10:50:46 | INFO: Blender create Mesh node mesh-327
+10:50:46 | INFO: Blender create Mesh node mesh-328
+10:50:46 | INFO: Blender create Mesh node mesh-329
+10:50:46 | INFO: Blender create Mesh node mesh-330
+10:50:46 | INFO: Blender create Mesh node mesh-331
+10:50:46 | INFO: Blender create Mesh node mesh-332
+10:50:46 | INFO: Blender create Mesh node mesh-333
+10:50:46 | INFO: Blender create Mesh node mesh-334
+10:50:46 | INFO: Blender create Mesh node mesh-335
+10:50:46 | INFO: Blender create Mesh node mesh-336
+10:50:46 | INFO: Blender create Mesh node mesh-337
+10:50:46 | INFO: Blender create Mesh node mesh-338
+10:50:46 | INFO: Blender create Mesh node mesh-339
+10:50:46 | INFO: Blender create Mesh node mesh-340
+10:50:46 | INFO: Blender create Mesh node mesh-341
+10:50:46 | INFO: Blender create Mesh node mesh-342
+10:50:46 | INFO: Blender create Mesh node mesh-343
+10:50:46 | INFO: Blender create Mesh node mesh-344
+10:50:46 | INFO: Blender create Mesh node mesh-345
+10:50:46 | INFO: Blender create Mesh node mesh-346
+10:50:46 | INFO: Blender create Mesh node mesh-347
+10:50:46 | INFO: Blender create Mesh node mesh-348
+10:50:46 | INFO: Blender create Mesh node mesh-349
+10:50:46 | INFO: Blender create Mesh node mesh-350
+10:50:46 | INFO: Blender create Mesh node mesh-351
+10:50:46 | INFO: Blender create Mesh node mesh-352
+10:50:46 | INFO: Blender create Mesh node mesh-353
+10:50:46 | INFO: Blender create Mesh node mesh-354
+10:50:46 | INFO: glTF import finished in 0.98s
+Blender 4.3.2
+Fra:1 Mem:54.82M (Peak 54.82M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Axle_Exterior
+Fra:1 Mem:54.83M (Peak 54.83M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Axle_Sleeve_1
+Fra:1 Mem:57.13M (Peak 57.13M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Center_Front_Rivet_-1
+Fra:1 Mem:57.15M (Peak 57.15M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Center_Front_Rivet_1
+Fra:1 Mem:57.17M (Peak 57.17M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Central_Axle_Collar
+Fra:1 Mem:57.25M (Peak 57.25M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Cradle_Upright_-1
+Fra:1 Mem:57.28M (Peak 57.28M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Cradle_Upright_1
+Fra:1 Mem:57.33M (Peak 57.33M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Faceted_Center_Cover
+Fra:1 Mem:57.44M (Peak 57.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Lower_Saddle_-1
+Fra:1 Mem:57.40M (Peak 57.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Lower_Saddle_1
+Fra:1 Mem:57.43M (Peak 57.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Pivot_Inset_Disc_-1
+Fra:1 Mem:57.47M (Peak 57.47M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Pivot_Inset_Disc_1
+Fra:1 Mem:57.49M (Peak 57.49M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Pivot_Outer_Disc_-1
+Fra:1 Mem:57.58M (Peak 57.58M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Pivot_Outer_Disc_1
+Fra:1 Mem:57.61M (Peak 57.61M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Saddle_Crossbar
+Fra:1 Mem:57.61M (Peak 57.61M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Side_Pivot_Cover_-1
+Fra:1 Mem:57.80M (Peak 57.80M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Side_Pivot_Cover_1
+Fra:1 Mem:57.87M (Peak 57.87M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Wheel_Disc_1_1
+Fra:1 Mem:58.05M (Peak 58.05M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Upright_Foot_Cover_1
+Fra:1 Mem:57.94M (Peak 58.05M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Upright_Foot_Rivet_1
+Fra:1 Mem:58.09M (Peak 58.09M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_A_Support_-1
+Fra:1 Mem:58.15M (Peak 58.15M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_A_Support_1
+Fra:1 Mem:58.25M (Peak 58.25M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_A_Support_Cross_Tie
+Fra:1 Mem:58.23M (Peak 58.25M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Front_Foot
+Fra:1 Mem:58.18M (Peak 58.25M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Front_Foot_Cover_-1
+Fra:1 Mem:58.19M (Peak 58.25M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Front_Foot_Cover_1
+Fra:1 Mem:58.22M (Peak 58.25M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Wheel_Disc_-1_1
+Fra:1 Mem:58.39M (Peak 58.39M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Front_Foot_Cover_Pin_-1
+Fra:1 Mem:58.54M (Peak 58.54M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Front_Foot_Cover_Pin_1
+Fra:1 Mem:58.52M (Peak 58.54M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Front_Foot_Top_Layer
+Fra:1 Mem:58.47M (Peak 58.54M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Wheel_Disc_-1_-1
+Fra:1 Mem:58.46M (Peak 58.54M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Foot_Connection_Cover_1
+Fra:1 Mem:58.68M (Peak 58.68M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Foot_Cover_Rivet_-1
+Fra:1 Mem:58.76M (Peak 58.76M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Foot_Cover_Rivet_1
+Fra:1 Mem:58.69M (Peak 58.76M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Foot_Top_Fastener_-1_-0073
+Fra:1 Mem:58.74M (Peak 58.76M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Wheel_Carcass_1
+Fra:1 Mem:58.87M (Peak 58.87M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Foot_Top_Fastener_-1_0073
+Fra:1 Mem:59.62M (Peak 59.62M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Foot_Top_Fastener_1_-0073
+Fra:1 Mem:59.69M (Peak 59.69M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Foot_Top_Fastener_1_0073
+Fra:1 Mem:59.63M (Peak 59.69M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Rear_Foot_-1
+Fra:1 Mem:59.63M (Peak 59.69M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Rear_Foot_1
+Fra:1 Mem:59.72M (Peak 59.72M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Rear_Foot_Top_Layer_-1
+Fra:1 Mem:59.73M (Peak 59.73M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Rear_Foot_Top_Layer_1
+Fra:1 Mem:59.72M (Peak 59.73M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Trail_Beam_-1
+Fra:1 Mem:59.74M (Peak 59.74M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Trail_Beam_1
+Fra:1 Mem:59.85M (Peak 59.85M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Trail_Root_Sleeve_-1
+Fra:1 Mem:59.84M (Peak 59.85M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Trail_Root_Sleeve_1
+Fra:1 Mem:59.84M (Peak 59.85M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Trail_Surface_Ridge_1
+Fra:1 Mem:60.35M (Peak 60.35M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Trail_Trim_Rivet_-1_024
+Fra:1 Mem:60.34M (Peak 60.35M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Trail_Trim_Rivet_-1_061
+Fra:1 Mem:60.34M (Peak 60.36M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Trail_Trim_Rivet_1_024
+Fra:1 Mem:60.41M (Peak 60.41M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Trail_Trim_Rivet_1_061
+Fra:1 Mem:60.44M (Peak 60.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Cap_Cosmetic_Pin_1_1
+Fra:1 Mem:60.47M (Peak 60.47M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Cap_Cosmetic_Pin_2_1
+Fra:1 Mem:60.51M (Peak 60.51M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Cap_Cosmetic_Pin_3_1
+Fra:1 Mem:60.49M (Peak 60.51M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Cap_Cosmetic_Pin_4_1
+Fra:1 Mem:60.54M (Peak 60.54M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Cap_Cosmetic_Pin_5_1
+Fra:1 Mem:60.60M (Peak 60.60M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Cap_Cosmetic_Pin_6_1
+Fra:1 Mem:60.63M (Peak 60.63M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Collar_Seam_1_-1
+Fra:1 Mem:60.68M (Peak 60.68M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Collar_Seam_1_1
+Fra:1 Mem:60.70M (Peak 60.70M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Collar_Seam_2_-1
+Fra:1 Mem:60.70M (Peak 60.70M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Collar_Seam_2_1
+Fra:1 Mem:60.84M (Peak 60.84M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Wheel_Carcass_-1
+Fra:1 Mem:60.84M (Peak 60.84M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Collar_Seam_3_-1
+Fra:1 Mem:61.76M (Peak 61.76M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Collar_Seam_3_1
+Fra:1 Mem:61.83M (Peak 61.83M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Collar_Seam_4_-1
+Fra:1 Mem:62.23M (Peak 62.23M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Collar_Seam_4_1
+Fra:1 Mem:62.37M (Peak 62.37M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Collar_Seam_5_-1
+Fra:1 Mem:62.27M (Peak 62.37M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Collar_Seam_5_1
+Fra:1 Mem:62.26M (Peak 62.37M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Collar_Seam_6_-1
+Fra:1 Mem:62.27M (Peak 62.37M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Collar_Seam_6_1
+Fra:1 Mem:62.54M (Peak 62.54M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Cosmetic_Collar_1_-1
+Fra:1 Mem:62.62M (Peak 62.62M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Cosmetic_Collar_1_1
+Fra:1 Mem:62.63M (Peak 62.63M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Cosmetic_Collar_2_-1
+Fra:1 Mem:62.62M (Peak 62.63M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Cosmetic_Collar_2_1
+Fra:1 Mem:62.82M (Peak 62.82M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Cosmetic_Collar_3_-1
+Fra:1 Mem:62.77M (Peak 62.82M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Cosmetic_Collar_3_1
+Fra:1 Mem:62.81M (Peak 62.82M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Sidewall_Molding_1_1
+Fra:1 Mem:62.75M (Peak 62.82M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Cosmetic_Collar_4_-1
+Fra:1 Mem:62.89M (Peak 62.89M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Cosmetic_Collar_4_1
+Fra:1 Mem:62.90M (Peak 62.90M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Cosmetic_Collar_5_-1
+Fra:1 Mem:63.14M (Peak 63.14M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Sidewall_Molding_1_-1
+Fra:1 Mem:63.17M (Peak 63.17M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Sidewall_Molding_-1_1
+Fra:1 Mem:63.19M (Peak 63.19M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Sidewall_Molding_-1_-1
+Fra:1 Mem:63.22M (Peak 63.22M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Rolled_Rim_Lip_1_1
+Fra:1 Mem:63.23M (Peak 63.23M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Cosmetic_Collar_5_1
+Fra:1 Mem:63.43M (Peak 63.43M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Rolled_Rim_Lip_1_-1
+Fra:1 Mem:63.48M (Peak 63.48M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Cosmetic_Collar_6_-1
+Fra:1 Mem:63.58M (Peak 63.58M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Cosmetic_Collar_6_1
+Fra:1 Mem:63.65M (Peak 63.65M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Exterior_Bundle_Band_1
+Fra:1 Mem:63.70M (Peak 63.70M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Exterior_Bundle_Band_1_Cosmetic_Rivet_0
+Fra:1 Mem:63.69M (Peak 63.70M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Exterior_Bundle_Band_1_Cosmetic_Rivet_1
+Fra:1 Mem:63.72M (Peak 63.72M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Exterior_Bundle_Band_1_Cosmetic_Rivet_2
+Fra:1 Mem:63.74M (Peak 63.74M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Exterior_Bundle_Band_1_Cosmetic_Rivet_3
+Fra:1 Mem:63.75M (Peak 63.75M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Rolled_Rim_Lip_-1_1
+Fra:1 Mem:63.75M (Peak 63.75M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Exterior_Bundle_Band_1_Cosmetic_Rivet_4
+Fra:1 Mem:63.85M (Peak 63.85M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Exterior_Bundle_Band_1_Cosmetic_Rivet_5
+Fra:1 Mem:63.88M (Peak 63.88M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Exterior_Bundle_Band_2
+Fra:1 Mem:64.06M (Peak 64.06M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Exterior_Bundle_Band_2_Cosmetic_Rivet_0
+Fra:1 Mem:64.16M (Peak 64.16M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Rolled_Rim_Lip_-1_-1
+Fra:1 Mem:64.31M (Peak 64.31M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Exterior_Bundle_Band_2_Cosmetic_Rivet_1
+Fra:1 Mem:64.42M (Peak 64.42M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Exterior_Bundle_Band_2_Cosmetic_Rivet_2
+Fra:1 Mem:64.44M (Peak 64.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Inner_Disc_Recess_1_1
+Fra:1 Mem:64.44M (Peak 64.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Exterior_Bundle_Band_2_Cosmetic_Rivet_3
+Fra:1 Mem:64.50M (Peak 64.50M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Exterior_Bundle_Band_2_Cosmetic_Rivet_4
+Fra:1 Mem:64.54M (Peak 64.54M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Exterior_Bundle_Band_2_Cosmetic_Rivet_5
+Fra:1 Mem:64.54M (Peak 64.54M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Inner_Disc_Recess_1_-1
+Fra:1 Mem:64.54M (Peak 64.54M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Shallow_Dark_End_1_1
+Fra:1 Mem:64.64M (Peak 64.64M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Shallow_Dark_End_2_1
+Fra:1 Mem:64.76M (Peak 64.76M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Shallow_Dark_End_3_1
+Fra:1 Mem:64.84M (Peak 64.84M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Inner_Disc_Recess_-1_1
+Fra:1 Mem:64.85M (Peak 64.85M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Shallow_Dark_End_4_1
+Fra:1 Mem:64.90M (Peak 64.90M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Shallow_Dark_End_5_1
+Fra:1 Mem:64.93M (Peak 64.93M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Shallow_Dark_End_6_1
+Fra:1 Mem:64.98M (Peak 64.98M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Solid_Tube_1
+Fra:1 Mem:65.02M (Peak 65.02M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Solid_Tube_2
+Fra:1 Mem:65.17M (Peak 65.17M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Inner_Disc_Recess_-1_-1
+Fra:1 Mem:65.20M (Peak 65.20M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Solid_Tube_3
+Fra:1 Mem:65.28M (Peak 65.28M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Solid_Tube_4
+Fra:1 Mem:65.40M (Peak 65.40M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Shoulder_1_1
+Fra:1 Mem:65.48M (Peak 65.48M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Solid_Tube_5
+Fra:1 Mem:65.59M (Peak 65.59M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Solid_Tube_6
+Fra:1 Mem:65.63M (Peak 65.63M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Shoulder_1_-1
+Fra:1 Mem:65.80M (Peak 65.80M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_0_-1
+Fra:1 Mem:65.83M (Peak 65.83M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_0_0
+Fra:1 Mem:65.88M (Peak 65.88M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_0_1
+Fra:1 Mem:65.88M (Peak 65.88M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_10_-1
+Fra:1 Mem:65.83M (Peak 65.88M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Shoulder_-1_1
+Fra:1 Mem:65.80M (Peak 65.88M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_10_1
+Fra:1 Mem:65.98M (Peak 65.98M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_11_-1
+Fra:1 Mem:65.96M (Peak 65.98M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_11_0
+Fra:1 Mem:66.13M (Peak 66.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_11_1
+Fra:1 Mem:66.09M (Peak 66.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_12_-1
+Fra:1 Mem:66.07M (Peak 66.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Shoulder_-1_-1
+Fra:1 Mem:66.14M (Peak 66.14M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_12_0
+Fra:1 Mem:66.12M (Peak 66.14M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_12_1
+Fra:1 Mem:66.15M (Peak 66.15M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_13_-1
+Fra:1 Mem:66.25M (Peak 66.25M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_13_0
+Fra:1 Mem:66.25M (Peak 66.25M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_13_1
+Fra:1 Mem:66.37M (Peak 66.37M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_14_-1
+Fra:1 Mem:66.34M (Peak 66.37M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Fastener_1_1_5
+Fra:1 Mem:66.31M (Peak 66.37M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_14_0
+Fra:1 Mem:66.41M (Peak 66.41M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_14_1
+Fra:1 Mem:66.43M (Peak 66.43M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_15_-1
+Fra:1 Mem:66.44M (Peak 66.44M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_15_0
+Fra:1 Mem:66.47M (Peak 66.47M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_15_1
+Fra:1 Mem:66.53M (Peak 66.53M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_16_-1
+Fra:1 Mem:66.53M (Peak 66.53M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_16_0
+Fra:1 Mem:66.56M (Peak 66.56M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_16_1
+Fra:1 Mem:66.61M (Peak 66.61M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_17_-1
+Fra:1 Mem:66.59M (Peak 66.61M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_17_0
+Fra:1 Mem:66.59M (Peak 66.61M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_17_1
+Fra:1 Mem:66.67M (Peak 66.67M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_18_-1
+Fra:1 Mem:66.72M (Peak 66.72M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_18_0
+Fra:1 Mem:66.69M (Peak 66.72M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_18_1
+Fra:1 Mem:66.66M (Peak 66.72M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_19_-1
+Fra:1 Mem:66.73M (Peak 66.73M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_19_0
+Fra:1 Mem:66.73M (Peak 66.73M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_1_-1
+Fra:1 Mem:66.89M (Peak 66.89M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_1_0
+Fra:1 Mem:66.83M (Peak 66.89M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_1_1
+Fra:1 Mem:66.83M (Peak 66.89M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_20_-1
+Fra:1 Mem:66.88M (Peak 66.89M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_20_0
+Fra:1 Mem:66.89M (Peak 66.89M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_20_1
+Fra:1 Mem:66.92M (Peak 66.92M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Fastener_1_1_4
+Fra:1 Mem:66.98M (Peak 66.98M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_21_-1
+Fra:1 Mem:67.08M (Peak 67.08M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Fastener_1_1_3
+Fra:1 Mem:67.07M (Peak 67.08M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_21_0
+Fra:1 Mem:67.05M (Peak 67.08M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_21_1
+Fra:1 Mem:67.11M (Peak 67.11M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Fastener_1_1_2
+Fra:1 Mem:67.14M (Peak 67.14M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_22_-1
+Fra:1 Mem:67.14M (Peak 67.14M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_22_0
+Fra:1 Mem:67.13M (Peak 67.14M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Fastener_1_1_1
+Fra:1 Mem:67.20M (Peak 67.20M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_22_1
+Fra:1 Mem:67.21M (Peak 67.21M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_23_-1
+Fra:1 Mem:67.33M (Peak 67.33M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_23_0
+Fra:1 Mem:67.33M (Peak 67.33M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_23_1
+Fra:1 Mem:67.33M (Peak 67.33M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_24_-1
+Fra:1 Mem:67.32M (Peak 67.33M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_24_0
+Fra:1 Mem:67.35M (Peak 67.35M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Fastener_1_1_0
+Fra:1 Mem:67.40M (Peak 67.40M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_24_1
+Fra:1 Mem:67.37M (Peak 67.40M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Fastener_1_-1_5
+Fra:1 Mem:67.54M (Peak 67.54M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Fastener_1_-1_4
+Fra:1 Mem:67.53M (Peak 67.54M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_25_0
+Fra:1 Mem:67.55M (Peak 67.55M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_25_1
+Fra:1 Mem:67.62M (Peak 67.62M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Fastener_1_-1_3
+Fra:1 Mem:67.67M (Peak 67.67M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_26_-1
+Fra:1 Mem:67.71M (Peak 67.71M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Fastener_1_-1_2
+Fra:1 Mem:67.74M (Peak 67.74M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_26_0
+Fra:1 Mem:67.72M (Peak 67.74M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_26_1
+Fra:1 Mem:67.75M (Peak 67.75M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Fastener_1_-1_1
+Fra:1 Mem:67.76M (Peak 67.76M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_27_-1
+Fra:1 Mem:67.76M (Peak 67.76M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_27_0
+Fra:1 Mem:67.87M (Peak 67.87M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_27_1
+Fra:1 Mem:67.90M (Peak 67.90M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_28_-1
+Fra:1 Mem:67.85M (Peak 67.90M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_28_0
+Fra:1 Mem:67.85M (Peak 67.90M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_28_1
+Fra:1 Mem:67.99M (Peak 67.99M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Fastener_1_-1_0
+Fra:1 Mem:67.96M (Peak 67.99M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_29_0
+Fra:1 Mem:67.95M (Peak 67.99M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_29_1
+Fra:1 Mem:68.03M (Peak 68.03M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Fastener_-1_1_5
+Fra:1 Mem:68.14M (Peak 68.14M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_2_-1
+Fra:1 Mem:68.11M (Peak 68.14M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_2_0
+Fra:1 Mem:68.06M (Peak 68.14M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_2_1
+Fra:1 Mem:68.08M (Peak 68.14M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Fastener_-1_1_4
+Fra:1 Mem:68.23M (Peak 68.23M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_30_-1
+Fra:1 Mem:68.23M (Peak 68.23M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_30_0
+Fra:1 Mem:68.25M (Peak 68.25M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_30_1
+Fra:1 Mem:68.29M (Peak 68.29M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_31_-1
+Fra:1 Mem:68.31M (Peak 68.31M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_31_0
+Fra:1 Mem:68.34M (Peak 68.34M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_31_1
+Fra:1 Mem:68.33M (Peak 68.34M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_3_-1
+Fra:1 Mem:68.43M (Peak 68.43M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_3_0
+Fra:1 Mem:68.38M (Peak 68.43M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_3_1
+Fra:1 Mem:68.43M (Peak 68.43M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_4_-1
+Fra:1 Mem:68.46M (Peak 68.46M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_4_0
+Fra:1 Mem:68.52M (Peak 68.52M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_4_1
+Fra:1 Mem:68.51M (Peak 68.52M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_5_-1
+Fra:1 Mem:68.58M (Peak 68.58M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_5_0
+Fra:1 Mem:68.60M (Peak 68.60M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_5_1
+Fra:1 Mem:68.61M (Peak 68.61M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_6_-1
+Fra:1 Mem:68.67M (Peak 68.67M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_6_0
+Fra:1 Mem:68.66M (Peak 68.67M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_6_1
+Fra:1 Mem:68.73M (Peak 68.73M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_7_-1
+Fra:1 Mem:68.69M (Peak 68.73M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Fastener_-1_1_3
+Fra:1 Mem:68.71M (Peak 68.73M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_7_0
+Fra:1 Mem:68.79M (Peak 68.79M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_7_1
+Fra:1 Mem:68.79M (Peak 68.79M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_8_-1
+Fra:1 Mem:68.78M (Peak 68.79M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_8_0
+Fra:1 Mem:68.89M (Peak 68.89M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_8_1
+Fra:1 Mem:68.86M (Peak 68.89M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_9_-1
+Fra:1 Mem:68.93M (Peak 68.93M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_9_0
+Fra:1 Mem:68.93M (Peak 68.93M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_-1_9_1
+Fra:1 Mem:68.98M (Peak 68.98M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_0_-1
+Fra:1 Mem:68.98M (Peak 68.98M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_0_0
+Fra:1 Mem:69.03M (Peak 69.03M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_0_1
+Fra:1 Mem:69.06M (Peak 69.06M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_10_-1
+Fra:1 Mem:69.08M (Peak 69.08M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_10_0
+Fra:1 Mem:69.06M (Peak 69.08M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_10_1
+Fra:1 Mem:69.16M (Peak 69.16M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_11_-1
+Fra:1 Mem:69.15M (Peak 69.16M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_11_0
+Fra:1 Mem:69.19M (Peak 69.19M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_11_1
+Fra:1 Mem:69.20M (Peak 69.20M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Fastener_-1_1_2
+Fra:1 Mem:69.30M (Peak 69.30M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_12_-1
+Fra:1 Mem:69.27M (Peak 69.30M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_12_0
+Fra:1 Mem:69.26M (Peak 69.30M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_12_1
+Fra:1 Mem:69.29M (Peak 69.30M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Fastener_-1_1_1
+Fra:1 Mem:69.34M (Peak 69.34M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_13_-1
+Fra:1 Mem:69.36M (Peak 69.36M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Fastener_-1_1_0
+Fra:1 Mem:69.37M (Peak 69.37M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_13_0
+Fra:1 Mem:69.46M (Peak 69.46M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_13_1
+Fra:1 Mem:69.45M (Peak 69.46M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Fastener_-1_-1_5
+Fra:1 Mem:69.48M (Peak 69.48M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_14_-1
+Fra:1 Mem:69.47M (Peak 69.48M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_14_0
+Fra:1 Mem:69.53M (Peak 69.53M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_14_1
+Fra:1 Mem:69.55M (Peak 69.55M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_15_-1
+Fra:1 Mem:69.62M (Peak 69.62M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_15_0
+Fra:1 Mem:69.60M (Peak 69.62M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_15_1
+Fra:1 Mem:69.59M (Peak 69.62M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_16_-1
+Fra:1 Mem:69.70M (Peak 69.70M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_16_0
+Fra:1 Mem:69.69M (Peak 69.70M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_16_1
+Fra:1 Mem:69.72M (Peak 69.72M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_17_-1
+Fra:1 Mem:69.75M (Peak 69.75M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_17_0
+Fra:1 Mem:69.73M (Peak 69.75M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_17_1
+Fra:1 Mem:69.79M (Peak 69.79M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_18_-1
+Fra:1 Mem:69.91M (Peak 69.91M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_18_0
+Fra:1 Mem:69.85M (Peak 69.91M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_18_1
+Fra:1 Mem:69.86M (Peak 69.91M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_19_-1
+Fra:1 Mem:69.96M (Peak 69.96M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_19_0
+Fra:1 Mem:69.96M (Peak 69.96M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_19_1
+Fra:1 Mem:69.99M (Peak 69.99M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_1_-1
+Fra:1 Mem:70.03M (Peak 70.03M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_1_0
+Fra:1 Mem:70.08M (Peak 70.08M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_1_1
+Fra:1 Mem:70.02M (Peak 70.08M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_20_-1
+Fra:1 Mem:70.02M (Peak 70.08M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_20_0
+Fra:1 Mem:70.17M (Peak 70.17M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_20_1
+Fra:1 Mem:70.15M (Peak 70.17M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_21_-1
+Fra:1 Mem:70.16M (Peak 70.17M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_21_0
+Fra:1 Mem:70.19M (Peak 70.19M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_21_1
+Fra:1 Mem:70.26M (Peak 70.26M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_22_-1
+Fra:1 Mem:70.21M (Peak 70.26M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_22_0
+Fra:1 Mem:70.23M (Peak 70.26M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_22_1
+Fra:1 Mem:70.32M (Peak 70.32M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_23_-1
+Fra:1 Mem:70.39M (Peak 70.39M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_23_0
+Fra:1 Mem:70.36M (Peak 70.39M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_23_1
+Fra:1 Mem:70.32M (Peak 70.39M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_24_-1
+Fra:1 Mem:70.47M (Peak 70.47M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_24_0
+Fra:1 Mem:70.47M (Peak 70.47M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_24_1
+Fra:1 Mem:70.47M (Peak 70.47M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_25_-1
+Fra:1 Mem:70.49M (Peak 70.49M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_25_0
+Fra:1 Mem:70.56M (Peak 70.56M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Fastener_-1_-1_4
+Fra:1 Mem:70.58M (Peak 70.58M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_25_1
+Fra:1 Mem:70.56M (Peak 70.58M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_26_-1
+Fra:1 Mem:70.61M (Peak 70.61M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Fastener_-1_-1_3
+Fra:1 Mem:70.69M (Peak 70.69M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Fastener_-1_-1_2
+Fra:1 Mem:70.69M (Peak 70.69M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_26_0
+Fra:1 Mem:70.69M (Peak 70.69M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_26_1
+Fra:1 Mem:70.74M (Peak 70.74M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_27_-1
+Fra:1 Mem:70.75M (Peak 70.75M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Fastener_-1_-1_1
+Fra:1 Mem:70.82M (Peak 70.82M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_27_0
+Fra:1 Mem:70.85M (Peak 70.85M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_27_1
+Fra:1 Mem:70.83M (Peak 70.85M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_28_-1
+Fra:1 Mem:70.83M (Peak 70.85M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Fastener_-1_-1_0
+Fra:1 Mem:70.97M (Peak 70.97M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_28_0
+Fra:1 Mem:70.92M (Peak 70.97M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_28_1
+Fra:1 Mem:70.90M (Peak 70.97M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Cap_Center_1_1
+Fra:1 Mem:70.92M (Peak 70.97M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_29_-1
+Fra:1 Mem:71.00M (Peak 71.00M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_29_0
+Fra:1 Mem:71.00M (Peak 71.00M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Cap_Center_1_-1
+Fra:1 Mem:71.09M (Peak 71.09M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_29_1
+Fra:1 Mem:71.09M (Peak 71.09M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Cap_Center_-1_1
+Fra:1 Mem:71.13M (Peak 71.13M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_2_-1
+Fra:1 Mem:71.12M (Peak 71.13M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_2_0
+Fra:1 Mem:71.13M (Peak 71.13M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_2_1
+Fra:1 Mem:71.15M (Peak 71.15M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_30_-1
+Fra:1 Mem:71.20M (Peak 71.20M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_30_0
+Fra:1 Mem:71.17M (Peak 71.20M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_30_1
+Fra:1 Mem:71.17M (Peak 71.20M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_31_-1
+Fra:1 Mem:71.31M (Peak 71.31M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_31_0
+Fra:1 Mem:71.25M (Peak 71.31M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_31_1
+Fra:1 Mem:71.26M (Peak 71.31M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_3_-1
+Fra:1 Mem:71.30M (Peak 71.31M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_3_0
+Fra:1 Mem:71.44M (Peak 71.44M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_3_1
+Fra:1 Mem:71.46M (Peak 71.46M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_4_-1
+Fra:1 Mem:71.43M (Peak 71.46M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_4_0
+Fra:1 Mem:71.41M (Peak 71.46M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_4_1
+Fra:1 Mem:71.48M (Peak 71.48M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_5_-1
+Fra:1 Mem:71.54M (Peak 71.54M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_5_0
+Fra:1 Mem:71.50M (Peak 71.54M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_5_1
+Fra:1 Mem:71.50M (Peak 71.54M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_6_-1
+Fra:1 Mem:71.66M (Peak 71.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_6_0
+Fra:1 Mem:71.65M (Peak 71.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_6_1
+Fra:1 Mem:71.62M (Peak 71.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_7_-1
+Fra:1 Mem:71.62M (Peak 71.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_7_0
+Fra:1 Mem:71.74M (Peak 71.74M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_7_1
+Fra:1 Mem:71.79M (Peak 71.79M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_8_-1
+Fra:1 Mem:71.76M (Peak 71.79M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_8_0
+Fra:1 Mem:71.81M (Peak 71.81M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_8_1
+Fra:1 Mem:71.84M (Peak 71.84M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_9_-1
+Fra:1 Mem:71.88M (Peak 71.88M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_9_0
+Fra:1 Mem:71.95M (Peak 71.95M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Crowned_Tread_1_9_1
+Fra:1 Mem:71.93M (Peak 71.95M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Cap_-1_-1
+Fra:1 Mem:72.02M (Peak 72.02M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Cap_Center_-1_-1
+Fra:1 Mem:72.03M (Peak 72.03M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Cap_1_-1
+Fra:1 Mem:72.26M (Peak 72.26M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N41_Hub_Cap_1_1
+Fra:1 Mem:72.23M (Peak 72.26M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:70.84M (Peak 72.26M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading texture-1
+Fra:1 Mem:70.84M (Peak 72.26M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading texture-0
+Fra:1 Mem:70.84M (Peak 72.26M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading texture-2
+Fra:1 Mem:62.78M (Peak 75.86M) | Time:00:00.11 | Mem:3.00M, Peak:3.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:62.78M (Peak 75.86M) | Time:00:00.11 | Mem:3.00M, Peak:3.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:62.78M (Peak 75.86M) | Time:00:00.11 | Mem:3.00M, Peak:3.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:62.78M (Peak 75.86M) | Time:00:00.11 | Mem:3.00M, Peak:3.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:62.87M (Peak 75.86M) | Time:00:00.11 | Mem:3.01M, Peak:3.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:62.87M (Peak 75.86M) | Time:00:00.11 | Mem:3.01M, Peak:3.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:62.87M (Peak 75.86M) | Time:00:00.11 | Mem:3.01M, Peak:3.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:62.87M (Peak 75.86M) | Time:00:00.11 | Mem:3.01M, Peak:3.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:62.87M (Peak 75.86M) | Time:00:00.11 | Mem:3.01M, Peak:3.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:62.87M (Peak 75.86M) | Time:00:00.11 | Mem:3.01M, Peak:3.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:62.96M (Peak 75.86M) | Time:00:00.11 | Mem:3.09M, Peak:3.09M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:62.96M (Peak 75.86M) | Time:00:00.11 | Mem:3.09M, Peak:3.09M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:62.96M (Peak 75.86M) | Time:00:00.11 | Mem:3.09M, Peak:3.09M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:62.96M (Peak 75.86M) | Time:00:00.11 | Mem:3.09M, Peak:3.09M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:64.63M (Peak 75.86M) | Time:00:00.12 | Mem:3.09M, Peak:3.09M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:68.28M (Peak 75.86M) | Time:00:00.12 | Mem:3.12M, Peak:3.12M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:68.21M (Peak 75.86M) | Time:00:00.12 | Mem:6.67M, Peak:6.67M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:68.22M (Peak 75.86M) | Time:00:00.12 | Mem:6.67M, Peak:6.67M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:68.22M (Peak 75.86M) | Time:00:00.12 | Mem:10.02M, Peak:10.02M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:68.22M (Peak 75.86M) | Time:00:00.14 | Mem:14.00M, Peak:17.34M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:68.22M (Peak 75.86M) | Time:00:00.14 | Mem:14.00M, Peak:17.34M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:75.20M (Peak 75.86M) | Time:00:00.15 | Mem:14.00M, Peak:17.34M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:75.20M (Peak 75.86M) | Time:00:00.15 | Mem:20.99M, Peak:20.99M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:75.20M (Peak 75.86M) | Time:00:00.15 | Mem:20.99M, Peak:20.99M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:75.21M (Peak 75.86M) | Time:00:00.15 | Mem:20.99M, Peak:20.99M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:75.21M (Peak 75.86M) | Time:00:00.15 | Mem:20.99M, Peak:20.99M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:75.21M (Peak 75.86M) | Time:00:00.15 | Mem:20.99M, Peak:20.99M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:75.21M (Peak 75.86M) | Time:00:00.15 | Mem:21.08M, Peak:21.08M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:75.21M (Peak 75.86M) | Time:00:00.15 | Mem:21.08M, Peak:21.08M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:75.21M (Peak 75.86M) | Time:00:00.15 | Mem:21.08M, Peak:21.08M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:75.21M (Peak 75.86M) | Time:00:00.15 | Mem:21.08M, Peak:21.08M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:75.21M (Peak 75.86M) | Time:00:00.15 | Mem:21.00M, Peak:21.08M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:75.21M (Peak 75.86M) | Time:00:00.15 | Mem:21.08M, Peak:21.08M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:75.21M (Peak 75.86M) | Time:00:00.15 | Mem:21.08M, Peak:21.08M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:75.22M (Peak 75.86M) | Time:00:00.15 | Mem:21.08M, Peak:21.08M | Scene, ViewLayer | Sample 0/64
+Fra:1 Mem:108.19M (Peak 108.19M) | Time:00:00.52 | Remaining:00:23.34 | Mem:54.05M, Peak:54.05M | Scene, ViewLayer | Sample 1/64
+Fra:1 Mem:122.84M (Peak 152.14M) | Time:00:31.57 | Mem:54.05M, Peak:54.05M | Scene, ViewLayer | Sample 64/64
+Fra:1 Mem:122.84M (Peak 152.14M) | Time:00:31.57 | Mem:54.05M, Peak:54.05M | Scene, ViewLayer | Finished
+Saved: '/workspace/dot-ww2-assets/gallery/n41-render.png'
+Time: 00:31.90 (Saving: 00:00.32)
+
+{"source": "nebelwerfer41-visual-prop.glb", "render": "n41-render.png", "meshes": 355, "renderer": "Blender Cycles CPU", "samples": 64, "operation": "Existing GLB import and render only; not MCP or new modeling"}
+
+Blender quit

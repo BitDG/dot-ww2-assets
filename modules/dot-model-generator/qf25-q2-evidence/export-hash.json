@@ -1,0 +1,42 @@
+{
+  "file": "QF25-Q2-unified-export.glb",
+  "bytes": 2764092,
+  "sha256": "148bf6eb60aac44a75b00d4959260954d3d82c52e596af41ef5b86d26d612759",
+  "glbExtras": {},
+  "scope": "actual unified Firefox export, independent from authored hero seeds",
+  "generator": {
+    "id": "qf25-visual-prop",
+    "version": "1.1.0"
+  },
+  "recipe": {
+    "generator": "qf25-visual-prop",
+    "version": "1.1.0",
+    "seed": "qf25-unified-acceptance",
+    "params": {
+      "camoPattern": "winter",
+      "camoEnvironment": "snow",
+      "camoScale": 2,
+      "detail": "medium",
+      "artScale": 1.25,
+      "wheelSpacing": 1.07,
+      "paintColor": "#a17b57",
+      "roughness": 0.83,
+      "weathering": 0.6,
+      "showBarrel": true,
+      "showShield": true,
+      "showCarriage": true,
+      "showLeftWheel": true,
+      "showRightWheel": true,
+      "showTrail": true,
+      "showPlatform": true,
+      "showFittings": true
+    },
+    "quality": "medium"
+  },
+  "source": {
+    "kind": "Blender MCP authored closed exterior",
+    "sha256": "69ba1127753c21e64aac45d98f0ff02fa7868020b483ac182b7225ce91364251",
+    "stage": "Q2",
+    "quality": "medium"
+  }
+}

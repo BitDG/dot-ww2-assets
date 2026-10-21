@@ -1,0 +1,20 @@
+{
+  "low": {
+    "scope": "all non-wheel meshes",
+    "checked": 107,
+    "mismatches": [],
+    "pass": true
+  },
+  "medium": {
+    "scope": "all non-wheel meshes",
+    "checked": 131,
+    "mismatches": [],
+    "pass": true
+  },
+  "high": {
+    "scope": "all meshes",
+    "checked": 395,
+    "mismatches": [],
+    "pass": true
+  }
+}

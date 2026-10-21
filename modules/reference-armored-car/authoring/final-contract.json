@@ -1,0 +1,216 @@
+{
+  "id": "reference-armored-car",
+  "version": "1.1.0",
+  "visualRevision": "2026-10-10-blender-brown-diamond-tank-finish",
+  "defaults": {
+    "scale": 1,
+    "turretYaw": -10,
+    "gunElevation": 0,
+    "paint": "#827456",
+    "roughness": 0.81,
+    "weathering": 0.35,
+    "antennas": true,
+    "markings": true,
+    "detail": 48,
+    "camoPattern": "original",
+    "camoEnvironment": "desert",
+    "camoScale": 1
+  },
+  "parameterSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "scale": {
+        "type": "number",
+        "title": "整体比例",
+        "minimum": 0.1,
+        "maximum": 3
+      },
+      "turretYaw": {
+        "type": "number",
+        "title": "炮塔转角（度）",
+        "minimum": -180,
+        "maximum": 180
+      },
+      "gunElevation": {
+        "type": "number",
+        "title": "炮管俯仰（度）",
+        "minimum": -8,
+        "maximum": 25
+      },
+      "paint": {
+        "type": "string",
+        "title": "装甲漆色",
+        "pattern": "^#[0-9a-fA-F]{6}$"
+      },
+      "roughness": {
+        "type": "number",
+        "title": "漆面粗糙度",
+        "minimum": 0.35,
+        "maximum": 1
+      },
+      "weathering": {
+        "type": "number",
+        "title": "积尘与磨损",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "antennas": {
+        "type": "boolean",
+        "title": "天线"
+      },
+      "markings": {
+        "type": "boolean",
+        "title": "白色菱形标识"
+      },
+      "detail": {
+        "type": "integer",
+        "title": "几何细节（三档）",
+        "minimum": 24,
+        "maximum": 64
+      },
+      "camoPattern": {
+        "type": "string",
+        "title": "坦克材质 · 涂装图案",
+        "enum": [
+          "original",
+          "auto",
+          "summer",
+          "desert",
+          "winter",
+          "digital",
+          "merdc",
+          "tropic",
+          "ambushdot",
+          "splinter",
+          "pinkdesert",
+          "autumn",
+          "urbanblock",
+          "washworn",
+          "naval",
+          "dazzle",
+          "flecktarn",
+          "amoeba",
+          "dpm",
+          "tigerstripe",
+          "m90",
+          "chocchip",
+          "digitaldesert",
+          "merdcwinter",
+          "winterbands",
+          "berlin",
+          "oakleaf",
+          "hexfield",
+          "midnight",
+          "claude",
+          "spark",
+          "ducky",
+          "suits",
+          "flames",
+          "leopardprint",
+          "bolt",
+          "stars",
+          "daisy",
+          "circuit",
+          "racing",
+          "paintball",
+          "normandy44",
+          "berlin45",
+          "ardennes44",
+          "pacific45",
+          "jungleops",
+          "rasputitsa"
+        ]
+      },
+      "camoEnvironment": {
+        "type": "string",
+        "title": "坦克材质 · 环境",
+        "enum": [
+          "desert",
+          "jungle",
+          "snow",
+          "urban"
+        ]
+      },
+      "camoScale": {
+        "type": "number",
+        "title": "坦克材质 · 图案密度",
+        "minimum": 0.5,
+        "maximum": 2
+      }
+    }
+  },
+  "presets": [
+    {
+      "id": "reference",
+      "name": "照片姿态",
+      "params": {}
+    },
+    {
+      "id": "forward",
+      "name": "炮塔朝前",
+      "params": {
+        "turretYaw": 0
+      }
+    },
+    {
+      "id": "clean",
+      "name": "干净装甲",
+      "params": {
+        "weathering": 0.05
+      }
+    },
+    {
+      "id": "dusty",
+      "name": "风化装甲",
+      "params": {
+        "weathering": 0.65,
+        "paint": "#8d8061"
+      }
+    }
+  ],
+  "detailTriangles": {
+    "low": 62683,
+    "medium": 107826,
+    "high": 141358
+  },
+  "meshPrimitives": 69,
+  "materialRoles": 10,
+  "defaultRuntimeImages": 6,
+  "sourceKitImages": 20,
+  "colliderSpace": "referenced node local; root scale applies once",
+  "units": "approximate metres, Y-up, +Z forward",
+  "geometryIsFunctional": false,
+  "sourceRights": [
+    {
+      "path": "modules/tank/src/portable-vehicle-finish.mjs",
+      "sha256": "83180817c7203f5a0c5fa53327b65bb773fd6bc94bcd88c6eff864f2cf0752f0",
+      "status": "new additive adapter"
+    },
+    {
+      "path": "modules/tank/src/camouflage.js",
+      "sha256": "2c7f89ca8a511caeadf931e02350ea2a05d80c3879bb9bf2dbda520f2fb0a4f1",
+      "status": "existing source, unchanged"
+    },
+    {
+      "path": "modules/tank/src/headless-materials.mjs",
+      "sha256": "29a77aaa2be25c8f5b5ac78baa510b2c275f8b011e6fc632d866b720b7d1f96a",
+      "status": "existing source, unchanged"
+    },
+    {
+      "path": "modules/tank/upstream/src/turret-surface-materials.mjs",
+      "sha256": "47633ed13f8e39f37ef33adfb9b0abed3966bd5fbe51375f0dfb7b898c6848c7",
+      "status": "existing source, unchanged"
+    },
+    {
+      "path": "modules/tank/upstream/vendor/legacy-tank-source/src/vehicles/materials.js",
+      "sha256": "0cef74c7fe9cec5ec8282febf7b89e3e731a6c6dfd432594b0044f11832cc798",
+      "status": "existing source, unchanged"
+    },
+    {
+      "path": "modules/tank/upstream/vendor/legacy-tank-source/LICENSE",
+      "sha256": "ad38336f386eb3abf6158566651d06706f135cf4d2706b7f46c60e7b812418ae",
+      "status": "existing source, unchanged"
+    }
+  ]
+}

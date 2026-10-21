@@ -1,0 +1,32 @@
+{
+  "browser": "dot cloud Firefox 157.0.1",
+  "completed": [
+    "reference/forward/clean/dusty preset visible values and rendering",
+    "auto camo + desert environment",
+    "scale1.3 yaw35 elevation15 actual rebuild",
+    "idle2s frames29 to29",
+    "four actual 500x380 Three GLB preset PNG downloads, unique hashes",
+    "module-only parameter scrolling fix verified",
+    "low24=62683 medium48=107826 high64=141358 actual UI",
+    "antennas and markings off:139552tri/150nodes; on restored",
+    "digital urban camoScale1.6 actual render",
+    "actual recipe and GLB download",
+    "exploded preview export SHA identical to assembled",
+    "cancel retained old model then regeneration recovered",
+    "focus mode and 950x900 /1440x900 real responsive view",
+    "dispose activefalse disposedtrue workerTerminatedtrue renderRPC0; refresh recovered",
+    "actual downloaded JSON imported after default refresh restores digital camo",
+    "actual downloaded GLB reimported via visible file picker/GLTFLoader:107826tri nonFinite0 drawCalls70 recipe digital/urban/1.6"
+  ],
+  "workbenchReportedAssetIRCalls": 69,
+  "reviewActualRendererCalls": 70,
+  "scope": "Actual restricted PGF shell/workbench/Worker preview; not full app build",
+  "remaining": [],
+  "resourceNote": "dispose counters69 geometry/6textures remain cached diagnostics; zero GPU allocations not asserted",
+  "status": "Scoped browser acceptance complete; hardware performance and whole-app build not claimed",
+  "notRun": [
+    "GIF/screen recording: no supported recording API in current documented CUA/Sky; no additional recorder installed",
+    "hardware GPU performance certification",
+    "full PGF app build"
+  ]
+}

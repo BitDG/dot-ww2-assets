@@ -1,0 +1,26 @@
+(node:41) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("./pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:41) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("./pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+{
+  scope: 'Actual shared browser Worker implementation through Node worker_threads host, not browser or PGF stdio MCP',
+  checks: [
+    'shared prepareGenerator, AssetIR and preview validation',
+    'shared Worker exports real GLB and readGLB restores recipe, source ranges and sockets',
+    'shared Worker rejects invalid request without replacing last result'
+  ],
+  stats: {
+    triangles: 96732,
+    renderedTriangles: 146012,
+    drawCalls: 74,
+    bytes: 6520973,
+    texturePixels: 393216,
+    meshes: 19,
+    nodes: 82
+  },
+  bytes: 6418260,
+  status: 'passed',
+  terminated: true
+}

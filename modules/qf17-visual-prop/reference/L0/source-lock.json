@@ -1,0 +1,58 @@
+{
+  "asset": "QF17 Mk I on Carriage 17-pr Mk I",
+  "status": "historic pairing verified; unmeasured exterior art interpretation",
+  "date": "2026-10-14",
+  "sources": [
+    {
+      "url": "https://collectie.nmm.nl/nl/collectie/detail/847144/",
+      "institution": "Nationaal Militair Museum",
+      "object": "00057312",
+      "date": 1943,
+      "claim": "Bibliographic title explicitly pairs QF 17-pr Mk I with Carriage 17-pr Mk I",
+      "use": "nomenclature only; no internal manual contents used"
+    },
+    {
+      "url": "https://en.rcamuseum.com/wp-content/uploads/2022/03/Barrage-April-2022.pdf",
+      "institution": "RCA Museum",
+      "page": 6,
+      "claim": "Canadian towed 17 pounders landed at Juno Beach 8 July 1944; no Mk designation on this page",
+      "use": "context only"
+    },
+    {
+      "url": "https://www.awm.gov.au/collection/C77765",
+      "institution": "Australian War Memorial",
+      "object": "077486",
+      "claim": "Australian 17-pounder in towing position; own official item marked Public Domain",
+      "use": "observed silhouette only; not a tracing, imagegen reference, texture or bundled output; Australian platform variation not copied"
+    }
+  ],
+  "boundary": {
+    "staticOnly": true,
+    "pose": "wheeled split-trail deployed display; horizontal barrel",
+    "manufacturingDimensions": false,
+    "internalMechanisms": false,
+    "ammunition": false,
+    "ballistics": false,
+    "realOperation": false,
+    "muzzle": "shallow closed artistic concavity, no bag or cover",
+    "hiddenSurfaces": "artistic interpretation"
+  },
+  "dedup": {
+    "reviewer": "verify_model_main_status",
+    "main": "7edd17606a96a9fc6b4270865a44169e1cd5bd29",
+    "branches": [
+      "main",
+      "dot/vehicle-blender-rebuild",
+      "dot/ww2-k5-visual",
+      "codex/ww2-rebuild"
+    ],
+    "outcome": "no QF17/17pdr/17-pounder/seventeen named paths or generic ww2-kit/catalog asset",
+    "proof": "https://github.com/BitDG/PGF/blob/7edd17606a96a9fc6b4270865a44169e1cd5bd29/modules/ww2-kit/assets.json"
+  },
+  "tools": {
+    "blender": "4.3.2",
+    "mcpForBlender": "2.1.9",
+    "liveMcpSessionStarted": false,
+    "codeGraph": "No cache or tool found in provided runtime snapshot; direct source inspection used"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "version": "1.2.1",
+  "modelSha256": "bb62ac17a9e3b57d581cc52aff70495fdd1b52973b5c60c6f035d737e40f72cc",
+  "material": "PGF portable vehicle finish retained by user confirmation",
+  "geometry": [
+    "exposed helical spring bodies with upper and lower seats",
+    "layered axle-box shoulder and brake shoes/hangers",
+    "folded-depth inspection doors with rounded edges and repositioned attached hardware",
+    "thick four-edge radiator grille frame and angled louvers",
+    "window beads, door hinges, lamp housings and continuous bent handrails"
+  ],
+  "tests": {
+    "fullRegression12": "passed",
+    "visibleDepthTest1": "passed",
+    "runtimeVariants13": "passed",
+    "workerDeterminismCancelRecovery": "passed"
+  },
+  "renderStatus": "D6 hero running; final projection and Firefox pending",
+  "unadoptedExperiment": "assets/native-surfaces; not imported by runtime"
+}

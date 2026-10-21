@@ -1,0 +1,181 @@
+{
+  "stage": "I2 final projected close-up framing",
+  "started": "2026-10-12T09:45:05.650Z",
+  "checks": [
+    {
+      "name": "qf25-visual-prop default exact vertex fit",
+      "ok": true,
+      "data": {
+        "minX": -0.9489038883206539,
+        "maxX": 0.5510961114767118,
+        "minY": -0.5104731573157392,
+        "maxY": 0.4001087526265607,
+        "vertices": 133663,
+        "widthFraction": 0.7499999998986828,
+        "heightFraction": 0.4552909549711499,
+        "maxEdge": 0.9489038883206539,
+        "distance": 7.15461379746336
+      }
+    },
+    {
+      "name": "qf25-visual-prop full presentation retains larger independent range",
+      "ok": true,
+      "data": {
+        "minX": -0.17179189550308635,
+        "maxX": 0.15033576365224868,
+        "minY": -0.11084328173945815,
+        "maxY": 0.08959172885636868,
+        "vertices": 133663,
+        "widthFraction": 0.16106382957766752,
+        "heightFraction": 0.10021750529791341,
+        "maxEdge": 0.17179189550308635,
+        "distance": 31.11335241733096
+      }
+    },
+    {
+      "name": "qf25-visual-prop return close-up has no drift",
+      "ok": true
+    },
+    {
+      "name": "qf25-visual-prop rebuilt scale 0.75 stays contained",
+      "ok": true,
+      "data": {
+        "minX": -0.9489038884651062,
+        "maxX": 0.5510961115261515,
+        "minY": -0.5223929591385955,
+        "maxY": 0.40010875267322815,
+        "vertices": 133663,
+        "widthFraction": 0.7499999999956288,
+        "heightFraction": 0.46125085590591186,
+        "maxEdge": 0.9489038884651062,
+        "distance": 5.365960347492811
+      }
+    },
+    {
+      "name": "qf25-visual-prop rebuilt scale 1.5 stays contained",
+      "ok": true,
+      "data": {
+        "minX": -0.948903888249251,
+        "maxX": 0.5510961114522743,
+        "minY": -0.5223929590426009,
+        "maxY": 0.4001087526034925,
+        "vertices": 133663,
+        "widthFraction": 0.7499999998507627,
+        "heightFraction": 0.4612508558230467,
+        "maxEdge": 0.948903888249251,
+        "distance": 10.731920696792857
+      }
+    },
+    {
+      "name": "qf25-visual-prop keeps original canvas",
+      "ok": true
+    },
+    {
+      "name": "flakzwilling43-visual-prop default exact vertex fit",
+      "ok": true,
+      "data": {
+        "minX": -0.6293530747594864,
+        "maxX": 0.8706469252182879,
+        "minY": -0.5826296066930193,
+        "maxY": 0.433153811290635,
+        "vertices": 112368,
+        "widthFraction": 0.7499999999888871,
+        "heightFraction": 0.5078917089918271,
+        "maxEdge": 0.8706469252182879,
+        "distance": 7.16915749319267
+      }
+    },
+    {
+      "name": "flakzwilling43-visual-prop full presentation retains larger independent range",
+      "ok": true,
+      "data": {
+        "minX": -0.1253367990356566,
+        "maxX": 0.21309182364320833,
+        "minY": -0.1267525781462756,
+        "maxY": 0.10221268191937463,
+        "vertices": 112368,
+        "widthFraction": 0.16921431133943246,
+        "heightFraction": 0.11448263003282512,
+        "maxEdge": 0.21309182364320833,
+        "distance": 30.43962867611753
+      }
+    },
+    {
+      "name": "flakzwilling43-visual-prop return close-up has no drift",
+      "ok": true
+    },
+    {
+      "name": "flakzwilling43-visual-prop rebuilt scale 0.75 stays contained",
+      "ok": true,
+      "data": {
+        "minX": -0.6293530747481989,
+        "maxX": 0.8706469252062626,
+        "minY": -0.5826296066836727,
+        "maxY": 0.4346880260662925,
+        "vertices": 112368,
+        "widthFraction": 0.7499999999772308,
+        "heightFraction": 0.5086588163749826,
+        "maxEdge": 0.8706469252062626,
+        "distance": 5.376868119972344
+      }
+    },
+    {
+      "name": "flakzwilling43-visual-prop rebuilt scale 1.5 stays contained",
+      "ok": true,
+      "data": {
+        "minX": -0.6293530746776312,
+        "maxX": 0.8706469251310839,
+        "minY": -0.5826296066252405,
+        "maxY": 0.4346880260271622,
+        "vertices": 112368,
+        "widthFraction": 0.7499999999043576,
+        "heightFraction": 0.5086588163262014,
+        "maxEdge": 0.8706469251310839,
+        "distance": 10.753736240917982
+      }
+    },
+    {
+      "name": "flakzwilling43-visual-prop keeps original canvas",
+      "ok": true
+    },
+    {
+      "name": "old N41 retains original sphere framing",
+      "ok": true
+    },
+    {
+      "name": "switch back close-up remains fitted",
+      "ok": true
+    }
+  ],
+  "models": {
+    "qf25-visual-prop": {
+      "default": {
+        "minX": -0.9489038883206539,
+        "maxX": 0.5510961114767118,
+        "minY": -0.5104731573157392,
+        "maxY": 0.4001087526265607,
+        "vertices": 133663,
+        "widthFraction": 0.7499999998986828,
+        "heightFraction": 0.4552909549711499,
+        "maxEdge": 0.9489038883206539,
+        "distance": 7.15461379746336
+      }
+    },
+    "flakzwilling43-visual-prop": {
+      "default": {
+        "minX": -0.6293530747594864,
+        "maxX": 0.8706469252182879,
+        "minY": -0.5826296066930193,
+        "maxY": 0.433153811290635,
+        "vertices": 112368,
+        "widthFraction": 0.7499999999888871,
+        "heightFraction": 0.5078917089918271,
+        "maxEdge": 0.8706469252182879,
+        "distance": 7.16915749319267
+      }
+    }
+  },
+  "errors": [],
+  "status": "passed",
+  "completed": "2026-10-12T09:45:18.235Z"
+}

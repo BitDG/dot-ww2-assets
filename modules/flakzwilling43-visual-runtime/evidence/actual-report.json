@@ -1,0 +1,507 @@
+{
+  "scope": "Live F2 v1.1.0 actual three-quality source GLBs and actual PGF AssetIR/static export under Node; no browser certification",
+  "stage": "F2",
+  "generatorVersion": "1.1.0",
+  "variants": [
+    {
+      "params": {
+        "detail": "low",
+        "artScale": 0.75,
+        "shieldWidth": 0.95
+      },
+      "stage": "F2",
+      "generatorVersion": "1.1.0",
+      "sourceSha256": "78686e356e48a2c7ee14e2fc02a7587b7e040fd1631a071ec59d1252c18abc6d",
+      "exportBytes": 1148344,
+      "exportSha256": "afd3e3b7e04c2b323dbe53a60e8ea2720777badac93f138a2b4c7755dd16a881",
+      "textureDecode": {
+        "decoder": "@napi-rs/canvas native Skia PNG decode, raw GLB chunks independent of PGF reader",
+        "images": [
+          {
+            "index": 0,
+            "mimeType": "image/png",
+            "width": 256,
+            "height": 256,
+            "pngBytes": 4044,
+            "pngSha256": "c8934e6ec094a43727714b9fd9ad4a08f6b7646f06df19232e0d98434e94bf34",
+            "decodedRgbaSha256": "62bb9f7bb82bf99d60b1dc27e5f246d9093ba718cfb79c83906b810d7f87919e",
+            "rgbaChannelRanges": [
+              [
+                83,
+                141
+              ],
+              [
+                90,
+                147
+              ],
+              [
+                78,
+                146
+              ],
+              [
+                255,
+                255
+              ]
+            ]
+          },
+          {
+            "index": 1,
+            "mimeType": "image/png",
+            "width": 256,
+            "height": 256,
+            "pngBytes": 19329,
+            "pngSha256": "5cf4ef950811513f17ba6e26335f3a19726e4a847f0517c3415b1ce269e19bff",
+            "decodedRgbaSha256": "008ea1e95f3f967ffb6d33d4d1dcb30f0e9ff9e9c9c6691ba694ec88dada307e",
+            "rgbaChannelRanges": [
+              [
+                118,
+                140
+              ],
+              [
+                117,
+                137
+              ],
+              [
+                254,
+                255
+              ],
+              [
+                255,
+                255
+              ]
+            ]
+          },
+          {
+            "index": 2,
+            "mimeType": "image/png",
+            "width": 256,
+            "height": 256,
+            "pngBytes": 21936,
+            "pngSha256": "0769e787150102538ea38a21b730ad643dad55a51d915725f919280dafc98721",
+            "decodedRgbaSha256": "8cab753f864a9661147d3ef9e5d8e0d509e880bd5887a559a84156f13fad1408",
+            "rgbaChannelRanges": [
+              [
+                255,
+                255
+              ],
+              [
+                92,
+                149
+              ],
+              [
+                48,
+                150
+              ],
+              [
+                255,
+                255
+              ]
+            ]
+          }
+        ],
+        "materialBindings": [
+          {
+            "materialIndex": 2,
+            "materialName": "material-2",
+            "slots": {
+              "baseColor": 0,
+              "normal": 1,
+              "metallicRoughness": 2
+            }
+          },
+          {
+            "materialIndex": 3,
+            "materialName": "material-3",
+            "slots": {
+              "baseColor": 0,
+              "normal": 1,
+              "metallicRoughness": 2
+            }
+          }
+        ]
+      },
+      "runtimeBinding": true,
+      "staticBytesUnchanged": true,
+      "realPgFSmoke": true,
+      "deterministicReplay": true,
+      "borrowedDisposals": 0
+    },
+    {
+      "params": {
+        "detail": "medium"
+      },
+      "stage": "F2",
+      "generatorVersion": "1.1.0",
+      "sourceSha256": "4f1d831d1deb439bccbd3d4686cb5c71184ec3fbb7828793b064d79b31223aa4",
+      "exportBytes": 1585540,
+      "exportSha256": "6b0a2351847b500eca9b2b58bc70198da154cb9c379a1fdc88e591f310f7203c",
+      "textureDecode": {
+        "decoder": "@napi-rs/canvas native Skia PNG decode, raw GLB chunks independent of PGF reader",
+        "images": [
+          {
+            "index": 0,
+            "mimeType": "image/png",
+            "width": 512,
+            "height": 512,
+            "pngBytes": 10677,
+            "pngSha256": "0793f9d3d9fa1205b642441f7789f0ee79a2579b405e1dc856fbea1f7f37a0f8",
+            "decodedRgbaSha256": "c88257eab5b30a8dbc8ddf224b166f213a996d3f4c5994329627cd8b6d36b8d5",
+            "rgbaChannelRanges": [
+              [
+                83,
+                146
+              ],
+              [
+                90,
+                152
+              ],
+              [
+                77,
+                150
+              ],
+              [
+                255,
+                255
+              ]
+            ]
+          },
+          {
+            "index": 1,
+            "mimeType": "image/png",
+            "width": 512,
+            "height": 512,
+            "pngBytes": 22822,
+            "pngSha256": "f2ef93d956f548f82e8740513eb86c968b62e84b57244a9f8bd30bcda61ef1c7",
+            "decodedRgbaSha256": "a30e060afc5ed557d5ddd7983de23191908d6a586c73b4385ffe8fccb245f5e2",
+            "rgbaChannelRanges": [
+              [
+                119,
+                136
+              ],
+              [
+                120,
+                134
+              ],
+              [
+                255,
+                255
+              ],
+              [
+                255,
+                255
+              ]
+            ]
+          },
+          {
+            "index": 2,
+            "mimeType": "image/png",
+            "width": 512,
+            "height": 512,
+            "pngBytes": 63189,
+            "pngSha256": "aee8c8c8aa054a9cae2583b2ab202d1a11897194e1cf170ea4adef36a28d3f59",
+            "decodedRgbaSha256": "69695c191cba39bd0767979d820ba37a12e5faf1057a22e07fbc2215f0cbba40",
+            "rgbaChannelRanges": [
+              [
+                255,
+                255
+              ],
+              [
+                92,
+                160
+              ],
+              [
+                48,
+                160
+              ],
+              [
+                255,
+                255
+              ]
+            ]
+          }
+        ],
+        "materialBindings": [
+          {
+            "materialIndex": 2,
+            "materialName": "material-2",
+            "slots": {
+              "baseColor": 0,
+              "normal": 1,
+              "metallicRoughness": 2
+            }
+          },
+          {
+            "materialIndex": 3,
+            "materialName": "material-3",
+            "slots": {
+              "baseColor": 0,
+              "normal": 1,
+              "metallicRoughness": 2
+            }
+          }
+        ]
+      },
+      "runtimeBinding": true,
+      "staticBytesUnchanged": true,
+      "realPgFSmoke": true,
+      "deterministicReplay": true,
+      "borrowedDisposals": 0
+    },
+    {
+      "params": {
+        "detail": "high",
+        "artScale": 1.5,
+        "shieldWidth": 1.1
+      },
+      "stage": "F2",
+      "generatorVersion": "1.1.0",
+      "sourceSha256": "4199b7a5f700fce25f33a14476d19ecce7ea844be5f6b40d9067a8acc6915a74",
+      "exportBytes": 1958900,
+      "exportSha256": "af23001cecf6364fb96af2955ee552e5aa6d39e5eb003fe147a642de2a1dbf1c",
+      "textureDecode": {
+        "decoder": "@napi-rs/canvas native Skia PNG decode, raw GLB chunks independent of PGF reader",
+        "images": [
+          {
+            "index": 0,
+            "mimeType": "image/png",
+            "width": 512,
+            "height": 512,
+            "pngBytes": 10677,
+            "pngSha256": "0793f9d3d9fa1205b642441f7789f0ee79a2579b405e1dc856fbea1f7f37a0f8",
+            "decodedRgbaSha256": "c88257eab5b30a8dbc8ddf224b166f213a996d3f4c5994329627cd8b6d36b8d5",
+            "rgbaChannelRanges": [
+              [
+                83,
+                146
+              ],
+              [
+                90,
+                152
+              ],
+              [
+                77,
+                150
+              ],
+              [
+                255,
+                255
+              ]
+            ]
+          },
+          {
+            "index": 1,
+            "mimeType": "image/png",
+            "width": 512,
+            "height": 512,
+            "pngBytes": 22822,
+            "pngSha256": "f2ef93d956f548f82e8740513eb86c968b62e84b57244a9f8bd30bcda61ef1c7",
+            "decodedRgbaSha256": "a30e060afc5ed557d5ddd7983de23191908d6a586c73b4385ffe8fccb245f5e2",
+            "rgbaChannelRanges": [
+              [
+                119,
+                136
+              ],
+              [
+                120,
+                134
+              ],
+              [
+                255,
+                255
+              ],
+              [
+                255,
+                255
+              ]
+            ]
+          },
+          {
+            "index": 2,
+            "mimeType": "image/png",
+            "width": 512,
+            "height": 512,
+            "pngBytes": 63189,
+            "pngSha256": "aee8c8c8aa054a9cae2583b2ab202d1a11897194e1cf170ea4adef36a28d3f59",
+            "decodedRgbaSha256": "69695c191cba39bd0767979d820ba37a12e5faf1057a22e07fbc2215f0cbba40",
+            "rgbaChannelRanges": [
+              [
+                255,
+                255
+              ],
+              [
+                92,
+                160
+              ],
+              [
+                48,
+                160
+              ],
+              [
+                255,
+                255
+              ]
+            ]
+          }
+        ],
+        "materialBindings": [
+          {
+            "materialIndex": 2,
+            "materialName": "material-2",
+            "slots": {
+              "baseColor": 0,
+              "normal": 1,
+              "metallicRoughness": 2
+            }
+          },
+          {
+            "materialIndex": 3,
+            "materialName": "material-3",
+            "slots": {
+              "baseColor": 0,
+              "normal": 1,
+              "metallicRoughness": 2
+            }
+          }
+        ]
+      },
+      "runtimeBinding": true,
+      "staticBytesUnchanged": true,
+      "realPgFSmoke": true,
+      "deterministicReplay": true,
+      "borrowedDisposals": 0
+    }
+  ],
+  "checks": [
+    {
+      "source": "FZ43-F2-low.glb",
+      "sha256": "78686e356e48a2c7ee14e2fc02a7587b7e040fd1631a071ec59d1252c18abc6d",
+      "sourceObjectRestored": true,
+      "borrowedDisposals": 0
+    },
+    {
+      "source": "FZ43-F2-geometry.glb",
+      "sha256": "4f1d831d1deb439bccbd3d4686cb5c71184ec3fbb7828793b064d79b31223aa4",
+      "sourceObjectRestored": true,
+      "borrowedDisposals": 0
+    },
+    {
+      "source": "FZ43-F2-high.glb",
+      "sha256": "4199b7a5f700fce25f33a14476d19ecce7ea844be5f6b40d9067a8acc6915a74",
+      "sourceObjectRestored": true,
+      "borrowedDisposals": 0
+    },
+    "Actual PGF hidden upper/lower parts fail closed"
+  ],
+  "finalFrozenPgfGlb": {
+    "sha256": "7e590a8fcf8f9e8bb8523801cfc7a838ea13a79722f4aacc735f767e1820008c",
+    "bytes": 1578884,
+    "readbackValidated": true,
+    "nodeContract": true,
+    "textureDecode": {
+      "decoder": "@napi-rs/canvas native Skia PNG decode, raw GLB chunks independent of PGF reader",
+      "images": [
+        {
+          "index": 0,
+          "mimeType": "image/png",
+          "width": 512,
+          "height": 512,
+          "pngBytes": 7633,
+          "pngSha256": "1d7b4b66f0dc63f783e3187138adf789f7fea8e855aadd5b286abe9c1a60beb4",
+          "decodedRgbaSha256": "bebad9ff4fd656bfbcc39ac688c6d488a97982b9f6ac4cefedee05b06b331564",
+          "rgbaChannelRanges": [
+            [
+              84,
+              131
+            ],
+            [
+              91,
+              128
+            ],
+            [
+              87,
+              128
+            ],
+            [
+              255,
+              255
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "mimeType": "image/png",
+          "width": 512,
+          "height": 512,
+          "pngBytes": 21137,
+          "pngSha256": "285b66818fcde9ddadb181b635db09bcceaf393041c2d6b2f7113a5e6607197c",
+          "decodedRgbaSha256": "f57edbaf2937ba27cd02905081a0a9bc3e3a0074fa2bf5e823b64af3d28668f7",
+          "rgbaChannelRanges": [
+            [
+              119,
+              136
+            ],
+            [
+              122,
+              133
+            ],
+            [
+              255,
+              255
+            ],
+            [
+              255,
+              255
+            ]
+          ]
+        },
+        {
+          "index": 2,
+          "mimeType": "image/png",
+          "width": 512,
+          "height": 512,
+          "pngBytes": 61201,
+          "pngSha256": "504573fd268015a0210e5aa089c272727e4811e5d507861aef7f7e4e26809a40",
+          "decodedRgbaSha256": "da66c88d50a5ef41947925fc3f7b365addae3262b2291bd90a8ea9281ca778df",
+          "rgbaChannelRanges": [
+            [
+              255,
+              255
+            ],
+            [
+              92,
+              151
+            ],
+            [
+              54,
+              105
+            ],
+            [
+              255,
+              255
+            ]
+          ]
+        }
+      ],
+      "materialBindings": [
+        {
+          "materialIndex": 2,
+          "materialName": "material-2",
+          "slots": {
+            "baseColor": 0,
+            "normal": 1,
+            "metallicRoughness": 2
+          }
+        },
+        {
+          "materialIndex": 3,
+          "materialName": "material-3",
+          "slots": {
+            "baseColor": 0,
+            "normal": 1,
+            "metallicRoughness": 2
+          }
+        }
+      ]
+    }
+  }
+}

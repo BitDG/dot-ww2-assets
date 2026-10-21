@@ -1,0 +1,141 @@
+{
+  "status": "passed",
+  "modelSha256": "bb62ac17a9e3b57d581cc52aff70495fdd1b52973b5c60c6f035d737e40f72cc",
+  "views": {
+    "side": {
+      "modelSha256": "bb62ac17a9e3b57d581cc52aff70495fdd1b52973b5c60c6f035d737e40f72cc",
+      "view": "side",
+      "type": "ORTHO",
+      "location": [
+        0.0,
+        -35.0,
+        2.6700000762939453
+      ],
+      "rotationEuler": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "direction": [
+        0.0,
+        0.9999999403953552,
+        3.5762786865234375e-07
+      ],
+      "orthoScale": 25.760000228881836,
+      "target": [
+        0.0,
+        0.0,
+        2.6700000762939453
+      ],
+      "resolution": [
+        1400,
+        420
+      ],
+      "samples": 32,
+      "threads": 4,
+      "denoise": false
+    },
+    "top": {
+      "modelSha256": "bb62ac17a9e3b57d581cc52aff70495fdd1b52973b5c60c6f035d737e40f72cc",
+      "view": "top",
+      "type": "ORTHO",
+      "location": [
+        0.0,
+        0.0,
+        42.66999816894531
+      ],
+      "rotationEuler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "orthoScale": 25.760000228881836,
+      "target": [
+        0.0,
+        0.0,
+        2.6700000762939453
+      ],
+      "resolution": [
+        1400,
+        420
+      ],
+      "samples": 32,
+      "threads": 4,
+      "denoise": false
+    },
+    "front": {
+      "modelSha256": "bb62ac17a9e3b57d581cc52aff70495fdd1b52973b5c60c6f035d737e40f72cc",
+      "view": "front",
+      "type": "ORTHO",
+      "location": [
+        -35.0,
+        0.0,
+        2.6700000762939453
+      ],
+      "rotationEuler": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "orthoScale": 10.303999900817871,
+      "target": [
+        0.0,
+        0.0,
+        2.6700000762939453
+      ],
+      "resolution": [
+        560,
+        420
+      ],
+      "samples": 32,
+      "threads": 4,
+      "denoise": false
+    }
+  },
+  "unitsPerPixel": 0.018400000163487026,
+  "strictDirectionsTolerance": 1e-06,
+  "sameTarget": true,
+  "sourceBlendReopen": {
+    "modelSha256": "bb62ac17a9e3b57d581cc52aff70495fdd1b52973b5c60c6f035d737e40f72cc",
+    "meshesIncludingFloor": 49,
+    "packedImages": [
+      {
+        "name": "texture-0",
+        "size": [
+          256,
+          256
+        ],
+        "bytes": 23741
+      },
+      {
+        "name": "texture-1",
+        "size": [
+          256,
+          256
+        ],
+        "bytes": 32403
+      },
+      {
+        "name": "texture-2",
+        "size": [
+          256,
+          256
+        ],
+        "bytes": 28542
+      }
+    ],
+    "nonFinite": 0,
+    "status": "passed"
+  },
+  "render": "Cycles 32 samples, CPU 4 threads, no denoise; visible sampling grain is not modeled detail"
+}

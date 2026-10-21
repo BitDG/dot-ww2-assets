@@ -1,0 +1,14 @@
+{
+  "stage": "G3",
+  "inputGLB": "PGF/modules/gustav-visual-prop/evidence/gustav-medium.glb",
+  "inputGLBSha256": "f020cac6b9be27419146cad8d73ffeb2c5cb40975e9a2573cd9382ebab8e0828",
+  "inputRecipeSha256": "d01b474ca702e1d269e6b59769f70fa14b3404ffe1a28549d376d3c8b5bafd9a",
+  "images": [
+    "G3-hero.png",
+    "G3-wheel-detail.png",
+    "G3-walkway-detail.png"
+  ],
+  "sourceScene": "assets/blender/gustav-pgf-G3-reviewed-scene.blend",
+  "method": "Actual PGF definition -> AssetIR -> GLB -> actual Blender MCP import/render; no image synthesis",
+  "presentation": "Unmeasured exterior art; occluded forms are artistic inference"
+}

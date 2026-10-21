@@ -1,0 +1,57 @@
+{
+  "stage": "F2-Gustav-runtime",
+  "runtimeSHA256": "f6325a59f90eb9826396066e02e47dc829a48670a3f2af6b77cd8db99ec58cd2",
+  "reviewedUTC": "2026-10-12T05:18:19.245080+00:00",
+  "browser": "Firefox 157.0.1 on Linux; llvmpipe software WebGL environment",
+  "manualVisualReview": {
+    "method": "Viewed all 22 native Firefox frames in order, plus three actual seek-time frames",
+    "frameRange": "frames/frame-000.jpg through frames/frame-021.jpg",
+    "passed": [
+      "Frame 002 smoke is connected at one visual mouth anchor",
+      "Frames 003–008 open into different-size overlapping lobes",
+      "Frames 009–013 fade progressively",
+      "Frames 014–021 show no residual cloud",
+      "Model remains readable throughout",
+      "Early 0.65 s, middle 2 s and late 5.5 s native frames independently inspected"
+    ],
+    "sourceLimit": "Catalog-attributed montage of a railway gun; not a calibrated historical recreation. Monochrome film cannot certify color."
+  },
+  "automaticEvidence": {
+    "moduleNode": {
+      "passed": 10,
+      "failed": 0,
+      "file": "../node-tests.tap",
+      "gpu": false
+    },
+    "integrationNode": {
+      "passed": 89,
+      "failed": 0,
+      "file": "../integration-node-tests.log",
+      "gpu": false
+    },
+    "firefox": {
+      "passed": 105,
+      "failed": 0,
+      "file": "integration-browser-report.json",
+      "sha256": "978b84bd51d2a42c845db66ad0ae9333491c202bd375c801ebe7fbd88967a1a1",
+      "gpu": true
+    }
+  },
+  "gif": {
+    "file": "Gustav-F2-Firefox.gif",
+    "frames": 22,
+    "width": 1283,
+    "height": 935,
+    "durationMs": 7120,
+    "method": "Continuous native Firefox playback frames with capture timestamps; no generated frames or seek interpolation",
+    "sha256": "30ca5113f784db3e096a7198e90f25b5cbd7e738f827ca7453b3277a8d1ef30d"
+  },
+  "notCovered": [
+    "The approximately 0.3-second capture cadence does not guarantee capturing the very brief bright flash; the GIF primarily documents cloud continuity",
+    "No calibrated historical timing, physical dimensions, performance, mechanical recoil or projectile simulation",
+    "No hardware-GPU performance benchmark; software rendering only",
+    "No animated GLB export; static export byte equality is verified",
+    "Simultaneously moving birth positions are not guaranteed invariant across different host frame chunking"
+  ],
+  "resourceNote": "Original Three.js shared Sprite geometry cache remains bounded at 1 after warm-up; owned particles, materials/textures, listeners and final context cleanup are separately checked. This is not reported as zero renderer geometries."
+}

@@ -1,0 +1,41 @@
+{
+  "status": "Five real Firefox canvases imported, dimensions and uniqueness validated; all actual pixels inspected. Rebuilt gallery URLs pending Firefox confirmation.",
+  "source": "Native Firefox canonical definition -> actual GLB -> Three GLTFLoader canvas",
+  "version": "1.2.1",
+  "size": [
+    500,
+    380
+  ],
+  "images": [
+    {
+      "id": "reference-gray",
+      "file": "/workspace/scratch/6a4c729be230/pgf-vehicle-browser-qa/diesel-locomotive-reference-gray.png",
+      "sha256": "61e3e4502fdd609f3d573c80abc530737dd152763d693c603ada987f6174b9c9",
+      "bytes": 82442
+    },
+    {
+      "id": "industrial-yellow",
+      "file": "/workspace/scratch/6a4c729be230/pgf-vehicle-browser-qa/diesel-locomotive-industrial-yellow.png",
+      "sha256": "dca467bd6431d4c11b733c3ae54fbb6514fd83c89fdb57661f28667b98e4d729",
+      "bytes": 87669
+    },
+    {
+      "id": "clean-display",
+      "file": "/workspace/scratch/6a4c729be230/pgf-vehicle-browser-qa/diesel-locomotive-clean-display.png",
+      "sha256": "522773b07dae80fb3704a8af56d0e2efcf999f891db03d5417ae48661c0c82f3",
+      "bytes": 80749
+    },
+    {
+      "id": "weathered-blue",
+      "file": "/workspace/scratch/6a4c729be230/pgf-vehicle-browser-qa/diesel-locomotive-weathered-blue.png",
+      "sha256": "c0f6794db426fd0b51182b193ec91a1c3d299f4ce386794d2fb43a444af59ef1",
+      "bytes": 85830
+    },
+    {
+      "id": "low-silhouette",
+      "file": "/workspace/scratch/6a4c729be230/pgf-vehicle-browser-qa/diesel-locomotive-low-silhouette.png",
+      "sha256": "0c1ee507bf489f325efba1700a5a27eb79d3945e3888a7e8b7510ae20ea5ec08",
+      "bytes": 77005
+    }
+  ]
+}

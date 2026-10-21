@@ -1,0 +1,70 @@
+TAP version 13
+# Subtest: actual AssetIR wrapper binds the closed cosmetic face at varied art proportions
+ok 1 - actual AssetIR wrapper binds the closed cosmetic face at varied art proportions
+  ---
+  duration_ms: 343.924584
+  type: 'test'
+  ...
+# Subtest: real PGF runtime replay, pause, inactive, seek and disposal own no asset resources
+ok 2 - real PGF runtime replay, pause, inactive, seek and disposal own no asset resources
+  ---
+  duration_ms: 342.043544
+  type: 'test'
+  ...
+# Subtest: birth point follows movement but an emitted cloud stays behind; binding survives recipe invalidation
+ok 3 - birth point follows movement but an emitted cloud stays behind; binding survives recipe invalidation
+  ---
+  duration_ms: 153.902617
+  type: 'test'
+  ...
+# Subtest: fixed art stepping is reproducible across frame chunks and multiplier
+ok 4 - fixed art stepping is reproducible across frame chunks and multiplier
+  ---
+  duration_ms: 166.73116
+  type: 'test'
+  ...
+# Subtest: only Gustav has current fire capability; unknown and unarmed assets stay unavailable
+ok 5 - only Gustav has current fire capability; unknown and unarmed assets stay unavailable
+  ---
+  duration_ms: 0.796695
+  type: 'test'
+  ...
+# Subtest: binding rejects ambiguous or missing faces before allocating FX
+ok 6 - binding rejects ambiguous or missing faces before allocating FX
+  ---
+  duration_ms: 0.420085
+  type: 'test'
+  ...
+# Subtest: invalid art configuration allocates no scene state
+ok 7 - invalid art configuration allocates no scene state
+  ---
+  duration_ms: 0.207924
+  type: 'test'
+  ...
+# Subtest: world-space framing envelope remains valid under transformed scene parents
+ok 8 - world-space framing envelope remains valid under transformed scene parents
+  ---
+  duration_ms: 132.195791
+  type: 'test'
+  ...
+# Subtest: F2 uses three offset cloud layers for one visual cue, with one brief light source
+ok 9 - F2 uses three offset cloud layers for one visual cue, with one brief light source
+  ---
+  duration_ms: 126.720148
+  type: 'test'
+  ...
+# Subtest: F2 cloud layers share a birth point and open continuously before fading
+ok 10 - F2 cloud layers share a birth point and open continuously before fading
+  ---
+  duration_ms: 129.424927
+  type: 'test'
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1585.562841

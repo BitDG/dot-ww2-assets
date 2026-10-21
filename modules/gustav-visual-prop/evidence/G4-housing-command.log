@@ -1,0 +1,48 @@
+Error executing code: Communication error with Blender: No data received
+  + Exception Group Traceback (most recent call last):
+  |   File "/workspace/scratch/6a4c729be230/blender-mcp-local/client.py", line 79, in <module>
+  |     asyncio.run(main())
+  |   File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py", line 195, in run
+  |     return runner.run(main)
+  |            ^^^^^^^^^^^^^^^^
+  |   File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py", line 118, in run
+  |     return self._loop.run_until_complete(task)
+  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+  |     return future.result()
+  |            ^^^^^^^^^^^^^^^
+  |   File "/workspace/scratch/6a4c729be230/blender-mcp-local/client.py", line 42, in main
+  |     async with stdio_client(params, errlog=log) as (read, write):
+  |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/mcp/client/stdio/__init__.py", line 183, in stdio_client
+  |     anyio.create_task_group() as tg,
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 815, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Exception Group Traceback (most recent call last):
+    |   File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/mcp/client/stdio/__init__.py", line 189, in stdio_client
+    |     yield read_stream, write_stream
+    |   File "/workspace/scratch/6a4c729be230/blender-mcp-local/client.py", line 43, in main
+    |     async with ClientSession(read, write, read_timeout_seconds=timedelta(seconds=210)) as session:
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/mcp/shared/session.py", line 238, in __aexit__
+    |     return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 815, in __aexit__
+    |     raise BaseExceptionGroup(
+    | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/workspace/scratch/6a4c729be230/blender-mcp-local/client.py", line 67, in main
+      |     raise RuntimeError('MCP execute did not succeed; see receipt')
+      | RuntimeError: MCP execute did not succeed; see receipt
+      +------------------------------------
+{"owned_blender_exit": 0, "log": "/workspace/scratch/6a4c729be230/PGF/modules/gustav-visual-prop/evidence/G4-housing-mcp-receipt.blender.log"}
+Traceback (most recent call last):
+  File "/workspace/scratch/6a4c729be230/blender-mcp-local/run.py", line 58, in <module>
+    raise RuntimeError('MCP client failed with exit ' + str(result.returncode))
+RuntimeError: MCP client failed with exit 1

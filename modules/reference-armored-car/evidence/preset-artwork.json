@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "source": "Actual native Firefox canonical review definition\u2192GLB\u2192GLTFLoader canvas downloads; operator parameter checks recorded separately",
+  "size": [
+    500,
+    380
+  ],
+  "images": [
+    {
+      "preset": "reference",
+      "sourceFile": "/workspace/scratch/6a4c729be230/pgf-vehicle-browser-qa/reference-armored-car-reference.png",
+      "sha256": "19f674b42cc7f712a211d10c7af90454e7c3a43abfbf24d30ddcf3b6b1a5974f",
+      "bytes": 97706,
+      "visibleParameterEvidence": "evidence/armored-review-reference.jpg"
+    },
+    {
+      "preset": "forward",
+      "sourceFile": "/workspace/scratch/6a4c729be230/pgf-vehicle-browser-qa/reference-armored-car-forward.png",
+      "sha256": "7ec538949e3ef1c537473c5f42b228da586c1947f657be4b6172856c75473225",
+      "bytes": 97635,
+      "visibleParameterEvidence": "evidence/armored-review-forward.jpg"
+    },
+    {
+      "preset": "clean",
+      "sourceFile": "/workspace/scratch/6a4c729be230/pgf-vehicle-browser-qa/reference-armored-car-clean.png",
+      "sha256": "339b3c0aaa3b142d3ce44645c692c6478a7bb0b755c28ae6603a531d7b358e95",
+      "bytes": 95185,
+      "visibleParameterEvidence": "evidence/armored-review-clean.jpg"
+    },
+    {
+      "preset": "dusty",
+      "sourceFile": "/workspace/scratch/6a4c729be230/pgf-vehicle-browser-qa/reference-armored-car-dusty.png",
+      "sha256": "8b56c84efd060aa8ad1c4e86a70a296e44fb1d7604a4e68e712cdfe9ca9ef599",
+      "bytes": 100108,
+      "visibleParameterEvidence": "evidence/armored-review-dusty.jpg"
+    }
+  ],
+  "validation": {
+    "dimensions": "four actual 500x380 native Firefox canvas PNGs",
+    "distinctHashes": true,
+    "pixelsInspected": true,
+    "resolvedParametersCheckedInVisibleReviewUI": true,
+    "rendererMeasurement": "review frameCalls=70; model meshes=69. This is the independent canonical GLB review renderer, not shared workbench renderer.info.",
+    "build": "Vite 8.1.5 isolated two-entry build succeeded in 8.97s; four static URL assets emitted with identical input hashes",
+    "workbenchThumbnailVisualCheck": "PASS: refreshed native Firefox shows all four actual PNG cards (evidence/armored-scroll-fixed.jpg)"
+  }
+}

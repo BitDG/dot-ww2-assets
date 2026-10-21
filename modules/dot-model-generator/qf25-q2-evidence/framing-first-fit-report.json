@@ -1,0 +1,41 @@
+{
+  "stage": "I2 final projected close-up framing",
+  "started": "2026-10-12T09:41:18.325Z",
+  "checks": [
+    {
+      "name": "qf25-visual-prop default exact vertex fit",
+      "ok": false,
+      "data": {
+        "minX": -0.7499999999999999,
+        "maxX": 0.47660831577843776,
+        "minY": -0.42100298512266165,
+        "maxY": 0.3325378588107648,
+        "vertices": 133663,
+        "widthFraction": 0.6133041578892189,
+        "heightFraction": 0.37677042196671323,
+        "maxEdge": 0.7499999999999999,
+        "distance": 8.55925375843441
+      }
+    }
+  ],
+  "models": {
+    "qf25-visual-prop": {
+      "default": {
+        "minX": -0.7499999999999999,
+        "maxX": 0.47660831577843776,
+        "minY": -0.42100298512266165,
+        "maxY": 0.3325378588107648,
+        "vertices": 133663,
+        "widthFraction": 0.6133041578892189,
+        "heightFraction": 0.37677042196671323,
+        "maxEdge": 0.7499999999999999,
+        "distance": 8.55925375843441
+      }
+    }
+  },
+  "errors": [
+    "check@http://127.0.0.1:5197/modules/dot-model-generator/qf25-q2-evidence/framing-check.mjs:5:83\n@http://127.0.0.1:5197/modules/dot-model-generator/qf25-q2-evidence/framing-check.mjs:12:94\nsetTimeout handler*sleep/<@http://127.0.0.1:5197/modules/dot-model-generator/qf25-q2-evidence/framing-check.mjs:3:179\nsleep@http://127.0.0.1:5197/modules/dot-model-generator/qf25-q2-evidence/framing-check.mjs:3:154\nuntil@http://127.0.0.1:5197/modules/dot-model-generator/qf25-q2-evidence/framing-check.mjs:4:130\n@http://127.0.0.1:5197/modules/dot-model-generator/qf25-q2-evidence/framing-check.mjs:11:135\n"
+  ],
+  "status": "failed",
+  "completed": "2026-10-12T09:41:20.912Z"
+}

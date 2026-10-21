@@ -1,0 +1,80 @@
+{
+  "generator": "gustav-visual-prop",
+  "version": "1.0.0",
+  "finalDefault": {
+    "name": "reference-gray",
+    "stats": {
+      "triangles": 25140,
+      "renderedTriangles": 74420,
+      "vertices": 37804,
+      "instances": 73,
+      "draws": 73,
+      "bytes": 1644731,
+      "nodes": 81,
+      "meshes": 18,
+      "textures": 3,
+      "materials": 6,
+      "dimensions": [
+        26,
+        6.539999960064888,
+        4.800000190734863
+      ]
+    },
+    "bytes": 1599740,
+    "sha256": "a56dc1415d14bf86c42a92c17a991c4491af8ff9e177f0ad50da11f38044d52e",
+    "elapsedMs": 1737,
+    "bounds": {
+      "min": [
+        -13,
+        1.7881394143159923e-09,
+        -2.4000000953674316
+      ],
+      "max": [
+        13,
+        6.539999961853027,
+        2.4000000953674316
+      ]
+    },
+    "roundtrip": {
+      "triangles": 74420,
+      "sockets": 6,
+      "textures": 3,
+      "sourceParts": 1074
+    }
+  },
+  "batching": {
+    "status": "passed",
+    "beforeDraws": 1074,
+    "afterDraws": 73,
+    "beforeTriangles": 74420,
+    "afterTriangles": 74420,
+    "beforeNodes": 1082,
+    "afterNodes": 81,
+    "ownerAndMaterialPreserved": true,
+    "sourceParts": 1074,
+    "maxCoordinateError": 0,
+    "originalFloat32SurfaceSha256": "d054b20975c3561c751de25ca5069d5eef1afe5ea9de7f84ef3c1a207f6a5a89",
+    "batchedFloat32SurfaceSha256": "d054b20975c3561c751de25ca5069d5eef1afe5ea9de7f84ef3c1a207f6a5a89",
+    "hashMeaning": "Part-name-sorted ordered world triangle coordinates normalized to float32; no image likeness metric",
+    "exactSurfaceHashMatch": true
+  },
+  "sourceFiles": {
+    "core.mjs": "69ab7a3f60b931edc8ba5d4be4a595772f7334f2358efa40e6dd1a00e31918cb",
+    "batch.mjs": "bda3b69da9eb9249a29073af2d9123e691ea26b74a5cafae5874b12f46865e02",
+    "definition.mjs": "c739d1d508deaeaefb89cd37e7de926a3c10524edd923a4fd2d51b48e1263cdc",
+    "worker.js": "72841705518e923fc121225d196cbf9946f50f2db9b8abc816802a32578215b7",
+    "workbench.js": "77ebf0a3f691abceeabb842e8dd7a12a8988f3a813625938bf11fc6828c6e988",
+    "assets/blender-kit-low.mjs": "9407e06c21345a85f681329607e45e5e42fcc5ed429862807dc3001c16ba005c",
+    "assets/blender-kit-medium.mjs": "b32acb58bf6aa326ad29502a8d5cf5482c3d1619c909897270f2277e53c08572",
+    "assets/blender-kit-high.mjs": "9bf88137ac0dfe54a5aff5a6d893bcafed1fbbd68156c8d83026c70c45f5e541"
+  },
+  "sharedTankFinishSha256": "83180817c7203f5a0c5fa53327b65bb773fd6bc94bcd88c6eff864f2cf0752f0",
+  "imageSourceScene": "assets/blender/gustav-pgf-final-reviewed-scene.blend",
+  "imagesPending": [
+    "final-hero.png",
+    "final-side.png",
+    "final-top.png",
+    "final-front.png"
+  ],
+  "scaleMeaning": "All proportions are unmeasured arbitrary art units; same-pixels-per-art-unit orthographic views, not calibrated historical measurements"
+}

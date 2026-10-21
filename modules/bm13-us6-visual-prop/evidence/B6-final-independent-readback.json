@@ -1,0 +1,83 @@
+{
+  "low": {
+    "sha256": "7ccf1aafded2ec0b98eb7362358525c29a6fc6857270e939b0088102ff8a48de",
+    "triangles": 76916,
+    "meshes": 59,
+    "degenerate": 0,
+    "nonfinite": 0,
+    "invalidNormals": 0,
+    "missingUV": 0,
+    "missingNormal": 0,
+    "wheelCount": 10,
+    "images": [
+      [
+        256,
+        256
+      ],
+      [
+        256,
+        256
+      ],
+      [
+        256,
+        256
+      ]
+    ],
+    "animationClips": 0,
+    "pass": true
+  },
+  "medium": {
+    "sha256": "68a2e6056c01a03ad25478c43080abb7fd682396c8e570b6614361e547de5830",
+    "triangles": 129976,
+    "meshes": 59,
+    "degenerate": 0,
+    "nonfinite": 0,
+    "invalidNormals": 0,
+    "missingUV": 0,
+    "missingNormal": 0,
+    "wheelCount": 10,
+    "images": [
+      [
+        512,
+        512
+      ],
+      [
+        512,
+        512
+      ],
+      [
+        512,
+        512
+      ]
+    ],
+    "animationClips": 0,
+    "pass": true
+  },
+  "high": {
+    "sha256": "dfbd241ab426433484734926a7622ffc6270dc7ee2ad273a71b7acd3d56bb531",
+    "triangles": 387996,
+    "meshes": 59,
+    "degenerate": 0,
+    "nonfinite": 0,
+    "invalidNormals": 0,
+    "missingUV": 0,
+    "missingNormal": 0,
+    "wheelCount": 10,
+    "images": [
+      [
+        512,
+        512
+      ],
+      [
+        512,
+        512
+      ],
+      [
+        512,
+        512
+      ]
+    ],
+    "animationClips": 0,
+    "pass": true
+  }
+}

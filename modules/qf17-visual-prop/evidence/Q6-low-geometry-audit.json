@@ -1,0 +1,60 @@
+{
+  "stage": "Q6",
+  "tier": "low",
+  "sha256": "2a154b3f8ee14df4cf02a0326808219296a68ae8d4a487c9e227274262bceb2b",
+  "bytes": 1086188,
+  "meshes": 202,
+  "triangles": 24944,
+  "degenerate": 0,
+  "nonFinite": 0,
+  "missingUV": 0,
+  "missingNormal": 0,
+  "invalidNormals": 0,
+  "minimumDoubleArea": 0.000009976610373126203,
+  "wheels": [
+    {
+      "name": "QF17_Wheel_Left_Pivot",
+      "position": [
+        -1.1399999856948853,
+        0.5799999833106995,
+        -0.10999999940395355
+      ]
+    },
+    {
+      "name": "QF17_Wheel_Right_Pivot",
+      "position": [
+        1.1399999856948853,
+        0.5799999833106995,
+        -0.10999999940395355
+      ]
+    }
+  ],
+  "parts": [
+    "QF17_Art_low",
+    "QF17_ROOT",
+    "QF17_Barrel_Exterior",
+    "QF17_Carriage_Exterior",
+    "QF17_Cosmetic_Fittings",
+    "QF17_Shield_Assembly",
+    "QF17_Trail_Left_Exterior",
+    "QF17_Trail_Right_Exterior",
+    "QF17_Wheel_Left_Pivot",
+    "QF17_Wheel_Right_Pivot"
+  ],
+  "badMeshes": [],
+  "bounds": {
+    "min": [
+      -1.6649999916553497,
+      -0.006286680698394775,
+      -3.903000071644783
+    ],
+    "max": [
+      1.6649999916553497,
+      1.9600000381469727,
+      4.4770002365112305
+    ]
+  },
+  "wheelCount": 2,
+  "animationClips": 0,
+  "pass": true
+}

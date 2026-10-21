@@ -1,0 +1,512 @@
+(node:5) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("/workspace/scratch/6a4c729be230/pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:5) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("/workspace/scratch/6a4c729be230/pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+{
+  "status": "passed",
+  "checks": [
+    "prepareGenerator -> threeToIR -> AssetIR -> PGF GLB -> readGLB preserves owners, literal angles, collider, sockets and three PBR channels",
+    "actual shared Worker generation/export dispatch is byte-identical to prepared Node path",
+    "real Node worker_threads transport loads unchanged module Worker entry and retains GLB byte parity",
+    "actual independent Worker also preserves full tank camouflage GLB byte parity"
+  ],
+  "variants": [
+    {
+      "topology": {
+        "degenerateTriangles": 0,
+        "triangles": 109900
+      },
+      "name": "reference",
+      "params": {
+        "camoPattern": "original",
+        "camoEnvironment": "desert",
+        "camoScale": 1,
+        "paintColor": "#a2aaaf",
+        "length": 10.8,
+        "elevation": 0,
+        "barrelScale": 1,
+        "weathering": 0.32,
+        "detail": "high",
+        "railings": true,
+        "exploded": 0
+      },
+      "generatedMS": 1554.2198480000002,
+      "stats": {
+        "triangles": 109900,
+        "renderedTriangles": 109900,
+        "vertices": 110471,
+        "instances": 21,
+        "draws": 21,
+        "bytes": 5684027,
+        "nodes": 30,
+        "meshes": 21,
+        "textures": 15,
+        "materials": 6,
+        "dimensions": [
+          3.690000057220459,
+          4.490335650742054,
+          10.596776962280273
+        ]
+      },
+      "glbBytes": 5009560,
+      "glbSha256": "bda7aaa6bf736cbc38b896609fec24251bf0beec0adec738b68d9781b17257b5",
+      "bounds": {
+        "min": [
+          -1.8450000286102295,
+          0.03199999779462814,
+          -5.253776550292969
+        ],
+        "max": [
+          1.8450000286102295,
+          4.522335648537141,
+          5.343000411987305
+        ]
+      },
+      "colliders": 1,
+      "sockets": 3,
+      "textures": 15
+    },
+    {
+      "topology": {
+        "degenerateTriangles": 0,
+        "triangles": 82316
+      },
+      "name": "standard",
+      "params": {
+        "camoPattern": "original",
+        "camoEnvironment": "desert",
+        "camoScale": 1,
+        "paintColor": "#a2aaaf",
+        "length": 10.8,
+        "elevation": 0,
+        "barrelScale": 1,
+        "weathering": 0.32,
+        "detail": "standard",
+        "railings": true,
+        "exploded": 0
+      },
+      "generatedMS": 1142.3558979999998,
+      "stats": {
+        "triangles": 82316,
+        "renderedTriangles": 82316,
+        "vertices": 77035,
+        "instances": 20,
+        "draws": 20,
+        "bytes": 4283067,
+        "nodes": 29,
+        "meshes": 20,
+        "textures": 15,
+        "materials": 6,
+        "dimensions": [
+          3.6500000953674316,
+          4.490335650742054,
+          10.596776962280273
+        ]
+      },
+      "glbBytes": 3770296,
+      "glbSha256": "9d5b523461a55d1ca9616c9a6aa99258d377cd59e3d46c1ca1a8ced72e27dec4",
+      "bounds": {
+        "min": [
+          -1.8250000476837158,
+          0.03199999779462814,
+          -5.253776550292969
+        ],
+        "max": [
+          1.8250000476837158,
+          4.522335648537141,
+          5.343000411987305
+        ]
+      },
+      "colliders": 1,
+      "sockets": 3,
+      "textures": 15
+    },
+    {
+      "topology": {
+        "degenerateTriangles": 0,
+        "triangles": 109900
+      },
+      "name": "inspection",
+      "params": {
+        "camoPattern": "original",
+        "camoEnvironment": "desert",
+        "camoScale": 1,
+        "paintColor": "#a2aaaf",
+        "length": 10.8,
+        "elevation": 35,
+        "barrelScale": 1,
+        "weathering": 0.32,
+        "detail": "high",
+        "railings": true,
+        "exploded": 0
+      },
+      "generatedMS": 1464.249111,
+      "stats": {
+        "triangles": 109900,
+        "renderedTriangles": 109900,
+        "vertices": 110471,
+        "instances": 21,
+        "draws": 21,
+        "bytes": 5684027,
+        "nodes": 30,
+        "meshes": 21,
+        "textures": 15,
+        "materials": 6,
+        "dimensions": [
+          3.690000057220459,
+          5.092352456378823,
+          10.596776962280273
+        ]
+      },
+      "glbBytes": 5009616,
+      "glbSha256": "84ef601e7ff5bd383c9cd120c33142169b32bd3df71a9265055ae54581ed4ab8",
+      "bounds": {
+        "min": [
+          -1.8450000286102295,
+          0.03199999779462814,
+          -5.253776550292969
+        ],
+        "max": [
+          1.8450000286102295,
+          5.124352454172134,
+          5.343000411987305
+        ]
+      },
+      "colliders": 1,
+      "sockets": 3,
+      "textures": 15
+    },
+    {
+      "topology": {
+        "degenerateTriangles": 0,
+        "triangles": 109900
+      },
+      "name": "legacy60",
+      "params": {
+        "camoPattern": "original",
+        "camoEnvironment": "desert",
+        "camoScale": 1,
+        "paintColor": "#a2aaaf",
+        "length": 10.8,
+        "elevation": 60,
+        "barrelScale": 1,
+        "weathering": 0.32,
+        "detail": "high",
+        "railings": true,
+        "exploded": 0
+      },
+      "generatedMS": 1131.39617,
+      "stats": {
+        "triangles": 109900,
+        "renderedTriangles": 109900,
+        "vertices": 110471,
+        "instances": 21,
+        "draws": 21,
+        "bytes": 5684027,
+        "nodes": 30,
+        "meshes": 21,
+        "textures": 15,
+        "materials": 6,
+        "dimensions": [
+          3.690000057220459,
+          5.802284457326008,
+          10.596776962280273
+        ]
+      },
+      "glbBytes": 5009592,
+      "glbSha256": "ed2d7535b2dddd1f9876b900b50fb5f886609e206b978b2f19bebdfb812bfc08",
+      "bounds": {
+        "min": [
+          -1.8450000286102295,
+          0.03199999779462814,
+          -5.253776550292969
+        ],
+        "max": [
+          1.8450000286102295,
+          5.834284455119809,
+          5.343000411987305
+        ]
+      },
+      "colliders": 1,
+      "sockets": 3,
+      "textures": 15
+    },
+    {
+      "topology": {
+        "degenerateTriangles": 0,
+        "triangles": 109020
+      },
+      "name": "boundary",
+      "params": {
+        "camoPattern": "original",
+        "camoEnvironment": "desert",
+        "camoScale": 1,
+        "paintColor": "#a2aaaf",
+        "length": 12,
+        "elevation": 70,
+        "barrelScale": 1.15,
+        "weathering": 0.65,
+        "detail": "high",
+        "railings": false,
+        "exploded": 1
+      },
+      "generatedMS": 1048.7881669999988,
+      "stats": {
+        "triangles": 109020,
+        "renderedTriangles": 109020,
+        "vertices": 109371,
+        "instances": 21,
+        "draws": 21,
+        "bytes": 5659457,
+        "nodes": 30,
+        "meshes": 21,
+        "textures": 15,
+        "materials": 6,
+        "dimensions": [
+          5.0690000534057615,
+          8.648893006271946,
+          13.568998622894288
+        ]
+      },
+      "glbBytes": 4992484,
+      "glbSha256": "702098d7dbbc76bc54b47975fc34ce936baa9a9562d4aecd9abe573b44cdfe02",
+      "bounds": {
+        "min": [
+          -1.8450000286102295,
+          -0.24800000220537188,
+          -5.834887504577637
+        ],
+        "max": [
+          3.224000024795532,
+          8.400893004066894,
+          7.73411111831665
+        ]
+      },
+      "colliders": 1,
+      "sockets": 3,
+      "textures": 15
+    },
+    {
+      "topology": {
+        "degenerateTriangles": 0,
+        "triangles": 109900
+      },
+      "name": "desert",
+      "params": {
+        "camoPattern": "desert",
+        "camoEnvironment": "desert",
+        "camoScale": 1,
+        "paintColor": "#a2aaaf",
+        "length": 10.8,
+        "elevation": 0,
+        "barrelScale": 1,
+        "weathering": 0.32,
+        "detail": "high",
+        "railings": true,
+        "exploded": 0
+      },
+      "generatedMS": 1923.0514540000004,
+      "stats": {
+        "triangles": 109900,
+        "renderedTriangles": 109900,
+        "vertices": 110471,
+        "instances": 21,
+        "draws": 21,
+        "bytes": 6005406,
+        "nodes": 30,
+        "meshes": 21,
+        "textures": 15,
+        "materials": 6,
+        "dimensions": [
+          3.690000057220459,
+          4.490335650742054,
+          10.596776962280273
+        ]
+      },
+      "glbBytes": 5279924,
+      "glbSha256": "cbca41ead8cf6072da6fd977fcc3de41a139ff816dc8b04161ca14b0e9bbf2bd",
+      "bounds": {
+        "min": [
+          -1.8450000286102295,
+          0.03199999779462814,
+          -5.253776550292969
+        ],
+        "max": [
+          1.8450000286102295,
+          4.522335648537141,
+          5.343000411987305
+        ]
+      },
+      "colliders": 1,
+      "sockets": 3,
+      "textures": 15
+    },
+    {
+      "topology": {
+        "degenerateTriangles": 0,
+        "triangles": 109900
+      },
+      "name": "digital",
+      "params": {
+        "camoPattern": "digital",
+        "camoEnvironment": "desert",
+        "camoScale": 1.5,
+        "paintColor": "#a2aaaf",
+        "length": 10.8,
+        "elevation": 0,
+        "barrelScale": 1,
+        "weathering": 0.32,
+        "detail": "high",
+        "railings": true,
+        "exploded": 0
+      },
+      "generatedMS": 1045.7599240000018,
+      "stats": {
+        "triangles": 109900,
+        "renderedTriangles": 109900,
+        "vertices": 110471,
+        "instances": 21,
+        "draws": 21,
+        "bytes": 5901966,
+        "nodes": 30,
+        "meshes": 21,
+        "textures": 15,
+        "materials": 6,
+        "dimensions": [
+          3.690000057220459,
+          4.490335650742054,
+          10.596776962280273
+        ]
+      },
+      "glbBytes": 5208732,
+      "glbSha256": "05e547303a27734fa179de72b0ab63b80979067b1602af91e7ccb59e180ee5a3",
+      "bounds": {
+        "min": [
+          -1.8450000286102295,
+          0.03199999779462814,
+          -5.253776550292969
+        ],
+        "max": [
+          1.8450000286102295,
+          4.522335648537141,
+          5.343000411987305
+        ]
+      },
+      "colliders": 1,
+      "sockets": 3,
+      "textures": 15
+    },
+    {
+      "topology": {
+        "degenerateTriangles": 0,
+        "triangles": 109900
+      },
+      "name": "urban",
+      "params": {
+        "camoPattern": "auto",
+        "camoEnvironment": "urban",
+        "camoScale": 0.5,
+        "paintColor": "#a2aaaf",
+        "length": 10.8,
+        "elevation": 0,
+        "barrelScale": 1,
+        "weathering": 0.32,
+        "detail": "high",
+        "railings": true,
+        "exploded": 0
+      },
+      "generatedMS": 1116.474438000001,
+      "stats": {
+        "triangles": 109900,
+        "renderedTriangles": 109900,
+        "vertices": 110471,
+        "instances": 21,
+        "draws": 21,
+        "bytes": 5791485,
+        "nodes": 30,
+        "meshes": 21,
+        "textures": 15,
+        "materials": 6,
+        "dimensions": [
+          3.690000057220459,
+          4.490335650742054,
+          10.596776962280273
+        ]
+      },
+      "glbBytes": 5074644,
+      "glbSha256": "21ce906551042697e3a090e1c52c0738341c20dfada03ca6a40d7f574e355e5f",
+      "bounds": {
+        "min": [
+          -1.8450000286102295,
+          0.03199999779462814,
+          -5.253776550292969
+        ],
+        "max": [
+          1.8450000286102295,
+          4.522335648537141,
+          5.343000411987305
+        ]
+      },
+      "colliders": 1,
+      "sockets": 3,
+      "textures": 15
+    },
+    {
+      "topology": {
+        "degenerateTriangles": 0,
+        "triangles": 109900
+      },
+      "name": "claude",
+      "params": {
+        "camoPattern": "claude",
+        "camoEnvironment": "desert",
+        "camoScale": 2,
+        "paintColor": "#8c9b75",
+        "length": 10.8,
+        "elevation": 0,
+        "barrelScale": 1,
+        "weathering": 0.32,
+        "detail": "high",
+        "railings": true,
+        "exploded": 0
+      },
+      "generatedMS": 1385.3473510000003,
+      "stats": {
+        "triangles": 109900,
+        "renderedTriangles": 109900,
+        "vertices": 110471,
+        "instances": 21,
+        "draws": 21,
+        "bytes": 5776238,
+        "nodes": 30,
+        "meshes": 21,
+        "textures": 15,
+        "materials": 6,
+        "dimensions": [
+          3.690000057220459,
+          4.490335650742054,
+          10.596776962280273
+        ]
+      },
+      "glbBytes": 5071712,
+      "glbSha256": "a996b0aef802af8371747f1bb587d147361ba12e44c301b17fc61eb2c5539503",
+      "bounds": {
+        "min": [
+          -1.8450000286102295,
+          0.03199999779462814,
+          -5.253776550292969
+        ],
+        "max": [
+          1.8450000286102295,
+          4.522335648537141,
+          5.343000411987305
+        ]
+      },
+      "colliders": 1,
+      "sockets": 3,
+      "textures": 15
+    }
+  ]
+}

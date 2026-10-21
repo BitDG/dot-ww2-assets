@@ -1,0 +1,30 @@
+{
+  "stage": "Q6",
+  "classification": "simplified unmeasured nonfunctional exterior game art",
+  "historicalPairingSource": "https://collectie.nmm.nl/nl/collectie/detail/847144/",
+  "historicalFidelity": "not a measured replica; no claim of high historical likeness",
+  "toolchain": {
+    "blender": "4.3.2",
+    "mcp-for-blender": "2.1.9",
+    "safeMode": true,
+    "realMcp": true
+  },
+  "geometry": "three immutable authored GLBs with PGF tire geometry",
+  "materials": "existing PGF metalFinishPixels / portable vehicle camouflage; no independent bake",
+  "photoUsage": "observation only; no photo in imagegen, texture or bundle",
+  "authoringNotes": [
+    "Pathlib and libraries.write rejected by retained safe mode; supported native save operator used",
+    "Default Scene remains untouched in native document; active-scene-only GLB export excludes it",
+    "Installed Blender lacks OIDN; actual review uses 160-sample CPU Cycles, no extra installation",
+    "Five-view review call exceeded transport timeout after PNGs were written; final Q6 review uses separate successful single-view MCP calls"
+  ],
+  "nativeQ6Library": {
+    "low": "libfile_ae281f422ad8819196bd94c4a57250ea",
+    "medium": "libfile_8ed5cf3a8f64819192f6c00a667ed2a8",
+    "high": "libfile_82ec3fc6399481919282b17176d0e2c9"
+  },
+  "pending": [
+    "same frozen PGF medium GLB final visual renders",
+    "shared dot entry Firefox acceptance"
+  ]
+}

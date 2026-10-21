@@ -1,0 +1,20 @@
+{
+  "status": "PARTIAL",
+  "browser": "Actual native Firefox on dot cloud desktop",
+  "entry": "http://127.0.0.1:5176/modules/reference-armored-car/preview.html",
+  "verified": [
+    "Native shared workbench/Worker first load",
+    "auto/desert tank pattern visually rendered",
+    "White diamond, rubber and canvas remain independent",
+    "107826 displayed triangles; 2775 ms reported generation"
+  ],
+  "evidence": "firefox-first-tank-desert.jpg",
+  "pending": [
+    "Remaining parameter/preset checks",
+    "Actual browser GLB/recipe download and reimport",
+    "Idle/performance/resize/focus/cancel/disposal records",
+    "Four actual Three preset thumbnails",
+    "Real product GIF"
+  ],
+  "operator": "prepare_cloud_tree_sample"
+}

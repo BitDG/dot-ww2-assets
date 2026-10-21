@@ -1,0 +1,519 @@
+{
+  "status": "passed",
+  "three": "180",
+  "scope": "Formal Node API, AssetIR, GLB, Three GLTFLoader; separate browser and Blender receipts",
+  "variants": [
+    {
+      "name": "reference-gray",
+      "stats": {
+        "triangles": 96732,
+        "renderedTriangles": 146012,
+        "vertices": 162205,
+        "instances": 74,
+        "draws": 74,
+        "bytes": 6521107,
+        "nodes": 82,
+        "meshes": 19,
+        "textures": 6,
+        "materials": 7,
+        "dimensions": [
+          26,
+          6.539999960064888,
+          4.869999885559082
+        ]
+      },
+      "bytes": 6418580,
+      "sha256": "c59d35857f968e7797052aca8cf71c3233d62a7e1a3ffc0ec570de0f71b75d0b",
+      "elapsedMs": 2776,
+      "bounds": {
+        "min": [
+          -13,
+          1.7881394143159923e-9,
+          -2.434999942779541
+        ],
+        "max": [
+          13,
+          6.539999961853027,
+          2.434999942779541
+        ]
+      },
+      "roundtrip": {
+        "triangles": 146012,
+        "sockets": 6,
+        "textures": 6,
+        "sourceParts": 1475
+      }
+    },
+    {
+      "name": "clean-display",
+      "stats": {
+        "triangles": 146904,
+        "renderedTriangles": 220824,
+        "vertices": 245149,
+        "instances": 74,
+        "draws": 74,
+        "bytes": 10113512,
+        "nodes": 82,
+        "meshes": 19,
+        "textures": 6,
+        "materials": 7,
+        "dimensions": [
+          26,
+          6.539999960064888,
+          4.869999885559082
+        ]
+      },
+      "bytes": 9874072,
+      "sha256": "00d268ae90c700ee7b85c31850eced13623c12ab7350fcbe845517db2d39ac26",
+      "elapsedMs": 4470,
+      "bounds": {
+        "min": [
+          -13,
+          1.7881394143159923e-9,
+          -2.434999942779541
+        ],
+        "max": [
+          13,
+          6.539999961853027,
+          2.434999942779541
+        ]
+      },
+      "roundtrip": {
+        "triangles": 220824,
+        "sockets": 6,
+        "textures": 6,
+        "sourceParts": 1705
+      }
+    },
+    {
+      "name": "field-olive",
+      "stats": {
+        "triangles": 96732,
+        "renderedTriangles": 146012,
+        "vertices": 162205,
+        "instances": 74,
+        "draws": 74,
+        "bytes": 6535937,
+        "nodes": 82,
+        "meshes": 19,
+        "textures": 6,
+        "materials": 7,
+        "dimensions": [
+          26,
+          6.539999960064888,
+          4.869999885559082
+        ]
+      },
+      "bytes": 6428584,
+      "sha256": "087a2f172550c25ffedcf33713b307f4e4eb5c53945dd25ea3522392ce5f42b3",
+      "elapsedMs": 1904,
+      "bounds": {
+        "min": [
+          -13,
+          1.7881394143159923e-9,
+          -2.434999942779541
+        ],
+        "max": [
+          13,
+          6.539999961853027,
+          2.434999942779541
+        ]
+      },
+      "roundtrip": {
+        "triangles": 146012,
+        "sockets": 6,
+        "textures": 6,
+        "sourceParts": 1475
+      }
+    },
+    {
+      "name": "low-silhouette",
+      "stats": {
+        "triangles": 17532,
+        "renderedTriangles": 48332,
+        "vertices": 32244,
+        "instances": 69,
+        "draws": 69,
+        "bytes": 1289206,
+        "nodes": 77,
+        "meshes": 14,
+        "textures": 6,
+        "materials": 6,
+        "dimensions": [
+          26,
+          6.539999960064888,
+          4.800000190734863
+        ]
+      },
+      "bytes": 1274404,
+      "sha256": "8245a4a684fed58d4bc878177f2059424d07be2bbf7625312ea5927202782007",
+      "elapsedMs": 684,
+      "bounds": {
+        "min": [
+          -13,
+          1.7881394143159923e-9,
+          -2.4000000953674316
+        ],
+        "max": [
+          13,
+          6.539999961853027,
+          2.4000000953674316
+        ]
+      },
+      "roundtrip": {
+        "triangles": 48332,
+        "sockets": 6,
+        "textures": 6,
+        "sourceParts": 720
+      }
+    },
+    {
+      "name": "low",
+      "stats": {
+        "triangles": 17532,
+        "renderedTriangles": 48332,
+        "vertices": 32244,
+        "instances": 69,
+        "draws": 69,
+        "bytes": 1289206,
+        "nodes": 77,
+        "meshes": 14,
+        "textures": 6,
+        "materials": 6,
+        "dimensions": [
+          26,
+          6.539999960064888,
+          4.800000190734863
+        ]
+      },
+      "bytes": 1274404,
+      "sha256": "f5fa291dbd03cc03a90b558f653e0cf79a5c2acba07263ab33161cf42e3de851",
+      "elapsedMs": 482,
+      "bounds": {
+        "min": [
+          -13,
+          1.7881394143159923e-9,
+          -2.4000000953674316
+        ],
+        "max": [
+          13,
+          6.539999961853027,
+          2.4000000953674316
+        ]
+      },
+      "roundtrip": {
+        "triangles": 48332,
+        "sockets": 6,
+        "textures": 6,
+        "sourceParts": 720
+      }
+    },
+    {
+      "name": "high",
+      "stats": {
+        "triangles": 144824,
+        "renderedTriangles": 218744,
+        "vertices": 242789,
+        "instances": 74,
+        "draws": 74,
+        "bytes": 10037191,
+        "nodes": 82,
+        "meshes": 19,
+        "textures": 6,
+        "materials": 7,
+        "dimensions": [
+          26,
+          6.539999960064888,
+          4.869999885559082
+        ]
+      },
+      "bytes": 9796348,
+      "sha256": "0d04058f3c016bfb9c08f7c626c8b283aae805a50dc3289db66d0784e61268a5",
+      "elapsedMs": 3107,
+      "bounds": {
+        "min": [
+          -13,
+          1.7881394143159923e-9,
+          -2.434999942779541
+        ],
+        "max": [
+          13,
+          6.539999961853027,
+          2.434999942779541
+        ]
+      },
+      "roundtrip": {
+        "triangles": 218744,
+        "sockets": 6,
+        "textures": 6,
+        "sourceParts": 1635
+      }
+    },
+    {
+      "name": "art-small",
+      "stats": {
+        "triangles": 96480,
+        "renderedTriangles": 145760,
+        "vertices": 161701,
+        "instances": 74,
+        "draws": 74,
+        "bytes": 6501955,
+        "nodes": 82,
+        "meshes": 19,
+        "textures": 6,
+        "materials": 7,
+        "dimensions": [
+          22.100000381469727,
+          5.828999994397163,
+          4.158999919891357
+        ]
+      },
+      "bytes": 6398696,
+      "sha256": "e17d3cd87946babd8cfa0aeaae869c893ed213a5187261e24f9f40c6852fd313",
+      "elapsedMs": 1482,
+      "bounds": {
+        "min": [
+          -11.050000190734863,
+          1.7881394143159923e-9,
+          -2.0794999599456787
+        ],
+        "max": [
+          11.050000190734863,
+          5.828999996185303,
+          2.0794999599456787
+        ]
+      },
+      "roundtrip": {
+        "triangles": 145760,
+        "sockets": 6,
+        "textures": 6,
+        "sourceParts": 1454
+      }
+    },
+    {
+      "name": "art-large",
+      "stats": {
+        "triangles": 97452,
+        "renderedTriangles": 146732,
+        "vertices": 163645,
+        "instances": 74,
+        "draws": 74,
+        "bytes": 6575827,
+        "nodes": 82,
+        "meshes": 19,
+        "textures": 6,
+        "materials": 7,
+        "dimensions": [
+          30.261949809360132,
+          7.2509999257326125,
+          5.580999851226807
+        ]
+      },
+      "bytes": 6480556,
+      "sha256": "ef56d8ee82eb37ad5aeacd75264ff52b1b4daba18d108838c9e96e1abd3d4c0a",
+      "elapsedMs": 1527,
+      "bounds": {
+        "min": [
+          -15.311950000094994,
+          1.7881394143159923e-9,
+          -2.7904999256134033
+        ],
+        "max": [
+          14.949999809265137,
+          7.250999927520752,
+          2.7904999256134033
+        ]
+      },
+      "roundtrip": {
+        "triangles": 146732,
+        "sockets": 6,
+        "textures": 6,
+        "sourceParts": 1535
+      }
+    },
+    {
+      "name": "components-off",
+      "stats": {
+        "triangles": 75844,
+        "renderedTriangles": 125124,
+        "vertices": 129524,
+        "instances": 67,
+        "draws": 67,
+        "bytes": 5224659,
+        "nodes": 75,
+        "meshes": 12,
+        "textures": 6,
+        "materials": 6,
+        "dimensions": [
+          21.52000034341775,
+          5.067999849319458,
+          4.800000190734863
+        ]
+      },
+      "bytes": 5157796,
+      "sha256": "1928eb4969cc746914195095ea764c9b72a1d3e81da36887c3d31f804a1e1900",
+      "elapsedMs": 1254,
+      "bounds": {
+        "min": [
+          -12.005000000094995,
+          -9.536743172944284e-9,
+          -2.4000000953674316
+        ],
+        "max": [
+          9.515000343322754,
+          5.067999839782715,
+          2.4000000953674316
+        ]
+      },
+      "roundtrip": {
+        "triangles": 125124,
+        "sockets": 6,
+        "textures": 6,
+        "sourceParts": 612
+      }
+    },
+    {
+      "name": "camo-desert",
+      "stats": {
+        "triangles": 96732,
+        "renderedTriangles": 146012,
+        "vertices": 162205,
+        "instances": 74,
+        "draws": 74,
+        "bytes": 6590307,
+        "nodes": 82,
+        "meshes": 19,
+        "textures": 5,
+        "materials": 7,
+        "dimensions": [
+          26,
+          6.539999960064888,
+          4.869999885559082
+        ]
+      },
+      "bytes": 6468128,
+      "sha256": "349af5167766b6d5d9e8b46e52ff1b1665e3374e3bea8cbbdb007d4829fcdb91",
+      "elapsedMs": 1674,
+      "bounds": {
+        "min": [
+          -13,
+          1.7881394143159923e-9,
+          -2.434999942779541
+        ],
+        "max": [
+          13,
+          6.539999961853027,
+          2.434999942779541
+        ]
+      },
+      "roundtrip": {
+        "triangles": 146012,
+        "sockets": 6,
+        "textures": 5,
+        "sourceParts": 1475
+      }
+    },
+    {
+      "name": "camo-digital",
+      "stats": {
+        "triangles": 96732,
+        "renderedTriangles": 146012,
+        "vertices": 162205,
+        "instances": 74,
+        "draws": 74,
+        "bytes": 6546169,
+        "nodes": 82,
+        "meshes": 19,
+        "textures": 5,
+        "materials": 7,
+        "dimensions": [
+          26,
+          6.539999960064888,
+          4.869999885559082
+        ]
+      },
+      "bytes": 6422668,
+      "sha256": "d9ddf1afc992e6b2988c31a20c7e79386755995499a569a3b08b849f10c25485",
+      "elapsedMs": 3176,
+      "bounds": {
+        "min": [
+          -13,
+          1.7881394143159923e-9,
+          -2.434999942779541
+        ],
+        "max": [
+          13,
+          6.539999961853027,
+          2.434999942779541
+        ]
+      },
+      "roundtrip": {
+        "triangles": 146012,
+        "sockets": 6,
+        "textures": 5,
+        "sourceParts": 1475
+      }
+    },
+    {
+      "name": "high-wear",
+      "stats": {
+        "triangles": 148984,
+        "renderedTriangles": 222904,
+        "vertices": 247509,
+        "instances": 74,
+        "draws": 74,
+        "bytes": 10288542,
+        "nodes": 82,
+        "meshes": 19,
+        "textures": 6,
+        "materials": 7,
+        "dimensions": [
+          26,
+          6.539999960064888,
+          4.869999885559082
+        ]
+      },
+      "bytes": 10037736,
+      "sha256": "2aae326ca12acf2197212c77a46ca042dfca4678dec3a3e599030b5c8f43311e",
+      "elapsedMs": 3519,
+      "bounds": {
+        "min": [
+          -13,
+          1.7881394143159923e-9,
+          -2.434999942779541
+        ],
+        "max": [
+          13,
+          6.539999961853027,
+          2.434999942779541
+        ]
+      },
+      "roundtrip": {
+        "triangles": 222904,
+        "sockets": 6,
+        "textures": 6,
+        "sourceParts": 1775
+      }
+    }
+  ],
+  "gltfLoader": {
+    "triangles": 146012,
+    "draws": 74,
+    "nonfinite": 0,
+    "textureBindings": 48,
+    "decodedTextures": 6,
+    "bounds": {
+      "min": [
+        -13,
+        1.7881394143159923e-9,
+        -2.434999942779541
+      ],
+      "max": [
+        13,
+        6.539999961853027,
+        2.434999942779541
+      ]
+    }
+  },
+  "lowBudgetRejected": true
+}

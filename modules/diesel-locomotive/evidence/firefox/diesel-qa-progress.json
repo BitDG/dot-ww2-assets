@@ -1,0 +1,87 @@
+{
+  "browser": "dot cloud Firefox157.0.1",
+  "sourceCandidate": "pgf-diesel-preview-1.2.1-review",
+  "manifestSha256": "14a42da8c94dae904236effeec8c7498f9f60feaced1f8dcfe672f701820d878",
+  "presetPNGs": [
+    {
+      "file": "diesel-locomotive-clean-display.png",
+      "sha256": "522773b07dae80fb3704a8af56d0e2efcf999f891db03d5417ae48661c0c82f3",
+      "dimensions": [
+        500,
+        380
+      ]
+    },
+    {
+      "file": "diesel-locomotive-industrial-yellow.png",
+      "sha256": "dca467bd6431d4c11b733c3ae54fbb6514fd83c89fdb57661f28667b98e4d729",
+      "dimensions": [
+        500,
+        380
+      ]
+    },
+    {
+      "file": "diesel-locomotive-low-silhouette.png",
+      "sha256": "0c1ee507bf489f325efba1700a5a27eb79d3945e3888a7e8b7510ae20ea5ec08",
+      "dimensions": [
+        500,
+        380
+      ]
+    },
+    {
+      "file": "diesel-locomotive-reference-gray.png",
+      "sha256": "61e3e4502fdd609f3d573c80abc530737dd152763d693c603ada987f6174b9c9",
+      "dimensions": [
+        500,
+        380
+      ]
+    },
+    {
+      "file": "diesel-locomotive-weathered-blue.png",
+      "sha256": "c0f6794db426fd0b51182b193ec91a1c3d299f4ce386794d2fb43a444af59ef1",
+      "dimensions": [
+        500,
+        380
+      ]
+    }
+  ],
+  "completed": [
+    "five presets observed with actual parameter values",
+    "five actual Three canvas PNGs downloaded through visible button, opened individually and fully framed",
+    "same-bb62 fixed GLB hero and three orthographic PNGs plus camera receipts; prior preset-label defect preserved and later corrected",
+    "five embedded preset cards displayed",
+    "medium 86716 / high149900 / low23884 triangles observed",
+    "short-wide and long-narrow extremes framed with round wheels",
+    "digital urban1.6 recipe exported and reimported through visible controls",
+    "world-scale UV fix retested default/short/long/density0.5; steel/rail identity retained; original restored",
+    "cancel retained old model then regeneration succeeded",
+    "full parameters scrolled to bottom; color picker and hex visible",
+    "950px full layout;1440/1600 model framed, physical screenshot does not show whole right panel",
+    "idle downloaded report70→70 delta0",
+    "explicit disposal report activefalse/disposedtrue/workerTerminatedtrue/renderRPC0",
+    "actual digital and original workbench GLB downloaded; author independently validated both",
+    "actual downloaded original GLB reimported through Firefox GLTFLoader; corrected imported identity and recipe.medium verified; measured review renderer49 calls including ground",
+    "final1440x900 and1600x900 actual Firefox RDM camera PNGs viewed: entire right panel/buttons/model visible, no clipping"
+  ],
+  "remaining": [],
+  "limitations": [
+    "no hardware performance certification",
+    "no GIF recorded",
+    "old fixed-bb62 camera receipts retained stale low-silhouette preset label; modelSHA/geometry correct; actual-download reimport new receipt verifies identity fix",
+    "PGF camouflage tiling remains visibly periodic; no per-door stretching",
+    "scoped workbench build, not full application build"
+  ],
+  "finalManifestSha256": "fd72bd29ad8220300229d377233332a8cc2b5921b6668aa8a4466a402638e7fe",
+  "actualDownloads": [
+    {
+      "file": "diesel-locomotive.glb",
+      "kind": "digital urban1.6",
+      "sha256": "a8e034156ff384debaecd04f2b5639cee50ea6b4f31cc26b0bcaf44863d9e54b"
+    },
+    {
+      "file": "diesel-locomotive(1).glb",
+      "kind": "original reference",
+      "sha256": "9e135ac02a5cca70e8b60cb8acba5da106b7223c723c5e02963e4f16f3afc835"
+    }
+  ],
+  "finalizedUTC": "2026-10-10T11:13:00Z"
+}

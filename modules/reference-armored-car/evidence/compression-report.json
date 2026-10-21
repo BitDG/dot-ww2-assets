@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "codec": "zlib; actual fflate browser/Worker decoder",
+  "scope": "One Node decode/hash pass under concurrent acceptance load; not a browser generation benchmark",
+  "records": [
+    {
+      "tier": "low",
+      "sourceGlbSha256": "c04efca4e6d168925c26edc130f86b53d60d1ce6b5bb89607aa6d637390a187d",
+      "normalizedGeometrySha256": "e7df179607fd785cbdde82c2355be97d9d90d557b04adfc23cf03b5bd54eec49",
+      "rawBufferBytes": 5110948,
+      "compressedBufferBytes": 1504966,
+      "ratio": 0.2944592666565968,
+      "decodeAndHashMs": 2016.71
+    },
+    {
+      "tier": "medium",
+      "sourceGlbSha256": "2140c687da27b86eb319d0c94d917a6c5f9720988f445e10ad824d703a44bb32",
+      "normalizedGeometrySha256": "e8b28c03a643e9e910645518e84da146eabe36f28a5d4f7a33675520b40f8c62",
+      "rawBufferBytes": 8562840,
+      "compressedBufferBytes": 2353596,
+      "ratio": 0.2748616113345572,
+      "decodeAndHashMs": 1349.79
+    },
+    {
+      "tier": "high",
+      "sourceGlbSha256": "8cffdc445b12d365508315be3601bd99023c31aeafcf77771db1c31c993492f8",
+      "normalizedGeometrySha256": "8fbb791ccf5545a3cd513579e741380023d6c4ca877b6dc0cd98bfacb25d2a09",
+      "rawBufferBytes": 10650088,
+      "compressedBufferBytes": 2771750,
+      "ratio": 0.2602560654897875,
+      "decodeAndHashMs": 1431.99
+    }
+  ]
+}

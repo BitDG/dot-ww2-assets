@@ -1,0 +1,7 @@
+QF17_NATIVE_REOPEN [{"tier": "low", "file": "/workspace/scratch/6a4c729be230/qf17-production/authoring/QF17-Q6-exterior-low.blend", "activeScene": "QF17_Art_low", "scenes": ["QF17_Art_low", "Scene"], "meshes": 202, "hasAssetRoot": true, "hasDefaultCubeInAssetScene": false, "externalLinkedLibraries": 0, "autoexecDisabled": true}, {"tier": "medium", "file": "/workspace/scratch/6a4c729be230/qf17-production/authoring/QF17-Q6-exterior-medium.blend", "activeScene": "QF17_Art_medium", "scenes": ["QF17_Art_medium", "Scene"], "meshes": 250, "hasAssetRoot": true, "hasDefaultCubeInAssetScene": false, "externalLinkedLibraries": 0, "autoexecDisabled": true}, {"tier": "high", "file": "/workspace/scratch/6a4c729be230/qf17-production/authoring/QF17-Q6-exterior-high.blend", "activeScene": "QF17_Art_high", "scenes": ["QF17_Art_high", "Scene"], "meshes": 298, "hasAssetRoot": true, "hasDefaultCubeInAssetScene": false, "externalLinkedLibraries": 0, "autoexecDisabled": true}]
+Blender 4.3.2
+Read blend: "/workspace/scratch/6a4c729be230/qf17-production/authoring/QF17-Q6-exterior-low.blend"
+Read blend: "/workspace/scratch/6a4c729be230/qf17-production/authoring/QF17-Q6-exterior-medium.blend"
+Read blend: "/workspace/scratch/6a4c729be230/qf17-production/authoring/QF17-Q6-exterior-high.blend"
+
+Blender quit

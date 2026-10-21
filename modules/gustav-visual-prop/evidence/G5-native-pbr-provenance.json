@@ -1,0 +1,370 @@
+{
+  "authoring": "Actual Blender MCP dedicated native nodes + selected decorative relief normal bake",
+  "rowOrder": "bottom-up RGBA for owned DataTexture",
+  "size": 256,
+  "scalarMaterials": {
+    "dark": {
+      "linearColor": [
+        0.019,
+        0.024,
+        0.027
+      ],
+      "roughness": 0.86,
+      "metalness": 0.15
+    },
+    "sleeper": {
+      "linearColor": [
+        0.082,
+        0.078,
+        0.065
+      ],
+      "roughness": 0.93,
+      "metalness": 0
+    }
+  },
+  "sourceFiles": [
+    {
+      "file": "paint-clean-baseColor.png",
+      "bytes": 13317,
+      "pngSha256": "c2ecde75ac6d072afd81a4c31d7685d330fa37dd6bc90bc3e7c1fe9783d8d82c",
+      "rgbaSha256": "7f8194ef59528fa4d8cceaf20bd88645a2ddb70c372a896c66c26279e56d8547",
+      "min": [
+        213,
+        213,
+        213,
+        255
+      ],
+      "max": [
+        217,
+        217,
+        217,
+        255
+      ],
+      "normalError": 0
+    },
+    {
+      "file": "paint-clean-normal.png",
+      "bytes": 88302,
+      "pngSha256": "e395a5aaee6c5f25d5f6090d750383cd769d4309fdcfdd28595e0f22918fe938",
+      "rgbaSha256": "34c4346316b30dc44077cf8577b827b342e8727cba48265bdfee3ca68f385e77",
+      "min": [
+        123,
+        124,
+        255,
+        255
+      ],
+      "max": [
+        132,
+        131,
+        255,
+        255
+      ],
+      "normalError": 0.0006918022273305624
+    },
+    {
+      "file": "paint-clean-orm.png",
+      "bytes": 40028,
+      "pngSha256": "575460d95f4cf1b8b75e3207a557d80e054cbd771db1002e056a39b6c565be5e",
+      "rgbaSha256": "bead620e1fb9d7d062e9d34b8f0a84acf786c9f2736d967ad14026ccf2b9b913",
+      "min": [
+        255,
+        175,
+        71,
+        255
+      ],
+      "max": [
+        255,
+        181,
+        71,
+        255
+      ],
+      "normalError": 0
+    },
+    {
+      "file": "paint-worn-baseColor.png",
+      "bytes": 29046,
+      "pngSha256": "dcd5a4b47fec4882533631482cf41bedbf53c4cfe20a1b410c723a5f6e79d865",
+      "rgbaSha256": "560d37c4f5d2abae4cd7d7ae7b7f99fa7f20b61e09bc2acbe39c3cb07de55243",
+      "min": [
+        197,
+        197,
+        197,
+        255
+      ],
+      "max": [
+        219,
+        219,
+        219,
+        255
+      ],
+      "normalError": 0
+    },
+    {
+      "file": "paint-worn-normal.png",
+      "bytes": 107865,
+      "pngSha256": "bde742f2895b514dd237942d786d6acb3fe365d237f9a0b1ad9a7a82c7e4d000",
+      "rgbaSha256": "dd474efefcbd0f87586618fc2fcc62b69c0cc1bbde9a8bd0b9c9810ba7c9605f",
+      "min": [
+        119,
+        119,
+        255,
+        255
+      ],
+      "max": [
+        137,
+        136,
+        255,
+        255
+      ],
+      "normalError": 0.0028410238841094504
+    },
+    {
+      "file": "paint-worn-orm.png",
+      "bytes": 51302,
+      "pngSha256": "693a75ee4e1e861354ab4f117f8530b9647553b642c5fc66b1fa134500b22943",
+      "rgbaSha256": "90bd13f357f21f4ab68976f48a7c4c45c88f4c100d3213c9f1d990b727163bd7",
+      "min": [
+        255,
+        177,
+        71,
+        255
+      ],
+      "max": [
+        255,
+        189,
+        71,
+        255
+      ],
+      "normalError": 0
+    },
+    {
+      "file": "deck-clean-baseColor.png",
+      "bytes": 13488,
+      "pngSha256": "0e196e2a64d687c9ed4c21132cca8501b2381a5269a3d01c08f927cbad5608eb",
+      "rgbaSha256": "7121308b3fae6defcd23c55fa08c6fdbc8b6c33cdfe354fdd8171aa32e13181e",
+      "min": [
+        206,
+        206,
+        206,
+        255
+      ],
+      "max": [
+        210,
+        210,
+        210,
+        255
+      ],
+      "normalError": 0
+    },
+    {
+      "file": "deck-clean-normal.png",
+      "bytes": 92491,
+      "pngSha256": "e95fba3bd69c83e1ae06fe1486fc73bc10799051c3fdae1c0aa9e2da237b5309",
+      "rgbaSha256": "4082817bd33eed3d8e488e4481bef88f43a02ac6171a9c880416fd8799f3fa28",
+      "min": [
+        22,
+        21,
+        172,
+        255
+      ],
+      "max": [
+        234,
+        234,
+        255,
+        255
+      ],
+      "normalError": 0.006392486168711242
+    },
+    {
+      "file": "deck-clean-orm.png",
+      "bytes": 39986,
+      "pngSha256": "846632784073fcf41e46427328bb6eaf2fd6eda906dd76746c5fdff67ccc6180",
+      "rgbaSha256": "06377e59845e4aae2bc211a0d6a651142db21a911424716c25df576e5624cf3d",
+      "min": [
+        255,
+        198,
+        82,
+        255
+      ],
+      "max": [
+        255,
+        204,
+        82,
+        255
+      ],
+      "normalError": 0
+    },
+    {
+      "file": "deck-worn-baseColor.png",
+      "bytes": 29427,
+      "pngSha256": "40598c967cbc8e9a454dc258bc205b0318b412812a04e1b66f3fc7f07b892474",
+      "rgbaSha256": "8dbb8324e01ea053b2fea2d25ecf89db2afc2112bb0ab1ac663735941b3c5d3a",
+      "min": [
+        189,
+        189,
+        189,
+        255
+      ],
+      "max": [
+        212,
+        212,
+        212,
+        255
+      ],
+      "normalError": 0
+    },
+    {
+      "file": "deck-worn-normal.png",
+      "bytes": 111749,
+      "pngSha256": "a444a5a40357ff8615d30311fd77a4e375b105351246f113d63f5051bb5c789a",
+      "rgbaSha256": "54f126a97597a101e4820c263d3dcadefc6e3f24b4a60001b16864ce5a216383",
+      "min": [
+        21,
+        20,
+        168,
+        255
+      ],
+      "max": [
+        236,
+        235,
+        255,
+        255
+      ],
+      "normalError": 0.005907491519452801
+    },
+    {
+      "file": "deck-worn-orm.png",
+      "bytes": 51260,
+      "pngSha256": "e1a06940ced2668a72fe66f4518c53b0c576fafa2f17adc619af5a78af67a138",
+      "rgbaSha256": "23d8eb0b41dad74ce10b8a0dfd13574191f02bff69972bc1ce0af06085cb0aea",
+      "min": [
+        255,
+        200,
+        82,
+        255
+      ],
+      "max": [
+        255,
+        212,
+        82,
+        255
+      ],
+      "normalError": 0
+    },
+    {
+      "file": "steel-clean-baseColor.png",
+      "bytes": 22156,
+      "pngSha256": "8e4c0d03268743271f59b26a241d9a21324f3bd5091cc85ad70894b610505d3a",
+      "rgbaSha256": "9f042e3961f566d714b8f60d434f59271c2dd90bd9bef0cd80d5d4f6b257ad9b",
+      "min": [
+        202,
+        202,
+        202,
+        255
+      ],
+      "max": [
+        213,
+        213,
+        213,
+        255
+      ],
+      "normalError": 0
+    },
+    {
+      "file": "steel-clean-normal.png",
+      "bytes": 69656,
+      "pngSha256": "1eedcde1e62357da5c6ae7f53752e1b0dd9676be56fbb8f61d254a7e3be8f829",
+      "rgbaSha256": "aab34dcbdc60ec5218c202150c392f350583b9d3c7489a7ffdab906dee9b89b9",
+      "min": [
+        124,
+        124,
+        255,
+        255
+      ],
+      "max": [
+        131,
+        131,
+        255,
+        255
+      ],
+      "normalError": 0.00044588290871039327
+    },
+    {
+      "file": "steel-clean-orm.png",
+      "bytes": 37951,
+      "pngSha256": "b3b9bccf7aff44a6ddf7b64f887401e0a703a50f5dd71acc174cd303c8df12d6",
+      "rgbaSha256": "1fac86645e0218f3cbb81cd2243f3c788ba25dbfd64c12b59583d83201d187fc",
+      "min": [
+        255,
+        91,
+        219,
+        255
+      ],
+      "max": [
+        255,
+        96,
+        219,
+        255
+      ],
+      "normalError": 0
+    },
+    {
+      "file": "steel-worn-baseColor.png",
+      "bytes": 31151,
+      "pngSha256": "385d283b3f08b530286a2133aa99c2e1fe8dbba7b8cc48c16b7c227ef46d4efe",
+      "rgbaSha256": "cab31a39d1b7a2f9c347171c0be5adaac812172e2114a19da913ca443ccdab1a",
+      "min": [
+        185,
+        185,
+        185,
+        255
+      ],
+      "max": [
+        215,
+        215,
+        215,
+        255
+      ],
+      "normalError": 0
+    },
+    {
+      "file": "steel-worn-normal.png",
+      "bytes": 90266,
+      "pngSha256": "5c022edd49776a0abd985d2116b5fdbcfc4f6ea4637fa5f9fbdbf04d0071752b",
+      "rgbaSha256": "b44b9afdc62ceda8605b2230f74968b84b1a5e313f689212ee2a3723565c0878",
+      "min": [
+        120,
+        121,
+        255,
+        255
+      ],
+      "max": [
+        135,
+        134,
+        255,
+        255
+      ],
+      "normalError": 0.0021046671565536634
+    },
+    {
+      "file": "steel-worn-orm.png",
+      "bytes": 48684,
+      "pngSha256": "022a5e562f62c571d86535b7efebfe276d7164a4ce831f8c7ea59f9ba5ce082b",
+      "rgbaSha256": "36ae75567465b256558838a5d0d15b0fdce063d394cbce48e52a71e53664f66c",
+      "min": [
+        255,
+        93,
+        219,
+        255
+      ],
+      "max": [
+        255,
+        104,
+        219,
+        255
+      ],
+      "normalError": 0
+    }
+  ],
+  "sourceBlendSha256": "7a766bf9bd8f4d8d1360b94526709fccf7c2aa88135e2802ab31fdd8136cf8c2"
+}

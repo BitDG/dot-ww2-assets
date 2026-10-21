@@ -1,0 +1,182 @@
+(node:6) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("/workspace/scratch/6a4c729be230/pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+{
+  "status": "PASS",
+  "browserFile": "/workspace/scratch/6a4c729be230/pgf-vehicle-browser-qa/reference-armored-car-exploded-preview.glb",
+  "recipeFile": "/workspace/scratch/6a4c729be230/pgf-vehicle-browser-qa/reference-armored-car.recipe.json",
+  "bytes": 5875660,
+  "sha256": "b4badd548b684a10644954fb6f0df6e229d3d165df4748e070b6d942bed73751",
+  "params": {
+    "scale": 1,
+    "turretYaw": -10,
+    "gunElevation": 0,
+    "paint": "#827456",
+    "roughness": 0.81,
+    "weathering": 0.35,
+    "antennas": true,
+    "markings": true,
+    "detail": 48,
+    "camoPattern": "digital",
+    "camoEnvironment": "urban",
+    "camoScale": 1.6
+  },
+  "stats": {
+    "triangles": 107826,
+    "renderedTriangles": 107826,
+    "vertices": 227154,
+    "instances": 69,
+    "draws": 69,
+    "bytes": 9397387,
+    "nodes": 162,
+    "meshes": 69,
+    "textures": 6,
+    "materials": 11,
+    "dimensions": [
+      2.7639999687573957,
+      3.319970905784801,
+      4.607979059224016
+    ]
+  },
+  "encodedGLB": {
+    "nodes": 162,
+    "materials": 10,
+    "images": 6
+  },
+  "importerNote": "readGLB adds one unused fallback material; writeSceneGLB adds a placement root. Neither adds a rendered primitive.",
+  "imageHashComparisons": [
+    {
+      "index": 0,
+      "sha256": "26eac6eef4b8013d1d8c21d0d65eb8abaf2a486e0f1dbfa7e166f5a8b8ba7937",
+      "nodeSha256": "26eac6eef4b8013d1d8c21d0d65eb8abaf2a486e0f1dbfa7e166f5a8b8ba7937",
+      "equal": true,
+      "decodedPixels": {
+        "size": [
+          512,
+          512
+        ],
+        "encodedChannels": {
+          "browser": 3,
+          "node": 3
+        },
+        "differingChannels": 0,
+        "maxByteDifference": 0,
+        "meanAbsoluteByteDifference": 0
+      }
+    },
+    {
+      "index": 1,
+      "sha256": "bb54579a4ccb2def65260b6298d00170881218ad7c1816d5dd45c9a72b16ae7e",
+      "nodeSha256": "bb54579a4ccb2def65260b6298d00170881218ad7c1816d5dd45c9a72b16ae7e",
+      "equal": true,
+      "decodedPixels": {
+        "size": [
+          512,
+          512
+        ],
+        "encodedChannels": {
+          "browser": 3,
+          "node": 3
+        },
+        "differingChannels": 0,
+        "maxByteDifference": 0,
+        "meanAbsoluteByteDifference": 0
+      }
+    },
+    {
+      "index": 2,
+      "sha256": "7d33c8704607d8a70620d4a197db96c309d62d0c54c928553bc4cef581d30e56",
+      "nodeSha256": "c733cc29ff0ef13c288afca9dee209ddb0d5bedcdc2b7ebf00580573d54e2d4f",
+      "equal": false,
+      "decodedPixels": {
+        "size": [
+          512,
+          512
+        ],
+        "encodedChannels": {
+          "browser": 4,
+          "node": 3
+        },
+        "differingChannels": 0,
+        "maxByteDifference": 0,
+        "meanAbsoluteByteDifference": 0
+      }
+    },
+    {
+      "index": 3,
+      "sha256": "d2f4a28a96d967d30769a91c36a52e98500b03253bfb4d8df61e86dcff48c5fd",
+      "nodeSha256": "cc604fcca15255f992deeabe7e55c4bd3257c4a913d59894263a633d725fddf3",
+      "equal": false,
+      "decodedPixels": {
+        "size": [
+          512,
+          512
+        ],
+        "encodedChannels": {
+          "browser": 3,
+          "node": 3
+        },
+        "differingChannels": 506775,
+        "maxByteDifference": 7,
+        "meanAbsoluteByteDifference": 0.6295957565307617
+      }
+    },
+    {
+      "index": 4,
+      "sha256": "5943d23b457fe76f33d189f0a0fa814174cf759abbb7e5986fcdc6fe26f0c8a0",
+      "nodeSha256": "3916e3c50a93ff0faee5f5bfbdd3d1b35319bb8c4cab2387b85cd2f25e992ff9",
+      "equal": false,
+      "decodedPixels": {
+        "size": [
+          512,
+          512
+        ],
+        "encodedChannels": {
+          "browser": 4,
+          "node": 4
+        },
+        "differingChannels": 0,
+        "maxByteDifference": 0,
+        "meanAbsoluteByteDifference": 0
+      }
+    },
+    {
+      "index": 5,
+      "sha256": "9bd9f0764949fda79fa0fa1db3ab8a72ee0880d1a8a7d3f92b22a49a61c482e5",
+      "nodeSha256": "9bd9f0764949fda79fa0fa1db3ab8a72ee0880d1a8a7d3f92b22a49a61c482e5",
+      "equal": true,
+      "decodedPixels": {
+        "size": [
+          512,
+          512
+        ],
+        "encodedChannels": {
+          "browser": 3,
+          "node": 3
+        },
+        "differingChannels": 0,
+        "maxByteDifference": 0,
+        "meanAbsoluteByteDifference": 0
+      }
+    }
+  ],
+  "bounds": {
+    "min": [
+      -1.3819999843786979,
+      0.010029137134065724,
+      -2.3634326457975
+    ],
+    "max": [
+      1.3819999843786979,
+      3.3300000429188668,
+      2.244546413426516
+    ]
+  },
+  "sockets": 7,
+  "textures": 6,
+  "geometrySha256": "49033fec3eac12fd73fc043dc505ab71762edc907546ae2e3e4d8ff2d4dc7e33",
+  "materialsSha256": "75384c900ec979f84634f70580d12ce7eafe678d600284dc87f433ce9b53bba9",
+  "canonicalNodeGeometryAndAssembledPoseEqual": true,
+  "canonicalNodeWholeFileEqual": false,
+  "texturePixelIdentityScope": "Whole-file equality is measured, not required: Firefox/Node numeric rounding and Canvas2D rasterization can differ; decoded differences are measured per image."
+}

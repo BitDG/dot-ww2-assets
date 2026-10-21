@@ -1,0 +1,16 @@
+--- Q1-checkpoint/tools/serve-qa.mjs
++++ I2-test-helper/tools/serve-qa.mjs
+@@ -3,11 +3,11 @@
+ import {fileURLToPath} from 'node:url';
+ const root=fileURLToPath(new URL('../',import.meta.url));
+ const folder=root+'source-audit/evidence/firefox';await mkdir(folder,{recursive:true});
+-const ids=['reference-armored-car','tracked-mortar','gustav-visual-prop','diesel-locomotive','armored-4x4','nebelwerfer41-visual-prop','qf25-visual-prop'];
++const ids=['reference-armored-car','tracked-mortar','gustav-visual-prop','diesel-locomotive','armored-4x4','nebelwerfer41-visual-prop','qf25-visual-prop','flakzwilling43-visual-prop'];
+ const evidencePlugin={name:'dot-acceptance-receipt-only',configureServer(server){server.middlewares.use(async(req,res,next)=>{
+  const url=new URL(req.url,'http://localhost');if(!url.pathname.startsWith('/__dot_qa/'))return next();
+  if(req.method!=='POST'||req.headers.origin!==`http://${req.headers.host}`){res.statusCode=403;res.end('same origin POST only');return;}
+- const name=url.pathname==='/__dot_qa/report'?(url.searchParams.get('case')==='qf25'?'qf25-browser-report.json':url.searchParams.get('case')==='animation'?'animation-browser-report.json':url.searchParams.get('case')==='n41'?'n41-browser-report.json':'browser-report.json'):url.pathname==='/__dot_qa/file'&&ids.includes(url.searchParams.get('id'))?(url.searchParams.get('case')==='animation'?'d4-':'')+url.searchParams.get('id')+'.glb':null;
++ const name=url.pathname==='/__dot_qa/report'?(url.searchParams.get('case')==='flakzwilling'?'flakzwilling-browser-report.json':url.searchParams.get('case')==='qf25'?'qf25-browser-report.json':url.searchParams.get('case')==='animation'?'animation-browser-report.json':url.searchParams.get('case')==='n41'?'n41-browser-report.json':'browser-report.json'):url.pathname==='/__dot_qa/file'&&ids.includes(url.searchParams.get('id'))?(url.searchParams.get('case')==='animation'?'d4-':'')+url.searchParams.get('id')+'.glb':null;
+  if(!name){res.statusCode=404;res.end();return;}let bytes=0,chunks=[];
+  try{for await(const chunk of req){bytes+=chunk.length;if(bytes>16000000)throw Error('QA payload limit');chunks.push(chunk);}const data=Buffer.concat(chunks);
+   if(name.endsWith('.json'))JSON.parse(data.toString());await writeFile(folder+'/'+name,data);res.setHeader('Content-Type','application/json');res.end(JSON.stringify({saved:name,bytes}));

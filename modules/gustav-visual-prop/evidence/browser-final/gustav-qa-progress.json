@@ -1,0 +1,39 @@
+{
+  "browser": "dot cloud Firefox 157.0.1",
+  "remaining": [],
+  "limits": [
+    "no hardware FPS certification",
+    "no recording API identified; no GIF recorded",
+    "scoped independent build, not complete main build"
+  ],
+  "note": "Final geometry complete; PGF material retained. Old G4 lifecycle tests remain identified separately. No operational mechanisms or measured engineering dimensions.",
+  "baselineCompleted": [
+    "four v2 presets: reference133124/clean198960/olive133124/low42364 triangles",
+    "wheel1.15 + short.85 wide1.15 tall1.15; wheels round and spaced",
+    "wheel1.15 + long1.15 narrow.85 shortHeight.85; complete framing",
+    "actual responsive viewport950x900,1440x900,1600x900; model complete (physical screen1364, wide UI extends beyond screen)",
+    "final color swatch/hex layout fix verified",
+    "rails+railings+rear platform off115804tri77nodes; all restored133124",
+    "auto/desert material changes paint while track rails stay steel",
+    "cancel retains model; regeneration recovers133124; focus full framing",
+    "actual downloaded idle report frames13→13 delta0",
+    "actual downloaded dispose report activefalse disposedtrue workerTerminatedtrue renderRPC0"
+  ],
+  "baselineVersion": "G4/v2 prior geometry; unchanged UI/lifecycle regressions",
+  "finalVersion": "G7/1.1.2",
+  "manifestSha256": "1798cbe0a8081bc2f1a5c5ce5a5223f86d6996e33da076881663f48d1fdd0a4c",
+  "completed": [
+    "G7 final workbench146012tri/82nodes/6sockets displayed",
+    "four final500x380 actual Three PNGs downloaded and each opened; artwork integrated and actual workbench displayed",
+    "fixedG7 GLB3e988dcd imported through visible native file dialog",
+    "same-SHA hero1600x900 and strict side/front/top PNGs plus camera receipts downloaded and viewed",
+    "hero initial rail clipping corrected with camera margin only; final-hero(1).png fully framed",
+    "actual workbench GLB and recipe downloaded; author independently verified all geometry/textures/recipe",
+    "actual downloaded GLB reimported through Firefox GLTFLoader with real embeddedrecipe1.1.2 and correct filename",
+    "changed olive preset then imported actual downloaded recipe: gray restored",
+    "final1440x900 and1600x900 Firefox RDM camera exports viewed: entire right panel/buttons/model visible"
+  ],
+  "finalizedUTC": "2026-10-10T11:13:00Z",
+  "fixedSourceGLBSha256": "3e988dcd4e60a72996030c23a58e54476a12ab08264ecc3cfa6308b968d54590",
+  "actualDownloadGLBSha256": "5ff4e0cce2a2f150f633eeb0fe389251ab4509dc3031ea4f3424451b998ff024"
+}

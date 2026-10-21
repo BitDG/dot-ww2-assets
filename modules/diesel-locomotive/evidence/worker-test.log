@@ -1,0 +1,35 @@
+(node:82) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("./pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:82) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("./pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:82) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("./pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:82) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("./pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+{
+  scope: 'Actual shared browser Worker implementation through Node worker_threads; not browser UI or PGF stdio MCP',
+  checks: [
+    'prepareGenerator, AssetIR, preview validation, real GLB semantic roundtrip',
+    'same-worker repeated generation and export byte deterministic',
+    'invalid request rejected',
+    'active high-detail generation Worker terminated',
+    'new Worker after cancellation regenerates identical final result'
+  ],
+  stats: {
+    triangles: 52556,
+    renderedTriangles: 62412,
+    drawCalls: 48,
+    bytes: 3046995,
+    texturePixels: 196608,
+    meshes: 37,
+    nodes: 60
+  },
+  bytes: 2654988,
+  sha256: '04aac181638df06e5dd732991be30a5153f84c8432aba692566568bd368d25d9',
+  status: 'passed',
+  terminated: true
+}

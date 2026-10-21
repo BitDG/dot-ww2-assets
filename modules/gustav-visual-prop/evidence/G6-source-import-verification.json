@@ -1,0 +1,530 @@
+{
+  "status": "passed",
+  "sourceGLBSha256": "cf838215c16f262be515504c69dcca7ba5926f97a984548885d4abd1e95cf6e9",
+  "serializedGLBBytes": 6419632,
+  "glbTriangles": 146084,
+  "duplicateTriangles": 72,
+  "savedSceneTriangles": 146012,
+  "freshImportTriangles": 146012,
+  "explanation": "Blender glTF importer removes exact same-index same-winding duplicate faces. Saved hero source and fresh import agree on every model mesh. Geometry is unchanged; GLB retains 72 redundant triangles.",
+  "rows": [
+    {
+      "name": "display-rails-sleeper-batch",
+      "GLBTriangles": 1032,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 1032,
+      "freshImportTriangles": 1032
+    },
+    {
+      "name": "display-rails-steel-batch",
+      "GLBTriangles": 2208,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 2208,
+      "freshImportTriangles": 2208
+    },
+    {
+      "name": "wheel--1--1--1-0",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1--1--1-1",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1--1--1-2",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1--1--1-3",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1--1--1-4",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1--1--1-5",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1--1--1-6",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1--1-1-0",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1--1-1-1",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1--1-1-2",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1--1-1-3",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1--1-1-4",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1--1-1-5",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1--1-1-6",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1-1--1-0",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1-1--1-1",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1-1--1-2",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1-1--1-3",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1-1--1-4",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1-1--1-5",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1-1--1-6",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1-1-1-0",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1-1-1-1",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1-1-1-2",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1-1-1-3",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1-1-1-4",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1-1-1-5",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel--1-1-1-6",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1--1--1-0",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1--1--1-1",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1--1--1-2",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1--1--1-3",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1--1--1-4",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1--1--1-5",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1--1--1-6",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1--1-1-0",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1--1-1-1",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1--1-1-2",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1--1-1-3",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1--1-1-4",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1--1-1-5",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1--1-1-6",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1-1--1-0",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1-1--1-1",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1-1--1-2",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1-1--1-3",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1-1--1-4",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1-1--1-5",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1-1--1-6",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1-1-1-0",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1-1-1-1",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1-1-1-2",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1-1-1-3",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1-1-1-4",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1-1-1-5",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "wheel-1-1-1-6",
+      "GLBTriangles": 896,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 896,
+      "freshImportTriangles": 896
+    },
+    {
+      "name": "main-outer-frame-trim-batch",
+      "GLBTriangles": 8296,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 8296,
+      "freshImportTriangles": 8296
+    },
+    {
+      "name": "main-outer-frame-paint-batch",
+      "GLBTriangles": 9132,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 9132,
+      "freshImportTriangles": 9132
+    },
+    {
+      "name": "opaque-front-recess",
+      "GLBTriangles": 128,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 128,
+      "freshImportTriangles": 128
+    },
+    {
+      "name": "closed-cylinder-shell-trim-batch",
+      "GLBTriangles": 856,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 856,
+      "freshImportTriangles": 856
+    },
+    {
+      "name": "closed-cylinder-shell-paint-batch",
+      "GLBTriangles": 904,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 904,
+      "freshImportTriangles": 904
+    },
+    {
+      "name": "closed-cylinder-shell-steel-batch",
+      "GLBTriangles": 1024,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 1024,
+      "freshImportTriangles": 1024
+    },
+    {
+      "name": "walkways-deck-batch",
+      "GLBTriangles": 312,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 312,
+      "freshImportTriangles": 312
+    },
+    {
+      "name": "walkways-trim-batch",
+      "GLBTriangles": 2808,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 2808,
+      "freshImportTriangles": 2808
+    },
+    {
+      "name": "rear-display-deck-deck-batch",
+      "GLBTriangles": 36,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 36,
+      "freshImportTriangles": 36
+    },
+    {
+      "name": "rear-display-deck-paint-batch",
+      "GLBTriangles": 876,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 876,
+      "freshImportTriangles": 876
+    },
+    {
+      "name": "rear-display-deck-trim-batch",
+      "GLBTriangles": 528,
+      "exactSameWindingDuplicateTriangles": 24,
+      "savedSceneTriangles": 504,
+      "freshImportTriangles": 504
+    },
+    {
+      "name": "surface-decoration-paint-batch",
+      "GLBTriangles": 44872,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 44872,
+      "freshImportTriangles": 44872
+    },
+    {
+      "name": "surface-decoration-steel-batch",
+      "GLBTriangles": 2976,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 2976,
+      "freshImportTriangles": 2976
+    },
+    {
+      "name": "surface-decoration-trim-batch",
+      "GLBTriangles": 4340,
+      "exactSameWindingDuplicateTriangles": 24,
+      "savedSceneTriangles": 4316,
+      "freshImportTriangles": 4316
+    },
+    {
+      "name": "surface-decoration-dark-batch",
+      "GLBTriangles": 5376,
+      "exactSameWindingDuplicateTriangles": 0,
+      "savedSceneTriangles": 5376,
+      "freshImportTriangles": 5376
+    },
+    {
+      "name": "surface-decoration-panel-batch",
+      "GLBTriangles": 10204,
+      "exactSameWindingDuplicateTriangles": 24,
+      "savedSceneTriangles": 10180,
+      "freshImportTriangles": 10180
+    }
+  ]
+}

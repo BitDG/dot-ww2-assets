@@ -1,0 +1,210 @@
+{
+  "status": "EXECUTED_AND_VERIFIED_WITH_ACTUAL_MCP_RECEIPTS",
+  "fixedGLB": "QF17-Q6-PGF-medium.glb",
+  "fixedSHA256": "6a9afc0cbf9cf5f14241d4280bf4645ee2d80933e13f09e83de473c89a5b7575",
+  "scope": "hero + independent three-view + six detail views, same immutable GLB",
+  "samples": 192,
+  "views": [
+    {
+      "view": "hero",
+      "camera": [
+        9,
+        -11,
+        7.2
+      ],
+      "target": [
+        0,
+        -0.287,
+        0.9768
+      ],
+      "scale": 9.1,
+      "resolution": [
+        1200,
+        850
+      ],
+      "projection": "ORTHO",
+      "path": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-hero.png"
+    },
+    {
+      "view": "side",
+      "camera": [
+        20,
+        -0.287,
+        0.9768
+      ],
+      "target": [
+        0,
+        -0.287,
+        0.9768
+      ],
+      "scale": 9.1,
+      "resolution": [
+        1500,
+        620
+      ],
+      "projection": "ORTHO",
+      "path": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-side.png"
+    },
+    {
+      "view": "top",
+      "camera": [
+        0,
+        -0.287,
+        20
+      ],
+      "target": [
+        0,
+        -0.287,
+        0.9768
+      ],
+      "scale": 9.1,
+      "resolution": [
+        1500,
+        620
+      ],
+      "projection": "ORTHO",
+      "path": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-top.png"
+    },
+    {
+      "view": "front",
+      "camera": [
+        0,
+        -20,
+        1.12
+      ],
+      "target": [
+        0,
+        0,
+        1.12
+      ],
+      "scale": 3.8,
+      "resolution": [
+        850,
+        800
+      ],
+      "projection": "ORTHO",
+      "path": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-front.png"
+    },
+    {
+      "view": "detail-wheel",
+      "camera": [
+        5,
+        -3,
+        2.1
+      ],
+      "target": [
+        1.14,
+        0.11,
+        0.58
+      ],
+      "scale": 1.65,
+      "resolution": [
+        900,
+        800
+      ],
+      "projection": "ORTHO",
+      "path": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-detail-wheel.png"
+    },
+    {
+      "view": "detail-shield",
+      "camera": [
+        5,
+        -7,
+        4
+      ],
+      "target": [
+        0.5,
+        0.03,
+        1.35
+      ],
+      "scale": 2.15,
+      "resolution": [
+        900,
+        800
+      ],
+      "projection": "ORTHO",
+      "path": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-detail-shield.png"
+    },
+    {
+      "view": "detail-trails",
+      "camera": [
+        0,
+        8,
+        6.5
+      ],
+      "target": [
+        0,
+        2.35,
+        0.45
+      ],
+      "scale": 3.9,
+      "resolution": [
+        900,
+        800
+      ],
+      "projection": "ORTHO",
+      "path": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-detail-trails.png"
+    },
+    {
+      "view": "detail-muzzle",
+      "camera": [
+        2,
+        -6,
+        2.3
+      ],
+      "target": [
+        0,
+        -4.25,
+        1.48
+      ],
+      "scale": 0.95,
+      "resolution": [
+        900,
+        800
+      ],
+      "projection": "ORTHO",
+      "path": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-detail-muzzle.png"
+    },
+    {
+      "view": "detail-carriage",
+      "camera": [
+        5,
+        6,
+        3.5
+      ],
+      "target": [
+        0,
+        0.85,
+        1.18
+      ],
+      "scale": 2.3,
+      "resolution": [
+        900,
+        800
+      ],
+      "projection": "ORTHO",
+      "path": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-detail-carriage.png"
+    },
+    {
+      "view": "detail-tail",
+      "camera": [
+        5,
+        6,
+        2.6
+      ],
+      "target": [
+        1.25,
+        3.35,
+        0.3
+      ],
+      "scale": 1.75,
+      "resolution": [
+        900,
+        800
+      ],
+      "projection": "ORTHO",
+      "path": "/workspace/scratch/6a4c729be230/qf17-production/evidence/final/QF17-Q6-PGF-detail-tail.png"
+    }
+  ],
+  "verification": "actual-render-verification.json"
+}

@@ -1,0 +1,17 @@
+/** Diesel-only Blender-native baked PBR banks. Runtime only downsamples/blends real baked pixels. */
+import * as THREE from 'three';import {unzlibSync} from 'fflate';
+import clean from './assets/native-surfaces/paint-clean.mjs';import worn from './assets/native-surfaces/paint-worn.mjs';import steel from './assets/native-surfaces/steel.mjs';
+const cache=new Map();
+function pixels(bank,channel){const key=bank.role+channel;if(!cache.has(key))cache.set(key,unzlibSync(Uint8Array.from(atob(bank.channels[channel]),c=>c.charCodeAt(0))));return cache.get(key);}
+function texture(data,res,name,color=false){const t=new THREE.DataTexture(data,res,res);t.name=name;t.colorSpace=color?THREE.SRGBColorSpace:THREE.NoColorSpace;t.wrapS=t.wrapT=THREE.RepeatWrapping;t.magFilter=THREE.LinearFilter;t.minFilter=THREE.LinearMipmapLinearFilter;t.generateMipmaps=true;t.needsUpdate=true;return t;}
+export function nativeSurfaceMaps({seed='diesel-art-1',weathering=.28,resolution=256}={}){
+ let hash=2166136261;for(const c of String(seed))hash=Math.imul(hash^c.charCodeAt(0),16777619)>>>0;const sx=hash%512,sy=(hash>>>9)%512;
+ function bankMaps(a,b,t){const out={};for(const channel of ['baseColor','normal','orm']){const A=pixels(a,channel),B=pixels(b,channel),data=new Uint8Array(resolution*resolution*4);
+  for(let y=0;y<resolution;y++)for(let x=0;x<resolution;x++){const sourceX=(Math.floor((x+.5)*512/resolution)+sx)%512,sourceY=(Math.floor((y+.5)*512/resolution)+sy)%512,src=(sourceY*512+sourceX)*4,dst=((resolution-1-y)*resolution+x)*4;
+   if(channel==='normal'){let nx=((A[src]*(1-t)+B[src]*t)/255*2-1),ny=((A[src+1]*(1-t)+B[src+1]*t)/255*2-1),nz=((A[src+2]*(1-t)+B[src+2]*t)/255*2-1),n=Math.hypot(nx,ny,nz)||1;data[dst]=Math.round((nx/n*.5+.5)*255);data[dst+1]=Math.round((ny/n*.5+.5)*255);data[dst+2]=Math.round((nz/n*.5+.5)*255);}
+   else for(let c=0;c<3;c++)data[dst+c]=Math.round(A[src+c]*(1-t)+B[src+c]*t);data[dst+3]=255;
+  }
+  out[channel]=texture(data,resolution,'diesel-blender-'+a.role+'-'+channel,channel==='baseColor');}
+ return out;}
+ return {paint:bankMaps(clean,worn,weathering),steel:bankMaps(steel,steel,0),provenance:{source:'Diesel-specific Blender MCP native node material Cycles bake',banks:[clean,worn,steel].map(b=>({role:b.role,sources:b.sources})),runtime:'Seeded tile phase, tier downsample, clean/worn baked-map blend; no tank pixel surface',ao:'Constant 1 material tile; no whole-vehicle AO bake claimed'}};
+}

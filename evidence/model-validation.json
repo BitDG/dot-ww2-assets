@@ -1,0 +1,402 @@
+{
+  "date": "2026-10-21T10:47:12.109Z",
+  "kind": "New migration Node generation and independent GLTFLoader readback; not browser acceptance",
+  "models": [
+    {
+      "id": "reference-armored-car",
+      "status": "passed",
+      "bytes": 5776708,
+      "sha256": "85d14b05483bf2b8aa3cff5efe5ba4a1799df668f3cc109718e6c033b6987eaf",
+      "stats": {
+        "triangles": 107826,
+        "renderedTriangles": 107826,
+        "vertices": 227154,
+        "instances": 69,
+        "draws": 69,
+        "bytes": 9361185,
+        "nodes": 161,
+        "meshes": 69,
+        "textures": 6,
+        "materials": 10,
+        "dimensions": [
+          2.763999968767166,
+          3.3199709057807922,
+          4.60797905921936
+        ]
+      },
+      "independent": {
+        "meshes": 69,
+        "triangles": 107826,
+        "decodedImages": 6,
+        "animationClips": 0,
+        "nonfinite": 0,
+        "missingNormals": 0,
+        "missingUVs": 0,
+        "exactDegenerateTriangles": 0,
+        "disposedResources": 71
+      },
+      "geometryQuality": "checked",
+      "deterministic": true
+    },
+    {
+      "id": "tracked-mortar",
+      "status": "passed",
+      "bytes": 5008164,
+      "sha256": "90d6e192145ae4499570a659c62f358a90d881c8ff69b7e4ef16d2849c015f9c",
+      "stats": {
+        "triangles": 109900,
+        "renderedTriangles": 109900,
+        "vertices": 110471,
+        "instances": 21,
+        "draws": 21,
+        "bytes": 5680023,
+        "nodes": 30,
+        "meshes": 21,
+        "textures": 15,
+        "materials": 6,
+        "dimensions": [
+          3.690000057220459,
+          4.490335650742054,
+          10.596776962280273
+        ]
+      },
+      "independent": {
+        "meshes": 21,
+        "triangles": 109900,
+        "decodedImages": 15,
+        "animationClips": 0,
+        "nonfinite": 0,
+        "missingNormals": 0,
+        "missingUVs": 0,
+        "exactDegenerateTriangles": 0,
+        "disposedResources": 42
+      },
+      "geometryQuality": "checked",
+      "deterministic": true
+    },
+    {
+      "id": "gustav-visual-prop",
+      "status": "passed",
+      "bytes": 6418020,
+      "sha256": "7c202e49fb22f8704e3735db51e391dcae3a9e9aba2d1949fcd890ed92a57c6b",
+      "stats": {
+        "triangles": 96732,
+        "renderedTriangles": 146012,
+        "vertices": 162205,
+        "instances": 74,
+        "draws": 74,
+        "bytes": 6519588,
+        "nodes": 82,
+        "meshes": 19,
+        "textures": 6,
+        "materials": 7,
+        "dimensions": [
+          26,
+          6.539999960064888,
+          4.869999885559082
+        ]
+      },
+      "independent": {
+        "meshes": 74,
+        "triangles": 146012,
+        "decodedImages": 6,
+        "animationClips": 0,
+        "nonfinite": 0,
+        "missingNormals": 0,
+        "missingUVs": 0,
+        "exactDegenerateTriangles": 0,
+        "disposedResources": 32
+      },
+      "geometryQuality": "checked",
+      "deterministic": true
+    },
+    {
+      "id": "diesel-locomotive",
+      "status": "passed",
+      "bytes": 3130420,
+      "sha256": "c5ca647348427f728bc185f40133b9a162017a83c5067e2b7c46959745054314",
+      "stats": {
+        "triangles": 76860,
+        "renderedTriangles": 86716,
+        "vertices": 87283,
+        "instances": 48,
+        "draws": 48,
+        "bytes": 3800816,
+        "nodes": 60,
+        "meshes": 37,
+        "textures": 3,
+        "materials": 9,
+        "dimensions": [
+          23,
+          5.340000150799751,
+          3.4132890701293945
+        ]
+      },
+      "independent": {
+        "meshes": 48,
+        "triangles": 86716,
+        "decodedImages": 3,
+        "animationClips": 0,
+        "nonfinite": 0,
+        "missingNormals": 0,
+        "missingUVs": 0,
+        "exactDegenerateTriangles": 0,
+        "disposedResources": 49
+      },
+      "geometryQuality": "checked",
+      "deterministic": true
+    },
+    {
+      "id": "armored-4x4",
+      "status": "passed",
+      "bytes": 3497340,
+      "sha256": "ec46ed7d0b1571cafc8bcfe6cc2690b866d1b21e83c16d3cf20b82532abff13e",
+      "stats": {
+        "triangles": 200996,
+        "renderedTriangles": 200996,
+        "vertices": 237656,
+        "instances": 95,
+        "draws": 95,
+        "bytes": 11487123,
+        "nodes": 120,
+        "meshes": 95,
+        "textures": 3,
+        "materials": 17,
+        "dimensions": [
+          6.41207495123148,
+          3.395178599357605,
+          3.0999999046325684
+        ]
+      },
+      "independent": {
+        "meshes": 95,
+        "triangles": 200996,
+        "decodedImages": 3,
+        "animationClips": 0,
+        "nonfinite": 0,
+        "missingNormals": 0,
+        "missingUVs": 0,
+        "exactDegenerateTriangles": 0,
+        "disposedResources": 95
+      },
+      "geometryQuality": "checked",
+      "deterministic": true
+    },
+    {
+      "id": "nebelwerfer41-visual-prop",
+      "status": "passed",
+      "bytes": 2858796,
+      "sha256": "2c2e0be457211d02c018ac98c1a8dc6e26e957d526ed5eaa6049e135718a7626",
+      "stats": {
+        "triangles": 109516,
+        "renderedTriangles": 109516,
+        "vertices": 138795,
+        "instances": 355,
+        "draws": 355,
+        "bytes": 6446293,
+        "nodes": 362,
+        "meshes": 355,
+        "textures": 3,
+        "materials": 12,
+        "dimensions": [
+          1.8605499882251024,
+          1.9234613394134925,
+          2.6911309518506292
+        ]
+      },
+      "independent": {
+        "meshes": 355,
+        "triangles": 109516,
+        "decodedImages": 3,
+        "animationClips": 0,
+        "nonfinite": 0,
+        "missingNormals": 0,
+        "missingUVs": 0,
+        "exactDegenerateTriangles": 0,
+        "disposedResources": 158
+      },
+      "geometryQuality": "checked",
+      "deterministic": true
+    },
+    {
+      "id": "qf25-visual-prop",
+      "status": "passed",
+      "bytes": 2513984,
+      "sha256": "1aa89f782b6334b15fab32074708d3522b3d667e41ca3d550d690ff5bbfd0b4b",
+      "stats": {
+        "triangles": 102680,
+        "renderedTriangles": 102680,
+        "vertices": 133663,
+        "instances": 357,
+        "draws": 357,
+        "bytes": 5639272,
+        "nodes": 371,
+        "meshes": 357,
+        "textures": 3,
+        "materials": 6,
+        "dimensions": [
+          2.2119159381836653,
+          2.0600145070347935,
+          4.55034041204753
+        ]
+      },
+      "independent": {
+        "meshes": 357,
+        "triangles": 102680,
+        "decodedImages": 3,
+        "animationClips": 0,
+        "nonfinite": 0,
+        "missingNormals": 0,
+        "missingUVs": 0,
+        "exactDegenerateTriangles": 0,
+        "disposedResources": 132
+      },
+      "geometryQuality": "checked",
+      "deterministic": true
+    },
+    {
+      "id": "flakzwilling43-visual-prop",
+      "status": "passed",
+      "bytes": 1579696,
+      "sha256": "42874eae942baf502ef2b1c213ae226314b868da957a90c0f9b329b9cd3a4045",
+      "stats": {
+        "triangles": 84712,
+        "renderedTriangles": 84712,
+        "vertices": 112368,
+        "instances": 304,
+        "draws": 304,
+        "bytes": 4739601,
+        "nodes": 315,
+        "meshes": 304,
+        "textures": 3,
+        "materials": 4,
+        "dimensions": [
+          3.0334350764751434,
+          2.128608082022952,
+          3.249999975710777
+        ]
+      },
+      "independent": {
+        "meshes": 304,
+        "triangles": 84712,
+        "decodedImages": 3,
+        "animationClips": 0,
+        "nonfinite": 0,
+        "missingNormals": 0,
+        "missingUVs": 0,
+        "exactDegenerateTriangles": 0,
+        "disposedResources": 92
+      },
+      "geometryQuality": "checked",
+      "deterministic": true
+    },
+    {
+      "id": "bm13-us6-visual-prop",
+      "status": "passed",
+      "bytes": 2106060,
+      "sha256": "01720ecf4638f582778683be17c7feecfa3ec0a4e821cddd2e76938c656add5c",
+      "stats": {
+        "triangles": 129976,
+        "renderedTriangles": 129976,
+        "vertices": 207026,
+        "instances": 59,
+        "draws": 59,
+        "bytes": 8302647,
+        "nodes": 79,
+        "meshes": 59,
+        "textures": 3,
+        "materials": 8,
+        "dimensions": [
+          3.640000104904175,
+          3.928454577922821,
+          9.039999961853027
+        ]
+      },
+      "independent": {
+        "meshes": 59,
+        "triangles": 129976,
+        "decodedImages": 3,
+        "animationClips": 0,
+        "nonfinite": 0,
+        "missingNormals": 0,
+        "missingUVs": 0,
+        "exactDegenerateTriangles": 0,
+        "disposedResources": 43
+      },
+      "geometryQuality": "checked",
+      "deterministic": true
+    },
+    {
+      "id": "qf17-visual-prop",
+      "status": "passed",
+      "bytes": 1435648,
+      "sha256": "72fff73095bca3182b3cad21c30bdb1c7759e12d5ccbe8aaa6923cb1b61495ed",
+      "stats": {
+        "triangles": 50776,
+        "renderedTriangles": 50776,
+        "vertices": 46212,
+        "instances": 24,
+        "draws": 24,
+        "bytes": 2206199,
+        "nodes": 35,
+        "meshes": 24,
+        "textures": 3,
+        "materials": 6,
+        "dimensions": [
+          3.3299999237060547,
+          1.9662867188453674,
+          8.380000352859497
+        ]
+      },
+      "independent": {
+        "meshes": 24,
+        "triangles": 50776,
+        "decodedImages": 3,
+        "animationClips": 0,
+        "nonfinite": 0,
+        "missingNormals": 0,
+        "missingUVs": 0,
+        "exactDegenerateTriangles": 0,
+        "disposedResources": 30
+      },
+      "geometryQuality": "checked",
+      "deterministic": true
+    },
+    {
+      "id": "land-mattress-visual-prop",
+      "status": "passed",
+      "bytes": 2281772,
+      "sha256": "4b7666cfaffb37d16f2dfe5be210595442832341c44270fa4c61a4e4741839df",
+      "stats": {
+        "triangles": 48036,
+        "renderedTriangles": 48036,
+        "vertices": 64018,
+        "instances": 26,
+        "draws": 26,
+        "bytes": 2743111,
+        "nodes": 38,
+        "meshes": 26,
+        "textures": 3,
+        "materials": 6,
+        "dimensions": [
+          2.628000020980835,
+          2.601658046245575,
+          4.78007073700428
+        ]
+      },
+      "independent": {
+        "meshes": 26,
+        "triangles": 48036,
+        "decodedImages": 3,
+        "animationClips": 0,
+        "nonfinite": 0,
+        "missingNormals": 0,
+        "missingUVs": 0,
+        "exactDegenerateTriangles": 0,
+        "disposedResources": 34
+      },
+      "geometryQuality": "checked",
+      "deterministic": true
+    }
+  ]
+}

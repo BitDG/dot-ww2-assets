@@ -1,0 +1,12 @@
+{
+  "apiVersion": "1",
+  "id": "diesel-locomotive",
+  "version": "1.2.1",
+  "label": "柴油机车 · 外观模型",
+  "entry": "./definition.mjs",
+  "workbench": {
+    "category": "machines",
+    "entry": "./workbench.js",
+    "collectionId": "dot-model-generator"
+  }
+}

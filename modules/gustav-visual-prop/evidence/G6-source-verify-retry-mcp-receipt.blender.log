@@ -1,0 +1,47 @@
+BlenderMCP addon registered
+Server thread started
+TASK_MCP_READY={"pid": 7, "host": "127.0.0.1", "port": 19876, "blender_version": "4.3.2", "addon_version": [1, 8], "addon_protocol": 13, "addon_sha256": "eb0facf69781a30e69792532087d8d41c6a14fcd323353250abe7988ee297fa5", "background": true, "lifecycle_adapter": "explicit main-thread upstream queue pump", "telemetry_disabled": true, "integrations": {"polyhaven": false, "sketchfab": false, "polypizza": false, "hyper3d": false, "hunyuan3d": false, "tripo": false}, "hard_timeout_seconds": 21600}
+Connected to client: ('127.0.0.1', 50386)
+Client handler started
+Queued command: get_addon_info
+Executing handler for get_addon_info
+Handler execution complete
+Queued command: execute_code
+Executing handler for execute_code
+Handler execution complete
+Queued command: get_telemetry_consent
+Executing handler for get_telemetry_consent
+Handler execution complete
+Queued command: get_addon_info
+Executing handler for get_addon_info
+Handler execution complete
+Queued command: get_polyhaven_status
+Queued command: get_sketchfab_status
+Executing handler for get_sketchfab_status
+Handler execution complete
+Queued command: get_polypizza_status
+Executing handler for get_polypizza_status
+Handler execution complete
+Queued command: get_hunyuan3d_status
+Executing handler for get_hunyuan3d_status
+Handler execution complete
+Queued command: get_hyper3d_status
+Executing handler for get_hyper3d_status
+Handler execution complete
+Queued command: execute_code
+Executing handler for execute_code
+Handler execution complete
+Queued command: execute_code
+Executing handler for execute_code
+Handler execution complete
+Client disconnected
+Client handler stopped
+Error accepting connection: [Errno 9] Bad file descriptor
+BlenderMCP server stopped
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+TASK_MCP_STOPPED
+Blender 4.3.2
+Read blend: "/workspace/scratch/6a4c729be230/PGF/modules/gustav-visual-prop/assets/blender/gustav-pgf-G6-reviewed-scene.blend"
+
+Blender quit

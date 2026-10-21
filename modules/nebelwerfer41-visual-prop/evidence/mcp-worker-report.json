@@ -1,0 +1,60 @@
+{
+  "discovery": "passed",
+  "version": "1.0.1",
+  "descriptorStatus": "adapter-ready",
+  "capabilities": {
+    "procedural": false,
+    "authoredAssetAssembly": true,
+    "browserWorker": true,
+    "staticGLB": true,
+    "recipeJSON": true,
+    "partVisibility": true,
+    "materialParameters": true,
+    "onlineRemodeling": false,
+    "animation": false,
+    "units": "meters",
+    "upAxis": "Y",
+    "source": "fixed-blender-authored-exterior-glb",
+    "scope": "Nonfunctional sealed exterior art; no internal design, fire control, physics or weapon performance"
+  },
+  "fingerprint": {
+    "sha256": "f5518891f4f843dfc5702905f46325fd91bd6764e5439a0ca5d28deb3d4f5cc9",
+    "scope": "local-module-closure-and-package-lock",
+    "files": 33,
+    "unresolvedDynamicImports": 2
+  },
+  "export": {
+    "bytes": 3108688,
+    "sha256": "e85806a78909d272479375b242194d3de21a0cec2ff0951539c9731d69bdd3f8",
+    "stats": {
+      "triangles": 109516,
+      "renderedTriangles": 109516,
+      "vertices": 138795,
+      "instances": 355,
+      "draws": 355,
+      "bytes": 6660675,
+      "nodes": 363,
+      "meshes": 355,
+      "textures": 3,
+      "materials": 13,
+      "dimensions": [
+        1.8605499882241336,
+        1.9234613394139772,
+        2.6911309518524837
+      ],
+      "bounds": {
+        "min": [
+          -0.9302749941120668,
+          0.0014999993145349763,
+          -1.784999981524418
+        ],
+        "max": [
+          0.9302749941120668,
+          1.9249613387285123,
+          0.9061309703280658
+        ]
+      }
+    }
+  },
+  "protocol": "Actual shared Node worker exercised; MCP transport server was not run"
+}

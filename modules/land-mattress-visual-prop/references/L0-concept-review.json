@@ -1,0 +1,88 @@
+{
+  "stage": "L0 concept art",
+  "modelsAuthored": false,
+  "passes": {
+    "GustavTemplatePixelsViewed": true,
+    "MuseumPlaquePixelsViewed": true,
+    "MuseumOverallPixelsViewed": true,
+    "OfficialFactsheetPixelsViewed": true
+  },
+  "v1": {
+    "file": "land-mattress-three-view-v1-REJECTED.png",
+    "status": "rejected",
+    "defects": [
+      "Front face 4 rows of 6 instead of 5",
+      "Bundle raised toward wrong end"
+    ]
+  },
+  "v2": {
+    "file": "land-mattress-three-view-v2-UNACCEPTED.png",
+    "status": "unaccepted",
+    "corrected": [
+      "Front 5 rows by 6 columns",
+      "Side five tube profiles",
+      "Forward end raised toward drawbar"
+    ],
+    "defects": [
+      "Top view shows five profiles rather than six",
+      "Side body/front-view fender and support form consistency not yet verified"
+    ],
+    "boundary": "Graphic concept only; cannot claim identical measured orthographic reconstruction"
+  },
+  "additionalPhotoAttempt": {
+    "source": "Harold A. Skaarup author photographs at Silverhawk",
+    "result": "HTTP403 for three image URLs; no retry or circumvention"
+  },
+  "next": "Create separate six-detail concept, retain all failed revisions; await exclusive Blender lock",
+  "v3": {
+    "file": "land-mattress-three-view-v3.png",
+    "status": "visible count and layout gate passed; concept only",
+    "count": {
+      "side": 5,
+      "top": 6,
+      "front": {
+        "rows": 5,
+        "columns": 6,
+        "total": 30
+      }
+    },
+    "layout": "upper large side, lower-left straight-overhead top, lower-right front",
+    "remainingLimits": [
+      "No camera metadata for generated image; strict projection proved only by later actual render",
+      "Display pose, supports, fenders and concealed areas are not measured historical reconstruction",
+      "Not evidence of model, mesh or GPU acceptance"
+    ]
+  },
+  "detailsV1": {
+    "file": "land-mattress-details-v1-REJECTED.png",
+    "status": "rejected",
+    "defect": "Panel01 five rows of seven; 35 instead of30"
+  },
+  "detailsV2": {
+    "file": "land-mattress-details-v2.png",
+    "status": "visible count and layout passed; concept only",
+    "count": {
+      "rows": 5,
+      "columns": 6,
+      "total": 30
+    },
+    "panelCount": 6,
+    "grid": {
+      "columns": 3,
+      "rows": 2
+    },
+    "matchedFeatures": [
+      "gray-metal palette",
+      "A-frame tow-eye style",
+      "wheel dish and tire",
+      "angular fender",
+      "side bracing and display pads"
+    ],
+    "limits": [
+      "Idealized support-frame and wheel details; not exact historical fastener counts",
+      "Generated image, not evidence of Blender work"
+    ]
+  },
+  "parentReview": "Parent inspected and accepted v3 three-view and v2 six-details as concept references on 2026-10-14",
+  "sourcePhotosIncluded": false
+}

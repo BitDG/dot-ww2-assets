@@ -1,0 +1,33 @@
+{
+  "stage": "F2-Gustav-runtime",
+  "version": "0.2.0-firefox",
+  "status": "Actual unified Firefox visual smoke review passed; 10 module Node, 89 integrated Node and 105 browser checks passed",
+  "assetIds": [
+    "gustav-visual-prop"
+  ],
+  "previewOnly": true,
+  "realWeaponParameters": false,
+  "mechanicalRecoil": false,
+  "projectileSimulation": false,
+  "hostTickOnly": true,
+  "staticGLBByteEqualityVerified": true,
+  "codeGraph": "No .codegraph snapshot available in restored source; consulted mcp/graph.mjs and actual generator/core/batch/FX modules",
+  "shaderGpuVerified": true,
+  "upstreamSha256": {
+    "visual-effects-config.mjs": "d2b48b0ff901ede77abd5325c8a9fa28df2d333bfade3431222de2c4e6b9447c",
+    "tank-shot-effects.mjs": "2ed5f1b3945ac9e8a34e79f81ab34f1f74cdf15350a65bf5f077dacee9fc0f85",
+    "volume-particle-material.mjs": "d7b517adcdbd15415197891e7ee6b87f1e8202e698aba71682b9655a93a786d1",
+    "scene-weather.mjs": "d5b3b01389b559dd2c153ee3e77f8a6f8c24ce73750d2b5d3bf70d9b45d47103"
+  },
+  "createdUTC": "2026-10-12T04:13:41.656470+00:00",
+  "determinismScope": "Fixed-pose replay. Simultaneous moving birth positions depend on host frame chunking.",
+  "runtimeSHA256": "f6325a59f90eb9826396066e02e47dc829a48670a3f2af6b77cd8db99ec58cd2",
+  "frozenUTC": "2026-10-12T05:18:19.249958+00:00",
+  "visualReview": "evidence/firefox/visual-review.json",
+  "browserReport": "evidence/firefox/integration-browser-report.json",
+  "browserReportSHA256": "978b84bd51d2a42c845db66ad0ae9333491c202bd375c801ebe7fbd88967a1a1",
+  "historicalExactReconstruction": false,
+  "upstreamEdited": false,
+  "hostIntegration": "D4 original PGF shared viewport; apply this module over the frozen host runtime",
+  "supersedesVisualOnly": "F1 small uniform cloud and intermediate F2b disconnected birth were not accepted as final visual delivery"
+}

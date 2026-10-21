@@ -1,0 +1,29 @@
+{
+  "adapterVersion": "1.1.0",
+  "stage": "Q2",
+  "scope": "Actual author-confirmed Q2 GLB reimport/object tests; not PGF AssetIR export or browser certification",
+  "sha256": "69ba1127753c21e64aac45d98f0ff02fa7868020b483ac182b7225ce91364251",
+  "bytes": 4836736,
+  "checks": [
+    "actual Q2 node contract, +X wheel roll, explicit appearance gate, exact object restore",
+    "actual Q2 explicit uncapped smoke, no visible flame/light, unchanged source object, no borrowed disposal"
+  ],
+  "appearance": {
+    "showCover": false,
+    "coverPresent": false,
+    "sealedFrontPresent": true
+  },
+  "anchor": {
+    "position": [
+      0,
+      1.7738800048828125,
+      1.8996200561523438
+    ],
+    "direction": [
+      0,
+      0.19400384283183986,
+      0.9810007690957631
+    ],
+    "artScale": 1.000000010941301
+  }
+}

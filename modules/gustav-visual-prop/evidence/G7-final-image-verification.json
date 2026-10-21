@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "rendering": "Actual Firefox UI capture, not synthetic screenshots",
+  "views": [
+    {
+      "view": "hero",
+      "png": "gustav-visual-prop-final-hero.png",
+      "pngSHA256": "081e6148fca21880ba9a089dcccddc1a433f075e52f532ff7bb4e9de2d4cf3d0",
+      "camera": "gustav-visual-prop-final-hero-camera.json",
+      "cameraSHA256": "513804d513bcbc5c263ba230cea08b665af3080f8f8676303ea638094cc421f4",
+      "resolution": [
+        1600,
+        900
+      ],
+      "sourceGLBSha256": "3e988dcd4e60a72996030c23a58e54476a12ab08264ecc3cfa6308b968d54590",
+      "pixelsPerArtUnit": null
+    },
+    {
+      "view": "side",
+      "png": "gustav-visual-prop-final-side.png",
+      "pngSHA256": "743cec14f9af5af4afd26a29a8d2cc6d4b12e2318f44c08ef3401f7c33e1fe3f",
+      "camera": "gustav-visual-prop-final-side-camera.json",
+      "cameraSHA256": "ae73705dbfe99448d27818da3750da5640e0a7ffd0392fa0410d3e57ec7aa034",
+      "resolution": [
+        1600,
+        520
+      ],
+      "sourceGLBSha256": "3e988dcd4e60a72996030c23a58e54476a12ab08264ecc3cfa6308b968d54590",
+      "pixelsPerArtUnit": 55.94405594405594
+    },
+    {
+      "view": "front",
+      "png": "gustav-visual-prop-final-front.png",
+      "pngSHA256": "a4503e56831e4865eca13d434732f0b959e28d5e575d20866db6c7dc5a0cc121",
+      "camera": "gustav-visual-prop-final-front-camera.json",
+      "cameraSHA256": "e3cc21f5ac3aec6c7cf08d88690cc2aec61d15d0697eca5cb3e806c779351c80",
+      "resolution": [
+        600,
+        520
+      ],
+      "sourceGLBSha256": "3e988dcd4e60a72996030c23a58e54476a12ab08264ecc3cfa6308b968d54590",
+      "pixelsPerArtUnit": 55.94405594405594
+    },
+    {
+      "view": "top",
+      "png": "gustav-visual-prop-final-top.png",
+      "pngSHA256": "32e9d33e9f6da0514541853bee267de2cce176482521071613fc000bbfc1d692",
+      "camera": "gustav-visual-prop-final-top-camera.json",
+      "cameraSHA256": "352d5dacbce5b61c0c6fec6de3276f5dadf178e72b51d6904708b51bc218b072",
+      "resolution": [
+        1600,
+        420
+      ],
+      "sourceGLBSha256": "3e988dcd4e60a72996030c23a58e54476a12ab08264ecc3cfa6308b968d54590",
+      "pixelsPerArtUnit": 55.94405594405594
+    }
+  ]
+}

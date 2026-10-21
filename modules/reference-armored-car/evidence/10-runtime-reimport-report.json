@@ -1,0 +1,56 @@
+[
+  {
+    "source": "runtime-reference.glb",
+    "meshes": 69,
+    "triangles": 107826,
+    "images": 6,
+    "materials": {
+      "material-5": 3,
+      "material-0": 3,
+      "material-7": 3,
+      "material-1": 3,
+      "material-8": 3,
+      "material-2": 3,
+      "material-9": 3,
+      "material-4": 3,
+      "material-6": 0,
+      "material-3": 3
+    },
+    "nonFinite": 0,
+    "pose": "reference turretYaw=-10 degrees, gunElevation=0 degrees",
+    "file": "PGF/modules/reference-armored-car/evidence/runtime-reference.glb",
+    "fileSha256": "fcb8b328512fd4c80339b7890449a317ea28d13795e406238aed1ea833190760",
+    "visualSha256": "c5e7b3ab8d9d72125b804c490edc1fc6047562384b79b6b3909bb1c4682af6f3",
+    "render": "10-runtime-tank-reference-pbr.png",
+    "renderSha256": "6e1ce2f81888599288e59106b3a7237f5b4681c636d2b400de31ac3debbf6e92",
+    "mcpReceipt": "10-runtime-tank-reference-mcp.json",
+    "status": "PASS"
+  },
+  {
+    "source": "runtime-tank-desert.glb",
+    "meshes": 69,
+    "triangles": 107826,
+    "images": 6,
+    "materials": {
+      "material-0": 3,
+      "material-5": 3,
+      "material-9": 3,
+      "material-2": 3,
+      "material-7": 3,
+      "material-8": 3,
+      "material-4": 3,
+      "material-1": 3,
+      "material-3": 3,
+      "material-6": 0
+    },
+    "nonFinite": 0,
+    "pose": "reference turretYaw=-10 degrees, gunElevation=0 degrees",
+    "file": "PGF/modules/reference-armored-car/evidence/runtime-tank-desert.glb",
+    "fileSha256": "71b0b238579da8796e480bd929ad4be11fccd57f78be467ec34d14ca66d47909",
+    "visualSha256": "c5a7336314e49028cc23420a4f0814954e95a79ff3fb2fc2784607335bea3750",
+    "render": "10-runtime-tank-desert-pbr.png",
+    "renderSha256": "d9669e7b043a1e908dfce06675babc991c5baea53f97fcc6ceef007328d04d49",
+    "mcpReceipt": "10-runtime-tank-desert-mcp.json",
+    "status": "PASS"
+  }
+]

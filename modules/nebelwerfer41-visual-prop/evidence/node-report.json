@@ -1,0 +1,59 @@
+{
+  "sourceSHA256": "5c97cbb68542723fbca7dbcfaa114a08ffe216c1d15cb60eb1febca2845a6896",
+  "checks": [
+    "manifest / schema / immutable source",
+    "actual AssetIR / 3 PBR channels / 6 dark sealed surfaces",
+    "5 part off / 5 part-only / all-hidden rejected",
+    "determinism / paint / roughness / weathering / camo / material-only seed / numeric boundaries",
+    "strict input / no user import / invalid source / all five budgets",
+    "file URL / actual HTTP load / HTTP 404 / aborted fetch",
+    "early / late abort / real loader error / normal and idempotent disposal",
+    "PGF GLB writer / independent GLTFLoader / actual PNG decoder / 6 dark colors / static-only / source still unchanged",
+    "real shared worker message protocol / completed-asset export"
+  ],
+  "independentReadback": {
+    "bytes": 2859040,
+    "sha256": "cccce2117c7bf2a07da552f54c12aaac9a41ce038cc721699932f4fda49076d1",
+    "triangles": 109516,
+    "meshes": 355,
+    "darkColors": 6,
+    "decodedImages": 3,
+    "paintedMaterials": 9,
+    "animationClips": 0
+  },
+  "baseline": {
+    "triangles": 109516,
+    "renderedTriangles": 109516,
+    "vertices": 138795,
+    "instances": 355,
+    "draws": 355,
+    "bytes": 6449970,
+    "nodes": 362,
+    "meshes": 355,
+    "textures": 3,
+    "materials": 12,
+    "dimensions": [
+      1.8605499882251024,
+      1.9234613394134925,
+      2.6911309518506292
+    ]
+  },
+  "resourceRelease": {
+    "lateAbort": {
+      "owned": 379,
+      "disposed": 379,
+      "closed": true
+    },
+    "loaderFailure": {
+      "owned": 379,
+      "disposed": 379,
+      "closed": true
+    },
+    "normal": {
+      "owned": 400,
+      "disposed": 400,
+      "closed": true
+    }
+  },
+  "browserStatus": "NOT RUN: HTTP route is tested in Node; real Firefox unified viewport acceptance is separate"
+}

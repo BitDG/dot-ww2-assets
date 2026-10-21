@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "source": "Actual Firefox visible Export GLB button download",
+  "originalFilename": "land-mattress-visual-prop(3).glb",
+  "bytes": 2278400,
+  "sha256": "94747912272b5ed019e6593e1c5e7a8706ba4deb67482db66a06f419da1fef69",
+  "generator": {
+    "id": "land-mattress-visual-prop",
+    "version": "0.1.0"
+  },
+  "sourceAsset": {
+    "kind": "Original Blender MCP static exterior and straight-groove tire artwork",
+    "sha256": "a817004abfbe11ac41d1d4fc03afd4a040854ed98c61b55cef8f239bcd620bca",
+    "stage": "L3",
+    "quality": "medium"
+  },
+  "recipe": {
+    "generator": "land-mattress-visual-prop",
+    "version": "0.1.0",
+    "seed": "pgf-components-1",
+    "params": {
+      "camoPattern": "original",
+      "camoEnvironment": "desert",
+      "camoScale": 1,
+      "detail": "medium",
+      "artScale": 1,
+      "paintColor": "#777e7d",
+      "roughness": 0.66,
+      "weathering": 0.24,
+      "showBundle": true,
+      "showRackFrame": true,
+      "showCarriage": true,
+      "showWheels": true,
+      "showFenders": true,
+      "showDrawbar": true,
+      "showSupports": true,
+      "showFittings": true
+    },
+    "quality": "medium"
+  },
+  "statistics": {
+    "triangles": 48036,
+    "renderedTriangles": 48036,
+    "vertices": 64018,
+    "instances": 26,
+    "draws": 26,
+    "bytes": 2713335,
+    "nodes": 39,
+    "meshes": 26,
+    "textures": 3,
+    "materials": 7,
+    "dimensions": [
+      2.628000020980835,
+      2.601658046245596,
+      4.780070737000106
+    ]
+  },
+  "independentGLTFLoader": {
+    "meshes": 26,
+    "triangles": 48036,
+    "decodedImages": 3,
+    "animations": 0
+  }
+}

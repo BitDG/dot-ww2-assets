@@ -1,0 +1,56 @@
+{
+  "stage": "L3 final actual render evidence",
+  "assetId": "land-mattress-visual-prop",
+  "fixedGLBSha256": "d6703405e775e90e2fd6f6d284a202bbb05e3cf564b6c280b28d0a5be3fc1e39",
+  "coreUnchanged": true,
+  "files": [
+    {
+      "source": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-hero.png",
+      "repoPath": "modules/land-mattress-visual-prop/evidence/final/LM-L3-PGF-hero.png",
+      "sha256": "9553305d789a738b3af90be94eda5eb0dcfd1d02f905dce0cda64395294cdd97",
+      "bytes": 1426860
+    },
+    {
+      "source": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-three-view.png",
+      "repoPath": "modules/land-mattress-visual-prop/evidence/final/LM-L3-PGF-three-view.png",
+      "sha256": "0db5599f9054bb8a881decb2e3919dbcb008bda78bef7aa0da9696de7ca421e7",
+      "bytes": 1470032
+    },
+    {
+      "source": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-six-details.png",
+      "repoPath": "modules/land-mattress-visual-prop/evidence/final/LM-L3-PGF-six-details.png",
+      "sha256": "b57b3eb3ed5aa429015558da4bd0b8f91e06cbb8cca175ba86939d6efc062dac",
+      "bytes": 1621907
+    },
+    {
+      "source": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/actual-render-verification.json",
+      "repoPath": "modules/land-mattress-visual-prop/evidence/final/actual-render-verification.json",
+      "sha256": "df8286e5129ac6e100ec3dd258295ca5d61b1908205f9a83b7b3f63a85ee4ff5",
+      "bytes": 19336
+    },
+    {
+      "source": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/render-plan.json",
+      "repoPath": "modules/land-mattress-visual-prop/evidence/final/render-plan.json",
+      "sha256": "bf413011ad6ac5c7c171039e7fb91a9847fd32a2a1764e79a3b9d57374a8b4a9",
+      "bytes": 17948
+    },
+    {
+      "source": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/board-composition-provenance.json",
+      "repoPath": "modules/land-mattress-visual-prop/evidence/final/board-composition-provenance.json",
+      "sha256": "b71d3de7256d87ed6df18f6dd82e68523d50ef446529e745d6f82efdadd0bb02",
+      "bytes": 3965
+    },
+    {
+      "source": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/native-review-readback.json",
+      "repoPath": "modules/land-mattress-visual-prop/evidence/final/native-review-readback.json",
+      "sha256": "7504ef29625bfc8cb0025f1bef7612a82254e19d63ddf3260d355fa0389b669a",
+      "bytes": 6403
+    },
+    {
+      "source": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/README-delivery.txt",
+      "repoPath": "modules/land-mattress-visual-prop/evidence/final/README-delivery.txt",
+      "sha256": "42ec43902962a10238f87672d0ddcf56e95f68013b38b56883a9886c43f02373",
+      "bytes": 1121
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "status": "passed",
+  "source": "Actual Firefox workbench downloads independently decoded in Node and real Three GLTFLoader",
+  "files": [
+    {
+      "file": "diesel-locomotive.glb",
+      "bytes": 3132024,
+      "sha256": "a8e034156ff384debaecd04f2b5639cee50ea6b4f31cc26b0bcaf44863d9e54b",
+      "recipe": {
+        "generator": "diesel-locomotive",
+        "version": "1.2.1",
+        "seed": "pgf-components-1",
+        "params": {
+          "bodyLength": 1,
+          "bodyWidth": 1,
+          "bodyHeight": 1,
+          "bogieSpacing": 1,
+          "wheelScale": 1,
+          "detail": "medium",
+          "fanCount": 4,
+          "grilleDensity": 0.6,
+          "rivetDensity": 0.55,
+          "weathering": 0.28,
+          "paintColor": "#7d8589",
+          "metalColor": "#737a7d",
+          "showRails": true,
+          "showRailings": true,
+          "showGrilles": true,
+          "showRivets": true,
+          "camoPattern": "digital",
+          "camoEnvironment": "urban",
+          "camoScale": 1.6
+        }
+      },
+      "stats": {
+        "triangles": 76860,
+        "renderedTriangles": 86716,
+        "vertices": 83472,
+        "instances": 48,
+        "draws": 48,
+        "bytes": 3762330,
+        "nodes": 61,
+        "meshes": 37,
+        "textures": 3,
+        "materials": 10,
+        "dimensions": [
+          23,
+          5.340000150799751,
+          3.4132890701293945
+        ]
+      },
+      "loaded": {
+        "triangles": 86716,
+        "meshes": 48,
+        "nonfinite": 0,
+        "decodedTextures": 3,
+        "textureBindings": 60
+      },
+      "uv": {
+        "type": "World-art-unit box projection",
+        "tileSize": 4,
+        "scale": 1.6,
+        "effectiveTileSize": 2.5,
+        "vertices": 51720,
+        "meshes": 15,
+        "scope": "armorPaint only; original appearance UV and bare-material UV are untouched",
+        "seams": "Axis seams at projection transitions; not a geodesic unwrap"
+      }
+    },
+    {
+      "file": "diesel-locomotive(1).glb",
+      "bytes": 3130832,
+      "sha256": "9e135ac02a5cca70e8b60cb8acba5da106b7223c723c5e02963e4f16f3afc835",
+      "recipe": {
+        "generator": "diesel-locomotive",
+        "version": "1.2.1",
+        "seed": "pgf-components-1",
+        "params": {
+          "bodyLength": 1,
+          "bodyWidth": 1,
+          "bodyHeight": 1,
+          "bogieSpacing": 1,
+          "wheelScale": 1,
+          "detail": "medium",
+          "fanCount": 4,
+          "grilleDensity": 0.6,
+          "rivetDensity": 0.55,
+          "weathering": 0.28,
+          "paintColor": "#7d8589",
+          "metalColor": "#737a7d",
+          "showRails": true,
+          "showRailings": true,
+          "showGrilles": true,
+          "showRivets": true,
+          "camoPattern": "original",
+          "camoEnvironment": "desert",
+          "camoScale": 1
+        }
+      },
+      "stats": {
+        "triangles": 76860,
+        "renderedTriangles": 86716,
+        "vertices": 87283,
+        "instances": 48,
+        "draws": 48,
+        "bytes": 3799459,
+        "nodes": 61,
+        "meshes": 37,
+        "textures": 3,
+        "materials": 10,
+        "dimensions": [
+          23,
+          5.340000150799751,
+          3.4132890701293945
+        ]
+      },
+      "loaded": {
+        "triangles": 86716,
+        "meshes": 48,
+        "nonfinite": 0,
+        "decodedTextures": 3,
+        "textureBindings": 60
+      },
+      "uv": null
+    }
+  ],
+  "shaDisclosure": "Browser files use their own UI seed/serialization; no claim that their SHA equals the separately frozen diesel-art-1 bb62 image-source GLB."
+}

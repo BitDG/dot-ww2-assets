@@ -1,0 +1,23 @@
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 176 modules transformed.
+rendering chunks...
+computing gzip size...
+pgf-gustav-preview/modules/gustav-visual-prop/review.html       0.40 kB │ gzip:   0.33 kB
+pgf-gustav-preview/modules/gustav-visual-prop/preview.html      0.58 kB │ gzip:   0.42 kB
+pgf-gustav-preview/assets/preview.worker-Br8k3ZVD.js          723.45 kB
+pgf-gustav-preview/assets/asset-export.worker-DYzXDJ1D.js     752.83 kB
+pgf-gustav-preview/assets/worker-DMD3CJ5W.js                1,225.11 kB
+pgf-gustav-preview/assets/workbench-CMq6QRu5.css               36.67 kB │ gzip:   7.79 kB
+pgf-gustav-preview/assets/workbench-BG_i2kQ2.js                47.71 kB │ gzip:  17.40 kB
+pgf-gustav-preview/assets/review-DnMdHDDd.js                  197.12 kB │ gzip:  57.71 kB
+pgf-gustav-preview/assets/OrbitControls-C7dCCs-7.js         1,098.47 kB │ gzip: 344.44 kB
+
+[33m[PLUGIN_TIMINGS] [0mYour build spent significant time in plugin `vehicle-preview-registry`. See https://rolldown.rs/reference/InputOptions.checks#plugintimings for more details.
+
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 5.63s
+/workspace/scratch/6a4c729be230/pgf-gustav-preview

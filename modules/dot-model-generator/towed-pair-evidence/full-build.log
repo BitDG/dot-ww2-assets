@@ -1,0 +1,11 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> pgf-web@0.3.0 prebuild
+> npm run tidewater:build && npm run voxel:build
+
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> pgf-web@0.3.0 tidewater:build
+> vite build --config modules/tidewater/vite.config.js
+
+sh: 1: vite: not found

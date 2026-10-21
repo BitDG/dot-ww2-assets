@@ -1,0 +1,40 @@
+{
+  "version": "1.1.1",
+  "GLB": "gustav-G6-cf838215.glb",
+  "sha256": "cf838215c16f262be515504c69dcca7ba5926f97a984548885d4abd1e95cf6e9",
+  "materialSource": "Restored PGF material path; independent Blender native PBR experiment not adopted",
+  "geometrySource": "Actual Blender MCP twelve exterior prototypes and PGF parametric assembly",
+  "testGroupsPassed": 12,
+  "stats": {
+    "triangles": 96804,
+    "renderedTriangles": 146084,
+    "vertices": 162205,
+    "instances": 74,
+    "draws": 74,
+    "bytes": 6419632,
+    "nodes": 82,
+    "meshes": 19,
+    "textures": 6,
+    "materials": 7,
+    "dimensions": [
+      26,
+      6.539999960064888,
+      4.869999885559082
+    ]
+  },
+  "pending": [],
+  "glbFileBytes": 6419632,
+  "passed": [
+    "12 core tests",
+    "12 public API variants with AssetIR/GLB/Three round trips",
+    "Actual shared Worker in Node host",
+    "Exact Float32 world surface batching",
+    "Actual same-GLB Blender MCP hero, wheel detail and housing/stair detail",
+    "Isolated preview build; final Firefox candidate manifest e23b93dc02fa175c2d91c6768cdb205a3bc0502eede535f748967b3c40271676"
+  ],
+  "visualReview": "Parent accepted G6 hero geometry direction; two closeups reviewed locally without visible broken contact. Cycles images are noisy geometry audits, not polished final beauty claims.",
+  "assetIREstimatedBytes": 6521971,
+  "byteCountMeaning": "stats.bytes and glbFileBytes are exact serialized canonical GLB bytes; assetIREstimatedBytes is the separate generator budget estimate, not serialized length.",
+  "status": "Superseded geometry review, retained as history; G7 fixes 72 redundant faces",
+  "triangleCountExplanation": "GLB146084 contains72 same-index same-winding duplicate faces; Blender saved scene and fresh import both146012, proven per mesh in G6-source-import-verification.json"
+}

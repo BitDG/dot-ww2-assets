@@ -1,0 +1,35 @@
+{
+  "status": "passed:4 genuine Firefox500x380 preset PNGs, distinct SHA, manually inspected, final workbench thumbnails visibly loaded",
+  "source": "Native Firefox canonical definition -> actual GLB -> Three GLTFLoader canvas",
+  "size": [
+    500,
+    380
+  ],
+  "images": [
+    {
+      "id": "reference-gray",
+      "file": "pgf-vehicle-browser-qa/gustav-visual-prop-reference-gray.png",
+      "sha256": "a4d320b08d977a58771ead606e95f39bfd995704d5283928fdf23f0271fff1e5",
+      "bytes": 83607
+    },
+    {
+      "id": "clean-display",
+      "file": "pgf-vehicle-browser-qa/gustav-visual-prop-clean-display.png",
+      "sha256": "4dedf61b7556176752afbde495b7f0d2c84d3aa0e1eeb82665cf45a6edba939e",
+      "bytes": 82932
+    },
+    {
+      "id": "field-olive",
+      "file": "pgf-vehicle-browser-qa/gustav-visual-prop-field-olive.png",
+      "sha256": "3678d68127810bb6907ee7e24c782a36c381a253fc942d9ca5f164f81251a8de",
+      "bytes": 87832
+    },
+    {
+      "id": "low-silhouette",
+      "file": "pgf-vehicle-browser-qa/gustav-visual-prop-low-silhouette.png",
+      "sha256": "4fcf747e02b7882c8390ed66a4fc7ee77e2fb0e5ff527b8f830db2d96c82310b",
+      "bytes": 78478
+    }
+  ],
+  "generatorVersion": "1.1.2"
+}

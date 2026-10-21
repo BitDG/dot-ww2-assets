@@ -1,0 +1,67 @@
+{
+  "browser": "dot cloud Firefox 157.0.1",
+  "scope": "Actual shared PGF shell/workbench/Worker in restricted two-module production preview; not full application build",
+  "completed": [
+    "reference/inspection35/exploded.65 presets",
+    "length9/12, barrelScale.85/1.15, weathering0/.65",
+    "standard/high detail and railings off/on",
+    "desert, digital+urban+density1.6, auto+urban material generation",
+    "actual original and camouflage GLB downloads",
+    "actual recipe download and import after reload",
+    "cancel retains last model and regenerate succeeds",
+    "focus mode",
+    "950x900 and1440x900 virtual PC viewport; model fully framed (1440 right UI beyond physical1364 screenshot)",
+    "idle2seconds frames80 to80, delta0",
+    "explicit dispose activefalse/disposedtrue/workerTerminatedtrue/renderRPC0; cached counters not claimed zero",
+    "refresh after disposal restores default",
+    "three real Three GLB-readback PNGs500x380, individually viewed and fully framed",
+    "actual downloaded camouflage GLB loaded by browser GLTFLoader:109900 triangles,nonFinite0,frameCalls22 including ground",
+    "final context-contract/thumbnail build: three static preset images visible",
+    "final paint picker and hex visible; complete parameter tab scroll reaches exploded field",
+    "final cancel/regenerate succeeds; final default GLB download SHA identical to prior default"
+  ],
+  "remaining": [],
+  "notRun": [
+    "product GIF/recording: no current documented recorder API",
+    "hardware performance certification",
+    "full application build"
+  ],
+  "downloads": {
+    "tracked-mortar.recipe.json": {
+      "bytes": 397,
+      "sha256": "0611bebdde414d66a84a2ff579e850874285271431a7ecb00ed020aeb2c0ffdf"
+    },
+    "tracked-mortar-exploded.png": {
+      "bytes": 123623,
+      "sha256": "c68af217beea0acdbe82759361bec55298876278076401acde0991d3d5ecf325"
+    },
+    "tracked-mortar-reference.png": {
+      "bytes": 144892,
+      "sha256": "a7d52cf5dd5f02ac2cc2d7ca53da8a827718aa489e21d3556cf7b3dc38b0c295"
+    },
+    "tracked-mortar(1).glb": {
+      "bytes": 5130652,
+      "sha256": "9acee0e9a1911fd2f3076109bd7a4a20577d25dc56b6febc973209d5b49678e9"
+    },
+    "tracked-mortar.glb": {
+      "bytes": 5007328,
+      "sha256": "57c4d874994c775967addda181919cb06ead8e63725cfb9a9f60de5a4c709271"
+    },
+    "tracked-mortar-browser-audit.json": {
+      "bytes": 6825,
+      "sha256": "84fc6e669d460110ed877d4104491c0cea3d9675b4eef230e0ef07bed047a6cd"
+    },
+    "tracked-mortar-inspection.png": {
+      "bytes": 134638,
+      "sha256": "f2d96b7ebc201404864a1331387089a4f5fd92eb4317c57137bda6bc67559bc1"
+    },
+    "tracked-mortar-browser-audit(1).json": {
+      "bytes": 4090,
+      "sha256": "beb577584501317fc02462d266399264576ea21b6b721b8897ad0fffe6ff4c41"
+    },
+    "tracked-mortar(2).glb": {
+      "bytes": 5007328,
+      "sha256": "57c4d874994c775967addda181919cb06ead8e63725cfb9a9f60de5a4c709271"
+    }
+  }
+}

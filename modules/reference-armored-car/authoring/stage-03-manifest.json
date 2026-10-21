@@ -1,0 +1,74 @@
+{
+  "taskId": "reference-armored-car-blender-rebuild",
+  "stage": "03-structural-v3",
+  "status": "frozen; parent approved visual structure for secondary detailing",
+  "baseline": "02681b6",
+  "generatorVersion": "1.1.0",
+  "scope": "Frozen authoring checkpoint only; unfinished runtime modifications are deliberately excluded",
+  "evidence": {
+    "mcp": "PASS",
+    "staticGlbAudit": "PASS",
+    "visual": "Parent inspected v3 and approved progression on 2026-10-10",
+    "pgfNodeTests": "not run; pinned dependency installation awaiting authorization",
+    "pgfBrowser": "not run",
+    "actualGlbReimport": "pending final integration"
+  },
+  "files": [
+    {
+      "path": "dev/reference-armored-car-blender-stage03.py",
+      "bytes": 15804,
+      "sha256": "ba04a650d5bcf393c1bed13dc6db909d052eacf483cada185eb53b78ca488c84"
+    },
+    {
+      "path": "dev/reference-armored-car-blender-audit.mjs",
+      "bytes": 3915,
+      "sha256": "5752cb59b51911cd4d9b77effaabe5b756561f60b17c5a7f35bfbb763d91823d"
+    },
+    {
+      "path": "modules/reference-armored-car/authoring/README.md",
+      "bytes": 2566,
+      "sha256": "8f15f7b3835205509c0b1ada39b9a64445c8311baa75996a5fcd94f5366995f0"
+    },
+    {
+      "path": "modules/reference-armored-car/authoring/reference-config.json",
+      "bytes": 1389,
+      "sha256": "d9db78b6bc49951c23260ed08ecce9438e9484d1417b1d61741a80ae03019a93"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/reference-armored-car-structural-v3.blend",
+      "bytes": 5190604,
+      "sha256": "8a5654df6ad210744bda6c3ed64efd64344d198346fde3c2bcb6e08e2a497e22"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/reference-armored-car-structural-v3.glb",
+      "bytes": 4515192,
+      "sha256": "5a1aa5a1aa6e86c69aaf09e5d17d7a9ae012996d652c96e444513ffa94b44e38"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/03-structural-v3-hero.png",
+      "bytes": 1429992,
+      "sha256": "8e50262941bb03a61dfd9b0da73828e6075d6d3066b44966a7bc4b88121423ba"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/03-structural-v3-audit.json",
+      "bytes": 686,
+      "sha256": "c21ddfe5eda3c811aa1e8a75a530af0673dbb4cda36509b1fc40af795ff8ec81"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/03-structural-v3-mcp-summary.json",
+      "bytes": 13537,
+      "sha256": "94830e7c9210695b616f31068491d523b06c73d21a21ca90867ac74921d3a3ef"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/03-structural-v3-mcp.json",
+      "bytes": 59423,
+      "sha256": "0dd6c97faf80f906b9c59325908b54e7a97ef6a872e8e23fde164e2d53f18e73"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/03-structural-v3-mcp.runtime.json",
+      "bytes": 603,
+      "sha256": "8c2b4483059aa7bb0ab93dc8c9f516909f475c4469e494e20f718041dc111489"
+    }
+  ],
+  "publication": "Not published; branch creation canceled by user, awaiting authorization"
+}

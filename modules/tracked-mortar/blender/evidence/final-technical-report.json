@@ -1,0 +1,111 @@
+{
+  "task_id": "tracked-mortar-blender-rebuild",
+  "status": "technical-and-native-firefox-passed",
+  "moduleVersion": "2.0.0",
+  "visualRevision": "blender-clean-topology-tank-finish-1",
+  "sourceGLBSha256": "1a06ab665eb85937f7b00646dbe57cc864d1df14c63eb1041071868fa117e5ac",
+  "finalPGFGLBSha256": "bda7aaa6bf736cbc38b896609fec24251bf0beec0adec738b68d9781b17257b5",
+  "nodeTests": {
+    "passed": 15,
+    "failed": 0
+  },
+  "runtimeVariants": 9,
+  "workerParity": {
+    "original": true,
+    "desert": true
+  },
+  "degenerateTriangles": 0,
+  "defaultStats": {
+    "triangles": 109900,
+    "renderedTriangles": 109900,
+    "vertices": 110471,
+    "instances": 21,
+    "draws": 21,
+    "bytes": 5684027,
+    "nodes": 30,
+    "meshes": 21,
+    "textures": 15,
+    "materials": 6,
+    "dimensions": [
+      3.690000057220459,
+      4.490335650742054,
+      10.596776962280273
+    ]
+  },
+  "standardStats": {
+    "triangles": 82316,
+    "renderedTriangles": 82316,
+    "vertices": 77035,
+    "instances": 20,
+    "draws": 20,
+    "bytes": 4283067,
+    "nodes": 29,
+    "meshes": 20,
+    "textures": 15,
+    "materials": 6,
+    "dimensions": [
+      3.6500000953674316,
+      4.490335650742054,
+      10.596776962280273
+    ]
+  },
+  "materialSource": "Existing PGF tank portable-vehicle-finish shared adapter",
+  "renderImages": [
+    {
+      "path": "blender/evidence/pgf-tank-glb-reimport-hero.png",
+      "sha256": "3cabaa8fa5406fde27bfb0b46692163221407b374abd436cd4001341e9c8ecfa"
+    },
+    {
+      "path": "blender/evidence/pgf-tank-side.png",
+      "sha256": "54b2d85bf6e3e513d2d17039ff91006aaefe4ea1971935c484dc11964d6601a1"
+    },
+    {
+      "path": "blender/evidence/pgf-tank-front.png",
+      "sha256": "5e1abdb9d71e706457c8014f299ef7ca615b80e0740e583816a5a8aa602b1984"
+    },
+    {
+      "path": "blender/evidence/pgf-tank-top.png",
+      "sha256": "aca5f9482a011fe5668c083799d41a75276cd9db9099025905cba82382c5e941"
+    }
+  ],
+  "pending": [
+    "Final subjective visual acceptance remains a human decision; no numeric score claimed"
+  ],
+  "contextContract": {
+    "status": "passed",
+    "definitionSHA256": "db916a98023b825b534268e57831b79f52505e110aa878b57a0ed21f4d205486",
+    "preAbortedRejected": true,
+    "cooperativeAbortAndDisposal": true,
+    "fiveBudgetLimitsAndInvalidValuesRejected": true,
+    "allNineGLBHashesUnchanged": true,
+    "independentReviewR1": "closed after repro and 15/15 independent suite"
+  },
+  "browser": {
+    "status": "passed",
+    "browser": "dot cloud Firefox 157.0.1",
+    "scope": "Actual shared PGF shell/workbench/real RenderWorker, restricted two-module preview registry; not full application build",
+    "report": "browser/mortar-qa-progress.json",
+    "downloadValidation": "browser-downloaded-glb-report.json",
+    "buildEvidence": "browser-final-build-manifest.json",
+    "finalDefaultGLBSha256": "57c4d874994c775967addda181919cb06ead8e63725cfb9a9f60de5a4c709271",
+    "finalDefaultGLBBytes": 5007328,
+    "defaultMatchesPreContextFix": true,
+    "presetThumbnails": 3,
+    "idleFrames": [
+      80,
+      80
+    ],
+    "explicitDisposal": {
+      "active": false,
+      "disposed": true,
+      "workerTerminated": true,
+      "renderRPC": 0
+    },
+    "notRun": [
+      "full application build",
+      "hardware performance certification",
+      "product GIF recording"
+    ],
+    "viewportCaveat": "1440 virtual viewport screenshot right edge exceeds physical1364 display; not a full-screen1440 capture"
+  }
+}

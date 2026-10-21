@@ -1,0 +1,4 @@
+Code executed successfully: G4_VIEW {"view": "wheel", "sourceSHA": "cf838215c16f262be515504c69dcca7ba5926f97a984548885d4abd1e95cf6e9", "camera": [-9.600000381469727, -9.449999809265137, 4.300000190734863], "rotation": [1.2331211566925049, -4.38718394946136e-09, -0.3587707579135895], "type": "ORTHO"}
+
+{"status": "PASS", "tools": ["disable_telemetry", "execute_blender_code", "generate_3d", "get_addon_status", "get_scene_info", "import_asset", "look", "record_trajectory_feedback", "search_assets"], "receipt": "/workspace/scratch/6a4c729be230/PGF/modules/gustav-visual-prop/evidence/G6-wheel-mcp-receipt.json"}
+{"owned_blender_exit": 0, "log": "/workspace/scratch/6a4c729be230/PGF/modules/gustav-visual-prop/evidence/G6-wheel-mcp-receipt.blender.log"}

@@ -1,0 +1,231 @@
+{
+  "status": "passed",
+  "remainingDegenerateTriangles": 0,
+  "meshes": [
+    {
+      "mesh": "rod-0.026-0.17692-paint",
+      "removedPrototypeTriangles": 20,
+      "instances": 2,
+      "retainedPrototypeTriangles": 40,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "rear-round-cover-paint",
+      "removedPrototypeTriangles": 80,
+      "instances": 1,
+      "retainedPrototypeTriangles": 160,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "rod-0.025-0.29-edge",
+      "removedPrototypeTriangles": 20,
+      "instances": 40,
+      "retainedPrototypeTriangles": 40,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "rod-0.041-1.64-paint",
+      "removedPrototypeTriangles": 20,
+      "instances": 1,
+      "retainedPrototypeTriangles": 40,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "rod-0.009-0.40311-edge",
+      "removedPrototypeTriangles": 20,
+      "instances": 36,
+      "retainedPrototypeTriangles": 40,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "stepped-exterior-tube-tube",
+      "removedPrototypeTriangles": 96,
+      "instances": 1,
+      "retainedPrototypeTriangles": 1056,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "rod-0.022-0.66-paint",
+      "removedPrototypeTriangles": 20,
+      "instances": 18,
+      "retainedPrototypeTriangles": 40,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "wheelhub-edge",
+      "removedPrototypeTriangles": 40,
+      "instances": 22,
+      "retainedPrototypeTriangles": 80,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "rod-0.026-1.92-paint",
+      "removedPrototypeTriangles": 20,
+      "instances": 2,
+      "retainedPrototypeTriangles": 40,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "headlamp-lens-lamp",
+      "removedPrototypeTriangles": 56,
+      "instances": 2,
+      "retainedPrototypeTriangles": 112,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "cover-roundel-paint",
+      "removedPrototypeTriangles": 48,
+      "instances": 6,
+      "retainedPrototypeTriangles": 96,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "rod-0.025-1.63-paint",
+      "removedPrototypeTriangles": 20,
+      "instances": 4,
+      "retainedPrototypeTriangles": 40,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "rod-0.011-1.0-edge",
+      "removedPrototypeTriangles": 20,
+      "instances": 14,
+      "retainedPrototypeTriangles": 40,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "rod-0.045-0.36-paint",
+      "removedPrototypeTriangles": 20,
+      "instances": 2,
+      "retainedPrototypeTriangles": 40,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "rod-0.023-0.43-edge",
+      "removedPrototypeTriangles": 20,
+      "instances": 12,
+      "retainedPrototypeTriangles": 40,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "rod-0.03-0.8792-edge",
+      "removedPrototypeTriangles": 20,
+      "instances": 8,
+      "retainedPrototypeTriangles": 40,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "rod-0.045-3.5-paint",
+      "removedPrototypeTriangles": 20,
+      "instances": 2,
+      "retainedPrototypeTriangles": 40,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "rod-0.015-0.156-edge",
+      "removedPrototypeTriangles": 20,
+      "instances": 132,
+      "retainedPrototypeTriangles": 40,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "endwheel-paint",
+      "removedPrototypeTriangles": 80,
+      "instances": 4,
+      "retainedPrototypeTriangles": 800,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "rod-0.023-0.64-edge",
+      "removedPrototypeTriangles": 20,
+      "instances": 7,
+      "retainedPrototypeTriangles": 40,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "track-pin-accent-edge",
+      "removedPrototypeTriangles": 20,
+      "instances": 168,
+      "retainedPrototypeTriangles": 40,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "rod-0.034-0.09-edge",
+      "removedPrototypeTriangles": 20,
+      "instances": 4,
+      "retainedPrototypeTriangles": 40,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "returnroller-recess",
+      "removedPrototypeTriangles": 40,
+      "instances": 20,
+      "retainedPrototypeTriangles": 80,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "hex-head-art-fastener-edge",
+      "removedPrototypeTriangles": 12,
+      "instances": 264,
+      "retainedPrototypeTriangles": 36,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "rod-0.019-0.37-edge",
+      "removedPrototypeTriangles": 20,
+      "instances": 12,
+      "retainedPrototypeTriangles": 40,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "rod-0.052-0.98-paint",
+      "removedPrototypeTriangles": 20,
+      "instances": 4,
+      "retainedPrototypeTriangles": 40,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "headlamp-case-recess",
+      "removedPrototypeTriangles": 56,
+      "instances": 2,
+      "retainedPrototypeTriangles": 112,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "rod-0.024-0.15-edge",
+      "removedPrototypeTriangles": 20,
+      "instances": 4,
+      "retainedPrototypeTriangles": 40,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "rod-0.034-0.98-edge",
+      "removedPrototypeTriangles": 20,
+      "instances": 2,
+      "retainedPrototypeTriangles": 40,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "roadwheel-paint",
+      "removedPrototypeTriangles": 56,
+      "instances": 22,
+      "retainedPrototypeTriangles": 672,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "rod-0.019-9.94-paint",
+      "removedPrototypeTriangles": 20,
+      "instances": 4,
+      "retainedPrototypeTriangles": 40,
+      "retainedCornersPreserved": true
+    },
+    {
+      "mesh": "rod-0.065-2.75356-paint",
+      "removedPrototypeTriangles": 20,
+      "instances": 2,
+      "retainedPrototypeTriangles": 40,
+      "retainedCornersPreserved": true
+    }
+  ],
+  "removedInstantiatedTriangles": 16688
+}

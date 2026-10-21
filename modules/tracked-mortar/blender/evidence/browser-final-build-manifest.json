@@ -1,0 +1,133 @@
+{
+  "buildLog": "preview-final-build.log",
+  "buildSeconds": 3.69,
+  "viteVersion": "8.1.5",
+  "expectedProjectVite": "8.3.0",
+  "threeRevision": 180,
+  "scope": "Actual two-module shared workbench and Worker preview, not full application build",
+  "inputs": [
+    {
+      "path": "modules/tracked-mortar/definition.mjs",
+      "sha256": "db916a98023b825b534268e57831b79f52505e110aa878b57a0ed21f4d205486"
+    },
+    {
+      "path": "modules/tracked-mortar/model.mjs",
+      "sha256": "37115619c255af5f914be8c6ad4e43dbf9ebf75fef7fd6eb52a56d81ea2b9432"
+    },
+    {
+      "path": "modules/tracked-mortar/blender-kit.mjs",
+      "sha256": "ebbcc5078f421cdfe92301029eb8d369dbc2ffef84d204befa0f7f2527da9c5c"
+    },
+    {
+      "path": "modules/tracked-mortar/workbench.js",
+      "sha256": "36f587e37cdc7d47bca004769644b82f54bb699ae10f79de90a1592dbdfe7b41"
+    },
+    {
+      "path": "modules/tracked-mortar/workbench.css",
+      "sha256": "f62dfc9e745a2150e7ea9210a0959f6179c7d8f0c8a331ac0d53be480a727e01"
+    },
+    {
+      "path": "modules/tracked-mortar/preview-entry.js",
+      "sha256": "604098492d53030c06338fcec98b87ff991a1ae10708052d3530ee2bff669a01"
+    },
+    {
+      "path": "modules/tracked-mortar/preview.html",
+      "sha256": "b101141e3952840b5d7de52843990a9192c400bf9e424b41dfc57f427a0a6125"
+    },
+    {
+      "path": "modules/tracked-mortar/review.html",
+      "sha256": "d5e4417f5da0c37c124f523b12933288e8387e1ded344ff3bedc3ff8ed3c33ef"
+    },
+    {
+      "path": "modules/tracked-mortar/review.js",
+      "sha256": "0b9c7eb60f9708ba45d638f03e51459209b7bdad25e96755c40fad0354a5cfc8"
+    },
+    {
+      "path": "modules/tracked-mortar/worker.js",
+      "sha256": "287d401efba649b397e2449de3460ad1c0f5e971f6bf3109ba159dd094f4b8fc"
+    },
+    {
+      "path": "modules/tank/src/portable-vehicle-finish.mjs",
+      "sha256": "83180817c7203f5a0c5fa53327b65bb773fd6bc94bcd88c6eff864f2cf0752f0"
+    }
+  ],
+  "entryOutputs": [
+    {
+      "path": "modules/tracked-mortar/preview.html",
+      "sha256": "04038d80c2b3c68f8a0c06e28509615a7da600b0f7cf05e756ae26527776e7b8",
+      "assets": [
+        {
+          "path": "/assets/mortar-BuoFbD46.js",
+          "sha256": "885c1d812a611ad8157fa691dae7fa44e6522fe398b64094908880a56b830780"
+        },
+        {
+          "path": "/assets/OrbitControls-5gQlSZZb.js",
+          "sha256": "f5fe9feeeacbfb24a5fb2763c0266e313b8b026e27b3a630e3bb4834a21af47c"
+        },
+        {
+          "path": "/assets/editor-tAOoWqDe.js",
+          "sha256": "abc040d632818d205945e83f16be06c55bcc81f32c78b4089cf177867198bee7"
+        },
+        {
+          "path": "/assets/BufferGeometryUtils-uf4s9UK8.js",
+          "sha256": "273a4e287b1eed02a113d109ea5cfb4f1014e02cc062745e39e846681dd66923"
+        },
+        {
+          "path": "/assets/definition-BTCbkIeK.js",
+          "sha256": "dd555371fc36ea580d350652301e22c319889941f097c26e10f4ecbf19ddcf5e"
+        },
+        {
+          "path": "/assets/editor-DWyIQkfT.css",
+          "sha256": "c7420d936437097eec2ccc65ec4c54e7ed737c5b11f0e203e99ddec65dd1133c"
+        },
+        {
+          "path": "/assets/mortar-C2YXvF1u.css",
+          "sha256": "5db75d66d3f57dff88a362e8f52d7aaeec05371578e0fd3cf8e1ea6d8b8a3345"
+        }
+      ]
+    },
+    {
+      "path": "modules/tracked-mortar/review.html",
+      "sha256": "eafc07db9602c038ab6694776e9dc6f22af9164453e51ed7bbf1bb3b2b019089",
+      "assets": [
+        {
+          "path": "/assets/mortarReview-DXOGu0jF.js",
+          "sha256": "2f23142a5269e7e908945fae1d5b58665eea68350d13e39ac8628a53569abc9f"
+        },
+        {
+          "path": "/assets/OrbitControls-5gQlSZZb.js",
+          "sha256": "f5fe9feeeacbfb24a5fb2763c0266e313b8b026e27b3a630e3bb4834a21af47c"
+        },
+        {
+          "path": "/assets/BufferGeometryUtils-uf4s9UK8.js",
+          "sha256": "273a4e287b1eed02a113d109ea5cfb4f1014e02cc062745e39e846681dd66923"
+        },
+        {
+          "path": "/assets/validation-DPorRHR4.js",
+          "sha256": "3e40329075899e36d41c68420815fdd7a1ba6b1186910dc506ac8ceb427df5e1"
+        },
+        {
+          "path": "/assets/definition-BTCbkIeK.js",
+          "sha256": "dd555371fc36ea580d350652301e22c319889941f097c26e10f4ecbf19ddcf5e"
+        }
+      ]
+    }
+  ],
+  "artworkOutputs": [
+    {
+      "source": "modules/tracked-mortar/thumbnails/exploded.png",
+      "sha256": "c68af217beea0acdbe82759361bec55298876278076401acde0991d3d5ecf325",
+      "built": "assets/exploded-BlzHsYwG.png"
+    },
+    {
+      "source": "modules/tracked-mortar/thumbnails/inspection.png",
+      "sha256": "f2d96b7ebc201404864a1331387089a4f5fd92eb4317c57137bda6bc67559bc1",
+      "built": "assets/inspection-JghH1gVq.png"
+    },
+    {
+      "source": "modules/tracked-mortar/thumbnails/reference.png",
+      "sha256": "a7d52cf5dd5f02ac2cc2d7ca53da8a827718aa489e21d3556cf7b3dc38b0c295",
+      "built": "assets/reference-D4qDC3zT.png"
+    }
+  ]
+}

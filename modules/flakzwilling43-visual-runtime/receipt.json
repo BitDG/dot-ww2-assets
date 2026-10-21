@@ -1,0 +1,25 @@
+{
+  "task_id": "FZ43-R1-F2-regression",
+  "status": "node-verified-browser-pending",
+  "changed_files": [
+    "modules/flakzwilling43-visual-runtime/receipt.json",
+    "modules/flakzwilling43-visual-runtime/README.zh-CN.md",
+    "modules/flakzwilling43-visual-runtime/index.mjs",
+    "modules/flakzwilling43-visual-runtime/binding.mjs",
+    "modules/flakzwilling43-visual-runtime/evidence/actual-report.json",
+    "modules/flakzwilling43-visual-runtime/evidence/test-output.txt",
+    "modules/flakzwilling43-visual-runtime/tests/actual.test.mjs",
+    "modules/flakzwilling43-visual-runtime/tests/asset-evidence.mjs",
+    "modules/flakzwilling43-visual-runtime/tests/runtime.test.mjs"
+  ],
+  "checks": "8/8 Node tests, zero texture serialization warnings; independent PNG decode for three-quality and frozen final F2 GLB",
+  "scope": "game-art-only, static exports unchanged",
+  "baseline": "Live FZ43 F2 v1.1.0 static prop",
+  "final": "FZ43 R1 runtime, verified against live F2 three-quality assets",
+  "browserVerified": false,
+  "githubWritten": false,
+  "finalFrozenPgfSha256": "7e590a8fcf8f9e8bb8523801cfc7a838ea13a79722f4aacc735f767e1820008c",
+  "finalFrozenPgfReadback": true,
+  "updatedAt": "2026-10-12T09:36:45Z",
+  "textureEvidence": "Strict borrowed object/resource identities and parameter/data hashes; raw GLB chunk extraction and native Skia PNG decode"
+}

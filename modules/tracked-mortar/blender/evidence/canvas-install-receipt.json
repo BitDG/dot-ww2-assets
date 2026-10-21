@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "packages": [
+    {
+      "name": "@napi-rs/canvas",
+      "version": "1.0.9",
+      "integrity": "sha512-QviPdJImDi/jMAvBfqaw+19BndMd/sizXVW3NnpMd3VJGz++QXkOHcP9kWR/smHG0hNjHeyuHFyrx/5lD0oNcQ==",
+      "integrityMatched": true,
+      "resolved": "https://registry.npmjs.org/@napi-rs/canvas/-/canvas-1.0.9.tgz"
+    },
+    {
+      "name": "@napi-rs/canvas-linux-x64-gnu",
+      "version": "1.0.9",
+      "integrity": "sha512-6kaz3w0QMy77PDWk6rJ1ksIihdad3qzEyX2o2oGT8GwCaypfT5mhjr8buOO5hstyLxcWXDScuz56RsINLtBPIQ==",
+      "integrityMatched": true,
+      "resolved": "https://registry.npmjs.org/@napi-rs/canvas-linux-x64-gnu/-/canvas-linux-x64-gnu-1.0.9.tgz"
+    }
+  ],
+  "ignoreScripts": true,
+  "omitOptional": true,
+  "installedExplicitPackages": 2,
+  "isolated": true,
+  "createCanvas": true,
+  "Path2D": true,
+  "DOMMatrix": true,
+  "PGFPackageAndLockUnchanged": true
+}

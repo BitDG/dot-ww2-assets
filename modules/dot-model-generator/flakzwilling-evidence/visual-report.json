@@ -1,0 +1,65 @@
+{
+  "scope": "actual original PGF canvas, same renderer, paused deterministic art-time sampling",
+  "viewport": {
+    "width": 950,
+    "height": 547,
+    "canvasWidth": 366,
+    "canvasHeight": 455
+  },
+  "spritePixels": [
+    {
+      "time": 0,
+      "smoke": 0,
+      "flame": 0
+    },
+    {
+      "time": 0.4,
+      "smoke": 18,
+      "flame": 0
+    },
+    {
+      "time": 0.8,
+      "smoke": 26,
+      "flame": 0
+    },
+    {
+      "time": 1.2000000000000002,
+      "smoke": 24,
+      "flame": 0
+    },
+    {
+      "time": 1.6,
+      "smoke": 16,
+      "flame": 0
+    },
+    {
+      "time": 2,
+      "smoke": 16,
+      "flame": 0
+    },
+    {
+      "time": 2.4000000000000004,
+      "smoke": 6,
+      "flame": 0
+    },
+    {
+      "time": 2.8000000000000003,
+      "smoke": 0,
+      "flame": 0
+    },
+    {
+      "time": 3.2,
+      "smoke": 0,
+      "flame": 0
+    },
+    {
+      "time": 3.6,
+      "smoke": 0,
+      "flame": 0
+    }
+  ],
+  "status": "passed",
+  "completed": "2026-10-12T09:49:25.253Z",
+  "sampling": "paused seek samples from original renderer, not continuous real-time video",
+  "framing": "model close-up, static mesh projected limiting axis75%; full presentation remains a separate UI mode"
+}

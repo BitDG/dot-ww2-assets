@@ -1,0 +1,110 @@
+{
+  "stage": "B6 frozen author deliverable",
+  "authorStatus": "Complete; 10/10 Node tests and actual GLB audits passed; 10 final Blender renders with successful MCP camera receipts",
+  "browserStatus": "Separate shared-workbench Firefox integration; see integrator report",
+  "limitations": [
+    "Simplified nonfunctional exterior game interpretation",
+    "Unverified grille and rear fender details; hidden surfaces inferred",
+    "Low quality hubs visibly faceted at close range",
+    "No weapon operation, internal mechanisms, true measurements or animations",
+    "No GPU performance measurements"
+  ],
+  "frozenModuleHashes": {
+    "definition.mjs": "538e8cb0937c8673008d3eb102071f8414d9af170a0ff8dbcea95a2af4e65559",
+    "worker.js": "72841705518e923fc121225d196cbf9946f50f2db9b8abc816802a32578215b7",
+    "params.mjs": "08ee24449efc781784349846dad48bd653cc249b88b92fe7282d7d07f6d827c4",
+    "model.mjs": "35b9ed6a420fd4273764c89dbf2dbae2d02f39b4d364e95862444c762f2cf1ac",
+    "material-finish.mjs": "1a0b70246def230c32c7655ad57bfc22f3bca0dd067afa2ed9925b035c707f8e",
+    "batch-exterior.mjs": "cf665b35a3f931e3a2dd3ed16045f82ee63cc703f8a628cce67bf1e04cfe5c6a",
+    "sources.mjs": "f5c4f8b296bdadbd6b8c2a0c409524f3ab829f0e31eda657048ba912558b9035",
+    "bm13-us6-visual-prop.generator.json": "6d9f0ad2bbf8d7415ffc260e6b7991a8adf8d0cf8fd2fa080a84982e44271f84",
+    "tests/adapter.test.mjs": "a1db7256be760026fa8586031e04f86f906fe571cd2c83d7ce632ae28a95ef52",
+    "assets/BM13-B6-low.glb": "22aa106d1a2f9583ae93879c0779f07ce55b3f236d5ccbd9447a46acf25e7e01",
+    "assets/BM13-B6-medium.glb": "14b90f0279d5e8ae27bf861f959f8b51b05bcf3064fd89122f6c6f51b20d1395",
+    "assets/BM13-B6-high.glb": "68bd7737da7e52d8e1382485e74a26b8cce35d403c31ae8a9f66064134d6e2c5"
+  },
+  "finalGlbReadback": {
+    "low": {
+      "sha256": "7ccf1aafded2ec0b98eb7362358525c29a6fc6857270e939b0088102ff8a48de",
+      "triangles": 76916,
+      "meshes": 59,
+      "degenerate": 0,
+      "nonfinite": 0,
+      "invalidNormals": 0,
+      "missingUV": 0,
+      "missingNormal": 0,
+      "wheelCount": 10,
+      "images": [
+        [
+          256,
+          256
+        ],
+        [
+          256,
+          256
+        ],
+        [
+          256,
+          256
+        ]
+      ],
+      "animationClips": 0,
+      "pass": true
+    },
+    "medium": {
+      "sha256": "68a2e6056c01a03ad25478c43080abb7fd682396c8e570b6614361e547de5830",
+      "triangles": 129976,
+      "meshes": 59,
+      "degenerate": 0,
+      "nonfinite": 0,
+      "invalidNormals": 0,
+      "missingUV": 0,
+      "missingNormal": 0,
+      "wheelCount": 10,
+      "images": [
+        [
+          512,
+          512
+        ],
+        [
+          512,
+          512
+        ],
+        [
+          512,
+          512
+        ]
+      ],
+      "animationClips": 0,
+      "pass": true
+    },
+    "high": {
+      "sha256": "dfbd241ab426433484734926a7622ffc6270dc7ee2ad273a71b7acd3d56bb531",
+      "triangles": 387996,
+      "meshes": 59,
+      "degenerate": 0,
+      "nonfinite": 0,
+      "invalidNormals": 0,
+      "missingUV": 0,
+      "missingNormal": 0,
+      "wheelCount": 10,
+      "images": [
+        [
+          512,
+          512
+        ],
+        [
+          512,
+          512
+        ],
+        [
+          512,
+          512
+        ]
+      ],
+      "animationClips": 0,
+      "pass": true
+    }
+  },
+  "historicalCheckpointLibraryId": "libfile_00f0c126a4b081918d7c7776ce7c7532"
+}

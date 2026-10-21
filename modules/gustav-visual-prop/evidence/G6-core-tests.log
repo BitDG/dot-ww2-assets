@@ -1,0 +1,23 @@
+(node:78) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("./pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./")); register("./pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ strict schema and cancellation (5.574445ms)
+✔ explicit tiny context budget is rejected (648.267365ms)
+✔ each tier produces finite indexed UV geometry with unit normals and no zero triangles (6723.989029ms)
+✔ wheel circularity and exact ground or rail contact at all art-proportion extremes (4184.312965ms)
+✔ deterministic actual GLB and preserve owner source/recipe sockets (706.732722ms)
+✔ bare steel material is isolated from camouflage and resources from separate runs are owned (2779.14602ms)
+✔ same-owner batching preserves per-part world triangle order within float32 bake precision (810.04328ms)
+✔ closed visual plinth overlaps platform and housing through height and wheel art extremes (1430.982306ms)
+✔ dedicated tread is encoded in texture pixels with unit normal scale, uniform facade circles and owned disposal (357.982207ms)
+✔ wheel rows retain positive gaps and fit the independently stretched closed end decks at all scale extremes (1065.189479ms)
+✔ railing toggle hides stair handrails while retaining stair treads and stringers (864.933482ms)
+✔ folded stair sides and handguard elbows stay connected to actual platform guards at artistic extremes (1158.806604ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 21938.545177

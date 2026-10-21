@@ -1,0 +1,14 @@
+(node:12) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("/workspace/scratch/6a4c729be230/pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./")); register("/workspace/scratch/6a4c729be230/pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ shared tank surface reuses exact upstream pixels and schemas (112.397651ms)
+✔ all 45 existing painters execute without touching non-paint roles or leaking Canvas globals (25638.791073ms)
+✔ representative full-resolution finishes equal existing tank headless output (8395.584047ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 35830.093682

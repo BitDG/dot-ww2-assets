@@ -1,0 +1,23 @@
+(node:13) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("/workspace/scratch/6a4c729be230/pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./")); register("/workspace/scratch/6a4c729be230/pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ actual Blender kit is modular, selected-scene-only and has eleven road wheels per side (4.216085ms)
+✔ low reference default and saved degree values retain literal visual-angle meaning (5073.976018ms)
+✔ quality removes substantial small detail, preserves wheel count, and keeps draws bounded (1132.942271ms)
+✔ length, thickness, railings and exploded controls alter independent visual features (1814.944918ms)
+✔ unscored art is not converted into an invented visual pass (14.167472ms)
+✔ maps and geometry release exactly once without mutating recipe inputs (4106.728679ms)
+✔ Node and browser AssetIR validation accepts low pose and old boundary poses (10446.30564ms)
+✔ same seed retains vertex, material and texture identity; wear alters texture bytes (8652.705253ms)
+✔ shortest chassis keeps circular road wheels separated instead of overlapping (673.537907ms)
+✔ assembled runtime geometry has no zero-area triangles after cap cleanup (2063.376345ms)
+✔ tank PBR replaces paint only and keeps existing steel, rubber and glass identities (2807.920272ms)
+✔ tank finish defaults preserve old recipes and schema rejects malformed new fields (2722.343925ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 43350.112893

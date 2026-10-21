@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "before": "bb62ac17a9e3b57d581cc52aff70495fdd1b52973b5c60c6f035d737e40f72cc",
+  "after": "bb62ac17a9e3b57d581cc52aff70495fdd1b52973b5c60c6f035d737e40f72cc",
+  "bytes": 3131440,
+  "checks": [
+    "16 tests",
+    "13 runtime variants",
+    "shared Worker determinism/cancel/recovery",
+    "9 body-length/camouflage-scale combinations for doors and fuel-tank world texel density",
+    "position/normal/material identity unchanged; non-paint UV untouched"
+  ],
+  "pending": "Firefox same digital/urban/1.6 visual recheck"
+}

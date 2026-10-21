@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "objects": 1336,
+  "meshes": 1327,
+  "sharedMeshDatablocks": 81,
+  "roadWheels": 22,
+  "finiteCoordinates": true,
+  "studioExcluded": true,
+  "blenderBoundsXYZ": [
+    [
+      -1.8450000286102295,
+      1.8450000286102295
+    ],
+    [
+      -5.343000411987305,
+      5.253776550292969
+    ],
+    [
+      0.031999994069337845,
+      4.522335529327393
+    ]
+  ],
+  "coordinateMapping": "Blender (X,Y,Z) -> PGF (X,Z,-Y)",
+  "materialTextureNodeCounts": {
+    "tube-exterior": 3,
+    "cast-edge-steel": 3,
+    "graphite-painted-steel": 3,
+    "panel-shadow": 3,
+    "lamps-frosted-glass": 3,
+    "dark-running-bands": 3
+  },
+  "materials": 6,
+  "packedTextureImages": 18,
+  "note": "This checks the Blender exterior kit. Portable PBR textures are in this Blender GLB. Final PGF collider and sockets require separate runtime roundtrip tests."
+}

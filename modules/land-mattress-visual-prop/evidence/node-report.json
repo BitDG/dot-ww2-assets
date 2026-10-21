@@ -1,0 +1,112 @@
+{
+  "sourceSHA256": "a817004abfbe11ac41d1d4fc03afd4a040854ed98c61b55cef8f239bcd620bca",
+  "checks": [
+    "manifest / schema / immutable source",
+    "actual AssetIR / 3 PBR channels / 8 parts / 2 wheel pivots / fixed 5x6 shallow closed casing pattern",
+    "actual low/medium/high source geometry / positive uniform art scale / explicit wheel pivots",
+    "8 part off / 8 part-only / all-hidden rejected",
+    "determinism / paint / roughness / weathering / camo / material-only seed / numeric boundaries",
+    "strict input / no user import / invalid source / all five budgets",
+    "file URL / actual HTTP load / HTTP 404 / aborted fetch",
+    "early / late abort / real loader error / normal and idempotent disposal",
+    "PGF writer / independent GLTFLoader / PNG decoder / static-only / static empty shallow closed casing pattern / source unchanged",
+    "real shared worker message protocol / completed-asset export"
+  ],
+  "independentReadback": {
+    "bytes": 2273020,
+    "sha256": "12e19b1ee2958dea9fc07a47f8fe2fb1539e7d5a783d793d5d7847927ffb52e1",
+    "triangles": 48036,
+    "meshes": 26,
+    "decodedImages": 3,
+    "paintedMaterials": 3,
+    "animationClips": 0
+  },
+  "baseline": {
+    "triangles": 48036,
+    "renderedTriangles": 48036,
+    "vertices": 64018,
+    "instances": 26,
+    "draws": 26,
+    "bytes": 2728106,
+    "nodes": 38,
+    "meshes": 26,
+    "textures": 3,
+    "materials": 6,
+    "dimensions": [
+      2.628000020980835,
+      2.601658046245575,
+      4.78007073700428
+    ]
+  },
+  "quality": {
+    "low": {
+      "triangles": 16580,
+      "renderedTriangles": 16580,
+      "vertices": 20354,
+      "instances": 23,
+      "draws": 23,
+      "bytes": 902536,
+      "nodes": 35,
+      "meshes": 23,
+      "textures": 3,
+      "materials": 6,
+      "dimensions": [
+        2.628000020980835,
+        2.598416805267334,
+        4.78007073700428
+      ]
+    },
+    "medium": {
+      "triangles": 48036,
+      "renderedTriangles": 48036,
+      "vertices": 64018,
+      "instances": 26,
+      "draws": 26,
+      "bytes": 2728106,
+      "nodes": 38,
+      "meshes": 26,
+      "textures": 3,
+      "materials": 6,
+      "dimensions": [
+        2.628000020980835,
+        2.601658046245575,
+        4.78007073700428
+      ]
+    },
+    "high": {
+      "triangles": 96356,
+      "renderedTriangles": 96356,
+      "vertices": 114310,
+      "instances": 26,
+      "draws": 26,
+      "bytes": 4917290,
+      "nodes": 38,
+      "meshes": 26,
+      "textures": 3,
+      "materials": 6,
+      "dimensions": [
+        2.628000020980835,
+        2.601658046245575,
+        4.78007073700428
+      ]
+    }
+  },
+  "resourceRelease": {
+    "lateAbort": {
+      "owned": 504,
+      "disposed": 504,
+      "closed": true
+    },
+    "loaderFailure": {
+      "owned": 504,
+      "disposed": 504,
+      "closed": true
+    },
+    "normal": {
+      "owned": 41,
+      "disposed": 41,
+      "closed": true
+    }
+  },
+  "browserStatus": "NOT RUN: HTTP route is tested in Node; real Firefox unified viewport acceptance is separate"
+}

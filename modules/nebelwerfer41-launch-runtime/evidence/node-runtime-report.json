@@ -1,0 +1,32 @@
+{
+  "actualThreeRevision": "180",
+  "actualN5Asset": true,
+  "actualPGFCombatFX": true,
+  "gpuShaders": "not tested by Node",
+  "checks": [
+    "N5 uploaded Group/Mesh anchors; four deterministic real-PGF replays; pause/resume/inactivity/stop/reset/seek/completion; static GLB bytes unchanged; host resources and scene/camera unchanged; idempotent disposal",
+    "late async result after disposal cannot attach and releases its owned source lease",
+    "cancelled edit with retained asset: stale initial validity does not permanently disable playback",
+    "pending play deduplication, reset cancellation, resource-failure retry, reconfiguration",
+    "hidden/missing tube cluster disables art playback without synthetic anchors or assets",
+    "frozen authored projectile loaded; only shared-PGF offscreen 2D textures, no renderer, display canvas or animation scheduler",
+    "world bounds cover static geometry, original N4 curve hull and camera-independent particle billboards; initial successful ready reframes once"
+  ],
+  "replays": {
+    "spriteCount": 170,
+    "pooledAllocation": [
+      298,
+      298,
+      298,
+      298
+    ],
+    "released": {
+      "owned": 8,
+      "released": 8,
+      "closed": true
+    }
+  },
+  "textureCanvases": 6,
+  "frameRequests": 0,
+  "pass": true
+}

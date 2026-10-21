@@ -1,0 +1,21 @@
+✔ stable catalog contains eleven adapters with separate runtime verification and one unavailable source (1.174557ms)
+✔ native recipes remain untouched and cannot cross model schemas (0.907435ms)
+✔ workspace snapshots use isolated native slots and reject unknown/malformed data (0.353903ms)
+✔ manifest is module-owned and has the standard automatic workbench entry (11.608125ms)
+✔ authored N41 adapter does not pretend to rebuild geometry or export animation (0.381324ms)
+✔ QF25 fixed art uses shared material and preview-only tow/smoke without removed-cloth controls (0.358469ms)
+✔ Flakzwilling art preview does not claim driving or historical firing footage (0.130987ms)
+✔ BM13 is a separate fixed static art entry with no inherited Firefox or animation claim (0.131778ms)
+✔ all ten pre-existing catalog identities, capabilities and backend records are preserved exactly (2.083345ms)
+✔ qf17-visual-prop: explicit static-only capability and frozen three-tier sources (214.88672ms)
+✔ land-mattress-visual-prop: explicit static-only capability and frozen three-tier sources (61.141749ms)
+✔ static-only model descriptions never imply a motion preview (5.947548ms)
+✔ Land addition preserves all eleven QF17-stage catalog entries exactly (0.417207ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 740.404523

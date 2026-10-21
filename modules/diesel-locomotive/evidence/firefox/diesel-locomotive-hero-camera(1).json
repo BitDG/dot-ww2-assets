@@ -1,0 +1,91 @@
+{
+  "preset": null,
+  "modelSource": {
+    "kind": "imported-glb",
+    "sourceName": "diesel-locomotive(1).glb",
+    "presetId": null,
+    "recipe": {
+      "generator": "diesel-locomotive",
+      "version": "1.2.1",
+      "seed": "pgf-components-1",
+      "params": {
+        "bodyLength": 1,
+        "bodyWidth": 1,
+        "bodyHeight": 1,
+        "bogieSpacing": 1,
+        "wheelScale": 1,
+        "detail": "medium",
+        "fanCount": 4,
+        "grilleDensity": 0.6,
+        "rivetDensity": 0.55,
+        "weathering": 0.28,
+        "paintColor": "#7d8589",
+        "metalColor": "#737a7d",
+        "showRails": true,
+        "showRailings": true,
+        "showGrilles": true,
+        "showRivets": true,
+        "camoPattern": "original",
+        "camoEnvironment": "desert",
+        "camoScale": 1
+      }
+    }
+  },
+  "view": "hero",
+  "modelSha256": "9e135ac02a5cca70e8b60cb8acba5da106b7223c723c5e02963e4f16f3afc835",
+  "resolution": [
+    1200,
+    760
+  ],
+  "camera": {
+    "direction": [
+      0.5432512781572744,
+      -0.3950918386598359,
+      -0.7407971974871922
+    ],
+    "near": 0.01,
+    "far": 200,
+    "unitsPerPixel": 0.019194756031931864,
+    "type": "OrthographicCamera",
+    "position": [
+      -22,
+      18.670000077188014,
+      30
+    ],
+    "quaternion": [
+      -0.1916808358166764,
+      -0.3047291558696415,
+      -0.06275064649167354,
+      0.9308388448643907
+    ],
+    "up": [
+      0,
+      1,
+      0
+    ],
+    "left": -11.51685361915912,
+    "right": 11.51685361915912,
+    "top": 7.294007292134109,
+    "bottom": -7.294007292134109,
+    "target": [
+      0,
+      2.670000077188015,
+      0
+    ]
+  },
+  "triangles": 86716,
+  "meshes": 48,
+  "frames": 8,
+  "renderer": {
+    "frame": 43,
+    "calls": 49,
+    "triangles": 86718,
+    "points": 0,
+    "lines": 0
+  },
+  "memory": {
+    "geometries": 38,
+    "textures": 5
+  },
+  "capture": "Pure Three canvas; orthographic views use common vertical span and 420 pixel height"
+}

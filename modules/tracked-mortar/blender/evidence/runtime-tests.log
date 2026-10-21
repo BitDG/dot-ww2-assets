@@ -1,0 +1,271 @@
+(node:41) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("/workspace/scratch/6a4c729be230/pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:41) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("/workspace/scratch/6a4c729be230/pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+{
+  "status": "passed",
+  "checks": [
+    "prepareGenerator -> threeToIR -> AssetIR -> PGF GLB -> readGLB preserves owners, literal angles, collider, sockets and three PBR channels",
+    "actual shared Worker generation/export dispatch is byte-identical to prepared Node path",
+    "real Node worker_threads transport loads unchanged module Worker entry and retains GLB byte parity"
+  ],
+  "variants": [
+    {
+      "topology": {
+        "degenerateTriangles": 0,
+        "triangles": 109900
+      },
+      "name": "reference",
+      "params": {
+        "length": 10.8,
+        "elevation": 0,
+        "barrelScale": 1,
+        "weathering": 0.32,
+        "detail": "high",
+        "railings": true,
+        "exploded": 0
+      },
+      "generatedMS": 916.3022189999999,
+      "stats": {
+        "triangles": 109900,
+        "renderedTriangles": 109900,
+        "vertices": 110471,
+        "instances": 21,
+        "draws": 21,
+        "bytes": 5123914,
+        "nodes": 30,
+        "meshes": 21,
+        "textures": 18,
+        "materials": 6,
+        "dimensions": [
+          3.690000057220459,
+          4.490335650742054,
+          10.596776962280273
+        ]
+      },
+      "glbBytes": 4485108,
+      "glbSha256": "f2f2516ecfbcce14c1513adfd32e39df54777eb76a5ad0db295d1626d9c4a0bb",
+      "bounds": {
+        "min": [
+          -1.8450000286102295,
+          0.03199999779462814,
+          -5.253776550292969
+        ],
+        "max": [
+          1.8450000286102295,
+          4.522335648537141,
+          5.343000411987305
+        ]
+      },
+      "colliders": 1,
+      "sockets": 3,
+      "textures": 18
+    },
+    {
+      "topology": {
+        "degenerateTriangles": 0,
+        "triangles": 82316
+      },
+      "name": "standard",
+      "params": {
+        "length": 10.8,
+        "elevation": 0,
+        "barrelScale": 1,
+        "weathering": 0.32,
+        "detail": "standard",
+        "railings": true,
+        "exploded": 0
+      },
+      "generatedMS": 741.9525430000003,
+      "stats": {
+        "triangles": 82316,
+        "renderedTriangles": 82316,
+        "vertices": 77035,
+        "instances": 20,
+        "draws": 20,
+        "bytes": 3722954,
+        "nodes": 29,
+        "meshes": 20,
+        "textures": 18,
+        "materials": 6,
+        "dimensions": [
+          3.6500000953674316,
+          4.490335650742054,
+          10.596776962280273
+        ]
+      },
+      "glbBytes": 3245844,
+      "glbSha256": "34a32bf49f9d942036e18ba4346e11302bf6ff6f4725f3e402c6535113086ba0",
+      "bounds": {
+        "min": [
+          -1.8250000476837158,
+          0.03199999779462814,
+          -5.253776550292969
+        ],
+        "max": [
+          1.8250000476837158,
+          4.522335648537141,
+          5.343000411987305
+        ]
+      },
+      "colliders": 1,
+      "sockets": 3,
+      "textures": 18
+    },
+    {
+      "topology": {
+        "degenerateTriangles": 0,
+        "triangles": 109900
+      },
+      "name": "inspection",
+      "params": {
+        "length": 10.8,
+        "elevation": 35,
+        "barrelScale": 1,
+        "weathering": 0.32,
+        "detail": "high",
+        "railings": true,
+        "exploded": 0
+      },
+      "generatedMS": 771.0115500000002,
+      "stats": {
+        "triangles": 109900,
+        "renderedTriangles": 109900,
+        "vertices": 110471,
+        "instances": 21,
+        "draws": 21,
+        "bytes": 5123914,
+        "nodes": 30,
+        "meshes": 21,
+        "textures": 18,
+        "materials": 6,
+        "dimensions": [
+          3.690000057220459,
+          5.092352456378823,
+          10.596776962280273
+        ]
+      },
+      "glbBytes": 4485164,
+      "glbSha256": "83cac020e760bf9ddda4c61fce8cf3cbc55602aa53773d73c28181498392166c",
+      "bounds": {
+        "min": [
+          -1.8450000286102295,
+          0.03199999779462814,
+          -5.253776550292969
+        ],
+        "max": [
+          1.8450000286102295,
+          5.124352454172134,
+          5.343000411987305
+        ]
+      },
+      "colliders": 1,
+      "sockets": 3,
+      "textures": 18
+    },
+    {
+      "topology": {
+        "degenerateTriangles": 0,
+        "triangles": 109900
+      },
+      "name": "legacy60",
+      "params": {
+        "length": 10.8,
+        "elevation": 60,
+        "barrelScale": 1,
+        "weathering": 0.32,
+        "detail": "high",
+        "railings": true,
+        "exploded": 0
+      },
+      "generatedMS": 607.1756889999997,
+      "stats": {
+        "triangles": 109900,
+        "renderedTriangles": 109900,
+        "vertices": 110471,
+        "instances": 21,
+        "draws": 21,
+        "bytes": 5123914,
+        "nodes": 30,
+        "meshes": 21,
+        "textures": 18,
+        "materials": 6,
+        "dimensions": [
+          3.690000057220459,
+          5.802284457326008,
+          10.596776962280273
+        ]
+      },
+      "glbBytes": 4485140,
+      "glbSha256": "78bfe4eebfa6df8ee69dec13d90bb161dc1f48da57609a9b57c4e22f13173e9a",
+      "bounds": {
+        "min": [
+          -1.8450000286102295,
+          0.03199999779462814,
+          -5.253776550292969
+        ],
+        "max": [
+          1.8450000286102295,
+          5.834284455119809,
+          5.343000411987305
+        ]
+      },
+      "colliders": 1,
+      "sockets": 3,
+      "textures": 18
+    },
+    {
+      "topology": {
+        "degenerateTriangles": 0,
+        "triangles": 109020
+      },
+      "name": "boundary",
+      "params": {
+        "length": 12,
+        "elevation": 70,
+        "barrelScale": 1.15,
+        "weathering": 0.65,
+        "detail": "high",
+        "railings": false,
+        "exploded": 1
+      },
+      "generatedMS": 797.4381800000001,
+      "stats": {
+        "triangles": 109020,
+        "renderedTriangles": 109020,
+        "vertices": 109371,
+        "instances": 21,
+        "draws": 21,
+        "bytes": 5091235,
+        "nodes": 30,
+        "meshes": 21,
+        "textures": 18,
+        "materials": 6,
+        "dimensions": [
+          5.0690000534057615,
+          8.648893006271946,
+          13.568998622894288
+        ]
+      },
+      "glbBytes": 4458976,
+      "glbSha256": "82cba13d90fb298655037df324425e896615178a611e874014c986e9ea8ca856",
+      "bounds": {
+        "min": [
+          -1.8450000286102295,
+          -0.24800000220537188,
+          -5.834887504577637
+        ],
+        "max": [
+          3.224000024795532,
+          8.400893004066894,
+          7.73411111831665
+        ]
+      },
+      "colliders": 1,
+      "sockets": 3,
+      "textures": 18
+    }
+  ]
+}

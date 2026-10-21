@@ -1,0 +1,71 @@
+{
+  "version": "2.0.0",
+  "scope": "Nonfunctional exterior game artwork",
+  "coordinateConvention": {
+    "up": "+Y",
+    "front": "+Z",
+    "units": "visual metres"
+  },
+  "referencePriority": [
+    "User original: grey side/top/opposite side",
+    "AI-generated front/side/top: auxiliary; front and hidden surfaces inferred"
+  ],
+  "visualTargets": [
+    "Long low tracked chassis",
+    "Eleven dense small road-wheel stations on each side",
+    "Four raised end wheels",
+    "Near-horizontal stepped exterior tube at reference default",
+    "Layered and beveled cradle silhouette",
+    "Thin rails, walkways and access ladders",
+    "Separate rear frame and exterior fittings"
+  ],
+  "baselineLength": 10.8,
+  "defaultVisualElevation": 0,
+  "legacyAngleMigration": "Saved 35-70 degree values retain literal degree meaning. New valid range is 0-70 and reference default is 0.",
+  "owners": [
+    "chassis",
+    "running-gear",
+    "engine",
+    "platform",
+    "carriage",
+    "cradle",
+    "barrel",
+    "mechanisms"
+  ],
+  "runtime": "Offline Blender-authored named mesh prototypes assembled and batched inside existing PGF generator; no Blender service required per generation",
+  "quality": "High adds exterior fasteners, wheel accents, tread and trim. Standard retains the major silhouette and all eleven road-wheel stations.",
+  "materialDelivery": [
+    "baseColor",
+    "metallicRoughness",
+    "normal"
+  ],
+  "materialBoundary": "PGF existing tank portable-vehicle-finish adapter for armorPaint roles, original gray default, all existing tank patterns optional. Rubber, bare steel and lamps retain Blender PBR. Final PGF export has 15 shared textures; AO is not claimed.",
+  "inferences": [
+    "Front composition",
+    "Hidden underside and rear faces",
+    "Surface finish",
+    "All metric proportions"
+  ],
+  "excluded": [
+    "Internal weapon mechanisms",
+    "Ammunition",
+    "Ballistics",
+    "Fire-control systems",
+    "Manufacturing or functional performance design"
+  ],
+  "visualAcceptance": "No numeric similarity claim. Review actual images against source before acceptance.",
+  "topology": {
+    "zeroAreaToleranceSquared": 1e-20,
+    "remainingDegenerateTriangles": 0,
+    "highTriangles": 109900,
+    "standardTriangles": 82316,
+    "sourceGLBSha256": "1a06ab665eb85937f7b00646dbe57cc864d1df14c63eb1041071868fa117e5ac"
+  },
+  "visualRevision": "blender-clean-topology-tank-finish-1",
+  "runtimeParameters": {
+    "paintColor": "#a2aaaf",
+    "camoPattern": "original",
+    "camoEnvironment": "desert",
+    "camoScale": 1
+  }
+}

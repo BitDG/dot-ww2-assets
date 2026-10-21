@@ -1,0 +1,11 @@
+{
+  "sourceDirectory": "pgf-model-final-review",
+  "meaning": "Unmodified independent reviewer artifacts; covers Gustav and companion Diesel, no added certification",
+  "files": {
+    "audit.py": "c23588fb0ac1a77d525d56931436c69d0809863aa72a5dc326a1bea9a7f88f37",
+    "geometry-audit.json": "bcb5a366af6fdb6f17a351c5b26e38638c57cb0e79416cf4764f48b6053074e1",
+    "semantic-audit.json": "3a1c41214bab5854023dba1c42256bfe909dac88d6f9864c4fd6140b3513ddc8",
+    "REVIEW.md": "84521fab0ecc2cfc648de2f751ff1768d4c4f8d2a2a02e3eb5a39f6df055f6ca",
+    "semantic_audit.py": "9de18caeeea4dba6028811af74dddd7010426f0a61ff4fce91ad709fc7f34f6e"
+  }
+}

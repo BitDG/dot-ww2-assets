@@ -1,0 +1,5 @@
+BM13_QA_READY http://127.0.0.1:5198/?generator=dot-model-generator&category=machines&bm13qa=1
+11:09:03 AM [vite] (client) page reload modules/dot-model-generator/catalog.mjs
+11:09:03 AM [vite] (client) page reload modules/dot-model-generator/dot-model-generator.generator.json
+11:15:24 AM [vite] (client) page reload modules/dot-model-generator/bm13-evidence/dot-build-output/modules/dot-model-generator/bm13-evidence/build-entry.html
+11:15:37 AM [vite] (client) page reload modules/dot-model-generator/bm13-evidence/dot-build-output/modules/dot-model-generator/bm13-evidence/build-entry.html

@@ -1,0 +1,12 @@
+{
+  "source": "modules/tracked-mortar/blender/portable-kit.glb",
+  "sha256": "1a06ab665eb85937f7b00646dbe57cc864d1df14c63eb1041071868fa117e5ac",
+  "nodeCount": 1336,
+  "prototypeCount": 81,
+  "prototypeTriangles": 11224,
+  "instantiatedTriangles": 109900,
+  "roadWheels": 22,
+  "studioExcluded": true,
+  "embeddedImages": 18,
+  "portablePBRMaterials": 6
+}

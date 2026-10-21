@@ -1,0 +1,33 @@
+✔ all runnable catalog models preserve isolated recipes across repeated switching (16.027131ms)
+✔ reference-armored-car: canceled replacement retains successful asset and discards stale completion (0.433753ms)
+✔ tracked-mortar: canceled replacement retains successful asset and discards stale completion (0.254653ms)
+✔ gustav-visual-prop: canceled replacement retains successful asset and discards stale completion (0.200201ms)
+✔ diesel-locomotive: canceled replacement retains successful asset and discards stale completion (0.322576ms)
+✔ armored-4x4: canceled replacement retains successful asset and discards stale completion (0.208644ms)
+✔ nebelwerfer41-visual-prop: canceled replacement retains successful asset and discards stale completion (3.237571ms)
+✔ qf25-visual-prop: canceled replacement retains successful asset and discards stale completion (0.590459ms)
+✔ flakzwilling43-visual-prop: canceled replacement retains successful asset and discards stale completion (0.497258ms)
+✔ bm13-us6-visual-prop: canceled replacement retains successful asset and discards stale completion (0.280893ms)
+✔ qf17-visual-prop: canceled replacement retains successful asset and discards stale completion (0.260582ms)
+✔ land-mattress-visual-prop: canceled replacement retains successful asset and discards stale completion (0.319691ms)
+✔ stable catalog contains eleven adapters with separate runtime verification and one unavailable source (1.34921ms)
+✔ native recipes remain untouched and cannot cross model schemas (1.002819ms)
+✔ workspace snapshots use isolated native slots and reject unknown/malformed data (0.402926ms)
+✔ manifest is module-owned and has the standard automatic workbench entry (20.869017ms)
+✔ authored N41 adapter does not pretend to rebuild geometry or export animation (2.746212ms)
+✔ QF25 fixed art uses shared material and preview-only tow/smoke without removed-cloth controls (0.331829ms)
+✔ Flakzwilling art preview does not claim driving or historical firing footage (0.395374ms)
+✔ BM13 is a separate fixed static art entry with no inherited Firefox or animation claim (0.113341ms)
+✔ all ten pre-existing catalog identities, capabilities and backend records are preserved exactly (1.499245ms)
+✔ qf17-visual-prop: explicit static-only capability and frozen three-tier sources (224.808777ms)
+✔ land-mattress-visual-prop: explicit static-only capability and frozen three-tier sources (51.854076ms)
+✔ static-only model descriptions never imply a motion preview (14.106994ms)
+✔ Land addition preserves all eleven QF17-stage catalog entries exactly (0.546503ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 635.111797

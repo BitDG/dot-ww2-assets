@@ -1,0 +1,397 @@
+{
+  "stage": "QF17 Q6 unified dot integration",
+  "sharedVersion": "0.8.0",
+  "baselineCommit": "9cf6e9487d14abf2ed9ae1019c221131da44fecc",
+  "notStandalone": true,
+  "checks": {
+    "node": {
+      "passed": 103,
+      "failed": 0
+    },
+    "firefoxGUI": {
+      "passed": 48,
+      "failed": 0
+    },
+    "visibleDownload": "passed; independent GLTFLoader and three PNGs decoded",
+    "desktopResize": "passed; 1147 to 955 to 1168px; single canvas, no clipping or overflow",
+    "targetedBuild": {
+      "exit": 0
+    },
+    "fullBuild": {
+      "exit": 127,
+      "reason": "Restored dependencies lack Vite CLI link"
+    },
+    "fullTest": {
+      "exit": 1,
+      "reason": "Restored snapshot lacks modules/rock/tests/core.test.mjs"
+    },
+    "authorFinalPBRViews": "not-run; awaiting authors final fixed-GLB multi-view renders"
+  },
+  "files": [
+    {
+      "path": "modules/dot-model-generator/README.zh-CN.md",
+      "bytes": 18121,
+      "sha256": "dbfffd865183915f05a13a09215026c4d3b9339466f0120262400e9d70743763"
+    },
+    {
+      "path": "modules/dot-model-generator/backends.js",
+      "bytes": 3090,
+      "sha256": "07ee5b62b99879796f988dbf9787ae5f9a84c2c7dea2b15b13ab4fe03fc3ff72"
+    },
+    {
+      "path": "modules/dot-model-generator/catalog.mjs",
+      "bytes": 10494,
+      "sha256": "c79ba6c2ad70f9baabd8ef372ce66c6fb3505ad0d251a20c2cfc46e9a46d5d5b"
+    },
+    {
+      "path": "modules/dot-model-generator/definition.mjs",
+      "bytes": 2561,
+      "sha256": "a60941717fe4108a1158e20dedccd79827fea9b62930324f0c4b43b99d817040"
+    },
+    {
+      "path": "modules/dot-model-generator/dot-model-generator.generator.json",
+      "bytes": 890,
+      "sha256": "96a98bf994cd567db25aacf39c16ee3ab6f4a349bdaeb5ab9893f921b031d88b"
+    },
+    {
+      "path": "modules/dot-model-generator/tests/catalog.test.mjs",
+      "bytes": 5752,
+      "sha256": "d3a7d49c6cc959717be4fd4f8adf15b0327b962d422e0a3e1c12eb773bb7de47"
+    },
+    {
+      "path": "modules/dot-model-generator/tests/towed-static-contract.test.mjs",
+      "bytes": 2172,
+      "sha256": "7f93edbbedf14a9667ad97b5e910e186ec4b73cea0d8cb92997c3528b7a5ffa2"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/QF17-CHECKPOINT.zh-CN.md",
+      "bytes": 3208,
+      "sha256": "08f437d6f89f3ad1d1d5fa22e34b19de0e12efce5640279ea8cbe8993cf80fc6"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/QF17-FROZEN-CORE.json",
+      "bytes": 10447,
+      "sha256": "55ad5ccbe89acc3a2a1521df8db7a6c9d7a1d1e3d63893cebe1115f69c97be85"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/baseline-catalog.json",
+      "bytes": 11501,
+      "sha256": "728edc5e634912f6997450ca7ceb643960b5eb16239ad7d28e96161584cd0124"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/browser-check.mjs",
+      "bytes": 11313,
+      "sha256": "5278871ba821b83ed428677cec5d08b026b2ed1839d644f67fb874d0161aa1e8"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/browser-visual.mjs",
+      "bytes": 1861,
+      "sha256": "095a703cda3292eac412642d3c6699d6bf324c19a64727db51fdeee4f8d3c496"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/build-check.mjs",
+      "bytes": 380,
+      "sha256": "b3daa2f6f3747660c9b10d14eb1b7f37e5e336f9199d8f98d953a07384155bdd"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/build-entry.html",
+      "bytes": 263,
+      "sha256": "609263502885db9cc0e4e4f1deb26d21c4427fdf97ee0a185c1e600818816b5a"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/dot-build.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/dot-build.log",
+      "bytes": 7583,
+      "sha256": "511244c63a788749587fe88cb58bd625eaab209316c1133e0c882cb2d9e8d83f"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/full-build.exit",
+      "bytes": 4,
+      "sha256": "743c7850cccfba5e53a9002663ec1ddd1079315a98bdbfdde10e6044f56abefe"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/full-build.log",
+      "bytes": 386,
+      "sha256": "f7c9818dcc9f7ff3f15fe63d568227e1349ca06f196fcd77b850360f85ff5c8e"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/full-test.exit",
+      "bytes": 2,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/full-test.log",
+      "bytes": 1682,
+      "sha256": "b47551aabeabb7f2a944b8fb5d43637d747d11e00323c13408ab1903197ae263"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/host-baseline-node.log",
+      "bytes": 8914,
+      "sha256": "e05c7aa394a7bffbf18f71c71ecbd291f1dfcabc66794a0abfeecdac0ccc2f87"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/host-baseline-sha256.txt",
+      "bytes": 884,
+      "sha256": "cb6cd825857e0e3c8c90f2015b1f56f2f46a5dc6dcd298d6080d6af38f006312"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/node-unified.mjs",
+      "bytes": 2986,
+      "sha256": "4191771fec5cf3f713263566bf765e2ab4f7bf2233d99f8ccd095a5c20c2597b"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/package-qf17.py",
+      "bytes": 3276,
+      "sha256": "1aa16e0744825e3d7a113ae7ee2c40ba16621492001baa2947f68c337c6e6d95"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/qf17-catalog-node.log",
+      "bytes": 2892,
+      "sha256": "bc931ee069a09ed4abf8f439850e77d7b2a3709834966b3d28681b08066c62f6"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/qf17-combined-node.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/qf17-combined-node.log",
+      "bytes": 10207,
+      "sha256": "d4de890fc263494c2633c0105c8072a2d6bfe884a2b7e0186d855e89da695ea8"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/qf17-unified-node.log",
+      "bytes": 1885,
+      "sha256": "c31ff3c6c59c13f4bf3572603b5477ab044356463180d6aa4bb458b5ebd844f9"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/qf17-visual-prop/Firefox-narrow.png",
+      "bytes": 144070,
+      "sha256": "28dc96bb4feb5d0d18b2a599a4d70bd9222eff875a02f9239e1b94b2cbc75660"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/qf17-visual-prop/Firefox-winter.png",
+      "bytes": 150933,
+      "sha256": "ba906bfef396592fdd5d9aba182a8bf3b93cd65cdd2cd4984afc3aba44505b6d"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/qf17-visual-prop/Firefox-workbench.png",
+      "bytes": 150195,
+      "sha256": "a78195a6eb8cacf82663a137a6f3c9158af24a1cb3828909de9e51edb3059c59"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/qf17-visual-prop/browser-report.json",
+      "bytes": 10781,
+      "sha256": "df4d296e80016282e8c55e5f79efac33eb899cd2fecb7948ae4fb5b3b995bbe4"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/qf17-visual-prop/node-unified-report.json",
+      "bytes": 2679,
+      "sha256": "33a0e1af6e50a21bed4e04280eb9913f68e956f1612273e1cad92c50ac38edc0"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/qf17-visual-prop/resize-roundtrip-report.json",
+      "bytes": 8310,
+      "sha256": "c47b422032c0212513b77ce2c5c1518316e56a50ddbb7f1dd6fa28a48a11a782"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/qf17-visual-prop/unified-export.glb",
+      "bytes": 1434712,
+      "sha256": "c144f0bd4b1aae6eeec95698eb447f1164524410356d032033b76be299b12b7f"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/qf17-visual-prop/unified-node-high.glb",
+      "bytes": 2656776,
+      "sha256": "6cf20ff9ccfa5aa660f87b865fd4b674cb7e7a8dc2852763126783e9fb38b4d0"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/qf17-visual-prop/unified-node-low.glb",
+      "bytes": 726332,
+      "sha256": "7bbc53430e1316e1d73bd66cb5f52f1d8448b0d93a8245a13cf0e0fe26d607f3"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/qf17-visual-prop/unified-node-medium.glb",
+      "bytes": 1434704,
+      "sha256": "ea01ebf501a2b5888b63d33450d51ad24ebafc12f26d554cee020733b83e95f8"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/qf17-visual-prop/visible-button-download.glb",
+      "bytes": 1432284,
+      "sha256": "b2f5b9c14b6f31fee2fd1e869cabf7ca2ab6c8506692c1ca178df0121efb7518"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/qf17-visual-prop/visible-download-report.json",
+      "bytes": 1589,
+      "sha256": "86ed7fe2c790e9d9c0ccc6974b6e6b8417c4c433463cb026f6e3d5370bbe79c7"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/qf17-visual-prop/visual-report.json",
+      "bytes": 8310,
+      "sha256": "c47b422032c0212513b77ce2c5c1518316e56a50ddbb7f1dd6fa28a48a11a782"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/read-visible-download.mjs",
+      "bytes": 2542,
+      "sha256": "58d71d8eb9b219abdd8c9a99de7ba5a619014eb0ad84a9862c1a36ef443d7a8a"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/run-gui-qa.py",
+      "bytes": 2464,
+      "sha256": "ab4b0ed0cc7fa860364f1e2612ffed61d5ea68a4908206ed808964841fbfe77a"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/serve-qa.mjs",
+      "bytes": 2001,
+      "sha256": "639806ae5a4a54de5b4e8823d19adc95db191b4276a94ec888706c53754a8663"
+    },
+    {
+      "path": "modules/dot-model-generator/workbench.js",
+      "bytes": 16297,
+      "sha256": "66d3b27f44b267dc62a603cbe7157950de9ff7c530061059f6a8063581c2e2c9"
+    },
+    {
+      "path": "modules/qf17-visual-prop/README.zh-CN.md",
+      "bytes": 3864,
+      "sha256": "1b8d67fd36100103629a33b7ca5bff7377ac1348d5effda490fe0254fa02909e"
+    },
+    {
+      "path": "modules/qf17-visual-prop/adapter-provenance.json",
+      "bytes": 1423,
+      "sha256": "87608ef8d5c95513c65e15d8ba31b3fc331fda8a3c68d1912c6d83bfa6d013c9"
+    },
+    {
+      "path": "modules/qf17-visual-prop/assets/QF17-Q6-high.glb",
+      "bytes": 3229332,
+      "sha256": "4cd7cc6372760f9832438c22eebd76e199aafb0a75398b547cc5deaa22651ee7"
+    },
+    {
+      "path": "modules/qf17-visual-prop/assets/QF17-Q6-low.glb",
+      "bytes": 1086188,
+      "sha256": "2a154b3f8ee14df4cf02a0326808219296a68ae8d4a487c9e227274262bceb2b"
+    },
+    {
+      "path": "modules/qf17-visual-prop/assets/QF17-Q6-medium.glb",
+      "bytes": 1857756,
+      "sha256": "6a786420f3bb9bc7383d4b6703c48d2708ca9f0d9fcb18c74ee9bad80313c115"
+    },
+    {
+      "path": "modules/qf17-visual-prop/batch-exterior.mjs",
+      "bytes": 3002,
+      "sha256": "7e6c92535ad4a6f1bf1d2a622d746e8d88dab7a8a7a2ed9cf5f3502ca0fe6a61"
+    },
+    {
+      "path": "modules/qf17-visual-prop/definition.mjs",
+      "bytes": 4030,
+      "sha256": "cca2d51eab2e53d06feafc6dbe5aeab5e7c9a1f25c766560d0b943f6df6b27eb"
+    },
+    {
+      "path": "modules/qf17-visual-prop/evidence/Q6-adapter-tests.tap",
+      "bytes": 1004,
+      "sha256": "21f750f521340894a14468882a6a0963f9340b9d29d1d32b566c163f6066bbb9"
+    },
+    {
+      "path": "modules/qf17-visual-prop/evidence/Q6-final-independent-readback.json",
+      "bytes": 1390,
+      "sha256": "a55d532aa72aac73fd9b51b216fcb3887ad44c487008f122189569bd80514b69"
+    },
+    {
+      "path": "modules/qf17-visual-prop/evidence/Q6-fitting-contact-audit.json",
+      "bytes": 11764,
+      "sha256": "a44dcb3f114500adcf947265311427c0bc344533a6263c9ee61af42af2aeb8db"
+    },
+    {
+      "path": "modules/qf17-visual-prop/evidence/Q6-high-geometry-audit.json",
+      "bytes": 1260,
+      "sha256": "ba482d82fa1ad18fba1a36e56a9e806c98df67873e7f3e0e5f9e1e7433763ee8"
+    },
+    {
+      "path": "modules/qf17-visual-prop/evidence/Q6-low-geometry-audit.json",
+      "bytes": 1260,
+      "sha256": "a79f7728b0424d37c9a6671ed7daeb7bc576b08a5de87a10a08e9d0cc5cb62f8"
+    },
+    {
+      "path": "modules/qf17-visual-prop/evidence/Q6-medium-geometry-audit.json",
+      "bytes": 1267,
+      "sha256": "d9188c39df5a972d9c0001aee14abc7c7198d7dd369143d96d9fbc3922fff531"
+    },
+    {
+      "path": "modules/qf17-visual-prop/evidence/Q6-native-independent-reopen.log",
+      "bytes": 1298,
+      "sha256": "b8016aaeae5aed54687b709545769abc02b7fb9cb258371ab2d8ef43b33338eb"
+    },
+    {
+      "path": "modules/qf17-visual-prop/evidence/default-recipe.json",
+      "bytes": 549,
+      "sha256": "88e48da19317c3a45bc6fa913f11252dfd77f844ec3ac5e59c6160cd51c8350a"
+    },
+    {
+      "path": "modules/qf17-visual-prop/evidence/node-report.json",
+      "bytes": 1885,
+      "sha256": "69f1c2290a503c7ca420ddc722c42bd9c83ea762114c3c58bc864c5e10737985"
+    },
+    {
+      "path": "modules/qf17-visual-prop/material-finish.mjs",
+      "bytes": 4324,
+      "sha256": "274ab97be655ca219c0127bba32898aa8d6c28e7e3aca6602cd71d390b3db896"
+    },
+    {
+      "path": "modules/qf17-visual-prop/model.mjs",
+      "bytes": 6021,
+      "sha256": "00fee51a2fa2481b466de27090187d67c9f188ba3f42f990d10bd1e725e82afc"
+    },
+    {
+      "path": "modules/qf17-visual-prop/params.mjs",
+      "bytes": 2658,
+      "sha256": "f9aae7d32e90dc34c9d247dba79e8bc0c0b46aad877d1781536c7dcac27a36f2"
+    },
+    {
+      "path": "modules/qf17-visual-prop/qf17-visual-prop.generator.json",
+      "bytes": 176,
+      "sha256": "1eac9f24e1555de0b50a5e01b4776e10066c83d9ea3b291b2fbc3c77522344a9"
+    },
+    {
+      "path": "modules/qf17-visual-prop/reference/L0/QF17-L0-CONTRACT.md",
+      "bytes": 2119,
+      "sha256": "3bcc65196e1d2dba2fd09f0a936cc6f83c2b10a211030e71300242c51e9856d7"
+    },
+    {
+      "path": "modules/qf17-visual-prop/reference/L0/QF17-six-details-v2.png",
+      "bytes": 2249356,
+      "sha256": "4c1e82cc0d188109286d84e469c84a58bc588e9689d24f7b6b8d8ddba3b8af42"
+    },
+    {
+      "path": "modules/qf17-visual-prop/reference/L0/QF17-three-view-v3.png",
+      "bytes": 1797811,
+      "sha256": "26818c6889c462761e811ed3dc86cfbe7aca761d80db5f6041c7d0998a1320d7"
+    },
+    {
+      "path": "modules/qf17-visual-prop/reference/L0/manifest.json",
+      "bytes": 1094,
+      "sha256": "77e368464184fc050a49b84abb6daa57d9f75b65a5f7d1d2ac7f1ae6cd34267b"
+    },
+    {
+      "path": "modules/qf17-visual-prop/reference/L0/source-lock.json",
+      "bytes": 2249,
+      "sha256": "17440f43014d385f413dd19b535e833b1ad9015d96ffac852f40bf1fa4f04861"
+    },
+    {
+      "path": "modules/qf17-visual-prop/sources.mjs",
+      "bytes": 600,
+      "sha256": "7f080b6952227a4159c82cdf84336ad2db07b9e160099545d03d1095caa12e7e"
+    },
+    {
+      "path": "modules/qf17-visual-prop/tests/adapter.test.mjs",
+      "bytes": 12006,
+      "sha256": "1e8159df5aecdb9004cb5ff131730ba0ad9fcb8cd99b5ec6f1712e5080516280"
+    },
+    {
+      "path": "modules/qf17-visual-prop/worker.js",
+      "bytes": 141,
+      "sha256": "72841705518e923fc121225d196cbf9946f50f2db9b8abc816802a32578215b7"
+    }
+  ]
+}

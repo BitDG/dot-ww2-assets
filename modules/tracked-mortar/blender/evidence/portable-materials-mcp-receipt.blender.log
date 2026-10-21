@@ -1,0 +1,230 @@
+BlenderMCP addon registered
+Server thread started
+TASK_MCP_READY={"pid": 5, "host": "127.0.0.1", "port": 19876, "blender_version": "4.3.2", "addon_version": [1, 8], "addon_protocol": 13, "addon_sha256": "eb0facf69781a30e69792532087d8d41c6a14fcd323353250abe7988ee297fa5", "background": true, "lifecycle_adapter": "explicit main-thread upstream queue pump", "telemetry_disabled": true, "integrations": {"polyhaven": false, "sketchfab": false, "polypizza": false, "hyper3d": false, "hunyuan3d": false, "tripo": false}, "hard_timeout_seconds": 21600}
+Blender 4.3.2
+Read blend: "/workspace/scratch/6a4c729be230/PGF/modules/tracked-mortar/blender/detailed-kit.blend"
+Fra:1 Mem:69.95M (Peak 69.95M) | Time:00:00.41 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | STUDIO-floor
+Fra:1 Mem:69.95M (Peak 69.95M) | Time:00:00.41 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | long-main-hull
+Fra:1 Mem:69.95M (Peak 69.95M) | Time:00:00.41 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | upper-deck-step
+Fra:1 Mem:69.96M (Peak 69.96M) | Time:00:00.41 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | deck-perimeter-trim
+Fra:1 Mem:71.97M (Peak 71.97M) | Time:00:00.41 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | side-sill--1
+Fra:1 Mem:71.98M (Peak 71.98M) | Time:00:00.41 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | upper-side-cladding--1
+Fra:1 Mem:71.98M (Peak 71.98M) | Time:00:00.41 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cladding-bay--1-0
+Fra:1 Mem:71.98M (Peak 71.98M) | Time:00:00.41 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | walkway--1
+Fra:1 Mem:71.99M (Peak 71.99M) | Time:00:00.41 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | end-cap--1-5.09
+Fra:1 Mem:72.04M (Peak 72.04M) | Time:00:00.41 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | stepped-front-cast-hood
+Fra:1 Mem:72.03M (Peak 72.04M) | Time:00:00.41 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front-hood-lower-lip
+Fra:1 Mem:72.05M (Peak 72.05M) | Time:00:00.41 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front-raised-corner--1
+Fra:1 Mem:72.09M (Peak 72.09M) | Time:00:00.41 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front-upper-edge--1
+Fra:1 Mem:72.11M (Peak 72.11M) | Time:00:00.41 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front-hood-vent--1-0
+Fra:1 Mem:72.14M (Peak 72.14M) | Time:00:00.41 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | side-carrier-lower-fillet--1
+Fra:1 Mem:72.15M (Peak 72.15M) | Time:00:00.41 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | formed-side-underplate--1-0
+Fra:1 Mem:72.15M (Peak 72.15M) | Time:00:00.41 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | side-underplate-cap--1-0
+Fra:1 Mem:72.17M (Peak 72.17M) | Time:00:00.41 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front-grille-frame
+Fra:1 Mem:72.18M (Peak 72.18M) | Time:00:00.41 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front-grille-slat-0
+Fra:1 Mem:72.19M (Peak 72.19M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear-platform
+Fra:1 Mem:72.20M (Peak 72.20M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | sculpted-carriage-bed
+Fra:1 Mem:72.23M (Peak 72.23M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | triangular-cast-support--1
+Fra:1 Mem:72.25M (Peak 72.25M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | outer-cast-cheek--1
+Fra:1 Mem:72.28M (Peak 72.28M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cradle-top-lid--1
+Fra:1 Mem:72.28M (Peak 72.28M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cradle-stepped-cast-cover--1
+Fra:1 Mem:72.28M (Peak 72.28M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cradle-lower-sloped-cheek--1
+Fra:1 Mem:72.33M (Peak 72.33M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear-upright-shell--1
+Fra:1 Mem:72.34M (Peak 72.34M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear-shell-top-cap--1
+Fra:1 Mem:72.35M (Peak 72.35M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | triangular-cast-support-1
+Fra:1 Mem:72.36M (Peak 72.36M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cradle-stepped-cast-cover-1
+Fra:1 Mem:72.38M (Peak 72.38M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cradle-lower-sloped-cheek-1
+Fra:1 Mem:72.40M (Peak 72.40M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear-upright-shell-1
+Fra:1 Mem:72.43M (Peak 72.43M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cradle-central-upper-mass
+Fra:1 Mem:72.43M (Peak 72.43M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | mortar-tube
+Fra:1 Mem:72.45M (Peak 72.45M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | tube-seam-collar-0.75
+Fra:1 Mem:72.63M (Peak 72.63M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | tube-seam-collar-1.39
+Fra:1 Mem:72.68M (Peak 72.68M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | tube-seam-collar-2.02
+Fra:1 Mem:72.75M (Peak 72.75M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | tube-seam-collar-2.58
+Fra:1 Mem:72.75M (Peak 72.75M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | road-wheel--1-0
+Fra:1 Mem:72.79M (Peak 72.79M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | road-band--1-0
+Fra:1 Mem:72.84M (Peak 72.84M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | road-hub--1-0
+Fra:1 Mem:72.90M (Peak 72.90M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | high-end-wheel--1--4.53
+Fra:1 Mem:73.01M (Peak 73.01M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | return-roller--1-0
+Fra:1 Mem:73.03M (Peak 73.03M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | track-shoe--1-0
+Fra:1 Mem:73.04M (Peak 73.04M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | track-cleat--1-0
+Fra:1 Mem:73.05M (Peak 73.05M) | Time:00:00.42 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | track-pin-accent--1-0
+Fra:1 Mem:73.17M (Peak 73.17M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | side-railing--1-2.28
+Fra:1 Mem:73.17M (Peak 73.17M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rail-post--1-0
+Fra:1 Mem:73.17M (Peak 73.17M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear-ladder-rung--1-0
+Fra:1 Mem:73.18M (Peak 73.18M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear-frame-upper--1
+Fra:1 Mem:73.19M (Peak 73.19M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear-frame-lower--1
+Fra:1 Mem:73.20M (Peak 73.20M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear-frame-stand--1-4.8
+Fra:1 Mem:73.22M (Peak 73.22M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear-stowage-box--1
+Fra:1 Mem:73.22M (Peak 73.22M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear-display-cylinder-cover--1
+Fra:1 Mem:73.22M (Peak 73.22M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front-deck-handle--13.07
+Fra:1 Mem:73.25M (Peak 73.25M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | exterior-display-ring--1
+Fra:1 Mem:73.29M (Peak 73.29M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | display-ring-spoke--10
+Fra:1 Mem:73.30M (Peak 73.30M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear-frame-crossbar
+Fra:1 Mem:73.30M (Peak 73.30M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cladding-fastener--10-4.231.97
+Fra:1 Mem:73.31M (Peak 73.31M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | lower-cover--10
+Fra:1 Mem:73.33M (Peak 73.33M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cladding-top-weld--10
+Fra:1 Mem:73.34M (Peak 73.34M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | walkway-tread--10
+Fra:1 Mem:73.35M (Peak 73.35M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | wheel-rib--100
+Fra:1 Mem:73.39M (Peak 73.39M) | Time:00:00.54 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | endwheel-rib--1-4.530
+Fra:1 Mem:73.40M (Peak 73.40M) | Time:00:00.54 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cradle-round-cover--1-0.45
+Fra:1 Mem:73.42M (Peak 73.42M) | Time:00:00.54 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear-chest-lid--1
+Fra:1 Mem:73.42M (Peak 73.42M) | Time:00:00.54 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear-chest-latch--1-3.94
+Fra:1 Mem:73.44M (Peak 73.44M) | Time:00:00.54 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | headlamp-pedestal--1
+Fra:1 Mem:73.46M (Peak 73.46M) | Time:00:00.54 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | headlamp-case--1
+Fra:1 Mem:73.48M (Peak 73.48M) | Time:00:00.54 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | headlamp-lens--1
+Fra:1 Mem:73.50M (Peak 73.50M) | Time:00:00.54 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | outer-bumper-bracket--1-5.18
+Fra:1 Mem:73.51M (Peak 73.51M) | Time:00:00.54 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear-frame-diagonal--10
+Fra:1 Mem:73.52M (Peak 73.52M) | Time:00:00.54 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cast-cheek-vertical-band--1
+Fra:1 Mem:73.53M (Peak 73.53M) | Time:00:00.54 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cradle-top-handle--1
+Fra:1 Mem:73.54M (Peak 73.54M) | Time:00:00.54 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cradle-handle-foot--1-0.51
+Fra:1 Mem:73.58M (Peak 73.58M) | Time:00:00.55 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front-access-rung-0
+Fra:1 Mem:73.59M (Peak 73.59M) | Time:00:00.55 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front-ladder-top--0.32
+Fra:1 Mem:73.60M (Peak 73.60M) | Time:00:00.55 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front-access-ladder--0.32
+Fra:1 Mem:73.60M (Peak 73.60M) | Time:00:00.55 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear-round-stowage-cover
+Fra:1 Mem:73.64M (Peak 73.64M) | Time:00:00.56 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:68.42M (Peak 73.64M) | Time:00:00.58 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading lamps-frosted-glass-normal
+Fra:1 Mem:68.42M (Peak 73.64M) | Time:00:00.59 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading graphite-painted-steel-basecolor
+Fra:1 Mem:68.49M (Peak 73.64M) | Time:00:00.59 | Mem:0.06M, Peak:0.06M | Scene, ViewLayer | Updating Images | Loading lamps-frosted-glass-metallic-roughness
+Fra:1 Mem:68.55M (Peak 73.64M) | Time:00:00.59 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Images | Loading lamps-frosted-glass-basecolor
+Fra:1 Mem:68.55M (Peak 73.64M) | Time:00:00.59 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Images | Loading graphite-painted-steel-metallic-roughness
+Fra:1 Mem:68.68M (Peak 73.64M) | Time:00:00.59 | Mem:0.25M, Peak:0.25M | Scene, ViewLayer | Updating Images | Loading panel-shadow-normal
+Fra:1 Mem:68.74M (Peak 73.64M) | Time:00:00.59 | Mem:0.31M, Peak:0.31M | Scene, ViewLayer | Updating Images | Loading tube-exterior-basecolor
+Fra:1 Mem:68.80M (Peak 73.64M) | Time:00:00.59 | Mem:0.38M, Peak:0.38M | Scene, ViewLayer | Updating Images | Loading tube-exterior-metallic-roughness
+Fra:1 Mem:68.87M (Peak 73.64M) | Time:00:00.59 | Mem:0.44M, Peak:0.44M | Scene, ViewLayer | Updating Images | Loading tube-exterior-normal
+Fra:1 Mem:69.12M (Peak 73.64M) | Time:00:00.60 | Mem:0.56M, Peak:0.56M | Scene, ViewLayer | Updating Images | Loading dark-running-bands-basecolor
+Fra:1 Mem:69.18M (Peak 73.64M) | Time:00:00.60 | Mem:0.62M, Peak:0.62M | Scene, ViewLayer | Updating Images | Loading dark-running-bands-metallic-roughness
+Fra:1 Mem:48.04M (Peak 73.64M) | Time:00:00.68 | Mem:1.12M, Peak:1.12M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:48.04M (Peak 73.64M) | Time:00:00.68 | Mem:1.12M, Peak:1.12M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:48.04M (Peak 73.64M) | Time:00:00.68 | Mem:1.12M, Peak:1.12M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:48.04M (Peak 73.64M) | Time:00:00.68 | Mem:1.12M, Peak:1.12M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:48.13M (Peak 73.64M) | Time:00:00.68 | Mem:1.13M, Peak:1.13M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:48.13M (Peak 73.64M) | Time:00:00.68 | Mem:1.13M, Peak:1.13M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:48.13M (Peak 73.64M) | Time:00:00.68 | Mem:1.13M, Peak:1.13M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:48.13M (Peak 73.64M) | Time:00:00.68 | Mem:1.13M, Peak:1.13M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:48.13M (Peak 73.64M) | Time:00:00.68 | Mem:1.13M, Peak:1.13M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:48.13M (Peak 73.64M) | Time:00:00.68 | Mem:1.13M, Peak:1.13M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:48.45M (Peak 73.64M) | Time:00:00.68 | Mem:1.44M, Peak:1.44M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:48.45M (Peak 73.64M) | Time:00:00.68 | Mem:1.44M, Peak:1.44M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:48.45M (Peak 73.64M) | Time:00:00.68 | Mem:1.44M, Peak:1.44M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:48.45M (Peak 73.64M) | Time:00:00.68 | Mem:1.44M, Peak:1.44M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:48.63M (Peak 73.64M) | Time:00:00.68 | Mem:1.44M, Peak:1.44M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:49.68M (Peak 73.64M) | Time:00:00.69 | Mem:1.45M, Peak:1.45M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.69 | Mem:2.37M, Peak:2.37M | Scene, ViewLayer | Updating Geometry BVH rod-0.023-0.64-edge 55/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.69 | Mem:2.37M, Peak:2.37M | Scene, ViewLayer | Updating Geometry BVH box-(0.13, 0.31, 9.95)-0.035-recess 1/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.69 | Mem:2.37M, Peak:2.37M | Scene, ViewLayer | Updating Geometry BVH box-(0.12, 0.4, 7.7)-0.018-paint 2/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.69 | Mem:2.37M, Peak:2.37M | Scene, ViewLayer | Updating Geometry BVH box-(0.06, 0.31, 1.16)-0.013-paint 3/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.69 | Mem:2.37M, Peak:2.37M | Scene, ViewLayer | Updating Geometry BVH box-(0.43, 0.075, 9.9)-0.012-paint 4/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.69 | Mem:2.37M, Peak:2.37M | Scene, ViewLayer | Updating Geometry BVH box-(0.39, 0.53, 0.18)-0.045-paint 5/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.69 | Mem:2.37M, Peak:2.37M | Scene, ViewLayer | Updating Geometry BVH box-(1.18, 0.065, 1.3)-0.027-paint 6/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.69 | Mem:2.39M, Peak:2.39M | Scene, ViewLayer | Updating Geometry BVH box-(1.18, 0.065, 1.3)-0.027-paint 6/55 | Building BVH 0%
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.69 | Mem:2.40M, Peak:2.41M | Scene, ViewLayer | Updating Geometry BVH box-(0.36, 0.25, 0.54)-0.035-paint 7/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.69 | Mem:2.40M, Peak:2.41M | Scene, ViewLayer | Updating Geometry BVH box-(0.065, 0.07, 1.58)-0.012-edge 8/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.69 | Mem:2.41M, Peak:2.42M | Scene, ViewLayer | Updating Geometry BVH box-(0.82, 0.025, 0.054)-0.008-recess 9/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.69 | Mem:2.43M, Peak:2.43M | Scene, ViewLayer | Updating Geometry BVH box-(0.16, 0.15, 9.7)-0.024-edge 10/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.69 | Mem:2.43M, Peak:2.43M | Scene, ViewLayer | Updating Geometry BVH rod-0.026-0.17692-paint 54/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.69 | Mem:2.43M, Peak:2.43M | Scene, ViewLayer | Updating Geometry BVH rod-0.026-1.92-paint 53/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.69 | Mem:2.44M, Peak:2.44M | Scene, ViewLayer | Updating Geometry BVH box-(0.12, 0.32, 1.11)-0.029-paint 11/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.69 | Mem:2.45M, Peak:2.45M | Scene, ViewLayer | Updating Geometry BVH rod-0.034-0.09-edge 52/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.69 | Mem:2.47M, Peak:2.47M | Scene, ViewLayer | Updating Geometry BVH box-(0.17, 0.065, 1.16)-0.013-edge 12/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.69 | Mem:2.48M, Peak:2.48M | Scene, ViewLayer | Updating Geometry BVH box-(1.15, 0.013, 0.045)-0.004-edge 13/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.69 | Mem:2.48M, Peak:2.48M | Scene, ViewLayer | Updating Geometry BVH box-(0.87, 0.13, 1.84)-0.045-paint 14/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.69 | Mem:2.49M, Peak:2.49M | Scene, ViewLayer | Updating Geometry BVH rod-0.034-0.98-edge 51/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.69 | Mem:2.49M, Peak:2.49M | Scene, ViewLayer | Updating Geometry BVH box-(0.72, 0.08, 0.67)-0.026-paint 15/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.69 | Mem:2.49M, Peak:2.50M | Scene, ViewLayer | Updating Geometry BVH box-(0.06, 1.16, 0.085)-0.01-edge 50/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.69 | Mem:2.52M, Peak:2.52M | Scene, ViewLayer | Updating Geometry BVH roadwheel-paint 16/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.69 | Mem:2.56M, Peak:2.56M | Scene, ViewLayer | Updating Geometry BVH rod-0.03-0.8792-edge 49/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.57M, Peak:2.59M | Scene, ViewLayer | Updating Geometry BVH wheelband-rubber 17/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.58M, Peak:2.59M | Scene, ViewLayer | Updating Geometry BVH box-(0.18, 0.28, 0.13)-0.022-edge 48/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.59M, Peak:2.59M | Scene, ViewLayer | Updating Geometry BVH headlamp-lens-lamp 47/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.61M, Peak:2.61M | Scene, ViewLayer | Updating Geometry BVH wheelhub-edge 18/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.62M, Peak:2.62M | Scene, ViewLayer | Updating Geometry BVH endwheel-paint 19/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.63M, Peak:2.63M | Scene, ViewLayer | Updating Geometry BVH returnroller-recess 20/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.63M, Peak:2.63M | Scene, ViewLayer | Updating Geometry BVH box-(0.635, 0.085, 0.265)-0.012-recess 21/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.66M, Peak:2.67M | Scene, ViewLayer | Updating Geometry BVH headlamp-case-recess 46/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.70M, Peak:2.70M | Scene, ViewLayer | Updating Geometry BVH box-(0.65, 0.052, 0.055)-0.008-edge 22/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.71M, Peak:2.72M | Scene, ViewLayer | Updating Geometry BVH rod-0.045-0.36-paint 45/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.71M, Peak:2.72M | Scene, ViewLayer | Updating Geometry BVH track-pin-accent-edge 23/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.72M, Peak:2.72M | Scene, ViewLayer | Updating Geometry BVH rod-0.019-9.94-paint 24/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.72M, Peak:2.72M | Scene, ViewLayer | Updating Geometry BVH box-(0.052, 0.15, 0.07)-0.006-recess 44/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.73M, Peak:2.73M | Scene, ViewLayer | Updating Geometry BVH box-(0.67, 0.052, 1.1)-0.012-edge 43/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.75M, Peak:2.81M | Scene, ViewLayer | Updating Geometry BVH rod-0.052-0.98-paint 30/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.80M, Peak:2.81M | Scene, ViewLayer | Updating Geometry BVH box-(0.62, 0.31, 1.05)-0.045-paint 31/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.81M, Peak:2.81M | Scene, ViewLayer | Updating Geometry BVH box-(0.33, 0.33, 1.47)-0.045-paint 32/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.82M, Peak:2.83M | Scene, ViewLayer | Updating Geometry BVH rod-0.024-0.15-edge 33/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.83M, Peak:2.84M | Scene, ViewLayer | Updating Geometry BVH decorative-rim-edge 34/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.84M, Peak:2.85M | Scene, ViewLayer | Updating Geometry BVH rod-0.025-0.29-edge 41/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.86M, Peak:2.87M | Scene, ViewLayer | Updating Geometry BVH rod-0.015-0.156-edge 40/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.87M, Peak:2.87M | Scene, ViewLayer | Updating Geometry BVH rod-0.009-0.40311-edge 39/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.87M, Peak:2.87M | Scene, ViewLayer | Updating Geometry BVH rod-0.019-0.37-edge 35/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.88M, Peak:2.88M | Scene, ViewLayer | Updating Geometry BVH hex-head-art-fastener-edge 36/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.88M, Peak:2.88M | Scene, ViewLayer | Updating Geometry BVH rod-0.011-1.0-edge 38/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.89M, Peak:2.89M | Scene, ViewLayer | Updating Geometry BVH box-(0.068, 0.29, 0.72)-0.018-paint 37/55 | Building BVH
+Fra:1 Mem:49.56M (Peak 73.64M) | Time:00:00.70 | Mem:2.94M, Peak:2.94M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:49.58M (Peak 73.64M) | Time:00:00.70 | Mem:2.94M, Peak:2.94M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:49.58M (Peak 73.64M) | Time:00:00.72 | Mem:3.73M, Peak:3.90M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:49.58M (Peak 73.64M) | Time:00:00.72 | Mem:3.73M, Peak:3.90M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:50.02M (Peak 73.64M) | Time:00:00.73 | Mem:3.73M, Peak:3.90M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:50.02M (Peak 73.64M) | Time:00:00.73 | Mem:4.18M, Peak:4.18M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:50.02M (Peak 73.64M) | Time:00:00.73 | Mem:4.19M, Peak:4.19M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:50.03M (Peak 73.64M) | Time:00:00.73 | Mem:4.19M, Peak:4.19M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:50.03M (Peak 73.64M) | Time:00:00.73 | Mem:4.19M, Peak:4.19M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:50.03M (Peak 73.64M) | Time:00:00.73 | Mem:4.19M, Peak:4.19M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:50.03M (Peak 73.64M) | Time:00:00.73 | Mem:4.27M, Peak:4.27M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:50.03M (Peak 73.64M) | Time:00:00.73 | Mem:4.27M, Peak:4.27M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:50.04M (Peak 73.64M) | Time:00:00.73 | Mem:4.28M, Peak:4.28M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:50.04M (Peak 73.64M) | Time:00:00.73 | Mem:4.28M, Peak:4.28M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:50.04M (Peak 73.64M) | Time:00:00.73 | Mem:4.20M, Peak:4.28M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:50.04M (Peak 73.64M) | Time:00:00.73 | Mem:4.29M, Peak:4.29M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:50.04M (Peak 73.64M) | Time:00:00.73 | Mem:4.29M, Peak:4.29M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:50.06M (Peak 73.64M) | Time:00:00.73 | Mem:4.29M, Peak:4.29M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:76.55M (Peak 76.55M) | Time:00:02.75 | Remaining:01:02.88 | Mem:30.74M, Peak:30.74M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:76.55M (Peak 76.55M) | Time:00:27.08 | Remaining:00:23.25 | Mem:30.74M, Peak:30.74M | Scene, ViewLayer | Sample 17/32
+Fra:1 Mem:88.30M (Peak 111.80M) | Time:00:48.94 | Mem:30.74M, Peak:30.74M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:88.30M (Peak 111.80M) | Time:00:48.94 | Mem:30.74M, Peak:30.74M | Scene, ViewLayer | Finished
+Saved: '/workspace/scratch/6a4c729be230/PGF/modules/tracked-mortar/blender/evidence/portable-pbr-hero.png'
+Time: 00:49.93 (Saving: 00:00.95)
+
+Connected to client: ('127.0.0.1', 60230)
+Client handler started
+Queued command: get_addon_info
+Executing handler for get_addon_info
+Handler execution complete
+Queued command: execute_code
+Executing handler for execute_code
+Handler execution complete
+Queued command: get_telemetry_consent
+Executing handler for get_telemetry_consent
+Handler execution complete
+Queued command: get_addon_info
+Executing handler for get_addon_info
+Handler execution complete
+Queued command: get_polyhaven_status
+Queued command: get_sketchfab_status
+Executing handler for get_sketchfab_status
+Handler execution complete
+Queued command: get_polypizza_status
+Executing handler for get_polypizza_status
+Handler execution complete
+Queued command: get_hunyuan3d_status
+Executing handler for get_hunyuan3d_status
+Handler execution complete
+Queued command: get_hyper3d_status
+Executing handler for get_hyper3d_status
+Handler execution complete
+Queued command: execute_code
+Executing handler for execute_code
+Handler execution complete
+Queued command: execute_code
+Executing handler for execute_code
+Handler execution complete
+Client disconnected
+Client handler stopped
+Error accepting connection: [Errno 9] Bad file descriptor
+Server thread stopped
+BlenderMCP server stopped
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+TASK_MCP_STOPPED
+
+Blender quit

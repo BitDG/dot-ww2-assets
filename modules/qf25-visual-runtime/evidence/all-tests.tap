@@ -1,0 +1,22 @@
+✔ actual PGF low/medium/high AssetIR: runtime binding, art scales, static GLB unchanged by tow/fire (4184.088896ms)
+✔ actual PGF hidden barrel fails closed rather than emitting from a missing mouth (314.711365ms)
+✔ actual source GLB: author-confirmed nodes, anchors, wheel roll and appearance gate (510.40641ms)
+✔ actual source GLB: explicit uncapped runtime smoke, no visible flame, source descendants unchanged (659.308243ms)
+✔ fixture: capped, absent explicit state, and visible-cover disagreement all fail closed (6.216231ms)
+✔ fixture: tow moves only borrowed transforms, rolls both wheels and reset restores (5.203455ms)
+✔ fixture: smoke host stepping, replay, seek, pause, cover changing, no asset disposal (1.696535ms)
+✔ fixture: fixed smoke stepping is frame-chunk reproducible and source asset unchanged (0.837987ms)
+✔ fixture: missing/ambiguous anchors, parent mismatch and initial stale binding allocate nothing (0.631204ms)
+✔ fixture: upload-ticket invalidation after binding does not invalidate mounted asset (0.914282ms)
+✔ fixture: actual PGF smoke lease renders no positive-opacity flame and releases owned resources (43.613361ms)
+✔ fixture: physically removed cover requires explicit no-cover metadata and visible sealed face (0.931879ms)
+✔ fixture: FX allocation failure stops cleanly and can replay once corrected (0.713608ms)
+✔ fixture: paused smoke is cleared if a cover becomes visible on a host tick (0.942394ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4755.172704

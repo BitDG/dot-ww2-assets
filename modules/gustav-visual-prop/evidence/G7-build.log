@@ -1,0 +1,27 @@
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 177 modules transformed.
+rendering chunks...
+computing gzip size...
+pgf-gustav-preview-candidate/modules/gustav-visual-prop/review.html       0.40 kB │ gzip:   0.33 kB
+pgf-gustav-preview-candidate/modules/gustav-visual-prop/preview.html      0.58 kB │ gzip:   0.42 kB
+pgf-gustav-preview-candidate/assets/preview.worker-Br8k3ZVD.js          723.45 kB
+pgf-gustav-preview-candidate/assets/asset-export.worker-DYzXDJ1D.js     752.83 kB
+pgf-gustav-preview-candidate/assets/worker-CjfIC5CT.js                1,564.55 kB
+pgf-gustav-preview-candidate/assets/workbench-D0WeRvwf.css               37.05 kB │ gzip:   7.86 kB
+pgf-gustav-preview-candidate/assets/workbench-DzYS8fLC.js                47.71 kB │ gzip:  17.39 kB
+pgf-gustav-preview-candidate/assets/review-BIYANgH5.js                  199.67 kB │ gzip:  58.69 kB
+pgf-gustav-preview-candidate/assets/OrbitControls-n1sEOeBI.js         1,437.91 kB │ gzip: 590.12 kB
+
+[33m[PLUGIN_TIMINGS] [0mYour build spent significant time in plugins. Here is a breakdown:
+  - vehicle-preview-registry (70%)
+  - vite:worker-import-meta-url (11%)
+  - vite:worker (7%)
+See https://rolldown.rs/reference/InputOptions.checks#plugintimings for more details.
+
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 3.11s
+/workspace/scratch/6a4c729be230/pgf-gustav-preview-candidate

@@ -1,0 +1,26 @@
+✔ all runnable catalog models preserve isolated recipes across repeated switching (5.626304ms)
+✔ reference-armored-car: canceled replacement retains successful asset and discards stale completion (0.390397ms)
+✔ tracked-mortar: canceled replacement retains successful asset and discards stale completion (0.196626ms)
+✔ gustav-visual-prop: canceled replacement retains successful asset and discards stale completion (0.196065ms)
+✔ diesel-locomotive: canceled replacement retains successful asset and discards stale completion (0.187081ms)
+✔ armored-4x4: canceled replacement retains successful asset and discards stale completion (0.244317ms)
+✔ nebelwerfer41-visual-prop: canceled replacement retains successful asset and discards stale completion (0.211308ms)
+✔ qf25-visual-prop: canceled replacement retains successful asset and discards stale completion (0.192119ms)
+✔ flakzwilling43-visual-prop: canceled replacement retains successful asset and discards stale completion (0.183977ms)
+✔ bm13-us6-visual-prop: canceled replacement retains successful asset and discards stale completion (0.282545ms)
+✔ stable catalog contains nine adapters with separate runtime verification and one unavailable source (1.673849ms)
+✔ native recipes remain untouched and cannot cross model schemas (0.892703ms)
+✔ workspace snapshots use isolated native slots and reject unknown/malformed data (0.36586ms)
+✔ manifest is module-owned and has the standard automatic workbench entry (6.519644ms)
+✔ authored N41 adapter does not pretend to rebuild geometry or export animation (0.520123ms)
+✔ QF25 fixed art uses shared material and preview-only tow/smoke without removed-cloth controls (0.457668ms)
+✔ Flakzwilling art preview does not claim driving or historical firing footage (0.137698ms)
+✔ BM13 is a separate fixed static art entry with no inherited Firefox or animation claim (0.11997ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 111.484347

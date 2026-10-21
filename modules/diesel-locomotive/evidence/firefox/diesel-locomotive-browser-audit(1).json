@@ -1,0 +1,305 @@
+{
+  "before": {
+    "recipe": {
+      "format": "PGF.ComponentRecipe",
+      "version": 1,
+      "generator": "diesel-locomotive",
+      "seed": "pgf-components-1",
+      "params": {
+        "bodyLength": 1,
+        "bodyWidth": 1,
+        "bodyHeight": 1,
+        "bogieSpacing": 1,
+        "wheelScale": 1,
+        "detail": "medium",
+        "fanCount": 4,
+        "grilleDensity": 0.6,
+        "rivetDensity": 0.55,
+        "weathering": 0.28,
+        "paintColor": "#7d8589",
+        "metalColor": "#737a7d",
+        "showRails": true,
+        "showRailings": true,
+        "showGrilles": true,
+        "showRivets": true,
+        "camoPattern": "original",
+        "camoEnvironment": "desert",
+        "camoScale": 1
+      }
+    },
+    "diagnostics": {
+      "frames": 71,
+      "pending": false,
+      "active": true,
+      "disposed": false,
+      "renderWorker": true,
+      "contextLost": false,
+      "geometries": 37,
+      "textures": 3,
+      "workerTerminated": false,
+      "renderRPC": 0,
+      "busy": false,
+      "exporting": false,
+      "invalidEdit": false,
+      "worker": false,
+      "exportWorker": false,
+      "stats": {
+        "triangles": 76860,
+        "renderedTriangles": 86716,
+        "drawCalls": 48,
+        "bytes": 3801203,
+        "texturePixels": 196608,
+        "meshes": 37,
+        "nodes": 60,
+        "generationMs": 2363
+      },
+      "operation": 49,
+      "assetSeed": "pgf-components-1"
+    },
+    "renderer": {
+      "frames": 71,
+      "pending": false,
+      "active": true,
+      "disposed": false,
+      "renderWorker": true,
+      "contextLost": false,
+      "geometries": 37,
+      "textures": 3,
+      "maxX": 0.83994852579974,
+      "maxY": 0.37549367063830447,
+      "camera": {
+        "position": [
+          26.561491251631654,
+          17.84799507812038,
+          34.15048875209786
+        ],
+        "target": [
+          0,
+          2.670000077188015,
+          0
+        ],
+        "aspect": 0.8369098712446352,
+        "near": 0.23857203186601866,
+        "far": 69.70630603241548
+      }
+    },
+    "asset": {
+      "bounds": {
+        "min": [
+          -11.5,
+          1.7881394143159923e-9,
+          -1.7066445350646973
+        ],
+        "max": [
+          11.5,
+          5.340000152587891,
+          1.7066445350646973
+        ]
+      },
+      "materials": 9,
+      "textures": 3,
+      "sockets": 9,
+      "source": {
+        "visualOnly": true,
+        "description": "American diesel locomotive exterior art; unidentified model; four fans default is inferred",
+        "wheelCenters": [
+          {
+            "name": "wheel--1--1--1",
+            "center": [
+              -7.071,
+              0.9604999999999999,
+              -1.1
+            ],
+            "radius": 0.6204999999999999,
+            "bogie": -1,
+            "axle": -1
+          },
+          {
+            "name": "wheel--1--1-0",
+            "center": [
+              -5.75,
+              0.9604999999999999,
+              -1.1
+            ],
+            "radius": 0.6204999999999999,
+            "bogie": -1,
+            "axle": 0
+          },
+          {
+            "name": "wheel--1--1-1",
+            "center": [
+              -4.429,
+              0.9604999999999999,
+              -1.1
+            ],
+            "radius": 0.6204999999999999,
+            "bogie": -1,
+            "axle": 1
+          },
+          {
+            "name": "wheel--1-1--1",
+            "center": [
+              -7.071,
+              0.9604999999999999,
+              1.1
+            ],
+            "radius": 0.6204999999999999,
+            "bogie": -1,
+            "axle": -1
+          },
+          {
+            "name": "wheel--1-1-0",
+            "center": [
+              -5.75,
+              0.9604999999999999,
+              1.1
+            ],
+            "radius": 0.6204999999999999,
+            "bogie": -1,
+            "axle": 0
+          },
+          {
+            "name": "wheel--1-1-1",
+            "center": [
+              -4.429,
+              0.9604999999999999,
+              1.1
+            ],
+            "radius": 0.6204999999999999,
+            "bogie": -1,
+            "axle": 1
+          },
+          {
+            "name": "wheel-1--1--1",
+            "center": [
+              4.429,
+              0.9604999999999999,
+              -1.1
+            ],
+            "radius": 0.6204999999999999,
+            "bogie": 1,
+            "axle": -1
+          },
+          {
+            "name": "wheel-1--1-0",
+            "center": [
+              5.75,
+              0.9604999999999999,
+              -1.1
+            ],
+            "radius": 0.6204999999999999,
+            "bogie": 1,
+            "axle": 0
+          },
+          {
+            "name": "wheel-1--1-1",
+            "center": [
+              7.071,
+              0.9604999999999999,
+              -1.1
+            ],
+            "radius": 0.6204999999999999,
+            "bogie": 1,
+            "axle": 1
+          },
+          {
+            "name": "wheel-1-1--1",
+            "center": [
+              4.429,
+              0.9604999999999999,
+              1.1
+            ],
+            "radius": 0.6204999999999999,
+            "bogie": 1,
+            "axle": -1
+          },
+          {
+            "name": "wheel-1-1-0",
+            "center": [
+              5.75,
+              0.9604999999999999,
+              1.1
+            ],
+            "radius": 0.6204999999999999,
+            "bogie": 1,
+            "axle": 0
+          },
+          {
+            "name": "wheel-1-1-1",
+            "center": [
+              7.071,
+              0.9604999999999999,
+              1.1
+            ],
+            "radius": 0.6204999999999999,
+            "bogie": 1,
+            "axle": 1
+          }
+        ],
+        "railTop": 0.34,
+        "axlePitch": 1.321,
+        "fuelHalf": 2.725,
+        "params": {
+          "bodyLength": 1,
+          "bodyWidth": 1,
+          "bodyHeight": 1,
+          "bogieSpacing": 1,
+          "wheelScale": 1,
+          "detail": "medium",
+          "fanCount": 4,
+          "grilleDensity": 0.6,
+          "rivetDensity": 0.55,
+          "weathering": 0.28,
+          "paintColor": "#7d8589",
+          "metalColor": "#737a7d",
+          "showRails": true,
+          "showRailings": true,
+          "showGrilles": true,
+          "showRivets": true,
+          "camoPattern": "original",
+          "camoEnvironment": "desert",
+          "camoScale": 1
+        },
+        "threeAxleBogies": 2,
+        "scale": "relative unmeasured art units",
+        "source": "Blender MCP specialty mesh kit + frozen rail-wheel + PGF rule/bridge/curve"
+      }
+    },
+    "viewport": {
+      "width": 1364,
+      "height": 1024,
+      "scrollWidth": 1364
+    },
+    "scope": "Actual PGF shell/workbench/Worker/renderer, restricted single-entry preview registry; not a complete application build"
+  },
+  "after": {
+    "frames": 71,
+    "pending": false,
+    "active": false,
+    "disposed": true,
+    "renderWorker": false,
+    "contextLost": null,
+    "geometries": 37,
+    "textures": 3,
+    "workerTerminated": true,
+    "renderRPC": 0,
+    "busy": false,
+    "exporting": false,
+    "invalidEdit": false,
+    "worker": false,
+    "exportWorker": false,
+    "stats": {
+      "triangles": 76860,
+      "renderedTriangles": 86716,
+      "drawCalls": 48,
+      "bytes": 3801203,
+      "texturePixels": 196608,
+      "meshes": 37,
+      "nodes": 60,
+      "generationMs": 2363
+    },
+    "operation": 50,
+    "assetSeed": "pgf-components-1"
+  },
+  "action": "explicit preview disposal"
+}

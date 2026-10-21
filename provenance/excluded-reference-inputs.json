@@ -1,0 +1,30 @@
+[
+  {
+    "path": "modules/diesel-locomotive/references/source-collage.jpg",
+    "sourceCommit": "ab3216828c8e289f0e118a96cfbd7d05f1a0576c",
+    "gitBlob": "06492380ba6748b26f84db673c4ec0d7bded54a5",
+    "sha256": "a8187516df62d0ee5d058cd027c4bfd0c6d1750530e761bdd1818a38306d7952",
+    "reason": "Original observational input image; no clear redistribution license recorded. Source retained in PGF, no runtime dependency."
+  },
+  {
+    "path": "modules/tracked-mortar/blender/references/original-grey-side-top-opposite.png",
+    "sourceCommit": "ab3216828c8e289f0e118a96cfbd7d05f1a0576c",
+    "gitBlob": "352228a9634653ba0c5a92183fc57e49a112ed71",
+    "sha256": "3831d06a14520ba9bbce64773e4f3fda33ae1741db9b76fb7c2bce0118b8539f",
+    "reason": "Original observational input image; no clear redistribution license recorded. Source retained in PGF, no runtime dependency."
+  },
+  {
+    "path": "modules/gustav-visual-prop/references/image(20261010-082647).png",
+    "sourceCommit": "ab3216828c8e289f0e118a96cfbd7d05f1a0576c",
+    "gitBlob": "d2bab3786ed22202fa4f22f4630e41da4ba1d613",
+    "sha256": "3f3bcee29834c22d7d3b0bfd929bbf362ff5b52fb6e0c256706620d62ae55aa6",
+    "reason": "Original observational input image; no clear redistribution license recorded. Source retained in PGF, no runtime dependency."
+  },
+  {
+    "path": "modules/gustav-visual-prop/references/image(20261010-082649).png",
+    "sourceCommit": "ab3216828c8e289f0e118a96cfbd7d05f1a0576c",
+    "gitBlob": "10842685da88475918d9245e16486709d1a89688",
+    "sha256": "87992be242dc709009ac2694573bc93ba1a7b343cd1f4a1f968d909826a8f55d",
+    "reason": "Original observational input image; no clear redistribution license recorded. Source retained in PGF, no runtime dependency."
+  }
+]

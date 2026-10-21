@@ -1,0 +1,16 @@
+✔ actual source low/medium/high GLBs: named six-group rotation and exact restoration (1075.697473ms)
+✔ actual generated PGF low/medium/high boundary parameters, real smoke, static bytes unchanged and reimported (4770.573517ms)
+✔ actual PGF hidden upper or lower assembly fails closed (648.915533ms)
+✔ fixture: display base fixed, six transforms, pause, hide, resume, reset, dispose (4.66991ms)
+✔ fixture: simultaneous art cloud cue, deterministic frame chunks/seed/seek, pause and complete (5.368525ms)
+✔ fixture: visibility blocks initial and paused smoke, removed host fails closed (1.081185ms)
+✔ fixture: strict parameters and malformed hierarchies allocate nothing (1.09149ms)
+✔ fixture: allocation failure cleanup and retry; stale upload ticket does not kill mounted model (1.12473ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7155.125843

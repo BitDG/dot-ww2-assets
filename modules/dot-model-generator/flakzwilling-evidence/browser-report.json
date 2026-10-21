@@ -1,0 +1,1292 @@
+{
+  "stage": "Flakzwilling F2 I2 unified Firefox acceptance",
+  "started": "2026-10-12T09:28:53.149Z",
+  "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:157.0) Gecko/20100101 Firefox/157.0",
+  "checks": [
+    {
+      "name": "Firefox real browser",
+      "ok": true
+    },
+    {
+      "name": "one original unified canvas and schema container",
+      "ok": true
+    },
+    {
+      "name": "native Flakzwilling identity and exact final source",
+      "ok": true
+    },
+    {
+      "name": "three-foot base retained and no wheel geometry",
+      "ok": true
+    },
+    {
+      "name": "schema exposes art controls only, without firing parameters",
+      "ok": true
+    },
+    {
+      "name": "fixed art contract and no online remodeling",
+      "ok": true
+    },
+    {
+      "name": "one collection card with Flakzwilling searchable member",
+      "ok": true
+    },
+    {
+      "name": "real PGF material controls preserve geometry",
+      "ok": true
+    },
+    {
+      "name": "shared PGF winter textures and appearance",
+      "ok": true
+    },
+    {
+      "name": "hide showTripod removes group from static AssetIR",
+      "ok": true
+    },
+    {
+      "name": "hide showTurntable removes group from static AssetIR",
+      "ok": true
+    },
+    {
+      "name": "hide showShield removes group from static AssetIR",
+      "ok": true
+    },
+    {
+      "name": "hide showUpper removes group from static AssetIR",
+      "ok": true
+    },
+    {
+      "name": "hide showLower removes group from static AssetIR",
+      "ok": true
+    },
+    {
+      "name": "hide showSeats removes group from static AssetIR",
+      "ok": true
+    },
+    {
+      "name": "hide showFittings removes group from static AssetIR",
+      "ok": true
+    },
+    {
+      "name": "actual low authored source selected",
+      "ok": true
+    },
+    {
+      "name": "actual high authored source selected",
+      "ok": true
+    },
+    {
+      "name": "actual medium authored source selected",
+      "ok": true
+    },
+    {
+      "name": "art proportions keep runtime valid",
+      "ok": true
+    },
+    {
+      "name": "failed edit retains previous asset runtime and completed recipe",
+      "ok": true
+    },
+    {
+      "name": "cancel restores successful parameters",
+      "ok": true
+    },
+    {
+      "name": "pending cancel preserves completed asset and runtime",
+      "ok": true
+    },
+    {
+      "name": "canceled export returns no download",
+      "ok": true
+    },
+    {
+      "name": "actual static GLB bytes export",
+      "ok": true
+    },
+    {
+      "name": "tow and smoke controls available with clear labels",
+      "ok": true
+    },
+    {
+      "name": "real display advances with fixed-base author binding",
+      "ok": true
+    },
+    {
+      "name": "pause stops artistic time",
+      "ok": true
+    },
+    {
+      "name": "display-preview static export byte-identical",
+      "ok": true
+    },
+    {
+      "name": "two local art smoke cues with display stopped",
+      "ok": true
+    },
+    {
+      "name": "smoke excluded from static export",
+      "ok": true
+    },
+    {
+      "name": "seek reconstructs deterministic smoke time",
+      "ok": true
+    },
+    {
+      "name": "UI speed is cosmetic multiplier",
+      "ok": true
+    },
+    {
+      "name": "presentation framing opt-in",
+      "ok": true
+    },
+    {
+      "name": "reset returns static state",
+      "ok": true
+    },
+    {
+      "name": "independent GLTFLoader reimport has finite static geometry and decoded textures",
+      "ok": true
+    },
+    {
+      "name": "GLB preserves stationary base and excludes wheels and smoke",
+      "ok": true
+    },
+    {
+      "name": "PGF export provenance and no-wheels state roundtrip",
+      "ok": true
+    },
+    {
+      "name": "real exported GLB receipt saved",
+      "ok": true
+    },
+    {
+      "name": "native Flakzwilling recipe restores without cross-model schema leakage",
+      "ok": true
+    },
+    {
+      "name": "WIP switch frees Flakzwilling owned resources; only proven shared Sprite cache remains",
+      "ok": true,
+      "details": {
+        "preview": {
+          "frames": 58,
+          "invalidations": 136,
+          "pending": false,
+          "disposed": false,
+          "active": true,
+          "hidden": false,
+          "contextLost": false,
+          "geometries": 1,
+          "textures": 0,
+          "render": {
+            "calls": 0,
+            "triangles": 0
+          },
+          "playing": false,
+          "clipName": "",
+          "skeletonVisible": false
+        },
+        "sceneTypes": [
+          "HemisphereLight",
+          "DirectionalLight",
+          "DirectionalLight"
+        ],
+        "runtime": {
+          "animation": {
+            "disposed": true,
+            "active": false,
+            "speed": 1,
+            "loading": false,
+            "framing": "model",
+            "motionAvailable": false,
+            "fireAvailable": false,
+            "motionPlaying": false,
+            "firePlaying": false,
+            "flakzwilling": {
+              "available": false,
+              "playing": false,
+              "disposed": true,
+              "active": true,
+              "state": "disposed",
+              "mode": "display",
+              "time": 0,
+              "error": null,
+              "emissions": 0,
+              "lastAnchors": null,
+              "capabilities": {
+                "display": true,
+                "smoke": false,
+                "drive": false,
+                "tow": false,
+                "hostTickOnly": true,
+                "previewOnly": true,
+                "animatedGLB": false,
+                "exportedParticles": false,
+                "projectileSimulation": false,
+                "mechanicalRecoil": false,
+                "performanceSimulation": false,
+                "label": "\u6e38\u620f\u7f8e\u672f\u6f14\u51fa"
+              },
+              "binding": {
+                "nodes": {
+                  "body": "FZ43_ROOT",
+                  "base": "FZ43_Tripod_Base",
+                  "moving": [
+                    "FZ43_Turntable_Exterior",
+                    "FZ43_Folded_Shield",
+                    "FZ43_Upper_Exterior",
+                    "FZ43_Lower_Exterior",
+                    "FZ43_Seats_Platforms",
+                    "FZ43_Exterior_Fittings"
+                  ],
+                  "anchors": [
+                    "FZ43_Upper_Cosmetic_Anchor",
+                    "FZ43_Lower_Cosmetic_Anchor"
+                  ],
+                  "faces": [
+                    "FZ43_upper_Sealed_Front",
+                    "FZ43_lower_Sealed_Front"
+                  ]
+                },
+                "smokeAllowed": false,
+                "fixedBase": true,
+                "authorNamedAssembly": true
+              },
+              "ownedChildren": 0,
+              "fx": null,
+              "evidenceScope": "\u6e38\u620f\u7f8e\u672f\u6f14\u51fa\uff1b\u65e0\u672c\u578b\u5b9e\u5c04\u5f71\u7247\u786e\u8bc1\uff1b\u5c55\u793a\u671d\u5411\u4e0e\u540c\u65f6\u70df\u4e91\u5747\u4e3a\u827a\u672f\u8bbe\u8ba1\uff0c\u65e0\u771f\u5b9e\u53d1\u5c04\u987a\u5e8f\u6216\u65f6\u5e8f"
+            },
+            "motion": {
+              "available": false,
+              "playing": false,
+              "disposed": true,
+              "active": true,
+              "state": "disposed",
+              "mode": "display",
+              "time": 0,
+              "error": null,
+              "emissions": 0,
+              "lastAnchors": null,
+              "capabilities": {
+                "display": true,
+                "smoke": false,
+                "drive": false,
+                "tow": false,
+                "hostTickOnly": true,
+                "previewOnly": true,
+                "animatedGLB": false,
+                "exportedParticles": false,
+                "projectileSimulation": false,
+                "mechanicalRecoil": false,
+                "performanceSimulation": false,
+                "label": "\u6e38\u620f\u7f8e\u672f\u6f14\u51fa"
+              },
+              "binding": {
+                "nodes": {
+                  "body": "FZ43_ROOT",
+                  "base": "FZ43_Tripod_Base",
+                  "moving": [
+                    "FZ43_Turntable_Exterior",
+                    "FZ43_Folded_Shield",
+                    "FZ43_Upper_Exterior",
+                    "FZ43_Lower_Exterior",
+                    "FZ43_Seats_Platforms",
+                    "FZ43_Exterior_Fittings"
+                  ],
+                  "anchors": [
+                    "FZ43_Upper_Cosmetic_Anchor",
+                    "FZ43_Lower_Cosmetic_Anchor"
+                  ],
+                  "faces": [
+                    "FZ43_upper_Sealed_Front",
+                    "FZ43_lower_Sealed_Front"
+                  ]
+                },
+                "smokeAllowed": false,
+                "fixedBase": true,
+                "authorNamedAssembly": true
+              },
+              "ownedChildren": 0,
+              "fx": null,
+              "evidenceScope": "\u6e38\u620f\u7f8e\u672f\u6f14\u51fa\uff1b\u65e0\u672c\u578b\u5b9e\u5c04\u5f71\u7247\u786e\u8bc1\uff1b\u5c55\u793a\u671d\u5411\u4e0e\u540c\u65f6\u70df\u4e91\u5747\u4e3a\u827a\u672f\u8bbe\u8ba1\uff0c\u65e0\u771f\u5b9e\u53d1\u5c04\u987a\u5e8f\u6216\u65f6\u5e8f"
+            },
+            "fire": {
+              "available": false,
+              "playing": false,
+              "disposed": true,
+              "active": true,
+              "state": "disposed",
+              "mode": "display",
+              "time": 0,
+              "error": null,
+              "emissions": 0,
+              "lastAnchors": null,
+              "capabilities": {
+                "display": true,
+                "smoke": false,
+                "drive": false,
+                "tow": false,
+                "hostTickOnly": true,
+                "previewOnly": true,
+                "animatedGLB": false,
+                "exportedParticles": false,
+                "projectileSimulation": false,
+                "mechanicalRecoil": false,
+                "performanceSimulation": false,
+                "label": "\u6e38\u620f\u7f8e\u672f\u6f14\u51fa"
+              },
+              "binding": {
+                "nodes": {
+                  "body": "FZ43_ROOT",
+                  "base": "FZ43_Tripod_Base",
+                  "moving": [
+                    "FZ43_Turntable_Exterior",
+                    "FZ43_Folded_Shield",
+                    "FZ43_Upper_Exterior",
+                    "FZ43_Lower_Exterior",
+                    "FZ43_Seats_Platforms",
+                    "FZ43_Exterior_Fittings"
+                  ],
+                  "anchors": [
+                    "FZ43_Upper_Cosmetic_Anchor",
+                    "FZ43_Lower_Cosmetic_Anchor"
+                  ],
+                  "faces": [
+                    "FZ43_upper_Sealed_Front",
+                    "FZ43_lower_Sealed_Front"
+                  ]
+                },
+                "smokeAllowed": false,
+                "fixedBase": true,
+                "authorNamedAssembly": true
+              },
+              "ownedChildren": 0,
+              "fx": null,
+              "evidenceScope": "\u6e38\u620f\u7f8e\u672f\u6f14\u51fa\uff1b\u65e0\u672c\u578b\u5b9e\u5c04\u5f71\u7247\u786e\u8bc1\uff1b\u5c55\u793a\u671d\u5411\u4e0e\u540c\u65f6\u70df\u4e91\u5747\u4e3a\u827a\u672f\u8bbe\u8ba1\uff0c\u65e0\u771f\u5b9e\u53d1\u5c04\u987a\u5e8f\u6216\u65f6\u5e8f"
+            },
+            "hostTickOnly": true,
+            "staticGLBUnaffected": true
+          }
+        }
+      }
+    },
+    {
+      "name": "bounded shared Sprite cache cycle 0",
+      "ok": true,
+      "details": {
+        "cycle": 0,
+        "geometry": 1,
+        "textures": 0,
+        "calls": 0,
+        "sceneTypes": [
+          "HemisphereLight",
+          "DirectionalLight",
+          "DirectionalLight"
+        ],
+        "disposed": true
+      }
+    },
+    {
+      "name": "bounded shared Sprite cache cycle 1",
+      "ok": true,
+      "details": {
+        "cycle": 1,
+        "geometry": 1,
+        "textures": 0,
+        "calls": 0,
+        "sceneTypes": [
+          "HemisphereLight",
+          "DirectionalLight",
+          "DirectionalLight"
+        ],
+        "disposed": true
+      }
+    },
+    {
+      "name": "bounded shared Sprite cache cycle 2",
+      "ok": true,
+      "details": {
+        "cycle": 2,
+        "geometry": 1,
+        "textures": 0,
+        "calls": 0,
+        "sceneTypes": [
+          "HemisphereLight",
+          "DirectionalLight",
+          "DirectionalLight"
+        ],
+        "disposed": true
+      }
+    },
+    {
+      "name": "rapid final Flakzwilling selection wins on original canvas",
+      "ok": true
+    },
+    {
+      "name": "idle no continuous rendering",
+      "ok": true
+    },
+    {
+      "name": "inactive stops render and motion",
+      "ok": true
+    },
+    {
+      "name": "actual GPU context alive",
+      "ok": true
+    },
+    {
+      "name": "unified dispose clears canvas, workers, timers and object URLs",
+      "ok": true,
+      "details": {
+        "assetId": "flakzwilling43-visual-prop",
+        "phase": "ready",
+        "error": "",
+        "active": true,
+        "disposed": true,
+        "dirty": false,
+        "busy": false,
+        "exporting": false,
+        "hasAsset": false,
+        "exportable": false,
+        "stats": {
+          "triangles": 84712,
+          "renderedTriangles": 84712,
+          "drawCalls": 304,
+          "bytes": 5041765,
+          "texturePixels": 786432,
+          "meshes": 304,
+          "nodes": 315,
+          "generationMs": 1358
+        },
+        "epoch": 89,
+        "selection": 19,
+        "worker": false,
+        "exportWorker": false,
+        "debouncePending": false,
+        "preview": {
+          "frames": 88,
+          "invalidations": 179,
+          "pending": false,
+          "disposed": true,
+          "active": true,
+          "hidden": false,
+          "contextLost": true,
+          "geometries": 1,
+          "textures": 0,
+          "render": {
+            "calls": 304,
+            "triangles": 84712
+          },
+          "playing": false,
+          "clipName": "",
+          "skeletonVisible": false
+        },
+        "canvasCount": 0,
+        "ownedObjectURLs": 0,
+        "exploded": false,
+        "animation": {
+          "disposed": true,
+          "active": false,
+          "speed": 1,
+          "loading": false,
+          "framing": "model",
+          "motionAvailable": false,
+          "fireAvailable": false,
+          "motionPlaying": false,
+          "firePlaying": false,
+          "flakzwilling": {
+            "available": false,
+            "playing": false,
+            "disposed": true,
+            "active": true,
+            "state": "disposed",
+            "mode": "display",
+            "time": 0,
+            "error": null,
+            "emissions": 0,
+            "lastAnchors": null,
+            "capabilities": {
+              "display": true,
+              "smoke": false,
+              "drive": false,
+              "tow": false,
+              "hostTickOnly": true,
+              "previewOnly": true,
+              "animatedGLB": false,
+              "exportedParticles": false,
+              "projectileSimulation": false,
+              "mechanicalRecoil": false,
+              "performanceSimulation": false,
+              "label": "\u6e38\u620f\u7f8e\u672f\u6f14\u51fa"
+            },
+            "binding": {
+              "nodes": {
+                "body": "FZ43_ROOT",
+                "base": "FZ43_Tripod_Base",
+                "moving": [
+                  "FZ43_Turntable_Exterior",
+                  "FZ43_Folded_Shield",
+                  "FZ43_Upper_Exterior",
+                  "FZ43_Lower_Exterior",
+                  "FZ43_Seats_Platforms",
+                  "FZ43_Exterior_Fittings"
+                ],
+                "anchors": [
+                  "FZ43_Upper_Cosmetic_Anchor",
+                  "FZ43_Lower_Cosmetic_Anchor"
+                ],
+                "faces": [
+                  "FZ43_upper_Sealed_Front",
+                  "FZ43_lower_Sealed_Front"
+                ]
+              },
+              "smokeAllowed": true,
+              "fixedBase": true,
+              "authorNamedAssembly": true
+            },
+            "ownedChildren": 0,
+            "fx": null,
+            "evidenceScope": "\u6e38\u620f\u7f8e\u672f\u6f14\u51fa\uff1b\u65e0\u672c\u578b\u5b9e\u5c04\u5f71\u7247\u786e\u8bc1\uff1b\u5c55\u793a\u671d\u5411\u4e0e\u540c\u65f6\u70df\u4e91\u5747\u4e3a\u827a\u672f\u8bbe\u8ba1\uff0c\u65e0\u771f\u5b9e\u53d1\u5c04\u987a\u5e8f\u6216\u65f6\u5e8f"
+          },
+          "motion": {
+            "available": false,
+            "playing": false,
+            "disposed": true,
+            "active": true,
+            "state": "disposed",
+            "mode": "display",
+            "time": 0,
+            "error": null,
+            "emissions": 0,
+            "lastAnchors": null,
+            "capabilities": {
+              "display": true,
+              "smoke": false,
+              "drive": false,
+              "tow": false,
+              "hostTickOnly": true,
+              "previewOnly": true,
+              "animatedGLB": false,
+              "exportedParticles": false,
+              "projectileSimulation": false,
+              "mechanicalRecoil": false,
+              "performanceSimulation": false,
+              "label": "\u6e38\u620f\u7f8e\u672f\u6f14\u51fa"
+            },
+            "binding": {
+              "nodes": {
+                "body": "FZ43_ROOT",
+                "base": "FZ43_Tripod_Base",
+                "moving": [
+                  "FZ43_Turntable_Exterior",
+                  "FZ43_Folded_Shield",
+                  "FZ43_Upper_Exterior",
+                  "FZ43_Lower_Exterior",
+                  "FZ43_Seats_Platforms",
+                  "FZ43_Exterior_Fittings"
+                ],
+                "anchors": [
+                  "FZ43_Upper_Cosmetic_Anchor",
+                  "FZ43_Lower_Cosmetic_Anchor"
+                ],
+                "faces": [
+                  "FZ43_upper_Sealed_Front",
+                  "FZ43_lower_Sealed_Front"
+                ]
+              },
+              "smokeAllowed": true,
+              "fixedBase": true,
+              "authorNamedAssembly": true
+            },
+            "ownedChildren": 0,
+            "fx": null,
+            "evidenceScope": "\u6e38\u620f\u7f8e\u672f\u6f14\u51fa\uff1b\u65e0\u672c\u578b\u5b9e\u5c04\u5f71\u7247\u786e\u8bc1\uff1b\u5c55\u793a\u671d\u5411\u4e0e\u540c\u65f6\u70df\u4e91\u5747\u4e3a\u827a\u672f\u8bbe\u8ba1\uff0c\u65e0\u771f\u5b9e\u53d1\u5c04\u987a\u5e8f\u6216\u65f6\u5e8f"
+          },
+          "fire": {
+            "available": false,
+            "playing": false,
+            "disposed": true,
+            "active": true,
+            "state": "disposed",
+            "mode": "display",
+            "time": 0,
+            "error": null,
+            "emissions": 0,
+            "lastAnchors": null,
+            "capabilities": {
+              "display": true,
+              "smoke": false,
+              "drive": false,
+              "tow": false,
+              "hostTickOnly": true,
+              "previewOnly": true,
+              "animatedGLB": false,
+              "exportedParticles": false,
+              "projectileSimulation": false,
+              "mechanicalRecoil": false,
+              "performanceSimulation": false,
+              "label": "\u6e38\u620f\u7f8e\u672f\u6f14\u51fa"
+            },
+            "binding": {
+              "nodes": {
+                "body": "FZ43_ROOT",
+                "base": "FZ43_Tripod_Base",
+                "moving": [
+                  "FZ43_Turntable_Exterior",
+                  "FZ43_Folded_Shield",
+                  "FZ43_Upper_Exterior",
+                  "FZ43_Lower_Exterior",
+                  "FZ43_Seats_Platforms",
+                  "FZ43_Exterior_Fittings"
+                ],
+                "anchors": [
+                  "FZ43_Upper_Cosmetic_Anchor",
+                  "FZ43_Lower_Cosmetic_Anchor"
+                ],
+                "faces": [
+                  "FZ43_upper_Sealed_Front",
+                  "FZ43_lower_Sealed_Front"
+                ]
+              },
+              "smokeAllowed": true,
+              "fixedBase": true,
+              "authorNamedAssembly": true
+            },
+            "ownedChildren": 0,
+            "fx": null,
+            "evidenceScope": "\u6e38\u620f\u7f8e\u672f\u6f14\u51fa\uff1b\u65e0\u672c\u578b\u5b9e\u5c04\u5f71\u7247\u786e\u8bc1\uff1b\u5c55\u793a\u671d\u5411\u4e0e\u540c\u65f6\u70df\u4e91\u5747\u4e3a\u827a\u672f\u8bbe\u8ba1\uff0c\u65e0\u771f\u5b9e\u53d1\u5c04\u987a\u5e8f\u6216\u65f6\u5e8f"
+          },
+          "hostTickOnly": true,
+          "staticGLBUnaffected": true
+        }
+      }
+    },
+    {
+      "name": "no unexpected browser or shader errors",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "baseline": {
+    "stats": {
+      "triangles": 84712,
+      "renderedTriangles": 84712,
+      "drawCalls": 304,
+      "bytes": 4732382,
+      "texturePixels": 786432,
+      "meshes": 304,
+      "nodes": 315,
+      "generationMs": 1095
+    },
+    "metadata": {
+      "recipe": {
+        "generator": "flakzwilling43-visual-prop",
+        "version": "1.1.0",
+        "seed": "flakzwilling-unified-acceptance",
+        "params": {
+          "camoPattern": "original",
+          "camoEnvironment": "desert",
+          "camoScale": 1,
+          "detail": "medium",
+          "artScale": 1,
+          "shieldWidth": 1,
+          "paintColor": "#687172",
+          "roughness": 0.65,
+          "weathering": 0.3,
+          "showTripod": true,
+          "showTurntable": true,
+          "showShield": true,
+          "showUpper": true,
+          "showLower": true,
+          "showSeats": true,
+          "showFittings": true
+        },
+        "quality": "medium"
+      },
+      "surfaceProvenance": {
+        "source": "modules/material-kit/metal-finish.mjs",
+        "function": "metalFinishPixels",
+        "roles": {
+          "armorPaint": "paint",
+          "fittingPaint": "paint"
+        },
+        "color": "user paintColor passed directly to PGF metalFinishPixels; fitting role receives 0.82 color multiplier",
+        "weathering": "rust=.12*w, chips=.35*w, dirt=.22*w, wear=.30*w",
+        "normal": "linear tangent-space map",
+        "orm": "R=neutral AO, G=roughness, B=metallic",
+        "encoding": "baseColor=sRGB, normal and ORM=linear",
+        "scope": "Existing PGF deterministic masks; no invented structural weld patterns"
+      },
+      "activeParts": [
+        "FZ43_Tripod_Base",
+        "FZ43_Turntable_Exterior",
+        "FZ43_Folded_Shield",
+        "FZ43_Upper_Exterior",
+        "FZ43_Lower_Exterior",
+        "FZ43_Seats_Platforms",
+        "FZ43_Exterior_Fittings"
+      ],
+      "camouflage": {
+        "pattern": "original",
+        "environment": "desert",
+        "scale": 1,
+        "source": "PGF tank armor PBR"
+      },
+      "visualRuntime": {
+        "schema": "flakzwilling43.visual-runtime/1",
+        "bodyRoot": "FZ43_ROOT",
+        "stationaryBase": "FZ43_Tripod_Base",
+        "cosmeticAnchors": [
+          "FZ43_Upper_Cosmetic_Anchor",
+          "FZ43_Lower_Cosmetic_Anchor"
+        ],
+        "sealedFaces": [
+          "FZ43_upper_Sealed_Front",
+          "FZ43_lower_Sealed_Front"
+        ],
+        "noWheels": true,
+        "nonfunctional": true
+      },
+      "source": {
+        "kind": "Blender MCP authored closed exterior",
+        "sha256": "4f1d831d1deb439bccbd3d4686cb5c71184ec3fbb7828793b064d79b31223aa4",
+        "stage": "F2",
+        "quality": "medium"
+      },
+      "materialSource": "PGF material-kit metalFinishPixels, existing portable camouflage when selected",
+      "capabilityBoundary": {
+        "geometry": "Fixed authored multi-quality assembly with bounded art-scale and shield-width",
+        "onlineRemodeling": false,
+        "animationExported": false,
+        "functional": false,
+        "internalMechanism": false,
+        "historicalFidelity": "1944 German vertical twin exterior interpretation, not exact museum replication"
+      },
+      "export": "Static visible geometry, PBR textures, semantic hierarchy and recipe; runtime effects excluded"
+    }
+  },
+  "smoke": {
+    "available": true,
+    "playing": false,
+    "disposed": false,
+    "active": true,
+    "state": "paused",
+    "mode": "smoke",
+    "time": 0.2916666666666667,
+    "error": null,
+    "emissions": 1,
+    "lastAnchors": [
+      {
+        "position": [
+          0,
+          2.175000011920929,
+          2.487500011920929
+        ],
+        "direction": [
+          0,
+          0,
+          1
+        ],
+        "artScale": 1.25
+      },
+      {
+        "position": [
+          0,
+          1.4749999344348907,
+          2.487500011920929
+        ],
+        "direction": [
+          0,
+          0,
+          1
+        ],
+        "artScale": 1.25
+      }
+    ],
+    "capabilities": {
+      "display": true,
+      "smoke": true,
+      "drive": false,
+      "tow": false,
+      "hostTickOnly": true,
+      "previewOnly": true,
+      "animatedGLB": false,
+      "exportedParticles": false,
+      "projectileSimulation": false,
+      "mechanicalRecoil": false,
+      "performanceSimulation": false,
+      "label": "\u6e38\u620f\u7f8e\u672f\u6f14\u51fa"
+    },
+    "binding": {
+      "nodes": {
+        "body": "FZ43_ROOT",
+        "base": "FZ43_Tripod_Base",
+        "moving": [
+          "FZ43_Turntable_Exterior",
+          "FZ43_Folded_Shield",
+          "FZ43_Upper_Exterior",
+          "FZ43_Lower_Exterior",
+          "FZ43_Seats_Platforms",
+          "FZ43_Exterior_Fittings"
+        ],
+        "anchors": [
+          "FZ43_Upper_Cosmetic_Anchor",
+          "FZ43_Lower_Cosmetic_Anchor"
+        ],
+        "faces": [
+          "FZ43_upper_Sealed_Front",
+          "FZ43_lower_Sealed_Front"
+        ]
+      },
+      "smokeAllowed": true,
+      "fixedBase": true,
+      "authorNamedAssembly": true
+    },
+    "ownedChildren": 10,
+    "fx": [
+      {
+        "model": "volume-smoke-v3",
+        "visualSettings": {
+          "version": 1,
+          "flame": {
+            "length": 1,
+            "width": 1,
+            "duration": 1,
+            "opacity": 0,
+            "light": 0,
+            "turbulence": 1,
+            "shading": 0.45,
+            "tint": false,
+            "color": "#ffe5b3"
+          },
+          "muzzleSmoke": {
+            "count": 1,
+            "size": 0.6,
+            "opacity": 0.45,
+            "life": 1,
+            "spread": 0.5,
+            "rise": 0.5,
+            "turbulence": 0.7,
+            "shading": 0.7,
+            "tint": true,
+            "color": "#99998e"
+          },
+          "impactSmoke": {
+            "count": 1,
+            "size": 1,
+            "opacity": 1,
+            "life": 1,
+            "spread": 1,
+            "rise": 1,
+            "turbulence": 1,
+            "shading": 0.7,
+            "tint": false,
+            "color": "#8d8579"
+          },
+          "blastDust": {
+            "count": 1,
+            "size": 1,
+            "opacity": 1,
+            "life": 1,
+            "spread": 1,
+            "rise": 1,
+            "wind": 1,
+            "turbulence": 1,
+            "shading": 0.7,
+            "tint": false,
+            "color": "#b69a72"
+          },
+          "trackDust": {
+            "count": 1,
+            "size": 1,
+            "opacity": 1,
+            "life": 1,
+            "spread": 1,
+            "rise": 1,
+            "wind": 1,
+            "turbulence": 1,
+            "shading": 0.7,
+            "tint": false,
+            "color": "#b69a72"
+          },
+          "recoil": {
+            "travel": 1,
+            "attack": 1,
+            "return": 1,
+            "brake": 0.35
+          },
+          "body": {
+            "impulse": 1,
+            "pitch": 1,
+            "roll": 1,
+            "stiffness": 1,
+            "damping": 1
+          }
+        },
+        "preview": true,
+        "activeShots": 1,
+        "emitted": 1,
+        "materialPool": {
+          "pooled": 0,
+          "allocated": 18,
+          "reused": 0,
+          "limit": 1040
+        },
+        "engineRunning": false,
+        "exhaustLoad": 0,
+        "exhaustRate": 0,
+        "exhaustShape": "wind-torn-ribbon",
+        "exhaustEmitters": 0,
+        "exhaustCount": 0,
+        "exhaustEmitted": 0,
+        "explosionEmitted": 0,
+        "explosionParticleCount": 0,
+        "destructionActive": false,
+        "wreckFires": [],
+        "impactCount": 0,
+        "lastImpact": null,
+        "impactMarks": 0,
+        "ambientCount": 0,
+        "ambientLimit": 240,
+        "dustCount": 0,
+        "dustSurfaces": [],
+        "blastDustCount": 0,
+        "trackDustCount": 0,
+        "blastDustEmitted": 0,
+        "trackDustEmitted": 0,
+        "rotorDustCount": 0,
+        "rotorDustEmitted": 0,
+        "oldestBlastDustAge": 0,
+        "maximumDustWidth": 0,
+        "weatherDustCount": 0,
+        "weatherDustEmitted": 0,
+        "wind": {
+          "preset": "dust",
+          "direction": 65,
+          "angle": 1.1344640137963142,
+          "time": 0,
+          "enabled": false,
+          "biome": "sand",
+          "intensity": 0.38,
+          "speed": 3.4,
+          "haze": 0.56,
+          "heat": 0.85,
+          "wind": {
+            "x": 0,
+            "z": 0
+          }
+        },
+        "dustWindOffsets": [],
+        "dustLimit": 220,
+        "minimumDustGroundClearance": null,
+        "flashCount": 3,
+        "smokeCount": 8,
+        "shotSettings": [
+          {
+            "age": 0.09999999999999999,
+            "flashLength": 1,
+            "flashWidth": 1,
+            "flashDurationS": 0.085,
+            "flashOpacity": 0,
+            "flashColor": "#ffe5b3",
+            "smokeColor": "#99998e",
+            "lightIntensity": 0,
+            "smokeCount": 8,
+            "smokeLifeS": 2.1,
+            "smokeSpread": 0.2,
+            "smokeRise": 0.1
+          }
+        ],
+        "particleCount": 18,
+        "flashDurationS": 0.085,
+        "maxShots": 10,
+        "shotParticleLimit": 580
+      },
+      {
+        "model": "volume-smoke-v3",
+        "visualSettings": {
+          "version": 1,
+          "flame": {
+            "length": 1,
+            "width": 1,
+            "duration": 1,
+            "opacity": 0,
+            "light": 0,
+            "turbulence": 1,
+            "shading": 0.45,
+            "tint": false,
+            "color": "#ffe5b3"
+          },
+          "muzzleSmoke": {
+            "count": 1,
+            "size": 0.6,
+            "opacity": 0.45,
+            "life": 1,
+            "spread": 0.5,
+            "rise": 0.5,
+            "turbulence": 0.7,
+            "shading": 0.7,
+            "tint": true,
+            "color": "#99998e"
+          },
+          "impactSmoke": {
+            "count": 1,
+            "size": 1,
+            "opacity": 1,
+            "life": 1,
+            "spread": 1,
+            "rise": 1,
+            "turbulence": 1,
+            "shading": 0.7,
+            "tint": false,
+            "color": "#8d8579"
+          },
+          "blastDust": {
+            "count": 1,
+            "size": 1,
+            "opacity": 1,
+            "life": 1,
+            "spread": 1,
+            "rise": 1,
+            "wind": 1,
+            "turbulence": 1,
+            "shading": 0.7,
+            "tint": false,
+            "color": "#b69a72"
+          },
+          "trackDust": {
+            "count": 1,
+            "size": 1,
+            "opacity": 1,
+            "life": 1,
+            "spread": 1,
+            "rise": 1,
+            "wind": 1,
+            "turbulence": 1,
+            "shading": 0.7,
+            "tint": false,
+            "color": "#b69a72"
+          },
+          "recoil": {
+            "travel": 1,
+            "attack": 1,
+            "return": 1,
+            "brake": 0.35
+          },
+          "body": {
+            "impulse": 1,
+            "pitch": 1,
+            "roll": 1,
+            "stiffness": 1,
+            "damping": 1
+          }
+        },
+        "preview": true,
+        "activeShots": 1,
+        "emitted": 1,
+        "materialPool": {
+          "pooled": 0,
+          "allocated": 18,
+          "reused": 0,
+          "limit": 1040
+        },
+        "engineRunning": false,
+        "exhaustLoad": 0,
+        "exhaustRate": 0,
+        "exhaustShape": "wind-torn-ribbon",
+        "exhaustEmitters": 0,
+        "exhaustCount": 0,
+        "exhaustEmitted": 0,
+        "explosionEmitted": 0,
+        "explosionParticleCount": 0,
+        "destructionActive": false,
+        "wreckFires": [],
+        "impactCount": 0,
+        "lastImpact": null,
+        "impactMarks": 0,
+        "ambientCount": 0,
+        "ambientLimit": 240,
+        "dustCount": 0,
+        "dustSurfaces": [],
+        "blastDustCount": 0,
+        "trackDustCount": 0,
+        "blastDustEmitted": 0,
+        "trackDustEmitted": 0,
+        "rotorDustCount": 0,
+        "rotorDustEmitted": 0,
+        "oldestBlastDustAge": 0,
+        "maximumDustWidth": 0,
+        "weatherDustCount": 0,
+        "weatherDustEmitted": 0,
+        "wind": {
+          "preset": "dust",
+          "direction": 65,
+          "angle": 1.1344640137963142,
+          "time": 0,
+          "enabled": false,
+          "biome": "sand",
+          "intensity": 0.38,
+          "speed": 3.4,
+          "haze": 0.56,
+          "heat": 0.85,
+          "wind": {
+            "x": 0,
+            "z": 0
+          }
+        },
+        "dustWindOffsets": [],
+        "dustLimit": 220,
+        "minimumDustGroundClearance": null,
+        "flashCount": 3,
+        "smokeCount": 8,
+        "shotSettings": [
+          {
+            "age": 0.09999999999999999,
+            "flashLength": 1,
+            "flashWidth": 1,
+            "flashDurationS": 0.085,
+            "flashOpacity": 0,
+            "flashColor": "#ffe5b3",
+            "smokeColor": "#99998e",
+            "lightIntensity": 0,
+            "smokeCount": 8,
+            "smokeLifeS": 2.1,
+            "smokeSpread": 0.2,
+            "smokeRise": 0.1
+          }
+        ],
+        "particleCount": 18,
+        "flashDurationS": 0.085,
+        "maxShots": 10,
+        "shotParticleLimit": 580
+      }
+    ],
+    "evidenceScope": "\u6e38\u620f\u7f8e\u672f\u6f14\u51fa\uff1b\u65e0\u672c\u578b\u5b9e\u5c04\u5f71\u7247\u786e\u8bc1\uff1b\u5c55\u793a\u671d\u5411\u4e0e\u540c\u65f6\u70df\u4e91\u5747\u4e3a\u827a\u672f\u8bbe\u8ba1\uff0c\u65e0\u771f\u5b9e\u53d1\u5c04\u987a\u5e8f\u6216\u65f6\u5e8f"
+  },
+  "export": {
+    "bytes": 1808936,
+    "sha256": "sha256:5fe9cfbebf32e8f98ac3da1f99d9fd1f3dabd8dc3037bdd8123e32df67288442",
+    "meshes": 304,
+    "textures": 3,
+    "animations": 0,
+    "bounds": {
+      "min": [
+        -1.8958969227924998,
+        0,
+        -1.5774999558875
+      ],
+      "max": [
+        1.8958969227924998,
+        2.6630016861132204,
+        2.485000014249032
+      ]
+    }
+  },
+  "sharedSpriteCache": {
+    "source": "three@0.180.0/src/objects/Sprite.js module-global geometry; borrowed, never disposed by runtime",
+    "cycles": [
+      {
+        "cycle": 0,
+        "geometry": 1,
+        "textures": 0,
+        "calls": 0,
+        "sceneTypes": [
+          "HemisphereLight",
+          "DirectionalLight",
+          "DirectionalLight"
+        ],
+        "disposed": true
+      },
+      {
+        "cycle": 1,
+        "geometry": 1,
+        "textures": 0,
+        "calls": 0,
+        "sceneTypes": [
+          "HemisphereLight",
+          "DirectionalLight",
+          "DirectionalLight"
+        ],
+        "disposed": true
+      },
+      {
+        "cycle": 2,
+        "geometry": 1,
+        "textures": 0,
+        "calls": 0,
+        "sceneTypes": [
+          "HemisphereLight",
+          "DirectionalLight",
+          "DirectionalLight"
+        ],
+        "disposed": true
+      }
+    ]
+  },
+  "status": "passed",
+  "completed": "2026-10-12T09:29:46.480Z",
+  "visual": {
+    "scope": "actual original PGF canvas, same renderer, paused deterministic art-time sampling",
+    "viewport": {
+      "width": 950,
+      "height": 547,
+      "canvasWidth": 366,
+      "canvasHeight": 455
+    },
+    "spritePixels": [
+      {
+        "time": 0,
+        "smoke": 0,
+        "flame": 0
+      },
+      {
+        "time": 0.4,
+        "smoke": 18,
+        "flame": 0
+      },
+      {
+        "time": 0.8,
+        "smoke": 26,
+        "flame": 0
+      },
+      {
+        "time": 1.2000000000000002,
+        "smoke": 24,
+        "flame": 0
+      },
+      {
+        "time": 1.6,
+        "smoke": 16,
+        "flame": 0
+      },
+      {
+        "time": 2,
+        "smoke": 16,
+        "flame": 0
+      },
+      {
+        "time": 2.4000000000000004,
+        "smoke": 6,
+        "flame": 0
+      },
+      {
+        "time": 2.8000000000000003,
+        "smoke": 0,
+        "flame": 0
+      },
+      {
+        "time": 3.2,
+        "smoke": 0,
+        "flame": 0
+      },
+      {
+        "time": 3.6,
+        "smoke": 0,
+        "flame": 0
+      }
+    ],
+    "status": "passed",
+    "completed": "2026-10-12T09:49:25.253Z",
+    "sampling": "paused seek samples from original renderer, not continuous real-time video",
+    "framing": "model close-up, static mesh projected limiting axis75%; full presentation remains a separate UI mode"
+  }
+}

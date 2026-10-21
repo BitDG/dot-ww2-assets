@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-21T10:54:07.535482+00:00",
+  "environment": "executable",
+  "created": [
+    "independent repository /workspace/dot-ww2-assets",
+    "11 actual default GLB + recipes",
+    "gallery source and production build",
+    "model/source/provenance evidence",
+    "N41 actual Blender render",
+    "Kar98k preparation documents"
+  ],
+  "commits": "none yet; initial content staged, remote main checked empty",
+  "kar98kBlenderMCP": "not exposed in available tools; no callable MCP, no modeling executed",
+  "blockers": [
+    {
+      "action": "Kar98k original concept sheet",
+      "status": "denied",
+      "reason": "imagegen moderation_blocked violence; no image; no retry"
+    },
+    {
+      "action": "Kar98k Blender MCP modeling",
+      "status": "unavailable",
+      "reason": "no approved callable MCP connection; requires parent/user to provide authorized existing connector or explicitly arrange installation if needed"
+    },
+    {
+      "action": "Firefox browser acceptance",
+      "status": "not-run",
+      "reason": "Firefox executable absent; no browser installed, no Chromium substitution"
+    },
+    {
+      "action": "F6 Library download",
+      "status": "not-retried",
+      "reason": "prior proxy 403 unchanged"
+    },
+    {
+      "action": "Museum photo fetch",
+      "status": "denied",
+      "reason": "NAM proxy 403, IWM 403; text reference only"
+    }
+  ],
+  "currentChecks": {
+    "modelGLBReadback": "11 passed",
+    "nodeTests": "88 passed before wording change; targeted test detected waiting-status wording mismatch, correcting actual copy",
+    "productionResources": "88 files HTTP/hash passed"
+  },
+  "publishing": "not yet executed; no approval blocker for already authorized repository push"
+}

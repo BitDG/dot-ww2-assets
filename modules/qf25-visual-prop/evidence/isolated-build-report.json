@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "bundledAssets": [
+    {
+      "file": "evidence/isolated-dist/assets/QF25-Q1-geometry-Dj_8BiXS.glb",
+      "source": "QF25-Q1-geometry.glb",
+      "sha256": "840f730f000e9cdd3df0fd0560c7ce926af1c6b22a65586f00a297dc754cf147"
+    },
+    {
+      "file": "evidence/isolated-dist/assets/QF25-Q1-low-CBA8u6zP.glb",
+      "source": "QF25-Q1-low.glb",
+      "sha256": "e0a63817cf4a4ef916353df69c7cf94c63eb8da495be66a17fec285246e95135"
+    },
+    {
+      "file": "evidence/isolated-dist/assets/QF25-Q1-high-BVjoYFge.glb",
+      "source": "QF25-Q1-high.glb",
+      "sha256": "989773c1ab75304655ad67279387419573ae8ba45112ac4bcf3802ca9cb31e47"
+    }
+  ],
+  "workers": [
+    "evidence/isolated-dist/assets/worker-RuENcwBO.js"
+  ],
+  "scope": "actual Vite 8.3.0 isolated production workbench+Worker bundle, no browser claim"
+}

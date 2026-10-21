@@ -1,0 +1,600 @@
+{
+  "status": "PASS_ACTUAL_TEN_VIEW_RENDER_AND_UNCHANGED_CORE",
+  "timeUTC": "2026-10-14T04:59:45.661260+00:00",
+  "sourceGLB": "LM-L3-PGF-medium.glb",
+  "sourceSHA256": "d6703405e775e90e2fd6f6d284a202bbb05e3cf564b6c280b28d0a5be3fc1e39",
+  "sourceTriangles": 48036,
+  "assetMeshes": 26,
+  "nativeReviewFile": "LM-L3-PGF-review-scenes.blend",
+  "unchangedFreezeFiles": 14,
+  "originalRenderViews": [
+    {
+      "view": "hero",
+      "assetMeshes": 26,
+      "assetFrameBounds": {
+        "xMin": -0.7308973688067812,
+        "xMax": 0.6371513280001554,
+        "yMin": -0.8174676349267413,
+        "yMax": 0.9423266067248001
+      },
+      "fullViewUncropped": true,
+      "path": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-hero.png",
+      "sourceGlb": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-medium.glb",
+      "sourceGlbSha256": "d6703405e775e90e2fd6f6d284a202bbb05e3cf564b6c280b28d0a5be3fc1e39",
+      "renderer": "Blender Cycles CPU",
+      "samples": 192,
+      "denoising": false,
+      "projection": "ORTHO",
+      "position": [
+        -8.0,
+        -10.0,
+        7.0
+      ],
+      "rotationEuler": [
+        1.1360948085784912,
+        3.394984204874163e-08,
+        -0.7094368934631348
+      ],
+      "target": [
+        0.0,
+        -0.6819646954536438,
+        1.2975877523422241
+      ],
+      "orthoScale": 6.6,
+      "boundsMin": [
+        -1.3140000104904175,
+        -3.072000026702881,
+        -0.003241240978240967
+      ],
+      "boundsMax": [
+        1.3140000104904175,
+        1.7080706357955933,
+        2.598416805267334
+      ],
+      "imageSize": [
+        1280,
+        900
+      ],
+      "source": "Actual exported PGF GLB reimport; no generated-image geometry substitution",
+      "performanceClaim": "No GPU performance measurement",
+      "fileSHA256": "9553305d789a738b3af90be94eda5eb0dcfd1d02f905dce0cda64395294cdd97",
+      "receiptSHA256": "cd626a9989fe9d2403f4f2b1616a8b37a64136c2f24997216158a7bbc914564e",
+      "pixelStddev": [
+        43.06002414657236,
+        41.29639979402926,
+        41.32380002837444
+      ]
+    },
+    {
+      "view": "side",
+      "assetMeshes": 26,
+      "assetFrameBounds": {
+        "xMin": -0.8241498881372913,
+        "xMax": 0.8241503814171101,
+        "yMin": -0.6379548873024425,
+        "yMax": 0.6379540688233357
+      },
+      "fullViewUncropped": true,
+      "path": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-side.png",
+      "sourceGlb": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-medium.glb",
+      "sourceGlbSha256": "d6703405e775e90e2fd6f6d284a202bbb05e3cf564b6c280b28d0a5be3fc1e39",
+      "renderer": "Blender Cycles CPU",
+      "samples": 192,
+      "denoising": false,
+      "projection": "ORTHO",
+      "position": [
+        18.0,
+        -0.6819646954536438,
+        1.2975877523422241
+      ],
+      "rotationEuler": [
+        1.5707963705062866,
+        -0.0,
+        1.5707963705062866
+      ],
+      "target": [
+        0.0,
+        -0.6819646954536438,
+        1.2975877523422241
+      ],
+      "orthoScale": 5.8,
+      "boundsMin": [
+        -1.3140000104904175,
+        -3.072000026702881,
+        -0.003241240978240967
+      ],
+      "boundsMax": [
+        1.3140000104904175,
+        1.7080706357955933,
+        2.598416805267334
+      ],
+      "imageSize": [
+        1280,
+        900
+      ],
+      "source": "Actual exported PGF GLB reimport; no generated-image geometry substitution",
+      "performanceClaim": "No GPU performance measurement",
+      "fileSHA256": "f6cfe675794bc2121dcd7d774dd5a8813772ae4cbfdbdd4494d78a8963f2d896",
+      "receiptSHA256": "2f608bbc112a71c47bdbb709d9e38b9f4473c9f63febf271c869c2948d1391c4",
+      "pixelStddev": [
+        23.00783435272434,
+        21.356622397066147,
+        21.30825463180727
+      ]
+    },
+    {
+      "view": "top",
+      "assetMeshes": 26,
+      "assetFrameBounds": {
+        "xMin": -0.8241501347772007,
+        "xMax": 0.8241501347772007,
+        "yMin": -0.6444138567109674,
+        "yMax": 0.6444137982481741
+      },
+      "fullViewUncropped": true,
+      "path": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-top.png",
+      "sourceGlb": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-medium.glb",
+      "sourceGlbSha256": "d6703405e775e90e2fd6f6d284a202bbb05e3cf564b6c280b28d0a5be3fc1e39",
+      "renderer": "Blender Cycles CPU",
+      "samples": 192,
+      "denoising": false,
+      "projection": "ORTHO",
+      "position": [
+        0.0,
+        -0.6819646954536438,
+        20.0
+      ],
+      "rotationEuler": [
+        0.0,
+        0.0,
+        1.5707963705062866
+      ],
+      "target": [
+        0.0,
+        -0.6819646954536438,
+        1.2975877523422241
+      ],
+      "orthoScale": 5.8,
+      "boundsMin": [
+        -1.3140000104904175,
+        -3.072000026702881,
+        -0.003241240978240967
+      ],
+      "boundsMax": [
+        1.3140000104904175,
+        1.7080706357955933,
+        2.598416805267334
+      ],
+      "imageSize": [
+        1280,
+        900
+      ],
+      "source": "Actual exported PGF GLB reimport; no generated-image geometry substitution",
+      "performanceClaim": "No GPU performance measurement",
+      "fileSHA256": "b6c133276bacd721797d07a36a1a09789a813ab849c7eea7f8001e298f208e36",
+      "receiptSHA256": "66a5c21b683111b19b210d7dec17ba19ba0a9910c3ad8b4698b8950cabeab60d",
+      "pixelStddev": [
+        27.267042256374193,
+        25.424519208324515,
+        25.567977682909824
+      ]
+    },
+    {
+      "view": "front",
+      "assetMeshes": 26,
+      "assetFrameBounds": {
+        "xMin": -0.5840000046624078,
+        "xMax": 0.5840000046624078,
+        "yMin": -0.8222543975453318,
+        "yMax": 0.8222507052951389
+      },
+      "fullViewUncropped": true,
+      "path": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-front.png",
+      "sourceGlb": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-medium.glb",
+      "sourceGlbSha256": "d6703405e775e90e2fd6f6d284a202bbb05e3cf564b6c280b28d0a5be3fc1e39",
+      "renderer": "Blender Cycles CPU",
+      "samples": 192,
+      "denoising": false,
+      "projection": "ORTHO",
+      "position": [
+        0.0,
+        -18.0,
+        1.2975877523422241
+      ],
+      "rotationEuler": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "target": [
+        0.0,
+        -0.6819646954536438,
+        1.2975877523422241
+      ],
+      "orthoScale": 4.5,
+      "boundsMin": [
+        -1.3140000104904175,
+        -3.072000026702881,
+        -0.003241240978240967
+      ],
+      "boundsMax": [
+        1.3140000104904175,
+        1.7080706357955933,
+        2.598416805267334
+      ],
+      "imageSize": [
+        1280,
+        900
+      ],
+      "source": "Actual exported PGF GLB reimport; no generated-image geometry substitution",
+      "performanceClaim": "No GPU performance measurement",
+      "fileSHA256": "acd2a52f2683eda4cafdf7b79c8ec56d45bad4b52bde0b99cf989e1b686d8b30",
+      "receiptSHA256": "5f2e526f675db1e51f36ae0cd52f0f09eb2c2fea3d01475d172f76af6bb5d753",
+      "pixelStddev": [
+        49.07939368939468,
+        47.399650772088684,
+        47.016750661282636
+      ]
+    },
+    {
+      "view": "detail01-mouths",
+      "assetMeshes": 26,
+      "assetFrameBounds": {
+        "xMin": -1.5058869974953788,
+        "xMax": 1.0437804460525513,
+        "yMin": -2.1012747628348216,
+        "yMax": 1.2873082236638145
+      },
+      "fullViewUncropped": false,
+      "path": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-detail01-mouths.png",
+      "sourceGlb": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-medium.glb",
+      "sourceGlbSha256": "d6703405e775e90e2fd6f6d284a202bbb05e3cf564b6c280b28d0a5be3fc1e39",
+      "renderer": "Blender Cycles CPU",
+      "samples": 192,
+      "denoising": false,
+      "projection": "ORTHO",
+      "position": [
+        -2.200000047683716,
+        -8.0,
+        3.0999999046325684
+      ],
+      "rotationEuler": [
+        1.396785020828247,
+        -1.3899484230250891e-08,
+        -0.31612008810043335
+      ],
+      "target": [
+        0.0,
+        -1.2740000486373901,
+        1.8559999465942383
+      ],
+      "orthoScale": 2.8,
+      "boundsMin": [
+        -1.3140000104904175,
+        -3.072000026702881,
+        -0.003241240978240967
+      ],
+      "boundsMax": [
+        1.3140000104904175,
+        1.7080706357955933,
+        2.598416805267334
+      ],
+      "imageSize": [
+        1280,
+        900
+      ],
+      "source": "Actual exported PGF GLB reimport; no generated-image geometry substitution",
+      "performanceClaim": "No GPU performance measurement",
+      "fileSHA256": "7e48fecd44c95544a6989d3c62c2c36bfc64b25445d3752c7b21c7536f5df732",
+      "receiptSHA256": "177d9353e86fc27c9b1f8c1daf105ed6c06c56987b3fb996418bf5d325dd76f2",
+      "pixelStddev": [
+        62.02868140650814,
+        60.416431989810015,
+        59.824937651478194
+      ]
+    },
+    {
+      "view": "detail02-side-frame",
+      "assetMeshes": 26,
+      "assetFrameBounds": {
+        "xMin": -1.3817902233289636,
+        "xMax": 2.6826576564622964,
+        "yMin": -1.6430885204370471,
+        "yMax": 2.405521411250755
+      },
+      "fullViewUncropped": false,
+      "path": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-detail02-side-frame.png",
+      "sourceGlb": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-medium.glb",
+      "sourceGlbSha256": "d6703405e775e90e2fd6f6d284a202bbb05e3cf564b6c280b28d0a5be3fc1e39",
+      "renderer": "Blender Cycles CPU",
+      "samples": 192,
+      "denoising": false,
+      "projection": "ORTHO",
+      "position": [
+        -5.0,
+        -4.0,
+        2.299999952316284
+      ],
+      "rotationEuler": [
+        1.3678174018859863,
+        4.000400721793085e-08,
+        -0.8339280486106873
+      ],
+      "target": [
+        -0.7900000214576721,
+        -0.18000000715255737,
+        1.1299999952316284
+      ],
+      "orthoScale": 2.3,
+      "boundsMin": [
+        -1.3140000104904175,
+        -3.072000026702881,
+        -0.003241240978240967
+      ],
+      "boundsMax": [
+        1.3140000104904175,
+        1.7080706357955933,
+        2.598416805267334
+      ],
+      "imageSize": [
+        1280,
+        900
+      ],
+      "source": "Actual exported PGF GLB reimport; no generated-image geometry substitution",
+      "performanceClaim": "No GPU performance measurement",
+      "fileSHA256": "f7ba5db399e23c5ad2d6751b077bd625f5f97ba71c66f761460638e02af4c53b",
+      "receiptSHA256": "1cae773e2331302e1bafae2260bab356b97e75c90919a0b7b4a0b23f596bbe9b",
+      "pixelStddev": [
+        45.3410974988606,
+        45.111229081265094,
+        44.80847548325084
+      ]
+    },
+    {
+      "view": "detail03-wheel",
+      "assetMeshes": 26,
+      "assetFrameBounds": {
+        "xMin": -1.0532695538288839,
+        "xMax": 4.201269149780273,
+        "yMin": -0.9544324903516798,
+        "yMax": 3.911360823714339
+      },
+      "fullViewUncropped": false,
+      "path": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-detail03-wheel.png",
+      "sourceGlb": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-medium.glb",
+      "sourceGlbSha256": "d6703405e775e90e2fd6f6d284a202bbb05e3cf564b6c280b28d0a5be3fc1e39",
+      "renderer": "Blender Cycles CPU",
+      "samples": 192,
+      "denoising": false,
+      "projection": "ORTHO",
+      "position": [
+        -5.0,
+        -0.10000000149011612,
+        1.7000000476837158
+      ],
+      "rotationEuler": [
+        1.2939791679382324,
+        -1.6800710156417153e-08,
+        -1.3768372535705566
+      ],
+      "target": [
+        -1.0800000429153442,
+        0.6700000166893005,
+        0.5649999976158142
+      ],
+      "orthoScale": 1.85,
+      "boundsMin": [
+        -1.3140000104904175,
+        -3.072000026702881,
+        -0.003241240978240967
+      ],
+      "boundsMax": [
+        1.3140000104904175,
+        1.7080706357955933,
+        2.598416805267334
+      ],
+      "imageSize": [
+        1280,
+        900
+      ],
+      "source": "Actual exported PGF GLB reimport; no generated-image geometry substitution",
+      "performanceClaim": "No GPU performance measurement",
+      "fileSHA256": "5dea794efa3ccb1329ebd02486025a9ea17647b01991b96cdaf687ab690c2700",
+      "receiptSHA256": "f70602718d7b13e34b580cfe24ecf2b1c1509a5bf33a9394f600d11b714dd963",
+      "pixelStddev": [
+        55.08883655157804,
+        53.54510390206157,
+        53.191501835956984
+      ]
+    },
+    {
+      "view": "detail04-fender",
+      "assetMeshes": 26,
+      "assetFrameBounds": {
+        "xMin": -0.7642748809996105,
+        "xMax": 3.722146579197475,
+        "yMin": -2.489897228422619,
+        "yMax": 3.277800060453869
+      },
+      "fullViewUncropped": false,
+      "path": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-detail04-fender.png",
+      "sourceGlb": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-medium.glb",
+      "sourceGlbSha256": "d6703405e775e90e2fd6f6d284a202bbb05e3cf564b6c280b28d0a5be3fc1e39",
+      "renderer": "Blender Cycles CPU",
+      "samples": 192,
+      "denoising": false,
+      "projection": "ORTHO",
+      "position": [
+        -4.0,
+        -1.7999999523162842,
+        3.4000000953674316
+      ],
+      "rotationEuler": [
+        1.0271283388137817,
+        -5.245829015620984e-08,
+        -0.8747121691703796
+      ],
+      "target": [
+        -1.0800000429153442,
+        0.6399999856948853,
+        1.100000023841858
+      ],
+      "orthoScale": 2.1,
+      "boundsMin": [
+        -1.3140000104904175,
+        -3.072000026702881,
+        -0.003241240978240967
+      ],
+      "boundsMax": [
+        1.3140000104904175,
+        1.7080706357955933,
+        2.598416805267334
+      ],
+      "imageSize": [
+        1280,
+        900
+      ],
+      "source": "Actual exported PGF GLB reimport; no generated-image geometry substitution",
+      "performanceClaim": "No GPU performance measurement",
+      "fileSHA256": "8999a9bcf0d28b80541f52c4b6214d364dab1899fb6b8981544df87ca70da0c0",
+      "receiptSHA256": "36f6d74519f96c5b9e63e801d9074460b4a008580adad7191479dc0f578eae57",
+      "pixelStddev": [
+        51.610695548162965,
+        49.93699612308776,
+        49.99653805768618
+      ]
+    },
+    {
+      "view": "detail05-drawbar",
+      "assetMeshes": 26,
+      "assetFrameBounds": {
+        "xMin": -2.882558573847232,
+        "xMax": 1.1785911477130393,
+        "yMin": -1.1118779574039477,
+        "yMax": 4.258508359752415
+      },
+      "fullViewUncropped": false,
+      "path": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-detail05-drawbar.png",
+      "sourceGlb": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-medium.glb",
+      "sourceGlbSha256": "d6703405e775e90e2fd6f6d284a202bbb05e3cf564b6c280b28d0a5be3fc1e39",
+      "renderer": "Blender Cycles CPU",
+      "samples": 192,
+      "denoising": false,
+      "projection": "ORTHO",
+      "position": [
+        -3.5,
+        -5.0,
+        3.4000000953674316
+      ],
+      "rotationEuler": [
+        1.0112841129302979,
+        1.0608758316266176e-07,
+        -0.8301443457603455
+      ],
+      "target": [
+        0.0,
+        -1.7999999523162842,
+        0.4300000071525574
+      ],
+      "orthoScale": 2.3,
+      "boundsMin": [
+        -1.3140000104904175,
+        -3.072000026702881,
+        -0.003241240978240967
+      ],
+      "boundsMax": [
+        1.3140000104904175,
+        1.7080706357955933,
+        2.598416805267334
+      ],
+      "imageSize": [
+        1280,
+        900
+      ],
+      "source": "Actual exported PGF GLB reimport; no generated-image geometry substitution",
+      "performanceClaim": "No GPU performance measurement",
+      "fileSHA256": "f8397bc9528387b1e1fc99f0d5c80a0db3e42c41d0f0b881b485929210e29416",
+      "receiptSHA256": "4e328f50f878f9646b8b3132cc0e9cca9ebe3f4de43b3835dd18ba188aa8b697",
+      "pixelStddev": [
+        35.052623633706645,
+        33.40281080319408,
+        33.55649754229623
+      ]
+    },
+    {
+      "view": "detail06-carriage",
+      "assetMeshes": 26,
+      "assetFrameBounds": {
+        "xMin": -0.8212500065565109,
+        "xMax": 0.8212500065565109,
+        "yMin": -0.4332268238067627,
+        "yMax": 1.8946153852674696
+      },
+      "fullViewUncropped": false,
+      "path": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-detail06-carriage.png",
+      "sourceGlb": "/workspace/scratch/6a4c729be230/land-mattress-production/evidence/final/LM-L3-PGF-medium.glb",
+      "sourceGlbSha256": "d6703405e775e90e2fd6f6d284a202bbb05e3cf564b6c280b28d0a5be3fc1e39",
+      "renderer": "Blender Cycles CPU",
+      "samples": 192,
+      "denoising": false,
+      "projection": "ORTHO",
+      "position": [
+        0.0,
+        -4.0,
+        0.44999998807907104
+      ],
+      "rotationEuler": [
+        1.5773179531097412,
+        -0.0,
+        0.0
+      ],
+      "target": [
+        0.0,
+        0.6000000238418579,
+        0.47999998927116394
+      ],
+      "orthoScale": 3.2,
+      "boundsMin": [
+        -1.3140000104904175,
+        -3.072000026702881,
+        -0.003241240978240967
+      ],
+      "boundsMax": [
+        1.3140000104904175,
+        1.7080706357955933,
+        2.598416805267334
+      ],
+      "imageSize": [
+        1280,
+        900
+      ],
+      "source": "Actual exported PGF GLB reimport; no generated-image geometry substitution",
+      "performanceClaim": "No GPU performance measurement",
+      "fileSHA256": "10a40b016398844e9240af05fdad307c86bc2ee4dd050b6323e583486572ff4e",
+      "receiptSHA256": "2e8afe8043ca19c6dd13b516f4d88be09c772bf5a34b3a8e346ed908a63ca44a",
+      "pixelStddev": [
+        48.948262872681916,
+        47.22135921649611,
+        46.87941966175873
+      ]
+    }
+  ],
+  "renderEngine": "Blender4.3.2 Cycles CPU192, no denoising",
+  "orthographicChecks": {
+    "fullViewsUncropped": true,
+    "topStrict90Degrees": true,
+    "frontObservedRows": 5,
+    "frontObservedColumns": 6,
+    "topObservedColumns": 6,
+    "sideObservedLayers": 5
+  },
+  "noGeometryOrMaterialReplacementForRendering": true,
+  "historicalAccuracy": "No percentage claimed; No.8 Mk I 1945 exterior interpretation, supports and hidden surfaces artistically inferred",
+  "animation": "None, static nonfunctional exterior only",
+  "qualityObservation": "Actual original renders manually viewed. Modest Cycles CPU grain remains in dark shadows; no GPU performance or engineering claim.",
+  "nativeReviewSHA256": "36c397bdf1f6f530f3608ac2b99353fc4785f379bb69d3704fd001fb8c17eb33",
+  "nativePackedImages": 30,
+  "nativeReadback": "PASS_INDEPENDENT_NATIVE_BLEND_READBACK",
+  "manualViewReview": "All ten raw views and both composed sheets inspected; mouths5x6, top6 columns, side5 layers; no mismatched source or material",
+  "lastDetailAdjustment": "Same source GLB, low frontal camera reveals carriage/display supports; rear camera retained as superseded local evidence"
+}

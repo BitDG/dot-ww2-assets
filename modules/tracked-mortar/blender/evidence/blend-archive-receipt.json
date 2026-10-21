@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "reason": "Publishing connector request size limit; lossless gzip, not geometry modification",
+  "archive": "modules/tracked-mortar/blender/pgf-tank-reimport-verified.blend.gz",
+  "archiveBytes": 3150961,
+  "archiveSHA256": "719de29c345a720f3b81f1c88288c4598e525de2a45b67fd701c219b7c53da38",
+  "restoredFile": "pgf-tank-reimport-verified.blend",
+  "restoredBytes": 12773786,
+  "restoredSHA256": "503d9f3cf691f940ba8775e0e2724466123ee786e2340b8dab934e6a10d01786",
+  "decompressionByteIdentity": true,
+  "restoreCommand": "gzip -dk modules/tracked-mortar/blender/pgf-tank-reimport-verified.blend.gz"
+}

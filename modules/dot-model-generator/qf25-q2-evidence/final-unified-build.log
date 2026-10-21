@@ -1,0 +1,18 @@
+vite v8.3.0 building client environment for production...
+transforming...
+✓ 136 modules transformed.
+rendering chunks...
+computing gzip size...
+.runtime/final-unified-build/assets/stage-comet-CziWE3ae.glb            22.42 kB
+.runtime/final-unified-build/assets/asset-export.worker-BjK2yNhg.js  1,958.05 kB
+.runtime/final-unified-build/assets/FZ43-F2-low-FtZgyZCa.glb         3,002.17 kB
+.runtime/final-unified-build/assets/QF25-Q2-low-CLtIXmQV.glb         3,123.20 kB
+.runtime/final-unified-build/assets/FZ43-F2-geometry-opN2Ds-d.glb    4,087.29 kB
+.runtime/final-unified-build/assets/QF25-Q2-geometry-BluJoDkZ.glb    4,836.73 kB
+.runtime/final-unified-build/assets/FZ43-F2-high-CEZjspmx.glb        4,857.24 kB
+.runtime/final-unified-build/assets/N41-N2-geometry-BSnUypR9.glb     5,064.75 kB
+.runtime/final-unified-build/assets/QF25-Q2-high-Ch3fVtxz.glb        5,689.36 kB
+.runtime/final-unified-build/assets/workbench-Dc85Bi9Y.css               7.68 kB │ gzip:  2.10 kB
+.runtime/final-unified-build/assets/workbench-UJucSAJL.js              285.35 kB │ gzip: 64.52 kB
+
+✓ built in 1.21s

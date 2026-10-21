@@ -1,0 +1,898 @@
+{
+  "taskId": "reference-armored-car-blender-rebuild",
+  "stage": "05-final-scoped-browser-acceptance",
+  "status": "Frozen final review payload; implementation and listed tests PASS. Parent owns independent review/publication.",
+  "baseline": "BitDG/PGF main02681b6 source snapshot",
+  "generatorId": "reference-armored-car",
+  "generatorVersion": "1.1.0",
+  "visualRevision": "2026-10-10-blender-brown-diamond-tank-finish",
+  "payloadRoot": "/workspace/scratch/6a4c729be230/pgf-armored-stage05-payload",
+  "priorSnapshots": "Original stage03, stage04 and stage04b remain immutable. This is the current full selected-file snapshot, including historical structural prerequisites.",
+  "scope": "Own reference-armored-car module, dev/reference-armored-car-blender-* and the one parent-authorized new tank facade; no existing tank/shared runtime/registry/package/lock edits",
+  "checks": {
+    "BlenderMCP": "PASS including actual native compressed .blend reopen snapshot equality",
+    "nodeWorker": "17/17 PASS, pinned Three0.180.0",
+    "GLB": "12 canonical variants plus real Firefox downloads validated",
+    "tankMaterials": "Existing source interface reused;45 painters exercised; representative full-resolution parity",
+    "browser": "Actual native Firefox157.0.1 scoped workbench/review checks PASS; details and limits in browser-acceptance.json",
+    "previewBuild": "PASS,Vite8.1.5 isolated two-module shell build; final build5.17seconds",
+    "sourceSyntax": "15 Python AST parses and all owned JS node--check PASS",
+    "presetArtwork": "four actual500x380 canonicalGLB Three PNGs, visible resolved params, distinct hashes, static URLs and real workbench display PASS"
+  },
+  "notRun": [
+    "Full PGF production build with pinned Vite8.3.0",
+    "PGF stdio MCP end-to-end; no extra server dependencies installed",
+    "Dynamic GIF/recording; current documented native tools lack recording API and parent approved explicit limitation"
+  ],
+  "dynamicInterfaceScope": "Offline modular source and runtime parameter assembly; rigid visual pose controls plus7sockets, material/flags/three detail tiers, preview-only explode, shared Worker cancellation/idle/disposal. No live Blender per slider, simulation or operational weapon behavior.",
+  "sourceAndMaterialBindings": "authoring/final-delivery.json and authoring/final-contract.json provide individual SHA-256 bindings; all packaged files additionally listed below",
+  "excluded": [
+    "Old white-star photo/depth projection assets and unused reference-finish.mjs unchanged legacy file",
+    "venv,node_modules,credentials,.blend1 backups and unneeded duplicated twelve-variant binaries",
+    "Other modules except the single approved additive tank facade"
+  ],
+  "fileCount": 172,
+  "totalBytes": 100017759,
+  "files": [
+    {
+      "path": "dev/reference-armored-car-blender-acceptance.mjs",
+      "bytes": 2839,
+      "sha256": "a7f1b6afe281a7daf779319297be3edd9044fce72f7d6e28706a93af4d42bd7d"
+    },
+    {
+      "path": "dev/reference-armored-car-blender-audit.mjs",
+      "bytes": 3915,
+      "sha256": "5752cb59b51911cd4d9b77effaabe5b756561f60b17c5a7f35bfbb763d91823d"
+    },
+    {
+      "path": "dev/reference-armored-car-blender-browser-downloads.mjs",
+      "bytes": 7162,
+      "sha256": "55da07de2ed995dff293804ab2d7462d1d082c9ebe6e33d21736292caa80ba74"
+    },
+    {
+      "path": "dev/reference-armored-car-blender-build.py",
+      "bytes": 15818,
+      "sha256": "c73058bb56c4c41f784150b409dab65285d4b8decf8b3703939b734a23d8abad"
+    },
+    {
+      "path": "dev/reference-armored-car-blender-camo-render.py",
+      "bytes": 2679,
+      "sha256": "6518d15ab2bd5806e88383723ae4625c25d365af3d02b2934ac0afb25e76ca6f"
+    },
+    {
+      "path": "dev/reference-armored-car-blender-compile.mjs",
+      "bytes": 3254,
+      "sha256": "a6921d439a9e3bdff48b90e6e86c8352ba64f472fb049a6cdc9dc760f97ce130"
+    },
+    {
+      "path": "dev/reference-armored-car-blender-compress.py",
+      "bytes": 3729,
+      "sha256": "7fb10a5545c33453da61a9ab773f5d241d25ee9d47a44aa07016c1f4b5ca4686"
+    },
+    {
+      "path": "dev/reference-armored-car-blender-compression-report.mjs",
+      "bytes": 1331,
+      "sha256": "9b60e6f7f2dab0e81977d79ea64ea73ed232f6e5723fba8894c710a711a95b40"
+    },
+    {
+      "path": "dev/reference-armored-car-blender-detail.py",
+      "bytes": 18231,
+      "sha256": "41b49aef9e37de2754829163e36a2236f4b0a2851179058240734a9ef6923509"
+    },
+    {
+      "path": "dev/reference-armored-car-blender-export.py",
+      "bytes": 3290,
+      "sha256": "3c56958bf4113c7e239ffadea838f638d9c0b440f57b8385ee7c9b83fc7493cd"
+    },
+    {
+      "path": "dev/reference-armored-car-blender-final-render.py",
+      "bytes": 5196,
+      "sha256": "0bbd98a8430291796b0103c12ded3c6996e11eb08f72d80b4a17c05ee43749eb"
+    },
+    {
+      "path": "dev/reference-armored-car-blender-fit-pbr.py",
+      "bytes": 9415,
+      "sha256": "f6f2ee0efff282fcb00afc3dd0ef16d2b7484c46f68e3dcdac339c92b2d639eb"
+    },
+    {
+      "path": "dev/reference-armored-car-blender-marking-fit.py",
+      "bytes": 823,
+      "sha256": "e0db09313708380d69b25b7e0a7eecfa74588216b8109642c58105eaafc8f7c8"
+    },
+    {
+      "path": "dev/reference-armored-car-blender-multiangle.py",
+      "bytes": 2903,
+      "sha256": "d6fd4b2bfd221793e22eb4377b352f8b8ed317f4064aea5076d8100e9face768"
+    },
+    {
+      "path": "dev/reference-armored-car-blender-pbr.py",
+      "bytes": 2517,
+      "sha256": "0b3a1933d5dff8c67b6ab8d818352313241d2a419913a8a50f09bdbddd0f9919"
+    },
+    {
+      "path": "dev/reference-armored-car-blender-preview.mjs",
+      "bytes": 920,
+      "sha256": "706e34664c2966ed93a3bd44a3aeb74e57195a3b8616e474bc1275c1254027d7"
+    },
+    {
+      "path": "dev/reference-armored-car-blender-render.py",
+      "bytes": 1855,
+      "sha256": "85043c11bc218908111e56265fbe7c61215a00501bc27e75b1a643aaf36cfca8"
+    },
+    {
+      "path": "dev/reference-armored-car-blender-runtime-render.py",
+      "bytes": 2678,
+      "sha256": "3eeccd9b215262a42595f1f2816d2d9c32ab0816f13fff72b639c1688fd25696"
+    },
+    {
+      "path": "dev/reference-armored-car-blender-stage03.py",
+      "bytes": 15804,
+      "sha256": "ba04a650d5bcf393c1bed13dc6db909d052eacf483cada185eb53b78ca488c84"
+    },
+    {
+      "path": "dev/reference-armored-car-blender-tank-pbr.py",
+      "bytes": 2508,
+      "sha256": "085b5a95ee4412856b10c2540f4d0ecf4eeb7c8d88b6de8444dd6e80b9a16323"
+    },
+    {
+      "path": "dev/reference-armored-car-blender-textures.mjs",
+      "bytes": 2866,
+      "sha256": "cf14ac0e947746b59140adb5e27da6433ee5fe68f0aa62a8cd66f69c285b8240"
+    },
+    {
+      "path": "dev/reference-armored-car-blender-thumbnails.mjs",
+      "bytes": 1961,
+      "sha256": "f7b00721e7d73855162471c31cf20f184234edf2ac34541e026e0892a6a77848"
+    },
+    {
+      "path": "dev/reference-armored-car-blender-tiers.py",
+      "bytes": 2002,
+      "sha256": "72c89ffe60078da290bfae3e322b6ae0b19db9be05933202b1c06c0cc542ab72"
+    },
+    {
+      "path": "dev/reference-armored-car-blender-visual-hash.mjs",
+      "bytes": 1435,
+      "sha256": "94185f83169ab7282e3f010793a4931334f7ec5cdc01e5672716ce75d5b1ef66"
+    },
+    {
+      "path": "modules/reference-armored-car/README.md",
+      "bytes": 7609,
+      "sha256": "bdbe7c0e83ee157c56d59d476fe2c5036a5b58b9c6cdd2e681716aaa42d3b081"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender-kit-high.mjs",
+      "bytes": 3739243,
+      "sha256": "895c15bcb06d8c36118c52741d1f4a37b6470ace4401975fe4e3d4d43b13bf12"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender-kit-low.mjs",
+      "bytes": 2050195,
+      "sha256": "f9afa53c1177690778f1824382c6d99693ec65f8c904497b959aa8e4067b67a6"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender-kit-medium.mjs",
+      "bytes": 3181663,
+      "sha256": "6cf1644c05a9656d8659796e91723dd65f95b4c8a3e60eba9fc2625fc5ac00c9"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/pbr/armor-basecolor.png",
+      "bytes": 163053,
+      "sha256": "7417c48a02f78a03a13785499fc435e1fc34325c248c648f3e085e40eeb375f4"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/pbr/armor-edge-basecolor.png",
+      "bytes": 171151,
+      "sha256": "6dcaeca65c3cd44f45d75ff3fe4b6a33207c34e73c5287db3277b3bc962de92f"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/pbr/armor-edge-metallic-roughness.png",
+      "bytes": 172554,
+      "sha256": "145db2dee83de81dbf985e59359688c6a8b57892261cdf28f1aba781b0aea653"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/pbr/armor-metallic-roughness.png",
+      "bytes": 177750,
+      "sha256": "bbbb3b40929968330dccc015b9b26757e16355ad169cd15f6ee3c64a5ad7a4b3"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/pbr/canvas-basecolor.png",
+      "bytes": 38570,
+      "sha256": "d81640abb9b2af65a7e6c639a2afd68ce1236666a91ea8f6d39952e668dd1d16"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/pbr/canvas-metallic-roughness.png",
+      "bytes": 25340,
+      "sha256": "5d787f95f9ad10da3339817eb8909b79a92be4ee8c99d03b7ffc63c874d1f355"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/pbr/dark-basecolor.png",
+      "bytes": 30783,
+      "sha256": "095e76bd3fd87f96633ab91e0b23bed0e99d9708ab9a66f29771e963207b2c7f"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/pbr/dark-metallic-roughness.png",
+      "bytes": 24801,
+      "sha256": "94a3d176ca1c06b4eeefd6fdea4094c66e7e090523d628b308edb4bd65a3c110"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/pbr/marking-basecolor.png",
+      "bytes": 46221,
+      "sha256": "0995802106d8a9d873cfd237773e7837472d57f9ae0475d6622e3bb991010e70"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/pbr/marking-metallic-roughness.png",
+      "bytes": 24247,
+      "sha256": "1e81dd67caf069d4f621d459ad2e08ce305ee1e63fdfdcc9a9cba9f22f1f8885"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/pbr/micro-normal.png",
+      "bytes": 77490,
+      "sha256": "2d8091a75eb8b7fa3950a4acb560a446ebb341f347808b6558b6066c6d9c37df"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/pbr/provenance.json",
+      "bytes": 528,
+      "sha256": "60551a4aade87b4833757d9eaebbed2f4474064e0a200f79d7c28fb108a86ead"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/pbr/rubber-basecolor.png",
+      "bytes": 34257,
+      "sha256": "11dc082c345781f54777a1bb09611301a2e6a328c438b436668d07383a164f9e"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/pbr/rubber-metallic-roughness.png",
+      "bytes": 25029,
+      "sha256": "a7224c71e21437d23e0a4ffaeee4dc7c1811d06620c7392563aa9217424e6eb1"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/pbr/steel-basecolor.png",
+      "bytes": 36017,
+      "sha256": "fbaffd95ed6b90eafe352e3e368a5dd27aeaa11b34239ac8750a5604fbf542b1"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/pbr/steel-metallic-roughness.png",
+      "bytes": 21559,
+      "sha256": "7e1b8d7b4687e9a85cf54140bdcc6120ff9055de3ec342f2e8d40dbf843304b1"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/pbr/strap-basecolor.png",
+      "bytes": 33969,
+      "sha256": "fe332fc7ecf9a3fcb473a5364397176e72aaf16be6064bda397ca80e04ef18fa"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/pbr/strap-metallic-roughness.png",
+      "bytes": 24582,
+      "sha256": "8ebf9ad073e596eeb3182b0ecd9ed876907a8cc04442836a588bc46381ca2b25"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/pbr/tank-armor-normal.png",
+      "bytes": 279606,
+      "sha256": "3916e3c50a93ff0faee5f5bfbdd3d1b35319bb8c4cab2387b85cd2f25e992ff9"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/pbr/wood-basecolor.png",
+      "bytes": 42464,
+      "sha256": "50ce1d17de6546ca8fc23d1ee814cc18b93f56ec0efdcf04c81da03665361d39"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/pbr/wood-metallic-roughness.png",
+      "bytes": 24247,
+      "sha256": "1e81dd67caf069d4f621d459ad2e08ce305ee1e63fdfdcc9a9cba9f22f1f8885"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/reference-armored-car-detailed-pbr.blend",
+      "bytes": 11226825,
+      "sha256": "06cdedf49e0267cfdea93884c7ccc252d8e6307ae89efb9d7e34405b606099e1"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/reference-armored-car-detailed.blend",
+      "bytes": 9552824,
+      "sha256": "28fc173dd5d04e58a3f608eb6275c8e1eb940663cd86bf03f6d2e1eaf7f8f2e9"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/reference-armored-car-high.glb",
+      "bytes": 11067956,
+      "sha256": "8cffdc445b12d365508315be3601bd99023c31aeafcf77771db1c31c993492f8"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/reference-armored-car-low.glb",
+      "bytes": 6167204,
+      "sha256": "c04efca4e6d168925c26edc130f86b53d60d1ce6b5bb89607aa6d637390a187d"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/reference-armored-car-medium.glb",
+      "bytes": 9259336,
+      "sha256": "2140c687da27b86eb319d0c94d917a6c5f9720988f445e10ad824d703a44bb32"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/reference-armored-car-structural-v3.blend",
+      "bytes": 5190604,
+      "sha256": "8a5654df6ad210744bda6c3ed64efd64344d198346fde3c2bcb6e08e2a497e22"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/reference-armored-car-structural-v3.glb",
+      "bytes": 4515192,
+      "sha256": "5a1aa5a1aa6e86c69aaf09e5d17d7a9ae012996d652c96e444513ffa94b44e38"
+    },
+    {
+      "path": "modules/reference-armored-car/assets/blender/reference-armored-car-tank-kit.blend",
+      "bytes": 3750973,
+      "sha256": "11369888071ceda6f2bb859dd6eecee7e9cc74219e23c56e0038703c5e99e9ca"
+    },
+    {
+      "path": "modules/reference-armored-car/authoring/README.md",
+      "bytes": 2566,
+      "sha256": "8f15f7b3835205509c0b1ada39b9a64445c8311baa75996a5fcd94f5366995f0"
+    },
+    {
+      "path": "modules/reference-armored-car/authoring/final-contract.json",
+      "bytes": 5267,
+      "sha256": "baf12087ae54665795c17b20e2992ff4f12e6d7372a328b1f712ad7294cce8df"
+    },
+    {
+      "path": "modules/reference-armored-car/authoring/final-delivery.json",
+      "bytes": 5791,
+      "sha256": "776229c7bb1e9c1088717d9ba767aa52bcec7a37783749ee5e5627ef70d4f9f9"
+    },
+    {
+      "path": "modules/reference-armored-car/authoring/rebuild-final.md",
+      "bytes": 4163,
+      "sha256": "2adaa393cc5dd08cea5d53e05b78c4027a34dd0b3de5fbf7cb034c13f0b235e7"
+    },
+    {
+      "path": "modules/reference-armored-car/authoring/reference-config.json",
+      "bytes": 1389,
+      "sha256": "d9db78b6bc49951c23260ed08ecce9438e9484d1417b1d61741a80ae03019a93"
+    },
+    {
+      "path": "modules/reference-armored-car/authoring/reference-three-view-ai.png",
+      "bytes": 2372293,
+      "sha256": "41c5aa1a346a0622d915bd5b10377fa3d3938e20f3af682cbcb753e5fd0e4bc2"
+    },
+    {
+      "path": "modules/reference-armored-car/authoring/source-review.patch",
+      "bytes": 221538,
+      "sha256": "a543c5570ccd223507643abe741445e3011d9c96d9f4e92e74bf4ca882a71a32"
+    },
+    {
+      "path": "modules/reference-armored-car/authoring/stage-03-manifest.json",
+      "bytes": 2953,
+      "sha256": "e72259de4e2c87f3b38777a762807c1ad10a41e7fe471f89c06c8f41476e865d"
+    },
+    {
+      "path": "modules/reference-armored-car/authoring/stage-04-review-manifest.json",
+      "bytes": 23420,
+      "sha256": "352fa441c36067964f7a7498e669381cafb8b91e8e3a64d319d19aec4464b366"
+    },
+    {
+      "path": "modules/reference-armored-car/authoring/stage-04b-compression-manifest.json",
+      "bytes": 3470,
+      "sha256": "d9bd932de13eba733620aaa66e029b84bdb812c42b4a0ad8b890996ac5382742"
+    },
+    {
+      "path": "modules/reference-armored-car/authoring/tank-material-integration.md",
+      "bytes": 3062,
+      "sha256": "907d0ff5e4bc235c993a36e12bdd6812995644d711d0acabdb07ce34f0087ef2"
+    },
+    {
+      "path": "modules/reference-armored-car/core.mjs",
+      "bytes": 6834,
+      "sha256": "151e848b4edfa8b39efa766f7ea7508e442e49b8296c5fe0951f8847797d8a14"
+    },
+    {
+      "path": "modules/reference-armored-car/definition.mjs",
+      "bytes": 5421,
+      "sha256": "9d02a4de292166bdeec0759b368e5bc94c0e6dc9d3a44781d75b6897bda13f3a"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/03-structural-v3-audit.json",
+      "bytes": 686,
+      "sha256": "c21ddfe5eda3c811aa1e8a75a530af0673dbb4cda36509b1fc40af795ff8ec81"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/03-structural-v3-hero.png",
+      "bytes": 1429992,
+      "sha256": "8e50262941bb03a61dfd9b0da73828e6075d6d3066b44966a7bc4b88121423ba"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/03-structural-v3-mcp-summary.json",
+      "bytes": 13537,
+      "sha256": "94830e7c9210695b616f31068491d523b06c73d21a21ca90867ac74921d3a3ef"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/03-structural-v3-mcp.json",
+      "bytes": 59423,
+      "sha256": "0dd6c97faf80f906b9c59325908b54e7a97ef6a872e8e23fde164e2d53f18e73"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/03-structural-v3-mcp.runtime.json",
+      "bytes": 603,
+      "sha256": "8c2b4483059aa7bb0ab93dc8c9f516909f475c4469e494e20f718041dc111489"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/09-high-audit.json",
+      "bytes": 682,
+      "sha256": "a62f26df03cbdc544fa1911f4ed03b079a173c5c65d6f3abfbf7019fa706f92f"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/09-low-audit.json",
+      "bytes": 680,
+      "sha256": "f6ca10d4d5828da1fcbc6027194608517b366be6c311bfdf39eb6f9e8e63de0a"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/09-medium-audit.json",
+      "bytes": 683,
+      "sha256": "267273f246d69a88529cbd2b557206f62a99aa1ef5df255237d1d42ccfba6948"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/09-tank-source-pbr-mcp.json",
+      "bytes": 33429,
+      "sha256": "9c2f4a32dc09b2dbc12c4aa9d8b4d9241b79361521feb8b4395b6933d1bdc06c"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/09-tank-source-pbr-mcp.runtime.json",
+      "bytes": 603,
+      "sha256": "bb652afc6aba8a86c7323ef7140940e7d39b63bab3be949bc19971adebeac1c2"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/09-tank-source-tiers-mcp.json",
+      "bytes": 81295,
+      "sha256": "47317ec5d321cd35b4af2e7d42a195e4dc1737556fed106130be936208ca7f63"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/09-tank-source-tiers-mcp.runtime.json",
+      "bytes": 604,
+      "sha256": "82c89a61a04d8ac381e0d56fc380da36da9cb82ad8da62cf9d3dcbc8a2515b51"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/10-render-binding-validation.json",
+      "bytes": 1543,
+      "sha256": "e8d37f93e88e32f6041c39e5bfd75b81f0157b756d838e568cbff68817312d59"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/10-runtime-reimport-report.json",
+      "bytes": 1849,
+      "sha256": "947b87c98422cefa931baa1894ad6486e45b601e43e4adb74a7173bf064e7058"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/10-runtime-tank-desert-mcp.json",
+      "bytes": 41363,
+      "sha256": "63e4672ee5dd4cc0bf071036fed9504a17372c38dac7e3e8da0733d80b4040f2"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/10-runtime-tank-desert-mcp.runtime.json",
+      "bytes": 604,
+      "sha256": "8917beb6680a4ffefa4cd2560ad3aa5c180805d2cea876491b8a8b3844fc8db7"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/10-runtime-tank-desert-pbr.png",
+      "bytes": 1557155,
+      "sha256": "d9669e7b043a1e908dfce06675babc991c5baea53f97fcc6ceef007328d04d49"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/10-runtime-tank-reference-mcp.json",
+      "bytes": 41995,
+      "sha256": "5f2f673e7a16a9ca8bae92c6a165d4f0dedcbd2b6c173b8d360de81d0882d1eb"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/10-runtime-tank-reference-mcp.runtime.json",
+      "bytes": 603,
+      "sha256": "ce63eed347b2076d4837085450cdd0f33df42e1165fe55f475352aba58a71a91"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/10-runtime-tank-reference-pbr.png",
+      "bytes": 1475679,
+      "sha256": "6e1ce2f81888599288e59106b3a7237f5b4681c636d2b400de31ac3debbf6e92"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/11-native-blend-compress-mcp.blender.log",
+      "bytes": 2534,
+      "sha256": "9cbbc28f61736e30e970b7a64fb949645bd62cd79a49cdcc00fd67220d31ef98"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/11-native-blend-compress-mcp.json",
+      "bytes": 34663,
+      "sha256": "5ef56347b9a6d5d1c6ba5245eace0e49ddcf6050298636c4c8b060484edc4e6b"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/11-native-blend-compress-mcp.runtime.json",
+      "bytes": 603,
+      "sha256": "bb652afc6aba8a86c7323ef7140940e7d39b63bab3be949bc19971adebeac1c2"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/11-native-blend-compress.log",
+      "bytes": 1390,
+      "sha256": "640b21382616878b8a33322b5ff5d471087438a1ffaa3f41ea5f2220b9f69e72"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/11-native-blend-compression.json",
+      "bytes": 1264,
+      "sha256": "7b744441afaf5c0c7c40324e1fe9f29bae6bac3cc9c9a4a6f9b5d360feea1c36"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-auto-desert.jpg",
+      "bytes": 121172,
+      "sha256": "deea7534f706c0b57179162edf37d8b2a3edd59865c89dbc2ef2151e6e63a37a"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-cancel-recovery.jpg",
+      "bytes": 131566,
+      "sha256": "2abc96afa539ea8b304749cb596967280b85dcf62d00e2b424f08595fbfa2dc7"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-cancel.jpg",
+      "bytes": 131576,
+      "sha256": "e00fb8e122583376afd7ebbe6dd945504733465536dadcb08ef10aed56ea7b0a"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-clean.jpg",
+      "bytes": 116738,
+      "sha256": "5b0857157bcfc2bad61ea69a30a7d7c2a036f7df7f54c6ef6f0f6b74ffda3834"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-detail-high.jpg",
+      "bytes": 124379,
+      "sha256": "491c8472680740bd00a81a49a8b22c83b924f8b67ac6c2ce12db994a5f7150ed"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-detail-low.jpg",
+      "bytes": 123786,
+      "sha256": "237fb4d538ddcf72a2fcb7c5da46d5c1f11ea73cec58dc986a88104cda616d56"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-digital-urban.jpg",
+      "bytes": 131534,
+      "sha256": "6fa6ed098e455c9b7c1d9ee2dd9b86077a2bfd2d26f685aa94cc7e628d2dafea"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-dispose-recovery.jpg",
+      "bytes": 125460,
+      "sha256": "c60be873a5a0a7ded5be3d558e00b85aaea378f97a909405bd54b8933f38ec6b"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-dispose.json",
+      "bytes": 5254,
+      "sha256": "08f2c623463929d2f46c4ce7009fe576a1cc6ab605d0905e2f710c52e3df4fbb"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-dusty.jpg",
+      "bytes": 118986,
+      "sha256": "a9f2eeb26b02c457fc4a3388402d4498ee829d6f36990c11bad991fa1a828269"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-exploded.jpg",
+      "bytes": 121659,
+      "sha256": "69605d8cf38694feeff11a29f90ed689021fa6653081ec0764d9e6c08d3bd0de"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-focus.jpg",
+      "bytes": 104485,
+      "sha256": "6d400af55e6ef72b24b3b12966e89a349930574dfabcaee3d279e0af24148ed3"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-forward.jpg",
+      "bytes": 117463,
+      "sha256": "e300daf6ac8973711c05993d6613b112de62788840bc58485a525603978c2fd4"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-glb-reimport.jpg",
+      "bytes": 154132,
+      "sha256": "81a2ae19890cb8f906b376e91749f5ad8e870e89044458ab4512600fbae071b0"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-idle.json",
+      "bytes": 8593,
+      "sha256": "144eebfb08f3b0b4ac3ae8b3cbefd9ad4330d06851da3dc147bfc866cd11065e"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-pose-scale.jpg",
+      "bytes": 117694,
+      "sha256": "44502f625014963ef297843e474b63cd04047ad18146bb3bde6c483b28fcd5a4"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-recipe-import.jpg",
+      "bytes": 133099,
+      "sha256": "f3d023f16f06df8c7cba0d14b1df970eb51f35daa6a3689dc5cc7f81790d4ba7"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-reference.jpg",
+      "bytes": 117474,
+      "sha256": "6ae7b363504a9282f41067da0a3e8439647ea280468aad08c2f96a04259fc6df"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-review-clean.jpg",
+      "bytes": 117655,
+      "sha256": "ce6ad9341d276605d5a1c571e19e10f5dc5ce0a9bac5579745bec929178cd4fb"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-review-dusty.jpg",
+      "bytes": 121473,
+      "sha256": "d7ddeb3df5b9e3dc07ad3c071c0d5bdd23e6e01bb95255facc77e578994a6e95"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-review-forward.jpg",
+      "bytes": 119315,
+      "sha256": "1fac2931ed7f692404031df0764837916b0a12c8a11c64a1294ddb7bd07e7a70"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-review-reference.jpg",
+      "bytes": 119559,
+      "sha256": "92d9b6ef663cff71d13e105175f292f92a630838ceaf21abd53223a4f6148e21"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-scroll-fixed.jpg",
+      "bytes": 123746,
+      "sha256": "b82ff06d1607861fc2288d1e662fd20f4857cc429c06ac191b24a36f032d7cbb"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-toggles-off.jpg",
+      "bytes": 125131,
+      "sha256": "d5fe30156029070b6511e240f8f69dabd1dc9da40efc36f882faed7fef2c27e7"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-width1440.jpg",
+      "bytes": 138095,
+      "sha256": "d8a20baaa3ac6e06167a0d8bff2eb00e0d63cb8be96c86e032b28a7028f4d4bf"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/armored-width950.jpg",
+      "bytes": 117411,
+      "sha256": "e65818913310b2fd438a9d7b0de9612242435092024a54b281d7e9d2ed065a15"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/browser-acceptance.json",
+      "bytes": 2962,
+      "sha256": "a34fbd2ada7ac8b8daffe866bf369f74d7a78e08b36ee95234e917674d8ae1c9"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/browser-digital-urban.glb",
+      "bytes": 5875660,
+      "sha256": "b4badd548b684a10644954fb6f0df6e229d3d165df4748e070b6d942bed73751"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/browser-digital-urban.recipe.json",
+      "bytes": 419,
+      "sha256": "49f0cd798a1b4b07871ea0005a04b2e7dcfdfe5927750d33292d63c1275d4734"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/browser-download-validation.json",
+      "bytes": 11423,
+      "sha256": "cae46acca0769097bb1aed738c1b84ce1a97772980455260092415fc101e1440"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/browser-download-validation.log",
+      "bytes": 5361,
+      "sha256": "42202a1b7d3f199d0e46eb4568fc3da7d42692d468012f93dae37fc7ab128873"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/browser-exploded-validation.log",
+      "bytes": 5376,
+      "sha256": "2190360029c8aaf7911db516e47fe8269dfae911dfa32e64c5ffa7e98e097b3c"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/browser-initial.json",
+      "bytes": 738,
+      "sha256": "f60b655d3f14bb88e11d34fb2baa0e66dcad2899fe112b2edde68ba46d461dab"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/browser-operator-report.json",
+      "bytes": 1690,
+      "sha256": "598cbb181bd8d1324c1c970f75469f9ce1f0fbea98bf23f4d204e8eb95ea040f"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/compression-report.json",
+      "bytes": 1323,
+      "sha256": "50c53c5e39eeddd55b1ebef171918e59b499b30f62ebc60a24703ba8b7c9ec0e"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/firefox-first-tank-desert.jpg",
+      "bytes": 121172,
+      "sha256": "deea7534f706c0b57179162edf37d8b2a3edd59865c89dbc2ef2151e6e63a37a"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/node-worker-tests.tap",
+      "bytes": 6673,
+      "sha256": "c04eb80e579a2a3142fbb94c51d27934cc2d13ea30ffa703ad085b72d2067bdf"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/pbr-parity.json",
+      "bytes": 451,
+      "sha256": "4f65e8e4fad7bad36c6bff30c32d1d4b0cf76b37bc989ec6c918d4622d9291df"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/pbr-parity.tap",
+      "bytes": 714,
+      "sha256": "2743a8eb8654192643dc0c1cf78dd3342e526e3c3e7a11449dcd2f31a23c01b1"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/preset-artwork-test.tap",
+      "bytes": 215,
+      "sha256": "3540bfcea48b92734d2d76b09d592797af1f0cf438d26ed1cc3add03c0adbce4"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/preset-artwork.json",
+      "bytes": 2177,
+      "sha256": "aa576013b36a3546d9715886fd2244e38751f8262b9fb7d29bfd40b0600a74b2"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/preview-build.log",
+      "bytes": 3911,
+      "sha256": "fe632ca1f52a4d87d5a169ad8b0d16a633226bb2e1933dd7d06302da43c0807c"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/runtime-acceptance.json",
+      "bytes": 14615,
+      "sha256": "83eb38c0e0c1e68868b42b1b73f70d3a583e55049118678a806ed4d73ba4d7b3"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/runtime-file-hashes.json",
+      "bytes": 2622,
+      "sha256": "b9117555172e506e0ad8bf02545e88c199af973f0498368f34ddd17cc5d9b1f4"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/runtime-reference.glb",
+      "bytes": 5777548,
+      "sha256": "fcb8b328512fd4c80339b7890449a317ea28d13795e406238aed1ea833190760"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/runtime-reference.recipe.json",
+      "bytes": 391,
+      "sha256": "416ab26c305018ce15f232f6a94f84ea5745e8d59e4836e23e6a42867315b90c"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/runtime-tank-desert.glb",
+      "bytes": 6007100,
+      "sha256": "71b0b238579da8796e480bd929ad4be11fccd57f78be467ec34d14ca66d47909"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/runtime-tank-desert.recipe.json",
+      "bytes": 389,
+      "sha256": "b8e0e7b054eac1073d164a7187e828121b19b7d9b6895cb8a575136ccce214bc"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/tank-material-tests.tap",
+      "bytes": 901,
+      "sha256": "e23d2fd6fad9e3151a607997f2c3b20fb569be103d7a00b5870ba0a79db3cbed"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/tank-pattern-coverage.json",
+      "bytes": 3921,
+      "sha256": "89ea7dced365ef3b40b57eced8ade6df3edfe2ff070ef282555d3a3ea55c3cf7"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/worker-byte-parity.json",
+      "bytes": 519,
+      "sha256": "54d75e4af7f820122484f3321dcd7dd53217a9cacd0ef2c8a171194ca3ad7380"
+    },
+    {
+      "path": "modules/reference-armored-car/evidence/worker-byte-parity.tap",
+      "bytes": 1209,
+      "sha256": "c51b5670a76fc9f3b018918afa5eb3aacd458815bab42da7b69be3078e26dfce"
+    },
+    {
+      "path": "modules/reference-armored-car/finish-pixels.mjs",
+      "bytes": 1618,
+      "sha256": "0054979795c317c6808f71a4e8abf4678e859a4f8c6fa5e9197e69295250af4d"
+    },
+    {
+      "path": "modules/reference-armored-car/presets/clean.png",
+      "bytes": 95185,
+      "sha256": "339b3c0aaa3b142d3ce44645c692c6478a7bb0b755c28ae6603a531d7b358e95"
+    },
+    {
+      "path": "modules/reference-armored-car/presets/dusty.png",
+      "bytes": 100108,
+      "sha256": "8b56c84efd060aa8ad1c4e86a70a296e44fb1d7604a4e68e712cdfe9ca9ef599"
+    },
+    {
+      "path": "modules/reference-armored-car/presets/forward.png",
+      "bytes": 97635,
+      "sha256": "7ec538949e3ef1c537473c5f42b228da586c1947f657be4b6172856c75473225"
+    },
+    {
+      "path": "modules/reference-armored-car/presets/reference.png",
+      "bytes": 97706,
+      "sha256": "19f674b42cc7f712a211d10c7af90454e7c3a43abfbf24d30ddcf3b6b1a5974f"
+    },
+    {
+      "path": "modules/reference-armored-car/preview-entry.js",
+      "bytes": 3884,
+      "sha256": "9d4c835b18da378d0b1ed9f0818fb832098a545894f9cb9755f0a15fbd4f729f"
+    },
+    {
+      "path": "modules/reference-armored-car/preview-registry.mjs",
+      "bytes": 315,
+      "sha256": "ca0ba651fb72a9e4f134e42407853baac47dbee1dd4ebfac8a5561672b62a9f1"
+    },
+    {
+      "path": "modules/reference-armored-car/preview.html",
+      "bytes": 381,
+      "sha256": "986191dbff8d81174ab32ff513b750aa1e1bb6a22e2367706c8cc0711858f264"
+    },
+    {
+      "path": "modules/reference-armored-car/reference-armored-car.generator.json",
+      "bytes": 229,
+      "sha256": "0b0d732cf226f0d8ca48053334c90ba573d5880821f34ae7aae3c89a601e5532"
+    },
+    {
+      "path": "modules/reference-armored-car/review.html",
+      "bytes": 276,
+      "sha256": "61d6bd1d99006bdcc14e7e5ade53cbcd13eb01cb73f779ecdbe04f665ea63fe1"
+    },
+    {
+      "path": "modules/reference-armored-car/review.js",
+      "bytes": 9197,
+      "sha256": "2f4232f20d1ab79adce64d0f5ebbe2a181a364b4356354a6961d57e2819a460c"
+    },
+    {
+      "path": "modules/reference-armored-car/tests/blender-kit.test.mjs",
+      "bytes": 6796,
+      "sha256": "8bbbed71cfd08fd543c295620970083ffeadde860e3fc7befe815791016d965d"
+    },
+    {
+      "path": "modules/reference-armored-car/tests/compression.test.mjs",
+      "bytes": 872,
+      "sha256": "487957f89bf695ad50c60ac5ad1d38cfe7bbc43d3607f8e376e6a2c488beae71"
+    },
+    {
+      "path": "modules/reference-armored-car/tests/finish-pixels.test.mjs",
+      "bytes": 825,
+      "sha256": "dcb512c11d834bd777322ed82cf419aa8c91f59a02334413b96bee5cefe3117c"
+    },
+    {
+      "path": "modules/reference-armored-car/tests/pbr-parity.test.mjs",
+      "bytes": 4301,
+      "sha256": "d45291db8da5de9230d73dd880ddd86d8b692cd00077d10309393e21c49ec53c"
+    },
+    {
+      "path": "modules/reference-armored-car/tests/preset-artwork.test.mjs",
+      "bytes": 1035,
+      "sha256": "267bb82d9c2a5823e23f461f9ced7157dd4620cfb043edb049fd6ee973ae26bb"
+    },
+    {
+      "path": "modules/reference-armored-car/tests/tank-materials.test.mjs",
+      "bytes": 4710,
+      "sha256": "6e1a9cec2b0ba7db9c2f5f933398ec0178c2db4ad7ae9f3009750891a1b7a487"
+    },
+    {
+      "path": "modules/reference-armored-car/tests/worker-harness.mjs",
+      "bytes": 263,
+      "sha256": "f8ccf29894f9cfada4181beded7d24ec7053bd3d14430bf48e6fbf7d7e45e6f3"
+    },
+    {
+      "path": "modules/reference-armored-car/tests/worker-parity.test.mjs",
+      "bytes": 1865,
+      "sha256": "70107c62cf01564f73a0cf715dff9b63e54a2bf25466c3ad00d719ace9bd3487"
+    },
+    {
+      "path": "modules/reference-armored-car/tests/worker.test.mjs",
+      "bytes": 1780,
+      "sha256": "cea2c6678e25f426b98a636f0a4d879302736c74937ee39cb928e2b5a30b4ca6"
+    },
+    {
+      "path": "modules/reference-armored-car/vite.preview.config.mjs",
+      "bytes": 1626,
+      "sha256": "44a82e16522d96c35d5f511e3ee0e2e2140849686550d23442b6863933768d9a"
+    },
+    {
+      "path": "modules/reference-armored-car/workbench.css",
+      "bytes": 409,
+      "sha256": "0824823fb4faff0173bdf7d6cb0dba4cb80fa570b8df0c5ae70623798f6246ae"
+    },
+    {
+      "path": "modules/reference-armored-car/workbench.js",
+      "bytes": 3093,
+      "sha256": "4385a5f98cf0535ca54c9bc20d232661f1328f436be083a32e15bce918cd960e"
+    },
+    {
+      "path": "modules/reference-armored-car/worker.js",
+      "bytes": 141,
+      "sha256": "287d401efba649b397e2449de3460ad1c0f5e971f6bf3109ba159dd094f4b8fc"
+    },
+    {
+      "path": "modules/tank/src/portable-vehicle-finish.mjs",
+      "bytes": 5992,
+      "sha256": "83180817c7203f5a0c5fa53327b65bb773fd6bc94bcd88c6eff864f2cf0752f0"
+    }
+  ]
+}

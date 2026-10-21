@@ -1,0 +1,87 @@
+Code executed successfully: ERROR Draco mesh compression is not available because library could not be found at /usr/bin/4.3/python/lib/python3.13/site-packages/libextern_draco.so
+19:09:46 | INFO: Starting glTF 2.0 export
+19:09:46 | INFO: Extracting primitive: rail-wheel-geometry
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: sloping-side-shell-geometry
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: end-side-fairing-geometry
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: central-outer-housing-geometry
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: sculpted-wheel-face-geometry
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: layered-side-cover-back-geometry
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: layered-central-cladding-back-geometry
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: beveled-utility-case-body-geometry
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: decorative-cable-coil-curve
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: closed-stepped-plinth-geometry
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: wheel-frame-cover-shoulder-geometry
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: folded-stair-side-geometry
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Finished glTF 2.0 export in 0.05283641815185547 s
+
+19:09:46 | INFO: Starting glTF 2.0 export
+19:09:46 | INFO: Extracting primitive: rail-wheel-geometry.001
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: sloping-side-shell-geometry.001
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: end-side-fairing-geometry.001
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: central-outer-housing-geometry.001
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: sculpted-wheel-face-geometry.001
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: layered-side-cover-back-geometry.001
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: layered-central-cladding-back-geometry.001
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: beveled-utility-case-body-geometry.001
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: decorative-cable-coil-curve.001
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: closed-stepped-plinth-geometry.001
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: wheel-frame-cover-shoulder-geometry.001
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: folded-stair-side-geometry.001
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Finished glTF 2.0 export in 0.07058453559875488 s
+
+19:09:46 | INFO: Starting glTF 2.0 export
+19:09:46 | INFO: Extracting primitive: rail-wheel-geometry.002
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: sloping-side-shell-geometry.002
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: end-side-fairing-geometry.002
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: central-outer-housing-geometry.002
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: sculpted-wheel-face-geometry.002
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: layered-side-cover-back-geometry.002
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: layered-central-cladding-back-geometry.002
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: beveled-utility-case-body-geometry.002
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: decorative-cable-coil-curve.002
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: closed-stepped-plinth-geometry.002
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: wheel-frame-cover-shoulder-geometry.002
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Extracting primitive: folded-stair-side-geometry.002
+19:09:46 | INFO: Primitives created: 1
+19:09:46 | INFO: Finished glTF 2.0 export in 0.08444690704345703 s
+
+Info: Saved "gustav-exterior-detail-prototypes.blend"
+GUSTAV_DETAIL_KIT_REPORT [{"tier": "low", "path": "/workspace/scratch/6a4c729be230/PGF/modules/gustav-visual-prop/assets/blender/gustav-exterior-detail-kit-low.glb", "objects": ["rail-wheel", "sloping-side-shell", "end-side-fairing", "central-outer-housing", "sculpted-wheel-face", "layered-side-cover", "layered-central-cladding", "beveled-utility-case", "decorative-cable-coil", "closed-stepped-plinth", "wheel-frame-cover", "folded-stair-side"], "vertices": 1622}, {"tier": "medium", "path": "/workspace/scratch/6a4c729be230/PGF/modules/gustav-visual-prop/assets/blender/gustav-exterior-detail-kit-medium.glb", "objects": ["rail-wheel", "sloping-side-shell", "end-side-fairing", "central-outer-housing", "sculpted-wheel-face", "layered-side-cover", "layered-central-cladding", "beveled-utility-case", "decorative-cable-coil", "closed-stepped-plinth", "wheel-frame-cover", "folded-stair-side"], "vertices": 3210}, {"tier": "high", "path": "/workspace/scratch/6a4c729be230/PGF/modules/gustav-visual-prop/assets/blender/gustav-exterior-detail-kit-high.glb", "objects": ["rail-wheel", "sloping-side-shell", "end-side-fairing", "central-outer-housing", "sculpted-wheel-face", "layered-side-cover", "layered-central-cladding", "beveled-utility-case", "decorative-cable-coil", "closed-stepped-plinth", "wheel-frame-cover", "folded-stair-side"], "vertices": 5412}]
+
+{"status": "PASS", "tools": ["disable_telemetry", "execute_blender_code", "generate_3d", "get_addon_status", "get_scene_info", "import_asset", "look", "record_trajectory_feedback", "search_assets"], "receipt": "/workspace/scratch/6a4c729be230/PGF/modules/gustav-visual-prop/evidence/G6-geometry-retry-mcp-receipt.json"}
+{"owned_blender_exit": 0, "log": "/workspace/scratch/6a4c729be230/PGF/modules/gustav-visual-prop/evidence/G6-geometry-retry-mcp-receipt.blender.log"}

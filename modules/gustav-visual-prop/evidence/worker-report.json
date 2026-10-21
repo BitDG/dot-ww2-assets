@@ -1,0 +1,20 @@
+{
+  "scope": "Actual shared browser Worker implementation through Node worker_threads host, not browser or PGF stdio MCP",
+  "checks": [
+    "shared prepareGenerator, AssetIR and preview validation",
+    "shared Worker exports real GLB and readGLB restores recipe, source ranges and sockets",
+    "shared Worker rejects invalid request without replacing last result"
+  ],
+  "stats": {
+    "triangles": 96732,
+    "renderedTriangles": 146012,
+    "drawCalls": 74,
+    "bytes": 6520973,
+    "texturePixels": 393216,
+    "meshes": 19,
+    "nodes": 82
+  },
+  "bytes": 6418260,
+  "status": "passed",
+  "terminated": true
+}

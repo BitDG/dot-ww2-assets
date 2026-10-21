@@ -1,0 +1,68 @@
+{
+  "generator": "reference-armored-car",
+  "generatorVersion": "1.1.0",
+  "sourceBaseline": "BitDG/PGF main 02681b6 source snapshot",
+  "inputs": {
+    "primary": {
+      "filename": "image(20261010-065906).png",
+      "sha256": "789b22e9c3c4ed4dac71a924852bd791dd0f04340ff225a82e9dac5636216d9a",
+      "role": "original visible silhouette and details"
+    },
+    "secondary": {
+      "filename": "reference-armored-car-three-view-v2.png",
+      "sha256": "41c5aa1a346a0622d915bd5b10377fa3d3938e20f3af682cbcb753e5fd0e4bc2",
+      "role": "AI inferred unseen exterior; not exact orthographic ground truth"
+    }
+  },
+  "coordinateConvention": {
+    "units": "approximate visual metres",
+    "up": "Y",
+    "forward": "+Z"
+  },
+  "parameterContract": {
+    "scale": [
+      0.1,
+      3
+    ],
+    "turretYaw": [
+      -180,
+      180
+    ],
+    "gunElevation": [
+      -8,
+      25
+    ],
+    "paint": "#RRGGBB",
+    "roughness": [
+      0.35,
+      1
+    ],
+    "weathering": [
+      0,
+      1
+    ],
+    "antennas": "boolean",
+    "markings": "boolean",
+    "detail": [
+      24,
+      64
+    ]
+  },
+  "detailTiers": {
+    "low": [
+      24,
+      35
+    ],
+    "medium": [
+      36,
+      55
+    ],
+    "high": [
+      56,
+      64
+    ]
+  },
+  "sourceScope": "Nonfunctional exterior game artwork only",
+  "originalInputPixelsInspected": true,
+  "generatedInputPixelsInspected": true
+}

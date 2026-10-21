@@ -1,0 +1,41 @@
+{
+  "file": "Flakzwilling-F2-unified-export.glb",
+  "bytes": 1808936,
+  "sha256": "5fe9cfbebf32e8f98ac3da1f99d9fd1f3dabd8dc3037bdd8123e32df67288442",
+  "glbExtras": {},
+  "scope": "actual unified Firefox export, independent from authored hero seeds",
+  "generator": {
+    "id": "flakzwilling43-visual-prop",
+    "version": "1.1.0"
+  },
+  "recipe": {
+    "generator": "flakzwilling43-visual-prop",
+    "version": "1.1.0",
+    "seed": "flakzwilling-unified-acceptance",
+    "params": {
+      "camoPattern": "winter",
+      "camoEnvironment": "snow",
+      "camoScale": 2,
+      "detail": "medium",
+      "artScale": 1.25,
+      "shieldWidth": 1.07,
+      "paintColor": "#a17b57",
+      "roughness": 0.83,
+      "weathering": 0.6,
+      "showTripod": true,
+      "showTurntable": true,
+      "showShield": true,
+      "showUpper": true,
+      "showLower": true,
+      "showSeats": true,
+      "showFittings": true
+    },
+    "quality": "medium"
+  },
+  "source": {
+    "kind": "Blender MCP authored closed exterior",
+    "sha256": "4f1d831d1deb439bccbd3d4686cb5c71184ec3fbb7828793b064d79b31223aa4",
+    "stage": "F2",
+    "quality": "medium"
+  }
+}

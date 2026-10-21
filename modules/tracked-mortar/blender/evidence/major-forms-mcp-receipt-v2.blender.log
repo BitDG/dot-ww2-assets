@@ -1,0 +1,113 @@
+BlenderMCP addon registered
+Server thread started
+TASK_MCP_READY={"pid": 6, "host": "127.0.0.1", "port": 19876, "blender_version": "4.3.2", "addon_version": [1, 8], "addon_protocol": 13, "addon_sha256": "eb0facf69781a30e69792532087d8d41c6a14fcd323353250abe7988ee297fa5", "background": true, "lifecycle_adapter": "explicit main-thread upstream queue pump", "telemetry_disabled": true, "integrations": {"polyhaven": false, "sketchfab": false, "polypizza": false, "hyper3d": false, "hunyuan3d": false, "tripo": false}, "hard_timeout_seconds": 21600}
+Blender 4.3.2
+Fra:1 Mem:33.99M (Peak 33.99M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | STUDIO-floor
+Fra:1 Mem:33.99M (Peak 33.99M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | long-main-hull
+Fra:1 Mem:33.99M (Peak 33.99M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | upper-deck-step
+Fra:1 Mem:34.00M (Peak 34.00M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | deck-perimeter-trim
+Fra:1 Mem:36.00M (Peak 36.00M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | side-sill--1
+Fra:1 Mem:36.01M (Peak 36.01M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | upper-side-cladding--1
+Fra:1 Mem:36.01M (Peak 36.01M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cladding-bay--1-0
+Fra:1 Mem:36.02M (Peak 36.02M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | walkway--1
+Fra:1 Mem:36.02M (Peak 36.02M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | end-cap--1-5.09
+Fra:1 Mem:36.03M (Peak 36.03M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | low-front-deck
+Fra:1 Mem:36.03M (Peak 36.03M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front-deck-top
+Fra:1 Mem:36.05M (Peak 36.05M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear-platform
+Fra:1 Mem:36.04M (Peak 36.05M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | triangular-cast-support--1
+Fra:1 Mem:36.05M (Peak 36.05M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | outer-cast-cheek--1
+Fra:1 Mem:36.06M (Peak 36.06M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cradle-side-raised-cover--1
+Fra:1 Mem:36.05M (Peak 36.06M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | triangular-cast-support-1
+Fra:1 Mem:36.07M (Peak 36.07M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | outer-cast-cheek-1
+Fra:1 Mem:36.08M (Peak 36.08M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | mortar-tube
+Fra:1 Mem:36.12M (Peak 36.12M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | tube-seam-collar-0.75
+Fra:1 Mem:36.13M (Peak 36.13M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | tube-seam-collar-1.39
+Fra:1 Mem:36.15M (Peak 36.15M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | tube-seam-collar-2.02
+Fra:1 Mem:36.17M (Peak 36.17M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | tube-seam-collar-2.58
+Fra:1 Mem:36.19M (Peak 36.19M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | road-wheel--1-0
+Fra:1 Mem:36.20M (Peak 36.20M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | road-hub--1-0
+Fra:1 Mem:36.23M (Peak 36.23M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | high-end-wheel--1--4.53
+Fra:1 Mem:36.23M (Peak 36.23M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | return-roller--1-0
+Fra:1 Mem:36.26M (Peak 36.26M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | track-shoe--1-0
+Fra:1 Mem:36.27M (Peak 36.27M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | track-cleat--1-0
+Fra:1 Mem:36.33M (Peak 36.33M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | side-railing--1-2.28
+Fra:1 Mem:36.33M (Peak 36.33M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rail-post--1-0
+Fra:1 Mem:36.33M (Peak 36.33M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear-ladder-stile--1.22
+Fra:1 Mem:36.34M (Peak 36.34M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear-ladder-rung--1-0
+Fra:1 Mem:36.34M (Peak 36.34M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear-frame-upper--1
+Fra:1 Mem:36.34M (Peak 36.34M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear-frame-lower--1
+Fra:1 Mem:36.34M (Peak 36.34M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear-frame-stand--1-4.8
+Fra:1 Mem:36.35M (Peak 36.35M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear-stowage-box--1
+Fra:1 Mem:36.35M (Peak 36.35M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear-display-cylinder-cover--1
+Fra:1 Mem:36.36M (Peak 36.36M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front-deck-handle--13.07
+Fra:1 Mem:36.36M (Peak 36.36M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | exterior-display-ring--1
+Fra:1 Mem:36.37M (Peak 36.37M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | display-ring-spoke--10
+Fra:1 Mem:36.39M (Peak 36.39M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear-frame-crossbar
+Fra:1 Mem:36.39M (Peak 36.39M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:25.48M (Peak 36.39M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Failed to denoise, build has no OpenImageDenoise support
+Fra:1 Mem:25.48M (Peak 36.39M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:25.48M (Peak 36.39M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:25.48M (Peak 36.39M) | Time:00:00.17 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:25.58M (Peak 36.39M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:25.58M (Peak 36.39M) | Time:00:00.18 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Failed to denoise, build has no OpenImageDenoise support
+Traceback (most recent call last):
+  File "/workspace/scratch/6a4c729be230/blender-mcp-local/.venv/lib/python3.12/site-packages/blender_mcp/bundled/addon.py", line 2248, in execute_code
+    exec(code, namespace)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "<string>", line 189, in <module>
+  File "/usr/share/blender/scripts/modules/bpy/ops.py", line 109, in __call__
+    ret = _op_call(self.idname_py(), kw)
+RuntimeError: Error: Failed to denoise, build has no OpenImageDenoise support
+Error: Failed to denoise, build has no OpenImageDenoise support
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/scratch/6a4c729be230/blender-mcp-local/.venv/lib/python3.12/site-packages/blender_mcp/bundled/addon.py", line 1577, in _execute_command_internal
+    result = handler(**params)
+  File "/workspace/scratch/6a4c729be230/blender-mcp-local/.venv/lib/python3.12/site-packages/blender_mcp/bundled/addon.py", line 2258, in execute_code
+    raise Exception(
+    ...<5 lines>...
+    )
+Exception: {"exception_type": "RuntimeError", "message": "Error: Failed to denoise, build has no OpenImageDenoise support\nError: Failed to denoise, build has no OpenImageDenoise support\n", "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/6a4c729be230/blender-mcp-local/.venv/lib/python3.12/site-packages/blender_mcp/bundled/addon.py\", line 2248, in execute_code\n    exec(code, namespace)\n    ~~~~^^^^^^^^^^^^^^^^^\n  File \"<string>\", line 189, in <module>\n  File \"/usr/share/blender/scripts/modules/bpy/ops.py\", line 109, in __call__\n    ret = _op_call(self.idname_py(), kw)\nRuntimeError: Error: Failed to denoise, build has no OpenImageDenoise support\nError: Failed to denoise, build has no OpenImageDenoise support\n\n"}
+Connected to client: ('127.0.0.1', 45368)
+Client handler started
+Queued command: get_addon_info
+Executing handler for get_addon_info
+Handler execution complete
+Queued command: execute_code
+Executing handler for execute_code
+Handler execution complete
+Queued command: get_telemetry_consent
+Executing handler for get_telemetry_consent
+Handler execution complete
+Queued command: get_addon_info
+Executing handler for get_addon_info
+Handler execution complete
+Queued command: get_polyhaven_status
+Queued command: get_sketchfab_status
+Executing handler for get_sketchfab_status
+Handler execution complete
+Queued command: get_polypizza_status
+Executing handler for get_polypizza_status
+Handler execution complete
+Queued command: get_hunyuan3d_status
+Executing handler for get_hunyuan3d_status
+Handler execution complete
+Queued command: get_hyper3d_status
+Executing handler for get_hyper3d_status
+Handler execution complete
+Queued command: execute_code
+Executing handler for execute_code
+Error in handler: {"exception_type": "RuntimeError", "message": "Error: Failed to denoise, build has no OpenImageDenoise support\nError: Failed to denoise, build has no OpenImageDenoise support\n", "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/6a4c729be230/blender-mcp-local/.venv/lib/python3.12/site-packages/blender_mcp/bundled/addon.py\", line 2248, in execute_code\n    exec(code, namespace)\n    ~~~~^^^^^^^^^^^^^^^^^\n  File \"<string>\", line 189, in <module>\n  File \"/usr/share/blender/scripts/modules/bpy/ops.py\", line 109, in __call__\n    ret = _op_call(self.idname_py(), kw)\nRuntimeError: Error: Failed to denoise, build has no OpenImageDenoise support\nError: Failed to denoise, build has no OpenImageDenoise support\n\n"}
+Client disconnected
+Client handler stopped
+Error accepting connection: [Errno 9] Bad file descriptor
+BlenderMCP server stopped
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+TASK_MCP_STOPPED
+
+Blender quit

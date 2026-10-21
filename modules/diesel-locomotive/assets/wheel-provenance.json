@@ -1,0 +1,17 @@
+[
+  {
+    "tier": "low",
+    "sourceSha256": "8f5ee4a46f0e2d686c31a57f375c07f1cfbe40af800295cf9f69af6de3b5d2b8",
+    "parentKitSha256": "9407e06c21345a85f681329607e45e5e42fcc5ed429862807dc3001c16ba005c"
+  },
+  {
+    "tier": "medium",
+    "sourceSha256": "793cc1ace6ab4c22fc07445f2497c98b5730cdb19a4dfd6012dfff274a3d2fba",
+    "parentKitSha256": "b32acb58bf6aa326ad29502a8d5cf5482c3d1619c909897270f2277e53c08572"
+  },
+  {
+    "tier": "high",
+    "sourceSha256": "b4b26484bee6bb1fe0171862c07db884604287611f8e7ac6e2ab9184f5736a69",
+    "parentKitSha256": "9bf88137ac0dfe54a5aff5a6d893bcafed1fbbd68156c8d83026c70c45f5e541"
+  }
+]

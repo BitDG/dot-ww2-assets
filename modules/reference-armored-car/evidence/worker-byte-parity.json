@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "host": "Pinned Three 0.180.0 + shared actual module worker_threads transport",
+  "records": [
+    {
+      "params": {
+        "detail": 24
+      },
+      "bytes": 3868312,
+      "sha256": "ab182e5c42c66504407dd20bf729bd558e525b099106ee35a6f67b99dede79f0"
+    },
+    {
+      "params": {
+        "detail": 24,
+        "camoPattern": "desert",
+        "camoScale": 1.2
+      },
+      "bytes": 4094168,
+      "sha256": "a84221745d9471b60c781dadb934636113b3e4266bdc157a4fd8a1f499e136a3"
+    }
+  ]
+}

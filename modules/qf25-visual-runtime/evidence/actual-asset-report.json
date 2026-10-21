@@ -1,0 +1,65 @@
+{
+  "adapterVersion": "1.1.0",
+  "stage": "Q2",
+  "scope": "Actual PGF QF25 Q2 generator/AssetIR/runtime/static GLB; Node, not browser",
+  "variants": [
+    {
+      "params": {
+        "detail": "low",
+        "artScale": 0.75,
+        "wheelSpacing": 0.95
+      },
+      "source": {
+        "kind": "Blender MCP authored closed exterior",
+        "sha256": "f7422f7c04915a3cf4ccab8f92d873339e113f88e2e4d8ae7f5d9357fbb588fa",
+        "stage": "Q2",
+        "quality": "low"
+      },
+      "exportSha256": "e50c125b2c70a2b0c68813a1a5e3e9d760e16f688041eca15f6c9064eea48280",
+      "bytes": 1787428,
+      "staticExportUnchanged": true,
+      "noFxInExport": true,
+      "runtimeBinding": true,
+      "borrowedResources": 256,
+      "borrowedDisposals": 0
+    },
+    {
+      "params": {
+        "detail": "medium"
+      },
+      "source": {
+        "kind": "Blender MCP authored closed exterior",
+        "sha256": "69ba1127753c21e64aac45d98f0ff02fa7868020b483ac182b7225ce91364251",
+        "stage": "Q2",
+        "quality": "medium"
+      },
+      "exportSha256": "d28ce67ad4cb09e279ead5bc410e3f52c00b3c08d8ad37af40b007c52a6404b8",
+      "bytes": 2508192,
+      "staticExportUnchanged": true,
+      "noFxInExport": true,
+      "runtimeBinding": true,
+      "borrowedResources": 366,
+      "borrowedDisposals": 0
+    },
+    {
+      "params": {
+        "detail": "high",
+        "artScale": 1.5,
+        "wheelSpacing": 1.1
+      },
+      "source": {
+        "kind": "Blender MCP authored closed exterior",
+        "sha256": "49a5f536f5941d82b5a428416bc9da4991e874ef5de156c830a42fdd4570ca06",
+        "stage": "Q2",
+        "quality": "high"
+      },
+      "exportSha256": "272e84d2c5825adbd985b724a7cd948d1709d9af25f604ffb493640b9f9e7e01",
+      "bytes": 3065784,
+      "staticExportUnchanged": true,
+      "noFxInExport": true,
+      "runtimeBinding": true,
+      "borrowedResources": 374,
+      "borrowedDisposals": 0
+    }
+  ]
+}

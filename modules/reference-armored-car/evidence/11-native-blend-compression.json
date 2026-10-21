@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "source": "/workspace/scratch/6a4c729be230/pgf-armored-stage04-payload/modules/reference-armored-car/assets/blender/reference-armored-car-tank-kit.blend",
+  "target": "/workspace/scratch/6a4c729be230/pgf-armored-stage04b-payload/modules/reference-armored-car/assets/blender/reference-armored-car-tank-kit.blend",
+  "blender": "4.3.2",
+  "nativeCompress": true,
+  "actualReopen": true,
+  "exactSnapshotEqual": true,
+  "objects": 92,
+  "meshes": 69,
+  "materials": 10,
+  "images": 21,
+  "checked": [
+    "object names, parenting, stored transforms and visibility",
+    "all mesh positions, vertex normals, loop indices, polygon ranges, material assignments and UV layers",
+    "material numeric factors, node types/default socket values, image references and shader links",
+    "all packed image bytes, sizes and color-space names"
+  ],
+  "beforeFile": {
+    "bytes": 13045141,
+    "sha256": "f0fbb4b889fe8956edfd6bf1b49cbc8217fce96ffcbef1c24f9a1f09e07fb5a5"
+  },
+  "afterFile": {
+    "bytes": 3750973,
+    "sha256": "11369888071ceda6f2bb859dd6eecee7e9cc74219e23c56e0038703c5e99e9ca"
+  },
+  "ratio": 0.2875379422882436,
+  "imageNote": "21 Blender image datablocks include one non-delivery image; exported source kit remains 20 PNG images."
+}

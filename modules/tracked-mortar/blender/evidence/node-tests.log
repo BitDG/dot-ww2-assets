@@ -1,0 +1,21 @@
+(node:28) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("/workspace/scratch/6a4c729be230/pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./")); register("/workspace/scratch/6a4c729be230/pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ actual Blender kit is modular, selected-scene-only and has eleven road wheels per side (4.700295ms)
+✔ low reference default and saved degree values retain literal visual-angle meaning (2090.688569ms)
+✔ quality removes substantial small detail, preserves wheel count, and keeps draws bounded (652.518534ms)
+✔ length, thickness, railings and exploded controls alter independent visual features (482.900282ms)
+✔ unscored art is not converted into an invented visual pass (0.44683ms)
+✔ maps and geometry release exactly once without mutating recipe inputs (224.28152ms)
+✔ Node and browser AssetIR validation accepts low pose and old boundary poses (2283.204844ms)
+✔ same seed retains vertex, material and texture identity; wear alters texture bytes (2990.648156ms)
+✔ shortest chassis keeps circular road wheels separated instead of overlapping (261.365781ms)
+✔ assembled runtime geometry has no zero-area triangles after cap cleanup (826.331174ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10759.535498

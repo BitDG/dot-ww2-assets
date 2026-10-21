@@ -1,0 +1,20 @@
+{
+  "format": "PGF.ComponentRecipe",
+  "version": 1,
+  "generator": "reference-armored-car",
+  "seed": "pgf-components-1",
+  "params": {
+    "scale": 1,
+    "turretYaw": -10,
+    "gunElevation": 0,
+    "paint": "#827456",
+    "roughness": 0.81,
+    "weathering": 0.35,
+    "antennas": true,
+    "markings": true,
+    "detail": 48,
+    "camoPattern": "digital",
+    "camoEnvironment": "urban",
+    "camoScale": 1.6
+  }
+}

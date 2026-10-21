@@ -1,0 +1,284 @@
+{
+  "stage": "L3 core frozen, ready for shared integration; final fixed-PGF-GLB renders pending",
+  "assetId": "land-mattress-visual-prop",
+  "version": "0.1.0",
+  "modulePath": "/workspace/scratch/6a4c729be230/pgf-author-recovery/D4-F2-verified-recovery-20261012T0520Z/runtime/modules/land-mattress-visual-prop",
+  "entry": "definition.mjs",
+  "test": "node --test modules/land-mattress-visual-prop/tests/*.test.mjs",
+  "tests": {
+    "passed": 14,
+    "failed": 0
+  },
+  "defaults": {
+    "seed": "land-mattress-no8-mk1-art-1945",
+    "detail": "medium",
+    "paintColor": "#777e7d",
+    "roughness": 0.66,
+    "weathering": 0.24,
+    "artScale": 1
+  },
+  "sourceManifest": "sources.mjs",
+  "parts": [
+    "showBundle",
+    "showRackFrame",
+    "showCarriage",
+    "showWheels",
+    "showFenders",
+    "showDrawbar",
+    "showSupports",
+    "showFittings"
+  ],
+  "scope": {
+    "fixedMouths": 30,
+    "rows": 5,
+    "columns": 6,
+    "roadWheels": 2,
+    "animation": false,
+    "operation": false,
+    "geometry": "Fixed authored original exterior, uniform artScale only",
+    "material": "PGF metalFinishPixels plus original portable finish; seed affects texture pattern only"
+  },
+  "statistics": {
+    "medium": {
+      "sha256": "d6703405e775e90e2fd6f6d284a202bbb05e3cf564b6c280b28d0a5be3fc1e39",
+      "bytes": 2278276,
+      "statistics": {
+        "triangles": 48036,
+        "renderedTriangles": 48036,
+        "vertices": 64018,
+        "instances": 26,
+        "draws": 26,
+        "bytes": 2735985,
+        "nodes": 38,
+        "meshes": 26,
+        "textures": 3,
+        "materials": 6,
+        "dimensions": [
+          2.628000020980835,
+          2.601658046245575,
+          4.78007073700428
+        ]
+      },
+      "readbackStatistics": {
+        "triangles": 48036,
+        "renderedTriangles": 48036,
+        "vertices": 64018,
+        "instances": 26,
+        "draws": 26,
+        "bytes": 2713181,
+        "nodes": 39,
+        "meshes": 26,
+        "textures": 3,
+        "materials": 7,
+        "dimensions": [
+          2.628000020980835,
+          2.601658046245596,
+          4.780070737000106
+        ]
+      },
+      "batchAudit": {
+        "source": "PGF gustav-visual-prop batchRuleLeaves reused",
+        "beforeDraws": 492,
+        "afterDraws": 26,
+        "sourceLeaves": 492,
+        "triangles": 48036,
+        "maxPositionDelta": 1.1913862696388833e-07,
+        "maxNormalDelta": 3.25139357659765e-08,
+        "maxUVDelta": 0,
+        "ownerAndMaterialPreserved": true,
+        "pass": true
+      }
+    },
+    "low": {
+      "sha256": "cbd948eb2420e0e0c396450af01e931511bbe57b7b634761a07916560ac945ed",
+      "bytes": 756812,
+      "statistics": {
+        "triangles": 16580,
+        "renderedTriangles": 16580,
+        "vertices": 20354,
+        "instances": 23,
+        "draws": 23,
+        "bytes": 904804,
+        "nodes": 35,
+        "meshes": 23,
+        "textures": 3,
+        "materials": 6,
+        "dimensions": [
+          2.628000020980835,
+          2.598416805267334,
+          4.78007073700428
+        ]
+      },
+      "readbackStatistics": {
+        "triangles": 16580,
+        "renderedTriangles": 16580,
+        "vertices": 20354,
+        "instances": 23,
+        "draws": 23,
+        "bytes": 891671,
+        "nodes": 36,
+        "meshes": 23,
+        "textures": 3,
+        "materials": 7,
+        "dimensions": [
+          2.628000020980835,
+          2.598416805267355,
+          4.780070737000106
+        ]
+      },
+      "batchAudit": {
+        "source": "PGF gustav-visual-prop batchRuleLeaves reused",
+        "beforeDraws": 176,
+        "afterDraws": 23,
+        "sourceLeaves": 176,
+        "triangles": 16580,
+        "maxPositionDelta": 1.1822788037463283e-07,
+        "maxNormalDelta": 3.21078561515975e-08,
+        "maxUVDelta": 0,
+        "ownerAndMaterialPreserved": true,
+        "pass": true
+      }
+    },
+    "high": {
+      "sha256": "b03a1d2e2c58682bf564691dcd7fcfec3ff210646f2df916973ece349cafe701",
+      "bytes": 4060672,
+      "statistics": {
+        "triangles": 96356,
+        "renderedTriangles": 96356,
+        "vertices": 114310,
+        "instances": 26,
+        "draws": 26,
+        "bytes": 4925169,
+        "nodes": 38,
+        "meshes": 26,
+        "textures": 3,
+        "materials": 6,
+        "dimensions": [
+          2.628000020980835,
+          2.601658046245575,
+          4.78007073700428
+        ]
+      },
+      "readbackStatistics": {
+        "triangles": 96356,
+        "renderedTriangles": 96356,
+        "vertices": 114310,
+        "instances": 26,
+        "draws": 26,
+        "bytes": 4902365,
+        "nodes": 39,
+        "meshes": 26,
+        "textures": 3,
+        "materials": 7,
+        "dimensions": [
+          2.628000020980835,
+          2.601658046245596,
+          4.780070737000106
+        ]
+      },
+      "batchAudit": {
+        "source": "PGF gustav-visual-prop batchRuleLeaves reused",
+        "beforeDraws": 556,
+        "afterDraws": 26,
+        "sourceLeaves": 556,
+        "triangles": 96356,
+        "maxPositionDelta": 1.1860449822265196e-07,
+        "maxNormalDelta": 3.6060436525708894e-08,
+        "maxUVDelta": 0,
+        "ownerAndMaterialPreserved": true,
+        "pass": true
+      }
+    }
+  },
+  "coreFiles": [
+    {
+      "path": "README.zh-CN.md",
+      "repoPath": "modules/land-mattress-visual-prop/README.zh-CN.md",
+      "sha256": "238e0127f8ce348e2f0526d4d3b874968a011513138f1139984c379d47aae66d",
+      "bytes": 3049
+    },
+    {
+      "path": "assets/LM-L3-high.glb",
+      "repoPath": "modules/land-mattress-visual-prop/assets/LM-L3-high.glb",
+      "sha256": "1ae3df801a61df3d636086bf0735d33e3904468b7fc682b13cbe46b8b4f9fead",
+      "bytes": 4326316
+    },
+    {
+      "path": "assets/LM-L3-low.glb",
+      "repoPath": "modules/land-mattress-visual-prop/assets/LM-L3-low.glb",
+      "sha256": "2f04696b1080273089d822911493f60827a102238ef77acb72cd2e04f47de927",
+      "bytes": 851412
+    },
+    {
+      "path": "assets/LM-L3-medium.glb",
+      "repoPath": "modules/land-mattress-visual-prop/assets/LM-L3-medium.glb",
+      "sha256": "a817004abfbe11ac41d1d4fc03afd4a040854ed98c61b55cef8f239bcd620bca",
+      "bytes": 2584204
+    },
+    {
+      "path": "batch-exterior.mjs",
+      "repoPath": "modules/land-mattress-visual-prop/batch-exterior.mjs",
+      "sha256": "cae1bd57ca6041494fbde6fa7efc3148198914499739fb49bbf0c4cbe88c901d",
+      "bytes": 3039
+    },
+    {
+      "path": "definition.mjs",
+      "repoPath": "modules/land-mattress-visual-prop/definition.mjs",
+      "sha256": "b633ffa5c20eb13dc166c5af7b1e90638c8a7635f07a023b2f2eb3a06053c911",
+      "bytes": 4082
+    },
+    {
+      "path": "land-mattress-visual-prop.generator.json",
+      "repoPath": "modules/land-mattress-visual-prop/land-mattress-visual-prop.generator.json",
+      "sha256": "6e783b563450456e57cd195cc82cb2900a6c998edc7b8c2d9fdcebf88d984566",
+      "bytes": 170
+    },
+    {
+      "path": "material-finish.mjs",
+      "repoPath": "modules/land-mattress-visual-prop/material-finish.mjs",
+      "sha256": "e27d4be22629b59fd8bedc0baf83218517f09f8c86e3e101e146f7b1707d660f",
+      "bytes": 4385
+    },
+    {
+      "path": "model.mjs",
+      "repoPath": "modules/land-mattress-visual-prop/model.mjs",
+      "sha256": "2de0802f8cdb8194e141ad5b4ed3435d30cc60a04f9b5fc571db228a35d14b41",
+      "bytes": 6524
+    },
+    {
+      "path": "params.mjs",
+      "repoPath": "modules/land-mattress-visual-prop/params.mjs",
+      "sha256": "3e5f5e20f09a7084e5f97b07404d1ae183b14bdca32bce257ab3abc13557f052",
+      "bytes": 2890
+    },
+    {
+      "path": "sources.mjs",
+      "repoPath": "modules/land-mattress-visual-prop/sources.mjs",
+      "sha256": "f7a94edb029636618089a0b1c5358d9b18b7008ab1264b3d7191e1cf9d98afab",
+      "bytes": 646
+    },
+    {
+      "path": "tests/adapter.test.mjs",
+      "repoPath": "modules/land-mattress-visual-prop/tests/adapter.test.mjs",
+      "sha256": "18a9b7648f197aafaa4d0a5e2046ca758ee35f63ca74ec9d4e49b446fcc79950",
+      "bytes": 12254
+    },
+    {
+      "path": "tests/contract.test.mjs",
+      "repoPath": "modules/land-mattress-visual-prop/tests/contract.test.mjs",
+      "sha256": "eb408d8a989e0f89c05b64aecd3c9c33a484c7b219b971e598b3c1216a9eeb23",
+      "bytes": 2792
+    },
+    {
+      "path": "worker.js",
+      "repoPath": "modules/land-mattress-visual-prop/worker.js",
+      "sha256": "72841705518e923fc121225d196cbf9946f50f2db9b8abc816802a32578215b7",
+      "bytes": 141
+    }
+  ],
+  "remaining": [
+    "Real Firefox shared integration acceptance",
+    "Final fixed-PGF-medium-GLB hero/3-view/6-detail renders at higher samples",
+    "Final complete delivery package and parent publication"
+  ]
+}

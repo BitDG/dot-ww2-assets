@@ -1,0 +1,40 @@
+{
+  "version": "1.1.0",
+  "source": "Actual local Blender MCP; PGF procedural assembly; no functional internals",
+  "files": [
+    {
+      "path": "assets/blender/gustav-exterior-detail-kit-high.glb",
+      "bytes": 476464,
+      "sha256": "b5fa0d93b85aea822c59fbaf5a673ca423b483db41b82733c60d0248681c1036"
+    },
+    {
+      "path": "assets/blender/gustav-exterior-detail-kit-low.glb",
+      "bytes": 160644,
+      "sha256": "9f89e89b6081f9662acaf8dde5c6c7a38f6bc1e852bec9961f8296ab0305be9c"
+    },
+    {
+      "path": "assets/blender/gustav-exterior-detail-kit-medium.glb",
+      "bytes": 296232,
+      "sha256": "e54fc3dc5bf2d369618ab9b33d80d53a5dda7863d5b0a46b048672b4cf873715"
+    },
+    {
+      "path": "assets/blender/gustav-exterior-detail-prototypes.blend",
+      "bytes": 258198,
+      "sha256": "7fbad7c02d4e149f5ee99fb47cb7d71c77ef15d5fa4224d4e7a9c367f2ff4cfe"
+    }
+  ],
+  "renderAsset": {
+    "path": "evidence/gustav-final-5108af0d.glb",
+    "sha256": "5108af0d9f45b69c08ca3d1aed7293d44aab162ba81a903f5115e8eb661ee962"
+  },
+  "pending": [
+    "Parent actual image review",
+    "Firefox differential acceptance",
+    "Actual Three thumbnails",
+    "True orthographic final views"
+  ],
+  "notRun": [
+    "PGF stdio MCP SDK end-to-end",
+    "Full lock-matched production install/build"
+  ]
+}

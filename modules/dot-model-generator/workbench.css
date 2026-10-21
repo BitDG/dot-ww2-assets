@@ -1,0 +1,24 @@
+#rock-lab.dot-model-generator .dot-model-picker{display:grid;gap:8px;margin:12px 0;font-size:12px;color:var(--muted)}
+#rock-lab.dot-model-generator .dot-model-picker select{width:100%;min-width:0;background:#232a29;color:var(--text);padding:10px;border:1px solid #435349;border-radius:7px;font:inherit}
+#rock-lab.dot-model-generator .dot-capabilities{font-size:11px;line-height:1.8;color:#d8bd87;margin:8px 0 16px}
+#rock-lab.dot-model-generator .dot-tabs{display:flex;flex-wrap:wrap;gap:4px;margin:10px 0}
+#rock-lab.dot-model-generator .dot-tabs button{font-size:11px;padding:6px 8px}
+#rock-lab.dot-model-generator .dot-animation{padding:16px 4px;font-size:12px;line-height:1.9;color:var(--muted)}
+#rock-lab.dot-model-generator .dot-animation h3{font-size:14px;color:var(--text)}
+#rock-lab.dot-model-generator .dot-unavailable{position:absolute;inset:35% 10% auto;padding:24px;background:#1a2422e8;border:1px solid #435349;border-radius:10px;line-height:1.8;color:var(--muted);pointer-events:none}
+#rock-lab.dot-model-generator .dot-unavailable h2{font-size:18px;color:var(--text)}
+#rock-lab.dot-model-generator [hidden]{display:none!important}
+#rock-lab.dot-model-generator [data-status][data-error=true]{color:#ffb9a2}
+#rock-lab.dot-model-generator [data-part]{max-width:160px;background:#202d2b;color:var(--text);border:1px solid #435349;border-radius:5px;font:inherit}
+#rock-lab.dot-model-generator .viewport-tools{flex-wrap:wrap;max-width:calc(100% - 32px)}
+#rock-lab.dot-model-generator .header-actions>button{white-space:nowrap}
+@media(max-width:1100px){#rock-lab.dot-model-generator .header-actions>button{padding:7px;font-size:11px}#rock-lab.dot-model-generator [data-part]{max-width:120px}}
+
+/* Keep the shared color enhancer usable under plugin-field's generic input width. */
+#rock-lab.dot-model-generator .plugin-field .pgf-color-control>input[type=color]{width:36px;flex:0 0 36px}
+#rock-lab.dot-model-generator .plugin-field .pgf-color-control>input:not([type=color]){width:0;min-width:0;flex:1}
+
+#rock-lab.dot-model-generator .dot-animation-actions{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
+#rock-lab.dot-model-generator .dot-animation-actions button{font-size:12px;padding:8px 10px}
+#rock-lab.dot-model-generator .dot-animation-rate{display:flex;align-items:center;gap:12px;margin:14px 0}
+#rock-lab.dot-model-generator .dot-animation-rate select{background:#202d2b;color:var(--text);padding:6px;border:1px solid #435349;border-radius:5px}

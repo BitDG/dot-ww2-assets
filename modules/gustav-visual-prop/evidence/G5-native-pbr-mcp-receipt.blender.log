@@ -1,0 +1,100 @@
+BlenderMCP addon registered
+Server thread started
+TASK_MCP_READY={"pid": 7, "host": "127.0.0.1", "port": 19876, "blender_version": "4.3.2", "addon_version": [1, 8], "addon_protocol": 13, "addon_sha256": "eb0facf69781a30e69792532087d8d41c6a14fcd323353250abe7988ee297fa5", "background": true, "lifecycle_adapter": "explicit main-thread upstream queue pump", "telemetry_disabled": true, "integrations": {"polyhaven": false, "sketchfab": false, "polypizza": false, "hyper3d": false, "hunyuan3d": false, "tripo": false}, "hard_timeout_seconds": 21600}
+Blender 4.3.2
+Fra:1 Mem:13.83M (Peak 13.83M) | Time:497673:57:37.07 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Gustav_paint_clean_bake_plane
+Fra:1 Mem:13.83M (Peak 13.83M) | Time:497673:57:37.07 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:13.83M (Peak 13.83M) | Time:497673:57:37.07 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading GustavNative_paint-clean-baseColor
+Fra:1 Mem:13.83M (Peak 22.45M) | Time:497673:57:37.15 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Gustav_paint_clean_bake_plane
+Fra:1 Mem:13.83M (Peak 22.45M) | Time:497673:57:37.15 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:13.83M (Peak 22.45M) | Time:497673:57:37.15 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading GustavNative_paint-clean-normal
+Fra:1 Mem:13.83M (Peak 22.45M) | Time:497673:57:37.24 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Gustav_paint_clean_bake_plane
+Fra:1 Mem:13.83M (Peak 22.45M) | Time:497673:57:37.24 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:13.83M (Peak 22.45M) | Time:497673:57:37.24 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading GustavNative_paint-clean-orm
+Fra:1 Mem:14.10M (Peak 22.45M) | Time:497673:57:37.29 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Gustav_paint_worn_bake_plane
+Fra:1 Mem:14.10M (Peak 22.45M) | Time:497673:57:37.29 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:14.10M (Peak 22.45M) | Time:497673:57:37.29 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading GustavNative_paint-worn-baseColor
+Fra:1 Mem:14.10M (Peak 22.72M) | Time:497673:57:37.34 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Gustav_paint_worn_bake_plane
+Fra:1 Mem:14.10M (Peak 22.72M) | Time:497673:57:37.34 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:14.10M (Peak 22.72M) | Time:497673:57:37.34 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading GustavNative_paint-worn-normal
+Fra:1 Mem:14.10M (Peak 22.73M) | Time:497673:57:37.43 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Gustav_paint_worn_bake_plane
+Fra:1 Mem:14.10M (Peak 22.73M) | Time:497673:57:37.43 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:14.10M (Peak 22.73M) | Time:497673:57:37.43 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading GustavNative_paint-worn-orm
+Fra:1 Mem:14.68M (Peak 22.73M) | Time:497673:57:37.62 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Gustav_deck_clean_bake_plane
+Fra:1 Mem:14.68M (Peak 22.73M) | Time:497673:57:37.62 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:14.68M (Peak 22.73M) | Time:497673:57:37.62 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading GustavNative_deck-clean-baseColor
+Fra:1 Mem:17.30M (Peak 23.31M) | Time:497673:57:37.74 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Gustav_closed_decorative_tread_high
+Fra:1 Mem:17.37M (Peak 23.31M) | Time:497673:57:37.74 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:17.37M (Peak 23.31M) | Time:497673:57:37.74 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading GustavNative_deck-clean-normal
+Fra:1 Mem:14.75M (Peak 26.09M) | Time:497673:57:37.87 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Gustav_deck_clean_bake_plane
+Fra:1 Mem:14.75M (Peak 26.09M) | Time:497673:57:37.87 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:14.74M (Peak 26.09M) | Time:497673:57:37.87 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading GustavNative_deck-clean-orm
+Fra:1 Mem:15.31M (Peak 26.09M) | Time:497673:57:38.08 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Gustav_deck_worn_bake_plane
+Fra:1 Mem:15.31M (Peak 26.09M) | Time:497673:57:38.08 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:15.30M (Peak 26.09M) | Time:497673:57:38.08 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading GustavNative_deck-worn-baseColor
+Fra:1 Mem:17.92M (Peak 26.09M) | Time:497673:57:38.18 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Gustav_closed_decorative_tread_high.001
+Fra:1 Mem:17.99M (Peak 26.09M) | Time:497673:57:38.18 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:17.99M (Peak 26.09M) | Time:497673:57:38.18 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading GustavNative_deck-worn-normal
+Fra:1 Mem:15.37M (Peak 26.71M) | Time:497673:57:38.28 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Gustav_deck_worn_bake_plane
+Fra:1 Mem:15.37M (Peak 26.71M) | Time:497673:57:38.28 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:15.37M (Peak 26.71M) | Time:497673:57:38.28 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading GustavNative_deck-worn-orm
+Fra:1 Mem:15.64M (Peak 26.71M) | Time:497673:57:38.33 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Gustav_steel_clean_bake_plane
+Fra:1 Mem:15.64M (Peak 26.71M) | Time:497673:57:38.33 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:15.63M (Peak 26.71M) | Time:497673:57:38.33 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading GustavNative_steel-clean-baseColor
+Fra:1 Mem:15.64M (Peak 26.71M) | Time:497673:57:38.37 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Gustav_steel_clean_bake_plane
+Fra:1 Mem:15.64M (Peak 26.71M) | Time:497673:57:38.37 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:15.64M (Peak 26.71M) | Time:497673:57:38.37 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading GustavNative_steel-clean-normal
+Fra:1 Mem:15.65M (Peak 26.71M) | Time:497673:57:38.46 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Gustav_steel_clean_bake_plane
+Fra:1 Mem:15.65M (Peak 26.71M) | Time:497673:57:38.46 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:15.64M (Peak 26.71M) | Time:497673:57:38.46 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading GustavNative_steel-clean-orm
+Fra:1 Mem:15.91M (Peak 26.71M) | Time:497673:57:38.51 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Gustav_steel_worn_bake_plane
+Fra:1 Mem:15.91M (Peak 26.71M) | Time:497673:57:38.51 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:15.91M (Peak 26.71M) | Time:497673:57:38.51 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading GustavNative_steel-worn-baseColor
+Fra:1 Mem:15.91M (Peak 26.71M) | Time:497673:57:38.55 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Gustav_steel_worn_bake_plane
+Fra:1 Mem:15.91M (Peak 26.71M) | Time:497673:57:38.55 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:15.91M (Peak 26.71M) | Time:497673:57:38.55 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading GustavNative_steel-worn-normal
+Fra:1 Mem:15.91M (Peak 26.71M) | Time:497673:57:38.64 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | Gustav_steel_worn_bake_plane
+Fra:1 Mem:15.91M (Peak 26.71M) | Time:497673:57:38.64 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:15.91M (Peak 26.71M) | Time:497673:57:38.64 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading GustavNative_steel-worn-orm
+Connected to client: ('127.0.0.1', 50704)
+Client handler started
+Queued command: get_addon_info
+Executing handler for get_addon_info
+Handler execution complete
+Queued command: execute_code
+Executing handler for execute_code
+Handler execution complete
+Queued command: get_telemetry_consent
+Executing handler for get_telemetry_consent
+Handler execution complete
+Queued command: get_addon_info
+Executing handler for get_addon_info
+Handler execution complete
+Queued command: get_polyhaven_status
+Queued command: get_sketchfab_status
+Executing handler for get_sketchfab_status
+Handler execution complete
+Queued command: get_polypizza_status
+Executing handler for get_polypizza_status
+Handler execution complete
+Queued command: get_hunyuan3d_status
+Executing handler for get_hunyuan3d_status
+Handler execution complete
+Queued command: get_hyper3d_status
+Executing handler for get_hyper3d_status
+Handler execution complete
+Queued command: execute_code
+Executing handler for execute_code
+Handler execution complete
+Queued command: execute_code
+Executing handler for execute_code
+Handler execution complete
+Client disconnected
+Client handler stopped
+Error accepting connection: [Errno 9] Bad file descriptor
+BlenderMCP server stopped
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+TASK_MCP_STOPPED
+
+Blender quit

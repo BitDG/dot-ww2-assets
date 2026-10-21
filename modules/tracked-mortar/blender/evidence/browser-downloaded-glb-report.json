@@ -1,0 +1,186 @@
+{
+  "status": "passed",
+  "scope": "Actual native-browser downloads read back through unchanged shared PGF GLB reader; not a claim of cross-Canvas pixel identity",
+  "files": [
+    {
+      "file": "tracked-mortar(1).glb",
+      "bytes": 5130652,
+      "sha256": "9acee0e9a1911fd2f3076109bd7a4a20577d25dc56b6febc973209d5b49678e9",
+      "triangles": 109900,
+      "nonFinite": 0,
+      "degenerate": 0,
+      "colliders": 1,
+      "sockets": 3,
+      "textures": 15,
+      "materials": 6,
+      "readerMaterialsIncludingUnusedFallback": 7,
+      "sourceGLBSha256": "1a06ab665eb85937f7b00646dbe57cc864d1df14c63eb1041071868fa117e5ac",
+      "recipe": {
+        "seed": "pgf-components-1",
+        "params": {
+          "camoPattern": "digital",
+          "camoEnvironment": "urban",
+          "camoScale": 1.6,
+          "paintColor": "#a2aaaf",
+          "length": 12,
+          "elevation": 0,
+          "barrelScale": 1.15,
+          "weathering": 0.65,
+          "detail": "high",
+          "railings": true,
+          "exploded": 0
+        }
+      },
+      "camouflage": {
+        "pattern": "digital",
+        "environment": "urban",
+        "colors": [
+          "#4a5442",
+          "#333d30",
+          "#79806a",
+          "#23261f"
+        ],
+        "scale": 1.6,
+        "source": "Existing PGF tank bakePgfCamo painter"
+      },
+      "bounds": {
+        "min": [
+          -1.8450000286102295,
+          0.03199999779462814,
+          -5.834887504577637
+        ],
+        "max": [
+          1.8450000286102295,
+          4.522335648537141,
+          5.93411111831665
+        ]
+      }
+    },
+    {
+      "file": "tracked-mortar(2).glb",
+      "bytes": 5007328,
+      "sha256": "57c4d874994c775967addda181919cb06ead8e63725cfb9a9f60de5a4c709271",
+      "triangles": 109900,
+      "nonFinite": 0,
+      "degenerate": 0,
+      "colliders": 1,
+      "sockets": 3,
+      "textures": 15,
+      "materials": 6,
+      "readerMaterialsIncludingUnusedFallback": 7,
+      "sourceGLBSha256": "1a06ab665eb85937f7b00646dbe57cc864d1df14c63eb1041071868fa117e5ac",
+      "recipe": {
+        "seed": "pgf-components-1",
+        "params": {
+          "camoPattern": "original",
+          "camoEnvironment": "desert",
+          "camoScale": 1,
+          "paintColor": "#a2aaaf",
+          "length": 10.8,
+          "elevation": 0,
+          "barrelScale": 1,
+          "weathering": 0.32,
+          "detail": "high",
+          "railings": true,
+          "exploded": 0
+        }
+      },
+      "camouflage": {
+        "pattern": "original",
+        "environment": "desert",
+        "scale": 1,
+        "source": "PGF tank armor PBR"
+      },
+      "bounds": {
+        "min": [
+          -1.8450000286102295,
+          0.03199999779462814,
+          -5.253776550292969
+        ],
+        "max": [
+          1.8450000286102295,
+          4.522335648537141,
+          5.343000411987305
+        ]
+      }
+    },
+    {
+      "file": "tracked-mortar.glb",
+      "bytes": 5007328,
+      "sha256": "57c4d874994c775967addda181919cb06ead8e63725cfb9a9f60de5a4c709271",
+      "triangles": 109900,
+      "nonFinite": 0,
+      "degenerate": 0,
+      "colliders": 1,
+      "sockets": 3,
+      "textures": 15,
+      "materials": 6,
+      "readerMaterialsIncludingUnusedFallback": 7,
+      "sourceGLBSha256": "1a06ab665eb85937f7b00646dbe57cc864d1df14c63eb1041071868fa117e5ac",
+      "recipe": {
+        "seed": "pgf-components-1",
+        "params": {
+          "camoPattern": "original",
+          "camoEnvironment": "desert",
+          "camoScale": 1,
+          "paintColor": "#a2aaaf",
+          "length": 10.8,
+          "elevation": 0,
+          "barrelScale": 1,
+          "weathering": 0.32,
+          "detail": "high",
+          "railings": true,
+          "exploded": 0
+        }
+      },
+      "camouflage": {
+        "pattern": "original",
+        "environment": "desert",
+        "scale": 1,
+        "source": "PGF tank armor PBR"
+      },
+      "bounds": {
+        "min": [
+          -1.8450000286102295,
+          0.03199999779462814,
+          -5.253776550292969
+        ],
+        "max": [
+          1.8450000286102295,
+          4.522335648537141,
+          5.343000411987305
+        ]
+      }
+    }
+  ],
+  "presetImages": [
+    {
+      "preset": "reference",
+      "width": 500,
+      "height": 380,
+      "sha256": "a7d52cf5dd5f02ac2cc2d7ca53da8a827718aa489e21d3556cf7b3dc38b0c295"
+    },
+    {
+      "preset": "inspection",
+      "width": 500,
+      "height": 380,
+      "sha256": "f2d96b7ebc201404864a1331387089a4f5fd92eb4317c57137bda6bc67559bc1"
+    },
+    {
+      "preset": "exploded",
+      "width": 500,
+      "height": 380,
+      "sha256": "c68af217beea0acdbe82759361bec55298876278076401acde0991d3d5ecf325"
+    }
+  ],
+  "lifecycle": {
+    "renderWorker": true,
+    "idleFramesBefore": 80,
+    "idleFramesAfter": 80,
+    "idleFramesDelta": 0,
+    "disposed": true,
+    "workerTerminated": true,
+    "renderRPC": 0,
+    "note": "Post-disposal cached geometry/texture counters are not asserted zero"
+  }
+}

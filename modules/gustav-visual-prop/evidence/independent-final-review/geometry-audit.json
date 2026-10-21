@@ -1,0 +1,358 @@
+[
+  {
+    "path": "modules/gustav-visual-prop/evidence/gustav-G7-3e988dcd.glb",
+    "sha256": "3e988dcd4e60a72996030c23a58e54476a12ab08264ecc3cfa6308b968d54590",
+    "bytes": 6418624,
+    "embeddedIntegrity": "passed",
+    "uniqueMeshes": 19,
+    "renderMeshInstances": 74,
+    "draws": 74,
+    "uniqueTriangles": 96732,
+    "renderedTriangles": 146012,
+    "nonFiniteAccessorValues": 0,
+    "outOfRangeIndices": 0,
+    "exactDegenerateTriangles": 0,
+    "crossSquaredBelow1e-20": 0,
+    "nonUnitNormalsOver1e-3": 0,
+    "duplicateFaces": [],
+    "renderedPositionDuplicateFaces": 0,
+    "materials": 7,
+    "textures": 6,
+    "images": [
+      {
+        "sha256": "adfcc6082321d9547169ab61c82e62f604e2c4439733dccb8c1737a5f5a9eb60",
+        "dimensions": [
+          256,
+          256
+        ],
+        "pngCRCAndInflate": "passed"
+      },
+      {
+        "sha256": "2f6728bdabb48ef78373463317c57f66ce907d95dc942d39fb73b1294e284377",
+        "dimensions": [
+          256,
+          256
+        ],
+        "pngCRCAndInflate": "passed"
+      },
+      {
+        "sha256": "670820f1420cb6e81c91b19f758595be1391cb1f8429ce9368684cfbbadba968",
+        "dimensions": [
+          256,
+          256
+        ],
+        "pngCRCAndInflate": "passed"
+      },
+      {
+        "sha256": "453390281e57918f1c078743c77ae95d1d9802c4136c9a0ac0e811d6f78e84f6",
+        "dimensions": [
+          256,
+          256
+        ],
+        "pngCRCAndInflate": "passed"
+      },
+      {
+        "sha256": "c2657a510989084a3e49b392f6bbe73e488e91fe3099a31a61a6970d565ee4ae",
+        "dimensions": [
+          256,
+          256
+        ],
+        "pngCRCAndInflate": "passed"
+      },
+      {
+        "sha256": "2d9e730ff1879b9985d72808ff09ea613dcf07622452e11a1f0b6e4b63fd6a2c",
+        "dimensions": [
+          256,
+          256
+        ],
+        "pngCRCAndInflate": "passed"
+      }
+    ],
+    "textureReferences": [
+      [
+        "materials.2.pbrMetallicRoughness.baseColorTexture",
+        0
+      ],
+      [
+        "materials.2.pbrMetallicRoughness.metallicRoughnessTexture",
+        2
+      ],
+      [
+        "materials.2.normalTexture",
+        1
+      ],
+      [
+        "materials.3.pbrMetallicRoughness.baseColorTexture",
+        0
+      ],
+      [
+        "materials.3.pbrMetallicRoughness.metallicRoughnessTexture",
+        2
+      ],
+      [
+        "materials.3.normalTexture",
+        1
+      ],
+      [
+        "materials.5.pbrMetallicRoughness.baseColorTexture",
+        3
+      ],
+      [
+        "materials.5.pbrMetallicRoughness.metallicRoughnessTexture",
+        5
+      ],
+      [
+        "materials.5.normalTexture",
+        4
+      ],
+      [
+        "materials.6.pbrMetallicRoughness.baseColorTexture",
+        0
+      ],
+      [
+        "materials.6.pbrMetallicRoughness.metallicRoughnessTexture",
+        2
+      ],
+      [
+        "materials.6.normalTexture",
+        1
+      ]
+    ],
+    "nodeNames": [
+      "gustav-visual-prop",
+      "gustav-visual-prop",
+      "display-rails",
+      "display-rails-sleeper-batch",
+      "display-rails-steel-batch",
+      "rail-wheel-facades",
+      "wheel--1--1--1-0",
+      "wheel--1--1--1-1",
+      "wheel--1--1--1-2",
+      "wheel--1--1--1-3",
+      "wheel--1--1--1-4",
+      "wheel--1--1--1-5",
+      "wheel--1--1--1-6",
+      "wheel--1--1-1-0",
+      "wheel--1--1-1-1",
+      "wheel--1--1-1-2",
+      "wheel--1--1-1-3",
+      "wheel--1--1-1-4",
+      "wheel--1--1-1-5",
+      "wheel--1--1-1-6",
+      "wheel--1-1--1-0",
+      "wheel--1-1--1-1",
+      "wheel--1-1--1-2",
+      "wheel--1-1--1-3",
+      "wheel--1-1--1-4",
+      "wheel--1-1--1-5",
+      "wheel--1-1--1-6",
+      "wheel--1-1-1-0",
+      "wheel--1-1-1-1",
+      "wheel--1-1-1-2",
+      "wheel--1-1-1-3",
+      "wheel--1-1-1-4",
+      "wheel--1-1-1-5",
+      "wheel--1-1-1-6",
+      "wheel-1--1--1-0",
+      "wheel-1--1--1-1",
+      "wheel-1--1--1-2",
+      "wheel-1--1--1-3",
+      "wheel-1--1--1-4",
+      "wheel-1--1--1-5",
+      "wheel-1--1--1-6",
+      "wheel-1--1-1-0",
+      "wheel-1--1-1-1",
+      "wheel-1--1-1-2",
+      "wheel-1--1-1-3",
+      "wheel-1--1-1-4",
+      "wheel-1--1-1-5",
+      "wheel-1--1-1-6",
+      "wheel-1-1--1-0",
+      "wheel-1-1--1-1",
+      "wheel-1-1--1-2",
+      "wheel-1-1--1-3",
+      "wheel-1-1--1-4",
+      "wheel-1-1--1-5",
+      "wheel-1-1--1-6",
+      "wheel-1-1-1-0",
+      "wheel-1-1-1-1",
+      "wheel-1-1-1-2",
+      "wheel-1-1-1-3",
+      "wheel-1-1-1-4",
+      "wheel-1-1-1-5",
+      "wheel-1-1-1-6",
+      "main-outer-frame",
+      "main-outer-frame-trim-batch",
+      "main-outer-frame-paint-batch",
+      "closed-cylinder-shell",
+      "opaque-front-recess",
+      "closed-cylinder-shell-trim-batch",
+      "closed-cylinder-shell-paint-batch",
+      "closed-cylinder-shell-steel-batch",
+      "walkways",
+      "walkways-deck-batch",
+      "walkways-trim-batch",
+      "rear-display-deck",
+      "rear-display-deck-deck-batch",
+      "rear-display-deck-paint-batch",
+      "rear-display-deck-trim-batch",
+      "surface-decoration",
+      "surface-decoration-paint-batch",
+      "surface-decoration-steel-batch",
+      "surface-decoration-trim-batch",
+      "surface-decoration-dark-batch",
+      "surface-decoration-panel-batch"
+    ],
+    "glbContainsExtras": true,
+    "warnings": []
+  },
+  {
+    "path": "modules/diesel-locomotive/evidence/diesel-medium.glb",
+    "sha256": "bb62ac17a9e3b57d581cc52aff70495fdd1b52973b5c60c6f035d737e40f72cc",
+    "bytes": 3131440,
+    "embeddedIntegrity": "passed",
+    "uniqueMeshes": 37,
+    "renderMeshInstances": 48,
+    "draws": 48,
+    "uniqueTriangles": 76860,
+    "renderedTriangles": 86716,
+    "nonFiniteAccessorValues": 0,
+    "outOfRangeIndices": 0,
+    "exactDegenerateTriangles": 0,
+    "crossSquaredBelow1e-20": 0,
+    "nonUnitNormalsOver1e-3": 0,
+    "duplicateFaces": [],
+    "renderedPositionDuplicateFaces": 0,
+    "materials": 9,
+    "textures": 3,
+    "images": [
+      {
+        "sha256": "2fd3a7e0ee6acc32cf53654cbc103ed45f32fbcd00fefa0e86926c0b3c127baf",
+        "dimensions": [
+          256,
+          256
+        ],
+        "pngCRCAndInflate": "passed"
+      },
+      {
+        "sha256": "b756967a115f5775c4ef7b753bf309ba75ac61c416253bf99afcfc69fb236cb5",
+        "dimensions": [
+          256,
+          256
+        ],
+        "pngCRCAndInflate": "passed"
+      },
+      {
+        "sha256": "208de8b63fe5248057669e5c4c0728b4fdf355ebf5a161c8c501ec69d7985385",
+        "dimensions": [
+          256,
+          256
+        ],
+        "pngCRCAndInflate": "passed"
+      }
+    ],
+    "textureReferences": [
+      [
+        "materials.2.pbrMetallicRoughness.baseColorTexture",
+        0
+      ],
+      [
+        "materials.2.pbrMetallicRoughness.metallicRoughnessTexture",
+        2
+      ],
+      [
+        "materials.2.normalTexture",
+        1
+      ],
+      [
+        "materials.3.pbrMetallicRoughness.baseColorTexture",
+        0
+      ],
+      [
+        "materials.3.pbrMetallicRoughness.metallicRoughnessTexture",
+        2
+      ],
+      [
+        "materials.3.normalTexture",
+        1
+      ],
+      [
+        "materials.7.pbrMetallicRoughness.baseColorTexture",
+        0
+      ],
+      [
+        "materials.7.pbrMetallicRoughness.metallicRoughnessTexture",
+        2
+      ],
+      [
+        "materials.7.normalTexture",
+        1
+      ]
+    ],
+    "nodeNames": [
+      "diesel-locomotive",
+      "diesel-locomotive",
+      "display-rails",
+      "display-rails-sleeper-batch",
+      "display-rails-steel-batch",
+      "rail-wheel-facades",
+      "wheel--1--1--1",
+      "wheel--1--1-0",
+      "wheel--1--1-1",
+      "wheel--1-1--1",
+      "wheel--1-1-0",
+      "wheel--1-1-1",
+      "wheel-1--1--1",
+      "wheel-1--1-0",
+      "wheel-1--1-1",
+      "wheel-1-1--1",
+      "wheel-1-1-0",
+      "wheel-1-1-1",
+      "chassis-and-tanks",
+      "chassis-and-tanks-trim-batch",
+      "chassis-and-tanks-paint-batch",
+      "chassis-and-tanks-steel-batch",
+      "cab-and-short-nose",
+      "cab-and-short-nose-paint-batch",
+      "cab-and-short-nose-trim-batch",
+      "cab-and-short-nose-dark-batch",
+      "cab-and-short-nose-glass-batch",
+      "cab-and-short-nose-steel-batch",
+      "cab-and-short-nose-rubber-batch",
+      "long-engine-hood",
+      "long-engine-hood-paint-batch",
+      "long-engine-hood-trim-batch",
+      "walkways-and-guards",
+      "walkways-and-guards-deck-batch",
+      "walkways-and-guards-trim-batch",
+      "walkways-and-guards-steel-batch",
+      "roof-fans-and-exhaust",
+      "roof-fans-and-exhaust-trim-batch",
+      "roof-fans-and-exhaust-dark-batch",
+      "roof-fans-and-exhaust-steel-batch",
+      "roof-fans-and-exhaust-paint-batch",
+      "pilots-and-couplers",
+      "pilots-and-couplers-trim-batch",
+      "pilots-and-couplers-steel-batch",
+      "pilots-and-couplers-dark-batch",
+      "pilots-and-couplers-lamp-batch",
+      "pilots-and-couplers-rubber-batch",
+      "panels-and-hardware",
+      "panels-and-hardware-paint-batch",
+      "panels-and-hardware-dark-batch",
+      "panels-and-hardware-steel-batch",
+      "panels-and-hardware-trim-batch",
+      "panels-and-hardware-lamp-batch",
+      "front-three-axle-bogie",
+      "front-three-axle-bogie-dark-batch",
+      "front-three-axle-bogie-trim-batch",
+      "front-three-axle-bogie-steel-batch",
+      "rear-three-axle-bogie",
+      "rear-three-axle-bogie-dark-batch",
+      "rear-three-axle-bogie-trim-batch",
+      "rear-three-axle-bogie-steel-batch"
+    ],
+    "glbContainsExtras": true,
+    "warnings": []
+  }
+]

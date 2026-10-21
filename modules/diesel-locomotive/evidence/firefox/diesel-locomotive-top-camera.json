@@ -1,0 +1,60 @@
+{
+  "preset": "low-silhouette",
+  "view": "top",
+  "modelSha256": "bb62ac17a9e3b57d581cc52aff70495fdd1b52973b5c60c6f035d737e40f72cc",
+  "resolution": [
+    1400,
+    420
+  ],
+  "camera": {
+    "direction": [
+      0,
+      -1,
+      -2.220446049250313e-16
+    ],
+    "near": 0.01,
+    "far": 200,
+    "unitsPerPixel": 0.0184,
+    "type": "OrthographicCamera",
+    "position": [
+      0,
+      42.670000077188014,
+      0
+    ],
+    "quaternion": [
+      -0.7071067811865475,
+      0,
+      0,
+      0.7071067811865476
+    ],
+    "up": [
+      0,
+      0,
+      -1
+    ],
+    "left": -12.879999999999999,
+    "right": 12.879999999999999,
+    "top": 3.864,
+    "bottom": -3.864,
+    "target": [
+      0,
+      2.670000077188015,
+      0
+    ]
+  },
+  "triangles": 86716,
+  "meshes": 48,
+  "frames": 16,
+  "renderer": {
+    "frame": 51,
+    "calls": 49,
+    "triangles": 86718,
+    "points": 0,
+    "lines": 0
+  },
+  "memory": {
+    "geometries": 38,
+    "textures": 5
+  },
+  "capture": "Pure Three canvas; orthographic views use common vertical span and 420 pixel height"
+}

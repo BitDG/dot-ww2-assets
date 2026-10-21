@@ -1,0 +1,1221 @@
+{
+  "stage": "QF25 Q2 I2 unified Firefox acceptance",
+  "started": "2026-10-12T09:19:10.701Z",
+  "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:157.0) Gecko/20100101 Firefox/157.0",
+  "checks": [
+    {
+      "name": "Firefox real browser",
+      "ok": true
+    },
+    {
+      "name": "one original unified canvas and schema container",
+      "ok": true
+    },
+    {
+      "name": "native QF25 identity and exact final source",
+      "ok": true
+    },
+    {
+      "name": "cloth and bag physically absent; hard exterior box retained",
+      "ok": true
+    },
+    {
+      "name": "removed cloth is not an editable hidden option",
+      "ok": true
+    },
+    {
+      "name": "fixed art contract and no online remodeling",
+      "ok": true
+    },
+    {
+      "name": "one collection card with QF25 searchable member",
+      "ok": true
+    },
+    {
+      "name": "real PGF material controls preserve geometry",
+      "ok": true
+    },
+    {
+      "name": "shared PGF winter textures and appearance",
+      "ok": true
+    },
+    {
+      "name": "hide showBarrel removes group from static AssetIR",
+      "ok": true
+    },
+    {
+      "name": "hide showShield removes group from static AssetIR",
+      "ok": true
+    },
+    {
+      "name": "hide showCarriage removes group from static AssetIR",
+      "ok": true
+    },
+    {
+      "name": "hide showLeftWheel removes group from static AssetIR",
+      "ok": true
+    },
+    {
+      "name": "hide showRightWheel removes group from static AssetIR",
+      "ok": true
+    },
+    {
+      "name": "hide showTrail removes group from static AssetIR",
+      "ok": true
+    },
+    {
+      "name": "hide showPlatform removes group from static AssetIR",
+      "ok": true
+    },
+    {
+      "name": "hide showFittings removes group from static AssetIR",
+      "ok": true
+    },
+    {
+      "name": "actual low authored source selected",
+      "ok": true
+    },
+    {
+      "name": "actual high authored source selected",
+      "ok": true
+    },
+    {
+      "name": "actual medium authored source selected",
+      "ok": true
+    },
+    {
+      "name": "art proportions keep runtime valid",
+      "ok": true
+    },
+    {
+      "name": "failed edit retains previous asset runtime and completed recipe",
+      "ok": true
+    },
+    {
+      "name": "cancel restores successful parameters",
+      "ok": true
+    },
+    {
+      "name": "pending cancel preserves completed asset and runtime",
+      "ok": true
+    },
+    {
+      "name": "canceled export returns no download",
+      "ok": true
+    },
+    {
+      "name": "actual static GLB bytes export",
+      "ok": true
+    },
+    {
+      "name": "tow and smoke controls available with clear labels",
+      "ok": true
+    },
+    {
+      "name": "real tow advances with both-wheel binding",
+      "ok": true
+    },
+    {
+      "name": "pause stops artistic time",
+      "ok": true
+    },
+    {
+      "name": "moving-preview static export byte-identical",
+      "ok": true
+    },
+    {
+      "name": "real smoke emits locally with no tow playing",
+      "ok": true
+    },
+    {
+      "name": "smoke excluded from static export",
+      "ok": true
+    },
+    {
+      "name": "seek reconstructs deterministic smoke time",
+      "ok": true
+    },
+    {
+      "name": "UI speed is cosmetic multiplier",
+      "ok": true
+    },
+    {
+      "name": "presentation framing opt-in",
+      "ok": true
+    },
+    {
+      "name": "reset returns static state",
+      "ok": true
+    },
+    {
+      "name": "independent GLTFLoader reimport has finite static geometry and decoded textures",
+      "ok": true
+    },
+    {
+      "name": "GLB truly omits removed cloth and preserves hard box",
+      "ok": true
+    },
+    {
+      "name": "PGF export provenance and explicit uncapped state roundtrip",
+      "ok": true
+    },
+    {
+      "name": "real exported GLB receipt saved",
+      "ok": true
+    },
+    {
+      "name": "native QF25 recipe restores without cross-model schema leakage",
+      "ok": true
+    },
+    {
+      "name": "WIP switch frees QF25 owned resources; only proven shared Sprite cache remains",
+      "ok": true,
+      "details": {
+        "preview": {
+          "frames": 58,
+          "invalidations": 149,
+          "pending": false,
+          "disposed": false,
+          "active": true,
+          "hidden": false,
+          "contextLost": false,
+          "geometries": 1,
+          "textures": 0,
+          "render": {
+            "calls": 0,
+            "triangles": 0
+          },
+          "playing": false,
+          "clipName": "",
+          "skeletonVisible": false
+        },
+        "sceneTypes": [
+          "HemisphereLight",
+          "DirectionalLight",
+          "DirectionalLight"
+        ],
+        "runtime": {
+          "animation": {
+            "disposed": true,
+            "active": false,
+            "speed": 1,
+            "loading": false,
+            "framing": "model",
+            "motionAvailable": false,
+            "fireAvailable": false,
+            "motionPlaying": false,
+            "firePlaying": false,
+            "qf25": {
+              "available": false,
+              "playing": false,
+              "disposed": true,
+              "active": true,
+              "state": "disposed",
+              "mode": "tow",
+              "time": 0,
+              "error": null,
+              "emissions": 0,
+              "lastAnchor": null,
+              "capabilities": {
+                "tow": true,
+                "fire": false,
+                "selfPropelled": false,
+                "hostTickOnly": true,
+                "previewOnly": true,
+                "animatedGLB": false,
+                "exportedParticles": false,
+                "projectileSimulation": false,
+                "mechanicalRecoil": false,
+                "performanceSimulation": false
+              },
+              "binding": {
+                "nodes": {
+                  "body": "QF25_ROOT",
+                  "left": "QF25_Wheel_Left_Pivot",
+                  "right": "QF25_Wheel_Right_Pivot",
+                  "assembly": "QF25_Wheel_Assembly",
+                  "muzzle": "QF25_Cosmetic_Muzzle_Anchor",
+                  "cover": "QF25_Canvas_Cover",
+                  "sealedFront": "QF25_Shallow_Sealed_Front"
+                },
+                "radiusArt": 0.53,
+                "explicitNoCover": true,
+                "coverVisible": null,
+                "fireAllowed": true
+              },
+              "ownedChildren": 0,
+              "fx": null,
+              "evidenceScope": "authored cosmetic roll and local smoke; timing, color and tow path are not historical measurements"
+            },
+            "motion": {
+              "available": false,
+              "playing": false,
+              "disposed": true,
+              "active": true,
+              "state": "disposed",
+              "mode": "tow",
+              "time": 0,
+              "error": null,
+              "emissions": 0,
+              "lastAnchor": null,
+              "capabilities": {
+                "tow": true,
+                "fire": false,
+                "selfPropelled": false,
+                "hostTickOnly": true,
+                "previewOnly": true,
+                "animatedGLB": false,
+                "exportedParticles": false,
+                "projectileSimulation": false,
+                "mechanicalRecoil": false,
+                "performanceSimulation": false
+              },
+              "binding": {
+                "nodes": {
+                  "body": "QF25_ROOT",
+                  "left": "QF25_Wheel_Left_Pivot",
+                  "right": "QF25_Wheel_Right_Pivot",
+                  "assembly": "QF25_Wheel_Assembly",
+                  "muzzle": "QF25_Cosmetic_Muzzle_Anchor",
+                  "cover": "QF25_Canvas_Cover",
+                  "sealedFront": "QF25_Shallow_Sealed_Front"
+                },
+                "radiusArt": 0.53,
+                "explicitNoCover": true,
+                "coverVisible": null,
+                "fireAllowed": true
+              },
+              "ownedChildren": 0,
+              "fx": null,
+              "evidenceScope": "authored cosmetic roll and local smoke; timing, color and tow path are not historical measurements"
+            },
+            "fire": {
+              "available": false,
+              "playing": false,
+              "disposed": true,
+              "active": true,
+              "state": "disposed",
+              "mode": "tow",
+              "time": 0,
+              "error": null,
+              "emissions": 0,
+              "lastAnchor": null,
+              "capabilities": {
+                "tow": true,
+                "fire": false,
+                "selfPropelled": false,
+                "hostTickOnly": true,
+                "previewOnly": true,
+                "animatedGLB": false,
+                "exportedParticles": false,
+                "projectileSimulation": false,
+                "mechanicalRecoil": false,
+                "performanceSimulation": false
+              },
+              "binding": {
+                "nodes": {
+                  "body": "QF25_ROOT",
+                  "left": "QF25_Wheel_Left_Pivot",
+                  "right": "QF25_Wheel_Right_Pivot",
+                  "assembly": "QF25_Wheel_Assembly",
+                  "muzzle": "QF25_Cosmetic_Muzzle_Anchor",
+                  "cover": "QF25_Canvas_Cover",
+                  "sealedFront": "QF25_Shallow_Sealed_Front"
+                },
+                "radiusArt": 0.53,
+                "explicitNoCover": true,
+                "coverVisible": null,
+                "fireAllowed": true
+              },
+              "ownedChildren": 0,
+              "fx": null,
+              "evidenceScope": "authored cosmetic roll and local smoke; timing, color and tow path are not historical measurements"
+            },
+            "hostTickOnly": true,
+            "staticGLBUnaffected": true
+          }
+        }
+      }
+    },
+    {
+      "name": "bounded shared Sprite cache cycle 0",
+      "ok": true,
+      "details": {
+        "cycle": 0,
+        "geometry": 1,
+        "textures": 0,
+        "calls": 0,
+        "sceneTypes": [
+          "HemisphereLight",
+          "DirectionalLight",
+          "DirectionalLight"
+        ],
+        "disposed": true
+      }
+    },
+    {
+      "name": "bounded shared Sprite cache cycle 1",
+      "ok": true,
+      "details": {
+        "cycle": 1,
+        "geometry": 1,
+        "textures": 0,
+        "calls": 0,
+        "sceneTypes": [
+          "HemisphereLight",
+          "DirectionalLight",
+          "DirectionalLight"
+        ],
+        "disposed": true
+      }
+    },
+    {
+      "name": "bounded shared Sprite cache cycle 2",
+      "ok": true,
+      "details": {
+        "cycle": 2,
+        "geometry": 1,
+        "textures": 0,
+        "calls": 0,
+        "sceneTypes": [
+          "HemisphereLight",
+          "DirectionalLight",
+          "DirectionalLight"
+        ],
+        "disposed": true
+      }
+    },
+    {
+      "name": "rapid final QF25 selection wins on original canvas",
+      "ok": true
+    },
+    {
+      "name": "idle no continuous rendering",
+      "ok": true
+    },
+    {
+      "name": "inactive stops render and motion",
+      "ok": true
+    },
+    {
+      "name": "actual GPU context alive",
+      "ok": true
+    },
+    {
+      "name": "unified dispose clears canvas, workers, timers and object URLs",
+      "ok": true,
+      "details": {
+        "assetId": "qf25-visual-prop",
+        "phase": "ready",
+        "error": "",
+        "active": true,
+        "disposed": true,
+        "dirty": false,
+        "busy": false,
+        "exporting": false,
+        "hasAsset": false,
+        "exportable": false,
+        "stats": {
+          "triangles": 102680,
+          "renderedTriangles": 102680,
+          "drawCalls": 357,
+          "bytes": 5957083,
+          "texturePixels": 786432,
+          "meshes": 357,
+          "nodes": 371,
+          "generationMs": 1182
+        },
+        "epoch": 94,
+        "selection": 19,
+        "worker": false,
+        "exportWorker": false,
+        "debouncePending": false,
+        "preview": {
+          "frames": 87,
+          "invalidations": 192,
+          "pending": false,
+          "disposed": true,
+          "active": true,
+          "hidden": false,
+          "contextLost": true,
+          "geometries": 1,
+          "textures": 0,
+          "render": {
+            "calls": 357,
+            "triangles": 102680
+          },
+          "playing": false,
+          "clipName": "",
+          "skeletonVisible": false
+        },
+        "canvasCount": 0,
+        "ownedObjectURLs": 0,
+        "exploded": false,
+        "animation": {
+          "disposed": true,
+          "active": false,
+          "speed": 1,
+          "loading": false,
+          "framing": "model",
+          "motionAvailable": false,
+          "fireAvailable": false,
+          "motionPlaying": false,
+          "firePlaying": false,
+          "qf25": {
+            "available": false,
+            "playing": false,
+            "disposed": true,
+            "active": true,
+            "state": "disposed",
+            "mode": "tow",
+            "time": 0,
+            "error": null,
+            "emissions": 0,
+            "lastAnchor": null,
+            "capabilities": {
+              "tow": true,
+              "fire": false,
+              "selfPropelled": false,
+              "hostTickOnly": true,
+              "previewOnly": true,
+              "animatedGLB": false,
+              "exportedParticles": false,
+              "projectileSimulation": false,
+              "mechanicalRecoil": false,
+              "performanceSimulation": false
+            },
+            "binding": {
+              "nodes": {
+                "body": "QF25_ROOT",
+                "left": "QF25_Wheel_Left_Pivot",
+                "right": "QF25_Wheel_Right_Pivot",
+                "assembly": "QF25_Wheel_Assembly",
+                "muzzle": "QF25_Cosmetic_Muzzle_Anchor",
+                "cover": "QF25_Canvas_Cover",
+                "sealedFront": "QF25_Shallow_Sealed_Front"
+              },
+              "radiusArt": 0.53,
+              "explicitNoCover": true,
+              "coverVisible": null,
+              "fireAllowed": true
+            },
+            "ownedChildren": 0,
+            "fx": null,
+            "evidenceScope": "authored cosmetic roll and local smoke; timing, color and tow path are not historical measurements"
+          },
+          "motion": {
+            "available": false,
+            "playing": false,
+            "disposed": true,
+            "active": true,
+            "state": "disposed",
+            "mode": "tow",
+            "time": 0,
+            "error": null,
+            "emissions": 0,
+            "lastAnchor": null,
+            "capabilities": {
+              "tow": true,
+              "fire": false,
+              "selfPropelled": false,
+              "hostTickOnly": true,
+              "previewOnly": true,
+              "animatedGLB": false,
+              "exportedParticles": false,
+              "projectileSimulation": false,
+              "mechanicalRecoil": false,
+              "performanceSimulation": false
+            },
+            "binding": {
+              "nodes": {
+                "body": "QF25_ROOT",
+                "left": "QF25_Wheel_Left_Pivot",
+                "right": "QF25_Wheel_Right_Pivot",
+                "assembly": "QF25_Wheel_Assembly",
+                "muzzle": "QF25_Cosmetic_Muzzle_Anchor",
+                "cover": "QF25_Canvas_Cover",
+                "sealedFront": "QF25_Shallow_Sealed_Front"
+              },
+              "radiusArt": 0.53,
+              "explicitNoCover": true,
+              "coverVisible": null,
+              "fireAllowed": true
+            },
+            "ownedChildren": 0,
+            "fx": null,
+            "evidenceScope": "authored cosmetic roll and local smoke; timing, color and tow path are not historical measurements"
+          },
+          "fire": {
+            "available": false,
+            "playing": false,
+            "disposed": true,
+            "active": true,
+            "state": "disposed",
+            "mode": "tow",
+            "time": 0,
+            "error": null,
+            "emissions": 0,
+            "lastAnchor": null,
+            "capabilities": {
+              "tow": true,
+              "fire": false,
+              "selfPropelled": false,
+              "hostTickOnly": true,
+              "previewOnly": true,
+              "animatedGLB": false,
+              "exportedParticles": false,
+              "projectileSimulation": false,
+              "mechanicalRecoil": false,
+              "performanceSimulation": false
+            },
+            "binding": {
+              "nodes": {
+                "body": "QF25_ROOT",
+                "left": "QF25_Wheel_Left_Pivot",
+                "right": "QF25_Wheel_Right_Pivot",
+                "assembly": "QF25_Wheel_Assembly",
+                "muzzle": "QF25_Cosmetic_Muzzle_Anchor",
+                "cover": "QF25_Canvas_Cover",
+                "sealedFront": "QF25_Shallow_Sealed_Front"
+              },
+              "radiusArt": 0.53,
+              "explicitNoCover": true,
+              "coverVisible": null,
+              "fireAllowed": true
+            },
+            "ownedChildren": 0,
+            "fx": null,
+            "evidenceScope": "authored cosmetic roll and local smoke; timing, color and tow path are not historical measurements"
+          },
+          "hostTickOnly": true,
+          "staticGLBUnaffected": true
+        }
+      }
+    },
+    {
+      "name": "no unexpected browser or shader errors",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "baseline": {
+    "stats": {
+      "triangles": 102680,
+      "renderedTriangles": 102680,
+      "drawCalls": 357,
+      "bytes": 5619002,
+      "texturePixels": 786432,
+      "meshes": 357,
+      "nodes": 371,
+      "generationMs": 1091
+    },
+    "metadata": {
+      "recipe": {
+        "generator": "qf25-visual-prop",
+        "version": "1.1.0",
+        "seed": "qf25-unified-acceptance",
+        "params": {
+          "camoPattern": "original",
+          "camoEnvironment": "desert",
+          "camoScale": 1,
+          "detail": "medium",
+          "artScale": 1,
+          "wheelSpacing": 1,
+          "paintColor": "#727b76",
+          "roughness": 0.65,
+          "weathering": 0.3,
+          "showBarrel": true,
+          "showShield": true,
+          "showCarriage": true,
+          "showLeftWheel": true,
+          "showRightWheel": true,
+          "showTrail": true,
+          "showPlatform": true,
+          "showFittings": true
+        },
+        "quality": "medium"
+      },
+      "showCover": false,
+      "appearance": "uncapped",
+      "activeParts": [
+        "QF25_Barrel_Exterior",
+        "QF25_Shield_Assembly",
+        "QF25_Carriage_Exterior",
+        "QF25_Wheel_Left_Pivot",
+        "QF25_Wheel_Right_Pivot",
+        "QF25_Single_Box_Trail",
+        "QF25_Stowed_Circular_Platform",
+        "QF25_Exterior_Fittings"
+      ],
+      "camouflage": {
+        "pattern": "original",
+        "environment": "desert",
+        "scale": 1,
+        "source": "PGF material-kit metalFinishPixels; no armor panel grid"
+      },
+      "visualRuntime": {
+        "schema": "qf25.visual-runtime/1",
+        "bodyRoot": "QF25_ROOT",
+        "wheelPivots": [
+          "QF25_Wheel_Left_Pivot",
+          "QF25_Wheel_Right_Pivot"
+        ],
+        "wheelAxis": [
+          1,
+          0,
+          0
+        ],
+        "radiusArt": 0.53,
+        "towDirection": [
+          0,
+          0,
+          1
+        ],
+        "muzzleAnchor": "QF25_Cosmetic_Muzzle_Anchor",
+        "muzzleDirection": [
+          0,
+          1,
+          0
+        ],
+        "sealedFace": "QF25_Shallow_Sealed_Front",
+        "showCover": false,
+        "appearance": "uncapped"
+      },
+      "source": {
+        "kind": "Blender MCP authored closed exterior",
+        "sha256": "69ba1127753c21e64aac45d98f0ff02fa7868020b483ac182b7225ce91364251",
+        "stage": "Q2",
+        "quality": "medium"
+      },
+      "materialSource": "PGF material-kit metalFinishPixels PBR + existing bakePgfCamo; no armor panel grid",
+      "capabilityBoundary": {
+        "geometry": "Fixed authored multi-quality assembly with bounded art-scale and wheel-spacing",
+        "onlineRemodeling": false,
+        "animationExported": false,
+        "functional": false,
+        "internalMechanism": false,
+        "historicalFidelity": "1940\u201342 MkII/MkI-L exterior interpretation, not exact museum replication"
+      },
+      "export": "Static visible geometry, PBR textures, semantic hierarchy and recipe; runtime effects excluded"
+    }
+  },
+  "smoke": {
+    "available": true,
+    "playing": false,
+    "disposed": false,
+    "active": true,
+    "state": "paused",
+    "mode": "fire",
+    "time": 0.275,
+    "error": null,
+    "emissions": 1,
+    "lastAnchor": {
+      "position": [
+        0,
+        2.2173500061035156,
+        2.3745250701904297
+      ],
+      "direction": [
+        0,
+        0.19400384283183988,
+        0.9810007690957632
+      ],
+      "artScale": 1.250000013676626
+    },
+    "capabilities": {
+      "tow": true,
+      "fire": true,
+      "selfPropelled": false,
+      "hostTickOnly": true,
+      "previewOnly": true,
+      "animatedGLB": false,
+      "exportedParticles": false,
+      "projectileSimulation": false,
+      "mechanicalRecoil": false,
+      "performanceSimulation": false
+    },
+    "binding": {
+      "nodes": {
+        "body": "QF25_ROOT",
+        "left": "QF25_Wheel_Left_Pivot",
+        "right": "QF25_Wheel_Right_Pivot",
+        "assembly": "QF25_Wheel_Assembly",
+        "muzzle": "QF25_Cosmetic_Muzzle_Anchor",
+        "cover": "QF25_Canvas_Cover",
+        "sealedFront": "QF25_Shallow_Sealed_Front"
+      },
+      "radiusArt": 0.53,
+      "explicitNoCover": true,
+      "coverVisible": null,
+      "fireAllowed": true
+    },
+    "ownedChildren": 5,
+    "fx": {
+      "model": "volume-smoke-v3",
+      "visualSettings": {
+        "version": 1,
+        "flame": {
+          "length": 1,
+          "width": 1,
+          "duration": 1,
+          "opacity": 0,
+          "light": 0,
+          "turbulence": 1,
+          "shading": 0.45,
+          "tint": false,
+          "color": "#ffe5b3"
+        },
+        "muzzleSmoke": {
+          "count": 1,
+          "size": 0.8,
+          "opacity": 0.6,
+          "life": 1,
+          "spread": 0.5,
+          "rise": 0.5,
+          "turbulence": 0.7,
+          "shading": 0.7,
+          "tint": true,
+          "color": "#99998e"
+        },
+        "impactSmoke": {
+          "count": 1,
+          "size": 1,
+          "opacity": 1,
+          "life": 1,
+          "spread": 1,
+          "rise": 1,
+          "turbulence": 1,
+          "shading": 0.7,
+          "tint": false,
+          "color": "#8d8579"
+        },
+        "blastDust": {
+          "count": 1,
+          "size": 1,
+          "opacity": 1,
+          "life": 1,
+          "spread": 1,
+          "rise": 1,
+          "wind": 1,
+          "turbulence": 1,
+          "shading": 0.7,
+          "tint": false,
+          "color": "#b69a72"
+        },
+        "trackDust": {
+          "count": 1,
+          "size": 1,
+          "opacity": 1,
+          "life": 1,
+          "spread": 1,
+          "rise": 1,
+          "wind": 1,
+          "turbulence": 1,
+          "shading": 0.7,
+          "tint": false,
+          "color": "#b69a72"
+        },
+        "recoil": {
+          "travel": 1,
+          "attack": 1,
+          "return": 1,
+          "brake": 0.35
+        },
+        "body": {
+          "impulse": 1,
+          "pitch": 1,
+          "roll": 1,
+          "stiffness": 1,
+          "damping": 1
+        }
+      },
+      "preview": true,
+      "activeShots": 1,
+      "emitted": 1,
+      "materialPool": {
+        "pooled": 0,
+        "allocated": 24,
+        "reused": 0,
+        "limit": 1040
+      },
+      "engineRunning": false,
+      "exhaustLoad": 0,
+      "exhaustRate": 0,
+      "exhaustShape": "wind-torn-ribbon",
+      "exhaustEmitters": 0,
+      "exhaustCount": 0,
+      "exhaustEmitted": 0,
+      "explosionEmitted": 0,
+      "explosionParticleCount": 0,
+      "destructionActive": false,
+      "wreckFires": [],
+      "impactCount": 0,
+      "lastImpact": null,
+      "impactMarks": 0,
+      "ambientCount": 0,
+      "ambientLimit": 240,
+      "dustCount": 0,
+      "dustSurfaces": [],
+      "blastDustCount": 0,
+      "trackDustCount": 0,
+      "blastDustEmitted": 0,
+      "trackDustEmitted": 0,
+      "rotorDustCount": 0,
+      "rotorDustEmitted": 0,
+      "oldestBlastDustAge": 0,
+      "maximumDustWidth": 0,
+      "weatherDustCount": 0,
+      "weatherDustEmitted": 0,
+      "wind": {
+        "preset": "dust",
+        "direction": 65,
+        "angle": 1.1344640137963142,
+        "time": 0,
+        "enabled": false,
+        "biome": "sand",
+        "intensity": 0.38,
+        "speed": 3.4,
+        "haze": 0.56,
+        "heat": 0.85,
+        "wind": {
+          "x": 0,
+          "z": 0
+        }
+      },
+      "dustWindOffsets": [],
+      "dustLimit": 220,
+      "minimumDustGroundClearance": null,
+      "flashCount": 5,
+      "smokeCount": 14,
+      "shotSettings": [
+        {
+          "age": 0.08333333333333333,
+          "flashLength": 1,
+          "flashWidth": 1,
+          "flashDurationS": 0.085,
+          "flashOpacity": 0,
+          "flashColor": "#ffe5b3",
+          "smokeColor": "#99998e",
+          "lightIntensity": 0,
+          "smokeCount": 14,
+          "smokeLifeS": 2.4,
+          "smokeSpread": 0.225,
+          "smokeRise": 0.1
+        }
+      ],
+      "particleCount": 24,
+      "flashDurationS": 0.085,
+      "maxShots": 10,
+      "shotParticleLimit": 580
+    },
+    "evidenceScope": "authored cosmetic roll and local smoke; timing, color and tow path are not historical measurements"
+  },
+  "export": {
+    "bytes": 2764092,
+    "sha256": "sha256:148bf6eb60aac44a75b00d4959260954d3d82c52e596af41ef5b86d26d612759",
+    "meshes": 357,
+    "textures": 3,
+    "animations": 0,
+    "bounds": {
+      "min": [
+        -1.462509963242475,
+        -0.003143272188025,
+        -3.3112499862862497
+      ],
+      "max": [
+        1.462509963242475,
+        2.57187486160075,
+        2.376675537587893
+      ]
+    }
+  },
+  "sharedSpriteCache": {
+    "source": "three@0.180.0/src/objects/Sprite.js module-global geometry; borrowed, never disposed by runtime",
+    "cycles": [
+      {
+        "cycle": 0,
+        "geometry": 1,
+        "textures": 0,
+        "calls": 0,
+        "sceneTypes": [
+          "HemisphereLight",
+          "DirectionalLight",
+          "DirectionalLight"
+        ],
+        "disposed": true
+      },
+      {
+        "cycle": 1,
+        "geometry": 1,
+        "textures": 0,
+        "calls": 0,
+        "sceneTypes": [
+          "HemisphereLight",
+          "DirectionalLight",
+          "DirectionalLight"
+        ],
+        "disposed": true
+      },
+      {
+        "cycle": 2,
+        "geometry": 1,
+        "textures": 0,
+        "calls": 0,
+        "sceneTypes": [
+          "HemisphereLight",
+          "DirectionalLight",
+          "DirectionalLight"
+        ],
+        "disposed": true
+      }
+    ]
+  },
+  "status": "passed",
+  "completed": "2026-10-12T09:20:07.446Z",
+  "framing": {
+    "stage": "I2 final projected close-up framing",
+    "started": "2026-10-12T09:45:05.650Z",
+    "checks": [
+      {
+        "name": "qf25-visual-prop default exact vertex fit",
+        "ok": true,
+        "data": {
+          "minX": -0.9489038883206539,
+          "maxX": 0.5510961114767118,
+          "minY": -0.5104731573157392,
+          "maxY": 0.4001087526265607,
+          "vertices": 133663,
+          "widthFraction": 0.7499999998986828,
+          "heightFraction": 0.4552909549711499,
+          "maxEdge": 0.9489038883206539,
+          "distance": 7.15461379746336
+        }
+      },
+      {
+        "name": "qf25-visual-prop full presentation retains larger independent range",
+        "ok": true,
+        "data": {
+          "minX": -0.17179189550308635,
+          "maxX": 0.15033576365224868,
+          "minY": -0.11084328173945815,
+          "maxY": 0.08959172885636868,
+          "vertices": 133663,
+          "widthFraction": 0.16106382957766752,
+          "heightFraction": 0.10021750529791341,
+          "maxEdge": 0.17179189550308635,
+          "distance": 31.11335241733096
+        }
+      },
+      {
+        "name": "qf25-visual-prop return close-up has no drift",
+        "ok": true
+      },
+      {
+        "name": "qf25-visual-prop rebuilt scale 0.75 stays contained",
+        "ok": true,
+        "data": {
+          "minX": -0.9489038884651062,
+          "maxX": 0.5510961115261515,
+          "minY": -0.5223929591385955,
+          "maxY": 0.40010875267322815,
+          "vertices": 133663,
+          "widthFraction": 0.7499999999956288,
+          "heightFraction": 0.46125085590591186,
+          "maxEdge": 0.9489038884651062,
+          "distance": 5.365960347492811
+        }
+      },
+      {
+        "name": "qf25-visual-prop rebuilt scale 1.5 stays contained",
+        "ok": true,
+        "data": {
+          "minX": -0.948903888249251,
+          "maxX": 0.5510961114522743,
+          "minY": -0.5223929590426009,
+          "maxY": 0.4001087526034925,
+          "vertices": 133663,
+          "widthFraction": 0.7499999998507627,
+          "heightFraction": 0.4612508558230467,
+          "maxEdge": 0.948903888249251,
+          "distance": 10.731920696792857
+        }
+      },
+      {
+        "name": "qf25-visual-prop keeps original canvas",
+        "ok": true
+      },
+      {
+        "name": "flakzwilling43-visual-prop default exact vertex fit",
+        "ok": true,
+        "data": {
+          "minX": -0.6293530747594864,
+          "maxX": 0.8706469252182879,
+          "minY": -0.5826296066930193,
+          "maxY": 0.433153811290635,
+          "vertices": 112368,
+          "widthFraction": 0.7499999999888871,
+          "heightFraction": 0.5078917089918271,
+          "maxEdge": 0.8706469252182879,
+          "distance": 7.16915749319267
+        }
+      },
+      {
+        "name": "flakzwilling43-visual-prop full presentation retains larger independent range",
+        "ok": true,
+        "data": {
+          "minX": -0.1253367990356566,
+          "maxX": 0.21309182364320833,
+          "minY": -0.1267525781462756,
+          "maxY": 0.10221268191937463,
+          "vertices": 112368,
+          "widthFraction": 0.16921431133943246,
+          "heightFraction": 0.11448263003282512,
+          "maxEdge": 0.21309182364320833,
+          "distance": 30.43962867611753
+        }
+      },
+      {
+        "name": "flakzwilling43-visual-prop return close-up has no drift",
+        "ok": true
+      },
+      {
+        "name": "flakzwilling43-visual-prop rebuilt scale 0.75 stays contained",
+        "ok": true,
+        "data": {
+          "minX": -0.6293530747481989,
+          "maxX": 0.8706469252062626,
+          "minY": -0.5826296066836727,
+          "maxY": 0.4346880260662925,
+          "vertices": 112368,
+          "widthFraction": 0.7499999999772308,
+          "heightFraction": 0.5086588163749826,
+          "maxEdge": 0.8706469252062626,
+          "distance": 5.376868119972344
+        }
+      },
+      {
+        "name": "flakzwilling43-visual-prop rebuilt scale 1.5 stays contained",
+        "ok": true,
+        "data": {
+          "minX": -0.6293530746776312,
+          "maxX": 0.8706469251310839,
+          "minY": -0.5826296066252405,
+          "maxY": 0.4346880260271622,
+          "vertices": 112368,
+          "widthFraction": 0.7499999999043576,
+          "heightFraction": 0.5086588163262014,
+          "maxEdge": 0.8706469251310839,
+          "distance": 10.753736240917982
+        }
+      },
+      {
+        "name": "flakzwilling43-visual-prop keeps original canvas",
+        "ok": true
+      },
+      {
+        "name": "old N41 retains original sphere framing",
+        "ok": true
+      },
+      {
+        "name": "switch back close-up remains fitted",
+        "ok": true
+      }
+    ],
+    "models": {
+      "qf25-visual-prop": {
+        "default": {
+          "minX": -0.9489038883206539,
+          "maxX": 0.5510961114767118,
+          "minY": -0.5104731573157392,
+          "maxY": 0.4001087526265607,
+          "vertices": 133663,
+          "widthFraction": 0.7499999998986828,
+          "heightFraction": 0.4552909549711499,
+          "maxEdge": 0.9489038883206539,
+          "distance": 7.15461379746336
+        }
+      },
+      "flakzwilling43-visual-prop": {
+        "default": {
+          "minX": -0.6293530747594864,
+          "maxX": 0.8706469252182879,
+          "minY": -0.5826296066930193,
+          "maxY": 0.433153811290635,
+          "vertices": 112368,
+          "widthFraction": 0.7499999999888871,
+          "heightFraction": 0.5078917089918271,
+          "maxEdge": 0.8706469252182879,
+          "distance": 7.16915749319267
+        }
+      }
+    },
+    "errors": [],
+    "status": "passed",
+    "completed": "2026-10-12T09:45:18.235Z"
+  },
+  "visual": {
+    "scope": "actual original PGF canvas, same renderer, paused deterministic art-time sampling",
+    "viewport": {
+      "width": 950,
+      "height": 547,
+      "canvasWidth": 366,
+      "canvasHeight": 455
+    },
+    "spritePixels": [
+      {
+        "time": 0,
+        "smoke": 0,
+        "flame": 0
+      },
+      {
+        "time": 0.4,
+        "smoke": 15,
+        "flame": 0
+      },
+      {
+        "time": 0.8,
+        "smoke": 19,
+        "flame": 0
+      },
+      {
+        "time": 1.2000000000000002,
+        "smoke": 19,
+        "flame": 0
+      },
+      {
+        "time": 1.6,
+        "smoke": 15,
+        "flame": 0
+      },
+      {
+        "time": 2,
+        "smoke": 14,
+        "flame": 0
+      },
+      {
+        "time": 2.4000000000000004,
+        "smoke": 11,
+        "flame": 0
+      },
+      {
+        "time": 2.8000000000000003,
+        "smoke": 2,
+        "flame": 0
+      },
+      {
+        "time": 3.2,
+        "smoke": 0,
+        "flame": 0
+      },
+      {
+        "time": 3.6,
+        "smoke": 0,
+        "flame": 0
+      }
+    ],
+    "status": "passed",
+    "completed": "2026-10-12T09:47:26.543Z",
+    "sampling": "paused seek samples from original renderer, not continuous real-time video",
+    "framing": "model close-up, static mesh projected limiting axis75%; full presentation remains a separate UI mode"
+  }
+}

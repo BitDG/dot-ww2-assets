@@ -1,0 +1,26 @@
+(node:21) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("/workspace/scratch/6a4c729be230/pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./")); register("/workspace/scratch/6a4c729be230/pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ actual Blender kit is modular, selected-scene-only and has eleven road wheels per side (4.824722ms)
+✔ low reference default and saved degree values retain literal visual-angle meaning (1881.400965ms)
+✔ quality removes substantial small detail, preserves wheel count, and keeps draws bounded (638.211388ms)
+✔ length, thickness, railings and exploded controls alter independent visual features (735.956783ms)
+✔ unscored art is not converted into an invented visual pass (2.604149ms)
+✔ maps and geometry release exactly once without mutating recipe inputs (471.42016ms)
+✔ Node and browser AssetIR validation accepts low pose and old boundary poses (3431.338382ms)
+✔ same seed retains vertex, material and texture identity; wear alters texture bytes (3722.714024ms)
+✔ shortest chassis keeps circular road wheels separated instead of overlapping (407.812754ms)
+✔ assembled runtime geometry has no zero-area triangles after cap cleanup (1124.144262ms)
+✔ tank PBR replaces paint only and keeps existing steel, rubber and glass identities (657.901227ms)
+✔ tank finish defaults preserve old recipes and schema rejects malformed new fields (2003.996498ms)
+✔ Node/MCP context rejects pre-aborted requests before allocating an asset (48.383257ms)
+✔ cooperative Node abort yields between phases and disposes owned texture/material objects (477.284232ms)
+✔ Node/MCP context enforces real instance, draw, node, byte and material budgets (5538.926438ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 22370.489617

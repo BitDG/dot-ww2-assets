@@ -1,0 +1,27 @@
+{
+  "pid": 104,
+  "host": "127.0.0.1",
+  "port": 19876,
+  "blender_version": "4.3.2",
+  "addon_version": [
+    1,
+    8
+  ],
+  "addon_protocol": 13,
+  "addon_sha256": "eb0facf69781a30e69792532087d8d41c6a14fcd323353250abe7988ee297fa5",
+  "background": true,
+  "lifecycle_adapter": "explicit main-thread upstream queue pump",
+  "telemetry_disabled": true,
+  "integrations": {
+    "polyhaven": false,
+    "sketchfab": false,
+    "polypizza": false,
+    "hyper3d": false,
+    "hunyuan3d": false,
+    "tripo": false
+  },
+  "hard_timeout_seconds": 21600,
+  "verified_listen_address": [
+    "0100007F:4DA4"
+  ]
+}

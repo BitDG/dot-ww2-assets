@@ -1,0 +1,17 @@
+(node:6) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("./pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+PASS actual browser GLBs [
+  {
+    file: 'diesel-locomotive.glb',
+    sha: 'a8e034156ff384debaecd04f2b5639cee50ea6b4f31cc26b0bcaf44863d9e54b',
+    pattern: 'digital',
+    seed: 'pgf-components-1'
+  },
+  {
+    file: 'diesel-locomotive(1).glb',
+    sha: '9e135ac02a5cca70e8b60cb8acba5da106b7223c723c5e02963e4f16f3afc835',
+    pattern: 'original',
+    seed: 'pgf-components-1'
+  }
+]

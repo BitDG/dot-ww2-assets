@@ -1,0 +1,6 @@
+/* Local PC inspector fix. Shared shell and other modules remain unchanged. */
+#rock-lab.diesel-locomotive-workbench .studio-inspector > .plugin-fields {flex:1 1 auto;min-height:0;overflow-y:auto;align-content:start}
+#rock-lab.diesel-locomotive-workbench .studio-inspector > :not(.plugin-fields) {flex:0 0 auto}
+/* The shared shell applies 100% input width; keep the swatch small and hex readable locally. */
+#rock-lab.diesel-locomotive-workbench .pgf-color-control > input[type=color] {flex:0 0 36px;width:36px;min-width:36px;max-width:36px}
+#rock-lab.diesel-locomotive-workbench .pgf-color-control > input:not([type=color]) {flex:1 1 0;min-width:0;width:0}

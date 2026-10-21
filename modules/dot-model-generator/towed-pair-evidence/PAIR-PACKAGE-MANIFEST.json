@@ -1,0 +1,447 @@
+{
+  "stage": "Land Mattress L3 dot0.9 plus QF17 final real-render evidence",
+  "sharedVersion": "0.9.0",
+  "baselineCommit": "00465811a4bbe5664b081fe338e465003c8018d8",
+  "notStandalone": true,
+  "checks": {
+    "sharedAndBothAuthorsNode": {
+      "passed": 120,
+      "failed": 0
+    },
+    "finalCatalogNode": {
+      "passed": 13,
+      "failed": 0
+    },
+    "landFirefoxGUI": {
+      "passed": 51,
+      "failed": 0
+    },
+    "qf17FirefoxGUI": "48 passed in preceding published stage; QF17 switch regression also passed in Land run",
+    "bothThreeTierGLB": "same-request unified/native byte equivalence and independent readback passed",
+    "visibleGLBDownload": "Land passed; 26 meshes / 48036 triangles / 3 decoded PNG / 0 animations",
+    "desktopResize": "Land passed; 1168->955->1168 twice; no overflow or crop, one canvas",
+    "targetedDotBuild": {
+      "exit": 0
+    },
+    "fullLocalAggregate": "not completed for 0.9; restored snapshot lacks unrelated CLI/test files",
+    "remoteCI": "not yet run for final 0.9 commit; parent publication owner verifies",
+    "authorFinalRealRenders": "both complete; same frozen medium GLB, hero / orthographic three-view / six details, original receipts and hashes retained"
+  },
+  "files": [
+    {
+      "path": "modules/dot-model-generator/README.zh-CN.md",
+      "bytes": 20198,
+      "sha256": "39551c70a580f90fa2c493c14a2fcad086749a14cc357e59ed68d755ef518d40"
+    },
+    {
+      "path": "modules/dot-model-generator/backends.js",
+      "bytes": 3299,
+      "sha256": "a3fc47a6190aea9486d1fef491d7d0525b063edaa05376f1536cde4c484b2464"
+    },
+    {
+      "path": "modules/dot-model-generator/catalog.mjs",
+      "bytes": 12005,
+      "sha256": "c3ed8944aa8362cdfa37d8a6f202325fb556f99b06a288c804f4c45b209d92bd"
+    },
+    {
+      "path": "modules/dot-model-generator/definition.mjs",
+      "bytes": 2653,
+      "sha256": "50c968ec83c0fa224ca2bd86df75159de1a36b8393cc6d6a25d2f94421554d67"
+    },
+    {
+      "path": "modules/dot-model-generator/dot-model-generator.generator.json",
+      "bytes": 1011,
+      "sha256": "6a41dac24399ada4efcf1602946bcb732a92678fc20a33f7169b2b3228c74e43"
+    },
+    {
+      "path": "modules/dot-model-generator/tests/catalog.test.mjs",
+      "bytes": 5755,
+      "sha256": "4580e2d060c62a85f387b4e7ad8e7551ce501cfa92160970c0bc4f2ec829fe80"
+    },
+    {
+      "path": "modules/dot-model-generator/tests/towed-static-contract.test.mjs",
+      "bytes": 2518,
+      "sha256": "21888cd715f73e3c87fa14409cb8b869f8b8937fbf0adf0a5f6ce5f76750decf"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/LM-L3-CHECKPOINT.zh-CN.md",
+      "bytes": 3719,
+      "sha256": "2e2c970ac305fcd04a97893a32eaaf5d21911c37f92a8aac9ae3324cad1b7fd6"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/LM-L3-FROZEN-CORE.json",
+      "bytes": 8657,
+      "sha256": "5db70a09637eed2a6490e201daac41790a032e0702554d58d3d065d5da143ad3"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/browser-check.mjs",
+      "bytes": 12004,
+      "sha256": "186be7bbafc916d16afd9ea6a5e4a0c75d442242fb01bdfc7a8881c943c8e7e8"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/browser-visual.mjs",
+      "bytes": 1861,
+      "sha256": "095a703cda3292eac412642d3c6699d6bf324c19a64727db51fdeee4f8d3c496"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/build-check.mjs",
+      "bytes": 380,
+      "sha256": "b3daa2f6f3747660c9b10d14eb1b7f37e5e336f9199d8f98d953a07384155bdd"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/build-entry.html",
+      "bytes": 263,
+      "sha256": "609263502885db9cc0e4e4f1deb26d21c4427fdf97ee0a185c1e600818816b5a"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/land-baseline-catalog.json",
+      "bytes": 13253,
+      "sha256": "06a5521b7f4a92813696b998feac05fea0b35efbb377fbf29a63563be77024aa"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/land-catalog-node.log",
+      "bytes": 2742,
+      "sha256": "4a61d214568f76dd0e6d84b4c17ddb68b9af4c1d0af62ce0fc6271dc9e48dc70"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/land-host-baseline-sha256.txt",
+      "bytes": 884,
+      "sha256": "42d1c2c34e29b7c243aeff7c639c89ece68a6dd2a492348bf71bf4f9feb2b22b"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/land-mattress-visual-prop/Firefox-download-complete.png",
+      "bytes": 147341,
+      "sha256": "fa8e44499d4c10c0a4e6a95b7012d6351cda17f485eb0a7ea522d749ea1b35c5"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/land-mattress-visual-prop/Firefox-narrow.png",
+      "bytes": 150075,
+      "sha256": "26917858e28d2aa745ee6b4ca105acc7323666ec6d50a24844bf83da4b6cf26e"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/land-mattress-visual-prop/Firefox-winter.png",
+      "bytes": 161492,
+      "sha256": "f4f50e70304009662f2b4909d52f48dee2ec03e272fd9501d0acca660575f353"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/land-mattress-visual-prop/Firefox-workbench.png",
+      "bytes": 160405,
+      "sha256": "9738718bcca717f2de005af0d0fadce41cd38457f4218ee2c2ced14bbffbe2da"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/land-mattress-visual-prop/browser-report.json",
+      "bytes": 11101,
+      "sha256": "5cad3c7022a7be394c9917b4b4f4996b45b6ce34473db96e067fec4288a685d3"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/land-mattress-visual-prop/node-unified-report.json",
+      "bytes": 2734,
+      "sha256": "dd0bfe56c6a1142e7d56ed9c139b93b005cf88be2950646c12fd45722d9a0c0f"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/land-mattress-visual-prop/resize-roundtrip-report.json",
+      "bytes": 25323,
+      "sha256": "e2982b6676f729065da284a9b1c8dda86c96d8960972bf145cd2528392bfe42b"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/land-mattress-visual-prop/unified-export.glb",
+      "bytes": 2279376,
+      "sha256": "adf66ae9c9a8cf049d940ceb81cfb54dc8673d69e408153bb996046e3b73897f"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/land-mattress-visual-prop/unified-node-high.glb",
+      "bytes": 4061768,
+      "sha256": "7ec5ae553e21a1849bfb724091b58aa6cdd0e1b06843998fb2a5365dddf15a97"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/land-mattress-visual-prop/unified-node-low.glb",
+      "bytes": 757740,
+      "sha256": "995e8f92bff48961f6f93ae194e0deaffb25e1ad8a011a7f03bacde01eab7952"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/land-mattress-visual-prop/unified-node-medium.glb",
+      "bytes": 2279368,
+      "sha256": "c878dae5a07ad184c8dfb59ac07932317cbccdc4ddc5c9b3b3554ddd0044ad44"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/land-mattress-visual-prop/visible-button-download.glb",
+      "bytes": 2278400,
+      "sha256": "94747912272b5ed019e6593e1c5e7a8706ba4deb67482db66a06f419da1fef69"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/land-mattress-visual-prop/visible-download-report.json",
+      "bytes": 1626,
+      "sha256": "21e05832b72cf7d550eefe1c19c26cecfeca49e4bac1dab69c17525b53aa09ed"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/land-mattress-visual-prop/visual-report.json",
+      "bytes": 13925,
+      "sha256": "f15c8bbd5d746a7629cc6f6797ebad5881a5e35119cdc3e9e836f316722b5eb9"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/land-unified-node.log",
+      "bytes": 1940,
+      "sha256": "9ca50d96d8003eb38c74142d6c1b12274fe2d47331c14d0c3a42efe66f7233bd"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/node-unified.mjs",
+      "bytes": 2986,
+      "sha256": "4191771fec5cf3f713263566bf765e2ab4f7bf2233d99f8ccd095a5c20c2597b"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/package-pair.py",
+      "bytes": 4819,
+      "sha256": "54e5b1ec472d555b0f438e15a33b0f0bc1b06be6ed6cf4fb162c7bfb6bf22117"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/pair-combined-node.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/pair-combined-node.log",
+      "bytes": 11784,
+      "sha256": "0e763aefaf8d6090e1685991b21b15543143503cd636d4e67d3afc14f9cde416"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/pair-dot-build.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/pair-dot-build.log",
+      "bytes": 5525,
+      "sha256": "1d2f67a4785160b8a2ac036be4b88c728af1eab7cc316d90be8e16c40ddbe76c"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/pair-final-catalog-node.log",
+      "bytes": 1389,
+      "sha256": "96bbebc62291fa799b940cdabaf9efdf43fd353fd624c0c965a8a473f665835f"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/read-visible-download.mjs",
+      "bytes": 2542,
+      "sha256": "58d71d8eb9b219abdd8c9a99de7ba5a619014eb0ad84a9862c1a36ef443d7a8a"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/run-gui-qa.py",
+      "bytes": 2464,
+      "sha256": "ab4b0ed0cc7fa860364f1e2612ffed61d5ea68a4908206ed808964841fbfe77a"
+    },
+    {
+      "path": "modules/dot-model-generator/towed-pair-evidence/serve-qa.mjs",
+      "bytes": 2001,
+      "sha256": "639806ae5a4a54de5b4e8823d19adc95db191b4276a94ec888706c53754a8663"
+    },
+    {
+      "path": "modules/dot-model-generator/workbench.js",
+      "bytes": 16297,
+      "sha256": "66d3b27f44b267dc62a603cbe7157950de9ff7c530061059f6a8063581c2e2c9"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/README.zh-CN.md",
+      "bytes": 3049,
+      "sha256": "238e0127f8ce348e2f0526d4d3b874968a011513138f1139984c379d47aae66d"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/assets/LM-L3-high.glb",
+      "bytes": 4326316,
+      "sha256": "1ae3df801a61df3d636086bf0735d33e3904468b7fc682b13cbe46b8b4f9fead"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/assets/LM-L3-low.glb",
+      "bytes": 851412,
+      "sha256": "2f04696b1080273089d822911493f60827a102238ef77acb72cd2e04f47de927"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/assets/LM-L3-medium.glb",
+      "bytes": 2584204,
+      "sha256": "a817004abfbe11ac41d1d4fc03afd4a040854ed98c61b55cef8f239bcd620bca"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/batch-exterior.mjs",
+      "bytes": 3039,
+      "sha256": "cae1bd57ca6041494fbde6fa7efc3148198914499739fb49bbf0c4cbe88c901d"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/definition.mjs",
+      "bytes": 4082,
+      "sha256": "b633ffa5c20eb13dc166c5af7b1e90638c8a7635f07a023b2f2eb3a06053c911"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/evidence/L3-final-independent-readback.json",
+      "bytes": 1389,
+      "sha256": "e87032adcecedc57f1acee2ec00342996ba24901698dcc801dd086ec2c1ddd24"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/evidence/default-recipe.json",
+      "bytes": 560,
+      "sha256": "c71d4968206a9aaf0a2ac836c90bef7f0da9bf6229a557333f78f112e82622b7"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/evidence/exports.json",
+      "bytes": 3721,
+      "sha256": "5e3d5b2e6d1b79864252254e99a8518f2a8901c3b72dd6b336c2d9ee2d949a33"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/evidence/final/LM-L3-PGF-hero.png",
+      "bytes": 1426860,
+      "sha256": "9553305d789a738b3af90be94eda5eb0dcfd1d02f905dce0cda64395294cdd97"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/evidence/final/LM-L3-PGF-six-details.png",
+      "bytes": 1621907,
+      "sha256": "b57b3eb3ed5aa429015558da4bd0b8f91e06cbb8cca175ba86939d6efc062dac"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/evidence/final/LM-L3-PGF-three-view.png",
+      "bytes": 1470032,
+      "sha256": "0db5599f9054bb8a881decb2e3919dbcb008bda78bef7aa0da9696de7ca421e7"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/evidence/final/README-delivery.txt",
+      "bytes": 1121,
+      "sha256": "42ec43902962a10238f87672d0ddcf56e95f68013b38b56883a9886c43f02373"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/evidence/final/actual-render-verification.json",
+      "bytes": 19336,
+      "sha256": "df8286e5129ac6e100ec3dd258295ca5d61b1908205f9a83b7b3f63a85ee4ff5"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/evidence/final/board-composition-provenance.json",
+      "bytes": 3965,
+      "sha256": "b71d3de7256d87ed6df18f6dd82e68523d50ef446529e745d6f82efdadd0bb02"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/evidence/final/minimal-publish-manifest.json",
+      "bytes": 2857,
+      "sha256": "2019f5b046767431f02d1dd528d8dbccb5fa493f01f646d7e4f0e9d2dc5991bd"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/evidence/final/native-review-readback.json",
+      "bytes": 6403,
+      "sha256": "7504ef29625bfc8cb0025f1bef7612a82254e19d63ddf3260d355fa0389b669a"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/evidence/final/render-plan.json",
+      "bytes": 17948,
+      "sha256": "bf413011ad6ac5c7c171039e7fb91a9847fd32a2a1764e79a3b9d57374a8b4a9"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/evidence/node-report.json",
+      "bytes": 3035,
+      "sha256": "7076f6c11a0beddb6dd5babf08bf192686a93988c6833278985194724765e319"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/evidence/node-tests.tap",
+      "bytes": 1367,
+      "sha256": "bd313410f80e1c7d54d18f071cb116d9b2bfac252a0319e71815f5b3bfc2b8e1"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/land-mattress-visual-prop.generator.json",
+      "bytes": 170,
+      "sha256": "6e783b563450456e57cd195cc82cb2900a6c998edc7b8c2d9fdcebf88d984566"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/material-finish.mjs",
+      "bytes": 4385,
+      "sha256": "e27d4be22629b59fd8bedc0baf83218517f09f8c86e3e101e146f7b1707d660f"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/model.mjs",
+      "bytes": 6524,
+      "sha256": "2de0802f8cdb8194e141ad5b4ed3435d30cc60a04f9b5fc571db228a35d14b41"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/params.mjs",
+      "bytes": 2890,
+      "sha256": "3e5f5e20f09a7084e5f97b07404d1ae183b14bdca32bce257ab3abc13557f052"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/references/L0-concept-review.json",
+      "bytes": 2814,
+      "sha256": "903abc627dca004ae2b15ed5aae1ed06d2fb1a5daa485319c06ce773aef0ca87"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/references/L0-reference-contract.json",
+      "bytes": 5074,
+      "sha256": "81267ff888087e7ed995fa6cb33f97044652f5e836c19c28f8d6cd71a88df201"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/references/README.zh-CN.md",
+      "bytes": 3207,
+      "sha256": "6f860c37af4b0db3e8167d7512da82aab5fa568f8f78df2d6cc848e7db6405d0"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/references/land-mattress-details-v2.png",
+      "bytes": 2215836,
+      "sha256": "208154dcf4646599c3ad8d154faae9ca50b8963eddda447fa838a511cbee4702"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/references/land-mattress-three-view-v3.png",
+      "bytes": 1886223,
+      "sha256": "01ca57c202fbe00017b6e3ccd1ae3d6cf84c58608d07455020cb546d57cf672a"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/sources.mjs",
+      "bytes": 646,
+      "sha256": "f7a94edb029636618089a0b1c5358d9b18b7008ab1264b3d7191e1cf9d98afab"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/tests/adapter.test.mjs",
+      "bytes": 12254,
+      "sha256": "18a9b7648f197aafaa4d0a5e2046ca758ee35f63ca74ec9d4e49b446fcc79950"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/tests/contract.test.mjs",
+      "bytes": 2792,
+      "sha256": "eb408d8a989e0f89c05b64aecd3c9c33a484c7b219b971e598b3c1216a9eeb23"
+    },
+    {
+      "path": "modules/land-mattress-visual-prop/worker.js",
+      "bytes": 141,
+      "sha256": "72841705518e923fc121225d196cbf9946f50f2db9b8abc816802a32578215b7"
+    },
+    {
+      "path": "modules/qf17-visual-prop/evidence/Q6-final/QF17-Q6-PGF-hero.png",
+      "bytes": 1061639,
+      "sha256": "840d1f47096dfae67bd07c19147ca5c6494e887c639c436f4838e2cce5670108"
+    },
+    {
+      "path": "modules/qf17-visual-prop/evidence/Q6-final/QF17-Q6-PGF-six-details.png",
+      "bytes": 1920087,
+      "sha256": "62de4714e621fcc889383523c0698f9e943b9cf6663e3bf481a2fba5c31bab3e"
+    },
+    {
+      "path": "modules/qf17-visual-prop/evidence/Q6-final/QF17-Q6-PGF-three-view.png",
+      "bytes": 1432782,
+      "sha256": "4b006b7106c1d9f49d6e38fa36a4380ebb46f90ff1e725b065bd0fdce0f5975e"
+    },
+    {
+      "path": "modules/qf17-visual-prop/evidence/Q6-final/QF17-Q6-final-render-evidence.zip",
+      "bytes": 14026483,
+      "sha256": "0e18a32d25a387339e369ab282396c2e9e217479ecc2198ff3209c12334a654a"
+    },
+    {
+      "path": "modules/qf17-visual-prop/evidence/Q6-final/README.zh-CN.md",
+      "bytes": 1001,
+      "sha256": "407e1be6e64e2ef85aeae13e3f19f356f2ccd4f24b94b49fb5270fbd84116234"
+    },
+    {
+      "path": "modules/qf17-visual-prop/evidence/Q6-final/actual-render-verification.json",
+      "bytes": 11726,
+      "sha256": "400cb5698baa70d291a3d2960f0d2817707c60a1faeb3da2d4d2927f4a34f1f2"
+    },
+    {
+      "path": "modules/qf17-visual-prop/evidence/Q6-final/manifest.json",
+      "bytes": 1929,
+      "sha256": "173e2d1803d0a5073bfc9123f6fe5c714edad8548ab939953f1fd4ec070325ff"
+    },
+    {
+      "path": "modules/qf17-visual-prop/evidence/Q6-final/render-plan.json",
+      "bytes": 4169,
+      "sha256": "58c4f60d974f91575169b2dff6221f9ed651748e82ede8058ab30984cd03ad41"
+    }
+  ]
+}

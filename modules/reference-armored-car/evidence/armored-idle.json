@@ -1,0 +1,287 @@
+{
+  "before": {
+    "recipe": {
+      "format": "PGF.ComponentRecipe",
+      "version": 1,
+      "generator": "reference-armored-car",
+      "seed": "pgf-components-1",
+      "params": {
+        "scale": 1,
+        "turretYaw": -10,
+        "gunElevation": 0,
+        "paint": "#8d8061",
+        "roughness": 0.81,
+        "weathering": 0.65,
+        "antennas": true,
+        "markings": true,
+        "detail": 48,
+        "camoPattern": "original",
+        "camoEnvironment": "desert",
+        "camoScale": 1
+      }
+    },
+    "diagnostics": {
+      "frames": 29,
+      "pending": false,
+      "active": true,
+      "disposed": false,
+      "renderWorker": true,
+      "contextLost": false,
+      "geometries": 69,
+      "textures": 6,
+      "workerTerminated": false,
+      "renderRPC": 0,
+      "busy": false,
+      "exporting": false,
+      "invalidEdit": false,
+      "worker": false,
+      "exportWorker": false,
+      "stats": {
+        "triangles": 107826,
+        "renderedTriangles": 107826,
+        "drawCalls": 69,
+        "bytes": 9419530,
+        "texturePixels": 1572864,
+        "meshes": 69,
+        "nodes": 161,
+        "generationMs": 3944
+      },
+      "operation": 5,
+      "assetSeed": "pgf-components-1"
+    },
+    "renderer": {
+      "frames": 29,
+      "pending": false,
+      "active": true,
+      "disposed": false,
+      "renderWorker": true,
+      "contextLost": false,
+      "geometries": 69,
+      "textures": 6,
+      "maxX": 0.7705791511280837,
+      "maxY": 0.6615990580353486,
+      "camera": {
+        "position": [
+          7.032248243434087,
+          5.688442157701569,
+          8.982018911084351
+        ],
+        "target": [
+          0,
+          1.670014590024948,
+          -0.059443116188049316
+        ],
+        "aspect": 0.8369098712446352,
+        "near": 0.0631627846542408,
+        "far": 18.454989725873187
+      }
+    },
+    "asset": {
+      "bounds": {
+        "min": [
+          -1.381999984383583,
+          0.010029137134552002,
+          -2.3634326457977295
+        ],
+        "max": [
+          1.381999984383583,
+          3.3300000429153442,
+          2.244546413421631
+        ]
+      },
+      "materials": 10,
+      "textures": 6,
+      "sockets": 7,
+      "source": {
+        "noHumans": true,
+        "hiddenRear": "inferred",
+        "scale": "approximate metres",
+        "visualRevision": "2026-10-10-blender-brown-diamond-tank-finish",
+        "tankFinish": {
+          "pattern": "original",
+          "environment": "desert",
+          "scale": 1,
+          "source": "PGF tank armor PBR"
+        },
+        "materialSource": "PGF tank buildTurretSurfacePixels + bakePgfCamo; paint roles only",
+        "defaultMigration": "Default turretYaw changes from -35 to -10 degrees and paint from #73795b to #827456; all explicit recipe values retain their original numeric meaning",
+        "finish": "Existing PGF tank armor surface and source pattern painter on armor roles; separate original rubber/canvas/metal/marking PBR; no photograph projection",
+        "qualityScope": "Exterior art reconstruction reviewed visually; no numerical likeness percentage asserted",
+        "wheelPose": "Visual rigid articulation only; not suspension, ballistics, functional design or engineering CAD",
+        "source": "User-supplied brown armored-car photograph; generated three-view for inferred unseen surfaces",
+        "authoring": "Blender 4.3.2 through actual local stdio MCP",
+        "kitSha256": "2140c687da27b86eb319d0c94d917a6c5f9720988f445e10ad824d703a44bb32",
+        "detailTier": "medium",
+        "detailRanges": {
+          "low": [
+            24,
+            35
+          ],
+          "medium": [
+            36,
+            55
+          ],
+          "high": [
+            56,
+            64
+          ]
+        },
+        "ao": "Not translated by current PGF AssetIR path; no AO preservation claimed",
+        "reused": [
+          "Blender-authored modular parts",
+          "shared Three-to-AssetIR converter",
+          "shared data workbench"
+        ]
+      }
+    },
+    "viewport": {
+      "width": 1364,
+      "height": 1024,
+      "scrollWidth": 1364
+    },
+    "scope": "Actual PGF shell/workbench/Worker/renderer, restricted two-entry preview registry; not a complete application build"
+  },
+  "after": {
+    "recipe": {
+      "format": "PGF.ComponentRecipe",
+      "version": 1,
+      "generator": "reference-armored-car",
+      "seed": "pgf-components-1",
+      "params": {
+        "scale": 1,
+        "turretYaw": -10,
+        "gunElevation": 0,
+        "paint": "#8d8061",
+        "roughness": 0.81,
+        "weathering": 0.65,
+        "antennas": true,
+        "markings": true,
+        "detail": 48,
+        "camoPattern": "original",
+        "camoEnvironment": "desert",
+        "camoScale": 1
+      }
+    },
+    "diagnostics": {
+      "frames": 29,
+      "pending": false,
+      "active": true,
+      "disposed": false,
+      "renderWorker": true,
+      "contextLost": false,
+      "geometries": 69,
+      "textures": 6,
+      "workerTerminated": false,
+      "renderRPC": 0,
+      "busy": false,
+      "exporting": false,
+      "invalidEdit": false,
+      "worker": false,
+      "exportWorker": false,
+      "stats": {
+        "triangles": 107826,
+        "renderedTriangles": 107826,
+        "drawCalls": 69,
+        "bytes": 9419530,
+        "texturePixels": 1572864,
+        "meshes": 69,
+        "nodes": 161,
+        "generationMs": 3944
+      },
+      "operation": 5,
+      "assetSeed": "pgf-components-1"
+    },
+    "renderer": {
+      "frames": 29,
+      "pending": false,
+      "active": true,
+      "disposed": false,
+      "renderWorker": true,
+      "contextLost": false,
+      "geometries": 69,
+      "textures": 6,
+      "maxX": 0.7705791511280837,
+      "maxY": 0.6615990580353486,
+      "camera": {
+        "position": [
+          7.032248243434087,
+          5.688442157701569,
+          8.982018911084351
+        ],
+        "target": [
+          0,
+          1.670014590024948,
+          -0.059443116188049316
+        ],
+        "aspect": 0.8369098712446352,
+        "near": 0.0631627846542408,
+        "far": 18.454989725873187
+      }
+    },
+    "asset": {
+      "bounds": {
+        "min": [
+          -1.381999984383583,
+          0.010029137134552002,
+          -2.3634326457977295
+        ],
+        "max": [
+          1.381999984383583,
+          3.3300000429153442,
+          2.244546413421631
+        ]
+      },
+      "materials": 10,
+      "textures": 6,
+      "sockets": 7,
+      "source": {
+        "noHumans": true,
+        "hiddenRear": "inferred",
+        "scale": "approximate metres",
+        "visualRevision": "2026-10-10-blender-brown-diamond-tank-finish",
+        "tankFinish": {
+          "pattern": "original",
+          "environment": "desert",
+          "scale": 1,
+          "source": "PGF tank armor PBR"
+        },
+        "materialSource": "PGF tank buildTurretSurfacePixels + bakePgfCamo; paint roles only",
+        "defaultMigration": "Default turretYaw changes from -35 to -10 degrees and paint from #73795b to #827456; all explicit recipe values retain their original numeric meaning",
+        "finish": "Existing PGF tank armor surface and source pattern painter on armor roles; separate original rubber/canvas/metal/marking PBR; no photograph projection",
+        "qualityScope": "Exterior art reconstruction reviewed visually; no numerical likeness percentage asserted",
+        "wheelPose": "Visual rigid articulation only; not suspension, ballistics, functional design or engineering CAD",
+        "source": "User-supplied brown armored-car photograph; generated three-view for inferred unseen surfaces",
+        "authoring": "Blender 4.3.2 through actual local stdio MCP",
+        "kitSha256": "2140c687da27b86eb319d0c94d917a6c5f9720988f445e10ad824d703a44bb32",
+        "detailTier": "medium",
+        "detailRanges": {
+          "low": [
+            24,
+            35
+          ],
+          "medium": [
+            36,
+            55
+          ],
+          "high": [
+            56,
+            64
+          ]
+        },
+        "ao": "Not translated by current PGF AssetIR path; no AO preservation claimed",
+        "reused": [
+          "Blender-authored modular parts",
+          "shared Three-to-AssetIR converter",
+          "shared data workbench"
+        ]
+      }
+    },
+    "viewport": {
+      "width": 1364,
+      "height": 1024,
+      "scrollWidth": 1364
+    },
+    "scope": "Actual PGF shell/workbench/Worker/renderer, restricted two-entry preview registry; not a complete application build"
+  },
+  "idleFramesDelta": 0
+}

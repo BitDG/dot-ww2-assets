@@ -1,0 +1,27 @@
+{
+  "file": "PGF/modules/reference-armored-car/assets/blender/reference-armored-car-low.glb",
+  "sha256": "c04efca4e6d168925c26edc130f86b53d60d1ce6b5bb89607aa6d637390a187d",
+  "bytes": 6167204,
+  "nodes": 92,
+  "meshes": 69,
+  "triangles": 62683,
+  "zeroArea": 0,
+  "nonFinite": 0,
+  "normalError": 1.4026649175491457e-7,
+  "uvMissing": 0,
+  "missingOwners": [],
+  "bounds": {
+    "min": [
+      -1.3820196092128754,
+      0.010029137134552002,
+      -2.3637425899505615
+    ],
+    "max": [
+      1.3820196092128754,
+      3.330033242702484,
+      2.244917631149292
+    ]
+  },
+  "scope": "Static structural audit; actual Blender reimport tracked separately",
+  "status": "PASS"
+}

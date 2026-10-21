@@ -1,0 +1,225 @@
+{
+  "discovery": true,
+  "descriptorStatus": "adapter-ready",
+  "version": "1.1.0",
+  "export": {
+    "artifactId": "0bbd317c-7ea7-4027-b1a0-ef9fb8b70e83",
+    "kind": "model",
+    "name": "qf25-visual-prop",
+    "generator": {
+      "id": "qf25-visual-prop",
+      "version": "1.1.0",
+      "apiVersion": "1",
+      "manifestSha256": "12b0ff9afd8bbf81bb705f945a6896624afc880ad109cad75f4d5867263ce468",
+      "entrySha256": "d4826de874312f8c4cc2782066a3ecb5cef9d0ccafe8fd7e6027719f333616d3",
+      "dependencySha256": "8fd2deec745ea33acdd99abfd22d52f44d597b84bc47f0fcac5bbe77ccccd483",
+      "fingerprintScope": "local-module-closure-and-package-lock",
+      "dependencyFiles": [
+        {
+          "path": "generator-sdk/definition.mjs",
+          "sha256": "ceee61987a43de92ccaccc03ddf99335294de01d4b6f4c2caa9ecc336c5a6e61"
+        },
+        {
+          "path": "generator-sdk/index.mjs",
+          "sha256": "80646a500433eb08263394bbd685a602cdd35ecc339c455369830ee5ee552b95"
+        },
+        {
+          "path": "generator-sdk/parameter-ui.mjs",
+          "sha256": "c309dd2d80910dfb5c0ac43edb6943a7e22967f958c34ba5ceeb9af1b16d4a0a"
+        },
+        {
+          "path": "generator-sdk/png.mjs",
+          "sha256": "629b1897f54c8ec2305b3a1daf201c07ca08d69f01ac8f477dd61483b68b8b42"
+        },
+        {
+          "path": "generator-sdk/statistics.mjs",
+          "sha256": "a5d53f0daad5e4eafe200ddb0c0a310e21435c6b2dc717714353ea85716f244b"
+        },
+        {
+          "path": "generator-sdk/three-ir.mjs",
+          "sha256": "3af393f938ca02a30a7f81dd9388d5aaebdd3b0b368fd9f00288cc2c54d6221a"
+        },
+        {
+          "path": "modules/material-kit/metal-finish.mjs",
+          "sha256": "0be6ecf3b62864554c8ba3e9a9c73e382c11b60f7c737cdd531fb4d507d33d6a"
+        },
+        {
+          "path": "modules/qf25-visual-prop/assets/QF25-Q2-geometry.glb",
+          "sha256": "69ba1127753c21e64aac45d98f0ff02fa7868020b483ac182b7225ce91364251"
+        },
+        {
+          "path": "modules/qf25-visual-prop/assets/QF25-Q2-high.glb",
+          "sha256": "49a5f536f5941d82b5a428416bc9da4991e874ef5de156c830a42fdd4570ca06"
+        },
+        {
+          "path": "modules/qf25-visual-prop/assets/QF25-Q2-low.glb",
+          "sha256": "f7422f7c04915a3cf4ccab8f92d873339e113f88e2e4d8ae7f5d9357fbb588fa"
+        },
+        {
+          "path": "modules/qf25-visual-prop/definition.mjs",
+          "sha256": "d4826de874312f8c4cc2782066a3ecb5cef9d0ccafe8fd7e6027719f333616d3"
+        },
+        {
+          "path": "modules/qf25-visual-prop/material-finish.mjs",
+          "sha256": "9ce4398885fd9feaeb3776350246a02b2bd5691e35465547349fbc7ab8c66cff"
+        },
+        {
+          "path": "modules/qf25-visual-prop/model.mjs",
+          "sha256": "1ddb33ca2c82219e5e0bb0c7a89d3b7b5438c3c8d61bccc13b30ec3a05edf652"
+        },
+        {
+          "path": "modules/tank/src/camouflage.js",
+          "sha256": "2c7f89ca8a511caeadf931e02350ea2a05d80c3879bb9bf2dbda520f2fb0a4f1"
+        },
+        {
+          "path": "modules/tank/src/portable-vehicle-finish.mjs",
+          "sha256": "83180817c7203f5a0c5fa53327b65bb773fd6bc94bcd88c6eff864f2cf0752f0"
+        },
+        {
+          "path": "modules/tank/upstream/src/turret-surface-materials.mjs",
+          "sha256": "47633ed13f8e39f37ef33adfb9b0abed3966bd5fbe51375f0dfb7b898c6848c7"
+        },
+        {
+          "path": "modules/tank/upstream/vendor/legacy-tank-source/src/engine/quality.js",
+          "sha256": "013b1e3813820e5c676437060f1f5dd2d0ff496908fc48b70bf127a4a6275625"
+        },
+        {
+          "path": "modules/tank/upstream/vendor/legacy-tank-source/src/ui/flagCodes.js",
+          "sha256": "29b74148cd849dac928a1ee813f3517a3c67d62d1234b23cefd7d5cbcbf1c393"
+        },
+        {
+          "path": "modules/tank/upstream/vendor/legacy-tank-source/src/vehicles/appearanceAudit.js",
+          "sha256": "11eff6df249c0998d3764ca7ae9f8500de3cb0be6f304deda964a914920eaab3"
+        },
+        {
+          "path": "modules/tank/upstream/vendor/legacy-tank-source/src/vehicles/camoPolicy.js",
+          "sha256": "9f22313515353ebfbd9e75af2f72d08933871a0e9cd3fdb569294f5f16cd0a93"
+        },
+        {
+          "path": "modules/tank/upstream/vendor/legacy-tank-source/src/vehicles/materials.js",
+          "sha256": "0cef74c7fe9cec5ec8282febf7b89e3e731a6c6dfd432594b0044f11832cc798"
+        },
+        {
+          "path": "modules/tank/upstream/vendor/legacy-tank-source/src/vehicles/taxonomy.js",
+          "sha256": "55a637dde2eaea7df8c74004f4f02d398e0c8599b464b3f3cc4c1a7ceb643356"
+        },
+        {
+          "path": "modules/tank/upstream/vendor/legacy-tank-source/src/vehicles/vehicleMarkings.js",
+          "sha256": "08516d5ba76f6fd558379db2beb7192a9212a28b388ead99688c49b1ea27ae1f"
+        },
+        {
+          "path": "modules/tank/upstream/vendor/legacy-tank-source/src/vehicles/vehicleMarkingSeats.generated.js",
+          "sha256": "9e6d0cd63810b23cf3fd8be83cedf74ce862513bcc8b4464cb406025fefc1cbb"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "b68112074d618f48e8947cd853be73f535c764d53a114a43d44fd58b26458830"
+        },
+        {
+          "path": "src/character-asset.mjs",
+          "sha256": "cb5028923804ccbf4d8d0bde202fdc49dbcc612880cbeaebf510461a450f35c7"
+        },
+        {
+          "path": "src/geometry/bytes.mjs",
+          "sha256": "13df96d7dd769d1c5e59cc33661afc289523c99de4d54dc9a6146d986a223d6a"
+        },
+        {
+          "path": "src/geometry/compact.mjs",
+          "sha256": "c43f0bfccda14cf6c1111e4c1119d6d09723668a1fea6389e2833da7274ab323"
+        },
+        {
+          "path": "src/geometry/glb-lossless.mjs",
+          "sha256": "0200e66180cdc7f574f304e0ef05c6ffe7ba83ec6a5392d39cd61d9338d2ed0b"
+        },
+        {
+          "path": "src/geometry/png-lossless.mjs",
+          "sha256": "fb545da31c49115af232fc4f8dc09a2c747f7573ab125061570612a6e39b47ae"
+        },
+        {
+          "path": "src/plugins/asset.js",
+          "sha256": "adcefc7226b7767115f11555efda7c993c860c6b7bd35d06b72040f4bd90d631"
+        },
+        {
+          "path": "src/plugins/contract.js",
+          "sha256": "af5f211bb83caa4b73071e34d470a7e5a2d7869852371f0a28d2db39ce22bb3c"
+        },
+        {
+          "path": "src/plugins/scatter/core.js",
+          "sha256": "ccf9266aa523ddb86a8d40db0205715b7642f3a4fd148ba078aea5f1dcd50817"
+        },
+        {
+          "path": "src/plugins/scatter/io.js",
+          "sha256": "160ef24feaf1e3d3349c13afcfa82fb0f56be6a4bd7ef85e1c98b1310978a685"
+        },
+        {
+          "path": "src/plugins/scatter/rules.js",
+          "sha256": "c349e128b78e1459af9fb3ff12f2fa37b7d5b0996fbf9df2c78b5f680f663f87"
+        }
+      ],
+      "unresolvedDynamicImports": 3
+    },
+    "createdAt": "2026-10-12T09:13:59.686Z",
+    "files": {
+      "glb": "/workspace/scratch/6a4c729be230/dot-model-generator-runtime-12f6836/modules/qf25-visual-prop/evidence/mcp-output/0bbd317c-7ea7-4027-b1a0-ef9fb8b70e83/model.glb",
+      "recipe": "/workspace/scratch/6a4c729be230/dot-model-generator-runtime-12f6836/modules/qf25-visual-prop/evidence/mcp-output/0bbd317c-7ea7-4027-b1a0-ef9fb8b70e83/recipe.json",
+      "manifest": "/workspace/scratch/6a4c729be230/dot-model-generator-runtime-12f6836/modules/qf25-visual-prop/evidence/mcp-output/0bbd317c-7ea7-4027-b1a0-ef9fb8b70e83/manifest.json"
+    },
+    "uri": "file:///workspace/scratch/6a4c729be230/dot-model-generator-runtime-12f6836/modules/qf25-visual-prop/evidence/mcp-output/0bbd317c-7ea7-4027-b1a0-ef9fb8b70e83/model.glb",
+    "bytes": 1799428,
+    "sha256": "4ab51a4a30914b9589f7cbbecaf432984af9de4f6bb6353d0d86415211cd08ec",
+    "stats": {
+      "triangles": 58416,
+      "renderedTriangles": 58416,
+      "vertices": 86434,
+      "instances": 247,
+      "draws": 247,
+      "bytes": 3521768,
+      "nodes": 262,
+      "meshes": 247,
+      "textures": 3,
+      "materials": 7,
+      "dimensions": [
+        2.2119159381839593,
+        2.0576231405392216,
+        4.550340412042646
+      ],
+      "bounds": {
+        "min": [
+          -1.1059579690919796,
+          -0.00012325125862844288,
+          -2.6489999890294884
+        ],
+        "max": [
+          1.1059579690919796,
+          2.057499889280593,
+          1.9013404230131572
+        ]
+      }
+    },
+    "diagnostics": [
+      {
+        "engine": "blender-mcp-authored-pgf-assembly",
+        "triangles": 58416,
+        "renderedTriangles": 58416,
+        "vertices": 86434,
+        "instances": 247,
+        "draws": 247,
+        "bytes": 3537839,
+        "nodes": 261,
+        "meshes": 247,
+        "textures": 3,
+        "materials": 6,
+        "dimensions": [
+          2.2119159381836653,
+          2.0576231405430008,
+          4.55034041204753
+        ],
+        "quality": "low",
+        "showCover": false,
+        "scope": "静态GLB；牵引滚动和烟雾仅宿主预览，不包含真实机构或性能"
+      }
+    ],
+    "notes": []
+  },
+  "scope": "Actual shared PGF ArtifactService and isolated Worker; transport server not run because restored tree lacks its pinned SDK package. Blender authoring separately passed genuine MCP stdio."
+}

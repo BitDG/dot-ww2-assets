@@ -1,0 +1,110 @@
+{
+  "method": "Deterministic panel composition of original Blender renders; only explicit background-margin crop and uniform layout scale; no generated, retouched or warped pixels",
+  "fixedGLBSHA256": "d6703405e775e90e2fd6f6d284a202bbb05e3cf564b6c280b28d0a5be3fc1e39",
+  "sources": [
+    {
+      "view": "side",
+      "file": "LM-L3-PGF-side.png",
+      "sha256": "f6cfe675794bc2121dcd7d774dd5a8813772ae4cbfdbdd4494d78a8963f2d896",
+      "cropWindow": [
+        0,
+        110,
+        1280,
+        800
+      ],
+      "pixels": "No retouching or warping; crop blank framing margins only, then uniform layout scale; full raw render retained"
+    },
+    {
+      "view": "top",
+      "file": "LM-L3-PGF-top.png",
+      "sha256": "b6c133276bacd721797d07a36a1a09789a813ab849c7eea7f8001e298f208e36",
+      "cropWindow": [
+        0,
+        110,
+        1280,
+        790
+      ],
+      "pixels": "No retouching or warping; crop blank framing margins only, then uniform layout scale; full raw render retained"
+    },
+    {
+      "view": "front",
+      "file": "LM-L3-PGF-front.png",
+      "sha256": "acd2a52f2683eda4cafdf7b79c8ec56d45bad4b52bde0b99cf989e1b686d8b30",
+      "cropWindow": [
+        210,
+        40,
+        1070,
+        860
+      ],
+      "pixels": "No retouching or warping; crop blank framing margins only, then uniform layout scale; full raw render retained"
+    },
+    {
+      "view": "detail01-mouths",
+      "file": "LM-L3-PGF-detail01-mouths.png",
+      "sha256": "7e48fecd44c95544a6989d3c62c2c36bfc64b25445d3752c7b21c7536f5df732",
+      "cropWindow": null,
+      "pixels": "No retouching or warping; crop blank framing margins only, then uniform layout scale; full raw render retained"
+    },
+    {
+      "view": "detail02-side-frame",
+      "file": "LM-L3-PGF-detail02-side-frame.png",
+      "sha256": "f7ba5db399e23c5ad2d6751b077bd625f5f97ba71c66f761460638e02af4c53b",
+      "cropWindow": null,
+      "pixels": "No retouching or warping; crop blank framing margins only, then uniform layout scale; full raw render retained"
+    },
+    {
+      "view": "detail03-wheel",
+      "file": "LM-L3-PGF-detail03-wheel.png",
+      "sha256": "5dea794efa3ccb1329ebd02486025a9ea17647b01991b96cdaf687ab690c2700",
+      "cropWindow": null,
+      "pixels": "No retouching or warping; crop blank framing margins only, then uniform layout scale; full raw render retained"
+    },
+    {
+      "view": "detail04-fender",
+      "file": "LM-L3-PGF-detail04-fender.png",
+      "sha256": "8999a9bcf0d28b80541f52c4b6214d364dab1899fb6b8981544df87ca70da0c0",
+      "cropWindow": null,
+      "pixels": "No retouching or warping; crop blank framing margins only, then uniform layout scale; full raw render retained"
+    },
+    {
+      "view": "detail05-drawbar",
+      "file": "LM-L3-PGF-detail05-drawbar.png",
+      "sha256": "f8397bc9528387b1e1fc99f0d5c80a0db3e42c41d0f0b881b485929210e29416",
+      "cropWindow": null,
+      "pixels": "No retouching or warping; crop blank framing margins only, then uniform layout scale; full raw render retained"
+    },
+    {
+      "view": "detail06-carriage",
+      "file": "LM-L3-PGF-detail06-carriage.png",
+      "sha256": "10a40b016398844e9240af05fdad307c86bc2ee4dd050b6323e583486572ff4e",
+      "cropWindow": null,
+      "pixels": "No retouching or warping; crop blank framing margins only, then uniform layout scale; full raw render retained"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "LM-L3-PGF-three-view.png",
+      "bytes": 1470032,
+      "sha256": "0db5599f9054bb8a881decb2e3919dbcb008bda78bef7aa0da9696de7ca421e7"
+    },
+    {
+      "file": "LM-L3-PGF-six-details.png",
+      "bytes": 1621907,
+      "sha256": "b57b3eb3ed5aa429015558da4bd0b8f91e06cbb8cca175ba86939d6efc062dac"
+    }
+  ],
+  "cropSafetyChecks": [
+    {
+      "view": "side",
+      "assetFullyRetained": true
+    },
+    {
+      "view": "top",
+      "assetFullyRetained": true
+    },
+    {
+      "view": "front",
+      "assetFullyRetained": true
+    }
+  ]
+}

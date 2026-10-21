@@ -1,0 +1,46 @@
+Code executed successfully: 19:15:33 | INFO: Data are loaded, start creating Blender stuff
+19:15:33 | INFO: Blender create Mesh node mesh-0
+19:15:33 | INFO: Blender create Mesh node mesh-1
+19:15:33 | INFO: Blender create Mesh node mesh-2
+19:15:33 | INFO: Blender create Mesh node mesh-3
+19:15:33 | INFO: Blender create Mesh node mesh-4
+19:15:33 | INFO: Blender create Mesh node mesh-5
+19:15:33 | INFO: Blender create Mesh node mesh-6
+19:15:33 | INFO: Blender create Mesh node mesh-7
+19:15:33 | INFO: Blender create Mesh node mesh-8
+19:15:33 | INFO: Blender create Mesh node mesh-9
+19:15:33 | INFO: Blender create Mesh node mesh-10
+19:15:33 | INFO: Blender create Mesh node mesh-11
+19:15:33 | INFO: Blender create Mesh node mesh-12
+19:15:33 | INFO: Blender create Mesh node mesh-13
+19:15:33 | INFO: Blender create Mesh node mesh-14
+19:15:33 | INFO: Blender create Mesh node mesh-15
+19:15:33 | INFO: Blender create Mesh node mesh-16
+19:15:33 | INFO: Blender create Mesh node mesh-17
+19:15:33 | INFO: Blender create Mesh node mesh-18
+19:15:33 | INFO: Blender create Mesh node mesh-19
+19:15:33 | INFO: Blender create Mesh node mesh-20
+19:15:33 | INFO: Blender create Mesh node mesh-21
+19:15:33 | INFO: Blender create Mesh node mesh-22
+19:15:33 | INFO: Blender create Mesh node mesh-23
+19:15:33 | INFO: Blender create Mesh node mesh-24
+19:15:33 | INFO: Blender create Mesh node mesh-25
+19:15:33 | INFO: Blender create Mesh node mesh-26
+19:15:33 | INFO: Blender create Mesh node mesh-27
+19:15:33 | INFO: Blender create Mesh node mesh-28
+19:15:33 | INFO: Blender create Mesh node mesh-29
+19:15:33 | INFO: Blender create Mesh node mesh-30
+19:15:33 | INFO: Blender create Mesh node mesh-31
+19:15:33 | INFO: Blender create Mesh node mesh-32
+19:15:33 | INFO: Blender create Mesh node mesh-33
+19:15:33 | INFO: Blender create Mesh node mesh-34
+19:15:33 | INFO: Blender create Mesh node mesh-35
+19:15:33 | INFO: Blender create Mesh node mesh-36
+19:15:33 | INFO: glTF import finished in 0.55s
+RUNTIME_REIMPORT {"modelSha256": "bb62ac17a9e3b57d581cc52aff70495fdd1b52973b5c60c6f035d737e40f72cc", "meshes": 48, "bounds": [[-11.5, -1.7066445350646973, 1.7881394143159923e-09], [11.5, 1.7066445350646973, 5.340000152587891]], "triangles": 86716, "nonFinite": 0}
+CAMERA_RECEIPT {"modelSha256": "bb62ac17a9e3b57d581cc52aff70495fdd1b52973b5c60c6f035d737e40f72cc", "view": "hero", "type": "ORTHO", "location": [-22.0, -29.0, 15.670000076293945], "rotationEuler": [1.2277770042419434, -1.5379800544224054e-08, -0.6489955186843872], "direction": [0.569176971912384, 0.7502788305282593, -0.3363320529460907], "orthoScale": 22.264366149902344, "target": [0.0, 0.0, 2.6700000762939453], "resolution": [1200, 760], "samples": 32, "threads": 4, "denoise": false}
+Info: Saved "diesel-pgf-D6-reviewed-scene.blend"
+DIESEL_D6_HERO PASS
+
+{"status": "PASS", "tools": ["disable_telemetry", "execute_blender_code", "generate_3d", "get_addon_status", "get_scene_info", "import_asset", "look", "record_trajectory_feedback", "search_assets"], "receipt": "/workspace/scratch/6a4c729be230/PGF/modules/diesel-locomotive/evidence/D6-hero-mcp-receipt.json"}
+{"owned_blender_exit": 0, "log": "/workspace/scratch/6a4c729be230/PGF/modules/diesel-locomotive/evidence/D6-hero-mcp-receipt.blender.log"}

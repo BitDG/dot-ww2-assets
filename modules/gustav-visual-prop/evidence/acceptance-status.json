@@ -1,0 +1,50 @@
+{
+  "status": "G7-final-scoped-acceptance-passed",
+  "scope": "Nonfunctional exterior game art, final topology correction",
+  "passed": [
+    "Actual Blender MCP prototype authoring: low/medium/high",
+    "13 Node tests including strict schema, pre-abort, maxTriangles=1, tier budgets, finite UV/normals/nondegenerate triangles, deterministic GLB, ownership/disposal, world-surface batching, wheel contact/gaps/end-deck fit, tread pixels, and independent railing toggle, including folded stair profiles and handguard endpoint contact at artistic proportion extremes; explicit no-duplicate-indexed-triangle exports across all three tiers",
+    "12 public-API variants with actual GLB and AssetIR round trip",
+    "Actual Three GLTFLoader with decoded PNG textures",
+    "Actual shared Worker implementation in a Node worker_threads host: generation/export/rejection/termination",
+    "Same-owner same-material batching1475→74draws,146012triangles, exact Float32 hash be047f78e683493fb00ccc9f91b72d14925c18ecc93fda54fda37e39cea26eaa",
+    "Independent Blender MCP reopening of G3 source scene and all G3 rendered PNGs",
+    "Isolated Vite 8.1.5 preview build using approved dependencies",
+    "Actual G6 Blender MCP hero and two closeups bound to cf838215c16f262be515504c69dcca7ba5926f97a984548885d4abd1e95cf6e9",
+    "G7 actual Blender MCP fixed GLB import/save/reopen,146012 triangles equal serialized GLB topology",
+    "G7 actual FirefoxGLB+recipe download/reimport and recipe restore",
+    "Four genuine500x380 preset thumbnails generated and displayed in workbench",
+    "G7 fixed-source actual Three hero and strict orthographic three views, verified camera pose/resolution/PPU/SHA",
+    "G7 full Firefox1440x900 and1600x900 viewport screenshots"
+  ],
+  "pending": [],
+  "notRun": [
+    "PGF stdio MCP same-connection list/describe/generate/remove: SDK dependencies absent and no additional installation authorized",
+    "Full repository npm test / mcp:test / lock-matched production build: isolated dependency host is not a complete production install",
+    "GIF recording",
+    "Hardware GPU performance certification; browser test used software renderer"
+  ],
+  "recoveredIssues": [
+    "G2 original rail descriptor inherited two spans; explicitly selected one span before reviewed output",
+    "Test camo environment fixture used unsupported names; retained test and corrected to shared schema jungle",
+    "Module budget handling defaulted an absent material-slot limit to NaN; fixed to finite 16 and reran",
+    "G2b image attempt imported old pre-export GLB and timed out; obsolete images are not final evidence",
+    "G2c portrait orthographic framing cropped front view and world node background remained dark; final camera fitting and world background are corrected",
+    "G3 two-image MCP call exceeded the 180-second response window after producing both real PNGs; retained failed receipt, then independently reopened the exact scene and images through a successful MCP verification",
+    "Material-role invariance test compared unstable numerical material IDs when optional rails were disabled; fixed test to compare same bare-steel role contents and reran all variants",
+    "Duplicate old/new stair handrail was found in visual review; removed duplicate in medium/high and aligned posts with the retained rail before final export",
+    "Central housing had an exterior visual contact gap; added one opaque nonfunctional plinth and verified overlap with deck and housing at height/wheel-scale extremes. All Node/Worker/GLB checks rerun; current source hash binds final re-render.",
+    "G4 wheel gaps at short-body/large-wheel extremes corrected by independently stretching end display modules",
+    "Tread UV restricted to horizontal top faces; smaller tread pattern with low basecolor/roughness contrast after visual review",
+    "Railing switch now also removes stair handguards without removing treads/stringers",
+    "G6 replaces plain pedestal with bevelled closed stepped plinth, adds layered wheel-side blind covers and folded stair profiles, and connects stair guards to actual platform guard post endpoints. Independent Blender material experiment is retained but unused after user chose PGF materials.",
+    "G6 repeated endpoint posts at adjoining rear guard paths produced72 redundant same-index triangles including derived feet and collars. G7 shares same-owner/material endpoint posts at generation source; exact batching remains unchanged, all three tier GLBs tested duplicate-free."
+  ],
+  "visualLimitations": [
+    "Hidden surfaces and decorative repetition are artistic inference",
+    "Reference styling rather than historical measurement",
+    "ORM red is constant; no baked geometry AO claimed"
+  ],
+  "version": "1.1.2",
+  "browserEvidence": "G7-browser-acceptance.json explicitly separates G7 differential checks from inherited G4 lifecycle/UI baseline"
+}

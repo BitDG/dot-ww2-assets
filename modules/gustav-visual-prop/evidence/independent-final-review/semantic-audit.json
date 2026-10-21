@@ -1,0 +1,97 @@
+[
+  {
+    "path": "modules/gustav-visual-prop/evidence/gustav-G7-3e988dcd.glb",
+    "generator": {
+      "id": "gustav-visual-prop",
+      "version": "1.1.2"
+    },
+    "recipe": {
+      "generator": "gustav-visual-prop",
+      "version": "1.1.2",
+      "seed": "gustav-art-1",
+      "params": {
+        "silhouetteLength": 1,
+        "silhouetteWidth": 1,
+        "silhouetteHeight": 1,
+        "wheelVisualScale": 1,
+        "shellLengthFactor": 1,
+        "frameChunkiness": 1,
+        "detail": "medium",
+        "rivetDensity": 0.55,
+        "weathering": 0.28,
+        "paintColor": "#747c80",
+        "metalColor": "#727a80",
+        "showRails": true,
+        "showRailings": true,
+        "showStairs": true,
+        "showRivets": true,
+        "showRearDeck": true,
+        "showDecorativeBoxes": true,
+        "camoPattern": "original",
+        "camoEnvironment": "desert",
+        "camoScale": 1
+      }
+    },
+    "componentCount": 74,
+    "sourcePartCount": 1418,
+    "invalidSourceRanges": [],
+    "bareRoleTextureViolations": [],
+    "socketCount": 6,
+    "socketReferences": "passed",
+    "finish": {
+      "pattern": "original",
+      "environment": "desert",
+      "scale": 1,
+      "source": "PGF tank armor PBR"
+    },
+    "activeImportClosureFiles": 53,
+    "unadoptedMaterialImports": []
+  },
+  {
+    "path": "modules/diesel-locomotive/evidence/diesel-medium.glb",
+    "generator": {
+      "id": "diesel-locomotive",
+      "version": "1.2.1"
+    },
+    "recipe": {
+      "generator": "diesel-locomotive",
+      "version": "1.2.1",
+      "seed": "diesel-art-1",
+      "params": {
+        "bodyLength": 1,
+        "bodyWidth": 1,
+        "bodyHeight": 1,
+        "bogieSpacing": 1,
+        "wheelScale": 1,
+        "detail": "medium",
+        "fanCount": 4,
+        "grilleDensity": 0.6,
+        "rivetDensity": 0.55,
+        "weathering": 0.28,
+        "paintColor": "#7d8589",
+        "metalColor": "#737a7d",
+        "showRails": true,
+        "showRailings": true,
+        "showGrilles": true,
+        "showRivets": true,
+        "camoPattern": "original",
+        "camoEnvironment": "desert",
+        "camoScale": 1
+      }
+    },
+    "componentCount": 48,
+    "sourcePartCount": 1661,
+    "invalidSourceRanges": [],
+    "bareRoleTextureViolations": [],
+    "socketCount": 9,
+    "socketReferences": "passed",
+    "finish": {
+      "pattern": "original",
+      "environment": "desert",
+      "scale": 1,
+      "source": "PGF tank armor PBR"
+    },
+    "activeImportClosureFiles": 55,
+    "unadoptedMaterialImports": []
+  }
+]

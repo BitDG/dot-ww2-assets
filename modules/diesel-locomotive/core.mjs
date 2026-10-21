@@ -1,0 +1,152 @@
+/** Nonfunctional exterior game prop. All layout numbers are arbitrary art units. */
+import * as THREE from 'three';
+import {unzlibSync} from 'fflate';
+import low from './assets/blender-kit-low.mjs';
+import medium from './assets/blender-kit-medium.mjs';
+import high from './assets/blender-kit-high.mjs';
+import wheelLow from './assets/rail-wheel-low.mjs';
+import wheelMedium from './assets/rail-wheel-medium.mjs';
+import wheelHigh from './assets/rail-wheel-high.mjs';
+import {batchRuleLeaves} from './batch.mjs';
+import {box,rod,cylinder,ring,disposeTree as disposeRuleTree} from '../rule-kit/geometry.mjs';
+import {generateBridge} from '../bridge/src/bridge-core.js';
+import {buildCurve} from '../curve-infrastructure/core.mjs';
+import {createPortableArmorMaps,PORTABLE_FINISH_DEFAULTS} from '../tank/src/portable-vehicle-finish.mjs';
+export function disposeTree(root){
+ if(root.userData.disposed)return;const activeTextures=new Set(),activeMaterials=new Set();root.traverse(o=>{if(o.material){activeMaterials.add(o.material);for(const t of Object.values(o.material))if(t?.isTexture)activeTextures.add(t);}});
+ for(const t of root.userData.ownedTextures??[])if(!activeTextures.has(t))t.dispose();for(const m of root.userData.ownedMaterials??[])if(!activeMaterials.has(m))m.dispose();disposeRuleTree(root);root.userData.disposed=true;
+}
+export const defaults=Object.freeze({bodyLength:1,bodyWidth:1,bodyHeight:1,bogieSpacing:1,wheelScale:1,detail:'medium',fanCount:4,grilleDensity:.6,rivetDensity:.55,weathering:.28,paintColor:'#7d8589',metalColor:'#737a7d',showRails:true,showRailings:true,showGrilles:true,showRivets:true,...PORTABLE_FINISH_DEFAULTS});
+export const TIER_BUDGETS={low:{triangles:95000,draws:120},medium:{triangles:220000,draws:140},high:{triangles:420000,draws:160}};
+const kits={low,medium,high},wheelKits={low:wheelLow,medium:wheelMedium,high:wheelHigh};
+function decode(s,Type){const bytes=unzlibSync(Uint8Array.from(atob(s),c=>c.charCodeAt(0)));return new Type(bytes.buffer,bytes.byteOffset,bytes.byteLength/Type.BYTES_PER_ELEMENT);}
+function materials(p,seed){
+ const maps=createPortableArmorMaps({seed,weathering:p.weathering,resolution:p.detail==='low'?128:p.detail==='medium'?256:512});
+ // Local exterior-art attenuation of the shared tank normal/roughness contrast.
+ // Original tank source and painter remain untouched; physical seams come from geometry.
+ for(let i=0;i<maps.normal.image.data.length;i+=4){const d=maps.normal.image.data;let x=(d[i]/255*2-1)*.05,y=(d[i+1]/255*2-1)*.05,z=d[i+2]/255*2-1;const n=Math.hypot(x,y,z);d[i]=Math.round((x/n*.5+.5)*255);d[i+1]=Math.round((y/n*.5+.5)*255);d[i+2]=Math.round((z/n*.5+.5)*255);maps.orm.image.data[i+1]=Math.round(174+(maps.orm.image.data[i+1]-174)*.25);}
+ for(let i=0;i<maps.albedo.image.data.length;i+=4)for(let c=0;c<3;c++)maps.albedo.image.data[i+c]=Math.round([188,195,199][c]+(maps.albedo.image.data[i+c]-[188,195,199][c])*.30);
+ const specs={paint:[p.paintColor,.7,.22],trim:[new THREE.Color(p.paintColor).multiplyScalar(.82),.72,.25],steel:[p.metalColor,.43,.8],dark:['#252b2d',.86,.15],sleeper:['#514f48',.93,0],glass:['#15272e',.16,.35],rubber:['#242526',.94,0],lamp:['#f2e7b7',.22,.15],deck:[new THREE.Color(p.paintColor).multiplyScalar(.8),.91,.2]};
+ return Object.fromEntries(Object.entries(specs).map(([name,[color,roughness,metalness]])=>{const m=new THREE.MeshStandardMaterial({color,roughness,metalness});m.name=name;m.userData.appearanceRole=['paint','trim','deck'].includes(name)?'armorPaint':'bare-'+name;
+ if(m.userData.appearanceRole==='armorPaint'){m.map=maps.albedo;m.normalMap=maps.normal;m.roughnessMap=m.metalnessMap=maps.orm;}return [name,m];}));
+}
+function sourceGeometry(kit){return Object.fromEntries(kit.nodes.filter(n=>n.mesh!==undefined).map(n=>{const p=kit.meshes[n.mesh].primitives[0],g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.BufferAttribute(decode(p.positions,Float32Array),3));g.setAttribute('normal',new THREE.BufferAttribute(decode(p.normals,Float32Array),3));g.setAttribute('uv',new THREE.BufferAttribute(decode(p.uv,Float32Array),2));g.setIndex(new THREE.BufferAttribute(decode(p.indices,Uint32Array),1));const matrix=new THREE.Matrix4().compose(new THREE.Vector3(...n.position),new THREE.Quaternion(...n.rotation),new THREE.Vector3(...n.scale));g.applyMatrix4(matrix);return [n.name,g];}));}
+export function createDieselLocomotiveModel(params={},options={}){
+ const p={...defaults,...params},seed=String(options.seed??'diesel-art-1'),q=['low','medium','high'].indexOf(p.detail);if(q<0)throw Error('Unknown detail');
+ const m=materials(p,seed),geo={...sourceGeometry(kits[p.detail]),...sourceGeometry(wheelKits[p.detail])},root=new THREE.Group();root.name='diesel-locomotive';root.userData.ownedMaterials=Object.values(m);root.userData.ownedTextures=[...new Set(Object.values(m).flatMap(a=>Object.values(a).filter(t=>t?.isTexture)))];
+ const L=p.bodyLength,W=p.bodyWidth,H=p.bodyHeight,R=.365*1.7*p.wheelScale,railTop=p.showRails?.34:0;
+ const axlePitch=Math.max(1.27*L,2*R+.08),axleOffset=axlePitch/L,bogieLocalScale=axleOffset/1.27,fuelHalf=Math.min(2.725*L,5.75*p.bogieSpacing*L-axlePitch-R-.25),fuelEnd=(fuelHalf-.22)/L;
+ const pos=([x,y,z])=>[x*L,railTop+R+(y-.6205)*H,z*W];
+ function group(name,parent=root){const g=new THREE.Group();g.name=name;parent.add(g);return g;}
+ function mark(o,source){o.castShadow=o.receiveShadow=true;o.userData.source=source;return o;}
+ function bx(g,id,s,at,mat=m.paint,round=0){return mark(box(g,id,[s[0]*L,s[1]*H,s[2]*W],mat,pos(at),round,q===2?2:1),'PGF rule-kit box');}
+ function line(g,id,a,b,r=.023,mat=m.trim){return mark(rod(g,id,pos(a),pos(b),r,mat,q===0?6:8),'PGF rule-kit rod');}
+ function tube(g,id,points,r=.02,mat=m.steel,steps=24){const curve=new THREE.CatmullRomCurve3(points.map(a=>new THREE.Vector3(...pos(a))),false,'centripetal');const geometry=new THREE.TubeGeometry(curve,steps,r,q===2?8:6,false),o=new THREE.Mesh(geometry,mat);o.name=id;g.add(o);return mark(o,'PGF Three swept exterior tube');}
+ function cyl(g,id,r,h,at,mat=m.steel,axis='y',segments=q===0?16:q===1?24:32){const o=cylinder(g,id,r,h,mat,pos(at),segments);if(axis==='x')o.rotation.z=Math.PI/2;if(axis==='z')o.rotation.x=Math.PI/2;return mark(o,'PGF rule-kit cylinder');}
+ function proto(g,id,key,at,scale=[L,H,W],mat=m.paint){const o=new THREE.Mesh(geo[key],mat);o.name=id;o.position.fromArray(at);o.scale.fromArray(scale);g.add(o);return mark(o,'Actual Blender MCP '+key);}
+ function railings(g,id,points){if(!p.showRailings)return;const scaled=points.map((a,i)=>({id:'p'+i,position:pos(a).map(n=>n*4)}));const {asset}=buildCurve({seed,params:{lamps:false,fenceHeight:4.2,spacing:5.6},input:{points:scaled}});const cache=new Map();for(const s of asset.meshes){const pr=s.primitives[0],g0=new THREE.BufferGeometry();g0.setAttribute('position',new THREE.BufferAttribute(pr.positions,3));g0.setAttribute('normal',new THREE.BufferAttribute(pr.normals,3));g0.setIndex(new THREE.BufferAttribute(pr.indices,1));g0.setAttribute('uv',new THREE.Float32BufferAttribute(Array.from({length:pr.positions.length/3},(_,i)=>[pr.positions[i*3]*.2,pr.positions[i*3+1]*.2]).flat(),2));cache.set(s.id,g0);}for(const n of asset.nodes){if(!n.meshId)continue;const o=new THREE.Mesh(cache.get(n.meshId),m.trim);o.name=id+'-'+n.id;o.position.fromArray(n.transform.position.map(v=>v*.25));o.quaternion.fromArray(n.transform.rotation);o.scale.setScalar(.25);g.add(o);mark(o,'PGF curve-infrastructure buildCurve');}}
+ const rails=group('display-rails'),wheels=group('rail-wheel-facades'),chassis=group('chassis-and-tanks'),cab=group('cab-and-short-nose'),hood=group('long-engine-hood'),walk=group('walkways-and-guards'),roof=group('roof-fans-and-exhaust'),pilot=group('pilots-and-couplers'),detail=group('panels-and-hardware');
+ if(p.showRails){const plan=generateBridge({params:{bridgeType:'steel-girder',spanCount:1,spanLength:23,bridgeWidth:4,trackCount:1,trackGauge:1.435,trackBed:'ballast',supportPillars:false,hasRailings:false,hasCatenary:false}});for(const part of plan.parts.filter(a=>/^(sleeper-|clip-|rail-)/.test(a.id))){const t=part.ops.find(a=>a[0]==='t').slice(1),s=part.args;mark(box(rails,part.id,[s[2]*L,s[1],s[0]*(1.10/.7525)*W],part.material==='sleeper'?m.sleeper:m.steel,[t[2]*L,t[1]-.26,t[0]*(1.10/.7525)*W]),'PGF bridge generateBridge rail descriptor');}}
+ bx(chassis,'main-long-sill',[19,.34,2.92],[0,1.58,0],m.trim,.04);bx(walk,'walkway-deck',[19.1,.13,3.18],[0,1.82,0],m.deck,.025);
+ for(const side of [-1,1]){bx(chassis,'sill-side-'+side,[19,.28,.12],[0,1.61,side*1.49]);cyl(chassis,'air-reservoir-'+side,.19,5.8,[.4,1.15,side*1.06],m.trim,'x');}
+ const fuelTank=cyl(chassis,'main-fuel-tank',.63,fuelHalf*2,[0,.89,0],m.trim,'x');fuelTank.scale.z=1.55;for(const x of [-fuelEnd,fuelEnd]){const fuelCap=cyl(chassis,'fuel-end-cap-'+x,.64,.06,[x,.89,0],m.trim,'x');fuelCap.scale.z=1.55;for(const s of [-1,1])line(chassis,'fuel-strap-'+x+'-'+s,[x,.47,s*.19],[x,1.24,s*.48],.046,m.steel);}
+ const wheelCenters=[];
+ for(const end of [-1,1]){const bogie=group(end<0?'front-three-axle-bogie':'rear-three-axle-bogie'),cx=end*5.75*p.bogieSpacing;
+  bx(bogie,'bogie-crossbeam-'+end,[3.9*bogieLocalScale,.32,2.38],[cx,.96,0],m.dark,.03);
+  for(const side of [-1,1]){proto(bogie,'three-axle-sideframe-'+end+'-'+side,'three-axle-bogie-sideframe',pos([cx,1.02,side*1.36]),[L*bogieLocalScale,H,W],m.trim);
+   for(const i of [-1,0,1]){const x=cx+i*axleOffset,name=`wheel-${end}-${side}-${i}`,center=[x*L,railTop+R,side*1.10*W],scale=1.7*p.wheelScale;proto(wheels,name,'rail-wheel',center,[scale,scale,scale],m.steel);wheelCenters.push({name,center,radius:R,bogie:end,axle:i});
+    cyl(bogie,'axle-box-'+end+'-'+side+'-'+i,.19,.19,[x,.6205,side*1.52],m.trim,'z');cyl(bogie,'axle-hub-'+end+'-'+side+'-'+i,.125,.21,[x,.6205,side*1.55],m.steel,'z');bx(bogie,'axle-pedestal-'+end+'-'+side+'-'+i,[.49,.49,.29],[x,.65,side*1.44],m.trim,.055);
+    if(q>0){cyl(bogie,'brake-cylinder-'+end+'-'+side+'-'+i,.12,.44,[x,1.35,side*1.45],m.trim,'x');line(bogie,'brake-link-'+end+'-'+side+'-'+i,[x-.4,.49,side*1.48],[x+.4,.49,side*1.48],.027,m.steel);for(const j of [-1,1]){bx(bogie,'spring-seat-'+end+'-'+side+'-'+i+'-'+j,[.28,.085,.34],[x+j*.3,1.16,side*1.51],m.steel);const pts=[];for(let k=0;k<=80;k++){const a=k/80*Math.PI*8;pts.push([x+j*.3+Math.cos(a)*.102,1.21+k/80*.225,side*1.55+Math.sin(a)*.102]);}tube(bogie,'suspension-coil-'+end+'-'+side+'-'+i+'-'+j,pts,.023,m.steel,q===1?64:96);bx(bogie,'spring-upper-seat-'+end+'-'+side+'-'+i+'-'+j,[.29,.055,.36],[x+j*.3,1.46,side*1.52],m.trim,.008);}}
+   }
+   line(bogie,'bogie-top-pipe-'+end+'-'+side,[cx-1.9*bogieLocalScale,1.49,side*1.49],[cx+1.9*bogieLocalScale,1.49,side*1.49],.035,m.steel);
+  }
+  for(const i of [-1,0,1])cyl(bogie,'axle-'+end+'-'+i,.12,2.2,[cx+i*axleOffset,.6205,0],m.dark,'z');
+ }
+ proto(cab,'angular-cab','angular-cab-shell',pos([-5.45,3.32,0]));proto(cab,'short-sloped-nose','sloped-short-nose',pos([-7.6,2.62,0]));
+ bx(cab,'cab-roof-brow',[2.5,.15,2.63],[-5.43,4.53,0],m.trim,.035);
+ // Window frames sit on visible authored shell faces; roof shoulder remains exposed.
+ for(const side of [-1,1]){bx(cab,'side-window-frame-'+side,[1.30,1.02,.055],[-5.24,3.66,side*1.276],m.dark,.025);bx(cab,'side-window-glass-'+side,[1.16,.86,.059],[-5.24,3.68,side*1.31],m.glass);bx(cab,'side-window-divider-'+side,[.046,.91,.072],[-5.24,3.67,side*1.34],m.trim);bx(cab,'window-awning-'+side,[1.55,.07,.27],[-5.24,4.22,side*1.38],m.trim);
+  bx(cab,'cab-door-'+side,[.52,1.62,.03],[-6.29,2.86,side*1.28],m.trim);bx(cab,'door-glass-'+side,[.34,.68,.04],[-6.29,3.3,side*1.3],m.glass);line(cab,'door-handle-'+side,[-6.07,2.86,side*1.33],[-6.07,3.05,side*1.33],.017,m.steel);
+  bx(cab,'nose-access-panel-'+side,[1.58,1.17,.025],[-7.55,2.54,side*.991],m.trim);if(q===0)line(cab,'nose-handrail-'+side,[-8.4,2.15,side*1.08],[-7.7,3.52,side*1.17],.025,m.steel);if(q===0)line(cab,'nose-handrail-top-'+side,[-7.7,3.52,side*1.17],[-6.6,3.52,side*1.17],.025,m.steel);
+  bx(cab,'front-windshield-frame-'+side,[.055,.61,.99],[-6.66,3.90,side*.56],m.dark);bx(cab,'front-windshield-'+side,[.066,.49,.87],[-6.696,3.91,side*.56],m.glass);line(cab,'windshield-wiper-'+side,[-6.74,3.69,side*.73],[-6.74,4.08,side*.39],.013,m.rubber);
+ }
+ bx(hood,'long-hood-main',[11.1,2.78,2.12],[1.25,3.27,0],m.paint,.045);bx(hood,'long-hood-roof',[11.2,.15,2.24],[1.25,4.71,0],m.trim,.035);bx(hood,'rear-hood-end',[1.12,2.69,2.12],[7.27,3.23,0],m.paint,.065);
+ for(const side of [-1,1]){bx(hood,'radiator-brow-'+side,[5.6,.14,.30],[4.08,4.58,side*1.16],m.trim,.02);
+  const panels=q===0?10:14;for(let i=0;i<panels;i++){const x=-3.92+(i+.5)*11.9/panels,w=11.9/panels-.035;bx(detail,`access-door-${side}-${i}`,[w,1.91,q===0?.027:.066],[x,2.96,side*(q===0?1.078:1.092)],m.paint,q===0?0:.017);bx(detail,`door-seam-${side}-${i}`,[.014,1.92,.037],[x-w/2,2.96,side*1.09],m.dark);
+   if(q>0){for(const y of [2.2,3.57])bx(detail,`hinge-${side}-${i}-${y}`,[.052,.13,.067],[x-w*.39,y,side*1.135],m.steel);line(detail,`door-handle-${side}-${i}`,[x+w*.30,2.89,side*1.17],[x+w*.30,3.07,side*1.17],.013,m.steel);for(const y of [2.89,3.07])line(detail,`door-handle-foot-${side}-${i}-${y}`,[x+w*.30,y,side*1.12],[x+w*.30,y,side*1.17],.013,m.steel);}
+  }
+  if(p.showGrilles)for(const [j,x,w,y,h]of [[0,-3.3,1.25,4.20,.81],[1,.20,1.45,4.24,.50],[2,3.45,2.4,4.2,.69],[3,6.16,2.5,4.2,.69]]){bx(detail,`grille-dark-${side}-${j}`,[w,h,.17],[x,y,side*1.14],m.dark);const n=Math.round(w*(q===0?5:q===1?14:22)*(0.6+p.grilleDensity));for(let i=0;i<=n;i++)bx(detail,`grille-slat-${side}-${j}-${i}`,[.017,h,.075],[x-w/2+i*w/n,y,side*1.225],m.steel).rotation.y=side*.32;for(const dy of [-h/2,h/2])bx(detail,`grille-rim-${side}-${j}-${dy}`,[w+.07,.045,.05],[x,y+dy,side*1.24],m.trim);for(const dx of [-w/2,w/2])bx(detail,`grille-side-rim-${side}-${j}-${dx}`,[.052,h+.045,.075],[x+dx,y,side*1.24],m.trim,.01);if(q>0)bx(detail,`grille-inner-crossbar-${side}-${j}`,[w,.034,.025],[x,y,side*1.192],m.dark);}
+  railings(walk,'long-guard-'+side,[[-4.17,1.88,side*1.52],[8.88,1.88,side*1.52]]);railings(walk,'nose-guard-'+side,[[-9.3,1.88,side*1.52],[-8.49,1.88,side*1.52]]);
+  for(const end of [-1,1]){const x=end*9.09;for(let i=0;i<4;i++){const y=.52+i*.33;bx(walk,`end-step-${side}-${end}-${i}`,[.55,.07,.61],[x,y,side*1.24],m.deck);if(q>0)for(let j=0;j<4;j++)bx(walk,`step-tread-${side}-${end}-${i}-${j}`,[.46,.012,.018],[x,y+.039,side*1.24-.22+j*.145],m.steel);}line(walk,`step-outer-${side}-${end}`,[x+.29,.46,side*1.56],[x+.29,2.94,side*1.56],.026,m.trim);}
+ }
+ for(const end of [-1,1]){const x=end*9.3;railings(walk,'end-guard-'+end,[[x,1.88,-1.5],[x,1.88,-.43]]);railings(walk,'end-guard-right-'+end,[[x,1.88,.43],[x,1.88,1.5]]);proto(pilot,'curved-pilot-'+end,'curved-front-pilot',pos([end*9.34,.92,0]),[end<0?L:-L,H,W],m.trim);proto(pilot,'coupler-'+end,'knuckle-coupler-exterior',pos([end*9.8,1.12,0]),[end<0?-L:L,H,W],m.steel);bx(pilot,'coupler-pocket-'+end,[.3,.49,.63],[end*9.47,1.12,0],m.dark);
+  for(const side of [-1,1]){cyl(pilot,`ditch-light-case-${end}-${side}`,.145,.13,[x,2.12,side*1.07],m.trim,'x');cyl(pilot,`ditch-light-lens-${end}-${side}`,.11,.14,[x+end*.025,2.12,side*1.07],m.lamp,'x');for(let i=0;i<3;i++)line(pilot,`pilot-rib-${end}-${side}-${i}`,[x+end*.20,.45,side*(.55+i*.2)],[x,.96,side*(.55+i*.2)],.035,m.steel);line(pilot,`hose-upper-${end}-${side}`,[x+end*.2,1.54,side*.35],[x+end*.5,.76,side*.44],.043,m.rubber);line(pilot,`hose-lower-${end}-${side}`,[x+end*.5,.76,side*.44],[x+end*.31,.52,side*.32],.043,m.rubber);}
+ }
+ // Roof units have uniform circular footprint even when the body is stretched.
+ for(let i=0;i<p.fanCount;i++){const x=1.45+(i+.5)*6.3/p.fanCount;const at=pos([x,4.825,0]),radius=Math.min(.80*W,3.05*L/p.fanCount);mark(ring(roof,'fan-ring-'+i,radius,radius-.07,.095,m.trim,at,q===0?20:q===1?32:48),'PGF rule-kit fan annulus');cyl(roof,'fan-dark-recess-'+i,radius-.06,.035,[x,4.8,0],m.dark);cyl(roof,'fan-hub-'+i,.14,.06,[x,4.85,0],m.steel);
+  const spokes=q===0?8:q===1?16:24;for(let j=0;j<spokes;j++){const a=2*Math.PI*j/spokes,ob=rod(roof,`fan-spoke-${i}-${j}`,[at[0],at[1]+.052,at[2]],[at[0]+Math.cos(a)*radius,at[1]+.052,at[2]+Math.sin(a)*radius],q===0?.017:.011,m.steel,6);mark(ob,'PGF rule-kit radial cage');}
+  if(q>0)for(let j=1;j<=4;j++)mark(ring(roof,`fan-cage-circle-${i}-${j}`,radius*j/5+.009,radius*j/5-.009,.018,m.steel,[at[0],at[1]+.052,at[2]],q===1?32:48),'PGF rule-kit concentric cage');
+  for(let j=0;j<6;j++){const a=j*Math.PI/3,o=box(roof,`fan-blade-${i}-${j}`,[.43,.024,.19],m.trim,[at[0]+Math.cos(a)*.29,at[1]-.015,at[2]+Math.sin(a)*.29]);o.rotation.y=-a;o.rotation.x=.24;mark(o,'PGF rule-kit decorative blade');}
+ }
+ bx(roof,'exhaust-base',[.79,.16,.79],[-.7,4.89,0],m.trim,.05);bx(roof,'exhaust-opening',[.53,.027,.53],[-.7,4.981,0],m.dark);bx(roof,'roof-machinery-cover',[1.55,.29,1.87],[-2.18,4.85,0],m.paint,.055);
+ for(const side of [-1,1]){cyl(roof,'horn-'+side,.12,.64,[-5.95,4.82,side*.24],m.steel,'x');cyl(roof,'horn-mouth-'+side,.18,.035,[-6.28,4.82,side*.24],m.dark,'x');}
+ for(const end of [-1,1]){const x=end<0?-6.73:7.85,y=end<0?4.32:4.32;for(const z of [-.18,.18])cyl(detail,`headlamp-${end}-${z}`,.112,.06,[x,y,z],m.lamp,'x');for(const z of [-.66,.66])bx(detail,`blank-number-plate-${end}-${z}`,[.035,.24,.57],[x,y,z],m.dark);}
+ if(q>0&&p.showRivets){const n=Math.round(28*p.rivetDensity);for(const side of [-1,1])for(let i=0;i<n;i++){const slot=Math.floor(i*28/n),panel=Math.floor(slot/2),x=-3.92+(panel+.5)*11.9/14+(slot%2?.30:-.30);for(const y of [2.10,3.79])cyl(detail,`rivet-${side}-${i}-${y}`,.019,.019,[x,y,side*1.13],m.steel,'z',6);}}
+
+ // D3: three visible detail families: cab/pilot fittings, underframe hierarchy, roof/walkway hardware.
+ if(q>0){
+  for(const side of [-1,1]){
+   for(const x of [-5.84,-4.64])bx(cab,'window-vertical-gasket-'+side+'-'+x,[.036,.89,.033],[x,3.68,side*1.35],m.rubber,.008);
+   for(const y of [3.23,4.13])bx(cab,'window-metal-bead-'+side+'-'+y,[1.25,.038,.075],[-5.24,y,side*1.34],m.trim,.01);
+   bx(cab,'cab-door-recess-'+side,[.57,1.69,.016],[-6.29,2.86,side*1.279],m.dark,.016);
+   for(const y of [2.19,3.49])cyl(cab,'cab-door-hinge-barrel-'+side+'-'+y,.038,.14,[-6.54,y,side*1.325],m.steel);
+   tube(cab,'nose-continuous-return-grab-'+side,[[-8.4,2.15,side*1.08],[-8.34,2.29,side*1.09],[-7.75,3.44,side*1.17],[-7.66,3.52,side*1.17],[-6.68,3.52,side*1.17],[-6.60,3.45,side*1.17],[-6.60,3.36,side*1.09]],.027,m.steel,32);
+   for(const end of [-1,1]){const owner=root.getObjectByName(end<0?'front-three-axle-bogie':'rear-three-axle-bogie'),cx=end*5.75*p.bogieSpacing;
+    for(const i of [-1,0,1])for(const sign of [-1,1]){const x=cx+i*axleOffset+sign*.47;
+     const shoe=bx(owner,`brake-shoe-${end}-${side}-${i}-${sign}`,[.12,.32,.14],[x,.68,side*1.21],m.dark,.025);shoe.rotation.z=sign*.24;
+     line(owner,`brake-hanger-${end}-${side}-${i}-${sign}`,[x,1.18,side*1.29],[x,.65,side*1.29],.038,m.steel);
+    }
+   }
+  }
+  for(const y of [3.05,3.28])bx(detail,'nose-lamp-mount-'+y,[.11,.24,.28],[-8.575,y,0],m.trim,.05);
+  bx(detail,'nose-front-access-frame',[.045,1.02,1.61],[-8.579,2.54,0],m.trim,.018);
+  bx(detail,'nose-front-access-panel',[.050,.94,1.52],[-8.61,2.54,0],m.paint,.018);
+  for(const z of [-.65,.65])for(const y of [2.13,2.98])cyl(detail,'nose-front-bolt-'+z+'-'+y,.026,.025,[-8.65,y,z],m.steel,'x',8);
+  line(detail,'nose-front-grab-top',[-8.68,2.78,-.40],[-8.68,2.78,.40],.025,m.steel);
+  for(const z of [-.4,.4])line(detail,'nose-front-grab-foot-'+z,[-8.62,2.71,z],[-8.68,2.78,z],.025,m.steel);
+  for(const y of [3.05,3.28]){cyl(detail,'nose-headlamp-rim-'+y,.124,.075,[-8.59,y,0],m.trim,'x');cyl(detail,'nose-headlamp-lens-'+y,.086,.081,[-8.62,y,0],m.lamp,'x');}
+  for(const side of [-1,1]){
+   for(const y of [2.23,2.85])bx(detail,'nose-hinge-'+side+'-'+y,[.12,.065,.05],[-8.09,y,side*1.02],m.steel);
+   line(detail,'nose-panel-grab-'+side,[-7.01,2.38,side*1.06],[-7.01,2.70,side*1.06],.022,m.steel);
+   for(const x of [-5.85,-4.51])for(const y of [2.06,3.91])cyl(detail,'cab-panel-fastener-'+side+'-'+x+'-'+y,.023,.024,[x,y,side*1.30],m.steel,'z',8);
+   bx(chassis,'underframe-side-box-'+side,[2.15,.26,.33],[.6,1.31,side*1.29],m.trim,.025);
+   if(side<0)for(const x of [-fuelEnd,fuelEnd]){const band=ring(chassis,'tank-band-'+x,.646,.625,.08,m.steel,pos([x,.89,0]),24);band.rotation.z=Math.PI/2;band.scale.z=1.56;mark(band,'PGF rule-kit fuel tank cosmetic strap');}
+   cyl(chassis,'filler-neck-'+side,.087,.16,[-1.42,1.26,side*1.14],m.steel,'z');
+   cyl(chassis,'filler-cap-'+side,.119,.049,[-1.42,1.26,side*1.25],m.trim,'z');
+   line(chassis,'reservoir-service-pipe-'+side,[-2.9,1.45,side*1.34],[2.8,1.45,side*1.34],.027,m.steel);
+   for(const end of [-1,1]){const owner=root.getObjectByName(end<0?'front-three-axle-bogie':'rear-three-axle-bogie'),cx=end*5.75*p.bogieSpacing;
+    for(const i of [-1,0,1]){const x=cx+i*axleOffset;
+     for(let k=0;k<6;k++){const a=k*Math.PI/3;cyl(owner,`axle-cap-bolt-${end}-${side}-${i}-${k}`,.020,.022,[x+Math.cos(a)*.142,.6205+Math.sin(a)*.142,side*1.664],m.steel,'z',6);}
+     for(const dx of [-.38,.38])bx(owner,`axle-keeper-${end}-${side}-${i}-${dx}`,[.065,.36,.095],[x+dx,.65,side*1.50],m.steel);
+    }
+    for(const dx of [-1.74,-.72,.72,1.74])cyl(owner,`sideframe-dark-recess-${end}-${side}-${dx}`,.066,.018,[cx+dx*bogieLocalScale,1.05,side*1.477],m.dark,'z',12);
+    for(const dx of [-1.89,1.89]){bx(owner,`sideframe-bolted-joint-${end}-${side}-${dx}`,[.28,.29,.038],[cx+dx*bogieLocalScale,1.16,side*1.50],m.trim);for(const dy of [-.08,.08])cyl(owner,`sideframe-joint-bolt-${end}-${side}-${dx}-${dy}`,.024,.02,[cx+dx*bogieLocalScale,1.16+dy,side*1.53],m.steel,'z',8);}
+   }
+   const treadCount=q===1?42:84;for(let i=0;i<treadCount;i++){const x=-4.06+(i+.5)*12.83/treadCount;for(const j of [-1,1]){const o=bx(walk,`walkway-diamond-${side}-${i}-${j}`,[.105,.008,.025],[x+j*.06,1.890,side*1.35],m.steel);o.rotation.y=j*Math.PI/4;}}
+   for(let i=0;i<7;i++)line(detail,'rear-climb-rung-'+side+'-'+i,[7.92,2.15+i*.33,side*.76],[7.92,2.15+i*.33,side*.98],.027,m.steel);
+  }
+  for(const end of [-1,1]){const x=end*9.3;
+   bx(pilot,'coupler-mount-collar-'+end,[.16,.44,.61],[end*9.60,1.12,0],m.trim,.03);
+   cyl(pilot,'coupler-visible-pin-'+end,.058,.46,[end*9.82,1.16,.21],m.steel);
+   for(const side of [-1,1]){line(pilot,'coupler-lift-bar-'+end+'-'+side,[x+end*.20,1.47,side*.90],[x+end*.20,1.47,side*.21],.028,m.steel);line(pilot,'hose-metal-tail-'+end+'-'+side,[x+end*.31,.52,side*.32],[x+end*.23,.48,side*.24],.046,m.steel);}
+   for(let i=0;i<8;i++){const z=-.43+i*.1075,z2=z+.1075,y=2.66-.14*Math.sin(i*Math.PI/8),y2=2.66-.14*Math.sin((i+1)*Math.PI/8);line(walk,'end-sagging-chain-'+end+'-'+i,[x,y,z],[x,y2,z2],.014,m.steel);}
+  }
+  for(let i=0;i<p.fanCount;i++){const x=1.45+(i+.5)*6.3/p.fanCount,w=6.1/p.fanCount;
+   for(const z of [-1.0,1.0])bx(roof,'fan-mounting-panel-side-'+i+'-'+z,[w,.026,.055],[x,4.803,z],m.paint);for(const dx of [-w/2,w/2])bx(roof,'fan-mounting-panel-end-'+i+'-'+dx,[.033,.026,2.02],[x+dx,4.803,0],m.paint);
+   for(const side of [-1,1])for(const dx of [-w*.40,w*.40])cyl(roof,`fan-panel-bolt-${i}-${side}-${dx}`,.026,.034,[x+dx,4.831,side*.94],m.steel,'y',8);
+  }
+  for(const x of [-3.74,-2.89,-1.31,.49]){bx(roof,'roof-transverse-seam-'+x,[.025,.032,2.13],[x,4.799,0],m.dark);for(const z of [-.92,.92])cyl(roof,'roof-seam-fastener-'+x+'-'+z,.024,.022,[x+.08,4.821,z],m.steel,'y',8);}
+ }
+ root.userData.pgf={visualOnly:true,description:'American diesel locomotive exterior art; unidentified model; four fans default is inferred',wheelCenters,railTop,axlePitch,fuelHalf,params:p,threeAxleBogies:2,scale:'relative unmeasured art units',source:'Blender MCP specialty mesh kit + frozen rail-wheel + PGF rule/bridge/curve'};
+ if(options.batch!==false)batchRuleLeaves(root);root.updateMatrixWorld(true);return root;
+}

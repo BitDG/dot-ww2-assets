@@ -1,0 +1,27 @@
+{
+  "file": "modules/reference-armored-car/assets/blender/reference-armored-car-structural-v3.glb",
+  "sha256": "5a1aa5a1aa6e86c69aaf09e5d17d7a9ae012996d652c96e444513ffa94b44e38",
+  "bytes": 4515192,
+  "nodes": 156,
+  "meshes": 138,
+  "triangles": 80624,
+  "zeroArea": 0,
+  "nonFinite": 0,
+  "normalError": 1.3311254210002232e-7,
+  "uvMissing": 0,
+  "missingOwners": [],
+  "bounds": {
+    "min": [
+      -1.381999984383583,
+      0.010029137134552002,
+      -2.3634326641026835
+    ],
+    "max": [
+      1.381999984383583,
+      3.330000013113022,
+      2.244546377593404
+    ]
+  },
+  "scope": "Static structural audit; actual Blender reimport tracked separately",
+  "status": "PASS"
+}

@@ -1,0 +1,27 @@
+{
+  "generator": "gustav-visual-prop",
+  "version": "1.1.2",
+  "seed": "gustav-art-1",
+  "params": {
+    "silhouetteLength": 1,
+    "silhouetteWidth": 1,
+    "silhouetteHeight": 1,
+    "wheelVisualScale": 1,
+    "shellLengthFactor": 1,
+    "frameChunkiness": 1,
+    "detail": "high",
+    "rivetDensity": 0.8,
+    "weathering": 0.05,
+    "paintColor": "#747c80",
+    "metalColor": "#727a80",
+    "showRails": true,
+    "showRailings": true,
+    "showStairs": true,
+    "showRivets": true,
+    "showRearDeck": true,
+    "showDecorativeBoxes": true,
+    "camoPattern": "original",
+    "camoEnvironment": "desert",
+    "camoScale": 1
+  }
+}

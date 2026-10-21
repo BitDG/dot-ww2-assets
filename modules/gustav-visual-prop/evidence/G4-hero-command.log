@@ -1,0 +1,28 @@
+Code executed successfully: 18:33:20 | INFO: Data are loaded, start creating Blender stuff
+18:33:20 | INFO: Blender create Mesh node mesh-0
+18:33:20 | INFO: Blender create Mesh node mesh-1
+18:33:20 | INFO: Blender create Mesh node mesh-2
+18:33:21 | INFO: Blender create Mesh node mesh-3
+18:33:21 | INFO: Blender create Mesh node mesh-4
+18:33:21 | INFO: Blender create Mesh node mesh-5
+18:33:21 | INFO: Blender create Mesh node mesh-6
+18:33:21 | INFO: Blender create Mesh node mesh-7
+18:33:21 | INFO: Blender create Mesh node mesh-8
+18:33:21 | INFO: Blender create Mesh node mesh-9
+18:33:21 | INFO: Blender create Mesh node mesh-10
+18:33:21 | INFO: Blender create Mesh node mesh-11
+18:33:21 | INFO: Blender create Mesh node mesh-12
+18:33:21 | INFO: Blender create Mesh node mesh-13
+18:33:21 | INFO: Blender create Mesh node mesh-14
+18:33:21 | INFO: Blender create Mesh node mesh-15
+18:33:21 | INFO: Blender create Mesh node mesh-16
+18:33:21 | INFO: Blender create Mesh node mesh-17
+18:33:21 | INFO: Blender create Mesh node mesh-18
+18:33:21 | INFO: glTF import finished in 1.06s
+RUNTIME_REIMPORT {"meshes": 74, "bounds": [[-13.0, -2.434999942779541, 1.7881394143159923e-09], [13.0, 2.434999942779541, 6.539999961853027]], "triangles": 133052, "nonFinite": 0}
+CAMERA_EVIDENCE {"view": "hero", "type": "ORTHO", "position": [-22.0, -29.0, 20.270000457763672], "rotationEuler": [1.1338742971420288, 3.093461486969318e-08, -0.648995578289032], "matrixWorld": [[0.7966912388801575, 0.2557477653026581, -0.5476094484329224, -22.0], [-0.6043865084648132, 0.33712199330329895, -0.7218488454818726, -29.0], [-3.093461486969318e-08, 0.9060584306716919, 0.4231526553630829, 20.270000457763672], [0.0, 0.0, 0.0, 1.0]], "lookDirection": [0.5476094484329224, 0.7218488454818726, -0.4231526553630829], "orthoScale": 26.043962478637695, "sourceGLBSha256": "d05ce6959c0c48feea85e4f8a112fd23e1a9c7365b6a228d8762c4ebffacddc8"}
+Info: Saved "gustav-pgf-G4-reviewed-scene.blend"
+GUSTAV_FINAL_RENDER PASS
+
+{"status": "PASS", "tools": ["disable_telemetry", "execute_blender_code", "generate_3d", "get_addon_status", "get_scene_info", "import_asset", "look", "record_trajectory_feedback", "search_assets"], "receipt": "/workspace/scratch/6a4c729be230/PGF/modules/gustav-visual-prop/evidence/G4-hero-mcp-receipt.json"}
+{"owned_blender_exit": 0, "log": "/workspace/scratch/6a4c729be230/PGF/modules/gustav-visual-prop/evidence/G4-hero-mcp-receipt.blender.log"}

@@ -1,0 +1,25 @@
+{
+  "generator": "qf25-visual-prop",
+  "version": "1.1.0",
+  "seed": "qf25-pgf-acceptance-1",
+  "params": {
+    "camoPattern": "original",
+    "camoEnvironment": "desert",
+    "camoScale": 1,
+    "detail": "medium",
+    "artScale": 1,
+    "wheelSpacing": 1,
+    "paintColor": "#727b76",
+    "roughness": 0.65,
+    "weathering": 0.3,
+    "showBarrel": true,
+    "showShield": true,
+    "showCarriage": true,
+    "showLeftWheel": true,
+    "showRightWheel": true,
+    "showTrail": true,
+    "showPlatform": true,
+    "showFittings": true
+  },
+  "quality": "medium"
+}

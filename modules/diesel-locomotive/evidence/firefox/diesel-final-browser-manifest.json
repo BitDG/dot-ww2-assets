@@ -1,0 +1,242 @@
+[
+  {
+    "file": "diesel-final-actual-glb-readback.jpg",
+    "bytes": 128407,
+    "sha256": "6205d025d34224880e324f2841c9e7a0dfa06512cb70461dceac6eb68f6fa88f"
+  },
+  {
+    "file": "diesel-final-cancel.jpg",
+    "bytes": 116692,
+    "sha256": "0f5a151950b475e3eeafb727e6ff2749e62f2190165827cbb15bdba9323eceec"
+  },
+  {
+    "file": "diesel-final-default.jpg",
+    "bytes": 120589,
+    "sha256": "7b2436a675bcaf19173b63c1f529af2d713146e9841c7d6c193a30b978e06ce5"
+  },
+  {
+    "file": "diesel-final-digital-urban.jpg",
+    "bytes": 120127,
+    "sha256": "a6d30e659a7eaa0dae3f54ef07d29bc497a5fb28f98e6f30386118d3ae2f45aa"
+  },
+  {
+    "file": "diesel-final-high.jpg",
+    "bytes": 120712,
+    "sha256": "161ee23308bc5d033cfd20fff804be749f97d2a16836346b2bd35b2f83356563"
+  },
+  {
+    "file": "diesel-final-long-narrow.jpg",
+    "bytes": 117640,
+    "sha256": "e77aeebf5616882ed95294eb620025a20f4b8955e05660435604f0e8a8cc7d5f"
+  },
+  {
+    "file": "diesel-final-low.jpg",
+    "bytes": 120011,
+    "sha256": "22fdd19717455a20d0f8768959909ccb620785dddaa970f4b4a253384bd38b11"
+  },
+  {
+    "file": "diesel-final-original-return.jpg",
+    "bytes": 116577,
+    "sha256": "031245355eae79e66f9f7a4f77f0d9617d83f8c01d016f59897caeb5c5c20f80"
+  },
+  {
+    "file": "diesel-final-recovered.jpg",
+    "bytes": 116591,
+    "sha256": "5a40d456b59d325c62ca1432e95d4150b6a1c73595ad74782da2d946c4838bf9"
+  },
+  {
+    "file": "diesel-final-scroll-bottom.jpg",
+    "bytes": 117696,
+    "sha256": "d61113c4a2dfd192055b813634e693341f9df34ef21cfa4e29f481ed7a53224a"
+  },
+  {
+    "file": "diesel-final-short-dimensions.jpg",
+    "bytes": 125204,
+    "sha256": "da61094b8268fb2f690578db4847077fb9352a407635d95bc604a8fa1aaadf5f"
+  },
+  {
+    "file": "diesel-final-short-wide.jpg",
+    "bytes": 124701,
+    "sha256": "7a384bafc9912ed736d0a463837c3ceff5ca24d48f8575110e7eb419734382b0"
+  },
+  {
+    "file": "diesel-final-viewport1440.png",
+    "bytes": 271249,
+    "sha256": "c2b75f6ac0da952bebbb6baa434ce2fb7ee82a90439fbb151dad82082da8e5bc"
+  },
+  {
+    "file": "diesel-final-viewport1600.png",
+    "bytes": 274211,
+    "sha256": "bf3e00c6bd114f42a3218e4e7004afdf9a4f9a5c3a5f04e0bcda20c5220ffebb"
+  },
+  {
+    "file": "diesel-final-width1440.jpg",
+    "bytes": 125543,
+    "sha256": "5e6ba934dedfe238e4d8b4f1351504e7d38440d143e48a906e6b8d1a23acee7c"
+  },
+  {
+    "file": "diesel-final-width1600.jpg",
+    "bytes": 117521,
+    "sha256": "f3d6d8044d8b79077e6d04502eec71aa31120e43aadb6e6b891ebe368d74c100"
+  },
+  {
+    "file": "diesel-final-width950.jpg",
+    "bytes": 113701,
+    "sha256": "6a7a56aa88ee4cd220470d3c78cc1e57f03baebb5db509b00e7eec2b84afaa37"
+  },
+  {
+    "file": "diesel-locomotive(1).glb",
+    "bytes": 3130832,
+    "sha256": "9e135ac02a5cca70e8b60cb8acba5da106b7223c723c5e02963e4f16f3afc835"
+  },
+  {
+    "file": "diesel-locomotive-browser-audit(1).json",
+    "bytes": 7534,
+    "sha256": "d7820e057776443db18801100f144eb49963b855bc6ccfb3987d032e57619400"
+  },
+  {
+    "file": "diesel-locomotive-browser-audit.json",
+    "bytes": 13719,
+    "sha256": "af210ea7af4490b12df0d1caea9b94999ef82cb8be06c7b6c966ad378bbfa9c5"
+  },
+  {
+    "file": "diesel-locomotive-clean-display.png",
+    "bytes": 80749,
+    "sha256": "522773b07dae80fb3704a8af56d0e2efcf999f891db03d5417ae48661c0c82f3"
+  },
+  {
+    "file": "diesel-locomotive-front-bb62ac17a9e3.png",
+    "bytes": 53853,
+    "sha256": "513a2ba5c42e2e93565a05238f130db65576376474132b9cf4e693c56e3de2ec"
+  },
+  {
+    "file": "diesel-locomotive-front-camera.json",
+    "bytes": 1044,
+    "sha256": "29261b6d8a7db29c4cf37be6706172b5eb8ad0ecde68ce1f43546f03ed87d31d"
+  },
+  {
+    "file": "diesel-locomotive-hero-9e135ac02a5c.png",
+    "bytes": 360893,
+    "sha256": "9986038178bdb0a3fd5fb442b030415c723336b0afe0cdcbd97c98ed77ea662f"
+  },
+  {
+    "file": "diesel-locomotive-hero-bb62ac17a9e3.png",
+    "bytes": 361222,
+    "sha256": "e102772bca03205558b8bbcf634abce82eb878cbcbdc29c2e7591257c116e959"
+  },
+  {
+    "file": "diesel-locomotive-hero-camera(1).json",
+    "bytes": 1972,
+    "sha256": "1fd1941fa08417db63408e990a05e1b681494d6782125e588173dce38fd75549"
+  },
+  {
+    "file": "diesel-locomotive-hero-camera.json",
+    "bytes": 1176,
+    "sha256": "06536eeb96414bb58f0782bfff98f12fdb9d82be7728a1a699e7d7447c347fc1"
+  },
+  {
+    "file": "diesel-locomotive-industrial-yellow.png",
+    "bytes": 87669,
+    "sha256": "dca467bd6431d4c11b733c3ae54fbb6514fd83c89fdb57661f28667b98e4d729"
+  },
+  {
+    "file": "diesel-locomotive-low-silhouette.png",
+    "bytes": 77005,
+    "sha256": "0c1ee507bf489f325efba1700a5a27eb79d3945e3888a7e8b7510ae20ea5ec08"
+  },
+  {
+    "file": "diesel-locomotive-reference-gray.png",
+    "bytes": 82442,
+    "sha256": "61e3e4502fdd609f3d573c80abc530737dd152763d693c603ada987f6174b9c9"
+  },
+  {
+    "file": "diesel-locomotive-side-bb62ac17a9e3.png",
+    "bytes": 226508,
+    "sha256": "2570cfef20ce2295fe786f135ad5e66842527ab438d72dc2c6adca522534b3e1"
+  },
+  {
+    "file": "diesel-locomotive-side-camera.json",
+    "bytes": 1013,
+    "sha256": "fe95d6cd2fa38a4b4587103310cf0a6c2fe44785026122fc487a459baef8d920"
+  },
+  {
+    "file": "diesel-locomotive-top-bb62ac17a9e3.png",
+    "bytes": 225023,
+    "sha256": "a8ca3d8c50b6b31f6dedd415335918ef5a2bf0798f65c66d851b51a4cc31aca6"
+  },
+  {
+    "file": "diesel-locomotive-top-camera.json",
+    "bytes": 1070,
+    "sha256": "0cbfeb3f4c213cf67c0fce8fee305682fb3f0aa7240a0624cbc167835ffa04dd"
+  },
+  {
+    "file": "diesel-locomotive-weathered-blue.png",
+    "bytes": 85830,
+    "sha256": "c0f6794db426fd0b51182b193ec91a1c3d299f4ce386794d2fb43a444af59ef1"
+  },
+  {
+    "file": "diesel-locomotive.glb",
+    "bytes": 3132024,
+    "sha256": "a8e034156ff384debaecd04f2b5639cee50ea6b4f31cc26b0bcaf44863d9e54b"
+  },
+  {
+    "file": "diesel-locomotive.recipe.json",
+    "bytes": 602,
+    "sha256": "bcfcdcf155863966eabb02966a968be971df28f0ce8b634515b9195105a71e12"
+  },
+  {
+    "file": "diesel-qa-progress.json",
+    "bytes": 3629,
+    "sha256": "09b03f8b6ab87214f3402a0aae525796838b9f54a4eaae90ee9a9091273cfcce"
+  },
+  {
+    "file": "diesel-review-blue.jpg",
+    "bytes": 132218,
+    "sha256": "ab268b9b6547e26ffdf4aadf2c5a19f918dc94f7e2de6328fa5ea2156c0f5f13"
+  },
+  {
+    "file": "diesel-review-clean.jpg",
+    "bytes": 125687,
+    "sha256": "774654b47993be1d53415477d657326529741fc1e05529707ea480be76af1a11"
+  },
+  {
+    "file": "diesel-review-low.jpg",
+    "bytes": 121148,
+    "sha256": "61d1e555a32f640826f097c2d75486588b7e5507427e4a41f5b881bf5aa345e9"
+  },
+  {
+    "file": "diesel-review-reference.jpg",
+    "bytes": 126578,
+    "sha256": "fa7791507005b7faedc836ac9b730d89587757eebb00519e2cb4688c58803fcb"
+  },
+  {
+    "file": "diesel-review-yellow.jpg",
+    "bytes": 147731,
+    "sha256": "931eb816c03616ecb44f0846e597da47484654b366875da4a7db9c898a618207"
+  },
+  {
+    "file": "diesel-uv-fixed-density05.jpg",
+    "bytes": 116644,
+    "sha256": "c1fc1a257def6ab8ecc5f3c65e2676c1c9261038bc25370830f590e59a57f3a3"
+  },
+  {
+    "file": "diesel-uv-fixed-digital-urban.jpg",
+    "bytes": 120053,
+    "sha256": "643d99cf31bd10ff247a04d6201026b9a5d25d1522f2a42e8fda001214204220"
+  },
+  {
+    "file": "diesel-uv-fixed-long.jpg",
+    "bytes": 121851,
+    "sha256": "f29dca43955d169d8e5616221374beb62f3543f804628a654992f7e9a80dfa28"
+  },
+  {
+    "file": "diesel-uv-fixed-original.jpg",
+    "bytes": 116570,
+    "sha256": "be6e513bdf1b8ef8686bbffe76b5ce95ec504e550549126048797e8ca59838c9"
+  },
+  {
+    "file": "diesel-uv-fixed-short.jpg",
+    "bytes": 126532,
+    "sha256": "964edf4ab2b21732159742e0f7caac87478c2d2abad5f8c788cc43f2ee14368e"
+  }
+]

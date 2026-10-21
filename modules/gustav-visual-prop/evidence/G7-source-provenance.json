@@ -1,0 +1,62 @@
+{
+  "status": "final-scoped-acceptance-passed",
+  "stats": {
+    "triangles": 96732,
+    "renderedTriangles": 146012,
+    "vertices": 162205,
+    "instances": 74,
+    "draws": 74,
+    "bytes": 6418624,
+    "nodes": 82,
+    "meshes": 19,
+    "textures": 6,
+    "materials": 7,
+    "dimensions": [
+      26,
+      6.539999960064888,
+      4.869999885559082
+    ]
+  },
+  "bytes": 6418624,
+  "bounds": {
+    "min": [
+      -13,
+      1.7881394143159923e-09,
+      -2.434999942779541
+    ],
+    "max": [
+      13,
+      6.539999961853027,
+      2.434999942779541
+    ]
+  },
+  "meshes": 19,
+  "sockets": 6,
+  "version": "1.1.2",
+  "canonicalGLB": "gustav-G7-3e988dcd.glb",
+  "sha256": "3e988dcd4e60a72996030c23a58e54476a12ab08264ecc3cfa6308b968d54590",
+  "serializedGLBBytes": 6418624,
+  "pending": [],
+  "assetIREstimatedBytes": 6521107,
+  "byteCountMeaning": "stats.bytes and serializedGLBBytes are exact canonical GLB length; assetIREstimatedBytes is generator budget estimate",
+  "passed": [
+    "13 core tests including strict no-duplicate-face check in low/medium/high exports",
+    "12 API variants with AssetIR/GLB/actual Three GLTFLoader round-trips",
+    "Actual shared Worker in Node worker_threads host",
+    "Exact same-owner/material surface hash before/after batch",
+    "Actual Blender MCP imports fixed G7 GLB, saves compressed native scene, reopens and matches all mesh counts:146012 triangles, no duplicate delta",
+    "Actual Firefox fixed-GLB hero1600x900 and strict side/front/top PNGs; all4 camera receipts match3e988dcd source; orthographic directions and uniform PPU independently checked",
+    "Actual Firefox4 preset PNGs500x380, visually inspected and loaded by workbench",
+    "Actual browser GLB+recipe downloads independently read via AssetIR and Three GLTFLoader;6 decoded textures,6 sockets,146012 triangles,0 duplicate faces,recipe exact",
+    "Actual Firefox download reimport, recipe restore, real preset artwork,1440/1600viewport screenshots completed"
+  ],
+  "finalImageProof": "G7-final-image-verification.json",
+  "browserDownloadProof": "G7-browser-download-verification.json",
+  "finalBundleManifestSHA256": "1798cbe0a8081bc2f1a5c5ce5a5223f86d6996e33da076881663f48d1fdd0a4c",
+  "notRun": [
+    "PGF stdio MCP lifecycle",
+    "Full lock-matched production build",
+    "GIF recording",
+    "Hardware GPU certification"
+  ]
+}

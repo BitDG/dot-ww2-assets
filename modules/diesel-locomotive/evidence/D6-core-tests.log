@@ -1,0 +1,23 @@
+(node:12) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("./pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./")); register("./pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ strict schema and cancellation (7.5378ms)
+✔ each tier produces finite indexed UV geometry with unit normals and no zero triangles (4371.017861ms)
+✔ wheel circularity and exact ground or rail contact at all art-proportion extremes (5914.789499ms)
+✔ deterministic actual GLB and preserve owner source/recipe sockets (787.476602ms)
+✔ bare steel material is isolated from camouflage and resources from separate runs are owned (1864.042147ms)
+✔ same-owner batching preserves per-part world triangle order within float32 bake precision (242.481329ms)
+✔ cab, short nose and hood touch deck across height and wheel extremes (270.457269ms)
+✔ fan count, bogie spacing, and switches change actual geometry without squashing wheels (482.374411ms)
+✔ explicit caller maxTriangles=1 is enforced and non-paint identity survives camouflage (1205.736084ms)
+✔ mirrored pilots and couplers retain outward face winding after owner batch (895.542171ms)
+✔ round wheel pairs keep positive clearance and tank fits between bogies at parameter corners (979.807621ms)
+✔ structural detail uses helical coils, bent grabs and thick four-sided grille frames (762.216943ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 18886.783768

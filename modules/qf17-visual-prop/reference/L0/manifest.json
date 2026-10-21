@@ -1,0 +1,30 @@
+{
+  "stage": "L0-reference-only",
+  "status": "not a completed model",
+  "files": [
+    {
+      "file": "QF17-L0-CONTRACT.md",
+      "bytes": 2119,
+      "sha256": "3bcc65196e1d2dba2fd09f0a936cc6f83c2b10a211030e71300242c51e9856d7",
+      "suggestedRepositoryPath": "modules/qf17-visual-prop/reference/L0/QF17-L0-CONTRACT.md"
+    },
+    {
+      "file": "QF17-six-details-v2.png",
+      "bytes": 2249356,
+      "sha256": "4c1e82cc0d188109286d84e469c84a58bc588e9689d24f7b6b8d8ddba3b8af42",
+      "suggestedRepositoryPath": "modules/qf17-visual-prop/reference/L0/QF17-six-details-v2.png"
+    },
+    {
+      "file": "QF17-three-view-v3.png",
+      "bytes": 1797811,
+      "sha256": "26818c6889c462761e811ed3dc86cfbe7aca761d80db5f6041c7d0998a1320d7",
+      "suggestedRepositoryPath": "modules/qf17-visual-prop/reference/L0/QF17-three-view-v3.png"
+    },
+    {
+      "file": "source-lock.json",
+      "bytes": 2249,
+      "sha256": "17440f43014d385f413dd19b535e833b1ad9015d96ffac852f40bf1fa4f04861",
+      "suggestedRepositoryPath": "modules/qf17-visual-prop/reference/L0/source-lock.json"
+    }
+  ]
+}

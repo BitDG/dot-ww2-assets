@@ -1,0 +1,422 @@
+[
+  {
+    "tier": "low",
+    "checked": 4,
+    "allJoined": true,
+    "maxGapArt": -0.03559119789190518,
+    "hits": [
+      {
+        "name": "QF17_Trail_Handle_Stem_A",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.07590866820925868,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Handle_Stem_B",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.035591227318307994,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Handle_Stem_A001",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.07590863612560572,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Handle_Stem_B001",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.03559119789190518,
+        "joined": true
+      }
+    ]
+  },
+  {
+    "tier": "medium",
+    "checked": 20,
+    "allJoined": true,
+    "maxGapArt": -0.002499980852007866,
+    "hits": [
+      {
+        "name": "QF17_Trail_Handle_Stem_A",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.08940870772317477,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Handle_Stem_A001",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.07095873140290732,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Handle_Stem_B",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.04909128245527772,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Handle_Stem_B001",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.03064130014225297,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Surface_Fastener",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.0034999754279851913,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Surface_Fastener001",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.0034999754279851913,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Surface_Fastener002",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.0034999754279851913,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Surface_Fastener003",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.0034999754279851913,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Surface_Fastener004",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.002499980852007866,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Surface_Fastener005",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.002499980852007866,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Handle_Stem_A002",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.08940866162910277,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Handle_Stem_A003",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.0709587072274463,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Handle_Stem_B002",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.04909125811574344,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Handle_Stem_B003",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.030641268847484193,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Surface_Fastener006",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.0034999754279851913,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Surface_Fastener007",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.0034999754279851913,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Surface_Fastener008",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.0034999754279851913,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Surface_Fastener009",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.0034999754279851913,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Surface_Fastener010",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.002499980852007866,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Surface_Fastener011",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.002499980852007866,
+        "joined": true
+      }
+    ]
+  },
+  {
+    "tier": "high",
+    "checked": 42,
+    "allJoined": true,
+    "maxGapArt": -0.0024999511976551148,
+    "hits": [
+      {
+        "name": "QF17_Fine_Trail_Rivet",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.0025000154961706267,
+        "joined": true
+      },
+      {
+        "name": "QF17_Fine_Trail_Rivet001",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.0024999922782453776,
+        "joined": true
+      },
+      {
+        "name": "QF17_Fine_Trail_Rivet002",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.0024999848489295484,
+        "joined": true
+      },
+      {
+        "name": "QF17_Fine_Trail_Rivet003",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.00250001985921533,
+        "joined": true
+      },
+      {
+        "name": "QF17_Fine_Trail_Rivet004",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.002499992661076589,
+        "joined": true
+      },
+      {
+        "name": "QF17_Fine_Trail_Rivet005",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.0025000105063189837,
+        "joined": true
+      },
+      {
+        "name": "QF17_Fine_Trail_Rivet006",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.0025000257477816312,
+        "joined": true
+      },
+      {
+        "name": "QF17_Fine_Trail_Rivet007",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.0024999990772314185,
+        "joined": true
+      },
+      {
+        "name": "QF17_Fine_Trail_Rivet008",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.002500031319587037,
+        "joined": true
+      },
+      {
+        "name": "QF17_Fine_Trail_Rivet009",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.03193333698436618,
+        "joined": true
+      },
+      {
+        "name": "QF17_Fine_Trail_Rivet010",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.0025000316719201443,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Handle_Stem_A",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.08940870772317477,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Handle_Stem_A001",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.07095873140290732,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Handle_Stem_B",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.04909128245527772,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Handle_Stem_B001",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.03064130014225297,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Surface_Fastener",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.0034999754279851913,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Surface_Fastener001",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.0034999754279851913,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Surface_Fastener002",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.0034999754279851913,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Surface_Fastener003",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.0034999754279851913,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Surface_Fastener004",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.002499980852007866,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Surface_Fastener005",
+        "part": "QF17_Trail_Left_Exterior",
+        "gapArt": -0.002499980852007866,
+        "joined": true
+      },
+      {
+        "name": "QF17_Fine_Trail_Rivet011",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.0024999844541265803,
+        "joined": true
+      },
+      {
+        "name": "QF17_Fine_Trail_Rivet012",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.0024999599315945753,
+        "joined": true
+      },
+      {
+        "name": "QF17_Fine_Trail_Rivet013",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.0024999511976551148,
+        "joined": true
+      },
+      {
+        "name": "QF17_Fine_Trail_Rivet014",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.00249998490332648,
+        "joined": true
+      },
+      {
+        "name": "QF17_Fine_Trail_Rivet015",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.0024999564005762087,
+        "joined": true
+      },
+      {
+        "name": "QF17_Fine_Trail_Rivet016",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.002499972941213513,
+        "joined": true
+      },
+      {
+        "name": "QF17_Fine_Trail_Rivet017",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.0024999868780739565,
+        "joined": true
+      },
+      {
+        "name": "QF17_Fine_Trail_Rivet018",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.0024999609475666595,
+        "joined": true
+      },
+      {
+        "name": "QF17_Fine_Trail_Rivet019",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.0024999990701796704,
+        "joined": true
+      },
+      {
+        "name": "QF17_Fine_Trail_Rivet020",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.03193333698436618,
+        "joined": true
+      },
+      {
+        "name": "QF17_Fine_Trail_Rivet021",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.0025000111830146277,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Handle_Stem_A002",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.08940866162910277,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Handle_Stem_A003",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.0709587072274463,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Handle_Stem_B002",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.04909125811574344,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Handle_Stem_B003",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.030641268847484193,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Surface_Fastener006",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.0034999754279851913,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Surface_Fastener007",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.0034999754279851913,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Surface_Fastener008",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.0034999754279851913,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Surface_Fastener009",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.0034999754279851913,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Surface_Fastener010",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.002499980852007866,
+        "joined": true
+      },
+      {
+        "name": "QF17_Trail_Surface_Fastener011",
+        "part": "QF17_Trail_Right_Exterior",
+        "gapArt": -0.002499980852007866,
+        "joined": true
+      }
+    ]
+  }
+]

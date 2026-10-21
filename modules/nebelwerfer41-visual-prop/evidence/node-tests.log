@@ -1,0 +1,17 @@
+✔ manifest, single schema and truthful capability contract (155.457408ms)
+✔ real generate, PBR material bindings and sealed N4 vertex colors (827.094743ms)
+✔ every semantic part toggle changes actual exported geometry (7071.869409ms)
+✔ material and seed effects are deterministic without pretending to remodel geometry (9372.710482ms)
+✔ invalid inputs, source corruption and undersized budgets reject (3806.646985ms)
+✔ browser-style HTTP bytes load, HTTP failure and fetch cancellation (214.088763ms)
+✔ abort before/after actual GLTFLoader and parse failure release owned resources (981.581126ms)
+✔ static GLB independently decodes real PNGs, geometry and preserved semantics (552.513016ms)
+✔ shared worker accepts generate and exports its completed AssetIR (1117.166042ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 24674.784648

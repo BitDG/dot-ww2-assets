@@ -1,0 +1,21 @@
+{
+  "files": [
+    {
+      "name": "QF25-Q2-low.glb",
+      "sha256": "f7422f7c04915a3cf4ccab8f92d873339e113f88e2e4d8ae7f5d9357fbb588fa",
+      "productionBuildHashIdentical": true
+    },
+    {
+      "name": "QF25-Q2-geometry.glb",
+      "sha256": "69ba1127753c21e64aac45d98f0ff02fa7868020b483ac182b7225ce91364251",
+      "productionBuildHashIdentical": true
+    },
+    {
+      "name": "QF25-Q2-high.glb",
+      "sha256": "49a5f536f5941d82b5a428416bc9da4991e874ef5de156c830a42fdd4570ca06",
+      "productionBuildHashIdentical": true
+    }
+  ],
+  "result": "PASS",
+  "scope": "Actual Vite isolated production Worker build, not full repository build"
+}

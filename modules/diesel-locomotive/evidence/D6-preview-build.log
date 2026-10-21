@@ -1,0 +1,24 @@
+(node:5) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("./pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+vite v8.1.5 building client environment for production...
+[2Ktransforming...✓ 179 modules transformed.
+rendering chunks...
+computing gzip size...
+pgf-diesel-preview/modules/diesel-locomotive/review.html       0.40 kB │ gzip:   0.33 kB
+pgf-diesel-preview/modules/diesel-locomotive/preview.html      0.58 kB │ gzip:   0.42 kB
+pgf-diesel-preview/assets/preview.worker-Br8k3ZVD.js         723.45 kB
+pgf-diesel-preview/assets/asset-export.worker-DYzXDJ1D.js    752.83 kB
+pgf-diesel-preview/assets/worker-DJX_72i2.js               1,287.98 kB
+pgf-diesel-preview/assets/workbench-Pr5izwnC.css              36.92 kB │ gzip:   7.85 kB
+pgf-diesel-preview/assets/workbench-Bdz5n6tE.js               47.71 kB │ gzip:  17.40 kB
+pgf-diesel-preview/assets/review-C_VbWpep.js                 197.54 kB │ gzip:  57.87 kB
+pgf-diesel-preview/assets/OrbitControls-CLMFgsU8.js        1,161.33 kB │ gzip: 387.09 kB
+
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 3.21s
+/workspace/scratch/6a4c729be230/pgf-diesel-preview

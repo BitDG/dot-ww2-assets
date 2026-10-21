@@ -1,0 +1,16 @@
+{
+  "seed": "dot-gallery-20261021",
+  "params": {
+    "camoPattern": "original",
+    "camoEnvironment": "desert",
+    "camoScale": 1,
+    "paintColor": "#a2aaaf",
+    "length": 10.8,
+    "elevation": 0,
+    "barrelScale": 1,
+    "weathering": 0.32,
+    "detail": "high",
+    "railings": true,
+    "exploded": 0
+  }
+}

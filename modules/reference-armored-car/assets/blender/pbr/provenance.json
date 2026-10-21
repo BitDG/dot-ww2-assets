@@ -1,0 +1,19 @@
+{
+  "seed": "pgf-components-1",
+  "weathering": 0.35,
+  "size": 512,
+  "colors": "sRGB base color; linear normal and metallic-roughness",
+  "channels": "ORM: R unused/neutral, G roughness, B metallic; no AO",
+  "roles": [
+    "armor",
+    "armor-edge",
+    "steel",
+    "dark",
+    "rubber",
+    "canvas",
+    "strap",
+    "marking",
+    "wood"
+  ],
+  "authoring": "Existing PGF tank buildTurretSurfacePixels for armor roles; original independent pixels for accessory roles; all baked per role for portable Blender materials"
+}

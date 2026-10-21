@@ -1,0 +1,197 @@
+[
+  {
+    "file": "gustav-G7-actual-glb-readback.jpg",
+    "bytes": 135708,
+    "sha256": "e36e7504a98e6295f27f05391989a81bee2ecfea0fe85f77611c06bae865f1e8"
+  },
+  {
+    "file": "gustav-G7-final-workbench.jpg",
+    "bytes": 117701,
+    "sha256": "73fa1bd6551095a447ed54141fc05e58578ae01fdf05d69bfdc443f59a882637"
+  },
+  {
+    "file": "gustav-G7-recipe-restored.jpg",
+    "bytes": 117892,
+    "sha256": "cc6bb563886b676b59a90cd6e8408b9d43dad74812b5516990c69b48d176c886"
+  },
+  {
+    "file": "gustav-G7-viewport1440.png",
+    "bytes": 253541,
+    "sha256": "d1aafe62afe89494f0d83f114b7da399ac94e7194299bee06ca57bdc80f97233"
+  },
+  {
+    "file": "gustav-G7-viewport1600.png",
+    "bytes": 256277,
+    "sha256": "2b2e3ffb5ec8c1f17d78a66c8ec8963d7f702ffc796b74bfc7e9950d0d0d29ac"
+  },
+  {
+    "file": "gustav-final-auto-desert.jpg",
+    "bytes": 114269,
+    "sha256": "20800e58f0d4e0509bc44ed588d8b87e1d503e1f940c6b60cc981f9a468e3f4b"
+  },
+  {
+    "file": "gustav-final-color.jpg",
+    "bytes": 105955,
+    "sha256": "f5e4da90b08970140dce74bde4e6f999f234be4c42c2c2da748f00d092372b01"
+  },
+  {
+    "file": "gustav-final-structure-off.jpg",
+    "bytes": 101983,
+    "sha256": "6ed9da6b07e5e14366c0f2cfdbf2f2740e7e0c4a5bc30f735f9e10b6ab887c65"
+  },
+  {
+    "file": "gustav-qa-progress.json",
+    "bytes": 2544,
+    "sha256": "d8a23823d0180c0884dafa4843f31739addd063079887041700ee79a244d1450"
+  },
+  {
+    "file": "gustav-v2-cancel.jpg",
+    "bytes": 110789,
+    "sha256": "3bbcc34ddd28b2ffe932ea7b73302f80aae65eb3d451d0370500d230d89b3262"
+  },
+  {
+    "file": "gustav-v2-clean.jpg",
+    "bytes": 111223,
+    "sha256": "0e3b4bf5005a25667cd4b274e0fb3bb6e353d4f17e26135b75833bec037b5320"
+  },
+  {
+    "file": "gustav-v2-focus.jpg",
+    "bytes": 85911,
+    "sha256": "a2f4f8519d2b99a05a3edaba450d38cc7a935bd30c2cfc13f10fe14101f193e4"
+  },
+  {
+    "file": "gustav-v2-long-narrow.jpg",
+    "bytes": 108286,
+    "sha256": "a858c66c9b124e0e8b5cc920d6ac7b9dfa3b80afc465fa971945b60882cb5d56"
+  },
+  {
+    "file": "gustav-v2-low.jpg",
+    "bytes": 110223,
+    "sha256": "3df6075692252c64b560e77ce76d6a247d073538c495e4cf9a5b65f2da4a3d74"
+  },
+  {
+    "file": "gustav-v2-olive.jpg",
+    "bytes": 110046,
+    "sha256": "c2b548a21826c2c649b4f4f2788fbcfccd008d15d21d42b04078a94c57a61a3d"
+  },
+  {
+    "file": "gustav-v2-recovered.jpg",
+    "bytes": 110727,
+    "sha256": "d85a72524d03bfbb50e0dbf076d2695df8dd74737c95ae70d09d39dd992e34c0"
+  },
+  {
+    "file": "gustav-v2-reference.jpg",
+    "bytes": 110737,
+    "sha256": "87b012db4e35f8a418318ea41156ca21f79117f1377dfa1b864dea7d6cd8581a"
+  },
+  {
+    "file": "gustav-v2-short-wide.jpg",
+    "bytes": 116104,
+    "sha256": "3b26f201455ac13d813f9697758a7bd40441f0204117c6f25fc09bd1938bf29e"
+  },
+  {
+    "file": "gustav-v2-width1440.jpg",
+    "bytes": 116146,
+    "sha256": "21e8c8160388c851dc7d85362cd8a925821208f3bdde9eb9050dff4a0498bcea"
+  },
+  {
+    "file": "gustav-v2-width1600.jpg",
+    "bytes": 107435,
+    "sha256": "d8c63fb75e32b8ad39502cd7bbf45472105f6231b8f6a45795a47d3fd7d63ab5"
+  },
+  {
+    "file": "gustav-v2-width950.jpg",
+    "bytes": 104093,
+    "sha256": "20fefd503687171acaacc2e82f99b24d437d33f2414988a7bfe72ef40b82154d"
+  },
+  {
+    "file": "gustav-visual-prop-browser-audit(1).json",
+    "bytes": 15671,
+    "sha256": "f324ba4353012be064209c6c3f54ff8cc476d1da76fbf6f093da11468997f1ab"
+  },
+  {
+    "file": "gustav-visual-prop-browser-audit.json",
+    "bytes": 29993,
+    "sha256": "d0a3153f7a3cec188c54dd946fdfbac053cb4556080b468bb145eec68c1663b9"
+  },
+  {
+    "file": "gustav-visual-prop-clean-display.png",
+    "bytes": 82932,
+    "sha256": "4dedf61b7556176752afbde495b7f0d2c84d3aa0e1eeb82665cf45a6edba939e"
+  },
+  {
+    "file": "gustav-visual-prop-field-olive.png",
+    "bytes": 87832,
+    "sha256": "3678d68127810bb6907ee7e24c782a36c381a253fc942d9ca5f164f81251a8de"
+  },
+  {
+    "file": "gustav-visual-prop-final-front-camera.json",
+    "bytes": 2689,
+    "sha256": "e3cc21f5ac3aec6c7cf08d88690cc2aec61d15d0697eca5cb3e806c779351c80"
+  },
+  {
+    "file": "gustav-visual-prop-final-front.png",
+    "bytes": 63782,
+    "sha256": "a4503e56831e4865eca13d434732f0b959e28d5e575d20866db6c7dc5a0cc121"
+  },
+  {
+    "file": "gustav-visual-prop-final-hero(1).png",
+    "bytes": 616783,
+    "sha256": "081e6148fca21880ba9a089dcccddc1a433f075e52f532ff7bb4e9de2d4cf3d0"
+  },
+  {
+    "file": "gustav-visual-prop-final-hero-camera(1).json",
+    "bytes": 2724,
+    "sha256": "513804d513bcbc5c263ba230cea08b665af3080f8f8676303ea638094cc421f4"
+  },
+  {
+    "file": "gustav-visual-prop-final-hero-camera.json",
+    "bytes": 2725,
+    "sha256": "795a18edd67fc108c7b3e8af13de34cb0a0cdd331bd2a551ecccede2768c9f92"
+  },
+  {
+    "file": "gustav-visual-prop-final-hero.png",
+    "bytes": 677015,
+    "sha256": "77f2e33b69be7fd46ce391db24ea9ace07e5a945ea77ee457b26192c424d3589"
+  },
+  {
+    "file": "gustav-visual-prop-final-side-camera.json",
+    "bytes": 2482,
+    "sha256": "ae73705dbfe99448d27818da3750da5640e0a7ffd0392fa0410d3e57ec7aa034"
+  },
+  {
+    "file": "gustav-visual-prop-final-side.png",
+    "bytes": 257775,
+    "sha256": "743cec14f9af5af4afd26a29a8d2cc6d4b12e2318f44c08ef3401f7c33e1fe3f"
+  },
+  {
+    "file": "gustav-visual-prop-final-top-camera.json",
+    "bytes": 2596,
+    "sha256": "352d5dacbce5b61c0c6fec6de3276f5dadf178e72b51d6904708b51bc218b072"
+  },
+  {
+    "file": "gustav-visual-prop-final-top.png",
+    "bytes": 339606,
+    "sha256": "32e9d33e9f6da0514541853bee267de2cce176482521071613fc000bbfc1d692"
+  },
+  {
+    "file": "gustav-visual-prop-low-silhouette.png",
+    "bytes": 78478,
+    "sha256": "4fcf747e02b7882c8390ed66a4fc7ee77e2fb0e5ff527b8f830db2d96c82310b"
+  },
+  {
+    "file": "gustav-visual-prop-reference-gray.png",
+    "bytes": 83607,
+    "sha256": "a4d320b08d977a58771ead606e95f39bfd995704d5283928fdf23f0271fff1e5"
+  },
+  {
+    "file": "gustav-visual-prop.glb",
+    "bytes": 6419312,
+    "sha256": "5ff4e0cce2a2f150f633eeb0fe389251ab4509dc3031ea4f3424451b998ff024"
+  },
+  {
+    "file": "gustav-visual-prop.recipe.json",
+    "bytes": 671,
+    "sha256": "28b4de590f550bd6c851aea74f26aec17e2d47f10d0c3421ff1864ef8acc0eaa"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "status": "generated",
+  "stats": {
+    "triangles": 76860,
+    "renderedTriangles": 86716,
+    "vertices": 87283,
+    "instances": 48,
+    "draws": 48,
+    "bytes": 3802449,
+    "nodes": 60,
+    "meshes": 37,
+    "textures": 3,
+    "materials": 9,
+    "dimensions": [
+      23,
+      5.340000150799751,
+      3.4132890701293945
+    ]
+  },
+  "bytes": 3131440,
+  "bounds": {
+    "min": [
+      -11.5,
+      1.7881394143159923e-9,
+      -1.7066445350646973
+    ],
+    "max": [
+      11.5,
+      5.340000152587891,
+      1.7066445350646973
+    ]
+  },
+  "meshes": 37,
+  "sockets": 9
+}

@@ -1,0 +1,4 @@
+Code executed successfully: G4_VIEW {"view": "housing", "sourceSHA": "cf838215c16f262be515504c69dcca7ba5926f97a984548885d4abd1e95cf6e9", "camera": [-3.9000000953674316, -6.900000095367432, 7.0], "rotation": [1.1189271211624146, 3.1240755760109096e-08, -0.588002622127533], "type": "ORTHO"}
+
+{"status": "PASS", "tools": ["disable_telemetry", "execute_blender_code", "generate_3d", "get_addon_status", "get_scene_info", "import_asset", "look", "record_trajectory_feedback", "search_assets"], "receipt": "/workspace/scratch/6a4c729be230/PGF/modules/gustav-visual-prop/evidence/G6-housing-mcp-receipt.json"}
+{"owned_blender_exit": 0, "log": "/workspace/scratch/6a4c729be230/PGF/modules/gustav-visual-prop/evidence/G6-housing-mcp-receipt.blender.log"}

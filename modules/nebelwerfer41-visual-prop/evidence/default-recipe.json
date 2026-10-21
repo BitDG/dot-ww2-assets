@@ -1,0 +1,18 @@
+{
+  "generator": "nebelwerfer41-visual-prop",
+  "version": "1.0.1",
+  "seed": "n41-pgf-acceptance-1",
+  "params": {
+    "camoPattern": "original",
+    "camoEnvironment": "desert",
+    "camoScale": 1,
+    "paintColor": "#79807f",
+    "roughness": 0.64,
+    "weathering": 0.3,
+    "showCradle": true,
+    "showFrontSupport": true,
+    "showRearTrails": true,
+    "showTubeCluster": true,
+    "showWheels": true
+  }
+}

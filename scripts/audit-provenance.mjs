@@ -1,0 +1,6 @@
+import {readFile,writeFile} from 'node:fs/promises';import {createHash} from 'node:crypto';
+const manifest=JSON.parse(await readFile('provenance/import-manifest.json')),modified=[],missing=[];let unchanged=0;
+for(const f of manifest.files){try{const bytes=await readFile(f.path),hash=createHash('sha256').update(bytes).digest('hex');if(hash!==f.sha256)modified.push({path:f.path,sourceSHA256:f.sha256,currentSHA256:hash});else unchanged++;}catch{missing.push(f.path);}}
+const expected=['modules/dot-model-generator/catalog.mjs','modules/qf17-visual-prop/sources.mjs','modules/bm13-us6-visual-prop/sources.mjs','modules/land-mattress-visual-prop/sources.mjs'];
+if(missing.length||modified.some(x=>!expected.includes(x.path))||modified.length!==4)throw Error(JSON.stringify({missing,modified}));
+await writeFile('provenance/migration-deltas.json',JSON.stringify({unchangedFiles:unchanged,modified,reason:'Three literal source-URL maps for Vite production assets; catalog wording distinguishes historical PGF verification and K5 references-only recovery. No geometry/material algorithm or source model bytes modified.'},null,2));console.log(unchanged,'source files unchanged;',modified.length,'documented migration edits');

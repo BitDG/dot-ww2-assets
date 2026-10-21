@@ -1,0 +1,19 @@
+(node:72) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("./pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+{
+  status: 'passed',
+  beforeDraws: 1074,
+  afterDraws: 73,
+  beforeTriangles: 74420,
+  afterTriangles: 74420,
+  beforeNodes: 1082,
+  afterNodes: 81,
+  ownerAndMaterialPreserved: true,
+  sourceParts: 1074,
+  maxCoordinateError: 0,
+  originalFloat32SurfaceSha256: 'd054b20975c3561c751de25ca5069d5eef1afe5ea9de7f84ef3c1a207f6a5a89',
+  batchedFloat32SurfaceSha256: 'd054b20975c3561c751de25ca5069d5eef1afe5ea9de7f84ef3c1a207f6a5a89',
+  hashMeaning: 'Part-name-sorted ordered world triangle coordinates normalized to float32; no image likeness metric',
+  exactSurfaceHashMatch: true
+}

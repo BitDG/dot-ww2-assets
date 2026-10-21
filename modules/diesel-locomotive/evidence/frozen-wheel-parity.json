@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "runtime": "Only local frozen wheel data imported; no mutable Gustav generator dependency",
+  "authoringGuard": "All parent SHA pins checked before any possible update write",
+  "wheels": [
+    {
+      "tier": "low",
+      "approvedSourceGLB": "8f5ee4a46f0e2d686c31a57f375c07f1cfbe40af800295cf9f69af6de3b5d2b8",
+      "frozenWheelSha256": "2d2ac9a4efc9d870bb988cd9f6b7d2e9dc8d4a343d1ce7a044e0905a95fc8eac",
+      "unchangedFromD3": true
+    },
+    {
+      "tier": "medium",
+      "approvedSourceGLB": "793cc1ace6ab4c22fc07445f2497c98b5730cdb19a4dfd6012dfff274a3d2fba",
+      "frozenWheelSha256": "473d4c88241c41e2d46b6743f63d3414666f9cf53e7a04236d8c7dda98e850a5",
+      "unchangedFromD3": true
+    },
+    {
+      "tier": "high",
+      "approvedSourceGLB": "b4b26484bee6bb1fe0171862c07db884604287611f8e7ac6e2ab9184f5736a69",
+      "frozenWheelSha256": "340b37359959542b7ed92e43fc5e84d2df230112b7b8e0fd8965175e6430b514",
+      "unchangedFromD3": true
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "adapterVersion": "1.0.1",
+  "sourceStage": "N2-exterior-20261012T0110Z",
+  "sourceFile": "assets/N41-N2-geometry.glb",
+  "sourceSHA256": "5c97cbb68542723fbca7dbcfaa114a08ffe216c1d15cb60eb1febca2845a6896",
+  "sourceBytes": 5064756,
+  "sourceLibraryId": "libfile_d87787b2ff748191a0b3f17b196f9ee7",
+  "exteriorCorrection": {
+    "sourceStage": "N4-exterior-delta-20261012T0351Z",
+    "file": "exterior-correction.mjs",
+    "sha256": "d87561b557f0e1e608b66ebd83d69fc4bd5e9b629fb291dc1868daca14bf7b97",
+    "copy": "byte-identical",
+    "directionSourceSHA256": "f86986e4b96ce8e3b2500f7300406f1e92c38c6c939200ca002a49878d4e0341",
+    "direction": "fixed unmeasured art staging constant",
+    "reason": "Uncover the shallow sealed dark front faces previously obscured by the capped decorative collars; six external rounded lips only"
+  },
+  "sharedComponents": [
+    "src/plugins/scatter/io.js readGLB/validateAsset/writeSceneGLB",
+    "three/addons/loaders/GLTFLoader.js",
+    "modules/tank/src/portable-vehicle-finish.mjs",
+    "generator-sdk/three-ir.mjs",
+    "generator-sdk/validation.mjs",
+    "modules/data-workbench/worker.js"
+  ],
+  "capabilityBoundary": "Fixed exterior asset assembly, material parameters and part visibility. No online remodeling, internal mechanism, physics, fire control or performance. Static GLB contains no launch presentation animation.",
+  "verification": {
+    "node": "9/9 passed",
+    "browser": "passed: 30/30 actual unified Firefox checks; independently decoded browser GLB and visually inspected final screenshot",
+    "fullRepository": "not run; restored dependency-focused tree",
+    "codeGraph": "tool and cache unavailable; source contracts read directly",
+    "browserReportSHA256": "48c0ae30840867e2e39a7cf260fa5e9e136fe7035b6d56d1f4fe114fa32fb4d3",
+    "mcpWorker": "real discover/describe/model passed; MCP transport server not run",
+    "isolatedBundle": "Vite Worker build and emitted asset URL execution passed; not a full repository build"
+  }
+}

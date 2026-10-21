@@ -1,0 +1,23 @@
+{
+  "reference-gray": {
+    "triangles": 74420,
+    "draws": 73,
+    "nodes": 81,
+    "bytes": 1599740,
+    "sha256": "a56dc1415d14bf86c42a92c17a991c4491af8ff9e177f0ad50da11f38044d52e"
+  },
+  "low": {
+    "triangles": 42100,
+    "draws": 69,
+    "nodes": 77,
+    "bytes": 806324,
+    "sha256": "fb651aeda8fda2f3808158810316a5c331a3d1a1c26da7aa8c1f582561af9965"
+  },
+  "high": {
+    "triangles": 107164,
+    "draws": 73,
+    "nodes": 81,
+    "bytes": 2355292,
+    "sha256": "46e2a970d2f18fed9a6551f91c0a88418cc9eafd500d2c18d1c9b48aeed76acc"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "medium": {
+    "sha256": "d6703405e775e90e2fd6f6d284a202bbb05e3cf564b6c280b28d0a5be3fc1e39",
+    "bytes": 2278276,
+    "statistics": {
+      "triangles": 48036,
+      "renderedTriangles": 48036,
+      "vertices": 64018,
+      "instances": 26,
+      "draws": 26,
+      "bytes": 2735985,
+      "nodes": 38,
+      "meshes": 26,
+      "textures": 3,
+      "materials": 6,
+      "dimensions": [
+        2.628000020980835,
+        2.601658046245575,
+        4.78007073700428
+      ]
+    },
+    "readbackStatistics": {
+      "triangles": 48036,
+      "renderedTriangles": 48036,
+      "vertices": 64018,
+      "instances": 26,
+      "draws": 26,
+      "bytes": 2713181,
+      "nodes": 39,
+      "meshes": 26,
+      "textures": 3,
+      "materials": 7,
+      "dimensions": [
+        2.628000020980835,
+        2.601658046245596,
+        4.780070737000106
+      ]
+    },
+    "batchAudit": {
+      "source": "PGF gustav-visual-prop batchRuleLeaves reused",
+      "beforeDraws": 492,
+      "afterDraws": 26,
+      "sourceLeaves": 492,
+      "triangles": 48036,
+      "maxPositionDelta": 1.1913862696388833e-7,
+      "maxNormalDelta": 3.25139357659765e-8,
+      "maxUVDelta": 0,
+      "ownerAndMaterialPreserved": true,
+      "pass": true
+    }
+  },
+  "low": {
+    "sha256": "cbd948eb2420e0e0c396450af01e931511bbe57b7b634761a07916560ac945ed",
+    "bytes": 756812,
+    "statistics": {
+      "triangles": 16580,
+      "renderedTriangles": 16580,
+      "vertices": 20354,
+      "instances": 23,
+      "draws": 23,
+      "bytes": 904804,
+      "nodes": 35,
+      "meshes": 23,
+      "textures": 3,
+      "materials": 6,
+      "dimensions": [
+        2.628000020980835,
+        2.598416805267334,
+        4.78007073700428
+      ]
+    },
+    "readbackStatistics": {
+      "triangles": 16580,
+      "renderedTriangles": 16580,
+      "vertices": 20354,
+      "instances": 23,
+      "draws": 23,
+      "bytes": 891671,
+      "nodes": 36,
+      "meshes": 23,
+      "textures": 3,
+      "materials": 7,
+      "dimensions": [
+        2.628000020980835,
+        2.598416805267355,
+        4.780070737000106
+      ]
+    },
+    "batchAudit": {
+      "source": "PGF gustav-visual-prop batchRuleLeaves reused",
+      "beforeDraws": 176,
+      "afterDraws": 23,
+      "sourceLeaves": 176,
+      "triangles": 16580,
+      "maxPositionDelta": 1.1822788037463283e-7,
+      "maxNormalDelta": 3.21078561515975e-8,
+      "maxUVDelta": 0,
+      "ownerAndMaterialPreserved": true,
+      "pass": true
+    }
+  },
+  "high": {
+    "sha256": "b03a1d2e2c58682bf564691dcd7fcfec3ff210646f2df916973ece349cafe701",
+    "bytes": 4060672,
+    "statistics": {
+      "triangles": 96356,
+      "renderedTriangles": 96356,
+      "vertices": 114310,
+      "instances": 26,
+      "draws": 26,
+      "bytes": 4925169,
+      "nodes": 38,
+      "meshes": 26,
+      "textures": 3,
+      "materials": 6,
+      "dimensions": [
+        2.628000020980835,
+        2.601658046245575,
+        4.78007073700428
+      ]
+    },
+    "readbackStatistics": {
+      "triangles": 96356,
+      "renderedTriangles": 96356,
+      "vertices": 114310,
+      "instances": 26,
+      "draws": 26,
+      "bytes": 4902365,
+      "nodes": 39,
+      "meshes": 26,
+      "textures": 3,
+      "materials": 7,
+      "dimensions": [
+        2.628000020980835,
+        2.601658046245596,
+        4.780070737000106
+      ]
+    },
+    "batchAudit": {
+      "source": "PGF gustav-visual-prop batchRuleLeaves reused",
+      "beforeDraws": 556,
+      "afterDraws": 26,
+      "sourceLeaves": 556,
+      "triangles": 96356,
+      "maxPositionDelta": 1.1860449822265196e-7,
+      "maxNormalDelta": 3.6060436525708894e-8,
+      "maxUVDelta": 0,
+      "ownerAndMaterialPreserved": true,
+      "pass": true
+    }
+  }
+}

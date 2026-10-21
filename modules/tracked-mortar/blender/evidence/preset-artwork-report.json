@@ -1,0 +1,43 @@
+{
+  "method": "Native Firefox canvas PNG downloads from independent canonical PGF export -> GLTFLoader review page",
+  "seed": "pgf-components-1",
+  "dimensions": [
+    500,
+    380
+  ],
+  "visualRevision": "blender-clean-topology-tank-finish-1",
+  "definitionSHA256": "db916a98023b825b534268e57831b79f52505e110aa878b57a0ed21f4d205486",
+  "sourceGLBSha256": "1a06ab665eb85937f7b00646dbe57cc864d1df14c63eb1041071868fa117e5ac",
+  "presetImages": [
+    {
+      "preset": "reference",
+      "path": "thumbnails/reference.png",
+      "sha256": "a7d52cf5dd5f02ac2cc2d7ca53da8a827718aa489e21d3556cf7b3dc38b0c295",
+      "bytes": 144892,
+      "params": {}
+    },
+    {
+      "preset": "inspection",
+      "path": "thumbnails/inspection.png",
+      "sha256": "f2d96b7ebc201404864a1331387089a4f5fd92eb4317c57137bda6bc67559bc1",
+      "bytes": 134638,
+      "params": {
+        "elevation": 35
+      }
+    },
+    {
+      "preset": "exploded",
+      "path": "thumbnails/exploded.png",
+      "sha256": "c68af217beea0acdbe82759361bec55298876278076401acde0991d3d5ecf325",
+      "bytes": 123623,
+      "params": {
+        "exploded": 0.65
+      }
+    }
+  ],
+  "notes": [
+    "Actual images individually viewed for framing and distinct pose",
+    "Context-only revision leaves all nine formal GLB output hashes unchanged",
+    "Review renderer does not replace native workbench RenderWorker"
+  ]
+}

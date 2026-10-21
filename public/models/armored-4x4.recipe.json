@@ -1,0 +1,14 @@
+{
+  "seed": "dot-gallery-20261021",
+  "params": {
+    "length": 6.1,
+    "wheelbase": 4,
+    "tireScale": 1,
+    "roofEquipment": true,
+    "spareWheel": true,
+    "finish": "reference",
+    "wear": 0.45,
+    "steering": 0,
+    "explode": 0
+  }
+}

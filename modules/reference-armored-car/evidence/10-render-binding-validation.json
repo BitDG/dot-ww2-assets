@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "reason": "Local-space collider correction only changes non-unit-scale variants; rendered default and desert remain byte-identical",
+  "variants": [
+    {
+      "variant": "reference",
+      "rendered": {
+        "file": "PGF/modules/reference-armored-car/evidence/runtime-reference.glb",
+        "fileSha256": "fcb8b328512fd4c80339b7890449a317ea28d13795e406238aed1ea833190760",
+        "visualSha256": "c5e7b3ab8d9d72125b804c490edc1fc6047562384b79b6b3909bb1c4682af6f3"
+      },
+      "current": {
+        "file": "PGF/modules/reference-armored-car/evidence/runtime-reference.glb",
+        "fileSha256": "fcb8b328512fd4c80339b7890449a317ea28d13795e406238aed1ea833190760",
+        "visualSha256": "c5e7b3ab8d9d72125b804c490edc1fc6047562384b79b6b3909bb1c4682af6f3"
+      },
+      "sameVisualData": true,
+      "sameGLB": true
+    },
+    {
+      "variant": "desert",
+      "rendered": {
+        "file": "PGF/modules/reference-armored-car/evidence/runtime-tank-desert.glb",
+        "fileSha256": "71b0b238579da8796e480bd929ad4be11fccd57f78be467ec34d14ca66d47909",
+        "visualSha256": "c5a7336314e49028cc23420a4f0814954e95a79ff3fb2fc2784607335bea3750"
+      },
+      "current": {
+        "file": "PGF/modules/reference-armored-car/evidence/runtime-tank-desert.glb",
+        "fileSha256": "71b0b238579da8796e480bd929ad4be11fccd57f78be467ec34d14ca66d47909",
+        "visualSha256": "c5a7336314e49028cc23420a4f0814954e95a79ff3fb2fc2784607335bea3750"
+      },
+      "sameVisualData": true,
+      "sameGLB": true
+    }
+  ]
+}

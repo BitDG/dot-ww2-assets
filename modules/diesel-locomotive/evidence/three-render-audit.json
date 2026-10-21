@@ -1,0 +1,285 @@
+{
+  "status": "passed rendering and projection; imported-preset UI label fix awaiting browser recheck",
+  "modelSha256": "bb62ac17a9e3b57d581cc52aff70495fdd1b52973b5c60c6f035d737e40f72cc",
+  "actualImportedRecipe": {
+    "generator": "diesel-locomotive",
+    "version": "1.2.1",
+    "seed": "diesel-art-1",
+    "params": {
+      "bodyLength": 1,
+      "bodyWidth": 1,
+      "bodyHeight": 1,
+      "bogieSpacing": 1,
+      "wheelScale": 1,
+      "detail": "medium",
+      "fanCount": 4,
+      "grilleDensity": 0.6,
+      "rivetDensity": 0.55,
+      "weathering": 0.28,
+      "paintColor": "#7d8589",
+      "metalColor": "#737a7d",
+      "showRails": true,
+      "showRailings": true,
+      "showGrilles": true,
+      "showRivets": true,
+      "camoPattern": "original",
+      "camoEnvironment": "desert",
+      "camoScale": 1
+    }
+  },
+  "knownMetadataDefect": "v1 camera receipts retain stale preset=low-silhouette from dropdown before GLB import. Actual imported model is medium, proved by full SHA, embedded GLB recipe and 86716 triangles; source receipts preserved unchanged.",
+  "views": {
+    "hero": {
+      "camera": {
+        "preset": "low-silhouette",
+        "view": "hero",
+        "modelSha256": "bb62ac17a9e3b57d581cc52aff70495fdd1b52973b5c60c6f035d737e40f72cc",
+        "resolution": [
+          1200,
+          760
+        ],
+        "camera": {
+          "direction": [
+            0.5432512781572744,
+            -0.3950918386598359,
+            -0.7407971974871922
+          ],
+          "near": 0.01,
+          "far": 200,
+          "unitsPerPixel": 0.019194756031931864,
+          "type": "OrthographicCamera",
+          "position": [
+            -22,
+            18.670000077188014,
+            30
+          ],
+          "quaternion": [
+            -0.1916808358166764,
+            -0.3047291558696415,
+            -0.06275064649167354,
+            0.9308388448643907
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "left": -11.51685361915912,
+          "right": 11.51685361915912,
+          "top": 7.294007292134109,
+          "bottom": -7.294007292134109,
+          "target": [
+            0,
+            2.670000077188015,
+            0
+          ]
+        },
+        "triangles": 86716,
+        "meshes": 48,
+        "frames": 4,
+        "renderer": {
+          "frame": 39,
+          "calls": 49,
+          "triangles": 86718,
+          "points": 0,
+          "lines": 0
+        },
+        "memory": {
+          "geometries": 38,
+          "textures": 5
+        },
+        "capture": "Pure Three canvas; orthographic views use common vertical span and 420 pixel height"
+      },
+      "pngSha256": "e102772bca03205558b8bbcf634abce82eb878cbcbdc29c2e7591257c116e959"
+    },
+    "side": {
+      "camera": {
+        "preset": "low-silhouette",
+        "view": "side",
+        "modelSha256": "bb62ac17a9e3b57d581cc52aff70495fdd1b52973b5c60c6f035d737e40f72cc",
+        "resolution": [
+          1400,
+          420
+        ],
+        "camera": {
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "near": 0.01,
+          "far": 200,
+          "unitsPerPixel": 0.0184,
+          "type": "OrthographicCamera",
+          "position": [
+            0,
+            2.670000077188015,
+            35
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "left": -12.879999999999999,
+          "right": 12.879999999999999,
+          "top": 3.864,
+          "bottom": -3.864,
+          "target": [
+            0,
+            2.670000077188015,
+            0
+          ]
+        },
+        "triangles": 86716,
+        "meshes": 48,
+        "frames": 8,
+        "renderer": {
+          "frame": 43,
+          "calls": 49,
+          "triangles": 86718,
+          "points": 0,
+          "lines": 0
+        },
+        "memory": {
+          "geometries": 38,
+          "textures": 5
+        },
+        "capture": "Pure Three canvas; orthographic views use common vertical span and 420 pixel height"
+      },
+      "pngSha256": "2570cfef20ce2295fe786f135ad5e66842527ab438d72dc2c6adca522534b3e1"
+    },
+    "front": {
+      "camera": {
+        "preset": "low-silhouette",
+        "view": "front",
+        "modelSha256": "bb62ac17a9e3b57d581cc52aff70495fdd1b52973b5c60c6f035d737e40f72cc",
+        "resolution": [
+          560,
+          420
+        ],
+        "camera": {
+          "direction": [
+            1,
+            0,
+            -2.220446049250313e-16
+          ],
+          "near": 0.01,
+          "far": 200,
+          "unitsPerPixel": 0.0184,
+          "type": "OrthographicCamera",
+          "position": [
+            -35,
+            2.670000077188015,
+            0
+          ],
+          "quaternion": [
+            0,
+            -0.7071067811865475,
+            0,
+            0.7071067811865476
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "left": -5.152,
+          "right": 5.152,
+          "top": 3.864,
+          "bottom": -3.864,
+          "target": [
+            0,
+            2.670000077188015,
+            0
+          ]
+        },
+        "triangles": 86716,
+        "meshes": 48,
+        "frames": 12,
+        "renderer": {
+          "frame": 47,
+          "calls": 49,
+          "triangles": 86718,
+          "points": 0,
+          "lines": 0
+        },
+        "memory": {
+          "geometries": 38,
+          "textures": 5
+        },
+        "capture": "Pure Three canvas; orthographic views use common vertical span and 420 pixel height"
+      },
+      "pngSha256": "513a2ba5c42e2e93565a05238f130db65576376474132b9cf4e693c56e3de2ec"
+    },
+    "top": {
+      "camera": {
+        "preset": "low-silhouette",
+        "view": "top",
+        "modelSha256": "bb62ac17a9e3b57d581cc52aff70495fdd1b52973b5c60c6f035d737e40f72cc",
+        "resolution": [
+          1400,
+          420
+        ],
+        "camera": {
+          "direction": [
+            0,
+            -1,
+            -2.220446049250313e-16
+          ],
+          "near": 0.01,
+          "far": 200,
+          "unitsPerPixel": 0.0184,
+          "type": "OrthographicCamera",
+          "position": [
+            0,
+            42.670000077188014,
+            0
+          ],
+          "quaternion": [
+            -0.7071067811865475,
+            0,
+            0,
+            0.7071067811865476
+          ],
+          "up": [
+            0,
+            0,
+            -1
+          ],
+          "left": -12.879999999999999,
+          "right": 12.879999999999999,
+          "top": 3.864,
+          "bottom": -3.864,
+          "target": [
+            0,
+            2.670000077188015,
+            0
+          ]
+        },
+        "triangles": 86716,
+        "meshes": 48,
+        "frames": 16,
+        "renderer": {
+          "frame": 51,
+          "calls": 49,
+          "triangles": 86718,
+          "points": 0,
+          "lines": 0
+        },
+        "memory": {
+          "geometries": 38,
+          "textures": 5
+        },
+        "capture": "Pure Three canvas; orthographic views use common vertical span and 420 pixel height"
+      },
+      "pngSha256": "a8ca3d8c50b6b31f6dedd415335918ef5a2bf0798f65c66d851b51a4cc31aca6"
+    }
+  }
+}

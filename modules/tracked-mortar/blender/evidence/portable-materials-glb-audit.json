@@ -1,0 +1,491 @@
+{
+  "status": "passed",
+  "scope": "Actual Blender GLB embedded PNG/UV/PBR audit; PGF runtime not executed",
+  "sourceGLBSha256": "1a06ab665eb85937f7b00646dbe57cc864d1df14c63eb1041071868fa117e5ac",
+  "materials": [
+    {
+      "name": "tube-exterior",
+      "baseColorTexture": {
+        "index": 1
+      },
+      "metallicRoughnessTexture": {
+        "index": 2
+      },
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallicFactor": 1,
+      "roughnessFactor": 1,
+      "baseImage": 1,
+      "mrImage": 2,
+      "normalImage": 0
+    },
+    {
+      "name": "cast-edge-steel",
+      "baseColorTexture": {
+        "index": 4
+      },
+      "metallicRoughnessTexture": {
+        "index": 5
+      },
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallicFactor": 1,
+      "roughnessFactor": 1,
+      "baseImage": 4,
+      "mrImage": 5,
+      "normalImage": 3
+    },
+    {
+      "name": "graphite-painted-steel",
+      "baseColorTexture": {
+        "index": 7
+      },
+      "metallicRoughnessTexture": {
+        "index": 8
+      },
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallicFactor": 1,
+      "roughnessFactor": 1,
+      "baseImage": 7,
+      "mrImage": 8,
+      "normalImage": 6
+    },
+    {
+      "name": "panel-shadow",
+      "baseColorTexture": {
+        "index": 10
+      },
+      "metallicRoughnessTexture": {
+        "index": 11
+      },
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallicFactor": 1,
+      "roughnessFactor": 1,
+      "baseImage": 10,
+      "mrImage": 11,
+      "normalImage": 9
+    },
+    {
+      "name": "lamps-frosted-glass",
+      "baseColorTexture": {
+        "index": 13
+      },
+      "metallicRoughnessTexture": {
+        "index": 14
+      },
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallicFactor": 1,
+      "roughnessFactor": 1,
+      "baseImage": 13,
+      "mrImage": 14,
+      "normalImage": 12
+    },
+    {
+      "name": "dark-running-bands",
+      "baseColorTexture": {
+        "index": 16
+      },
+      "metallicRoughnessTexture": {
+        "index": 17
+      },
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallicFactor": 1,
+      "roughnessFactor": 1,
+      "baseImage": 16,
+      "mrImage": 17,
+      "normalImage": 15
+    }
+  ],
+  "images": [
+    {
+      "name": "tube-exterior-normal",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "3fadc98317f58a8d6f9893f3168cb5217682d017ca6cd655dc5be6c4456fc3d3",
+      "ranges": [
+        [
+          126,
+          129
+        ],
+        [
+          126,
+          129
+        ],
+        [
+          255,
+          255
+        ]
+      ]
+    },
+    {
+      "name": "tube-exterior-basecolor",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "5378e1bfaa6ed486b3bcb52fe1874ca4a9d6c43cef8c405cadd13daa6504876e",
+      "ranges": [
+        [
+          96,
+          126
+        ],
+        [
+          101,
+          131
+        ],
+        [
+          105,
+          135
+        ]
+      ]
+    },
+    {
+      "name": "tube-exterior-metallic-roughness",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "54d89e4b2fea67cb07fb179a997e9f90120998622d417d647b2dfd21d4e56ed4",
+      "ranges": [
+        [
+          255,
+          255
+        ],
+        [
+          164,
+          191
+        ],
+        [
+          112,
+          128
+        ]
+      ]
+    },
+    {
+      "name": "cast-edge-steel-normal",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "48460c8dc11c02e61da88958ebf5fe7b672c814aa9ac18b1e0f7576ea5125a00",
+      "ranges": [
+        [
+          126,
+          129
+        ],
+        [
+          126,
+          129
+        ],
+        [
+          255,
+          255
+        ]
+      ]
+    },
+    {
+      "name": "cast-edge-steel-basecolor",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "02f5b030c78c3d63a88e39a929dc48b4e275cf832b8f5a3339abedfbdfb8e52a",
+      "ranges": [
+        [
+          140,
+          171
+        ],
+        [
+          143,
+          174
+        ],
+        [
+          141,
+          173
+        ]
+      ]
+    },
+    {
+      "name": "cast-edge-steel-metallic-roughness",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "7bf7185fc4dcb0b142fc4cc14b25ee5229fe0c890a659bdad85f77cd8c9eda32",
+      "ranges": [
+        [
+          255,
+          255
+        ],
+        [
+          136,
+          163
+        ],
+        [
+          155,
+          171
+        ]
+      ]
+    },
+    {
+      "name": "graphite-painted-steel-normal",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "554d3cdfc7a3ba97df127bae61c4416d0e8ff08b98cb320b54fd2ead776bfb95",
+      "ranges": [
+        [
+          125,
+          130
+        ],
+        [
+          125,
+          130
+        ],
+        [
+          255,
+          255
+        ]
+      ]
+    },
+    {
+      "name": "graphite-painted-steel-basecolor",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "5b569b6fe441dc74748927d725b3873d6b376aa828db871ca3162fa9cf07d9ce",
+      "ranges": [
+        [
+          115,
+          145
+        ],
+        [
+          119,
+          149
+        ],
+        [
+          120,
+          150
+        ]
+      ]
+    },
+    {
+      "name": "graphite-painted-steel-metallic-roughness",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "ed151231a84176b6d4ae472f82335875fa12fcf10ce68040ffcac6db1dd5c7e6",
+      "ranges": [
+        [
+          255,
+          255
+        ],
+        [
+          192,
+          219
+        ],
+        [
+          58,
+          74
+        ]
+      ]
+    },
+    {
+      "name": "panel-shadow-normal",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "77c79d036419d115323e97a8f060acb26962f8e4ba1bce35533878883e7113b0",
+      "ranges": [
+        [
+          126,
+          129
+        ],
+        [
+          126,
+          129
+        ],
+        [
+          255,
+          255
+        ]
+      ]
+    },
+    {
+      "name": "panel-shadow-basecolor",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "702eaffc5cd2baa76ed6444d97a429930df4aabfe46ca255814a8054e8a63f08",
+      "ranges": [
+        [
+          64,
+          92
+        ],
+        [
+          66,
+          95
+        ],
+        [
+          68,
+          96
+        ]
+      ]
+    },
+    {
+      "name": "panel-shadow-metallic-roughness",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "9abc6324ceffd856bb849e6b9681c7fa11093e774ff7bb6a6e375ccf9c55cf78",
+      "ranges": [
+        [
+          255,
+          255
+        ],
+        [
+          217,
+          244
+        ],
+        [
+          35,
+          51
+        ]
+      ]
+    },
+    {
+      "name": "lamps-frosted-glass-normal",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "ecdf5d312d3a98d3f851001ddc5117de74a3a2133d10c4b29df3f3234365a7f6",
+      "ranges": [
+        [
+          127,
+          128
+        ],
+        [
+          127,
+          128
+        ],
+        [
+          255,
+          255
+        ]
+      ]
+    },
+    {
+      "name": "lamps-frosted-glass-basecolor",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "eb3193b7d55e7676b4c1112b23b3621f9c768bcfd2d87aeb96d3d9cfea42c923",
+      "ranges": [
+        [
+          165,
+          197
+        ],
+        [
+          175,
+          207
+        ],
+        [
+          176,
+          209
+        ]
+      ]
+    },
+    {
+      "name": "lamps-frosted-glass-metallic-roughness",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "d93fc992befaff66941d2849c624535868d43f4ce7edc38260f474ba1910944d",
+      "ranges": [
+        [
+          255,
+          255
+        ],
+        [
+          62,
+          89
+        ],
+        [
+          0,
+          15
+        ]
+      ]
+    },
+    {
+      "name": "dark-running-bands-normal",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "d9b7ad2687caf4ae3fd00658e10e67536487d90aba256b859a6c0a6ec8b1ef7e",
+      "ranges": [
+        [
+          124,
+          131
+        ],
+        [
+          124,
+          131
+        ],
+        [
+          255,
+          255
+        ]
+      ]
+    },
+    {
+      "name": "dark-running-bands-basecolor",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "677217a1c16a6cb329e313a567d51d8e023f2f0b3d6d5dbf340c6a6d63463103",
+      "ranges": [
+        [
+          43,
+          62
+        ],
+        [
+          46,
+          65
+        ],
+        [
+          48,
+          67
+        ]
+      ]
+    },
+    {
+      "name": "dark-running-bands-metallic-roughness",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "a35769f6921c9f7d76c62275aec92251dc1a2cee91f32aa3bc4cc31f754ae7b1",
+      "ranges": [
+        [
+          255,
+          255
+        ],
+        [
+          233,
+          255
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    }
+  ],
+  "uv0": true,
+  "aoClaimed": false
+}

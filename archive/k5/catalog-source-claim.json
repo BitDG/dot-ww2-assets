@@ -1,0 +1,15 @@
+{
+  "format": "PGF.ModelSource",
+  "version": 1,
+  "host": "dot-model-generator",
+  "id": "k5-railway-prop",
+  "label": "K5(E) 利奥波德 · 制作中",
+  "order": 5,
+  "description": "K2 外观源码已保留，尚未完成运行与导出验收。暂不开放生成、材质编辑或导出。",
+  "reason": "等待运行、GLB 和 Firefox 验收",
+  "source": {
+    "kind": "blender-authored-parametric-kit",
+    "definition": "modules/k5-railway-prop/definition.mjs",
+    "stage": "K2"
+  }
+}

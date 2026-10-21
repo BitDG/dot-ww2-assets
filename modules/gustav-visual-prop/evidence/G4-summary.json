@@ -1,0 +1,103 @@
+{
+  "version": "1.1.0",
+  "passedTests": 11,
+  "tiers": [
+    {
+      "name": "reference-gray",
+      "stats": {
+        "triangles": 83844,
+        "renderedTriangles": 133124,
+        "vertices": 136901,
+        "instances": 74,
+        "draws": 74,
+        "bytes": 5556727,
+        "nodes": 82,
+        "meshes": 19,
+        "textures": 6,
+        "materials": 7,
+        "dimensions": [
+          26,
+          6.539999960064888,
+          4.869999885559082
+        ]
+      },
+      "bytes": 5525048,
+      "sha256": "737ce8d3575c5d2d89f401ab428e4ff40bb99ab48e216304330679b5f718d306"
+    },
+    {
+      "name": "low",
+      "stats": {
+        "triangles": 11564,
+        "renderedTriangles": 42364,
+        "vertices": 20244,
+        "instances": 69,
+        "draws": 69,
+        "bytes": 833589,
+        "nodes": 77,
+        "meshes": 14,
+        "textures": 6,
+        "materials": 6,
+        "dimensions": [
+          26,
+          6.539999960064888,
+          4.800000190734863
+        ]
+      },
+      "bytes": 845452,
+      "sha256": "4f9d08a75317c17322daa1ae0c7b5ed6c2a22c7c3738db61c7d7372eee4e217e"
+    },
+    {
+      "name": "high",
+      "stats": {
+        "triangles": 122960,
+        "renderedTriangles": 196880,
+        "vertices": 198669,
+        "instances": 74,
+        "draws": 74,
+        "bytes": 8362987,
+        "nodes": 82,
+        "meshes": 19,
+        "textures": 6,
+        "materials": 7,
+        "dimensions": [
+          26,
+          6.539999960064888,
+          4.869999885559082
+        ]
+      },
+      "bytes": 8246828,
+      "sha256": "faf82f7919541c570cfa33aa746a0cd1e6c533d9319afbf7c272dcf24506dff9"
+    }
+  ],
+  "renderSource": {
+    "file": "gustav-final-5108af0d.glb",
+    "sha256": "5108af0d9f45b69c08ca3d1aed7293d44aab162ba81a903f5115e8eb661ee962"
+  },
+  "batchAudit": {
+    "status": "passed",
+    "beforeDraws": 1433,
+    "afterDraws": 74,
+    "beforeTriangles": 133124,
+    "afterTriangles": 133124,
+    "beforeNodes": 1441,
+    "afterNodes": 82,
+    "ownerAndMaterialPreserved": true,
+    "sourceParts": 1433,
+    "maxCoordinateError": 0,
+    "originalFloat32SurfaceSha256": "36565677fa5a02d6bf1e14edea76a1f2d162177438d2e749431cd97d22db0003",
+    "batchedFloat32SurfaceSha256": "36565677fa5a02d6bf1e14edea76a1f2d162177438d2e749431cd97d22db0003",
+    "hashMeaning": "Part-name-sorted ordered world triangle coordinates normalized to float32; no image likeness metric",
+    "exactSurfaceHashMatch": true
+  },
+  "imageStatus": "Final tighter 48-sample hero actual MCP passed; two final details and true ortho triplet pending",
+  "browser": "Actual Firefox default, four presets and proportion extremes verified; final UI/export/lifecycle/thumbnail checks in progress",
+  "unverified": [
+    "PGF stdio MCP endpoint lifecycle",
+    "Full lock-matched production build"
+  ],
+  "recoveredIssues": [
+    "Independent end module art stretch keeps wheel gaps positive at shortest body/largest wheel settings; default GLB unchanged by this fix",
+    "Dedicated tread UV restricted to top horizontal faces; side edges sample flat encoded pixels",
+    "G4-housing review render exceeded 180s response; actual Blender completed and quit; failed receipt retained and final rerender planned"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "sourceImages": 20,
+  "runtimeImages": 6,
+  "sourceBakedFactors": "1 (glTF defaults)",
+  "runtime": "tank armor and accessory basecolor/MR/normal sets times linear material factors",
+  "roles": [
+    "steel",
+    "armor",
+    "armor-edge",
+    "strap",
+    "dark",
+    "marking",
+    "canvas",
+    "wood",
+    "rubber"
+  ],
+  "maxLinearColorError": 0.0035183096004048897,
+  "maxMRError": 0.0019607843137255943,
+  "ao": false,
+  "status": "PASS"
+}

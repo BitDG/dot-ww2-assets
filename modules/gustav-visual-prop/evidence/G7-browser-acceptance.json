@@ -1,0 +1,56 @@
+{
+  "status": "passed-scoped-final-differential",
+  "browser": "Actual native Firefox, one designated operator; visible UI only",
+  "preview": "http://127.0.0.1:5178/modules/gustav-visual-prop/preview.html",
+  "review": "http://127.0.0.1:5178/modules/gustav-visual-prop/review.html?controls=1",
+  "version": "1.1.2",
+  "bundleManifestSHA256": "1798cbe0a8081bc2f1a5c5ce5a5223f86d6996e33da076881663f48d1fdd0a4c",
+  "fixedDisplayGLBSha256": "3e988dcd4e60a72996030c23a58e54476a12ab08264ecc3cfa6308b968d54590",
+  "actualWorkbenchDownloadSHA256": "5ff4e0cce2a2f150f633eeb0fe389251ab4509dc3031ea4f3424451b998ff024",
+  "passedFinal": [
+    "Default146012tri/82nodes/6sockets",
+    "Four genuine500x380 preset PNGs and final workbench thumbnails displayed",
+    "Fixed GLB imported through file chooser and hero/strict side/front/top PNGs plus camera JSON downloaded",
+    "Final hero expanded margin, whole model and rails visible",
+    "Actual workbench GLB+recipe downloaded and independently validated through AssetIR and Three GLTFLoader",
+    "Actual downloaded GLB reimport visible as imported-glb with actual version1.1.2/seed pgf-components-1",
+    "Recipe import restores gray after switching to olive preset",
+    "Actual Firefox RDM1440x900 and1600x900 complete viewport PNGs; inspector/buttons/model fully visible"
+  ],
+  "baselineCarriedForward": {
+    "stage": "G4 preview1.1.0, unchanged shared workbench/Worker lifecycle implementation",
+    "actualChecks": [
+      "Four presets",
+      "Three detail tiers",
+      "Art proportion extremes and circular wheels",
+      "Display toggles",
+      "Optional camouflage preserves bare steel",
+      "Color hex field visible",
+      "950px inspector bottom reachable",
+      "Cancel then regenerate",
+      "Idle frame delta0",
+      "Dispose active=false/disposed=true/workerTerminated=true/renderRPC0"
+    ],
+    "note": "Not relabeled as newly repeated G7 lifecycle measurements; G7 changes exterior geometry and review capture UI, Node contracts and Worker rerun on G7"
+  },
+  "pending": [],
+  "notRun": [
+    "PGF stdio MCP lifecycle",
+    "Full repository lock-matched production build",
+    "GIF recording",
+    "Hardware GPU performance certification; Firefox software-rendered test environment"
+  ],
+  "limitations": [
+    "Not a historical measurement, all hidden surfaces artistic inference",
+    "No claim of matching all reference details or functional internals"
+  ],
+  "files": {
+    "gustav-G7-viewport1600.png": "2b2e3ffb5ec8c1f17d78a66c8ec8963d7f702ffc796b74bfc7e9950d0d0d29ac",
+    "G4-baseline-gustav-visual-prop-browser-audit(1).json": "f324ba4353012be064209c6c3f54ff8cc476d1da76fbf6f093da11468997f1ab",
+    "gustav-G7-final-workbench.jpg": "73fa1bd6551095a447ed54141fc05e58578ae01fdf05d69bfdc443f59a882637",
+    "G4-baseline-gustav-visual-prop-browser-audit.json": "d0a3153f7a3cec188c54dd946fdfbac053cb4556080b468bb145eec68c1663b9",
+    "gustav-G7-actual-glb-readback.jpg": "e36e7504a98e6295f27f05391989a81bee2ecfea0fe85f77611c06bae865f1e8",
+    "gustav-G7-recipe-restored.jpg": "cc6bb563886b676b59a90cd6e8408b9d43dad74812b5516990c69b48d176c886",
+    "gustav-G7-viewport1440.png": "d1aafe62afe89494f0d83f114b7da399ac94e7194299bee06ca57bdc80f97233"
+  }
+}

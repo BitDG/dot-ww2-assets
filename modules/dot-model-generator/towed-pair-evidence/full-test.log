@@ -1,0 +1,31 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> pgf-web@0.3.0 test
+> node --test src/tests/*.test.mjs && node modules/rock/tests/core.test.mjs && node modules/rock/tests/adapter.test.mjs && node modules/container/tests/core.test.mjs && node modules/bridge/tests/core.test.mjs && node --test modules/bridge/tests/modern.test.mjs && node --test modules/tank/tests/core.test.mjs modules/truck/tests/core.test.mjs && node --test modules/realmap/tests/*.test.mjs modules/world-terrain/tests/*.test.mjs && node --test modules/weather/tests/*.test.mjs && npm run world-road:test && node --test modules/props-kit/tests/*.test.mjs && node --test modules/ldtk/tests/*.test.mjs
+
+ℹ tests 0
+ℹ suites 0
+ℹ pass 0
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 11.205989
+node:internal/modules/cjs/loader:1520
+  throw err;
+  ^
+
+Error: Cannot find module '/workspace/scratch/6a4c729be230/pgf-author-recovery/D4-F2-verified-recovery-20261012T0520Z/runtime/modules/rock/tests/core.test.mjs'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1517:15)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1122:12)
+    at Module._load (node:internal/modules/cjs/loader:1294:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v24.19.0

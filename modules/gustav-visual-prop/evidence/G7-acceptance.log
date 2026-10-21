@@ -1,0 +1,16 @@
+(node:19) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("./pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+reference-gray 146012 74 6418580
+clean-display 220824 74 9874072
+field-olive 146012 74 6428584
+low-silhouette 48332 69 1274404
+low 48332 69 1274404
+high 218744 74 9796348
+art-small 145760 74 6398696
+art-large 146732 74 6480556
+components-off 125124 67 5157796
+camo-desert 146012 74 6468128
+camo-digital 146012 74 6422668
+high-wear 222904 74 10037736
+PASS 12

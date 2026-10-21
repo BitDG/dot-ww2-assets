@@ -1,0 +1,13 @@
+{
+  "degeneratePrototypeTriangles": 0,
+  "sourceGLBSha256": "1a06ab665eb85937f7b00646dbe57cc864d1df14c63eb1041071868fa117e5ac",
+  "source": "Actual Blender MCP kit topology before PGF runtime",
+  "highTriangles": 109900,
+  "standardTriangles": 82316,
+  "standardReductionPercent": 25.09918107370337,
+  "nodeCount": 1336,
+  "prototypeCount": 81,
+  "roadWheels": 22,
+  "railingObjects": 22,
+  "scope": "Static kit topology only; not actual runtime or renderer performance"
+}

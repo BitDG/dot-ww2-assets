@@ -1,0 +1,18 @@
+✔ fixture: capped, absent explicit state, and visible-cover disagreement all fail closed (4.17407ms)
+✔ fixture: tow moves only borrowed transforms, rolls both wheels and reset restores (2.388981ms)
+✔ fixture: smoke host stepping, replay, seek, pause, cover changing, no asset disposal (2.543705ms)
+✔ fixture: fixed smoke stepping is frame-chunk reproducible and source asset unchanged (0.869655ms)
+✔ fixture: missing/ambiguous anchors, parent mismatch and initial stale binding allocate nothing (0.630653ms)
+✔ fixture: upload-ticket invalidation after binding does not invalidate mounted asset (0.478994ms)
+✔ fixture: actual PGF smoke lease renders no positive-opacity flame and releases owned resources (40.582368ms)
+✔ fixture: physically removed cover requires explicit no-cover metadata and visible sealed face (0.500096ms)
+✔ fixture: FX allocation failure stops cleanly and can replay once corrected (0.62859ms)
+✔ fixture: paused smoke is cleared if a cover becomes visible on a host tick (0.552776ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 185.391398

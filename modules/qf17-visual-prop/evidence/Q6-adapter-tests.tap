@@ -1,0 +1,18 @@
+✔ manifest, single schema and truthful capability contract (165.109431ms)
+✔ real generate, PBR, two wheel pivots and runtime semantic contract (1150.846371ms)
+✔ three source quality levels, uniform scale have real geometry effects (4576.668603ms)
+✔ every semantic part toggle changes actual exported geometry (18073.297615ms)
+✔ material and seed effects are deterministic without pretending to remodel geometry (13077.062156ms)
+✔ invalid inputs, source corruption and undersized budgets reject (5475.587896ms)
+✔ browser-style HTTP bytes load, HTTP failure and fetch cancellation (142.546034ms)
+✔ abort before/after actual GLTFLoader and parse failure release owned resources (590.070546ms)
+✔ static GLB independently decodes real PNGs, geometry and preserved semantics (292.934816ms)
+✔ shared worker accepts generate and exports its completed AssetIR (693.71036ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 45723.063091

@@ -1,0 +1,353 @@
+{
+  "status": "FROZEN_CORE_READY_FOR_SHARED_INTEGRATION",
+  "stage": "Q6",
+  "id": "qf17-visual-prop",
+  "version": "0.1.0",
+  "modulePath": "/workspace/scratch/6a4c729be230/pgf-author-recovery/D4-F2-verified-recovery-20261012T0520Z/runtime/modules/qf17-visual-prop",
+  "entry": "definition.mjs",
+  "coreFiles": [
+    "definition.mjs",
+    "params.mjs",
+    "model.mjs",
+    "material-finish.mjs",
+    "batch-exterior.mjs",
+    "sources.mjs",
+    "worker.js",
+    "qf17-visual-prop.generator.json",
+    "tests/adapter.test.mjs",
+    "README.zh-CN.md",
+    "adapter-provenance.json",
+    "assets/QF17-Q6-low.glb",
+    "assets/QF17-Q6-medium.glb",
+    "assets/QF17-Q6-high.glb"
+  ],
+  "publishWhitelist": [
+    "definition.mjs",
+    "params.mjs",
+    "model.mjs",
+    "material-finish.mjs",
+    "batch-exterior.mjs",
+    "sources.mjs",
+    "worker.js",
+    "qf17-visual-prop.generator.json",
+    "tests/adapter.test.mjs",
+    "README.zh-CN.md",
+    "adapter-provenance.json",
+    "assets/QF17-Q6-low.glb",
+    "assets/QF17-Q6-medium.glb",
+    "assets/QF17-Q6-high.glb",
+    "reference/L0/QF17-L0-CONTRACT.md",
+    "reference/L0/QF17-six-details-v2.png",
+    "reference/L0/QF17-three-view-v3.png",
+    "reference/L0/manifest.json",
+    "reference/L0/source-lock.json",
+    "evidence/Q6-adapter-tests.tap",
+    "evidence/Q6-final-independent-readback.json",
+    "evidence/Q6-fitting-contact-audit.json",
+    "evidence/Q6-high-geometry-audit.json",
+    "evidence/Q6-low-geometry-audit.json",
+    "evidence/Q6-medium-geometry-audit.json",
+    "evidence/Q6-native-independent-reopen.log",
+    "evidence/default-recipe.json",
+    "evidence/node-report.json"
+  ],
+  "files": [
+    {
+      "path": "definition.mjs",
+      "bytes": 4030,
+      "sha256": "cca2d51eab2e53d06feafc6dbe5aeab5e7c9a1f25c766560d0b943f6df6b27eb"
+    },
+    {
+      "path": "params.mjs",
+      "bytes": 2658,
+      "sha256": "f9aae7d32e90dc34c9d247dba79e8bc0c0b46aad877d1781536c7dcac27a36f2"
+    },
+    {
+      "path": "model.mjs",
+      "bytes": 6021,
+      "sha256": "00fee51a2fa2481b466de27090187d67c9f188ba3f42f990d10bd1e725e82afc"
+    },
+    {
+      "path": "material-finish.mjs",
+      "bytes": 4324,
+      "sha256": "274ab97be655ca219c0127bba32898aa8d6c28e7e3aca6602cd71d390b3db896"
+    },
+    {
+      "path": "batch-exterior.mjs",
+      "bytes": 3002,
+      "sha256": "7e6c92535ad4a6f1bf1d2a622d746e8d88dab7a8a7a2ed9cf5f3502ca0fe6a61"
+    },
+    {
+      "path": "sources.mjs",
+      "bytes": 600,
+      "sha256": "7f080b6952227a4159c82cdf84336ad2db07b9e160099545d03d1095caa12e7e"
+    },
+    {
+      "path": "worker.js",
+      "bytes": 141,
+      "sha256": "72841705518e923fc121225d196cbf9946f50f2db9b8abc816802a32578215b7"
+    },
+    {
+      "path": "qf17-visual-prop.generator.json",
+      "bytes": 176,
+      "sha256": "1eac9f24e1555de0b50a5e01b4776e10066c83d9ea3b291b2fbc3c77522344a9"
+    },
+    {
+      "path": "tests/adapter.test.mjs",
+      "bytes": 12006,
+      "sha256": "1e8159df5aecdb9004cb5ff131730ba0ad9fcb8cd99b5ec6f1712e5080516280"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 3864,
+      "sha256": "1b8d67fd36100103629a33b7ca5bff7377ac1348d5effda490fe0254fa02909e"
+    },
+    {
+      "path": "adapter-provenance.json",
+      "bytes": 1423,
+      "sha256": "87608ef8d5c95513c65e15d8ba31b3fc331fda8a3c68d1912c6d83bfa6d013c9"
+    },
+    {
+      "path": "assets/QF17-Q6-low.glb",
+      "bytes": 1086188,
+      "sha256": "2a154b3f8ee14df4cf02a0326808219296a68ae8d4a487c9e227274262bceb2b"
+    },
+    {
+      "path": "assets/QF17-Q6-medium.glb",
+      "bytes": 1857756,
+      "sha256": "6a786420f3bb9bc7383d4b6703c48d2708ca9f0d9fcb18c74ee9bad80313c115"
+    },
+    {
+      "path": "assets/QF17-Q6-high.glb",
+      "bytes": 3229332,
+      "sha256": "4cd7cc6372760f9832438c22eebd76e199aafb0a75398b547cc5deaa22651ee7"
+    },
+    {
+      "path": "reference/L0/QF17-L0-CONTRACT.md",
+      "bytes": 2119,
+      "sha256": "3bcc65196e1d2dba2fd09f0a936cc6f83c2b10a211030e71300242c51e9856d7"
+    },
+    {
+      "path": "reference/L0/QF17-six-details-v2.png",
+      "bytes": 2249356,
+      "sha256": "4c1e82cc0d188109286d84e469c84a58bc588e9689d24f7b6b8d8ddba3b8af42"
+    },
+    {
+      "path": "reference/L0/QF17-three-view-v3.png",
+      "bytes": 1797811,
+      "sha256": "26818c6889c462761e811ed3dc86cfbe7aca761d80db5f6041c7d0998a1320d7"
+    },
+    {
+      "path": "reference/L0/manifest.json",
+      "bytes": 1094,
+      "sha256": "77e368464184fc050a49b84abb6daa57d9f75b65a5f7d1d2ac7f1ae6cd34267b"
+    },
+    {
+      "path": "reference/L0/source-lock.json",
+      "bytes": 2249,
+      "sha256": "17440f43014d385f413dd19b535e833b1ad9015d96ffac852f40bf1fa4f04861"
+    },
+    {
+      "path": "evidence/Q6-adapter-tests.tap",
+      "bytes": 1004,
+      "sha256": "21f750f521340894a14468882a6a0963f9340b9d29d1d32b566c163f6066bbb9"
+    },
+    {
+      "path": "evidence/Q6-final-independent-readback.json",
+      "bytes": 1390,
+      "sha256": "a55d532aa72aac73fd9b51b216fcb3887ad44c487008f122189569bd80514b69"
+    },
+    {
+      "path": "evidence/Q6-fitting-contact-audit.json",
+      "bytes": 11764,
+      "sha256": "a44dcb3f114500adcf947265311427c0bc344533a6263c9ee61af42af2aeb8db"
+    },
+    {
+      "path": "evidence/Q6-high-geometry-audit.json",
+      "bytes": 1260,
+      "sha256": "ba482d82fa1ad18fba1a36e56a9e806c98df67873e7f3e0e5f9e1e7433763ee8"
+    },
+    {
+      "path": "evidence/Q6-low-geometry-audit.json",
+      "bytes": 1260,
+      "sha256": "a79f7728b0424d37c9a6671ed7daeb7bc576b08a5de87a10a08e9d0cc5cb62f8"
+    },
+    {
+      "path": "evidence/Q6-medium-geometry-audit.json",
+      "bytes": 1267,
+      "sha256": "d9188c39df5a972d9c0001aee14abc7c7198d7dd369143d96d9fbc3922fff531"
+    },
+    {
+      "path": "evidence/Q6-native-independent-reopen.log",
+      "bytes": 1298,
+      "sha256": "b8016aaeae5aed54687b709545769abc02b7fb9cb258371ab2d8ef43b33338eb"
+    },
+    {
+      "path": "evidence/default-recipe.json",
+      "bytes": 549,
+      "sha256": "88e48da19317c3a45bc6fa913f11252dfd77f844ec3ac5e59c6160cd51c8350a"
+    },
+    {
+      "path": "evidence/node-report.json",
+      "bytes": 1885,
+      "sha256": "69f1c2290a503c7ca420ddc722c42bd9c83ea762114c3c58bc864c5e10737985"
+    }
+  ],
+  "actualPGFExports": {
+    "medium": {
+      "sha256": "6a9afc0cbf9cf5f14241d4280bf4645ee2d80933e13f09e83de473c89a5b7575",
+      "bytes": 1431136,
+      "statistics": {
+        "triangles": 50776,
+        "renderedTriangles": 50776,
+        "vertices": 46212,
+        "instances": 24,
+        "draws": 24,
+        "bytes": 2196834,
+        "nodes": 35,
+        "meshes": 24,
+        "textures": 3,
+        "materials": 6,
+        "dimensions": [
+          3.3299999237060547,
+          1.9662867188453674,
+          8.380000352859497
+        ]
+      },
+      "readbackStatistics": {
+        "triangles": 50776,
+        "renderedTriangles": 50776,
+        "vertices": 46212,
+        "instances": 24,
+        "draws": 24,
+        "bytes": 2175268,
+        "nodes": 36,
+        "meshes": 24,
+        "textures": 3,
+        "materials": 7,
+        "dimensions": [
+          3.3299999237060547,
+          1.9662867188450668,
+          8.380000352859497
+        ]
+      },
+      "batchAudit": {
+        "source": "PGF gustav-visual-prop batchRuleLeaves reused",
+        "beforeDraws": 250,
+        "afterDraws": 24,
+        "sourceLeaves": 250,
+        "triangles": 50776,
+        "maxPositionDelta": 1.1920928955078125e-07,
+        "maxNormalDelta": 3.423305661165443e-08,
+        "maxUVDelta": 0,
+        "ownerAndMaterialPreserved": true,
+        "pass": true
+      }
+    },
+    "low": {
+      "sha256": "85b9d639e4546d9e0953e22fa8449be6ff56c98a04510fcc7a0e872a2fe437db",
+      "bytes": 724632,
+      "statistics": {
+        "triangles": 24944,
+        "renderedTriangles": 24944,
+        "vertices": 25836,
+        "instances": 23,
+        "draws": 23,
+        "bytes": 1180159,
+        "nodes": 34,
+        "meshes": 23,
+        "textures": 3,
+        "materials": 6,
+        "dimensions": [
+          3.3299999237060547,
+          1.9662867188453674,
+          8.380000352859497
+        ]
+      },
+      "readbackStatistics": {
+        "triangles": 24944,
+        "renderedTriangles": 24944,
+        "vertices": 25836,
+        "instances": 23,
+        "draws": 23,
+        "bytes": 1167155,
+        "nodes": 35,
+        "meshes": 23,
+        "textures": 3,
+        "materials": 7,
+        "dimensions": [
+          3.3299999237060547,
+          1.9662867188450668,
+          8.380000352859497
+        ]
+      },
+      "batchAudit": {
+        "source": "PGF gustav-visual-prop batchRuleLeaves reused",
+        "beforeDraws": 202,
+        "afterDraws": 23,
+        "sourceLeaves": 202,
+        "triangles": 24944,
+        "maxPositionDelta": 1.1827796697616577e-07,
+        "maxNormalDelta": 3.792246905387486e-08,
+        "maxUVDelta": 0,
+        "ownerAndMaterialPreserved": true,
+        "pass": true
+      }
+    },
+    "high": {
+      "sha256": "5cdb144f09d525478e3041bedf0a773f43b6c2e4d561380e0c4aa721b5fb3f9c",
+      "bytes": 2653208,
+      "statistics": {
+        "triangles": 101224,
+        "renderedTriangles": 101224,
+        "vertices": 81897,
+        "instances": 24,
+        "draws": 24,
+        "bytes": 3944130,
+        "nodes": 35,
+        "meshes": 24,
+        "textures": 3,
+        "materials": 6,
+        "dimensions": [
+          3.3299999237060547,
+          1.9662867188453674,
+          8.380000352859497
+        ]
+      },
+      "readbackStatistics": {
+        "triangles": 101224,
+        "renderedTriangles": 101224,
+        "vertices": 81897,
+        "instances": 24,
+        "draws": 24,
+        "bytes": 3922564,
+        "nodes": 36,
+        "meshes": 24,
+        "textures": 3,
+        "materials": 7,
+        "dimensions": [
+          3.3299999237060547,
+          1.9662867188450668,
+          8.380000352859497
+        ]
+      },
+      "batchAudit": {
+        "source": "PGF gustav-visual-prop batchRuleLeaves reused",
+        "beforeDraws": 298,
+        "afterDraws": 24,
+        "sourceLeaves": 298,
+        "triangles": 101224,
+        "maxPositionDelta": 1.1920928955078125e-07,
+        "maxNormalDelta": 3.6328451913369975e-08,
+        "maxUVDelta": 0,
+        "ownerAndMaterialPreserved": true,
+        "pass": true
+      }
+    }
+  },
+  "coreChangesAllowed": false,
+  "remaining": [
+    "final actual fixed-GLB renders; separate render-only lock requested",
+    "shared integration Firefox QA by integration owner"
+  ]
+}

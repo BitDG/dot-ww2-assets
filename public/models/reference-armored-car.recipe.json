@@ -1,0 +1,19 @@
+{
+  "generator": "reference-armored-car",
+  "version": "1.1.0",
+  "seed": "dot-gallery-20261021",
+  "params": {
+    "scale": 1,
+    "turretYaw": -10,
+    "gunElevation": 0,
+    "paint": "#827456",
+    "roughness": 0.81,
+    "weathering": 0.35,
+    "antennas": true,
+    "markings": true,
+    "detail": 48,
+    "camoPattern": "original",
+    "camoEnvironment": "desert",
+    "camoScale": 1
+  }
+}

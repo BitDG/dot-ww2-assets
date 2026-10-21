@@ -1,0 +1,5 @@
+(node:5) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("/workspace/scratch/6a4c729be230/pgf-vehicle-test-deps/loader.mjs", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+{"name":"pre-aborted","outcome":"REJECTED","error":"生成已取消"}
+{"name":"triangle-budget-one","outcome":"REJECTED","error":"maxTriangles exceeded: 82316 > 1"}

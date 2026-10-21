@@ -1,0 +1,133 @@
+{
+  "stage": "L0",
+  "asset": "Land Mattress No.8 Mk I (A.C. Cars, 1945), museum-artifact exterior interpretation",
+  "physicalReferenceRegistration": "108",
+  "scope": "Nonfunctional static unloaded game appearance",
+  "layout": {
+    "rows": 5,
+    "columns": 6,
+    "count": 30,
+    "fixed": true,
+    "internalTubeSurfaces": "No functional internals; use shallow dark visual closure"
+  },
+  "pose": {
+    "name": "parked-museum-display",
+    "wheels": "one axle, two road wheels attached, ground-contact, stationary",
+    "drawbar": "A-frame tongue projects forward, lower tow eye",
+    "rack": "Fixed upward visual display angle; not a historical operating setting",
+    "feet": "stationary display supports; unseen geometry is artistic interpretation"
+  },
+  "exclude": [
+    "1944 early 32-tube arrangement",
+    "16-tube type",
+    "40-tube prototype",
+    "post-war hardware",
+    "sea mount",
+    "neighboring German Nebelwerfer",
+    "ammunition",
+    "internal mechanism",
+    "manufacturing dimensions",
+    "fire-control",
+    "ballistics",
+    "weapon firing sequence",
+    "tracked chassis"
+  ],
+  "partGroups": [
+    "LM_Tube_Bundle_Exterior",
+    "LM_Rack_Frame_Exterior",
+    "LM_Carriage_Exterior",
+    "LM_Road_Wheels",
+    "LM_Fenders",
+    "LM_Drawbar_Tow_Eye",
+    "LM_Display_Supports",
+    "LM_Cosmetic_Fittings"
+  ],
+  "detailPanels": [
+    "tube-mouth exterior pattern",
+    "side-frame braces",
+    "road wheel and hub",
+    "fender exterior",
+    "A-frame drawbar and tow eye",
+    "carriage and stationary display supports"
+  ],
+  "parameters": {
+    "seed": "land-mattress-no8-mk1-art-1945",
+    "detail": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "artScale": "uniform and dimensionless",
+    "paintColor": "cosmetic RGB",
+    "roughness": "cosmetic normalized",
+    "weathering": "cosmetic normalized",
+    "partVisibility": "boolean groups only",
+    "tubeCountEditable": false,
+    "operationControls": false
+  },
+  "pgfReuse": [
+    "modules/material-kit/metal-finish.mjs:metalFinishPixels",
+    "modules/tank/src/portable-vehicle-finish.mjs",
+    "existing PGF camouflage painter, if exposed",
+    "generator-sdk defineGenerator, threeToIR, AssetIR validation/export",
+    "BM13-owned resource cleanup and source hash guard pattern"
+  ],
+  "referenceLayout": {
+    "sheet1": "pale background gray metal; large side above, strictly 90-degree orthographic top below-left, front below-right",
+    "sheet2": "separate 3-columns by 2-rows exterior details",
+    "classification": "unmeasured concept art, never engineering drawing"
+  },
+  "verificationRequired": [
+    "real Blender MCP initialize/status and authoring receipts",
+    "three .blend and GLB LODs",
+    "source hash-linked hero/three views/six detail renders",
+    "mesh/UV/normal/finiteness/degeneracy audit",
+    "independent GLB readback",
+    "deterministic seed and disposal/cancel tests"
+  ],
+  "currentUncertainty": [
+    "Rear, top and hidden areas not photographically verified",
+    "Museum restoration may not preserve wartime finish",
+    "No accuracy percentage or GPU performance evidence"
+  ],
+  "sources": [
+    {
+      "id": "LAC-album82",
+      "url": "https://recherche-collection-search.bac-lac.gc.ca/eng/home/record?IdNumber=5266285&app=fonandcol",
+      "role": "Official archival context only",
+      "claim": "Album contains 1944 Land Mattress tests; not evidence for the 1945 production appearance",
+      "pixelUse": "none",
+      "access": "record read; child search later robots-blocked; no bypass"
+    },
+    {
+      "id": "CWM-FS04",
+      "url": "https://friends-amis.org/wp-content/uploads/2020/10/FS04_land_mattress_E.pdf",
+      "role": "Museum-linked original research and photos",
+      "claim": "Early 32-tube type and wartime context; first-page museum photograph independently corroborates exterior silhouette",
+      "pixelsViewed": true,
+      "license": "Not established; observation only; exclude PDF and photos from distributed artifact"
+    },
+    {
+      "id": "CWM-plaque",
+      "url": "https://commons.wikimedia.org/wiki/File:Land_Mattress_plaque.jpg",
+      "role": "Primary photo of physical manufacturer plate",
+      "claim": "No.8 Mk I, A.C. Cars 1945, registration108",
+      "pixelsViewed": true,
+      "license": "CC BY-SA 2.5; observation only for this task; no photographic texture or imagegen input"
+    },
+    {
+      "id": "CWM-exterior",
+      "url": "https://commons.wikimedia.org/wiki/File:Nebelwerfer_and_Land_Mattress.jpg",
+      "role": "Primary photograph of chosen museum object, right-hand artifact only",
+      "claim": "30 visible tube positions, five rows of six; wheeled carriage, front drawbar, fenders",
+      "pixelsViewed": true,
+      "license": "CC BY-SA 2.5; observation only; neighboring Nebelwerfer excluded"
+    }
+  ],
+  "sourcePhotographyDistribution": "None: no museum/archive/source-photo bytes are in this package",
+  "status": "L0 concept reference only; Blender asset not authored or validated",
+  "referenceRevisions": {
+    "threeView": "v3",
+    "sixDetails": "v2"
+  }
+}

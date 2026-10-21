@@ -1,0 +1,26 @@
+{
+  "generator": "diesel-locomotive",
+  "version": "1.2.1",
+  "seed": "diesel-art-1",
+  "params": {
+    "bodyLength": 1.15,
+    "bodyWidth": 1.15,
+    "bodyHeight": 1.15,
+    "bogieSpacing": 1.1,
+    "wheelScale": 0.85,
+    "detail": "medium",
+    "fanCount": 4,
+    "grilleDensity": 0.6,
+    "rivetDensity": 0.55,
+    "weathering": 0.28,
+    "paintColor": "#7d8589",
+    "metalColor": "#737a7d",
+    "showRails": true,
+    "showRailings": true,
+    "showGrilles": true,
+    "showRivets": true,
+    "camoPattern": "original",
+    "camoEnvironment": "desert",
+    "camoScale": 1
+  }
+}
