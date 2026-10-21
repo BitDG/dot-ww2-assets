@@ -1,1 +1,14 @@
-{"assetId":"kar98k-exterior-prop","status":"preparation-blocked","modelGenerated":false,"blenderMCPAvailable":false,"conceptImageGenerated":false,"conceptImageResult":"moderation_blocked: violence","historicalSubtype":"unverified","GLB":null,"blend":null,"renders":[],"firefox":"not-installed"}
+{
+  "assetId": "kar98k-exterior-prop",
+  "status": "preparation-blocked",
+  "modelGenerated": false,
+  "blenderMCPAvailable": true,
+  "conceptImageGenerated": false,
+  "conceptImageResult": "moderation_blocked: violence",
+  "historicalSubtype": "unverified",
+  "GLB": null,
+  "blend": null,
+  "renders": [],
+  "firefox": "not-installed",
+  "blenderMCPMode": "task-local verified read-only session; stopped after checks"
+}

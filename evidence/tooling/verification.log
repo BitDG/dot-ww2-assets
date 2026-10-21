@@ -1,0 +1,1 @@
+{"status": "passed", "checks": ["MCP JSON-RPC initialize and tool discovery passed", "get_addon_status returned actual Blender data", "get_scene_info returned actual Blender data"], "portClosedAfterExit": true}

@@ -1,0 +1,12 @@
+{
+  "status": "blocked",
+  "networkRetry": false,
+  "mirrorsTried": false,
+  "commands": {
+    "firefox": null,
+    "firefox-esr": null,
+    "geckodriver": null
+  },
+  "offlineCandidates": [],
+  "reason": "Previous official Playwright Firefox CDN HEAD proxy 403 remains unaddressed; no administrator network change supplied"
+}

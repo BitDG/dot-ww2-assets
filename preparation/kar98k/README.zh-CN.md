@@ -25,3 +25,7 @@
 子型照片像素核验、多视一致原创图、MCP 建模及调用回执、.blend、固定 GLB、真实 hero/三视/细节渲染、外观参数实现、确定性/法线/UV/退化面/资源释放/独立 GLB 回读、Firefox 验收全部未完成。仓库没有 Kar98k 模型卡、下载占位或伪造实渲。
 
 继续建模需要父线程提供已批准且可调用的 Blender MCP 连接；Firefox 验收需要可用的 Firefox 环境。图像工具此次安全拒绝不能用一般授权自动消除。
+
+## 后续工具恢复更新
+
+2026-10-21用户批准后，任务目录已恢复mcp-for-blender2.1.9，真实MCP initialize/tools-list/get_addon_status/get_scene_info通过。原“没有可用MCP”是迁移时历史状态，现已解决；未注册全局工具，检查后临时进程结束。[复现与回执](../../scripts/tooling/README.zh-CN.md)。图像拒绝和Firefox网络阻塞仍未解除，Kar98k所有建模与图像生成继续暂停。

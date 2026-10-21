@@ -2,7 +2,7 @@
 
 此前 dot / PGF 游戏美术资产的独立仓库。已迁入 **11 款可运行模型**的源码、可恢复源模型、材质依赖、原始说明和真实渲染；提供卡片展厅、旋转/缩放、原生参数/材质、实际能力对应的预览演出、配方导入导出和静态 GLB 下载。
 
-**Kar98k 是新增优先项，但当前只到准备阶段，未生成模型。** Blender MCP 未提供，概念图请求被图像工具安全审核拒绝；详情见[准备与实际阻塞](preparation/kar98k/README.zh-CN.md)。没有虚假模型或下载占位。
+**Kar98k 是新增优先项，但当前只到准备阶段，未生成模型。** Blender MCP 现已在任务目录恢复并通过真实只读握手；概念图请求仍被图像工具安全审核拒绝；详情见[准备与实际阻塞](preparation/kar98k/README.zh-CN.md)。没有虚假模型或下载占位。
 
 ## 本地运行
 
@@ -20,7 +20,7 @@ npm run build
 npm run preview
 ```
 
-展示页读取本仓库资源，不依赖 PGF 工作目录或 CDN。静态产物位于 `dist/`。**未发布 GitHub Pages、未修改仓库可见性。** 本轮使用环境已有的依赖，未安装 Blender MCP、Firefox 或新 npm 包；仅生成 package-lock 元数据。仓库不包含 node_modules。
+展示页读取本仓库资源，不依赖 PGF 工作目录或 CDN。静态产物位于 `dist/`。**未发布 GitHub Pages、未修改仓库可见性。** 本轮使用环境已有的依赖，迁移阶段未安装 Blender MCP、Firefox 或新 npm 包，仅生成 package-lock 元数据；后续获明确授权后已在任务目录恢复固定 Blender MCP，见下方工具恢复说明。仓库不包含 node_modules。
 
 ## 已迁入模型
 
@@ -71,7 +71,7 @@ npm run preview
 - K5：暂停。仅恢复[原始概念参考资料](archive/k5/STATUS.md)；目录中声称的 K2 模型源码没有从已检查 Git 分支恢复，不能据目录文字标完成。
 - Long Tom：暂停，已检查分支未找到可恢复模型；需要原备份身份，才可继续归档。
 - PaK40、75 mm M1A1：尚未建模，无模型卡片。
-- Kar98k：优先准备，但无 MCP 连接且概念图请求被工具拒绝；无 .blend、GLB、模型渲染或已验收外观子型。
+- Kar98k：优先准备，MCP 已通过只读连接检查，但概念图请求仍被工具拒绝；无 .blend、GLB、模型渲染或已验收外观子型。
 
 ## 来源与独立性
 
@@ -80,3 +80,7 @@ npm run preview
 [原始资产工作台说明](modules/dot-model-generator/README.zh-CN.md) · [逐文件来源](provenance/import-manifest.json) · [迁移修改清单](provenance/migration-deltas.json) · [依赖图文件清单](provenance/runtime-dependencies.json) · [分支核对](provenance/branch-heads.json) · [来源与许可](THIRD_PARTY_NOTICES.md)
 
 保留的历史模块源码/测试/证据可能引用当时完整 PGF 的开发脚本；本仓库独立入口为 `gallery/main.js`，独立运行依赖已打包核验，`npm test` 只运行本入口相关的 88 项回归。原全应用导航集合测试没有伪称在独立展厅通过。来源未统一授予新的开放许可。
+
+## 后续工具恢复（2026-10-21）
+
+[固定版本恢复步骤与边界](scripts/tooling/README.zh-CN.md) · [真实 MCP 握手回执](evidence/tooling/mcp-verification.json)。mcp-for-blender 2.1.9 + Blender 4.3.2 已通过初始化、工具发现、插件状态和场景只读调用；安全模式有效，遥测和外部服务关闭，结束后进程/监听退出。Firefox仍因无离线包、此前官方CDN代理403未解除而未安装；Kar98k继续暂停。
