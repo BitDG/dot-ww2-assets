@@ -1,6 +1,7 @@
 {
+  "format": "PGF.ComponentRecipe",
+  "version": 1,
   "generator": "reference-armored-car",
-  "version": "1.1.0",
   "seed": "dot-gallery-20261021",
   "params": {
     "scale": 1,

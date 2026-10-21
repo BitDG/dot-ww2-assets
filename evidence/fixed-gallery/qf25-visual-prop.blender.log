@@ -1,0 +1,434 @@
+Blender 4.3.2
+Fra:1 Mem:51.91M (Peak 51.91M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Barrel_Collar_0
+Fra:1 Mem:51.92M (Peak 51.92M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Barrel_Collar_2
+Fra:1 Mem:54.21M (Peak 54.21M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Barrel_Collar_3
+Fra:1 Mem:54.26M (Peak 54.26M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Lower_Exterior_Shroud
+Fra:1 Mem:54.21M (Peak 54.26M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Main_Closed_Barrel
+Fra:1 Mem:54.41M (Peak 54.41M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Rear_Closed_Housing
+Fra:1 Mem:54.31M (Peak 54.41M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Rear_End_Plate
+Fra:1 Mem:54.44M (Peak 54.44M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Rear_Housing_EndBolt_-1_103
+Fra:1 Mem:54.49M (Peak 54.49M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Rear_Housing_EndBolt_-1_122
+Fra:1 Mem:54.56M (Peak 54.56M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Rear_Housing_EndBolt_1_103
+Fra:1 Mem:54.47M (Peak 54.56M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Rear_Housing_EndBolt_1_122
+Fra:1 Mem:54.54M (Peak 54.56M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Rear_Outer_Sleeve
+Fra:1 Mem:54.64M (Peak 54.64M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shallow_Muzzle_Lip
+Fra:1 Mem:54.73M (Peak 54.73M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shallow_Sealed_Front
+Fra:1 Mem:54.71M (Peak 54.73M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shroud_Edge_-1
+Fra:1 Mem:54.82M (Peak 54.82M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shroud_Edge_1
+Fra:1 Mem:54.72M (Peak 54.82M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shroud_Exterior_Rivet_-1_0
+Fra:1 Mem:54.79M (Peak 54.82M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shroud_Exterior_Rivet_-1_1
+Fra:1 Mem:54.77M (Peak 54.82M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shroud_Exterior_Rivet_-1_10
+Fra:1 Mem:54.85M (Peak 54.85M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shroud_Exterior_Rivet_-1_2
+Fra:1 Mem:54.87M (Peak 54.87M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shroud_Exterior_Rivet_-1_3
+Fra:1 Mem:54.86M (Peak 54.87M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shroud_Exterior_Rivet_-1_4
+Fra:1 Mem:54.88M (Peak 54.88M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shroud_Exterior_Rivet_-1_5
+Fra:1 Mem:54.94M (Peak 54.94M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shroud_Exterior_Rivet_-1_6
+Fra:1 Mem:55.04M (Peak 55.04M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Wheel_Dished_Disc_1_1
+Fra:1 Mem:55.00M (Peak 55.04M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shroud_Exterior_Rivet_-1_7
+Fra:1 Mem:55.03M (Peak 55.04M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shroud_Exterior_Rivet_-1_8
+Fra:1 Mem:55.04M (Peak 55.04M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shroud_Exterior_Rivet_-1_9
+Fra:1 Mem:55.19M (Peak 55.19M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shroud_Exterior_Rivet_1_0
+Fra:1 Mem:55.21M (Peak 55.21M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shroud_Exterior_Rivet_1_1
+Fra:1 Mem:55.18M (Peak 55.21M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shroud_Exterior_Rivet_1_10
+Fra:1 Mem:55.24M (Peak 55.24M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shroud_Exterior_Rivet_1_2
+Fra:1 Mem:55.26M (Peak 55.26M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shroud_Exterior_Rivet_1_3
+Fra:1 Mem:55.30M (Peak 55.30M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shroud_Exterior_Rivet_1_4
+Fra:1 Mem:55.31M (Peak 55.31M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shroud_Exterior_Rivet_1_5
+Fra:1 Mem:55.36M (Peak 55.36M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shroud_Exterior_Rivet_1_6
+Fra:1 Mem:55.34M (Peak 55.36M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shroud_Exterior_Rivet_1_7
+Fra:1 Mem:55.37M (Peak 55.37M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Wheel_Dished_Disc_1_-1
+Fra:1 Mem:55.45M (Peak 55.45M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shroud_Exterior_Rivet_1_8
+Fra:1 Mem:55.45M (Peak 55.45M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shroud_Exterior_Rivet_1_9
+Fra:1 Mem:55.46M (Peak 55.46M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Axle_Center_Shell
+Fra:1 Mem:55.54M (Peak 55.54M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Axle_Collar_-1
+Fra:1 Mem:55.51M (Peak 55.54M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Axle_Collar_1
+Fra:1 Mem:55.51M (Peak 55.54M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Axle_Exterior
+Fra:1 Mem:55.88M (Peak 55.88M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Carriage_Raked_Side_-1
+Fra:1 Mem:55.87M (Peak 55.88M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Carriage_Raked_Side_1
+Fra:1 Mem:55.88M (Peak 55.88M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Carriage_Side_Gusset_-1
+Fra:1 Mem:55.95M (Peak 55.95M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Carriage_Side_Gusset_1
+Fra:1 Mem:55.93M (Peak 55.95M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Central_Base_Shell
+Fra:1 Mem:55.98M (Peak 55.98M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Wheel_Carcass_1
+Fra:1 Mem:56.75M (Peak 56.75M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Cosmetic_Side_Disc_-1
+Fra:1 Mem:56.87M (Peak 56.87M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Cosmetic_Side_Disc_1
+Fra:1 Mem:56.94M (Peak 56.94M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Box_Cosmetic_Hinge_078
+Fra:1 Mem:56.98M (Peak 56.98M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Box_Cosmetic_Hinge_10
+Fra:1 Mem:57.26M (Peak 57.26M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Box_Lid_Tab_078
+Fra:1 Mem:57.26M (Peak 57.26M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Box_Lid_Tab_10
+Fra:1 Mem:57.29M (Peak 57.29M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Carriage_Bolt_-1_07
+Fra:1 Mem:57.23M (Peak 57.29M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Carriage_Bolt_-1_082
+Fra:1 Mem:57.27M (Peak 57.29M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Carriage_Bolt_-1_096
+Fra:1 Mem:57.33M (Peak 57.33M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Carriage_Bolt_1_07
+Fra:1 Mem:57.35M (Peak 57.35M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Carriage_Bolt_1_082
+Fra:1 Mem:57.51M (Peak 57.51M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Carriage_Bolt_1_096
+Fra:1 Mem:57.53M (Peak 57.53M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Left_Large_Handwheel_Center
+Fra:1 Mem:57.51M (Peak 57.53M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Left_Large_Handwheel_Handle
+Fra:1 Mem:57.66M (Peak 57.66M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Left_Large_Handwheel_Ring
+Fra:1 Mem:57.66M (Peak 57.66M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Left_Large_Handwheel_Spoke_0
+Fra:1 Mem:57.74M (Peak 57.74M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Left_Large_Handwheel_Spoke_1
+Fra:1 Mem:57.72M (Peak 57.74M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Left_Large_Handwheel_Spoke_2
+Fra:1 Mem:57.70M (Peak 57.74M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Left_Large_Handwheel_Spoke_3
+Fra:1 Mem:57.80M (Peak 57.80M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Left_Small_Handwheel_Center
+Fra:1 Mem:57.87M (Peak 57.87M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Left_Small_Handwheel_Handle
+Fra:1 Mem:57.94M (Peak 57.94M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Left_Small_Handwheel_Ring
+Fra:1 Mem:58.06M (Peak 58.06M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Left_Small_Handwheel_Spoke_0
+Fra:1 Mem:58.06M (Peak 58.06M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Left_Small_Handwheel_Spoke_1
+Fra:1 Mem:58.07M (Peak 58.07M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Left_Small_Handwheel_Spoke_2
+Fra:1 Mem:58.07M (Peak 58.07M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Left_Small_Handwheel_Spoke_3
+Fra:1 Mem:58.15M (Peak 58.15M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Rear_Box_Lid
+Fra:1 Mem:58.14M (Peak 58.15M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Rear_Exterior_Box
+Fra:1 Mem:58.29M (Peak 58.29M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Seat_Angled_Support
+Fra:1 Mem:58.38M (Peak 58.38M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Seat_Center_Closure
+Fra:1 Mem:58.41M (Peak 58.41M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Seat_Post
+Fra:1 Mem:58.60M (Peak 58.60M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Seat_Post_Collar
+Fra:1 Mem:58.62M (Peak 58.62M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Seat_Shallow_Dish
+Fra:1 Mem:58.72M (Peak 58.72M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Left_Shield_Cosmetic_Flap
+Fra:1 Mem:58.77M (Peak 58.77M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Right_Shield_Cosmetic_Flap
+Fra:1 Mem:58.68M (Peak 58.77M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Back_Brace_-1
+Fra:1 Mem:58.69M (Peak 58.77M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Back_Brace_1
+Fra:1 Mem:58.71M (Peak 58.77M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Fold_Hinge_-1
+Fra:1 Mem:58.75M (Peak 58.77M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Fold_Hinge_1
+Fra:1 Mem:58.82M (Peak 58.82M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Hinge_Barrel_-1_0
+Fra:1 Mem:58.91M (Peak 58.91M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Hinge_Barrel_-1_1
+Fra:1 Mem:59.04M (Peak 59.04M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Rim_Lip_1_-1
+Fra:1 Mem:59.00M (Peak 59.04M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Hinge_Barrel_-1_2
+Fra:1 Mem:59.18M (Peak 59.18M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Stepped_Ring_1_1
+Fra:1 Mem:59.10M (Peak 59.18M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Hinge_Barrel_-1_3
+Fra:1 Mem:59.10M (Peak 59.18M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Hinge_Barrel_-1_4
+Fra:1 Mem:59.28M (Peak 59.28M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Hinge_Barrel_-1_5
+Fra:1 Mem:59.28M (Peak 59.28M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Hinge_Barrel_1_0
+Fra:1 Mem:59.48M (Peak 59.48M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Stepped_Ring_1_-1
+Fra:1 Mem:59.49M (Peak 59.49M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Hinge_Barrel_1_1
+Fra:1 Mem:59.45M (Peak 59.49M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Hinge_Barrel_1_2
+Fra:1 Mem:59.68M (Peak 59.68M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Hinge_Barrel_1_3
+Fra:1 Mem:59.69M (Peak 59.69M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Hinge_Barrel_1_4
+Fra:1 Mem:59.77M (Peak 59.77M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Hinge_Barrel_1_5
+Fra:1 Mem:59.81M (Peak 59.81M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Hinge_Leaf_-1_0
+Fra:1 Mem:59.83M (Peak 59.83M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Hinge_Leaf_-1_1
+Fra:1 Mem:59.86M (Peak 59.86M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Hinge_Leaf_-1_2
+Fra:1 Mem:59.90M (Peak 59.90M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Hinge_Leaf_-1_3
+Fra:1 Mem:59.92M (Peak 59.92M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Hinge_Leaf_-1_4
+Fra:1 Mem:59.96M (Peak 59.96M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Hinge_Leaf_-1_5
+Fra:1 Mem:59.98M (Peak 59.98M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Hinge_Leaf_1_0
+Fra:1 Mem:59.95M (Peak 59.98M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Hinge_Leaf_1_1
+Fra:1 Mem:60.04M (Peak 60.04M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Hinge_Leaf_1_2
+Fra:1 Mem:60.06M (Peak 60.06M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Hinge_Leaf_1_3
+Fra:1 Mem:60.08M (Peak 60.08M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Hinge_Leaf_1_4
+Fra:1 Mem:60.13M (Peak 60.13M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Hinge_Leaf_1_5
+Fra:1 Mem:60.14M (Peak 60.14M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Lower_Shield_-1
+Fra:1 Mem:60.16M (Peak 60.16M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Lower_Shield_1
+Fra:1 Mem:60.20M (Peak 60.20M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Vertical_Reinforcement_-1
+Fra:1 Mem:60.28M (Peak 60.28M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Vertical_Reinforcement_1
+Fra:1 Mem:60.23M (Peak 60.28M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Mid_Rivet_-1_0
+Fra:1 Mem:60.22M (Peak 60.28M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Mid_Rivet_-1_1
+Fra:1 Mem:60.22M (Peak 60.28M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Mid_Rivet_-1_2
+Fra:1 Mem:60.31M (Peak 60.31M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Mid_Rivet_-1_3
+Fra:1 Mem:60.35M (Peak 60.35M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Mid_Rivet_-1_4
+Fra:1 Mem:60.47M (Peak 60.47M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_1_1_7
+Fra:1 Mem:60.43M (Peak 60.47M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Mid_Rivet_-1_5
+Fra:1 Mem:60.40M (Peak 60.47M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Mid_Rivet_-1_6
+Fra:1 Mem:60.49M (Peak 60.49M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Mid_Rivet_-1_7
+Fra:1 Mem:60.44M (Peak 60.49M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Mid_Rivet_1_0
+Fra:1 Mem:60.42M (Peak 60.49M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Mid_Rivet_1_1
+Fra:1 Mem:60.47M (Peak 60.49M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Mid_Rivet_1_2
+Fra:1 Mem:60.58M (Peak 60.58M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_1_1_6
+Fra:1 Mem:60.53M (Peak 60.58M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Mid_Rivet_1_3
+Fra:1 Mem:60.56M (Peak 60.58M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Mid_Rivet_1_4
+Fra:1 Mem:60.60M (Peak 60.60M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Mid_Rivet_1_5
+Fra:1 Mem:60.53M (Peak 60.60M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Mid_Rivet_1_6
+Fra:1 Mem:60.59M (Peak 60.60M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_1_1_5
+Fra:1 Mem:60.65M (Peak 60.65M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Mid_Rivet_1_7
+Fra:1 Mem:60.68M (Peak 60.68M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Outer_Fold_-1
+Fra:1 Mem:60.67M (Peak 60.68M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_1_1_4
+Fra:1 Mem:60.65M (Peak 60.68M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Outer_Rivet_-1_0
+Fra:1 Mem:60.78M (Peak 60.78M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Outer_Rivet_-1_1
+Fra:1 Mem:60.81M (Peak 60.81M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_1_1_3
+Fra:1 Mem:60.78M (Peak 60.81M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Outer_Rivet_-1_2
+Fra:1 Mem:60.78M (Peak 60.81M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Outer_Rivet_-1_3
+Fra:1 Mem:60.88M (Peak 60.88M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_1_1_2
+Fra:1 Mem:60.92M (Peak 60.92M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Outer_Rivet_-1_4
+Fra:1 Mem:60.90M (Peak 60.92M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Outer_Rivet_-1_7
+Fra:1 Mem:60.93M (Peak 60.93M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Outer_Rivet_-1_8
+Fra:1 Mem:60.95M (Peak 60.95M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Outer_Rivet_1_0
+Fra:1 Mem:61.01M (Peak 61.01M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_1_1_1
+Fra:1 Mem:61.01M (Peak 61.01M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Outer_Rivet_1_1
+Fra:1 Mem:61.10M (Peak 61.10M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Outer_Rivet_1_2
+Fra:1 Mem:61.04M (Peak 61.10M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_1_1_0
+Fra:1 Mem:61.17M (Peak 61.17M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Outer_Rivet_1_4
+Fra:1 Mem:61.21M (Peak 61.21M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Outer_Rivet_1_5
+Fra:1 Mem:61.25M (Peak 61.25M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Outer_Rivet_1_6
+Fra:1 Mem:61.28M (Peak 61.28M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Outer_Rivet_1_7
+Fra:1 Mem:61.24M (Peak 61.28M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Outer_Rivet_1_8
+Fra:1 Mem:61.27M (Peak 61.28M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_1_-1_7
+Fra:1 Mem:61.27M (Peak 61.28M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Rail_Rivet_-1_08
+Fra:1 Mem:61.36M (Peak 61.36M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Rail_Rivet_-1_096
+Fra:1 Mem:61.35M (Peak 61.36M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Rail_Rivet_-1_113
+Fra:1 Mem:61.37M (Peak 61.37M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Rail_Rivet_-1_132
+Fra:1 Mem:61.44M (Peak 61.44M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_1_-1_6
+Fra:1 Mem:61.41M (Peak 61.44M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Rail_Rivet_-1_15
+Fra:1 Mem:61.47M (Peak 61.47M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Rail_Rivet_1_08
+Fra:1 Mem:61.47M (Peak 61.47M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_1_-1_5
+Fra:1 Mem:61.45M (Peak 61.47M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Rail_Rivet_1_096
+Fra:1 Mem:61.45M (Peak 61.47M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Rail_Rivet_1_113
+Fra:1 Mem:61.57M (Peak 61.57M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Rail_Rivet_1_132
+Fra:1 Mem:61.55M (Peak 61.57M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Rail_Rivet_1_15
+Fra:1 Mem:61.51M (Peak 61.57M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Shield_Top_Fold_-1
+Fra:1 Mem:61.58M (Peak 61.58M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_1_-1_4
+Fra:1 Mem:61.57M (Peak 61.58M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Upper_Shield_1
+Fra:1 Mem:61.57M (Peak 61.58M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_1_-1_3
+Fra:1 Mem:61.70M (Peak 61.70M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Tail_End_Outer_Plate_-1
+Fra:1 Mem:61.74M (Peak 61.74M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_1_-1_2
+Fra:1 Mem:61.74M (Peak 61.74M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Tail_End_Outer_Plate_1
+Fra:1 Mem:61.86M (Peak 61.86M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Tail_Plate_Bolt_-1_213
+Fra:1 Mem:61.88M (Peak 61.88M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Tail_Plate_Bolt_-1_2325
+Fra:1 Mem:61.90M (Peak 61.89M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Tail_Plate_Bolt_1_213
+Fra:1 Mem:61.84M (Peak 61.89M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_1_-1_1
+Fra:1 Mem:61.84M (Peak 61.89M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Tail_Plate_Bolt_1_2325
+Fra:1 Mem:61.97M (Peak 61.97M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_1_-1_0
+Fra:1 Mem:61.91M (Peak 61.97M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Tail_Skid
+Fra:1 Mem:61.97M (Peak 61.97M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Tow_Eye
+Fra:1 Mem:62.07M (Peak 62.07M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Tow_Neck
+Fra:1 Mem:62.09M (Peak 62.09M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Center_Button_1_1
+Fra:1 Mem:62.08M (Peak 62.09M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Edge_-1
+Fra:1 Mem:62.11M (Peak 62.11M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Edge_1
+Fra:1 Mem:62.14M (Peak 62.14M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_End_Collar
+Fra:1 Mem:62.18M (Peak 62.18M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Front_Crosspiece
+Fra:1 Mem:62.21M (Peak 62.21M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rear_Crosspiece
+Fra:1 Mem:62.20M (Peak 62.21M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_-1_0
+Fra:1 Mem:62.30M (Peak 62.30M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_-1_1
+Fra:1 Mem:62.29M (Peak 62.30M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_-1_10
+Fra:1 Mem:62.40M (Peak 62.40M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_-1_11
+Fra:1 Mem:62.38M (Peak 62.40M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Center_Button_1_-1
+Fra:1 Mem:62.39M (Peak 62.40M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_-1_12
+Fra:1 Mem:62.45M (Peak 62.46M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_-1_13
+Fra:1 Mem:62.54M (Peak 62.54M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_-1_2
+Fra:1 Mem:62.57M (Peak 62.57M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_-1_3
+Fra:1 Mem:62.56M (Peak 62.57M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_-1_4
+Fra:1 Mem:62.58M (Peak 62.58M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_-1_5
+Fra:1 Mem:62.58M (Peak 62.58M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Cap_1_1
+Fra:1 Mem:62.67M (Peak 62.67M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_-1_6
+Fra:1 Mem:62.66M (Peak 62.67M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_-1_7
+Fra:1 Mem:62.75M (Peak 62.74M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_-1_8
+Fra:1 Mem:62.71M (Peak 62.74M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_1_0
+Fra:1 Mem:62.83M (Peak 62.83M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_1_1
+Fra:1 Mem:62.89M (Peak 62.89M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_1_10
+Fra:1 Mem:62.89M (Peak 62.89M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_1_11
+Fra:1 Mem:62.86M (Peak 62.89M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Cap_1_-1
+Fra:1 Mem:62.82M (Peak 62.89M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_1_12
+Fra:1 Mem:62.99M (Peak 62.99M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_1_13
+Fra:1 Mem:63.04M (Peak 63.04M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_1_2
+Fra:1 Mem:63.07M (Peak 63.07M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_1_3
+Fra:1 Mem:63.05M (Peak 63.07M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_1_4
+Fra:1 Mem:63.10M (Peak 63.10M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_1_5
+Fra:1 Mem:63.11M (Peak 63.11M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_1_1_7
+Fra:1 Mem:63.12M (Peak 63.12M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_1_6
+Fra:1 Mem:63.16M (Peak 63.16M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_1_7
+Fra:1 Mem:63.17M (Peak 63.17M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_1_8
+Fra:1 Mem:63.20M (Peak 63.20M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Rivet_1_9
+Fra:1 Mem:63.26M (Peak 63.26M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_1_1_6
+Fra:1 Mem:63.24M (Peak 63.26M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Side_Beam_-1
+Fra:1 Mem:63.26M (Peak 63.26M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Trail_Side_Beam_1
+Fra:1 Mem:63.28M (Peak 63.28M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Platform_Center
+Fra:1 Mem:63.30M (Peak 63.30M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_1_1_5
+Fra:1 Mem:63.40M (Peak 63.40M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Platform_Rim
+Fra:1 Mem:63.47M (Peak 63.47M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Platform_Rim_Rivet_0
+Fra:1 Mem:63.52M (Peak 63.52M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_1_1_4
+Fra:1 Mem:63.51M (Peak 63.52M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Platform_Rim_Rivet_1
+Fra:1 Mem:63.51M (Peak 63.52M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Platform_Rim_Rivet_2
+Fra:1 Mem:63.53M (Peak 63.53M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Platform_Rim_Rivet_3
+Fra:1 Mem:63.55M (Peak 63.55M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Platform_Rim_Rivet_4
+Fra:1 Mem:63.58M (Peak 63.58M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Platform_Rim_Rivet_5
+Fra:1 Mem:63.60M (Peak 63.60M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Platform_Rim_Rivet_6
+Fra:1 Mem:63.63M (Peak 63.63M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Platform_Rim_Rivet_7
+Fra:1 Mem:63.65M (Peak 63.65M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Platform_Rim_Rivet_8
+Fra:1 Mem:63.72M (Peak 63.72M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Platform_Rim_Rivet_9
+Fra:1 Mem:63.75M (Peak 63.75M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Platform_Spoke_0
+Fra:1 Mem:63.78M (Peak 63.78M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Platform_Spoke_1
+Fra:1 Mem:63.81M (Peak 63.81M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Platform_Spoke_2
+Fra:1 Mem:63.88M (Peak 63.85M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Platform_Spoke_3
+Fra:1 Mem:63.86M (Peak 63.86M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Platform_Spoke_4
+Fra:1 Mem:63.95M (Peak 63.95M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Platform_Spoke_5
+Fra:1 Mem:63.95M (Peak 63.95M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_1_1_2
+Fra:1 Mem:64.02M (Peak 64.02M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Platform_Spoke_6
+Fra:1 Mem:64.02M (Peak 64.02M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_1_1_1
+Fra:1 Mem:64.06M (Peak 64.06M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Platform_Spoke_7
+Fra:1 Mem:64.09M (Peak 64.09M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Platform_Spoke_8
+Fra:1 Mem:64.16M (Peak 64.16M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Platform_Spoke_9
+Fra:1 Mem:64.16M (Peak 64.16M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_-1_0
+Fra:1 Mem:64.31M (Peak 64.31M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_-1_1
+Fra:1 Mem:64.20M (Peak 64.31M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_-1_10
+Fra:1 Mem:64.35M (Peak 64.35M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_-1_11
+Fra:1 Mem:64.34M (Peak 64.35M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_-1_12
+Fra:1 Mem:64.50M (Peak 64.50M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_-1_13
+Fra:1 Mem:64.53M (Peak 64.53M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_-1_14
+Fra:1 Mem:64.64M (Peak 64.64M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_-1_15
+Fra:1 Mem:64.69M (Peak 64.69M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_-1_16
+Fra:1 Mem:64.68M (Peak 64.69M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_-1_17
+Fra:1 Mem:64.77M (Peak 64.77M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_-1_18
+Fra:1 Mem:64.81M (Peak 64.81M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_1_-1_7
+Fra:1 Mem:64.74M (Peak 64.81M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_-1_19
+Fra:1 Mem:64.85M (Peak 64.85M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_-1_2
+Fra:1 Mem:64.97M (Peak 64.97M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_1_-1_6
+Fra:1 Mem:64.90M (Peak 64.97M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_-1_3
+Fra:1 Mem:64.86M (Peak 64.97M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_-1_4
+Fra:1 Mem:65.05M (Peak 65.05M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_-1_5
+Fra:1 Mem:65.21M (Peak 65.21M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_1_-1_5
+Fra:1 Mem:65.13M (Peak 65.21M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_-1_6
+Fra:1 Mem:65.31M (Peak 65.31M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_-1_7
+Fra:1 Mem:65.18M (Peak 65.31M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_1_-1_4
+Fra:1 Mem:65.18M (Peak 65.31M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_-1_8
+Fra:1 Mem:65.38M (Peak 65.38M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_-1_9
+Fra:1 Mem:65.47M (Peak 65.47M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_-1_-1_0
+Fra:1 Mem:65.34M (Peak 65.47M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_-1_-1_1
+Fra:1 Mem:65.36M (Peak 65.47M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_-1_-1_2
+Fra:1 Mem:65.35M (Peak 65.47M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_1_-1_3
+Fra:1 Mem:65.30M (Peak 65.47M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_-1_-1_4
+Fra:1 Mem:65.44M (Peak 65.47M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_-1_-1_5
+Fra:1 Mem:65.47M (Peak 65.47M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_-1_-1_6
+Fra:1 Mem:65.45M (Peak 65.47M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_-1_-1_7
+Fra:1 Mem:65.47M (Peak 65.47M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_-1_1_0
+Fra:1 Mem:65.53M (Peak 65.53M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_1_-1_1
+Fra:1 Mem:65.51M (Peak 65.53M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_-1_1_1
+Fra:1 Mem:65.54M (Peak 65.54M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_-1_1_2
+Fra:1 Mem:65.61M (Peak 65.61M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_-1_1_4
+Fra:1 Mem:65.71M (Peak 65.71M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_1_-1_0
+Fra:1 Mem:65.70M (Peak 65.71M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_-1_1_5
+Fra:1 Mem:65.76M (Peak 65.76M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_-1_1_6
+Fra:1 Mem:65.77M (Peak 65.77M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Bolt_Seat_-1_1_7
+Fra:1 Mem:65.87M (Peak 65.87M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Cap_-1_-1
+Fra:1 Mem:65.93M (Peak 65.93M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Cap_-1_1
+Fra:1 Mem:65.96M (Peak 65.96M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_1_9
+Fra:1 Mem:66.16M (Peak 66.16M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_1_8
+Fra:1 Mem:66.14M (Peak 66.16M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Center_Button_-1_-1
+Fra:1 Mem:66.14M (Peak 66.16M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Center_Button_-1_1
+Fra:1 Mem:66.41M (Peak 66.41M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_-1_-1_0
+Fra:1 Mem:66.24M (Peak 66.41M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_-1_-1_1
+Fra:1 Mem:66.25M (Peak 66.41M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_-1_-1_2
+Fra:1 Mem:66.24M (Peak 66.41M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_1_7
+Fra:1 Mem:66.22M (Peak 66.41M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_-1_-1_3
+Fra:1 Mem:66.22M (Peak 66.41M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_-1_-1_4
+Fra:1 Mem:66.24M (Peak 66.41M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_-1_-1_5
+Fra:1 Mem:66.44M (Peak 66.44M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_-1_-1_7
+Fra:1 Mem:66.32M (Peak 66.44M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_-1_1_0
+Fra:1 Mem:66.37M (Peak 66.44M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_1_6
+Fra:1 Mem:66.37M (Peak 66.44M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_-1_1_1
+Fra:1 Mem:66.56M (Peak 66.56M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_-1_1_2
+Fra:1 Mem:66.43M (Peak 66.56M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_-1_1_3
+Fra:1 Mem:66.52M (Peak 66.56M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_-1_1_4
+Fra:1 Mem:66.52M (Peak 66.56M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_-1_1_5
+Fra:1 Mem:66.52M (Peak 66.56M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_1_5
+Fra:1 Mem:66.51M (Peak 66.56M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_-1_1_6
+Fra:1 Mem:66.53M (Peak 66.56M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_-1_1_7
+Fra:1 Mem:66.54M (Peak 66.56M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Fastener_-1_-1_6
+Fra:1 Mem:66.56M (Peak 66.56M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Stepped_Ring_-1_-1
+Fra:1 Mem:66.62M (Peak 66.62M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Hub_Stepped_Ring_-1_1
+Fra:1 Mem:66.61M (Peak 66.62M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Rim_Lip_-1_-1
+Fra:1 Mem:66.85M (Peak 66.85M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_1_4
+Fra:1 Mem:66.95M (Peak 66.95M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_1_3
+Fra:1 Mem:67.12M (Peak 67.12M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Rim_Lip_-1_1
+Fra:1 Mem:67.09M (Peak 67.12M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Wheel_Carcass_-1
+Fra:1 Mem:67.15M (Peak 67.15M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_1_2
+Fra:1 Mem:67.30M (Peak 67.30M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Wheel_Dished_Disc_-1_-1
+Fra:1 Mem:67.36M (Peak 67.36M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Wheel_Dished_Disc_-1_1
+Fra:1 Mem:67.88M (Peak 67.88M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_1_0
+Fra:1 Mem:68.27M (Peak 68.27M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_1_1
+Fra:1 Mem:68.13M (Peak 68.27M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_1_10
+Fra:1 Mem:68.19M (Peak 68.27M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_1_11
+Fra:1 Mem:68.22M (Peak 68.27M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_1_12
+Fra:1 Mem:68.40M (Peak 68.40M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_1_19
+Fra:1 Mem:68.41M (Peak 68.41M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_1_13
+Fra:1 Mem:68.49M (Peak 68.49M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_1_14
+Fra:1 Mem:68.42M (Peak 68.49M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_1_15
+Fra:1 Mem:68.55M (Peak 68.55M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_1_16
+Fra:1 Mem:68.52M (Peak 68.55M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_1_17
+Fra:1 Mem:68.68M (Peak 68.68M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QF25_Broad_Wave_Tread_1_18
+Fra:1 Mem:68.89M (Peak 68.89M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:67.48M (Peak 68.89M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading texture-0
+Fra:1 Mem:67.48M (Peak 68.89M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading texture-1
+Fra:1 Mem:67.48M (Peak 68.89M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading texture-2
+Fra:1 Mem:59.90M (Peak 71.50M) | Time:00:00.15 | Mem:3.00M, Peak:3.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:59.90M (Peak 71.50M) | Time:00:00.15 | Mem:3.00M, Peak:3.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:59.90M (Peak 71.50M) | Time:00:00.15 | Mem:3.00M, Peak:3.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:59.90M (Peak 71.50M) | Time:00:00.15 | Mem:3.00M, Peak:3.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:59.99M (Peak 71.50M) | Time:00:00.15 | Mem:3.01M, Peak:3.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:59.99M (Peak 71.50M) | Time:00:00.15 | Mem:3.01M, Peak:3.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:59.99M (Peak 71.50M) | Time:00:00.15 | Mem:3.01M, Peak:3.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:59.99M (Peak 71.50M) | Time:00:00.15 | Mem:3.01M, Peak:3.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:59.99M (Peak 71.50M) | Time:00:00.15 | Mem:3.01M, Peak:3.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:59.99M (Peak 71.50M) | Time:00:00.15 | Mem:3.01M, Peak:3.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:60.07M (Peak 71.50M) | Time:00:00.15 | Mem:3.09M, Peak:3.09M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:60.07M (Peak 71.50M) | Time:00:00.15 | Mem:3.09M, Peak:3.09M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:60.07M (Peak 71.50M) | Time:00:00.15 | Mem:3.09M, Peak:3.09M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:60.07M (Peak 71.50M) | Time:00:00.15 | Mem:3.09M, Peak:3.09M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:61.64M (Peak 71.50M) | Time:00:00.16 | Mem:3.09M, Peak:3.09M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:65.42M (Peak 71.50M) | Time:00:00.16 | Mem:3.12M, Peak:3.12M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:65.34M (Peak 71.50M) | Time:00:00.16 | Mem:6.79M, Peak:6.79M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:65.35M (Peak 71.50M) | Time:00:00.16 | Mem:6.79M, Peak:6.79M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:65.35M (Peak 71.50M) | Time:00:00.16 | Mem:9.92M, Peak:9.92M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:65.35M (Peak 71.50M) | Time:00:00.18 | Mem:13.66M, Peak:16.80M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:65.35M (Peak 71.50M) | Time:00:00.18 | Mem:13.66M, Peak:16.80M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:72.13M (Peak 72.13M) | Time:00:00.18 | Mem:13.66M, Peak:16.80M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:72.13M (Peak 72.13M) | Time:00:00.18 | Mem:20.45M, Peak:20.45M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:72.13M (Peak 72.13M) | Time:00:00.18 | Mem:20.45M, Peak:20.45M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:72.13M (Peak 72.13M) | Time:00:00.18 | Mem:20.45M, Peak:20.45M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:72.13M (Peak 72.13M) | Time:00:00.18 | Mem:20.45M, Peak:20.45M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:72.13M (Peak 72.13M) | Time:00:00.18 | Mem:20.45M, Peak:20.45M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:72.13M (Peak 72.13M) | Time:00:00.18 | Mem:20.53M, Peak:20.53M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:72.13M (Peak 72.13M) | Time:00:00.18 | Mem:20.53M, Peak:20.53M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:72.14M (Peak 72.14M) | Time:00:00.18 | Mem:20.53M, Peak:20.53M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:72.14M (Peak 72.14M) | Time:00:00.18 | Mem:20.53M, Peak:20.53M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:72.14M (Peak 72.14M) | Time:00:00.18 | Mem:20.45M, Peak:20.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:72.14M (Peak 72.14M) | Time:00:00.18 | Mem:20.54M, Peak:20.54M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:72.14M (Peak 72.14M) | Time:00:00.18 | Mem:20.54M, Peak:20.54M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:72.15M (Peak 72.15M) | Time:00:00.18 | Mem:20.54M, Peak:20.54M | Scene, ViewLayer | Sample 0/48
+Fra:1 Mem:107.32M (Peak 107.32M) | Time:00:00.89 | Remaining:00:33.18 | Mem:55.71M, Peak:55.71M | Scene, ViewLayer | Sample 1/48
+Fra:1 Mem:107.32M (Peak 107.32M) | Time:00:19.07 | Remaining:00:08.58 | Mem:55.71M, Peak:55.71M | Scene, ViewLayer | Sample 33/48
+Fra:1 Mem:122.94M (Peak 154.19M) | Time:00:26.43 | Mem:55.71M, Peak:55.71M | Scene, ViewLayer | Sample 48/48
+Fra:1 Mem:122.94M (Peak 154.19M) | Time:00:26.43 | Mem:55.71M, Peak:55.71M | Scene, ViewLayer | Finished
+Saved: '/workspace/dot-ww2-assets/gallery/renders/qf25-visual-prop.png'
+Time: 00:26.82 (Saving: 00:00.38)
+
+BlenderMCP addon registered
+Server thread started
+Connected to client: ('127.0.0.1', 46162)
+Client handler started
+Queued command: get_addon_info
+Executing handler for get_addon_info
+Handler execution complete
+Queued command: get_addon_info
+Executing handler for get_addon_info
+Handler execution complete
+Queued command: get_polyhaven_status
+Queued command: get_sketchfab_status
+Executing handler for get_sketchfab_status
+Handler execution complete
+Queued command: get_polypizza_status
+Executing handler for get_polypizza_status
+Handler execution complete
+Queued command: get_hunyuan3d_status
+Executing handler for get_hunyuan3d_status
+Handler execution complete
+Queued command: get_hyper3d_status
+Executing handler for get_hyper3d_status
+Handler execution complete
+Connected to client: ('127.0.0.1', 46176)
+Client handler started
+Queued command: get_addon_info
+Executing handler for get_addon_info
+Handler execution complete
+Queued command: get_telemetry_consent
+Executing handler for get_telemetry_consent
+Handler execution complete
+Queued command: execute_code
+Executing handler for execute_code
+Handler execution complete
+Client disconnected
+Client handler stopped
+Client disconnected
+Client handler stopped
+Error accepting connection: [Errno 9] Bad file descriptor
+Server thread stopped
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+
+Blender quit

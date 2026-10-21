@@ -1,4 +1,7 @@
 {
+  "format": "PGF.ComponentRecipe",
+  "version": 1,
+  "generator": "tracked-mortar",
   "seed": "dot-gallery-20261021",
   "params": {
     "camoPattern": "original",

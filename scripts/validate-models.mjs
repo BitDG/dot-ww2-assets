@@ -25,7 +25,7 @@ for(const m of MODEL_CATALOG.filter(canMount)){
  });assert.equal(nonfinite,0);assert.equal(gltf.animations.length,0);assert(meshes>0);
  const disposed=new Set();gltf.scene.traverse(o=>{if(o.geometry&&!disposed.has(o.geometry)){disposed.add(o.geometry);o.geometry.dispose();}for(const mat of (Array.isArray(o.material)?o.material:[o.material]).filter(Boolean)){for(const t of Object.values(mat))if(t?.isTexture&&!disposed.has(t)){disposed.add(t);t.dispose();}if(!disposed.has(mat)){disposed.add(mat);mat.dispose();}}});
  Object.assign(row,{status:'passed',bytes:bytes.length,sha256:sha(bytes),stats:assetStatistics(first.asset),independent:{meshes,triangles,decodedImages:decoded,animationClips:gltf.animations.length,nonfinite,missingNormals,missingUVs,exactDegenerateTriangles:degenerate,disposedResources:disposed.size},geometryQuality:degenerate||missingNormals||missingUVs?'inherited issues recorded; not certified clean':'checked',deterministic:true});
- await writeFile('public/models/'+m.assetId+'.glb',bytes);await writeFile('public/models/'+m.assetId+'.recipe.json',JSON.stringify(first.recipe,null,2));
+ await writeFile('public/models/'+m.assetId+'.glb',bytes);await writeFile('public/models/'+m.assetId+'.recipe.json',JSON.stringify({format:'PGF.ComponentRecipe',version:1,generator:m.assetId,seed:first.recipe.seed,params:first.recipe.params},null,2));
  }catch(error){row.status='failed';row.error=error.stack;process.exitCode=1;}
  report.models.push(row);console.log(row.id,row.status,row.error??row.bytes);await writeFile('evidence/model-validation.json',JSON.stringify(report,null,2));
 }

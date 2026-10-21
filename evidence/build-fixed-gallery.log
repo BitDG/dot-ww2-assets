@@ -1,0 +1,97 @@
+
+> dot-ww2-assets@0.1.0 build
+> vite build
+
+vite v8.3.0 building client environment for production...
+transforming...
+✓ 173 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                           0.47 kB │ gzip:     0.34 kB
+dist/assets/stage-comet-CziWE3ae.glb                     22.42 kB
+dist/assets/preview.worker-BH5s_cmc.js                  723.38 kB
+dist/assets/asset-export.worker-Cfwxu3Fs.js             752.59 kB
+dist/assets/qf17-visual-prop-DFa6Ho9v.png               768.17 kB
+dist/assets/nebelwerfer41-visual-prop-QbUiuI9g.png      786.30 kB
+dist/assets/land-mattress-visual-prop-CgHhZybR.png      845.44 kB
+dist/assets/LM-L3-low-BJCueU3l.glb                      851.41 kB
+dist/assets/flakzwilling43-visual-prop-qV5zbcwk.png     856.81 kB
+dist/assets/gustav-visual-prop-Co8uwy9e.png             892.27 kB
+dist/assets/qf25-visual-prop-C18ez23F.png               895.94 kB
+dist/assets/bm13-us6-visual-prop-DrXNde4W.png           902.95 kB
+dist/assets/reference-armored-car-Ch-gyTPv.png          917.25 kB
+dist/assets/diesel-locomotive-BAFGt3hN.png              955.89 kB
+dist/assets/tracked-mortar-DDh6HU51.png               1,009.18 kB
+dist/assets/armored-4x4-e7GLL_Re.png                  1,048.97 kB
+dist/assets/QF17-Q6-low-DQFVU9WX.glb                  1,086.18 kB
+dist/assets/worker-B-XVNDH0.js                        1,113.44 kB
+dist/assets/worker-BtFF8qF7.js                        1,114.58 kB
+dist/assets/worker-CAIJ2NiU.js                        1,116.58 kB
+dist/assets/worker-tko5OUi_.js                        1,122.41 kB
+dist/assets/worker-BBoF8B56.js                        1,122.43 kB
+dist/assets/worker-XJUh-u31.js                        1,123.12 kB
+dist/assets/worker-B5kWO9hA.js                        1,288.91 kB
+dist/assets/worker-CJKS14TZ.js                        1,564.22 kB
+dist/assets/QF17-Q6-medium-D9xR5fVX.glb               1,857.75 kB
+dist/assets/LM-L3-medium-BgfXgo2S.glb                 2,584.20 kB
+dist/assets/worker-B2OtrfA9.js                        2,872.72 kB
+dist/assets/FZ43-F2-low-FtZgyZCa.glb                  3,002.17 kB
+dist/assets/QF25-Q2-low-CLtIXmQV.glb                  3,123.20 kB
+dist/assets/QF17-Q6-high-DXHSOx3O.glb                 3,229.33 kB
+dist/assets/worker-C9uWyQG5.js                        3,627.17 kB
+dist/assets/FZ43-F2-geometry-opN2Ds-d.glb             4,087.29 kB
+dist/assets/LM-L3-high-C1fzOs4c.glb                   4,326.31 kB
+dist/assets/QF25-Q2-geometry-BluJoDkZ.glb             4,836.73 kB
+dist/assets/FZ43-F2-high-CEZjspmx.glb                 4,857.24 kB
+dist/assets/BM13-B6-low-YM-WFsKp.glb                  4,899.77 kB
+dist/assets/N41-N2-geometry-BSnUypR9.glb              5,064.75 kB
+dist/assets/QF25-Q2-high-Ch3fVtxz.glb                 5,689.36 kB
+dist/assets/BM13-B6-medium-Dcig2Cue.glb               7,021.18 kB
+dist/assets/worker-xjarZ4ff.js                       10,019.35 kB
+dist/assets/BM13-B6-high-CWlXN7dH.glb                17,956.23 kB
+dist/assets/index-CuzyyFGh.css                            3.99 kB │ gzip:     1.44 kB
+dist/assets/workbench-BPQuQ2uA.css                        7.54 kB │ gzip:     2.03 kB
+dist/assets/batch-BozkJ0HE.js                             1.45 kB │ gzip:     0.75 kB
+dist/assets/geometry-YHPwlaic.js                          1.95 kB │ gzip:     0.99 kB
+dist/assets/metal-finish-D8AYA-AQ.js                      2.70 kB │ gzip:     1.51 kB
+dist/assets/RoundedBoxGeometry-CmWojEkx.js                5.60 kB │ gzip:     2.77 kB
+dist/assets/BufferGeometryUtils-Chnyd410.js               7.13 kB │ gzip:     2.24 kB
+dist/assets/definition-CJI8XCp8.js                        8.95 kB │ gzip:     4.22 kB
+dist/assets/definition-QDAgVIgH.js                        9.89 kB │ gzip:     4.71 kB
+dist/assets/definition-DeEskFST.js                       11.14 kB │ gzip:     5.39 kB
+dist/assets/definition-CcK-v5Uj.js                       11.99 kB │ gzip:     5.50 kB
+dist/assets/definition-ByF1sQsg.js                       14.77 kB │ gzip:     6.49 kB
+dist/assets/definition-BJUUPZ5k.js                       14.79 kB │ gzip:     6.43 kB
+dist/assets/definition-Ci5GLXor.js                       15.48 kB │ gzip:     6.73 kB
+dist/assets/index-C8k5_3Hc.js                            20.15 kB │ gzip:     7.92 kB
+dist/assets/three-ir-DG-ogyP8.js                         23.00 kB │ gzip:     9.64 kB
+dist/assets/core-BCrHeGjY.js                             32.65 kB │ gzip:    12.28 kB
+dist/assets/portable-vehicle-finish-BuwoNQBB.js         158.89 kB │ gzip:    36.59 kB
+dist/assets/definition-BoYo941r.js                      198.30 kB │ gzip:   135.64 kB
+dist/assets/definition-DxeQktc_.js                      472.85 kB │ gzip:   338.22 kB
+dist/assets/asset-Cscw9Kme.js                           705.97 kB │ gzip:   181.24 kB
+dist/assets/definition-CzTR0Aab.js                    1,973.18 kB │ gzip: 1,467.82 kB
+dist/assets/workbench-Bsh_YBT_.js                     2,734.88 kB │ gzip:   567.35 kB
+dist/assets/definition-BceOjqAP.js                    8,968.24 kB │ gzip: 6,552.45 kB
+
+✓ built in 11.65s
+[plugin builtin:vite-reporter]
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[33m[PLUGIN_TIMINGS] [0mPlugin hooks ran for 9.9s of this 11.6s build (85%).
+The slowest hooks, timed inside each callback (the wait before a callback starts is excluded, the time it awaits is included):
+  - vite:worker-import-meta-url transform (57%, 6.6s, 2 calls)
+Additional hook time came from the hooks below and from hooks under 1s.
+3 hooks are listed without a time. Their calls overlapped, so the time inside one call includes work from other calls. To find their cost, profile the build with `node --cpu-prof`:
+  - vite:worker load (11 calls)
+  - vite:asset load (11 calls)
+  - vite:asset-import-meta-url transform (7 calls)
+See https://rolldown.rs/reference/InputOptions.checks#plugintimings for more details.
+
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

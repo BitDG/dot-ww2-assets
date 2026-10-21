@@ -1,0 +1,79 @@
+{
+  "reference-armored-car": {
+    "sha256": "85d14b05483bf2b8aa3cff5efe5ba4a1799df668f3cc109718e6c033b6987eaf",
+    "triangles": 107826,
+    "meshes": 69,
+    "renderSHA256": "11e53a800d5cbc9d66af78f957731dac8fdb7be7f766f7d913821b4f7833ba97",
+    "animationClips": 0
+  },
+  "tracked-mortar": {
+    "sha256": "90d6e192145ae4499570a659c62f358a90d881c8ff69b7e4ef16d2849c015f9c",
+    "triangles": 109900,
+    "meshes": 21,
+    "renderSHA256": "dd8eea18008f822cd0d932ae081d6f55d7ea7a5a1c6ff74c1a81abbf0a349b4d",
+    "animationClips": 0
+  },
+  "gustav-visual-prop": {
+    "sha256": "7c202e49fb22f8704e3735db51e391dcae3a9e9aba2d1949fcd890ed92a57c6b",
+    "triangles": 146012,
+    "meshes": 74,
+    "renderSHA256": "9278e0ec8ffea4e0b79b2cacafa659e0bb71c6e1cfed414d2108a04efb07affd",
+    "animationClips": 0
+  },
+  "diesel-locomotive": {
+    "sha256": "c5ca647348427f728bc185f40133b9a162017a83c5067e2b7c46959745054314",
+    "triangles": 86716,
+    "meshes": 48,
+    "renderSHA256": "1ce597cde4479433ac96917afbe2cd5b055e23b2b3b2c8c0cf1df3001249368d",
+    "animationClips": 0
+  },
+  "armored-4x4": {
+    "sha256": "ec46ed7d0b1571cafc8bcfe6cc2690b866d1b21e83c16d3cf20b82532abff13e",
+    "triangles": 200996,
+    "meshes": 95,
+    "renderSHA256": "1a2f858e3fd6d545212310639e6a940026d1b25bcf62d9388ccb19e1a41222e3",
+    "animationClips": 0
+  },
+  "nebelwerfer41-visual-prop": {
+    "sha256": "2c2e0be457211d02c018ac98c1a8dc6e26e957d526ed5eaa6049e135718a7626",
+    "triangles": 109516,
+    "meshes": 355,
+    "renderSHA256": "a3c47e41e03069e57d07dd85eef2e2bd657a938310cd1cadf575adeed5797812",
+    "animationClips": 0
+  },
+  "qf25-visual-prop": {
+    "sha256": "1aa89f782b6334b15fab32074708d3522b3d667e41ca3d550d690ff5bbfd0b4b",
+    "triangles": 102680,
+    "meshes": 357,
+    "renderSHA256": "c7811449e62f2f81eda88472d077522e74ea96d563f91793be8a56e293ae41b0",
+    "animationClips": 0
+  },
+  "flakzwilling43-visual-prop": {
+    "sha256": "42874eae942baf502ef2b1c213ae226314b868da957a90c0f9b329b9cd3a4045",
+    "triangles": 84712,
+    "meshes": 304,
+    "renderSHA256": "57121caff11e81fee8c8bc645839ac7de0b4b5468bf4fdc3aa0b9be6776baae1",
+    "animationClips": 0
+  },
+  "bm13-us6-visual-prop": {
+    "sha256": "01720ecf4638f582778683be17c7feecfa3ec0a4e821cddd2e76938c656add5c",
+    "triangles": 129976,
+    "meshes": 59,
+    "renderSHA256": "87c21c6fbc435eadfaeba3251d597c458aeadecaa0315ee228fac07a68b49283",
+    "animationClips": 0
+  },
+  "qf17-visual-prop": {
+    "sha256": "72fff73095bca3182b3cad21c30bdb1c7759e12d5ccbe8aaa6923cb1b61495ed",
+    "triangles": 50776,
+    "meshes": 24,
+    "renderSHA256": "b5f7e0bd173b8601cca0394057bbb43999e20fbd8285477921035779ba4b0c41",
+    "animationClips": 0
+  },
+  "land-mattress-visual-prop": {
+    "sha256": "4b7666cfaffb37d16f2dfe5be210595442832341c44270fa4c61a4e4741839df",
+    "triangles": 48036,
+    "meshes": 26,
+    "renderSHA256": "e4371d25e9e235b6b240c643e214ec49c68fd435f15d31d2198adddecf70e80c",
+    "animationClips": 0
+  }
+}

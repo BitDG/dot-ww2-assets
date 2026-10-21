@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "pairs": 11,
+  "atlasSHA256": "232028d86c69e57c8a88600292c72e306597b03f62344e3062bbe1eb8086fb2a",
+  "checks": [
+    "fixed GLB hashes unchanged",
+    "MCP render hashes match",
+    "independent mesh counts match",
+    "images nonblank and unique",
+    "MCP ports closed"
+  ]
+}

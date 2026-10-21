@@ -1,0 +1,9 @@
+file:///workspace/dot-ww2-assets/modules/dot-model-generator/recipes.mjs:18
+      !isObject(value.params)) throw Error(`配方与模型 ${assetId} 不匹配`);
+                                     ^
+
+Error: 配方与模型 reference-armored-car 不匹配
+    at readNativeRecipe (file:///workspace/dot-ww2-assets/modules/dot-model-generator/recipes.mjs:18:38)
+    at file:///workspace/dot-ww2-assets/scripts/validate-gallery-contracts.mjs:6:85
+
+Node.js v24.19.0

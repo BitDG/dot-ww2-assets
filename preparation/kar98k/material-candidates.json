@@ -1,0 +1,17 @@
+[
+  {
+    "path": "modules/material-kit/metal-finish.mjs",
+    "sha256": "0be6ecf3b62864554c8ba3e9a9c73e382c11b60f7c737cdd531fb4d507d33d6a",
+    "status": "existing candidate resource; not yet applied to Kar98k"
+  },
+  {
+    "path": "modules/reference-armored-car/assets/blender/pbr/wood-basecolor.png",
+    "sha256": "50ce1d17de6546ca8fc23d1ee814cc18b93f56ec0efdcf04c81da03665361d39",
+    "status": "existing candidate resource; not yet applied to Kar98k"
+  },
+  {
+    "path": "modules/reference-armored-car/assets/blender/pbr/wood-metallic-roughness.png",
+    "sha256": "1e81dd67caf069d4f621d459ad2e08ce305ee1e63fdfdcc9a9cba9f22f1f8885",
+    "status": "existing candidate resource; not yet applied to Kar98k"
+  }
+]

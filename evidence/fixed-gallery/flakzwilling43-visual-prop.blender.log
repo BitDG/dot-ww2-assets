@@ -1,0 +1,390 @@
+Blender 4.3.2
+Fra:1 Mem:45.40M (Peak 45.40M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Exterior_Handwheel_Center
+Fra:1 Mem:46.41M (Peak 46.41M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Exterior_Handwheel_Ring
+Fra:1 Mem:47.65M (Peak 47.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Exterior_Handwheel_Spoke_0
+Fra:1 Mem:47.67M (Peak 47.67M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Exterior_Handwheel_Spoke_1
+Fra:1 Mem:47.74M (Peak 47.74M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Exterior_Handwheel_Spoke_2
+Fra:1 Mem:47.78M (Peak 47.78M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Exterior_Handwheel_Spoke_3
+Fra:1 Mem:47.79M (Peak 47.79M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Rear_Outer_Rail_-1
+Fra:1 Mem:47.79M (Peak 47.79M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Rear_Outer_Rail_1
+Fra:1 Mem:47.88M (Peak 47.88M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Rear_Rail_Cap_-1
+Fra:1 Mem:47.90M (Peak 47.90M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Rear_Rail_Cap_1
+Fra:1 Mem:47.94M (Peak 47.94M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Exterior_Brace_-1
+Fra:1 Mem:47.94M (Peak 47.94M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Exterior_Brace_1
+Fra:1 Mem:48.02M (Peak 48.02M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Bottom_Bolt_-1_0
+Fra:1 Mem:48.05M (Peak 48.05M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Bottom_Bolt_-1_1
+Fra:1 Mem:48.03M (Peak 48.05M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Bottom_Bolt_-1_2
+Fra:1 Mem:48.09M (Peak 48.09M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Bottom_Bolt_-1_3
+Fra:1 Mem:48.15M (Peak 48.15M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Bottom_Bolt_1_0
+Fra:1 Mem:48.15M (Peak 48.15M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Bottom_Bolt_1_1
+Fra:1 Mem:48.20M (Peak 48.20M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Bottom_Bolt_1_2
+Fra:1 Mem:48.22M (Peak 48.22M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Bottom_Bolt_1_3
+Fra:1 Mem:48.18M (Peak 48.22M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Bottom_Closed_Bridge
+Fra:1 Mem:48.26M (Peak 48.26M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Bottom_Seam_-1
+Fra:1 Mem:48.27M (Peak 48.27M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Bottom_Seam_1
+Fra:1 Mem:48.27M (Peak 48.27M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Center_-1
+Fra:1 Mem:48.30M (Peak 48.30M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Center_1
+Fra:1 Mem:48.42M (Peak 48.42M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Fold_Edge_-1
+Fra:1 Mem:48.42M (Peak 48.42M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Fold_Edge_1
+Fra:1 Mem:48.45M (Peak 48.45M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Folded_Wing_-1
+Fra:1 Mem:48.46M (Peak 48.46M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Stepped_Cover_Flange_1
+Fra:1 Mem:48.43M (Peak 48.46M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Perimeter_Edge_-1_0
+Fra:1 Mem:48.47M (Peak 48.47M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Perimeter_Edge_-1_1
+Fra:1 Mem:48.65M (Peak 48.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Perimeter_Edge_-1_2
+Fra:1 Mem:48.64M (Peak 48.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Perimeter_Edge_-1_3
+Fra:1 Mem:48.72M (Peak 48.72M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Perimeter_Edge_-1_4
+Fra:1 Mem:48.74M (Peak 48.74M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Perimeter_Edge_-1_5
+Fra:1 Mem:48.79M (Peak 48.79M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Perimeter_Edge_-1_6
+Fra:1 Mem:48.80M (Peak 48.80M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Perimeter_Edge_1_0
+Fra:1 Mem:48.86M (Peak 48.86M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Perimeter_Edge_1_1
+Fra:1 Mem:48.88M (Peak 48.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Perimeter_Edge_1_2
+Fra:1 Mem:48.92M (Peak 48.92M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Perimeter_Edge_1_3
+Fra:1 Mem:48.92M (Peak 48.92M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Stepped_Cover_Flange_-1
+Fra:1 Mem:48.98M (Peak 48.98M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Perimeter_Edge_1_4
+Fra:1 Mem:49.06M (Peak 49.06M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Perimeter_Edge_1_5
+Fra:1 Mem:49.07M (Peak 49.07M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Perimeter_Edge_1_6
+Fra:1 Mem:49.15M (Peak 49.15M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Fold_-1_0
+Fra:1 Mem:49.21M (Peak 49.21M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Fold_-1_1
+Fra:1 Mem:49.21M (Peak 49.21M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Fold_-1_2
+Fra:1 Mem:49.27M (Peak 49.27M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Fold_-1_3
+Fra:1 Mem:49.30M (Peak 49.30M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Fold_-1_4
+Fra:1 Mem:49.34M (Peak 49.34M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Shallow_Muzzle_Lip
+Fra:1 Mem:49.35M (Peak 49.36M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Fold_-1_5
+Fra:1 Mem:49.48M (Peak 49.48M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Fold_-1_6
+Fra:1 Mem:49.42M (Peak 49.48M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Fold_-1_7
+Fra:1 Mem:49.44M (Peak 49.48M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Fold_-1_8
+Fra:1 Mem:49.47M (Peak 49.48M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Fold_1_0
+Fra:1 Mem:49.58M (Peak 49.58M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Sealed_Front
+Fra:1 Mem:49.54M (Peak 49.58M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Fold_1_1
+Fra:1 Mem:49.66M (Peak 49.66M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Fold_1_2
+Fra:1 Mem:49.68M (Peak 49.68M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Fold_1_3
+Fra:1 Mem:49.71M (Peak 49.71M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Fold_1_4
+Fra:1 Mem:49.71M (Peak 49.71M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Fold_1_5
+Fra:1 Mem:49.76M (Peak 49.76M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Fold_1_6
+Fra:1 Mem:49.72M (Peak 49.76M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Fold_1_7
+Fra:1 Mem:49.78M (Peak 49.78M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Fold_1_8
+Fra:1 Mem:49.78M (Peak 49.78M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Inner_-1_0
+Fra:1 Mem:49.77M (Peak 49.78M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Inner_-1_1
+Fra:1 Mem:49.79M (Peak 49.79M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Inner_-1_2
+Fra:1 Mem:49.94M (Peak 49.94M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Inner_-1_3
+Fra:1 Mem:50.00M (Peak 50.00M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Inner_-1_4
+Fra:1 Mem:49.97M (Peak 50.00M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Inner_-1_5
+Fra:1 Mem:49.97M (Peak 50.00M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Inner_-1_6
+Fra:1 Mem:49.97M (Peak 50.00M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Round_Outer_Cover_1
+Fra:1 Mem:49.96M (Peak 50.00M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Inner_-1_7
+Fra:1 Mem:50.09M (Peak 50.09M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Inner_-1_8
+Fra:1 Mem:50.11M (Peak 50.11M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Inner_1_0
+Fra:1 Mem:50.10M (Peak 50.11M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Inner_1_1
+Fra:1 Mem:50.22M (Peak 50.22M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Inner_1_2
+Fra:1 Mem:50.20M (Peak 50.22M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Inner_1_3
+Fra:1 Mem:50.16M (Peak 50.22M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Inner_1_4
+Fra:1 Mem:50.27M (Peak 50.27M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Inner_1_5
+Fra:1 Mem:50.32M (Peak 50.32M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Inner_1_6
+Fra:1 Mem:50.35M (Peak 50.35M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Inner_1_7
+Fra:1 Mem:50.29M (Peak 50.35M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Rivet_Inner_1_8
+Fra:1 Mem:50.26M (Peak 50.35M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Wing_Rivet_-1_0
+Fra:1 Mem:50.25M (Peak 50.35M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Round_Outer_Cover_-1
+Fra:1 Mem:50.43M (Peak 50.43M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Wing_Rivet_-1_1
+Fra:1 Mem:50.43M (Peak 50.43M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Wing_Rivet_-1_2
+Fra:1 Mem:50.45M (Peak 50.45M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Wing_Rivet_-1_3
+Fra:1 Mem:50.58M (Peak 50.58M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Wing_Rivet_-1_4
+Fra:1 Mem:50.59M (Peak 50.59M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Wing_Rivet_-1_5
+Fra:1 Mem:50.57M (Peak 50.59M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Wing_Rivet_-1_6
+Fra:1 Mem:50.57M (Peak 50.59M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Wing_Rivet_1_0
+Fra:1 Mem:50.70M (Peak 50.70M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Wing_Rivet_1_1
+Fra:1 Mem:50.73M (Peak 50.73M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Wing_Rivet_1_2
+Fra:1 Mem:50.72M (Peak 50.73M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Wing_Rivet_1_3
+Fra:1 Mem:50.74M (Peak 50.74M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Recessed_Closed_Face_1
+Fra:1 Mem:50.73M (Peak 50.74M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Wing_Rivet_1_4
+Fra:1 Mem:50.71M (Peak 50.74M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Wing_Rivet_1_5
+Fra:1 Mem:50.76M (Peak 50.76M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Shield_Wing_Rivet_1_6
+Fra:1 Mem:50.89M (Peak 50.89M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Closed_Housing
+Fra:1 Mem:50.90M (Peak 50.90M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Closed_Housing_Seam_006
+Fra:1 Mem:50.89M (Peak 50.90M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Closed_Housing_Seam_049
+Fra:1 Mem:50.98M (Peak 50.98M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Closed_Outer_Tube
+Fra:1 Mem:51.00M (Peak 51.00M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Collar_-024
+Fra:1 Mem:51.05M (Peak 51.05M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Collar_-061
+Fra:1 Mem:51.21M (Peak 51.21M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Collar_-175
+Fra:1 Mem:51.34M (Peak 51.34M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Recessed_Closed_Face_-1
+Fra:1 Mem:51.28M (Peak 51.34M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Collar_-1885
+Fra:1 Mem:51.35M (Peak 51.35M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Cover_Bolt_-1_0
+Fra:1 Mem:51.48M (Peak 51.48M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Cover_Bolt_-1_1
+Fra:1 Mem:51.54M (Peak 51.54M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Cover_Bolt_-1_2
+Fra:1 Mem:51.58M (Peak 51.58M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Cover_Bolt_-1_3
+Fra:1 Mem:51.56M (Peak 51.58M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Rear_Outer_Sleeve
+Fra:1 Mem:51.53M (Peak 51.58M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Cover_Bolt_-1_4
+Fra:1 Mem:51.50M (Peak 51.58M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Cover_Bolt_-1_5
+Fra:1 Mem:51.48M (Peak 51.58M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Cover_Bolt_-1_6
+Fra:1 Mem:51.65M (Peak 51.65M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Cover_Bolt_-1_7
+Fra:1 Mem:51.67M (Peak 51.67M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Cover_Bolt_1_0
+Fra:1 Mem:51.72M (Peak 51.72M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Cover_Bolt_1_1
+Fra:1 Mem:51.78M (Peak 51.78M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Cover_Bolt_1_2
+Fra:1 Mem:51.78M (Peak 51.78M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Cover_Bolt_1_3
+Fra:1 Mem:51.78M (Peak 51.78M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Cover_Bolt_1_4
+Fra:1 Mem:51.88M (Peak 51.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Cover_Bolt_1_5
+Fra:1 Mem:51.92M (Peak 51.92M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Cover_Bolt_1_6
+Fra:1 Mem:51.90M (Peak 51.92M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Cover_Bolt_1_7
+Fra:1 Mem:51.92M (Peak 51.92M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Cover_Center_-1
+Fra:1 Mem:51.94M (Peak 51.94M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Inner_Face_Seam_1
+Fra:1 Mem:51.99M (Peak 51.99M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Cover_Center_1
+Fra:1 Mem:52.06M (Peak 52.06M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Cover_Rim_-1
+Fra:1 Mem:52.34M (Peak 52.34M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Inner_Face_Seam_-1
+Fra:1 Mem:52.37M (Peak 52.37M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Cover_Rim_1
+Fra:1 Mem:52.46M (Peak 52.46M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Housing_Edge_-1_-1
+Fra:1 Mem:52.50M (Peak 52.50M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Housing_Edge_1_1
+Fra:1 Mem:52.58M (Peak 52.58M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Housing_Edge_-1_1
+Fra:1 Mem:52.56M (Peak 52.58M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Housing_Edge_1_-1
+Fra:1 Mem:52.56M (Peak 52.58M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Housing_Edge_1_-1
+Fra:1 Mem:52.69M (Peak 52.69M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Housing_Edge_1_1
+Fra:1 Mem:52.71M (Peak 52.71M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Inner_Face_Seam_-1
+Fra:1 Mem:52.72M (Peak 52.72M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Inner_Face_Seam_1
+Fra:1 Mem:52.76M (Peak 52.76M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Housing_Edge_-1_1
+Fra:1 Mem:52.83M (Peak 52.83M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Rear_Outer_Sleeve
+Fra:1 Mem:53.03M (Peak 53.03M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Recessed_Closed_Face_-1
+Fra:1 Mem:53.05M (Peak 53.05M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Housing_Edge_-1_-1
+Fra:1 Mem:53.09M (Peak 53.09M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Recessed_Closed_Face_1
+Fra:1 Mem:53.04M (Peak 53.09M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Round_Outer_Cover_-1
+Fra:1 Mem:53.11M (Peak 53.11M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Cover_Rim_1
+Fra:1 Mem:53.45M (Peak 53.45M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Round_Outer_Cover_1
+Fra:1 Mem:53.46M (Peak 53.46M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Sealed_Front
+Fra:1 Mem:53.59M (Peak 53.59M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Shallow_Muzzle_Lip
+Fra:1 Mem:53.64M (Peak 53.64M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Stepped_Cover_Flange_-1
+Fra:1 Mem:53.70M (Peak 53.70M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_lower_Stepped_Cover_Flange_1
+Fra:1 Mem:53.80M (Peak 53.80M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Cover_Rim_-1
+Fra:1 Mem:54.00M (Peak 54.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Platform_-1
+Fra:1 Mem:54.13M (Peak 54.13M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Platform_1
+Fra:1 Mem:54.16M (Peak 54.16M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Platform_Rivet_-1_-1_-1
+Fra:1 Mem:54.15M (Peak 54.16M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Platform_Rivet_-1_-1_1
+Fra:1 Mem:54.24M (Peak 54.24M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Platform_Rivet_-1_1_-1
+Fra:1 Mem:54.25M (Peak 54.25M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Platform_Rivet_-1_1_1
+Fra:1 Mem:54.29M (Peak 54.29M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Platform_Rivet_1_-1_-1
+Fra:1 Mem:54.33M (Peak 54.33M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Cover_Center_1
+Fra:1 Mem:54.39M (Peak 54.39M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Platform_Rivet_1_-1_1
+Fra:1 Mem:54.42M (Peak 54.42M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Platform_Rivet_1_1_-1
+Fra:1 Mem:54.43M (Peak 54.43M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Platform_Rivet_1_1_1
+Fra:1 Mem:54.44M (Peak 54.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Platform_Tread_-1_0
+Fra:1 Mem:54.42M (Peak 54.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Platform_Tread_-1_1
+Fra:1 Mem:54.56M (Peak 54.56M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Platform_Tread_-1_2
+Fra:1 Mem:54.51M (Peak 54.56M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Platform_Tread_-1_3
+Fra:1 Mem:54.64M (Peak 54.64M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Platform_Tread_1_0
+Fra:1 Mem:54.62M (Peak 54.64M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Platform_Tread_1_1
+Fra:1 Mem:54.65M (Peak 54.65M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Platform_Tread_1_2
+Fra:1 Mem:54.65M (Peak 54.65M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Platform_Tread_1_3
+Fra:1 Mem:54.73M (Peak 54.73M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Rounded_Concave_Seat_-1
+Fra:1 Mem:54.75M (Peak 54.75M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Cover_Center_-1
+Fra:1 Mem:54.81M (Peak 54.81M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Rounded_Concave_Seat_1
+Fra:1 Mem:54.86M (Peak 54.86M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Seat_Bracket_-1
+Fra:1 Mem:55.22M (Peak 55.22M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Seat_Bracket_1
+Fra:1 Mem:55.33M (Peak 55.33M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Seat_Exterior_Collar_-1
+Fra:1 Mem:55.36M (Peak 55.36M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Cover_Bolt_1_7
+Fra:1 Mem:55.42M (Peak 55.42M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Cover_Bolt_1_6
+Fra:1 Mem:55.52M (Peak 55.52M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Cover_Bolt_1_5
+Fra:1 Mem:55.55M (Peak 55.55M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Cover_Bolt_1_4
+Fra:1 Mem:55.55M (Peak 55.55M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Seat_Exterior_Collar_1
+Fra:1 Mem:55.60M (Peak 55.60M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Cover_Bolt_1_3
+Fra:1 Mem:56.02M (Peak 56.02M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Cover_Bolt_1_2
+Fra:1 Mem:56.04M (Peak 56.04M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Seat_Post_-1
+Fra:1 Mem:56.08M (Peak 56.08M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Cover_Bolt_1_1
+Fra:1 Mem:56.18M (Peak 56.18M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Cover_Bolt_1_0
+Fra:1 Mem:56.12M (Peak 56.18M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Seat_Post_1
+Fra:1 Mem:56.26M (Peak 56.26M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Cover_Bolt_-1_7
+Fra:1 Mem:56.31M (Peak 56.31M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Cover_Bolt_-1_6
+Fra:1 Mem:56.36M (Peak 56.36M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Cover_Bolt_-1_5
+Fra:1 Mem:56.27M (Peak 56.36M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Seat_Rolled_Lip_-1
+Fra:1 Mem:56.40M (Peak 56.40M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Seat_Rolled_Lip_1
+Fra:1 Mem:56.77M (Peak 56.77M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Cover_Bolt_-1_4
+Fra:1 Mem:56.94M (Peak 56.94M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Arm_Top_Bolt_0_008
+Fra:1 Mem:56.85M (Peak 56.94M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Cover_Bolt_-1_3
+Fra:1 Mem:56.89M (Peak 56.94M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Arm_Top_Bolt_1_008
+Fra:1 Mem:56.89M (Peak 56.94M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Arm_Top_Bolt_1_086
+Fra:1 Mem:56.89M (Peak 56.94M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Arm_Top_Bolt_2_008
+Fra:1 Mem:56.99M (Peak 56.99M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Arm_Top_Bolt_2_086
+Fra:1 Mem:57.05M (Peak 57.05M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Base_Exterior_Fastener_0
+Fra:1 Mem:57.05M (Peak 57.05M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Base_Exterior_Fastener_1
+Fra:1 Mem:57.13M (Peak 57.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Base_Exterior_Fastener_10
+Fra:1 Mem:57.14M (Peak 57.14M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Base_Exterior_Fastener_11
+Fra:1 Mem:57.17M (Peak 57.17M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Base_Exterior_Fastener_12
+Fra:1 Mem:57.16M (Peak 57.17M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Base_Exterior_Fastener_13
+Fra:1 Mem:57.16M (Peak 57.17M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Base_Exterior_Fastener_14
+Fra:1 Mem:57.21M (Peak 57.21M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Base_Exterior_Fastener_15
+Fra:1 Mem:57.23M (Peak 57.23M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Base_Exterior_Fastener_16
+Fra:1 Mem:57.22M (Peak 57.23M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Base_Exterior_Fastener_17
+Fra:1 Mem:57.27M (Peak 57.27M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Base_Exterior_Fastener_2
+Fra:1 Mem:57.26M (Peak 57.27M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Base_Exterior_Fastener_3
+Fra:1 Mem:57.31M (Peak 57.31M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Base_Exterior_Fastener_4
+Fra:1 Mem:57.31M (Peak 57.31M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Base_Exterior_Fastener_5
+Fra:1 Mem:57.35M (Peak 57.35M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Base_Exterior_Fastener_6
+Fra:1 Mem:57.38M (Peak 57.38M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Base_Exterior_Fastener_7
+Fra:1 Mem:57.38M (Peak 57.38M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Base_Exterior_Fastener_8
+Fra:1 Mem:57.42M (Peak 57.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Base_Exterior_Fastener_9
+Fra:1 Mem:57.43M (Peak 57.43M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Base_Low_Cylinder
+Fra:1 Mem:57.49M (Peak 57.49M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Base_Lower_Flange
+Fra:1 Mem:57.71M (Peak 57.71M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Base_Upper_Seam
+Fra:1 Mem:57.75M (Peak 57.75M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Closed_Post_0
+Fra:1 Mem:57.86M (Peak 57.86M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Closed_Post_1
+Fra:1 Mem:57.88M (Peak 57.88M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Cover_Bolt_-1_1
+Fra:1 Mem:57.88M (Peak 57.88M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Closed_Post_2
+Fra:1 Mem:57.94M (Peak 57.94M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Cover_Bolt_-1_0
+Fra:1 Mem:57.95M (Peak 57.95M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Pad_0
+Fra:1 Mem:57.98M (Peak 57.98M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Pad_1
+Fra:1 Mem:58.25M (Peak 58.25M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Pad_2
+Fra:1 Mem:58.27M (Peak 58.27M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Post_Collar_0
+Fra:1 Mem:58.43M (Peak 58.43M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Post_Collar_1
+Fra:1 Mem:58.54M (Peak 58.54M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Post_Collar_2
+Fra:1 Mem:58.77M (Peak 58.77M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Rim_Bolt_0_0
+Fra:1 Mem:58.79M (Peak 58.79M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Rim_Bolt_0_1
+Fra:1 Mem:58.82M (Peak 58.82M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Rim_Bolt_0_2
+Fra:1 Mem:58.82M (Peak 58.82M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Rim_Bolt_0_3
+Fra:1 Mem:58.79M (Peak 58.82M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Rim_Bolt_0_4
+Fra:1 Mem:58.86M (Peak 58.86M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Rim_Bolt_0_5
+Fra:1 Mem:58.91M (Peak 58.91M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Rim_Bolt_1_0
+Fra:1 Mem:58.87M (Peak 58.91M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Rim_Bolt_1_1
+Fra:1 Mem:58.84M (Peak 58.91M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Collar_-1885
+Fra:1 Mem:59.03M (Peak 59.03M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Rim_Bolt_1_2
+Fra:1 Mem:59.01M (Peak 59.03M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Rim_Bolt_1_3
+Fra:1 Mem:59.00M (Peak 59.03M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Rim_Bolt_1_4
+Fra:1 Mem:59.04M (Peak 59.04M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Rim_Bolt_1_5
+Fra:1 Mem:59.17M (Peak 59.17M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Rim_Bolt_2_0
+Fra:1 Mem:59.20M (Peak 59.20M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Rim_Bolt_2_1
+Fra:1 Mem:59.22M (Peak 59.22M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Rim_Bolt_2_2
+Fra:1 Mem:59.27M (Peak 59.27M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Rim_Bolt_2_3
+Fra:1 Mem:59.27M (Peak 59.27M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Rim_Bolt_2_4
+Fra:1 Mem:59.30M (Peak 59.30M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Rim_Bolt_2_5
+Fra:1 Mem:59.23M (Peak 59.30M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Collar_-175
+Fra:1 Mem:59.23M (Peak 59.30M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Stepped_Rim_0
+Fra:1 Mem:59.27M (Peak 59.30M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Stepped_Rim_1
+Fra:1 Mem:59.62M (Peak 59.62M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Stepped_Rim_2
+Fra:1 Mem:59.84M (Peak 59.84M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Top_Cap_0
+Fra:1 Mem:59.86M (Peak 59.86M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Top_Cap_1
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Foot_Top_Cap_2
+Fra:1 Mem:59.91M (Peak 59.91M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Root_Closed_Block_0
+Fra:1 Mem:59.96M (Peak 59.96M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Root_Closed_Block_1
+Fra:1 Mem:59.92M (Peak 59.96M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Collar_-061
+Fra:1 Mem:60.00M (Peak 60.00M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Root_Closed_Block_2
+Fra:1 Mem:60.11M (Peak 60.11M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Tripod_Arm_0
+Fra:1 Mem:60.12M (Peak 60.12M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Tripod_Arm_1
+Fra:1 Mem:60.07M (Peak 60.12M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Collar_-024
+Fra:1 Mem:60.20M (Peak 60.20M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Tripod_Arm_2
+Fra:1 Mem:60.21M (Peak 60.21M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Tripod_Closed_Hinge_Cap_0_-1
+Fra:1 Mem:60.23M (Peak 60.23M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Tripod_Closed_Hinge_Cap_0_1
+Fra:1 Mem:60.43M (Peak 60.43M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Tripod_Closed_Hinge_Cap_1_-1
+Fra:1 Mem:60.46M (Peak 60.46M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Closed_Outer_Tube
+Fra:1 Mem:60.59M (Peak 60.59M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Tripod_Closed_Hinge_Cap_1_1
+Fra:1 Mem:60.58M (Peak 60.59M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Closed_Housing_Seam_049
+Fra:1 Mem:60.76M (Peak 60.76M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Closed_Housing_Seam_006
+Fra:1 Mem:60.74M (Peak 60.76M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Tripod_Closed_Hinge_Cap_2_-1
+Fra:1 Mem:60.77M (Peak 60.77M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Tripod_Closed_Hinge_Cap_2_1
+Fra:1 Mem:60.83M (Peak 60.83M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_upper_Closed_Housing
+Fra:1 Mem:60.89M (Peak 60.89M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Tripod_Exterior_Ear_0_-1
+Fra:1 Mem:60.84M (Peak 60.89M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Tripod_Exterior_Ear_0_1
+Fra:1 Mem:60.91M (Peak 60.91M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Tripod_Exterior_Ear_1_-1
+Fra:1 Mem:60.88M (Peak 60.91M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Tripod_Exterior_Ear_1_1
+Fra:1 Mem:60.96M (Peak 60.96M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Tripod_Exterior_Ear_2_-1
+Fra:1 Mem:60.97M (Peak 60.97M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Tripod_Exterior_Ear_2_1
+Fra:1 Mem:60.97M (Peak 60.97M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Tripod_Hinge_Hex_0_-1
+Fra:1 Mem:61.04M (Peak 61.04M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Tripod_Hinge_Hex_0_1
+Fra:1 Mem:61.02M (Peak 61.04M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Tripod_Hinge_Hex_1_-1
+Fra:1 Mem:61.06M (Peak 61.06M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Tripod_Hinge_Hex_1_1
+Fra:1 Mem:61.10M (Peak 61.10M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Tripod_Hinge_Hex_2_-1
+Fra:1 Mem:61.09M (Peak 61.10M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Tripod_Hinge_Hex_2_1
+Fra:1 Mem:61.12M (Peak 61.12M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Tripod_Top_Rib_0
+Fra:1 Mem:61.17M (Peak 61.17M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Tripod_Top_Rib_1
+Fra:1 Mem:61.18M (Peak 61.18M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Tripod_Top_Rib_2
+Fra:1 Mem:61.21M (Peak 61.21M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Closed_Side_Cap_-1
+Fra:1 Mem:61.26M (Peak 61.26M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Closed_Side_Cap_1
+Fra:1 Mem:61.42M (Peak 61.42M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Low_Turntable
+Fra:1 Mem:61.43M (Peak 61.43M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Support_Lower_Gusset_-1
+Fra:1 Mem:61.51M (Peak 61.51M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Support_Lower_Gusset_1
+Fra:1 Mem:61.56M (Peak 61.56M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Turntable_Visible_Seam
+Fra:1 Mem:61.60M (Peak 61.60M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Upper_Turntable
+Fra:1 Mem:61.71M (Peak 61.71M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Upright_Cosmetic_Support_-1
+Fra:1 Mem:61.70M (Peak 61.71M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FZ43_Upright_Cosmetic_Support_1
+Fra:1 Mem:61.70M (Peak 61.71M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:60.50M (Peak 61.71M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading texture-1
+Fra:1 Mem:60.50M (Peak 61.71M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading texture-0
+Fra:1 Mem:54.52M (Peak 65.52M) | Time:00:00.15 | Mem:3.00M, Peak:3.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:54.52M (Peak 65.52M) | Time:00:00.15 | Mem:3.00M, Peak:3.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:54.52M (Peak 65.52M) | Time:00:00.15 | Mem:3.00M, Peak:3.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:54.52M (Peak 65.52M) | Time:00:00.15 | Mem:3.00M, Peak:3.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:54.61M (Peak 65.52M) | Time:00:00.15 | Mem:3.00M, Peak:3.00M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:54.61M (Peak 65.52M) | Time:00:00.15 | Mem:3.00M, Peak:3.00M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:54.61M (Peak 65.52M) | Time:00:00.15 | Mem:3.00M, Peak:3.00M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:54.61M (Peak 65.52M) | Time:00:00.15 | Mem:3.00M, Peak:3.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:54.61M (Peak 65.52M) | Time:00:00.15 | Mem:3.00M, Peak:3.00M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:54.61M (Peak 65.52M) | Time:00:00.15 | Mem:3.00M, Peak:3.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:54.68M (Peak 65.52M) | Time:00:00.15 | Mem:3.07M, Peak:3.07M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:54.68M (Peak 65.52M) | Time:00:00.15 | Mem:3.07M, Peak:3.07M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:54.68M (Peak 65.52M) | Time:00:00.15 | Mem:3.07M, Peak:3.07M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:54.68M (Peak 65.52M) | Time:00:00.15 | Mem:3.07M, Peak:3.07M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:55.97M (Peak 65.52M) | Time:00:00.15 | Mem:3.07M, Peak:3.07M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:60.63M (Peak 65.52M) | Time:00:00.16 | Mem:3.10M, Peak:3.10M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:60.56M (Peak 65.52M) | Time:00:00.16 | Mem:7.66M, Peak:7.66M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:60.56M (Peak 65.52M) | Time:00:00.16 | Mem:7.66M, Peak:7.66M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:60.56M (Peak 65.52M) | Time:00:00.16 | Mem:10.25M, Peak:10.25M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:60.56M (Peak 65.52M) | Time:00:00.18 | Mem:13.33M, Peak:15.92M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:60.56M (Peak 65.52M) | Time:00:00.18 | Mem:13.33M, Peak:15.92M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:66.32M (Peak 66.32M) | Time:00:00.18 | Mem:13.33M, Peak:15.92M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:66.32M (Peak 66.32M) | Time:00:00.18 | Mem:19.09M, Peak:19.09M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:66.32M (Peak 66.32M) | Time:00:00.18 | Mem:19.09M, Peak:19.09M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:66.32M (Peak 66.32M) | Time:00:00.18 | Mem:19.09M, Peak:19.09M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:66.32M (Peak 66.32M) | Time:00:00.18 | Mem:19.09M, Peak:19.09M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:66.32M (Peak 66.32M) | Time:00:00.18 | Mem:19.09M, Peak:19.09M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:66.32M (Peak 66.32M) | Time:00:00.18 | Mem:19.17M, Peak:19.17M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:66.32M (Peak 66.32M) | Time:00:00.18 | Mem:19.17M, Peak:19.17M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:66.32M (Peak 66.32M) | Time:00:00.18 | Mem:19.17M, Peak:19.17M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:66.32M (Peak 66.32M) | Time:00:00.18 | Mem:19.17M, Peak:19.17M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:66.33M (Peak 66.33M) | Time:00:00.18 | Mem:19.09M, Peak:19.17M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:66.33M (Peak 66.33M) | Time:00:00.18 | Mem:19.18M, Peak:19.18M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:66.33M (Peak 66.33M) | Time:00:00.18 | Mem:19.18M, Peak:19.18M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:66.33M (Peak 66.33M) | Time:00:00.18 | Mem:19.18M, Peak:19.18M | Scene, ViewLayer | Sample 0/48
+Fra:1 Mem:101.50M (Peak 101.50M) | Time:00:00.84 | Remaining:00:30.66 | Mem:54.35M, Peak:54.35M | Scene, ViewLayer | Sample 1/48
+Fra:1 Mem:101.50M (Peak 101.50M) | Time:00:15.24 | Remaining:00:06.84 | Mem:54.35M, Peak:54.35M | Scene, ViewLayer | Sample 33/48
+Fra:1 Mem:117.13M (Peak 148.38M) | Time:00:22.13 | Mem:54.35M, Peak:54.35M | Scene, ViewLayer | Sample 48/48
+Fra:1 Mem:117.13M (Peak 148.38M) | Time:00:22.13 | Mem:54.35M, Peak:54.35M | Scene, ViewLayer | Finished
+Saved: '/workspace/dot-ww2-assets/gallery/renders/flakzwilling43-visual-prop.png'
+Time: 00:22.53 (Saving: 00:00.39)
+
+BlenderMCP addon registered
+Server thread started
+Connected to client: ('127.0.0.1', 52320)
+Client handler started
+Queued command: get_addon_info
+Executing handler for get_addon_info
+Handler execution complete
+Queued command: get_addon_info
+Executing handler for get_addon_info
+Handler execution complete
+Queued command: get_polyhaven_status
+Queued command: get_sketchfab_status
+Executing handler for get_sketchfab_status
+Handler execution complete
+Queued command: get_polypizza_status
+Executing handler for get_polypizza_status
+Handler execution complete
+Queued command: get_hunyuan3d_status
+Executing handler for get_hunyuan3d_status
+Handler execution complete
+Queued command: get_hyper3d_status
+Executing handler for get_hyper3d_status
+Handler execution complete
+Connected to client: ('127.0.0.1', 52322)
+Client handler started
+Queued command: get_addon_info
+Executing handler for get_addon_info
+Handler execution complete
+Queued command: get_telemetry_consent
+Executing handler for get_telemetry_consent
+Handler execution complete
+Queued command: execute_code
+Executing handler for execute_code
+Handler execution complete
+Client disconnected
+Client handler stopped
+Client disconnected
+Client handler stopped
+Error accepting connection: [Errno 9] Bad file descriptor
+Server thread stopped
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+
+Blender quit

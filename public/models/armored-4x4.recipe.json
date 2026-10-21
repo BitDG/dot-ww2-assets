@@ -1,4 +1,7 @@
 {
+  "format": "PGF.ComponentRecipe",
+  "version": 1,
+  "generator": "armored-4x4",
   "seed": "dot-gallery-20261021",
   "params": {
     "length": 6.1,

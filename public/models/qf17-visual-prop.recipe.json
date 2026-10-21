@@ -1,6 +1,7 @@
 {
+  "format": "PGF.ComponentRecipe",
+  "version": 1,
   "generator": "qf17-visual-prop",
-  "version": "0.1.0",
   "seed": "dot-gallery-20261021",
   "params": {
     "camoPattern": "original",
@@ -19,6 +20,5 @@
     "showLeftTrail": true,
     "showRightTrail": true,
     "showFittings": true
-  },
-  "quality": "medium"
+  }
 }

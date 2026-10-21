@@ -9,16 +9,6 @@
   ],
   "files": [
     {
-      "file": "assets/10-runtime-tank-reference-pbr-CfUgXZ6N.png",
-      "bytes": 1475679,
-      "sha256": "6e1ce2f81888599288e59106b3a7237f5b4681c636d2b400de31ac3debbf6e92"
-    },
-    {
-      "file": "assets/BM13-B6-PGF-hero-BclwMNvs.png",
-      "bytes": 1305150,
-      "sha256": "42c118e84d6d9348080c3e08ae0c00104d96e47806ebd061a09cfdb20cdc72c3"
-    },
-    {
       "file": "assets/BM13-B6-high-CWlXN7dH.glb",
       "bytes": 17956232,
       "sha256": "68bd7737da7e52d8e1382485e74a26b8cce35d403c31ae8a9f66064134d6e2c5"
@@ -39,11 +29,6 @@
       "sha256": "1983b151194c8274788bac78d273b0b82aa6326c552d4b5dbba93c0bafe0f030"
     },
     {
-      "file": "assets/D6-hero-BQVQ2-Me.png",
-      "bytes": 1414147,
-      "sha256": "430f09d695f7ae4724f744ae1a4c3ecd5d1c594a69ec696afae4ff8a6fec3659"
-    },
-    {
       "file": "assets/FZ43-F2-geometry-opN2Ds-d.glb",
       "bytes": 4087292,
       "sha256": "4f1d831d1deb439bccbd3d4686cb5c71184ec3fbb7828793b064d79b31223aa4"
@@ -57,16 +42,6 @@
       "file": "assets/FZ43-F2-low-FtZgyZCa.glb",
       "bytes": 3002172,
       "sha256": "78686e356e48a2c7ee14e2fc02a7587b7e040fd1631a071ec59d1252c18abc6d"
-    },
-    {
-      "file": "assets/Flakzwilling-F2-static-viewport-BKbvCT_y.png",
-      "bytes": 51412,
-      "sha256": "5a516a4ac677d76484412cffe076a8c09134f235987ff67df53ca0da66da5015"
-    },
-    {
-      "file": "assets/LM-L3-PGF-three-view-DlaFan0l.png",
-      "bytes": 1470032,
-      "sha256": "0db5599f9054bb8a881decb2e3919dbcb008bda78bef7aa0da9696de7ca421e7"
     },
     {
       "file": "assets/LM-L3-high-C1fzOs4c.glb",
@@ -87,11 +62,6 @@
       "file": "assets/N41-N2-geometry-BSnUypR9.glb",
       "bytes": 5064756,
       "sha256": "5c97cbb68542723fbca7dbcfaa114a08ffe216c1d15cb60eb1febca2845a6896"
-    },
-    {
-      "file": "assets/QF17-Q6-PGF-three-view-Ci2qWqth.png",
-      "bytes": 1432782,
-      "sha256": "4b006b7106c1d9f49d6e38fa36a4380ebb46f90ff1e725b065bd0fdce0f5975e"
     },
     {
       "file": "assets/QF17-Q6-high-DXHSOx3O.glb",
@@ -124,14 +94,14 @@
       "sha256": "f7422f7c04915a3cf4ccab8f92d873339e113f88e2e4d8ae7f5d9357fbb588fa"
     },
     {
-      "file": "assets/QF25-Q2-static-viewport-AaAgE8wa.png",
-      "bytes": 42329,
-      "sha256": "49aab4fcf7674e1e49fe9240449d745a9f5013bee46bffa5806333833a1ddcb6"
-    },
-    {
       "file": "assets/RoundedBoxGeometry-CmWojEkx.js",
       "bytes": 5602,
       "sha256": "8575041d5cef73baa579ee5e4786b920b41c3e11d6d34deba3803987335d0c0a"
+    },
+    {
+      "file": "assets/armored-4x4-e7GLL_Re.png",
+      "bytes": 1048971,
+      "sha256": "1a2f858e3fd6d545212310639e6a940026d1b25bcf62d9388ccb19e1a41222e3"
     },
     {
       "file": "assets/asset-Cscw9Kme.js",
@@ -149,34 +119,49 @@
       "sha256": "ca25484bd70a456aa648ac7daaf1974c8463a4381012df627887c2566a9bfb9e"
     },
     {
-      "file": "assets/core-DYuiHZOt.js",
+      "file": "assets/bm13-us6-visual-prop-DrXNde4W.png",
+      "bytes": 902959,
+      "sha256": "87c21c6fbc435eadfaeba3251d597c458aeadecaa0315ee228fac07a68b49283"
+    },
+    {
+      "file": "assets/core-BCrHeGjY.js",
       "bytes": 32650,
-      "sha256": "9a50488881e24fcfa5c3ef0733382a5a3fbd2da6a3e0f1b3ad8fe4c891735c9c"
+      "sha256": "c282ca5f0e70d872e08eb1282a4765f45ca9566fc52e5391fc407903c0f7a001"
     },
     {
-      "file": "assets/definition-BMKsQfUB.js",
-      "bytes": 198303,
-      "sha256": "e55e93c6b8b7c35c83986c2aaeb6128db431842d62bbfdb84ca7b4a8b92d0b82"
-    },
-    {
-      "file": "assets/definition-BnQD4w7r.js",
+      "file": "assets/definition-BJUUPZ5k.js",
       "bytes": 14794,
-      "sha256": "abfc456405c21d7e7bd5f49610e7c0bc843931073982950db98d6f70c85ef3cc"
+      "sha256": "de9e3e3fafd8b153a005974b2c617ec9ba78d2b24f41cd4decfd4bea0bfdbaee"
     },
     {
-      "file": "assets/definition-CCvv_cB8.js",
+      "file": "assets/definition-BceOjqAP.js",
+      "bytes": 8968249,
+      "sha256": "c8c4839f862eba6ad86f5ecc15ecd091cf5242489e66209ce0bfe89d3c142628"
+    },
+    {
+      "file": "assets/definition-BoYo941r.js",
+      "bytes": 198303,
+      "sha256": "7461c2ed2363ae976d504b6c117fafcad54f2b446358e839899e173d9ec3afba"
+    },
+    {
+      "file": "assets/definition-ByF1sQsg.js",
       "bytes": 14779,
-      "sha256": "c7b97c0daed1aba847d0dd30eb8378dac3fe156f9a4d9fd902d31266abed0370"
+      "sha256": "065dbfcb7575665cf6a60986e15e2160ed7726f5975c455dfda80ea84f77ecce"
     },
     {
-      "file": "assets/definition-Cki7DYy6.js",
+      "file": "assets/definition-CJI8XCp8.js",
       "bytes": 8950,
-      "sha256": "2be7fcfa0979d649fbab5c7679067cd38eb9033cd60eefe7056673e51c3971a4"
+      "sha256": "1d9a474accd37b42f5a648ca52b2b7fca8315ea1055b7ad1584fb9b6e01074e8"
     },
     {
-      "file": "assets/definition-CuFe9J02.js",
+      "file": "assets/definition-CcK-v5Uj.js",
+      "bytes": 11990,
+      "sha256": "70c8d9d4ce1f662b46906a38315704de20cd93e88f2d6c7701c36428ca6bafbb"
+    },
+    {
+      "file": "assets/definition-Ci5GLXor.js",
       "bytes": 15486,
-      "sha256": "3447483e92f3a06a047bf814463efe26effae7f8dd1e3b0c21bfbe4a7942c21e"
+      "sha256": "59d9e744d2ab4d19c22435bb2f9ee9827be757ce99c71e9138909006a58e93d9"
     },
     {
       "file": "assets/definition-CzTR0Aab.js",
@@ -184,34 +169,29 @@
       "sha256": "7be67fe1c7746f5726913f74f0f4963be43ca32add1957ca0c469875c65e85bd"
     },
     {
-      "file": "assets/definition-D6YSdWTg.js",
-      "bytes": 11990,
-      "sha256": "339d51819e08922dacf1a628a2633addf39aacac26808245e905efd648ee3b75"
-    },
-    {
-      "file": "assets/definition-DNS_y1dc.js",
-      "bytes": 472857,
-      "sha256": "44cfe355a64ca77b35fae133868e0aa6519dfd430e804b1be8cf0a6b9fb937f9"
-    },
-    {
-      "file": "assets/definition-DPvCKi7s.js",
+      "file": "assets/definition-DeEskFST.js",
       "bytes": 11141,
-      "sha256": "3f108a9b95c2fc7504411121289e7aef522c428364e0925ea6907d581d7fd3e9"
+      "sha256": "2c4d5a7174f3ed6499720d082a636af6dd995363df43c1263856afddd03507e9"
     },
     {
-      "file": "assets/definition-Dkc-sgD4.js",
-      "bytes": 8968249,
-      "sha256": "907c9a3d2648f48872085404f5bc531741d7d74a8a88df29a16c4d67e519fa93"
+      "file": "assets/definition-DxeQktc_.js",
+      "bytes": 472857,
+      "sha256": "7898404901d4a890cdf6f1b63d62e80ef096fea4e66e6daf58c2681bb0058630"
     },
     {
-      "file": "assets/definition-uXmh6eEE.js",
+      "file": "assets/definition-QDAgVIgH.js",
       "bytes": 9895,
-      "sha256": "9f7ae4c0bc0ef5746e0fbc25ab0ade506b70351f3f57477181ee8f944b3b805f"
+      "sha256": "01d55b832907f88a62c8a046126cf3e5487964e1fb1e5551ff0873201c0a91f9"
     },
     {
-      "file": "assets/final-hero-B2jA1zGF.png",
-      "bytes": 1748215,
-      "sha256": "94980650c72105d64bdbd0fd586c045225f82cb4460390d409591fb8459ea61f"
+      "file": "assets/diesel-locomotive-BAFGt3hN.png",
+      "bytes": 955890,
+      "sha256": "1ce597cde4479433ac96917afbe2cd5b055e23b2b3b2c8c0cf1df3001249368d"
+    },
+    {
+      "file": "assets/flakzwilling43-visual-prop-qV5zbcwk.png",
+      "bytes": 856813,
+      "sha256": "57121caff11e81fee8c8bc645839ac7de0b4b5468bf4fdc3aa0b9be6776baae1"
     },
     {
       "file": "assets/geometry-YHPwlaic.js",
@@ -219,9 +199,14 @@
       "sha256": "0289433382dcc2821079600ceea562375a522c3ad9ae22372e910243a8351a7d"
     },
     {
-      "file": "assets/index-BI5-MfuH.js",
-      "bytes": 17471,
-      "sha256": "38599049d67f3ba0c2ba7a6451772e5278f980c37dd66164361cd2bf2bbc9156"
+      "file": "assets/gustav-visual-prop-Co8uwy9e.png",
+      "bytes": 892275,
+      "sha256": "9278e0ec8ffea4e0b79b2cacafa659e0bb71c6e1cfed414d2108a04efb07affd"
+    },
+    {
+      "file": "assets/index-C8k5_3Hc.js",
+      "bytes": 20152,
+      "sha256": "6675cfcc406958adff7c035d542752c6f1a9062211853130f6fc9649ba495e4d"
     },
     {
       "file": "assets/index-CuzyyFGh.css",
@@ -229,24 +214,24 @@
       "sha256": "6b9cfe00f738b9a62a39f5267fc260d9b02a54edc4bc8542d9993910834d174d"
     },
     {
+      "file": "assets/land-mattress-visual-prop-CgHhZybR.png",
+      "bytes": 845445,
+      "sha256": "e4371d25e9e235b6b240c643e214ec49c68fd435f15d31d2198adddecf70e80c"
+    },
+    {
       "file": "assets/metal-finish-D8AYA-AQ.js",
       "bytes": 2702,
       "sha256": "37bcc81d68310f6fd11d9212239d1d8bd048ea5705dab107d5edaeb4d495e9c2"
     },
     {
-      "file": "assets/n41-render-DzCU8ItH.png",
-      "bytes": 810515,
-      "sha256": "23470ebc95d1e38324b7c679546db8d8a33a3d6aa2d1520da77ef2da660368da"
+      "file": "assets/nebelwerfer41-visual-prop-QbUiuI9g.png",
+      "bytes": 786303,
+      "sha256": "a3c47e41e03069e57d07dd85eef2e2bd657a938310cd1cadf575adeed5797812"
     },
     {
-      "file": "assets/pgf-glb-reimport-hero-6qx-ZbQv.png",
-      "bytes": 1029244,
-      "sha256": "d090531165ae2354bf37826e5a6f5062c8aa532ac5ae2df0b7b47f619a15e48d"
-    },
-    {
-      "file": "assets/portable-vehicle-finish-D55BGzM0.js",
+      "file": "assets/portable-vehicle-finish-BuwoNQBB.js",
       "bytes": 158893,
-      "sha256": "183da704f2770d84eba8b619603f6d5bc01eb9d992fdfec30ef1103ee77623cb"
+      "sha256": "038d73dc26e3cada7ec3b9bc027c5ee57373f6300d2b1a7c680ae4f757d32c18"
     },
     {
       "file": "assets/preview.worker-BH5s_cmc.js",
@@ -254,9 +239,19 @@
       "sha256": "ab9c2a42b0605b008594bf7e3fe3a37fdc46d011ba0ee49b29a785f1e66d57df"
     },
     {
-      "file": "assets/reference-B_xX1Ygl.png",
-      "bytes": 211587,
-      "sha256": "1fb9cc8eb7bd3e6d58e26debdbddb5534dde53d1c15c80ad39bf1991f31f2c98"
+      "file": "assets/qf17-visual-prop-DFa6Ho9v.png",
+      "bytes": 768171,
+      "sha256": "b5f7e0bd173b8601cca0394057bbb43999e20fbd8285477921035779ba4b0c41"
+    },
+    {
+      "file": "assets/qf25-visual-prop-C18ez23F.png",
+      "bytes": 895945,
+      "sha256": "c7811449e62f2f81eda88472d077522e74ea96d563f91793be8a56e293ae41b0"
+    },
+    {
+      "file": "assets/reference-armored-car-Ch-gyTPv.png",
+      "bytes": 917259,
+      "sha256": "11e53a800d5cbc9d66af78f957731dac8fdb7be7f766f7d913821b4f7833ba97"
     },
     {
       "file": "assets/stage-comet-CziWE3ae.glb",
@@ -269,14 +264,19 @@
       "sha256": "19d2f8c2a827e9d16f0f1f8a21c0afb52e8e474153f6e0fd964004a72f4214ec"
     },
     {
+      "file": "assets/tracked-mortar-DDh6HU51.png",
+      "bytes": 1009188,
+      "sha256": "dd8eea18008f822cd0d932ae081d6f55d7ea7a5a1c6ff74c1a81abbf0a349b4d"
+    },
+    {
       "file": "assets/workbench-BPQuQ2uA.css",
       "bytes": 7548,
       "sha256": "bcb219507eb7fc253d22149e90c3c36f249f36811e31698fddcd2db4e5b3b23d"
     },
     {
-      "file": "assets/workbench-Dc2B1V7u.js",
+      "file": "assets/workbench-Bsh_YBT_.js",
       "bytes": 2734888,
-      "sha256": "eca2c8438fcda6d494e70bec6e71e43a3ec058b07542bb9593e246d401ef7099"
+      "sha256": "0967e9fcd96c99aa35c06f4fe946b1911fa27744100f73fb110a6f3571159f2d"
     },
     {
       "file": "assets/worker-B-XVNDH0.js",
@@ -336,7 +336,7 @@
     {
       "file": "index.html",
       "bytes": 477,
-      "sha256": "c62a8f745ab2a5468fa56a0130ada86fa541434ea8ca40e9d200fb4d2841e7d1"
+      "sha256": "4d26d08295319ad40cebcaa11758fe8de54481eb888cf14078c8e91ba64c2eb1"
     },
     {
       "file": "models/armored-4x4.glb",
@@ -345,8 +345,8 @@
     },
     {
       "file": "models/armored-4x4.recipe.json",
-      "bytes": 246,
-      "sha256": "3a45a763c323422e65edfe4eadac30ed98047832637f561868311972504f3b52"
+      "bytes": 328,
+      "sha256": "4aa68457daec3da54e82cbf20745ba8bf3ae9df07d9324b852d3ab21b0e0bd69"
     },
     {
       "file": "models/bm13-us6-visual-prop.glb",
@@ -355,8 +355,8 @@
     },
     {
       "file": "models/bm13-us6-visual-prop.recipe.json",
-      "bytes": 550,
-      "sha256": "890cae94384e23d2081637db32cdde48988e428e1175e6cfdf704aaf7e424f86"
+      "bytes": 557,
+      "sha256": "404f47f6989f81122efce5316005794e7f39829b4d4aa9cc21a0e15bd64bcfed"
     },
     {
       "file": "models/diesel-locomotive.glb",
@@ -365,8 +365,8 @@
     },
     {
       "file": "models/diesel-locomotive.recipe.json",
-      "bytes": 577,
-      "sha256": "73d6b909a795e2a9987a501e23dac1422bc91dd066d2fa61a1dcc2ea7a44a04c"
+      "bytes": 607,
+      "sha256": "b9d6b41ec5f60c941c279eb2aa7545b6ea7054e2abd37c2d4bbd3b72d4355d92"
     },
     {
       "file": "models/flakzwilling43-visual-prop.glb",
@@ -375,8 +375,8 @@
     },
     {
       "file": "models/flakzwilling43-visual-prop.recipe.json",
-      "bytes": 538,
-      "sha256": "1f62ece9f248d22b1679ce04a88c258b80095a3fe57afef721e8ee4f2a708011"
+      "bytes": 545,
+      "sha256": "0ab4ddbb7a06ff47cd5e94513f68a13cb8a27beb51a0485e78b93939cb4e9a34"
     },
     {
       "file": "models/gustav-visual-prop.glb",
@@ -385,8 +385,8 @@
     },
     {
       "file": "models/gustav-visual-prop.recipe.json",
-      "bytes": 646,
-      "sha256": "ccbb3e2c8d9006c77c84728a572b7f3833a6c91da1669acf9d4c92cede1d36d8"
+      "bytes": 676,
+      "sha256": "1ba2fd94a02721d1b1f4152717c36d9d7cd6c4b3406ed9cd0ab6996438b47f8e"
     },
     {
       "file": "models/land-mattress-visual-prop.glb",
@@ -395,8 +395,8 @@
     },
     {
       "file": "models/land-mattress-visual-prop.recipe.json",
-      "bytes": 549,
-      "sha256": "d2228cdf406e9cd3c33c16f67ae99681c8b1b2f54f275ca975c31a3f74a2034e"
+      "bytes": 556,
+      "sha256": "9f27bc6d39b3dd2cbfee63233b977879b9d102caa07a465faab71e3b79f854df"
     },
     {
       "file": "models/nebelwerfer41-visual-prop.glb",
@@ -405,8 +405,8 @@
     },
     {
       "file": "models/nebelwerfer41-visual-prop.recipe.json",
-      "bytes": 414,
-      "sha256": "1aff094a9c239d6df4383d0edf3d5ea4f764fbc54fedf5246c2e1387b237fcc5"
+      "bytes": 444,
+      "sha256": "582a6b1eaebfae0591fc00f06e9d01c6780c44cfe9f040da045f977065638a61"
     },
     {
       "file": "models/qf17-visual-prop.glb",
@@ -415,8 +415,8 @@
     },
     {
       "file": "models/qf17-visual-prop.recipe.json",
-      "bytes": 547,
-      "sha256": "ee6307ce6348ae1ed43dd14dd321fcda22512c9f892389e51a07c12fe8e237c5"
+      "bytes": 554,
+      "sha256": "b8c877f8ad22000463cdb75000322980a0c547208bcab3a5d18fded69af9172f"
     },
     {
       "file": "models/qf25-visual-prop.glb",
@@ -425,8 +425,8 @@
     },
     {
       "file": "models/qf25-visual-prop.recipe.json",
-      "bytes": 563,
-      "sha256": "8c3eb0b9cacba414aeaeb6b993a49a47f26d38d68df00e383b2a1f439ad4078f"
+      "bytes": 570,
+      "sha256": "cd5de4262e1792368b0a7488d22221231ed3fc879f6343031228b8511840531c"
     },
     {
       "file": "models/reference-armored-car.glb",
@@ -435,8 +435,8 @@
     },
     {
       "file": "models/reference-armored-car.recipe.json",
-      "bytes": 394,
-      "sha256": "4388b0abc18a93e3c4ee517e635f095aff52e306777ddc9baddf53d21ae38b1d"
+      "bytes": 424,
+      "sha256": "a3c61ff104a4b1a740a5a1d675b4b72638d2559d49fb4274a8a8ffe3172a85e8"
     },
     {
       "file": "models/tracked-mortar.glb",
@@ -445,8 +445,8 @@
     },
     {
       "file": "models/tracked-mortar.recipe.json",
-      "bytes": 316,
-      "sha256": "25347cacbbcf21b25decdc70a8e0cb21209a415eac3818d2a05883ea790a90e9"
+      "bytes": 401,
+      "sha256": "9a6bc68b0c354d40120c224981ab8f4fd1d8d6c13d859849db66774b0d630432"
     }
   ]
 }

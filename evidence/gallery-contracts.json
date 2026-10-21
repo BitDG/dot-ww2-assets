@@ -1,0 +1,333 @@
+{
+  "scope": "New sidecar importability, schema and material variant audit against fixed downloads",
+  "models": [
+    {
+      "assetId": "reference-armored-car",
+      "status": "passed",
+      "fixedDownloadSHA256": "85d14b05483bf2b8aa3cff5efe5ba4a1799df668f3cc109718e6c033b6987eaf",
+      "sidecar": "accepted by actual workbench recipe reader",
+      "parameterFields": [
+        "scale",
+        "turretYaw",
+        "gunElevation",
+        "paint",
+        "roughness",
+        "weathering",
+        "antennas",
+        "markings",
+        "detail",
+        "camoPattern",
+        "camoEnvironment",
+        "camoScale"
+      ],
+      "materialChange": {
+        "paint": "#4b6855"
+      },
+      "variantExportBytes": 5776712,
+      "variantSHA256": "c34600b3de3097f136c197c4db0604581f45353abf7723a300eb46b1746a3e03",
+      "malformedMaterialRejected": true,
+      "sourceUnchanged": true
+    },
+    {
+      "assetId": "tracked-mortar",
+      "status": "passed",
+      "fixedDownloadSHA256": "90d6e192145ae4499570a659c62f358a90d881c8ff69b7e4ef16d2849c015f9c",
+      "sidecar": "accepted by actual workbench recipe reader",
+      "parameterFields": [
+        "camoPattern",
+        "camoEnvironment",
+        "camoScale",
+        "paintColor",
+        "length",
+        "elevation",
+        "barrelScale",
+        "weathering",
+        "detail",
+        "railings",
+        "exploded"
+      ],
+      "materialChange": {
+        "paintColor": "#4b6855"
+      },
+      "variantExportBytes": 5008168,
+      "variantSHA256": "7ed2008c6fbe37842e320581173ed7ad60fa96b78f46de43b2a48c1cd2438d01",
+      "malformedMaterialRejected": true,
+      "sourceUnchanged": true
+    },
+    {
+      "assetId": "gustav-visual-prop",
+      "status": "passed",
+      "fixedDownloadSHA256": "7c202e49fb22f8704e3735db51e391dcae3a9e9aba2d1949fcd890ed92a57c6b",
+      "sidecar": "accepted by actual workbench recipe reader",
+      "parameterFields": [
+        "silhouetteLength",
+        "silhouetteWidth",
+        "silhouetteHeight",
+        "wheelVisualScale",
+        "frameChunkiness",
+        "shellLengthFactor",
+        "detail",
+        "rivetDensity",
+        "weathering",
+        "paintColor",
+        "metalColor",
+        "showRails",
+        "showRailings",
+        "showStairs",
+        "showRivets",
+        "showRearDeck",
+        "showDecorativeBoxes",
+        "camoPattern",
+        "camoEnvironment",
+        "camoScale"
+      ],
+      "materialChange": {
+        "paintColor": "#4b6855"
+      },
+      "variantExportBytes": 6418028,
+      "variantSHA256": "27aeba76da011c55ac2260aff67c12e538a8919fb8a964e0c3b052d8b072c5a2",
+      "malformedMaterialRejected": true,
+      "sourceUnchanged": true
+    },
+    {
+      "assetId": "diesel-locomotive",
+      "status": "passed",
+      "fixedDownloadSHA256": "c5ca647348427f728bc185f40133b9a162017a83c5067e2b7c46959745054314",
+      "sidecar": "accepted by actual workbench recipe reader",
+      "parameterFields": [
+        "bodyLength",
+        "bodyWidth",
+        "bodyHeight",
+        "wheelScale",
+        "bogieSpacing",
+        "detail",
+        "fanCount",
+        "grilleDensity",
+        "rivetDensity",
+        "weathering",
+        "paintColor",
+        "metalColor",
+        "showRails",
+        "showRailings",
+        "showGrilles",
+        "showRivets",
+        "camoPattern",
+        "camoEnvironment",
+        "camoScale"
+      ],
+      "materialChange": {
+        "paintColor": "#4b6855"
+      },
+      "variantExportBytes": 3130428,
+      "variantSHA256": "df6095874129e947ea6e0f0f2ca2c9bc6667bf7d8ff0e4cc9e29d50f2922386d",
+      "malformedMaterialRejected": true,
+      "sourceUnchanged": true
+    },
+    {
+      "assetId": "armored-4x4",
+      "status": "passed",
+      "fixedDownloadSHA256": "ec46ed7d0b1571cafc8bcfe6cc2690b866d1b21e83c16d3cf20b82532abff13e",
+      "sidecar": "accepted by actual workbench recipe reader",
+      "parameterFields": [
+        "length",
+        "wheelbase",
+        "tireScale",
+        "roofEquipment",
+        "spareWheel",
+        "finish",
+        "wear",
+        "steering",
+        "explode"
+      ],
+      "materialChange": {
+        "finish": "olive"
+      },
+      "variantExportBytes": 2630112,
+      "variantSHA256": "75c9c1295f9b2056cb5143b3abbc4ada1385a8707a95273d2691a0d16fcba5f0",
+      "malformedMaterialRejected": true,
+      "sourceUnchanged": true
+    },
+    {
+      "assetId": "nebelwerfer41-visual-prop",
+      "status": "passed",
+      "fixedDownloadSHA256": "2c2e0be457211d02c018ac98c1a8dc6e26e957d526ed5eaa6049e135718a7626",
+      "sidecar": "accepted by actual workbench recipe reader",
+      "parameterFields": [
+        "paintColor",
+        "roughness",
+        "weathering",
+        "camoPattern",
+        "camoEnvironment",
+        "camoScale",
+        "showCradle",
+        "showFrontSupport",
+        "showRearTrails",
+        "showTubeCluster",
+        "showWheels"
+      ],
+      "materialChange": {
+        "paintColor": "#4b6855"
+      },
+      "variantExportBytes": 2858820,
+      "variantSHA256": "c0af63a845612391e828b2db72aec61c67a4017e98f9fdc7c465a3478eca55f2",
+      "malformedMaterialRejected": true,
+      "sourceUnchanged": true
+    },
+    {
+      "assetId": "qf25-visual-prop",
+      "status": "passed",
+      "fixedDownloadSHA256": "1aa89f782b6334b15fab32074708d3522b3d667e41ca3d550d690ff5bbfd0b4b",
+      "sidecar": "accepted by actual workbench recipe reader",
+      "parameterFields": [
+        "detail",
+        "artScale",
+        "wheelSpacing",
+        "paintColor",
+        "roughness",
+        "weathering",
+        "camoPattern",
+        "camoEnvironment",
+        "camoScale",
+        "showBarrel",
+        "showShield",
+        "showCarriage",
+        "showLeftWheel",
+        "showRightWheel",
+        "showTrail",
+        "showPlatform",
+        "showFittings"
+      ],
+      "materialChange": {
+        "paintColor": "#4b6855"
+      },
+      "variantExportBytes": 2513988,
+      "variantSHA256": "f99801c8e4ce72d6fa7b3a8d9ecb4fb296e51145ff002cf5fc735ce0be6b7b42",
+      "malformedMaterialRejected": true,
+      "sourceUnchanged": true
+    },
+    {
+      "assetId": "flakzwilling43-visual-prop",
+      "status": "passed",
+      "fixedDownloadSHA256": "42874eae942baf502ef2b1c213ae226314b868da957a90c0f9b329b9cd3a4045",
+      "sidecar": "accepted by actual workbench recipe reader",
+      "parameterFields": [
+        "detail",
+        "artScale",
+        "shieldWidth",
+        "paintColor",
+        "roughness",
+        "weathering",
+        "camoPattern",
+        "camoEnvironment",
+        "camoScale",
+        "showTripod",
+        "showTurntable",
+        "showShield",
+        "showUpper",
+        "showLower",
+        "showSeats",
+        "showFittings"
+      ],
+      "materialChange": {
+        "paintColor": "#4b6855"
+      },
+      "variantExportBytes": 1580260,
+      "variantSHA256": "12e7ce6c0173b489cc69f561022622ad545128cd8d22fd159cd25f1f20b99104",
+      "malformedMaterialRejected": true,
+      "sourceUnchanged": true
+    },
+    {
+      "assetId": "bm13-us6-visual-prop",
+      "status": "passed",
+      "fixedDownloadSHA256": "01720ecf4638f582778683be17c7feecfa3ec0a4e821cddd2e76938c656add5c",
+      "sidecar": "accepted by actual workbench recipe reader",
+      "parameterFields": [
+        "detail",
+        "artScale",
+        "paintColor",
+        "roughness",
+        "weathering",
+        "camoPattern",
+        "camoEnvironment",
+        "camoScale",
+        "showCab",
+        "showHoodGrille",
+        "showFendersSteps",
+        "showChassis",
+        "showFrontWheels",
+        "showRearWheels",
+        "showRack",
+        "showFittings"
+      ],
+      "materialChange": {
+        "paintColor": "#4b6855"
+      },
+      "variantExportBytes": 2106068,
+      "variantSHA256": "821951dcb2fe46960317f5b637d931328465994e596d75303e92d3dec5f69f67",
+      "malformedMaterialRejected": true,
+      "sourceUnchanged": true
+    },
+    {
+      "assetId": "qf17-visual-prop",
+      "status": "passed",
+      "fixedDownloadSHA256": "72fff73095bca3182b3cad21c30bdb1c7759e12d5ccbe8aaa6923cb1b61495ed",
+      "sidecar": "accepted by actual workbench recipe reader",
+      "parameterFields": [
+        "detail",
+        "artScale",
+        "paintColor",
+        "roughness",
+        "weathering",
+        "camoPattern",
+        "camoEnvironment",
+        "camoScale",
+        "showBarrel",
+        "showShield",
+        "showCarriage",
+        "showLeftWheel",
+        "showRightWheel",
+        "showLeftTrail",
+        "showRightTrail",
+        "showFittings"
+      ],
+      "materialChange": {
+        "paintColor": "#4b6855"
+      },
+      "variantExportBytes": 1435656,
+      "variantSHA256": "a2844243145cfe5e79df8861b78ff49cc7cc43f0ed1c1208670b40bb66f86888",
+      "malformedMaterialRejected": true,
+      "sourceUnchanged": true
+    },
+    {
+      "assetId": "land-mattress-visual-prop",
+      "status": "passed",
+      "fixedDownloadSHA256": "4b7666cfaffb37d16f2dfe5be210595442832341c44270fa4c61a4e4741839df",
+      "sidecar": "accepted by actual workbench recipe reader",
+      "parameterFields": [
+        "detail",
+        "artScale",
+        "paintColor",
+        "roughness",
+        "weathering",
+        "camoPattern",
+        "camoEnvironment",
+        "camoScale",
+        "showBundle",
+        "showRackFrame",
+        "showCarriage",
+        "showWheels",
+        "showFenders",
+        "showDrawbar",
+        "showSupports",
+        "showFittings"
+      ],
+      "materialChange": {
+        "paintColor": "#4b6855"
+      },
+      "variantExportBytes": 2281780,
+      "variantSHA256": "4fd0ad4bfb4f43d60f70055c39015644aeb4c688cccc1e10176e5a01a4f765aa",
+      "malformedMaterialRejected": true,
+      "sourceUnchanged": true
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
+  "format": "PGF.ComponentRecipe",
+  "version": 1,
   "generator": "land-mattress-visual-prop",
-  "version": "0.1.0",
   "seed": "dot-gallery-20261021",
   "params": {
     "camoPattern": "original",
@@ -19,6 +20,5 @@
     "showDrawbar": true,
     "showSupports": true,
     "showFittings": true
-  },
-  "quality": "medium"
+  }
 }

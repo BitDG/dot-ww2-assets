@@ -1,0 +1,4 @@
+[
+ {"id":"museum-neutral-draft","params":{"artScale":1,"detail":"medium","woodColor":"#765238","metalColor":"#343a3b","roughness":0.65,"weathering":0.15,"showSling":true}},
+ {"id":"clean-surface-draft","params":{"artScale":1,"detail":"medium","woodColor":"#845d40","metalColor":"#303638","roughness":0.5,"weathering":0,"showSling":false}}
+]

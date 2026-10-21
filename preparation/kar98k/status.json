@@ -10,5 +10,8 @@
   "blend": null,
   "renders": [],
   "firefox": "not-installed",
-  "blenderMCPMode": "task-local verified read-only session; stopped after checks"
+  "blenderMCPMode": "task-local MCP verified and used for 11 existing GLB renders; stopped after each run",
+  "appearanceContractPrepared": true,
+  "originalMultiviewGateSatisfied": false,
+  "referenceCandidate": "AWM REL28841.001; text inspected, image access denied"
 }

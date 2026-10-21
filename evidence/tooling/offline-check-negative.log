@@ -1,0 +1,2 @@
+usage: check-firefox-offline.py [-h] --sha256 SHA256 archive
+check-firefox-offline.py: error: Expected 64 hexadecimal SHA256 digits

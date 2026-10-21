@@ -71,7 +71,7 @@ npm run preview
 - K5：暂停。仅恢复[原始概念参考资料](archive/k5/STATUS.md)；目录中声称的 K2 模型源码没有从已检查 Git 分支恢复，不能据目录文字标完成。
 - Long Tom：暂停，已检查分支未找到可恢复模型；需要原备份身份，才可继续归档。
 - PaK40、75 mm M1A1：尚未建模，无模型卡片。
-- Kar98k：优先准备，MCP 已通过只读连接检查，但概念图请求仍被工具拒绝；无 .blend、GLB、模型渲染或已验收外观子型。
+- Kar98k：优先准备，MCP 已用于现有资产实渲，但 Kar98k 原创多视图前置项未满足；无 .blend、GLB、模型渲染或已验收外观子型。
 
 ## 来源与独立性
 
@@ -83,4 +83,16 @@ npm run preview
 
 ## 后续工具恢复（2026-10-21）
 
-[固定版本恢复步骤与边界](scripts/tooling/README.zh-CN.md) · [真实 MCP 握手回执](evidence/tooling/mcp-verification.json)。mcp-for-blender 2.1.9 + Blender 4.3.2 已通过初始化、工具发现、插件状态和场景只读调用；安全模式有效，遥测和外部服务关闭，结束后进程/监听退出。Firefox仍因无离线包、此前官方CDN代理403未解除而未安装；Kar98k继续暂停。
+[固定版本恢复步骤与边界](scripts/tooling/README.zh-CN.md) · [真实 MCP 握手回执](evidence/tooling/mcp-verification.json)。mcp-for-blender 2.1.9 + Blender 4.3.2 已通过初始化、工具发现、插件状态和场景只读调用；安全模式有效，遥测和外部服务关闭，结束后进程/监听退出。Firefox仍因无离线包、此前官方CDN代理403未解除而未安装；Kar98k模型阶段继续暂停，独立美术准备已补齐。
+
+## 固定 GLB 图集与导出修复（2026-10-21）
+
+[11 款真实渲染图集](gallery/fixed-glb-atlas.png) · [逐款 PNG](gallery/renders) · [MCP 调用与渲染脚本回执](evidence/fixed-gallery) · [图集校验](evidence/fixed-atlas-validation.json)。展厅现以可下载的同一固定 GLB 作为全部卡片图像来源；逐款独立取景，不代表实物比例比较。通过真实 MCP 调用 Blender 4.3.2 渲染，未重建几何、未改默认 GLB。N41 首次取景的牵引端靠近边缘，检查后扩大安全取景重渲。
+
+修复 11 个静态参数 JSON 缺少原生导入格式标识的问题，卡片新增参数下载、实际三角面数、GLB 动画数及 SHA256。所有固定 GLB 均无内嵌动画；工作台演出能力单独标注。[参数/材质契约检查](evidence/gallery-contracts.json)逐款使用真实原生读取器导入参数，并实际生成、导出、独立回读不同材质变体；11/11 通过，默认模型字节未改变。初次格式失败日志保留。
+
+Kar98k 完成[馆藏参考与部件美术核验记录](preparation/kar98k/reference-audit.zh-CN.md)、无制造尺寸的外观参数草案、两套配色草案及真实材质候选 hash；[9 项准备检查](evidence/kar98k-preparation-checks.json)通过。馆藏文字可读，照片获取被代理拒绝，未重试；尚未确认外观子型。原概念图请求的拒绝未被重试或绕过，规定的原创多视图前置项仍未满足，因此没有新 Kar98k 模型或模型实渲。
+
+[Firefox 离线制品检查说明](scripts/tooling/FIREFOX-OFFLINE.zh-CN.md)与只读校验脚本已加入：需管理员提供官方 Playwright Firefox 144.0.2/revision 1497 Debian13 x64 制品及独立可信 SHA256。当前只有参数拒绝负例与语法检查通过；真实制品校验、安装、Firefox 交互验收均未运行。没有重试下载、改代理或改用其他浏览器。
+
+本轮构建见 [日志](evidence/build-fixed-gallery.log)，生产资源报告已更新。附加复查：`node scripts/validate-gallery-contracts.mjs`、`node scripts/validate-kar98k-preparation.mjs`、`python scripts/build-fixed-atlas.py`。后者仅依赖已有 Pillow，并核验固定模型/渲染对应关系后拼接图集；不会生成模型。

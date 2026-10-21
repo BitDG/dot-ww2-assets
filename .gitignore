@@ -3,3 +3,5 @@ dist/
 .runtime/
 .env
 .env.*
+
+__pycache__/
