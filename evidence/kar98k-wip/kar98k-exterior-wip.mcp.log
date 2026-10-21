@@ -1,0 +1,70 @@
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/pydantic_settings/sources/utils.py:47: IncompleteFieldDefinitionWarning: Field 'lifespan' has an incomplete definition: its annotation contains an unresolved forward reference, so settings sources may fail to correctly resolve its value. Call `model_rebuild()` on the model where the field is defined, once all the referenced types are defined.
+  warnings.warn(
+<frozen runpy>:128: RuntimeWarning: 'blender_mcp.server' found in sys.modules after import of package 'blender_mcp', but prior to execution of 'blender_mcp.server'; this may result in unpredictable behaviour
+2026-10-21 15:00:20,365 - BlenderMCPServer - INFO - BlenderMCP server starting up
+2026-10-21 15:00:20,365 - BlenderMCPServer - WARNING - MCP for Blender addon not found in any Blender addons folder. Run `uvx mcp-for-blender install-addon` to install it.
+2026-10-21 15:00:20,366 - blender-mcp-telemetry - WARNING - Telemetry disabled via environment variable
+2026-10-21 15:00:20,367 - BlenderMCPServer - INFO - Connected to Blender at 127.0.0.1:19876
+2026-10-21 15:00:20,367 - BlenderMCPServer - INFO - Created new persistent connection to Blender
+2026-10-21 15:00:20,367 - BlenderMCPServer - INFO - Sending command: get_addon_info with params: None
+2026-10-21 15:00:20,367 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-10-21 15:00:20,381 - BlenderMCPServer - INFO - Received complete response (465 bytes)
+2026-10-21 15:00:20,381 - BlenderMCPServer - INFO - Received 465 bytes of data
+2026-10-21 15:00:20,381 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-10-21 15:00:20,381 - BlenderMCPServer - INFO - Blender addon up to date (protocol 13, addon [1, 8], Blender 4.3.2)
+2026-10-21 15:00:20,381 - BlenderMCPServer - INFO - Successfully connected to Blender on startup
+2026-10-21 15:00:20,397 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2026-10-21 15:00:20,398 - BlenderMCPServer - INFO - MCP client mcp 0.1.0: extensions=[], apps=False, openai_forms=False
+2026-10-21 15:00:20,398 - BlenderMCPServer - INFO - Sending command: get_addon_info with params: None
+2026-10-21 15:00:20,399 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-10-21 15:00:20,404 - BlenderMCPServer - INFO - Received complete response (465 bytes)
+2026-10-21 15:00:20,404 - BlenderMCPServer - INFO - Received 465 bytes of data
+2026-10-21 15:00:20,404 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-10-21 15:00:20,404 - BlenderMCPServer - INFO - Blender addon up to date (protocol 13, addon [1, 8], Blender 4.3.2)
+2026-10-21 15:00:20,404 - BlenderMCPServer - INFO - Sending command: get_polyhaven_status with params: None
+2026-10-21 15:00:20,404 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-10-21 15:00:20,417 - BlenderMCPServer - INFO - Received complete response (387 bytes)
+2026-10-21 15:00:20,417 - BlenderMCPServer - INFO - Received 387 bytes of data
+2026-10-21 15:00:20,417 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-10-21 15:00:20,417 - BlenderMCPServer - INFO - Sending command: get_sketchfab_status with params: None
+2026-10-21 15:00:20,417 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-10-21 15:00:20,428 - BlenderMCPServer - INFO - Received complete response (447 bytes)
+2026-10-21 15:00:20,428 - BlenderMCPServer - INFO - Received 447 bytes of data
+2026-10-21 15:00:20,428 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-10-21 15:00:20,428 - BlenderMCPServer - INFO - Sending command: get_polypizza_status with params: None
+2026-10-21 15:00:20,428 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-10-21 15:00:20,440 - BlenderMCPServer - INFO - Received complete response (536 bytes)
+2026-10-21 15:00:20,440 - BlenderMCPServer - INFO - Received 536 bytes of data
+2026-10-21 15:00:20,440 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-10-21 15:00:20,440 - BlenderMCPServer - INFO - Sending command: get_hunyuan3d_status with params: None
+2026-10-21 15:00:20,441 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-10-21 15:00:20,453 - BlenderMCPServer - INFO - Received complete response (388 bytes)
+2026-10-21 15:00:20,453 - BlenderMCPServer - INFO - Received 388 bytes of data
+2026-10-21 15:00:20,453 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-10-21 15:00:20,454 - BlenderMCPServer - INFO - Sending command: get_hyper3d_status with params: None
+2026-10-21 15:00:20,454 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-10-21 15:00:20,464 - BlenderMCPServer - INFO - Received complete response (402 bytes)
+2026-10-21 15:00:20,464 - BlenderMCPServer - INFO - Received 402 bytes of data
+2026-10-21 15:00:20,464 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-10-21 15:00:20,465 - BlenderMCPServer - INFO - Connected to Blender at 127.0.0.1:19876
+2026-10-21 15:00:20,465 - BlenderMCPServer - INFO - Created new persistent connection to Blender
+2026-10-21 15:00:20,465 - BlenderMCPServer - INFO - Sending command: get_addon_info with params: None
+2026-10-21 15:00:20,465 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-10-21 15:00:20,474 - BlenderMCPServer - INFO - Received complete response (465 bytes)
+2026-10-21 15:00:20,474 - BlenderMCPServer - INFO - Received 465 bytes of data
+2026-10-21 15:00:20,474 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-10-21 15:00:20,475 - BlenderMCPServer - INFO - Blender addon up to date (protocol 13, addon [1, 8], Blender 4.3.2)
+2026-10-21 15:00:20,475 - BlenderMCPServer - INFO - Sending command: get_telemetry_consent with params: None
+2026-10-21 15:00:20,475 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-10-21 15:00:20,486 - BlenderMCPServer - INFO - Received complete response (51 bytes)
+2026-10-21 15:00:20,486 - BlenderMCPServer - INFO - Received 51 bytes of data
+2026-10-21 15:00:20,486 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-10-21 15:00:20,499 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-10-21 15:00:20,519 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2026-10-21 15:00:20,563 - BlenderMCPServer - INFO - Sending command: execute_code with params: {'code': "# Original nonfunctional visual blockout. Unitless artistic coordinates, not manufacturing dimensions.\n# Run through the approved task-local MCP, not as a replacement image-generation request.\nimport bpy, math, json\nfrom mathutils import Vector\nROOT='/workspace/dot-ww2-assets'\nOUT=ROOT+'/assets/kar98k-wip/'\nbpy.ops.object.select_all(action='SELECT');bpy.ops.object.delete(use_global=False)\nscene=bpy.context.scene;scene.unit_settings.system='NONE'\ndef material(name,color,metallic,roughness):\n m=bpy.data.materials.new(name);m.use_nodes=True;p=next(n for n in m.node_tree.nodes if n.type=='BSDF_PRINCIPLED');p.inputs['Base Color'].default_value=(*color,1);p.inputs['Metallic'].default_value=metallic;p.inputs['Roughness'].default_value=roughness;return m,p\nwood,p=material('PGF reused wood / exterior shell',(.22,.09,.035),0,.64)\nt=wood.node_tree.nodes.new('ShaderNodeTexImage');t.image=bpy.data.images.load(OUT+'textures/wood-basecolor.png');wood.node_tree.links.new(t.outputs['Color'],p.inputs['Base Color'])\nmetal,p=material('PGF deterministic dark metal',(.08,.1,.12),.8,.4)\nnodes=metal.node_tree.nodes;links=metal.node_tree.links\nfor key in ['base','orm','normal']:\n t=nodes.new('ShaderNodeTexImage');t.image=bpy.data.images.load(OUT+'textures/metal-'+key+'.png')\n if key=='base':links.new(t.outputs['Color'],p.inputs['Base Color'])\n elif key=='orm':\n  t.image.colorspace_settings.name='Non-Color';sep=nodes.new('ShaderNodeSeparateColor');links.new(t.outputs['Color'],sep.inputs['Color']);links.new(sep.outputs['Green'],p.inputs['Roughness']);links.new(sep.outputs['Blue'],p.inputs['Metallic'])\n else:\n  t.image.colorspace_settings.name='Non-Color';normal=nodes.new('ShaderNodeNormalMap');normal.inputs['Strength'].default_value=.3;links.new(t.outputs['Color'],normal.inputs['Color']);links.new(normal.outputs['Normal'],p.inputs['Normal'])\nleather,_=material('Brown leather / original constant PBR',(.12,.047,.019),0,.8)\ndef finish(o,mat,bevel=0):\n o.data.materials.append(mat);bpy.context.view_layer.objects.active=o;o.select_set(True)\n if bevel:\n  mod=o.modifiers.new('Soft game-art edges','BEVEL');mod.width=bevel;mod.segments=3;bpy.ops.object.modifier_apply(modifier=mod.name)\n bpy.ops.object.mode_set(mode='EDIT');bpy.ops.mesh.select_all(action='SELECT');bpy.ops.mesh.normals_make_consistent(inside=False);bpy.ops.uv.smart_project(island_margin=.025);bpy.ops.object.mode_set(mode='OBJECT')\n for p in o.data.polygons:p.use_smooth=True\n o['nonfunctional_exterior']=True;o['design_status']='artistic WIP; subtype unverified';o.select_set(False);return o\ndef box(name,loc,scale,mat,bev=.025):\n bpy.ops.mesh.primitive_cube_add(size=1,location=loc);o=bpy.context.object;o.name=name;o.scale=scale;bpy.ops.object.transform_apply(location=False,rotation=False,scale=True);return finish(o,mat,bev)\ndef cylinder(name,a,b,r,mat):\n a,b=Vector(a),Vector(b);bpy.ops.mesh.primitive_cylinder_add(vertices=24,radius=r,depth=(b-a).length,end_fill_type='NGON',location=(a+b)/2);o=bpy.context.object;o.name=name;o.rotation_euler=(b-a).to_track_quat('Z','Y').to_euler();bpy.ops.object.transform_apply(location=False,rotation=False,scale=True);return finish(o,mat,.008)\n# Hand-authored silhouette, intentionally stylized and without fitted internals.\nprofile=[(-2.4,-.48),(-2.42,.12),(-1.48,.16),(-1.11,.08),(-.76,.17),(1.28,.17),(1.37,.08),(1.3,-.08),(-.72,-.11),(-1.12,-.18),(-1.35,-.39)]\nverts=[(x,y,z) for y in [-.12,.12] for x,z in profile];n=len(profile);faces=[tuple(reversed(range(n))),tuple(range(n,2*n))]+[(i,(i+1)%n,(i+1)%n+n,i+n) for i in range(n)]\nmesh=bpy.data.meshes.new('original exterior stock silhouette');mesh.from_pydata(verts,[],faces);mesh.update();o=bpy.data.objects.new('stock_shell',mesh);scene.collection.objects.link(o);finish(o,wood,.045)\nbox('upper_wood_cover',(.42,0,.2),(1.58,.20,.13),wood,.05)\ncylinder('solid_front_visual_no_bore',(1.1,0,.19),(2.36,0,.19),.054,metal)\nbox('closed_upper_metal_shell',(-.6,0,.21),(.75,.20,.14),metal,.04)\nbox('butt_cap',(-2.42,0,-.18),(.065,.27,.61),metal,.022)\nfor x in [.62,1.24]:box('decorative_band', (x,0,.09),(.09,.275,.29),metal,.027)\n# Non-operational low-relief embellishments only; no trigger, bolt, chamber or bore.\nbox('rear_top_visual_tab',(-.1,0,.30),(.18,.13,.055),metal,.018)\nbox('front_top_visual_tab',(2.17,0,.26),(.10,.055,.07),metal,.014)\nbox('underside_solid_detail',(-.70,0,-.14),(.37,.14,.08),metal,.025)\n# Closed ribbon, purely cosmetic. Attachment placement is artistic conjecture.\npoints=[(-2.08,-.15,-.30),(-1.5,-.17,-.58),(-.65,-.17,-.68),(.18,-.16,-.56),(.82,-.12,-.08)]\nv=[]\nfor x,y,z in points:v.extend([(x,y-.018,z-.045),(x,y+.018,z-.045),(x,y+.018,z+.045),(x,y-.018,z+.045)])\nf=[(3,2,1,0),(16,17,18,19)]\nfor i in range(len(points)-1):\n for j in range(4):f.append((4*i+j,4*i+(j+1)%4,4*(i+1)+(j+1)%4,4*(i+1)+j))\nme=bpy.data.meshes.new('cosmetic closed strap');me.from_pydata(v,[],f);me.update();ob=bpy.data.objects.new('sling_visual',me);scene.collection.objects.link(ob);finish(ob,leather,.012)\nscene['asset_status']='Kar98k-inspired exterior WIP; not a museum-accurate replica; no concept multiview approval'\nscene['art_units']='unitless; no manufacturing measurements';scene['seed']='dot-kar98k-exterior-wip-01'\nbpy.ops.object.select_all(action='SELECT')\nbpy.ops.wm.save_as_mainfile(filepath=OUT+'kar98k-exterior-wip.blend')\nbpy.ops.file.pack_all();bpy.ops.wm.save_as_mainfile(filepath=OUT+'kar98k-exterior-wip.blend')\nfor name in ['kar98k-exterior-wip.glb','kar98k-exterior-wip-repeat.glb']:\n bpy.ops.export_scene.gltf(filepath=OUT+name,export_format='GLB',export_yup=True,export_texcoords=True,export_normals=True,export_animations=False,export_extras=True)\nprint(json.dumps({'asset':'kar98k-exterior-wip','meshes':sum(o.type=='MESH' for o in scene.objects),'materials':[m.name for m in bpy.data.materials if m.users],'scope':'original nonfunctional exterior WIP mesh; no concept image request'}))\n"}
+2026-10-21 15:00:20,563 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-10-21 15:00:22,257 - BlenderMCPServer - INFO - Received complete response (3180 bytes)
+2026-10-21 15:00:22,257 - BlenderMCPServer - INFO - Received 3180 bytes of data
+2026-10-21 15:00:22,257 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-10-21 15:00:22,266 - BlenderMCPServer - INFO - Disconnecting from Blender on shutdown
+2026-10-21 15:00:22,266 - BlenderMCPServer - INFO - BlenderMCP server shut down

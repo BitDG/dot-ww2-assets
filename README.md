@@ -71,7 +71,7 @@ npm run preview
 - K5：暂停。仅恢复[原始概念参考资料](archive/k5/STATUS.md)；目录中声称的 K2 模型源码没有从已检查 Git 分支恢复，不能据目录文字标完成。
 - Long Tom：暂停，已检查分支未找到可恢复模型；需要原备份身份，才可继续归档。
 - PaK40、75 mm M1A1：尚未建模，无模型卡片。
-- Kar98k：优先准备，MCP 已用于现有资产实渲，但 Kar98k 原创多视图前置项未满足；无 .blend、GLB、模型渲染或已验收外观子型。
+- Kar98k：已独立制作外观初样 WIP，见下节；原概念多视图及子型核验未完成，未通过用户或 Firefox 验收。
 
 ## 来源与独立性
 
@@ -96,3 +96,11 @@ Kar98k 完成[馆藏参考与部件美术核验记录](preparation/kar98k/refere
 [Firefox 离线制品检查说明](scripts/tooling/FIREFOX-OFFLINE.zh-CN.md)与只读校验脚本已加入：需管理员提供官方 Playwright Firefox 144.0.2/revision 1497 Debian13 x64 制品及独立可信 SHA256。当前只有参数拒绝负例与语法检查通过；真实制品校验、安装、Firefox 交互验收均未运行。没有重试下载、改代理或改用其他浏览器。
 
 本轮构建见 [日志](evidence/build-fixed-gallery.log)，生产资源报告已更新。附加复查：`node scripts/validate-gallery-contracts.mjs`、`node scripts/validate-kar98k-preparation.mjs`、`python scripts/build-fixed-atlas.py`。后者仅依赖已有 Pillow，并核验固定模型/渲染对应关系后拼接图集；不会生成模型。
+
+## Kar98k 独立外观初样（后续阶段）
+
+不依赖 Firefox，已通过真实 MCP 制作 [Kar98k 风格外观 WIP](assets/kar98k-wip/README.zh-CN.md)，保存打包贴图的 `.blend` 与固定 `.glb`，并从该 GLB 回读生成 [单张真实 hero 渲染](assets/kar98k-wip/hero.png)。展厅新增单独 WIP 入口和源文件下载，不混入原 11 款迁移资产。无内部机构、孔道或真实制造尺寸。
+
+这是用户要求独立推进后调整的制作顺序；原概念三视/六细节请求没有重试或用其他工具重现，不能声称原流程完成。Firefox 仅用于后续网页交互验收。外观初样的检查与真实 MCP 回执见 [evidence/kar98k-wip](evidence/kar98k-wip)，历史准备记录保留并标注更新时间。
+
+最新流程更新：用户已取消 AI 原创概念多视图前置，改用真实外观参考。本轮新增瑞典陆军博物馆照片来源与公共领域许可核验，但像素请求被代理拒绝，未重试；未获得同一物件完整真实三视。详见 [参考缺项](preparation/kar98k/reference-update.zh-CN.md)。新模型提供真实模型正/侧/严格顶视与六外观细节渲染，以及木色、金属粗糙度、无量纲比例和背带的预览控制；仍是美术推测 WIP，网页交互待 Firefox 实测。

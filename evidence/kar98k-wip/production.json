@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "scope": "New WIP files only; no browser execution",
+  "files": [
+    {
+      "file": "kar98k-exterior-wip.glb",
+      "sha256": "e77699da2a39b7103ef762030ce63fe340f8d3ea4d1a2099b23bada13e7003a7",
+      "status": "HTTP 200 and bytes equal"
+    },
+    {
+      "file": "kar98k-exterior-wip.blend",
+      "sha256": "cee68f3bb3b16d88077ef74ef0b422eacb4293d37f4600fed73218f0762a8cf6",
+      "status": "HTTP 200 and bytes equal"
+    },
+    {
+      "file": "hero.png",
+      "sha256": "4f5d8e07ad80d262c3023178018023c9fbcd39355d056a5fbeb374e246ffe617",
+      "status": "HTTP 200 and bytes equal"
+    }
+  ]
+}

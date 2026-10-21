@@ -1,0 +1,22 @@
+[
+  {
+    "file": "assets/kar98k-wip/textures/metal-base.png",
+    "sha256": "c5cd28309a52272f523edbcee24e494a9fd523b154855c6c5fa2ae11cbcd6734",
+    "source": "modules/material-kit/metal-finish.mjs / deterministic seed dot-kar98k-exterior-wip-01"
+  },
+  {
+    "file": "assets/kar98k-wip/textures/metal-orm.png",
+    "sha256": "b3378913ce72fd62094d5f36f3f9f75b4b3f308eae5d2fe336b467bf1d7a6e50",
+    "source": "modules/material-kit/metal-finish.mjs / deterministic seed dot-kar98k-exterior-wip-01"
+  },
+  {
+    "file": "assets/kar98k-wip/textures/metal-normal.png",
+    "sha256": "fbec827bd9ea6c65a7eeb3695b6b2203ae948c6dce8ebb564490d5fa0b1bc217",
+    "source": "modules/material-kit/metal-finish.mjs / deterministic seed dot-kar98k-exterior-wip-01"
+  },
+  {
+    "file": "assets/kar98k-wip/textures/wood-basecolor.png",
+    "sha256": "50ce1d17de6546ca8fc23d1ee814cc18b93f56ec0efdcf04c81da03665361d39",
+    "source": "modules/reference-armored-car/assets/blender/pbr/wood-basecolor.png"
+  }
+]

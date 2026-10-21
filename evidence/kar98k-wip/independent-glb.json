@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "file": "assets/kar98k-wip/kar98k-exterior-wip.glb",
+  "sha256": "e77699da2a39b7103ef762030ce63fe340f8d3ea4d1a2099b23bada13e7003a7",
+  "bytes": 179844,
+  "determinism": "Two sequential exports byte-identical; separate fresh-process regeneration hash also checked in determinism.json",
+  "meshes": 11,
+  "triangles": 2564,
+  "nonfinite": 0,
+  "missingNormals": 0,
+  "missingUVs": 0,
+  "degenerateTriangles": 0,
+  "animationClips": 0,
+  "decodedImages": 4,
+  "parts": [
+    "stock_shell",
+    "sling_visual",
+    "upper_wood_cover",
+    "solid_front_visual_no_bore",
+    "closed_upper_metal_shell",
+    "butt_cap",
+    "decorative_band",
+    "decorative_band001",
+    "rear_top_visual_tab",
+    "front_top_visual_tab",
+    "underside_solid_detail"
+  ],
+  "materials": [
+    "PGF reused wood / exterior shell",
+    "Brown leather / original constant PBR",
+    "PGF deterministic dark metal"
+  ],
+  "disposedResources": 18
+}

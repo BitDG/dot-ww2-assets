@@ -1,0 +1,112 @@
+{
+  "status": "passed",
+  "sourceGLBSHA256": "e77699da2a39b7103ef762030ce63fe340f8d3ea4d1a2099b23bada13e7003a7",
+  "topView": {
+    "view": "top",
+    "direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "orthographic": true,
+    "focus": null,
+    "source": "same fixed GLB; actual model render",
+    "resolution": [
+      960,
+      540
+    ]
+  },
+  "renders": [
+    {
+      "view": "hero",
+      "file": "assets/kar98k-wip/hero.png",
+      "sha256": "4f5d8e07ad80d262c3023178018023c9fbcd39355d056a5fbeb374e246ffe617",
+      "size": [
+        1600,
+        900
+      ]
+    },
+    {
+      "view": "side",
+      "file": "assets/kar98k-wip/side.png",
+      "sha256": "f28c2ef62add9a12feeb5028717c42c20fa0227ea6d398cd63fbb3d3b15bc681",
+      "size": [
+        960,
+        540
+      ]
+    },
+    {
+      "view": "front",
+      "file": "assets/kar98k-wip/front.png",
+      "sha256": "44b46657695561a0b48d2fc512e4a8e0f624617fbeef7022bf8c828fceedc47c",
+      "size": [
+        960,
+        540
+      ]
+    },
+    {
+      "view": "top",
+      "file": "assets/kar98k-wip/top.png",
+      "sha256": "a37b0ea996dfb070fc51ca698df2ccb90acaf8a6e709f2ea5d29eb7632085739",
+      "size": [
+        960,
+        540
+      ]
+    },
+    {
+      "view": "detail-stock",
+      "file": "assets/kar98k-wip/detail-stock.png",
+      "sha256": "462a18369120e3e76a2dda8160fbfa4ee1a78cdd546a0dd710fc731c10fe18db",
+      "size": [
+        960,
+        540
+      ]
+    },
+    {
+      "view": "detail-handguard",
+      "file": "assets/kar98k-wip/detail-handguard.png",
+      "sha256": "ff65e8ebd7a9a96c0f8a332f99a6b517afa7b60e28899bbce901121306176eeb",
+      "size": [
+        960,
+        540
+      ]
+    },
+    {
+      "view": "detail-metal",
+      "file": "assets/kar98k-wip/detail-metal.png",
+      "sha256": "f005fd71cfb08ead28ccf17634e3a4c9f61f9ecf85dcb69adff070a5f4279027",
+      "size": [
+        960,
+        540
+      ]
+    },
+    {
+      "view": "detail-band",
+      "file": "assets/kar98k-wip/detail-band.png",
+      "sha256": "50f47555287ade829d62e9ceb3113ff6d326716fcf3659dca3f0ecbe6b21b760",
+      "size": [
+        960,
+        540
+      ]
+    },
+    {
+      "view": "detail-butt",
+      "file": "assets/kar98k-wip/detail-butt.png",
+      "sha256": "cc858876c164e4e57cdb8a53c3153cfc1beb224eccefa5488a2c8dd474be0264",
+      "size": [
+        960,
+        540
+      ]
+    },
+    {
+      "view": "detail-sling",
+      "file": "assets/kar98k-wip/detail-sling.png",
+      "sha256": "c5a73614dd99025844d451f6831ded5caf35d08f161a1f24e838e8155641f4b4",
+      "size": [
+        960,
+        540
+      ]
+    }
+  ],
+  "scope": "Actual fixed model renders; not reference photographs or AI concept images"
+}

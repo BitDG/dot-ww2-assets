@@ -1,17 +1,38 @@
 {
   "assetId": "kar98k-exterior-prop",
-  "status": "preparation-blocked",
-  "modelGenerated": false,
+  "status": "exterior-wip-generated-not-browser-accepted",
+  "modelGenerated": true,
   "blenderMCPAvailable": true,
   "conceptImageGenerated": false,
   "conceptImageResult": "moderation_blocked: violence",
   "historicalSubtype": "unverified",
-  "GLB": null,
-  "blend": null,
-  "renders": [],
+  "GLB": "assets/kar98k-wip/kar98k-exterior-wip.glb",
+  "blend": "assets/kar98k-wip/kar98k-exterior-wip.blend",
+  "renders": [
+    "assets/kar98k-wip/hero.png",
+    "assets/kar98k-wip/side.png",
+    "assets/kar98k-wip/front.png",
+    "assets/kar98k-wip/top.png",
+    "assets/kar98k-wip/detail-stock.png",
+    "assets/kar98k-wip/detail-handguard.png",
+    "assets/kar98k-wip/detail-metal.png",
+    "assets/kar98k-wip/detail-band.png",
+    "assets/kar98k-wip/detail-butt.png",
+    "assets/kar98k-wip/detail-sling.png"
+  ],
   "firefox": "not-installed",
-  "blenderMCPMode": "task-local MCP verified and used for 11 existing GLB renders; stopped after each run",
+  "blenderMCPMode": "actual task-local MCP modeling and fixed GLB rendering; temporary sessions stopped",
   "appearanceContractPrepared": true,
   "originalMultiviewGateSatisfied": false,
-  "referenceCandidate": "AWM REL28841.001; text inspected, image access denied"
+  "referenceCandidate": "AWM REL28841.001; text inspected, image access denied",
+  "workflow": "User replaced AI concept gate with real exterior references; complete same-object reference views unavailable; WIP with artistic conjecture",
+  "parameterGeneratorImplemented": false,
+  "conceptMultiviewRequired": false,
+  "previewAppearanceControls": [
+    "woodTint",
+    "metalRoughness",
+    "artScale",
+    "showSling"
+  ],
+  "referenceViewsVerified": []
 }

@@ -1,0 +1,99 @@
+Blender 4.3.2
+Read blend: "/workspace/dot-ww2-assets/assets/kar98k-wip/kar98k-exterior-wip.blend"
+Fra:1 Mem:12.17M (Peak 12.17M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | stock_shell
+Fra:1 Mem:14.17M (Peak 14.17M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | sling_visual
+Fra:1 Mem:14.25M (Peak 14.25M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | solid_front_visual_no_bore
+Fra:1 Mem:14.35M (Peak 14.35M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | underside_solid_detail
+Fra:1 Mem:14.38M (Peak 14.38M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | butt_cap
+Fra:1 Mem:14.42M (Peak 14.42M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | decorative_band
+Fra:1 Mem:14.47M (Peak 14.47M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front_top_visual_tab
+Fra:1 Mem:14.49M (Peak 14.49M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | decorative_band.001
+Fra:1 Mem:14.54M (Peak 14.54M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear_top_visual_tab
+Fra:1 Mem:14.61M (Peak 14.61M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:14.56M (Peak 14.61M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading metal-normal
+Fra:1 Mem:14.56M (Peak 14.61M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading metal-orm
+Fra:1 Mem:15.72M (Peak 17.59M) | Time:00:00.06 | Mem:1.75M, Peak:1.75M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:15.72M (Peak 17.59M) | Time:00:00.06 | Mem:1.75M, Peak:1.75M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:15.72M (Peak 17.59M) | Time:00:00.06 | Mem:1.75M, Peak:1.75M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:15.72M (Peak 17.59M) | Time:00:00.06 | Mem:1.75M, Peak:1.75M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:15.81M (Peak 17.59M) | Time:00:00.06 | Mem:1.75M, Peak:1.75M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:15.81M (Peak 17.59M) | Time:00:00.06 | Mem:1.75M, Peak:1.75M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:15.81M (Peak 17.59M) | Time:00:00.06 | Mem:1.75M, Peak:1.75M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:15.81M (Peak 17.59M) | Time:00:00.06 | Mem:1.75M, Peak:1.75M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:15.81M (Peak 17.59M) | Time:00:00.06 | Mem:1.75M, Peak:1.75M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:15.81M (Peak 17.59M) | Time:00:00.06 | Mem:1.75M, Peak:1.75M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:15.81M (Peak 17.59M) | Time:00:00.06 | Mem:1.76M, Peak:1.76M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:15.81M (Peak 17.59M) | Time:00:00.06 | Mem:1.76M, Peak:1.76M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:15.81M (Peak 17.59M) | Time:00:00.06 | Mem:1.76M, Peak:1.76M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:15.81M (Peak 17.59M) | Time:00:00.06 | Mem:1.76M, Peak:1.76M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:15.85M (Peak 17.59M) | Time:00:00.06 | Mem:1.76M, Peak:1.76M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:16.00M (Peak 17.59M) | Time:00:00.06 | Mem:1.76M, Peak:1.76M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:16.00M (Peak 17.59M) | Time:00:00.06 | Mem:1.91M, Peak:1.91M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:16.00M (Peak 17.59M) | Time:00:00.06 | Mem:1.91M, Peak:1.91M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:16.00M (Peak 17.59M) | Time:00:00.06 | Mem:1.99M, Peak:1.99M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:16.00M (Peak 17.59M) | Time:00:00.07 | Mem:2.08M, Peak:2.16M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:16.00M (Peak 17.59M) | Time:00:00.07 | Mem:2.08M, Peak:2.16M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:16.11M (Peak 17.59M) | Time:00:00.07 | Mem:2.08M, Peak:2.16M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:16.11M (Peak 17.59M) | Time:00:00.07 | Mem:2.19M, Peak:2.19M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:16.11M (Peak 17.59M) | Time:00:00.07 | Mem:2.19M, Peak:2.19M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:16.11M (Peak 17.59M) | Time:00:00.07 | Mem:2.19M, Peak:2.19M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:16.11M (Peak 17.59M) | Time:00:00.07 | Mem:2.19M, Peak:2.19M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:16.11M (Peak 17.59M) | Time:00:00.07 | Mem:2.19M, Peak:2.19M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:16.11M (Peak 17.59M) | Time:00:00.07 | Mem:2.27M, Peak:2.27M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:16.11M (Peak 17.59M) | Time:00:00.07 | Mem:2.28M, Peak:2.28M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:16.11M (Peak 17.59M) | Time:00:00.07 | Mem:2.28M, Peak:2.28M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:16.11M (Peak 17.59M) | Time:00:00.07 | Mem:2.28M, Peak:2.28M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:16.12M (Peak 17.59M) | Time:00:00.07 | Mem:2.19M, Peak:2.28M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:16.12M (Peak 17.59M) | Time:00:00.07 | Mem:2.28M, Peak:2.28M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:16.12M (Peak 17.59M) | Time:00:00.07 | Mem:2.28M, Peak:2.28M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:16.12M (Peak 17.59M) | Time:00:00.07 | Mem:2.28M, Peak:2.28M | Scene, ViewLayer | Sample 0/48
+Fra:1 Mem:65.57M (Peak 65.57M) | Time:00:00.61 | Remaining:00:25.27 | Mem:51.73M, Peak:51.73M | Scene, ViewLayer | Sample 1/48
+Fra:1 Mem:87.54M (Peak 131.49M) | Time:00:20.76 | Mem:51.73M, Peak:51.73M | Scene, ViewLayer | Sample 48/48
+Fra:1 Mem:87.54M (Peak 131.49M) | Time:00:20.76 | Mem:51.73M, Peak:51.73M | Scene, ViewLayer | Finished
+Saved: '/workspace/dot-ww2-assets/assets/kar98k-wip/hero.png'
+Time: 00:21.35 (Saving: 00:00.57)
+
+BlenderMCP addon registered
+Server thread started
+Connected to client: ('127.0.0.1', 35500)
+Client handler started
+Queued command: get_addon_info
+Executing handler for get_addon_info
+Handler execution complete
+Queued command: get_addon_info
+Executing handler for get_addon_info
+Handler execution complete
+Queued command: get_polyhaven_status
+Queued command: get_sketchfab_status
+Executing handler for get_sketchfab_status
+Handler execution complete
+Queued command: get_polypizza_status
+Executing handler for get_polypizza_status
+Handler execution complete
+Queued command: get_hunyuan3d_status
+Executing handler for get_hunyuan3d_status
+Handler execution complete
+Queued command: get_hyper3d_status
+Executing handler for get_hyper3d_status
+Handler execution complete
+Connected to client: ('127.0.0.1', 35504)
+Client handler started
+Queued command: get_addon_info
+Executing handler for get_addon_info
+Handler execution complete
+Queued command: get_telemetry_consent
+Executing handler for get_telemetry_consent
+Handler execution complete
+Queued command: execute_code
+Executing handler for execute_code
+Handler execution complete
+Client disconnected
+Client handler stopped
+Client disconnected
+Client handler stopped
+Error accepting connection: [Errno 9] Bad file descriptor
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Server thread stopped
+
+Blender quit
