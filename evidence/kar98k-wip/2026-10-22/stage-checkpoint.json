@@ -1,0 +1,33 @@
+{
+  "stage": "2026-10-22 wood/UV/build-control improvement of existing Kar98k WIP",
+  "passed": [
+    "pinned MCP package hash and actual readonly handshake",
+    "MCP generation; safe mode and loopback retained",
+    "independent GLB finite attributes, normal/UV presence, zero duplicate/degenerate triangles",
+    "7 invalid build parameter cases rejected before Blender launch",
+    "minimum and maximum parameters actually exported and read back",
+    "fresh-process byte determinism",
+    "new asset production build and GLB/blend/hero HTTP hashes",
+    "ten updated same-GLB renders including orthographic top direction [0,0,1]",
+    "blend reopened through MCP with all used image textures packed"
+  ],
+  "notRun": [
+    "Firefox interaction and GPU lifecycle acceptance",
+    "historical subtype and same-object photograph comparison"
+  ],
+  "retainedFailure": [
+    "Initial globals() operation rejected by MCP safe mode; removed instead of weakening mode",
+    "New NRA image pixel request proxy403; stopped without retry"
+  ],
+  "quota": "No readable endpoint; unknown, not reported as sufficient",
+  "library": {
+    "status": "blocked-before-upload",
+    "reason": "Current official prepared upload helper failed at hosted apps tools/list: network",
+    "requested": [
+      "dated source backup ZIP",
+      "dated hero PNG"
+    ],
+    "newLibraryIDs": [],
+    "retryAttempted": false
+  }
+}

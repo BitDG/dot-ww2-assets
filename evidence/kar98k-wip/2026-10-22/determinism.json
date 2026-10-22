@@ -1,0 +1,5 @@
+{
+  "status": "passed",
+  "method": "Two fresh factory-startup Blender processes via actual MCP, plus repeated export; bytes equal",
+  "sha256": "40531cb9c58948b402cca62b2c57cf600c9305ba269000a2f48571b6e69e4f76"
+}

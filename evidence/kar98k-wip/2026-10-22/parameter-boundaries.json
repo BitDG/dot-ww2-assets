@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "minimum": {
+    "scale": 0.85,
+    "woodRoughness": 0.35,
+    "meshes": 10,
+    "sling": false
+  },
+  "maximum": {
+    "scale": 1.15,
+    "woodRoughness": 1,
+    "meshes": 11,
+    "sling": true
+  },
+  "method": "Actual MCP generation followed by independent GLTFLoader bounds, mesh and material readback"
+}

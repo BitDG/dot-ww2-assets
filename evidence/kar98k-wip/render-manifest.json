@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "sourceGLBSHA256": "e77699da2a39b7103ef762030ce63fe340f8d3ea4d1a2099b23bada13e7003a7",
+  "sourceGLBSHA256": "40531cb9c58948b402cca62b2c57cf600c9305ba269000a2f48571b6e69e4f76",
   "topView": {
     "view": "top",
     "direction": [
@@ -20,7 +20,7 @@
     {
       "view": "hero",
       "file": "assets/kar98k-wip/hero.png",
-      "sha256": "4f5d8e07ad80d262c3023178018023c9fbcd39355d056a5fbeb374e246ffe617",
+      "sha256": "02cda81c7692a5f4254d7e8dd616c3e422a12d9e559c0854117ad9ea763f35b8",
       "size": [
         1600,
         900
@@ -29,7 +29,7 @@
     {
       "view": "side",
       "file": "assets/kar98k-wip/side.png",
-      "sha256": "f28c2ef62add9a12feeb5028717c42c20fa0227ea6d398cd63fbb3d3b15bc681",
+      "sha256": "096d0917301fd783d59c2f1e3f5c25b43a8c37822efa7672f0896598f42796ce",
       "size": [
         960,
         540
@@ -38,7 +38,7 @@
     {
       "view": "front",
       "file": "assets/kar98k-wip/front.png",
-      "sha256": "44b46657695561a0b48d2fc512e4a8e0f624617fbeef7022bf8c828fceedc47c",
+      "sha256": "07da86017dbfa194469f26eb1634fde7d17aab1d0670b727020f742775f876f9",
       "size": [
         960,
         540
@@ -47,7 +47,7 @@
     {
       "view": "top",
       "file": "assets/kar98k-wip/top.png",
-      "sha256": "a37b0ea996dfb070fc51ca698df2ccb90acaf8a6e709f2ea5d29eb7632085739",
+      "sha256": "8207a4c8f1432a1f10b28d418e91cd17b99fa01f5cae2f7a83ad8aa280e25c6b",
       "size": [
         960,
         540
@@ -56,7 +56,7 @@
     {
       "view": "detail-stock",
       "file": "assets/kar98k-wip/detail-stock.png",
-      "sha256": "462a18369120e3e76a2dda8160fbfa4ee1a78cdd546a0dd710fc731c10fe18db",
+      "sha256": "ebe6055c70fbaa2bb5334feac9bebb81b5c9d43eae96320afb50eddf22256459",
       "size": [
         960,
         540
@@ -65,7 +65,7 @@
     {
       "view": "detail-handguard",
       "file": "assets/kar98k-wip/detail-handguard.png",
-      "sha256": "ff65e8ebd7a9a96c0f8a332f99a6b517afa7b60e28899bbce901121306176eeb",
+      "sha256": "458076d1abb4f9ac7b6f3347d44ed658d5aea547b823d1ef3bddd063cca4da45",
       "size": [
         960,
         540
@@ -74,7 +74,7 @@
     {
       "view": "detail-metal",
       "file": "assets/kar98k-wip/detail-metal.png",
-      "sha256": "f005fd71cfb08ead28ccf17634e3a4c9f61f9ecf85dcb69adff070a5f4279027",
+      "sha256": "f56f12d145c2f76170e0c7eeeac54099997e431bb3ee1606bc55742df76f1858",
       "size": [
         960,
         540
@@ -83,7 +83,7 @@
     {
       "view": "detail-band",
       "file": "assets/kar98k-wip/detail-band.png",
-      "sha256": "50f47555287ade829d62e9ceb3113ff6d326716fcf3659dca3f0ecbe6b21b760",
+      "sha256": "9dfda65a9fca3447a965dc31f181febd88035e3e8b5a3b3020991274e1219130",
       "size": [
         960,
         540
@@ -92,7 +92,7 @@
     {
       "view": "detail-butt",
       "file": "assets/kar98k-wip/detail-butt.png",
-      "sha256": "cc858876c164e4e57cdb8a53c3153cfc1beb224eccefa5488a2c8dd474be0264",
+      "sha256": "b4be90e26da5afd98ad04bd51eae968e0f3e335256105b97f034cc10d6f7aef5",
       "size": [
         960,
         540
@@ -101,12 +101,12 @@
     {
       "view": "detail-sling",
       "file": "assets/kar98k-wip/detail-sling.png",
-      "sha256": "c5a73614dd99025844d451f6831ded5caf35d08f161a1f24e838e8155641f4b4",
+      "sha256": "265df8abd5780f06d8b9c85ac4385a7691962dbcbf4c30414ecdb800ee608227",
       "size": [
         960,
         540
       ]
     }
   ],
-  "scope": "Actual fixed model renders; not reference photographs or AI concept images"
+  "scope": "Actual fixed model renders; not original photographs"
 }

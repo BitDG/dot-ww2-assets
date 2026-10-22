@@ -16,7 +16,12 @@
   },
   {
     "file": "assets/kar98k-wip/textures/wood-basecolor.png",
-    "sha256": "50ce1d17de6546ca8fc23d1ee814cc18b93f56ec0efdcf04c81da03665361d39",
-    "source": "modules/reference-armored-car/assets/blender/pbr/wood-basecolor.png"
+    "sha256": "078c7500375b703a2b98525a9737cc3df120ca08ea8b977b98c8b6c4e304d7ba",
+    "source": "Original mathematical longitudinal wood grain / scripts/prepare-kar98k-materials.mjs; no museum image pixels"
+  },
+  {
+    "file": "assets/kar98k-wip/textures/wood-normal.png",
+    "sha256": "b07eb1ed7f659716a232f561517b824e569fe9bffc75d4bd5d7e3debc66670bc",
+    "source": "Original mathematical longitudinal wood grain / scripts/prepare-kar98k-materials.mjs; no museum image pixels"
   }
 ]

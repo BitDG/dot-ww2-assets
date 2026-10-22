@@ -1,0 +1,97 @@
+{
+  "artParams": {
+    "artScale": 0.85,
+    "woodRoughness": 0.35,
+    "showSling": false
+  },
+  "operation": "kar98k-exterior-wip",
+  "script": "scripts/tooling/kar98k-exterior-wip.py",
+  "scope": "Task-local original exterior WIP mesh or fixed GLB render via actual MCP",
+  "runtime": {
+    "blender": "4.3.2",
+    "addon": [
+      1,
+      8
+    ],
+    "protocol": 13,
+    "listen": [
+      "127.0.0.1",
+      19876
+    ],
+    "pid": 1024,
+    "mode": "explicit main-thread upstream queue pump",
+    "background": true,
+    "telemetryConsent": {
+      "consent": false
+    },
+    "integrations": {
+      "polyhaven": false,
+      "sketchfab": false,
+      "polypizza": false,
+      "hyper3d": false,
+      "hunyuan3d": false,
+      "tripo": false
+    }
+  },
+  "initialize": {
+    "meta": null,
+    "protocolVersion": "2025-11-25",
+    "capabilities": {
+      "experimental": {},
+      "logging": null,
+      "prompts": {
+        "listChanged": false
+      },
+      "resources": {
+        "subscribe": false,
+        "listChanged": false
+      },
+      "tools": {
+        "listChanged": false
+      },
+      "completions": null,
+      "tasks": null
+    },
+    "serverInfo": {
+      "name": "MCP for Blender",
+      "title": null,
+      "version": "1.29.0",
+      "websiteUrl": null,
+      "icons": null
+    },
+    "instructions": "MCP for Blender drives the user's live Blender. execute_blender_code runs Python there\nwith the full bpy API, so anything Blender can do, you can do; look shows you the result.\n\nStart with get_addon_status (Blender version, which libraries and generators are on) and\nget_scene_info.\n\nScripts run in someone else's Blender:\n- Look shader nodes up by type, never by name (names are localized):\n  `next(n for n in mat.node_tree.nodes if n.type == \"BSDF_PRINCIPLED\")`.\n- Never hardcode enum identifiers; read them, e.g.\n  `[i.identifier for i in bpy.types.RenderSettings.bl_rna.properties[\"file_format\"].enum_items]`.\n  scene.render.engine under-reports: read the current value, and assign a new one inside\n  try/except TypeError, whose message lists the valid engines.\n- Material colors go on shader node inputs; material.diffuse_color only affects the viewport.\n\nlook is how you see your work; use it as much as you need. Images stay in the conversation, so\na smaller max_size keeps long sessions cheap.\n\nObjects can also come from existing libraries (search_assets, then import_asset: Poly Haven,\nSketchfab, Poly Pizza) or be made to order (generate_3d: one new textured model from text or an\nimage, 1-3 minutes, may cost the user a credit). A generation is one object, never a whole\nscene, the ground or parts to assemble. Imported and generated models arrive at arbitrary\nscale: use the reported world_bounding_box to size them and put them on the ground."
+  },
+  "addonStatus": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"up_to_date\": true,\n  \"protocol_version\": 13,\n  \"expected_protocol_version\": 13,\n  \"addon_version\": [\n    1,\n    8\n  ],\n  \"capabilities\": [\n    \"bpy_api_lookup\",\n    \"describe_node_type\",\n    \"drain_human_activity\",\n    \"execute_code\",\n    \"get_addon_info\",\n    \"get_object_info\",\n    \"get_scene_info\",\n    \"get_telemetry_consent\",\n    \"get_viewport_screenshot\",\n    \"get_world_state_snapshot\",\n    \"list_scene_items\",\n    \"pick_viewport_object\",\n    \"set_telemetry_consent\"\n  ],\n  \"blender_version\": \"4.3.2\",\n  \"premium_generators\": [],\n  \"libraries\": {\n    \"polyhaven\": \"off\",\n    \"sketchfab\": \"off\",\n    \"polypizza\": \"off\"\n  },\n  \"generators\": {\n    \"tripo\": \"off (Premium only)\",\n    \"hunyuan3d\": \"off\",\n    \"hyper3d\": \"off\"\n  },\n  \"source\": \"native\",\n  \"warning\": null,\n  \"telemetry_consent\": false,\n  \"update_command\": \"uvx mcp-for-blender install-addon\",\n  \"after_install\": \"If the addon file was updated: in Blender, Preferences \\u2192 Add-ons \\u2192 disable/enable 'Interface: Blender MCP', or restart Blender, then Start MCP Server.\"\n}",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": {
+      "result": "{\n  \"up_to_date\": true,\n  \"protocol_version\": 13,\n  \"expected_protocol_version\": 13,\n  \"addon_version\": [\n    1,\n    8\n  ],\n  \"capabilities\": [\n    \"bpy_api_lookup\",\n    \"describe_node_type\",\n    \"drain_human_activity\",\n    \"execute_code\",\n    \"get_addon_info\",\n    \"get_object_info\",\n    \"get_scene_info\",\n    \"get_telemetry_consent\",\n    \"get_viewport_screenshot\",\n    \"get_world_state_snapshot\",\n    \"list_scene_items\",\n    \"pick_viewport_object\",\n    \"set_telemetry_consent\"\n  ],\n  \"blender_version\": \"4.3.2\",\n  \"premium_generators\": [],\n  \"libraries\": {\n    \"polyhaven\": \"off\",\n    \"sketchfab\": \"off\",\n    \"polypizza\": \"off\"\n  },\n  \"generators\": {\n    \"tripo\": \"off (Premium only)\",\n    \"hunyuan3d\": \"off\",\n    \"hyper3d\": \"off\"\n  },\n  \"source\": \"native\",\n  \"warning\": null,\n  \"telemetry_consent\": false,\n  \"update_command\": \"uvx mcp-for-blender install-addon\",\n  \"after_install\": \"If the addon file was updated: in Blender, Preferences \\u2192 Add-ons \\u2192 disable/enable 'Interface: Blender MCP', or restart Blender, then Start MCP Server.\"\n}"
+    },
+    "isError": false
+  },
+  "toolResult": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "Code executed successfully: Info: Saved \"kar98k-exterior-wip.blend\"\nInfo: Packed 5 file(s)\nInfo: Saved \"kar98k-exterior-wip.blend\"\nERROR Draco mesh compression is not available because library could not be found at /usr/bin/4.3/python/lib/python3.13/site-packages/libextern_draco.so\n00:31:34 | INFO: Starting glTF 2.0 export\n00:31:34 | INFO: Extracting primitive: original exterior stock silhouette\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.001\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cylinder\n00:31:34 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.002\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.003\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.004\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.005\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.006\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.007\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.008\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Finished glTF 2.0 export in 0.043814659118652344 s\n\n00:31:34 | INFO: Starting glTF 2.0 export\n00:31:34 | INFO: Extracting primitive: original exterior stock silhouette\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.001\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cylinder\n00:31:34 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.002\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.003\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.004\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.005\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.006\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.007\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.008\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Finished glTF 2.0 export in 0.028397321701049805 s\n\n{\"asset\": \"kar98k-exterior-wip\", \"meshes\": 10, \"materials\": [\"Brown leather / original constant PBR\", \"Material\", \"PGF deterministic dark metal\", \"PGF reused wood / exterior shell\"], \"scope\": \"original nonfunctional exterior WIP mesh; no concept image request\"}\n",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": {
+      "result": "Code executed successfully: Info: Saved \"kar98k-exterior-wip.blend\"\nInfo: Packed 5 file(s)\nInfo: Saved \"kar98k-exterior-wip.blend\"\nERROR Draco mesh compression is not available because library could not be found at /usr/bin/4.3/python/lib/python3.13/site-packages/libextern_draco.so\n00:31:34 | INFO: Starting glTF 2.0 export\n00:31:34 | INFO: Extracting primitive: original exterior stock silhouette\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.001\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cylinder\n00:31:34 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.002\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.003\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.004\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.005\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.006\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.007\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.008\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Finished glTF 2.0 export in 0.043814659118652344 s\n\n00:31:34 | INFO: Starting glTF 2.0 export\n00:31:34 | INFO: Extracting primitive: original exterior stock silhouette\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.001\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cylinder\n00:31:34 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.002\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.003\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.004\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.005\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.006\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.007\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Extracting primitive: Cube.008\n00:31:34 | INFO: Primitives created: 1\n00:31:34 | INFO: Finished glTF 2.0 export in 0.028397321701049805 s\n\n{\"asset\": \"kar98k-exterior-wip\", \"meshes\": 10, \"materials\": [\"Brown leather / original constant PBR\", \"Material\", \"PGF deterministic dark metal\", \"PGF reused wood / exterior shell\"], \"scope\": \"original nonfunctional exterior WIP mesh; no concept image request\"}\n"
+    },
+    "isError": false
+  },
+  "status": "passed",
+  "blenderExitCode": 0,
+  "portClosed": true
+}

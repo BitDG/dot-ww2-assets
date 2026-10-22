@@ -1,6 +1,6 @@
 BlenderMCP addon registered
 Server thread started
-Connected to client: ('127.0.0.1', 36628)
+Connected to client: ('127.0.0.1', 43026)
 Client handler started
 Queued command: get_addon_info
 Executing handler for get_addon_info
@@ -21,7 +21,7 @@ Handler execution complete
 Queued command: get_hyper3d_status
 Executing handler for get_hyper3d_status
 Handler execution complete
-Connected to client: ('127.0.0.1', 36644)
+Connected to client: ('127.0.0.1', 43038)
 Client handler started
 Queued command: get_addon_info
 Executing handler for get_addon_info

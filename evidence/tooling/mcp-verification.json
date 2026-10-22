@@ -17,7 +17,7 @@
       "127.0.0.1",
       19876
     ],
-    "pid": 6008,
+    "pid": 680,
     "mode": "explicit main-thread upstream queue pump",
     "background": true,
     "telemetryConsent": {

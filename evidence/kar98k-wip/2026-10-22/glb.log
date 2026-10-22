@@ -1,0 +1,56 @@
+{
+  status: 'passed',
+  file: 'assets/kar98k-wip/kar98k-exterior-wip.glb',
+  sha256: '40531cb9c58948b402cca62b2c57cf600c9305ba269000a2f48571b6e69e4f76',
+  bytes: 596728,
+  determinism: 'Two sequential exports byte-identical; separate fresh-process regeneration hash also checked in determinism.json',
+  meshes: 11,
+  triangles: 2564,
+  nonfinite: 0,
+  missingNormals: 0,
+  missingUVs: 0,
+  degenerateTriangles: 0,
+  animationClips: 0,
+  decodedImages: 5,
+  parts: [
+    'stock_shell',
+    'sling_visual',
+    'upper_wood_cover',
+    'solid_front_visual_no_bore',
+    'closed_upper_metal_shell',
+    'butt_cap',
+    'decorative_band',
+    'decorative_band001',
+    'rear_top_visual_tab',
+    'front_top_visual_tab',
+    'underside_solid_detail'
+  ],
+  materials: [
+    'Original longitudinal wood / exterior shell',
+    'Brown leather / original constant PBR',
+    'PGF deterministic dark metal'
+  ],
+  duplicateTriangles: 0,
+  materialParameters: [
+    {
+      name: 'Original longitudinal wood / exterior shell',
+      roughness: 0.5799999833106995,
+      metalness: 0,
+      hasNormalMap: true
+    },
+    {
+      name: 'Brown leather / original constant PBR',
+      roughness: 0.800000011920929,
+      metalness: 0,
+      hasNormalMap: false
+    },
+    {
+      name: 'PGF deterministic dark metal',
+      roughness: 1,
+      metalness: 1,
+      hasNormalMap: true
+    }
+  ],
+  artBounds: [ 4.812500029802322, 1.0525000356137753, 0.3254999965429306 ],
+  disposedResources: 19
+}

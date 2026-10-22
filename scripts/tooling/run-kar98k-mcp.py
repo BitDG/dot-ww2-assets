@@ -3,13 +3,19 @@ import asyncio,os,sys,pathlib,subprocess,time,json,hashlib,socket
 from datetime import timedelta
 from mcp import ClientSession,StdioServerParameters
 from mcp.client.stdio import stdio_client
-root=pathlib.Path(__file__).resolve().parents[2];runtime=root/'.runtime/blender-mcp-2.1.9';out=root/'evidence/kar98k-wip';out.mkdir(parents=True,exist_ok=True);renders=root/'gallery/renders';renders.mkdir(exist_ok=True)
+root=pathlib.Path(__file__).resolve().parents[2];runtime=root/'.runtime/blender-mcp-2.1.9';out=root/os.environ.get('DOT_EVIDENCE','evidence/kar98k-wip');out.mkdir(parents=True,exist_ok=True);renders=root/'gallery/renders';renders.mkdir(exist_ok=True)
 env=os.environ.copy();env.update(PYTHONPATH=str(runtime/'package'),BLENDER_HOST='127.0.0.1',BLENDER_PORT='19876',BLENDER_MCP_SAFE_MODE='1',BLENDER_MCP_DISABLE_TELEMETRY='1',DISABLE_TELEMETRY='1',MCP_DISABLE_TELEMETRY='1')
 for script in sys.argv[1:]:
  ident=pathlib.Path(script).stem
  code=(root/script).read_text()
+ params=json.loads(os.environ.get('DOT_ART_PARAMS_JSON','{"artScale":1.0,"woodRoughness":0.58,"showSling":true}'))
+ assert set(params)=={'artScale','woodRoughness','showSling'},'Unexpected appearance parameter'
+ assert type(params['artScale']) in (int,float) and .85<=params['artScale']<=1.15
+ assert type(params['woodRoughness']) in (int,float) and .35<=params['woodRoughness']<=1
+ assert type(params['showSling']) is bool
+ code='DOT_ART_PARAMS='+repr(params)+'\n'+code
  for n in ['ready.json','stop']:(runtime/n).unlink(missing_ok=True)
- report={'operation':ident,'script':script,'scope':'Task-local original exterior WIP mesh or fixed GLB render via actual MCP'}
+ report={'artParams':params,'operation':ident,'script':script,'scope':'Task-local original exterior WIP mesh or fixed GLB render via actual MCP'}
  async def run():
   with (out/f'{ident}.mcp.log').open('w') as log:
    async with stdio_client(StdioServerParameters(command=sys.executable,args=['-m','blender_mcp.server'],env=env),errlog=log) as (read,write):

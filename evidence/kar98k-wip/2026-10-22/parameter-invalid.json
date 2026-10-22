@@ -1,0 +1,59 @@
+[
+  {
+    "input": {
+      "artScale": 0.84,
+      "woodRoughness": 0.58,
+      "showSling": true
+    },
+    "rejectedBeforeBlenderLaunch": true
+  },
+  {
+    "input": {
+      "artScale": 1.16,
+      "woodRoughness": 0.58,
+      "showSling": true
+    },
+    "rejectedBeforeBlenderLaunch": true
+  },
+  {
+    "input": {
+      "artScale": 1,
+      "woodRoughness": 0.34,
+      "showSling": true
+    },
+    "rejectedBeforeBlenderLaunch": true
+  },
+  {
+    "input": {
+      "artScale": 1,
+      "woodRoughness": 1.01,
+      "showSling": true
+    },
+    "rejectedBeforeBlenderLaunch": true
+  },
+  {
+    "input": {
+      "artScale": 1,
+      "woodRoughness": 0.58,
+      "showSling": "yes"
+    },
+    "rejectedBeforeBlenderLaunch": true
+  },
+  {
+    "input": {
+      "artScale": true,
+      "woodRoughness": 0.58,
+      "showSling": true
+    },
+    "rejectedBeforeBlenderLaunch": true
+  },
+  {
+    "input": {
+      "artScale": 1,
+      "woodRoughness": 0.58,
+      "showSling": true,
+      "extra": 1
+    },
+    "rejectedBeforeBlenderLaunch": true
+  }
+]

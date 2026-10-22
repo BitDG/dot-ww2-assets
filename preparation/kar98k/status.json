@@ -26,7 +26,7 @@
   "originalMultiviewGateSatisfied": false,
   "referenceCandidate": "AWM REL28841.001; text inspected, image access denied",
   "workflow": "User replaced AI concept gate with real exterior references; complete same-object reference views unavailable; WIP with artistic conjecture",
-  "parameterGeneratorImplemented": false,
+  "parameterGeneratorImplemented": "limited appearance controls via task-local MCP runner",
   "conceptMultiviewRequired": false,
   "previewAppearanceControls": [
     "woodTint",
@@ -34,5 +34,12 @@
     "artScale",
     "showSling"
   ],
-  "referenceViewsVerified": []
+  "referenceViewsVerified": [],
+  "lastQualityStage": "2026-10-22 original longitudinal wood, aligned UVs and validated build controls",
+  "implementedBuildParameters": [
+    "artScale",
+    "woodRoughness",
+    "showSling"
+  ],
+  "quotaReadable": false
 }

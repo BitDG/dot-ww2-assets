@@ -4,12 +4,14 @@ import bpy, math, json
 from mathutils import Vector
 ROOT='/workspace/dot-ww2-assets'
 OUT=ROOT+'/assets/kar98k-wip/'
+PARAMS=DOT_ART_PARAMS  # validated literal supplied by the MCP runner; no namespace introspection
 bpy.ops.object.select_all(action='SELECT');bpy.ops.object.delete(use_global=False)
 scene=bpy.context.scene;scene.unit_settings.system='NONE'
 def material(name,color,metallic,roughness):
  m=bpy.data.materials.new(name);m.use_nodes=True;p=next(n for n in m.node_tree.nodes if n.type=='BSDF_PRINCIPLED');p.inputs['Base Color'].default_value=(*color,1);p.inputs['Metallic'].default_value=metallic;p.inputs['Roughness'].default_value=roughness;return m,p
-wood,p=material('PGF reused wood / exterior shell',(.22,.09,.035),0,.64)
+wood,p=material('Original longitudinal wood / exterior shell',(.22,.09,.035),0,PARAMS['woodRoughness'])
 t=wood.node_tree.nodes.new('ShaderNodeTexImage');t.image=bpy.data.images.load(OUT+'textures/wood-basecolor.png');wood.node_tree.links.new(t.outputs['Color'],p.inputs['Base Color'])
+t=wood.node_tree.nodes.new('ShaderNodeTexImage');t.image=bpy.data.images.load(OUT+'textures/wood-normal.png');t.image.colorspace_settings.name='Non-Color';normal=wood.node_tree.nodes.new('ShaderNodeNormalMap');normal.inputs['Strength'].default_value=.35;wood.node_tree.links.new(t.outputs['Color'],normal.inputs['Color']);wood.node_tree.links.new(normal.outputs['Normal'],p.inputs['Normal'])
 metal,p=material('PGF deterministic dark metal',(.08,.1,.12),.8,.4)
 nodes=metal.node_tree.nodes;links=metal.node_tree.links
 for key in ['base','orm','normal']:
@@ -25,6 +27,12 @@ def finish(o,mat,bevel=0):
  if bevel:
   mod=o.modifiers.new('Soft game-art edges','BEVEL');mod.width=bevel;mod.segments=3;bpy.ops.object.modifier_apply(modifier=mod.name)
  bpy.ops.object.mode_set(mode='EDIT');bpy.ops.mesh.select_all(action='SELECT');bpy.ops.mesh.normals_make_consistent(inside=False);bpy.ops.uv.smart_project(island_margin=.025);bpy.ops.object.mode_set(mode='OBJECT')
+ if mat==wood:
+  # Longitudinal projection keeps grain aligned across separate wood shells.
+  uv=o.data.uv_layers.active.data
+  for loop in o.data.loops:
+   co=o.matrix_world@o.data.vertices[loop.vertex_index].co
+   uv[loop.index].uv=((co.x+2.5)/4.0,co.z*1.1+co.y*.4+.5)
  for p in o.data.polygons:p.use_smooth=True
  o['nonfunctional_exterior']=True;o['design_status']='artistic WIP; subtype unverified';o.select_set(False);return o
 def box(name,loc,scale,mat,bev=.025):
@@ -52,6 +60,10 @@ f=[(3,2,1,0),(16,17,18,19)]
 for i in range(len(points)-1):
  for j in range(4):f.append((4*i+j,4*i+(j+1)%4,4*(i+1)+(j+1)%4,4*(i+1)+j))
 me=bpy.data.meshes.new('cosmetic closed strap');me.from_pydata(v,[],f);me.update();ob=bpy.data.objects.new('sling_visual',me);scene.collection.objects.link(ob);finish(ob,leather,.012)
+if not PARAMS['showSling']:bpy.data.objects.remove(ob,do_unlink=True)
+for o in scene.objects:
+ if o.type=='MESH':o.location*=PARAMS['artScale'];o.scale*=PARAMS['artScale']
+scene['art_params']=json.dumps(PARAMS,sort_keys=True)
 scene['asset_status']='Kar98k-inspired exterior WIP; not a museum-accurate replica; no concept multiview approval'
 scene['art_units']='unitless; no manufacturing measurements';scene['seed']='dot-kar98k-exterior-wip-01'
 bpy.ops.object.select_all(action='SELECT')

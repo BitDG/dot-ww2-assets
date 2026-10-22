@@ -1,0 +1,13 @@
+{
+ "date":"2026-10-22",
+ "quota":{"status":"unavailable","reason":"No current quota/credits read endpoint exposed in available tools; no paid external generator invoked"},
+ "remoteMainAtStart":"455a40d76944220e669e14228ef5972e16e38529",
+ "worktreeAtStart":"clean",
+ "deduplication":"Existing assets/kar98k-wip reused; no Kar98k-named module/file found under PGF/modules; no second model created",
+ "PGFLocalHead":"3f7669f7646b828fb06ec896488e9bd16c57fe2c",
+ "PGFWorktree":"clean; not modified",
+ "packageVersion":"mcp-for-blender 2.1.9",
+ "wheelSHA256":"a5cbc6cf316fa7433566eb505a0c26ca22e28c10083bd1b09a23d9e357821ccc",
+ "addonSHA256":"eb0facf69781a30e69792532087d8d41c6a14fcd323353250abe7988ee297fa5",
+ "installation":"Existing approved task-local files reused; no installation/download or global changes"
+}

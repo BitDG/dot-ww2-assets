@@ -1,0 +1,100 @@
+
+> dot-ww2-assets@0.1.0 build
+> vite build
+
+vite v8.3.0 building client environment for production...
+transforming...
+✓ 174 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                           0.47 kB │ gzip:     0.34 kB
+dist/assets/stage-comet-CziWE3ae.glb                     22.42 kB
+dist/assets/kar98k-exterior-wip-DfDu-Csa.glb            596.72 kB
+dist/assets/preview.worker-BH5s_cmc.js                  723.38 kB
+dist/assets/asset-export.worker-Cfwxu3Fs.js             752.59 kB
+dist/assets/qf17-visual-prop-DFa6Ho9v.png               768.17 kB
+dist/assets/nebelwerfer41-visual-prop-QbUiuI9g.png      786.30 kB
+dist/assets/land-mattress-visual-prop-CgHhZybR.png      845.44 kB
+dist/assets/LM-L3-low-BJCueU3l.glb                      851.41 kB
+dist/assets/flakzwilling43-visual-prop-qV5zbcwk.png     856.81 kB
+dist/assets/gustav-visual-prop-Co8uwy9e.png             892.27 kB
+dist/assets/qf25-visual-prop-C18ez23F.png               895.94 kB
+dist/assets/bm13-us6-visual-prop-DrXNde4W.png           902.95 kB
+dist/assets/reference-armored-car-Ch-gyTPv.png          917.25 kB
+dist/assets/hero-BByIWDXW.png                           948.96 kB
+dist/assets/diesel-locomotive-BAFGt3hN.png              955.89 kB
+dist/assets/tracked-mortar-DDh6HU51.png               1,009.18 kB
+dist/assets/armored-4x4-e7GLL_Re.png                  1,048.97 kB
+dist/assets/QF17-Q6-low-DQFVU9WX.glb                  1,086.18 kB
+dist/assets/worker-B-XVNDH0.js                        1,113.44 kB
+dist/assets/worker-BtFF8qF7.js                        1,114.58 kB
+dist/assets/worker-CAIJ2NiU.js                        1,116.58 kB
+dist/assets/worker-tko5OUi_.js                        1,122.41 kB
+dist/assets/worker-BBoF8B56.js                        1,122.43 kB
+dist/assets/worker-XJUh-u31.js                        1,123.12 kB
+dist/assets/kar98k-exterior-wip-wkw_-QVT.blend        1,258.73 kB
+dist/assets/worker-B5kWO9hA.js                        1,288.91 kB
+dist/assets/worker-CJKS14TZ.js                        1,564.22 kB
+dist/assets/QF17-Q6-medium-D9xR5fVX.glb               1,857.75 kB
+dist/assets/LM-L3-medium-BgfXgo2S.glb                 2,584.20 kB
+dist/assets/worker-B2OtrfA9.js                        2,872.72 kB
+dist/assets/FZ43-F2-low-FtZgyZCa.glb                  3,002.17 kB
+dist/assets/QF25-Q2-low-CLtIXmQV.glb                  3,123.20 kB
+dist/assets/QF17-Q6-high-DXHSOx3O.glb                 3,229.33 kB
+dist/assets/worker-C9uWyQG5.js                        3,627.17 kB
+dist/assets/FZ43-F2-geometry-opN2Ds-d.glb             4,087.29 kB
+dist/assets/LM-L3-high-C1fzOs4c.glb                   4,326.31 kB
+dist/assets/QF25-Q2-geometry-BluJoDkZ.glb             4,836.73 kB
+dist/assets/FZ43-F2-high-CEZjspmx.glb                 4,857.24 kB
+dist/assets/BM13-B6-low-YM-WFsKp.glb                  4,899.77 kB
+dist/assets/N41-N2-geometry-BSnUypR9.glb              5,064.75 kB
+dist/assets/QF25-Q2-high-Ch3fVtxz.glb                 5,689.36 kB
+dist/assets/BM13-B6-medium-Dcig2Cue.glb               7,021.18 kB
+dist/assets/worker-xjarZ4ff.js                       10,019.35 kB
+dist/assets/BM13-B6-high-CWlXN7dH.glb                17,956.23 kB
+dist/assets/index-CuzyyFGh.css                            3.99 kB │ gzip:     1.44 kB
+dist/assets/workbench-BPQuQ2uA.css                        7.54 kB │ gzip:     2.03 kB
+dist/assets/batch-DhcDKbNE.js                             1.42 kB │ gzip:     0.74 kB
+dist/assets/geometry-SUVOYWbW.js                          1.95 kB │ gzip:     1.00 kB
+dist/assets/metal-finish-D8AYA-AQ.js                      2.70 kB │ gzip:     1.51 kB
+dist/assets/kar98k-wip-DD61hcJ0.js                        3.62 kB │ gzip:     1.96 kB
+dist/assets/RoundedBoxGeometry-DNR1Crvw.js                5.61 kB │ gzip:     2.78 kB
+dist/assets/definition-DoRLd0tK.js                        8.92 kB │ gzip:     4.22 kB
+dist/assets/definition-pKjOtbnz.js                        9.85 kB │ gzip:     4.70 kB
+dist/assets/definition-CVxqOg3o.js                       11.09 kB │ gzip:     5.38 kB
+dist/assets/definition-Bin6YEIn.js                       11.95 kB │ gzip:     5.49 kB
+dist/assets/definition-7-Vhj7YZ.js                       14.74 kB │ gzip:     6.48 kB
+dist/assets/definition-U05-kqV1.js                       14.76 kB │ gzip:     6.42 kB
+dist/assets/definition-CMq-tDVo.js                       15.45 kB │ gzip:     6.73 kB
+dist/assets/index-mgMcXgkT.js                            20.73 kB │ gzip:     8.11 kB
+dist/assets/three-ir-D-EY4zyd.js                         23.03 kB │ gzip:     9.66 kB
+dist/assets/core-C4MEg8M9.js                             32.65 kB │ gzip:    12.28 kB
+dist/assets/portable-vehicle-finish-CBF_ksuM.js         158.89 kB │ gzip:    36.59 kB
+dist/assets/definition-Lm9Qodj0.js                      198.25 kB │ gzip:   135.61 kB
+dist/assets/definition-Bb_dMJXU.js                      472.85 kB │ gzip:   338.23 kB
+dist/assets/OrbitControls-BO995Za_.js                   764.54 kB │ gzip:   194.42 kB
+dist/assets/definition-BkTGRbbC.js                    1,973.12 kB │ gzip: 1,467.80 kB
+dist/assets/workbench-MdxHLrs6.js                     2,682.48 kB │ gzip:   553.31 kB
+dist/assets/definition-BH8YmKmK.js                    8,968.25 kB │ gzip: 6,552.46 kB
+
+✓ built in 8.65s
+[plugin builtin:vite-reporter]
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[33m[PLUGIN_TIMINGS] [0mPlugin hooks ran for 7.1s of this 8.6s build (82%).
+The slowest hooks, timed inside each callback (the wait before a callback starts is excluded, the time it awaits is included):
+  - vite:worker-import-meta-url transform (68%, 5.9s, 2 calls)
+Additional hook time came from the hooks below and from hooks under 1s.
+3 hooks are listed without a time. Their calls overlapped, so the time inside one call includes work from other calls. To find their cost, profile the build with `node --cpu-prof`:
+  - vite:worker load (11 calls)
+  - vite:asset load (11 calls)
+  - vite:asset-import-meta-url transform (9 calls)
+See https://rolldown.rs/reference/InputOptions.checks#plugintimings for more details.
+
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

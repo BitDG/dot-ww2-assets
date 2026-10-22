@@ -4,17 +4,17 @@
   "files": [
     {
       "file": "kar98k-exterior-wip.glb",
-      "sha256": "e77699da2a39b7103ef762030ce63fe340f8d3ea4d1a2099b23bada13e7003a7",
+      "sha256": "40531cb9c58948b402cca62b2c57cf600c9305ba269000a2f48571b6e69e4f76",
       "status": "HTTP 200 and bytes equal"
     },
     {
       "file": "kar98k-exterior-wip.blend",
-      "sha256": "cee68f3bb3b16d88077ef74ef0b422eacb4293d37f4600fed73218f0762a8cf6",
+      "sha256": "4ed9f6431ec940c0fd070de9fd2b5a7ed7f674b579f9d5ebe1ae7c33f34d552c",
       "status": "HTTP 200 and bytes equal"
     },
     {
       "file": "hero.png",
-      "sha256": "4f5d8e07ad80d262c3023178018023c9fbcd39355d056a5fbeb374e246ffe617",
+      "sha256": "02cda81c7692a5f4254d7e8dd616c3e422a12d9e559c0854117ad9ea763f35b8",
       "status": "HTTP 200 and bytes equal"
     }
   ]

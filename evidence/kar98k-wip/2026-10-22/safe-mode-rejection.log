@@ -1,0 +1,49 @@
+  + Exception Group Traceback (most recent call last):
+  |   File "/workspace/dot-ww2-assets/scripts/tooling/run-kar98k-mcp.py", line 35, in <module>
+  |     asyncio.run(asyncio.wait_for(run(),175));report.update(status='passed')
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py", line 195, in run
+  |     return runner.run(main)
+  |            ^^^^^^^^^^^^^^^^
+  |   File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py", line 118, in run
+  |     return self._loop.run_until_complete(task)
+  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+  |     return future.result()
+  |            ^^^^^^^^^^^^^^^
+  |   File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+  |     return await fut
+  |            ^^^^^^^^^
+  |   File "/workspace/dot-ww2-assets/scripts/tooling/run-kar98k-mcp.py", line 21, in run
+  |     async with stdio_client(StdioServerParameters(command=sys.executable,args=['-m','blender_mcp.server'],env=env),errlog=log) as (read,write):
+  |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/mcp/client/stdio/__init__.py", line 183, in stdio_client
+  |     anyio.create_task_group() as tg,
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 815, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Exception Group Traceback (most recent call last):
+    |   File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/mcp/client/stdio/__init__.py", line 189, in stdio_client
+    |     yield read_stream, write_stream
+    |   File "/workspace/dot-ww2-assets/scripts/tooling/run-kar98k-mcp.py", line 22, in run
+    |     async with ClientSession(read,write,read_timeout_seconds=timedelta(seconds=170)) as session:
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/mcp/shared/session.py", line 238, in __aexit__
+    |     return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 815, in __aexit__
+    |     raise BaseExceptionGroup(
+    | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/workspace/dot-ww2-assets/scripts/tooling/run-kar98k-mcp.py", line 25, in run
+      |     result=await session.call_tool('execute_blender_code',{'code':code});report['toolResult']=result.model_dump(mode='json');text='\n'.join(c.text for c in result.content if c.type=='text');assert not result.isError and text.startswith('Code executed successfully:'),text
+      |                                                                                                                                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      | AssertionError: Rejected by safe mode - line 8: globals() is forbidden: globals() exposes the module namespace
+
+BLENDER_MCP_SAFE_MODE is enabled: scripts may only import bpy, bmesh, mathutils, and pure-python stdlib modules. No eval/exec/open, no os/subprocess/network access, no handlers/timers/drivers, no class or property registration, and no loading of external .blend datablocks. Blender operators for rendering, saving, and import/export ARE allowed. Rewrite the script within these limits; only the user can disable safe mode.
+      +------------------------------------
