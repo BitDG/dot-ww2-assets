@@ -1,0 +1,26 @@
+Degenerate faces by mesh {
+  decorative_stock_disc: 48,
+  decorative_stock_disc001: 48,
+  band_surface_rivet: 48,
+  band_surface_rivet001: 48,
+  shell_surface_rivet: 48,
+  shell_surface_rivet001: 48
+}
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: degenerateTriangles
+
+288 !== 0
+
+    at file:///workspace/dot-ww2-assets/scripts/validate-kar98k-wip.mjs:8:299 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 288,
+  expected: 0,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

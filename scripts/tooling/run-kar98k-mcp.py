@@ -9,7 +9,9 @@ for script in sys.argv[1:]:
  ident=pathlib.Path(script).stem
  code=(root/script).read_text()
  params=json.loads(os.environ.get('DOT_ART_PARAMS_JSON','{"artScale":1.0,"woodRoughness":0.58,"showSling":true}'))
- assert set(params)=={'artScale','woodRoughness','showSling'},'Unexpected appearance parameter'
+ params.setdefault('detail','showcase')
+ assert params['detail'] in ['standard','showcase'],'Unknown detail tier'
+ assert set(params)=={'artScale','woodRoughness','showSling','detail'},'Unexpected appearance parameter'
  assert type(params['artScale']) in (int,float) and .85<=params['artScale']<=1.15
  assert type(params['woodRoughness']) in (int,float) and .35<=params['woodRoughness']<=1
  assert type(params['showSling']) is bool

@@ -1,1 +1,6 @@
-{"artScale":1.0,"woodRoughness":0.58,"showSling":true}
+{
+  "artScale": 1.0,
+  "woodRoughness": 0.58,
+  "showSling": true,
+  "detail": "showcase"
+}

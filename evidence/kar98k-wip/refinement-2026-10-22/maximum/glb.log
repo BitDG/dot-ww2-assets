@@ -1,0 +1,74 @@
+Degenerate faces by mesh {}
+{
+  status: 'passed',
+  file: 'assets/kar98k-wip/kar98k-exterior-wip.glb',
+  sha256: 'c5d81a486e388d1310afa6eeade6127dc20fd569c44ffbd0d4d52bf07fe6707a',
+  bytes: 1100992,
+  determinism: 'Two sequential exports byte-identical; separate fresh-process regeneration hash also checked in determinism.json',
+  meshes: 27,
+  triangles: 22000,
+  nonfinite: 0,
+  missingNormals: 0,
+  missingUVs: 0,
+  degenerateTriangles: 0,
+  degenerateByMesh: {},
+  animationClips: 0,
+  decodedImages: 5,
+  parts: [
+    'stock_shell',
+    'upper_wood_cover',
+    'butt_cap',
+    'external_guard_no_trigger',
+    'decorative_band',
+    'front_contour_band',
+    'sling_visual',
+    'strap_keeper',
+    'solid_front_visual_no_bore',
+    'closed_upper_metal_shell',
+    'rear_shell_rim',
+    'front_shell_rim',
+    'upper_shell_side_plate',
+    'underside_solid_detail',
+    'fixed_side_ornament',
+    'solid_ornamental_knob',
+    'rear_top_visual_tab',
+    'rear_top_base',
+    'front_top_visual_tab',
+    'front_top_base',
+    'leather_attachment_fold',
+    'leather_attachment_fold001',
+    'band_surface_rivet',
+    'band_surface_rivet001',
+    'shell_surface_rivet',
+    'shell_surface_rivet001',
+    'upper_shell_seam'
+  ],
+  materials: [
+    'Original longitudinal wood / exterior shell',
+    'PGF deterministic dark metal',
+    'Brown leather / original constant PBR'
+  ],
+  duplicateTriangles: 0,
+  materialParameters: [
+    {
+      name: 'Original longitudinal wood / exterior shell',
+      roughness: 1,
+      metalness: 0,
+      hasNormalMap: true
+    },
+    {
+      name: 'PGF deterministic dark metal',
+      roughness: 1,
+      metalness: 1,
+      hasNormalMap: true
+    },
+    {
+      name: 'Brown leather / original constant PBR',
+      roughness: 0.800000011920929,
+      metalness: 0,
+      hasNormalMap: false
+    }
+  ],
+  artBounds: [ 5.514249881505968, 1.1388506553502693, 0.48305055487796134 ],
+  disposedResources: 35
+}

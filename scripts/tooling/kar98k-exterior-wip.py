@@ -38,31 +38,117 @@ def finish(o,mat,bevel=0):
 def box(name,loc,scale,mat,bev=.025):
  bpy.ops.mesh.primitive_cube_add(size=1,location=loc);o=bpy.context.object;o.name=name;o.scale=scale;bpy.ops.object.transform_apply(location=False,rotation=False,scale=True);return finish(o,mat,bev)
 def cylinder(name,a,b,r,mat):
- a,b=Vector(a),Vector(b);bpy.ops.mesh.primitive_cylinder_add(vertices=24,radius=r,depth=(b-a).length,end_fill_type='NGON',location=(a+b)/2);o=bpy.context.object;o.name=name;o.rotation_euler=(b-a).to_track_quat('Z','Y').to_euler();bpy.ops.object.transform_apply(location=False,rotation=False,scale=True);return finish(o,mat,.008)
-# Hand-authored silhouette, intentionally stylized and without fitted internals.
-profile=[(-2.4,-.48),(-2.42,.12),(-1.48,.16),(-1.11,.08),(-.76,.17),(1.28,.17),(1.37,.08),(1.3,-.08),(-.72,-.11),(-1.12,-.18),(-1.35,-.39)]
-verts=[(x,y,z) for y in [-.12,.12] for x,z in profile];n=len(profile);faces=[tuple(reversed(range(n))),tuple(range(n,2*n))]+[(i,(i+1)%n,(i+1)%n+n,i+n) for i in range(n)]
-mesh=bpy.data.meshes.new('original exterior stock silhouette');mesh.from_pydata(verts,[],faces);mesh.update();o=bpy.data.objects.new('stock_shell',mesh);scene.collection.objects.link(o);finish(o,wood,.045)
-box('upper_wood_cover',(.42,0,.2),(1.58,.20,.13),wood,.05)
-cylinder('solid_front_visual_no_bore',(1.1,0,.19),(2.36,0,.19),.054,metal)
-box('closed_upper_metal_shell',(-.6,0,.21),(.75,.20,.14),metal,.04)
-box('butt_cap',(-2.42,0,-.18),(.065,.27,.61),metal,.022)
-for x in [.62,1.24]:box('decorative_band', (x,0,.09),(.09,.275,.29),metal,.027)
-# Non-operational low-relief embellishments only; no trigger, bolt, chamber or bore.
-box('rear_top_visual_tab',(-.1,0,.30),(.18,.13,.055),metal,.018)
-box('front_top_visual_tab',(2.17,0,.26),(.10,.055,.07),metal,.014)
-box('underside_solid_detail',(-.70,0,-.14),(.37,.14,.08),metal,.025)
-# Closed ribbon, purely cosmetic. Attachment placement is artistic conjecture.
-points=[(-2.08,-.15,-.30),(-1.5,-.17,-.58),(-.65,-.17,-.68),(.18,-.16,-.56),(.82,-.12,-.08)]
-v=[]
-for x,y,z in points:v.extend([(x,y-.018,z-.045),(x,y+.018,z-.045),(x,y+.018,z+.045),(x,y-.018,z+.045)])
-f=[(3,2,1,0),(16,17,18,19)]
-for i in range(len(points)-1):
- for j in range(4):f.append((4*i+j,4*i+(j+1)%4,4*(i+1)+(j+1)%4,4*(i+1)+j))
-me=bpy.data.meshes.new('cosmetic closed strap');me.from_pydata(v,[],f);me.update();ob=bpy.data.objects.new('sling_visual',me);scene.collection.objects.link(ob);finish(ob,leather,.012)
-if not PARAMS['showSling']:bpy.data.objects.remove(ob,do_unlink=True)
+ a,b=Vector(a),Vector(b);bpy.ops.mesh.primitive_cylinder_add(vertices=24,radius=r,depth=(b-a).length,end_fill_type='NGON',location=(a+b)/2);o=bpy.context.object;o.name=name;o.rotation_euler=(b-a).to_track_quat('Z','Y').to_euler();bpy.ops.object.transform_apply(location=False,rotation=False,scale=True);return finish(o,mat,min(.008,(b-a).length*.2,r*.2))
+# Smooth original exterior sculpture. All dimensions are arbitrary art units.
+HIGH=PARAMS.get('detail','showcase')=='showcase'
+RINGS=40 if HIGH else 16
+STEPS=6 if HIGH else 3
+
+def make_mesh(name,verts,faces,mat,bevel=0):
+ me=bpy.data.meshes.new(name+' geometry');me.from_pydata(verts,[],faces);me.update();o=bpy.data.objects.new(name,me);scene.collection.objects.link(o);return finish(o,mat,bevel)
+def cat(a,b,c,d,t):return .5*((2*b)+(-a+c)*t+(2*a-5*b+4*c-d)*t*t+(-a+3*b-3*c+d)*t*t*t)
+def samples(knots,steps):
+ result=[]
+ for i in range(len(knots)-1):
+  a=knots[max(0,i-1)];b=knots[i];c=knots[i+1];d=knots[min(len(knots)-1,i+2)]
+  for j in range(steps):
+   t=j/steps;result.append([b[0]+(c[0]-b[0])*t]+[cat(a[k],b[k],c[k],d[k],t) for k in range(1,len(b))])
+ return result+[knots[-1]]
+def loft(name,knots,mat,steps=STEPS,rings=RINGS):
+ # Cross sections: x, half-width, top, bottom. Rounded cross section, no internal cavity.
+ rows=samples(knots,steps);v=[]
+ for x,w,top,bottom in rows:
+  z=(top+bottom)/2;h=(top-bottom)/2
+  for j in range(rings):
+   a=j*2*math.pi/rings;v.append((x,w*math.cos(a),z+h*math.sin(a)))
+ f=[]
+ for i in range(len(rows)-1):
+  for j in range(rings):f.append((i*rings+j,i*rings+(j+1)%rings,(i+1)*rings+(j+1)%rings,(i+1)*rings+j))
+ for i,reverse in [(0,True),(len(rows)-1,False)]:
+  x,w,t,b=rows[i];v.append((x,0,(t+b)/2));c=len(v)-1
+  for j in range(rings):f.append((c,i*rings+(j+1)%rings,i*rings+j) if reverse else (c,i*rings+j,i*rings+(j+1)%rings))
+ return make_mesh(name,v,f,mat)
+stock=[[-2.4,.105,.08,-.49],[-2.36,.137,.13,-.50],[-2.12,.145,.15,-.47],[-1.72,.134,.17,-.42],[-1.42,.11,.145,-.34],[-1.20,.083,.08,-.19],[-1.02,.077,.055,-.125],[-.82,.104,.13,-.13],[-.45,.116,.145,-.14],[.0,.111,.14,-.13],[.55,.103,.13,-.12],[1.10,.091,.12,-.105],[1.28,.073,.10,-.08],[1.34,.035,.055,-.04]]
+loft('stock_shell',stock,wood)
+loft('upper_wood_cover',[[-.19,.045,.245,.125],[-.12,.099,.26,.125],[.12,.102,.25,.13],[.65,.092,.23,.125],[1.10,.08,.21,.11],[1.22,.045,.18,.11]],wood)
+loft('butt_cap',[[-2.435,.11,.085,-.495],[-2.42,.121,.105,-.505],[-2.395,.126,.112,-.505]],metal,steps=2)
+cylinder('solid_front_visual_no_bore',(1.18,0,.17),(2.36,0,.17),.044,metal)
+cylinder('closed_upper_metal_shell',(-.91,0,.17),(-.22,0,.17),.096,metal)
+cylinder('rear_shell_rim',(-.96,0,.17),(-.88,0,.17),.103,metal)
+cylinder('front_shell_rim',(-.31,0,.17),(-.20,0,.17),.106,metal)
+box('upper_shell_side_plate',(-.59,-.087,.155),(.50,.036,.088),metal,.013)
+box('underside_solid_detail',(-.62,0,-.145),(.50,.143,.045),metal,.015)
+# The empty external guard is a purely decorative closed metal loop, with no trigger.
+def ribbon(name,knots,width,thickness,mat,steps=STEPS):
+ pts=samples(knots,steps);v=[]
+ for i,p in enumerate(pts):
+  x,y,z=p;prev=Vector(pts[max(i-1,0)]);nxt=Vector(pts[min(i+1,len(pts)-1)]);tangent=(nxt-prev).normalized();normal=Vector((-tangent.z,0,tangent.x)).normalized()
+  for sy,sn in [(-1,-1),(1,-1),(1,1),(-1,1)]:v.append(Vector(p)+Vector((0,sy*thickness/2,0))+normal*(sn*width/2))
+ f=[(3,2,1,0)];n=len(pts)
+ for i in range(n-1):
+  for j in range(4):f.append((i*4+j,i*4+(j+1)%4,(i+1)*4+(j+1)%4,(i+1)*4+j))
+ f.append(tuple(range((n-1)*4,n*4)));return make_mesh(name,v,f,mat,.004)
+ribbon('external_guard_no_trigger',[[-.93,0,-.12],[-.94,0,-.26],[-.84,0,-.35],[-.63,0,-.35],[-.49,0,-.28],[-.46,0,-.13]],.032,.082,metal)
+# Fixed solid ornamental side silhouette, no bolt or movable joint.
+cylinder('fixed_side_ornament',(-.80,-.07,.17),(-.74,-.22,.04),.025,metal)
+# Explicit ordered triangle sphere avoids nondeterministic primitive face indexing.
+segments=24 if HIGH else 12;latitude=12 if HIGH else 8
+v=[(-.74,-.22,.08),(-.74,-.22,-.03)]
+for i in range(1,latitude):
+ a=math.pi*i/latitude
+ for j in range(segments):
+  b=2*math.pi*j/segments;v.append((-.74+.055*math.sin(a)*math.cos(b),-.22+.055*math.sin(a)*math.sin(b),.025+.055*math.cos(a)))
+f=[]
+for j in range(segments):
+ k=(j+1)%segments;f.append((0,2+j,2+k));last=2+(latitude-2)*segments;f.append((1,last+k,last+j))
+for i in range(latitude-2):
+ for j in range(segments):
+  a=2+i*segments+j;b=2+i*segments+(j+1)%segments;c=b+segments;d=a+segments;f.extend([(a,d,c),(a,c,b)])
+make_mesh('solid_ornamental_knob',v,f,metal)
+def band(name,x,cy,cz,wy,hz,depth):
+ v=[];n=RINGS
+ for side in [-1,1]:
+  for inner in [False,True]:
+   for j in range(n):
+    a=2*math.pi*j/n;c=math.cos(a);s=math.sin(a);c=math.copysign(abs(c)**.60,c);s=math.copysign(abs(s)**.60,s);v.append((x+side*depth/2,cy+(wy-(.012 if inner else 0))*c,cz+(hz-(.012 if inner else 0))*s))
+ f=[]
+ for j in range(n):
+  k=(j+1)%n
+  f.extend([(j,k,2*n+k,2*n+j),(n+j,3*n+j,3*n+k,n+k),(j,n+j,n+k,k),(2*n+j,2*n+k,3*n+k,3*n+j)])
+ return make_mesh(name,v,f,metal,.003)
+band('decorative_band',.55,0,.055,.116,.188,.07)
+band('front_contour_band',1.19,0,.052,.103,.156,.105)
+box('rear_top_visual_tab',(-.05,0,.277),(.30,.091,.033),metal,.009)
+box('rear_top_base',(-.05,0,.249),(.36,.12,.036),metal,.01)
+box('front_top_visual_tab',(2.17,0,.227),(.10,.035,.045),metal,.008)
+box('front_top_base',(2.16,0,.206),(.16,.075,.025),metal,.009)
+# Soft leather path, laid over simple external attachment pads.
+strap=[[-2.11,-.14,-.31],[-1.92,-.17,-.44],[-1.48,-.19,-.58],[-.85,-.19,-.66],[-.15,-.18,-.61],[.32,-.16,-.44],[.57,-.12,-.10]]
+ob=ribbon('sling_visual',strap,.072,.022,leather,steps=10 if HIGH else 3)
+strap_parts=[ob]
+if HIGH:
+ for x,y,z in [strap[0],strap[-1]]:
+  strap_parts.append(box('leather_attachment_fold',(x,y-.005,z),(.15,.028,.082),leather,.012))
+ # Surface seams and rivet heads are cosmetic, without fastener cavities or internal threads.
+ for x in [.55,1.19]:
+  cylinder('band_surface_rivet',(x,-.11,.025),(x,-.125,.025),.014,metal)
+ for x in [-.82,-.35]:
+  cylinder('shell_surface_rivet',(x,-.105,.16),(x,-.12,.16),.012,metal)
+ # Narrow side inlay creates a readable junction without a working opening.
+ box('upper_shell_seam',(-.57,-.108,.19),(.31,.007,.006),metal,.002)
+ # Rounded external strap keeper; unrelated to any operating mechanism.
+ keeper=band('strap_keeper',-1.96,-.17,-.43,.025,.052,.025);strap_parts.append(keeper)
+for o in strap_parts:o['cosmetic_sling']=True
+if not PARAMS['showSling']:
+ for o in strap_parts:bpy.data.objects.remove(o,do_unlink=True)
+
 for o in scene.objects:
  if o.type=='MESH':o.location*=PARAMS['artScale'];o.scale*=PARAMS['artScale']
+# Resolve symmetric quad diagonals explicitly before export for byte determinism.
+for o in list(scene.objects):
+ if o.type=='MESH':
+  bpy.context.view_layer.objects.active=o
+  tri=o.modifiers.new('Deterministic exterior triangulation','TRIANGULATE');tri.quad_method='FIXED';tri.ngon_method='CLIP';bpy.ops.object.modifier_apply(modifier=tri.name)
 scene['art_params']=json.dumps(PARAMS,sort_keys=True)
 scene['asset_status']='Kar98k-inspired exterior WIP; not a museum-accurate replica; no concept multiview approval'
 scene['art_units']='unitless; no manufacturing measurements';scene['seed']='dot-kar98k-exterior-wip-01'

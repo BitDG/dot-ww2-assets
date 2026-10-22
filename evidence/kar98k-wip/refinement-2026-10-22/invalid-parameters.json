@@ -1,0 +1,84 @@
+[
+  {
+    "input": {
+      "artScale": 1,
+      "woodRoughness": 0.58,
+      "showSling": true,
+      "detail": "ultra"
+    },
+    "rejectedBeforeBlenderLaunch": true
+  },
+  {
+    "input": {
+      "artScale": 1,
+      "woodRoughness": 0.58,
+      "showSling": true,
+      "detail": null
+    },
+    "rejectedBeforeBlenderLaunch": true
+  },
+  {
+    "input": {
+      "artScale": 0.84,
+      "woodRoughness": 0.58,
+      "showSling": true,
+      "detail": "showcase"
+    },
+    "rejectedBeforeBlenderLaunch": true
+  },
+  {
+    "input": {
+      "artScale": 1.16,
+      "woodRoughness": 0.58,
+      "showSling": true,
+      "detail": "showcase"
+    },
+    "rejectedBeforeBlenderLaunch": true
+  },
+  {
+    "input": {
+      "artScale": 1,
+      "woodRoughness": 0.34,
+      "showSling": true,
+      "detail": "showcase"
+    },
+    "rejectedBeforeBlenderLaunch": true
+  },
+  {
+    "input": {
+      "artScale": 1,
+      "woodRoughness": 1.01,
+      "showSling": true,
+      "detail": "showcase"
+    },
+    "rejectedBeforeBlenderLaunch": true
+  },
+  {
+    "input": {
+      "artScale": 1,
+      "woodRoughness": 0.58,
+      "showSling": "yes",
+      "detail": "showcase"
+    },
+    "rejectedBeforeBlenderLaunch": true
+  },
+  {
+    "input": {
+      "artScale": true,
+      "woodRoughness": 0.58,
+      "showSling": true,
+      "detail": "showcase"
+    },
+    "rejectedBeforeBlenderLaunch": true
+  },
+  {
+    "input": {
+      "artScale": 1,
+      "woodRoughness": 0.58,
+      "showSling": true,
+      "detail": "showcase",
+      "extra": 1
+    },
+    "rejectedBeforeBlenderLaunch": true
+  }
+]

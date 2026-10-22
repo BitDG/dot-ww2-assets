@@ -1,0 +1,47 @@
+{
+  "status": "geometry-stage-delivered-WIP",
+  "baselineCommit": "033c81960b5f150efa3d3573b67b8fbb8996fd67",
+  "actualVisualReview": [
+    "Before: hero, side, handguard close-up inspected",
+    "After: ten-render review sheet, same-camera comparison, final band close-up and hero inspected",
+    "Curved stock and wrist, tapered handguard, layered closed metal, wrapped bands and smooth sling visibly differ",
+    "Removed partly buried stock decorations and corrected band/handguard intersections after initial rendering"
+  ],
+  "tiers": {
+    "standard": {
+      "meshes": 19,
+      "triangles": 8180,
+      "sha256": "89f9136cefae2aa7877382c8be76046c9f9aed21d591e38bd30b526d263e25d9"
+    },
+    "showcase": {
+      "meshes": 27,
+      "triangles": 22000,
+      "sha256": "b67499f14087c4cb84fff854103561fce71173738c06862bd2574d3dcb69f0b4"
+    }
+  },
+  "passed": [
+    "Real task-local Blender MCP generation and render receipts",
+    "Two fresh-process fixed GLB outputs byte-identical",
+    "Independent GLTFLoader readback, normal/UV presence and finite attributes",
+    "Zero exact/near-zero degenerate and duplicate triangles in final exports",
+    "Actual tier geometry and parameter boundary readback; nine invalid parameter cases",
+    "Explicit resource disposal during independent readback",
+    "Ten same-GLB renders; orthographic top direction [0,0,1]",
+    "Exact baseline camera and lighting reused for after comparison",
+    "Production build and both GLB tiers/blend/hero HTTP byte checks"
+  ],
+  "failuresCorrected": [
+    "Overlarge cosmetic-rivet bevel created degenerate faces",
+    "UV sphere primitive index ordering differed between processes; explicit ordered triangle mesh fixed it"
+  ],
+  "notRun": [
+    "Firefox interaction and GPU lifecycle QA",
+    "Historical subtype/same-object photograph acceptance"
+  ],
+  "limitations": [
+    "No new accessible reference pixels obtained; sculpted curves and attachment positions remain artistic conjecture",
+    "Wood grain remains regular and some small fittings simplified",
+    "Library proxy403 unchanged; not attempted"
+  ],
+  "PGFModified": false
+}

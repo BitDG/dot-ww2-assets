@@ -2,7 +2,7 @@ import bpy, json
 from mathutils import Vector
 bpy.ops.wm.open_mainfile(filepath='/workspace/dot-ww2-assets/assets/kar98k-wip/kar98k-exterior-wip.blend')
 assert all(i.packed_file for i in bpy.data.images if i.source=='FILE' and i.users)
-assert sum(o.type=='MESH' for o in bpy.context.scene.objects)==11
+assert sum(o.type=='MESH' for o in bpy.context.scene.objects)>11
 bpy.ops.object.select_all(action='SELECT')
 bpy.ops.object.delete(use_global=False)
 bpy.ops.import_scene.gltf(filepath='/workspace/dot-ww2-assets/assets/kar98k-wip/kar98k-exterior-wip.glb')

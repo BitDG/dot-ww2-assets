@@ -1,0 +1,12 @@
+{
+  "standard": {
+    "meshes": 19,
+    "triangles": 8180,
+    "sha256": "89f9136cefae2aa7877382c8be76046c9f9aed21d591e38bd30b526d263e25d9"
+  },
+  "showcase": {
+    "meshes": 27,
+    "triangles": 22000,
+    "sha256": "b67499f14087c4cb84fff854103561fce71173738c06862bd2574d3dcb69f0b4"
+  }
+}

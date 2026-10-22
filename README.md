@@ -108,3 +108,7 @@ Kar98k 完成[馆藏参考与部件美术核验记录](preparation/kar98k/refere
 ## 2026-10-22 同一 Kar98k WIP 的材质改进
 
 完成原创纵向木纹、木材微法线和 UV 对齐；新增有边界校验的实际 MCP 生成参数（无量纲比例、木材粗糙度、背带开关）。仍为同一资产，未重做 11 款旧图集。固定 GLB 的全部 10 张实渲与 .blend 同步更新。参考多视照片像素仍不可获取，未改变外轮廓或声称历史准确。见 [当前资产说明](assets/kar98k-wip/README.zh-CN.md) 与 [本日证据](evidence/kar98k-wip/2026-10-22)。当前额度没有可读取入口，未调用收费生成服务；Firefox 网页验收继续待补。
+
+## Kar98k 外形精修阶段
+
+同一资产已重塑木托连续曲率、握持处收腰、护木渐缩与金属/箍带层次，并细化背带曲线和接缝。材质颜色保持不变；[前后对比](assets/kar98k-wip/comparison/before-after.png) 使用相同相机灯光检视几何变化。展示档与标准档有真实几何差异，可在原 WIP 入口切换和下载。见 [当前说明](assets/kar98k-wip/README.zh-CN.md) 与 [本阶段证据](evidence/kar98k-wip/refinement-2026-10-22)。未取得新的可靠多视像素，不宣称历史精确复原；Firefox 和 Library 仍待解除既有阻塞，本轮没有重试其拒绝路径。

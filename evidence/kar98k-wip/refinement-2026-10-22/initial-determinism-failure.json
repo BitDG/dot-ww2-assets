@@ -1,0 +1,6 @@
+{
+  "status": "failed-before-fix",
+  "difference": "Sphere index buffer only; JSON, vertex attributes and materials identical",
+  "reason": "Implicit triangulation of symmetric UV sphere quads chose different diagonals",
+  "fix": "Replaced operator-created UV sphere with explicit ordered triangle mesh; fixed triangulation retained for other quads. Final verification follows."
+}

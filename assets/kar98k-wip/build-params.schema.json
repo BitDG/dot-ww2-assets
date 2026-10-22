@@ -1,1 +1,34 @@
-{"$schema":"http://json-schema.org/draft-07/schema#","type":"object","additionalProperties":false,"required":["artScale","woodRoughness","showSling"],"properties":{"artScale":{"type":"number","minimum":0.85,"maximum":1.15,"description":"Unitless artistic whole-asset scale"},"woodRoughness":{"type":"number","minimum":0.35,"maximum":1},"showSling":{"type":"boolean"}}}
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "artScale",
+    "woodRoughness",
+    "showSling",
+    "detail"
+  ],
+  "properties": {
+    "artScale": {
+      "type": "number",
+      "minimum": 0.85,
+      "maximum": 1.15,
+      "description": "Unitless artistic whole-asset scale"
+    },
+    "woodRoughness": {
+      "type": "number",
+      "minimum": 0.35,
+      "maximum": 1
+    },
+    "showSling": {
+      "type": "boolean"
+    },
+    "detail": {
+      "type": "string",
+      "enum": [
+        "standard",
+        "showcase"
+      ]
+    }
+  }
+}

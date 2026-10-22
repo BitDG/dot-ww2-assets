@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "tiers": {
+    "standard": {
+      "meshes": 19,
+      "triangles": 8180,
+      "sha256": "89f9136cefae2aa7877382c8be76046c9f9aed21d591e38bd30b526d263e25d9"
+    },
+    "showcase": {
+      "meshes": 27,
+      "triangles": 22000,
+      "sha256": "b67499f14087c4cb84fff854103561fce71173738c06862bd2574d3dcb69f0b4"
+    }
+  },
+  "extraShowcaseParts": [
+    "band_surface_rivet",
+    "band_surface_rivet001",
+    "leather_attachment_fold",
+    "leather_attachment_fold001",
+    "shell_surface_rivet",
+    "shell_surface_rivet001",
+    "strap_keeper",
+    "upper_shell_seam"
+  ],
+  "checks": [
+    "Actual mesh/triangle differences, not texture swaps",
+    "Actual minimum/maximum artScale bounds",
+    "Actual minimum/maximum wood roughness",
+    "Sling removed in exported minimum variant",
+    "9 invalid values rejected before Blender launch"
+  ]
+}

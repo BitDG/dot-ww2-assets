@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "file": "assets/kar98k-wip/kar98k-exterior-wip.glb",
+  "sha256": "b67499f14087c4cb84fff854103561fce71173738c06862bd2574d3dcb69f0b4",
+  "bytes": 1100156,
+  "determinism": "Two sequential exports byte-identical; separate fresh-process regeneration hash also checked in determinism.json",
+  "meshes": 27,
+  "triangles": 22000,
+  "nonfinite": 0,
+  "missingNormals": 0,
+  "missingUVs": 0,
+  "degenerateTriangles": 0,
+  "degenerateByMesh": {},
+  "animationClips": 0,
+  "decodedImages": 5,
+  "parts": [
+    "stock_shell",
+    "upper_wood_cover",
+    "butt_cap",
+    "external_guard_no_trigger",
+    "solid_ornamental_knob",
+    "decorative_band",
+    "front_contour_band",
+    "sling_visual",
+    "strap_keeper",
+    "solid_front_visual_no_bore",
+    "closed_upper_metal_shell",
+    "rear_shell_rim",
+    "front_shell_rim",
+    "upper_shell_side_plate",
+    "underside_solid_detail",
+    "fixed_side_ornament",
+    "rear_top_visual_tab",
+    "rear_top_base",
+    "front_top_visual_tab",
+    "front_top_base",
+    "leather_attachment_fold",
+    "leather_attachment_fold001",
+    "band_surface_rivet",
+    "band_surface_rivet001",
+    "shell_surface_rivet",
+    "shell_surface_rivet001",
+    "upper_shell_seam"
+  ],
+  "materials": [
+    "Original longitudinal wood / exterior shell",
+    "PGF deterministic dark metal",
+    "Brown leather / original constant PBR"
+  ],
+  "duplicateTriangles": 0,
+  "materialParameters": [
+    {
+      "name": "Original longitudinal wood / exterior shell",
+      "roughness": 0.5799999833106995,
+      "metalness": 0,
+      "hasNormalMap": true
+    },
+    {
+      "name": "PGF deterministic dark metal",
+      "roughness": 1,
+      "metalness": 1,
+      "hasNormalMap": true
+    },
+    {
+      "name": "Brown leather / original constant PBR",
+      "roughness": 0.800000011920929,
+      "metalness": 0,
+      "hasNormalMap": false
+    }
+  ],
+  "artBounds": [
+    4.794999897480011,
+    0.9903049506247044,
+    0.4200439900159836
+  ],
+  "disposedResources": 35
+}

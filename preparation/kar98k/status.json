@@ -35,11 +35,16 @@
     "showSling"
   ],
   "referenceViewsVerified": [],
-  "lastQualityStage": "2026-10-22 original longitudinal wood, aligned UVs and validated build controls",
+  "lastQualityStage": "2026-10-22 exterior geometry refinement: curved stock/handguard, layered closed metal, contoured bands and smooth sling",
   "implementedBuildParameters": [
+    "detail",
     "artScale",
     "woodRoughness",
     "showSling"
   ],
-  "quotaReadable": false
+  "quotaReadable": false,
+  "availableDetailTiers": [
+    "standard",
+    "showcase"
+  ]
 }
