@@ -1,0 +1,16 @@
+{
+  "cameraLocation": [
+    2.8394999504089355,
+    -14.44997787475586,
+    6.990847587585449
+  ],
+  "cameraRotation": [
+    1.1149466037750244,
+    2.94669035838524e-08,
+    0.19739557802677155
+  ],
+  "orthoScale": 5.598663330078125,
+  "comparisonBaseline": "7f1aeab fixed GLB; same camera, lights, texture inputs and render settings",
+  "beforeSHA256": "9bf79ae849137a81eaf172e808424aba3db7643c1b8d519375593b7389a0b301",
+  "afterSHA256": "e21e0853ab0b93d6c18e3812687aba67e0c1c42965bd79b6b4def7f6e6b1ee0a"
+}

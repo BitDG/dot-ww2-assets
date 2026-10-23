@@ -1,0 +1,9 @@
+{
+  "checks": [],
+  "scope": "MCP initialize/list/get_addon_status/get_scene_info only; no modeling",
+  "persistentConfigurationChanged": false,
+  "status": "failed",
+  "error": "TimeoutError('Blender startup timed out')",
+  "blenderExitCode": -15,
+  "portClosedAfterExit": true
+}

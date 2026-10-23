@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "method": "Fresh Node process regenerates all maps byte-identically",
+  "sha256": {
+    "assets/kar98k-wip/textures/leather-basecolor.png": "99b4fb4dcc8040cd11b299fb54930aa0d3a46f292ff9c6a726e992341b91dc8c",
+    "assets/kar98k-wip/textures/leather-normal.png": "eddcbae1df1aad7fd5ab60345530368e0a49fee6cf14f1d0e23c6b3a3d03d829",
+    "assets/kar98k-wip/textures/metal-base.png": "c5cd28309a52272f523edbcee24e494a9fd523b154855c6c5fa2ae11cbcd6734",
+    "assets/kar98k-wip/textures/metal-normal.png": "fbec827bd9ea6c65a7eeb3695b6b2203ae948c6dce8ebb564490d5fa0b1bc217",
+    "assets/kar98k-wip/textures/metal-orm.png": "b3378913ce72fd62094d5f36f3f9f75b4b3f308eae5d2fe336b467bf1d7a6e50",
+    "assets/kar98k-wip/textures/wood-basecolor.png": "76adba4b241b0e8f678cc6ab69a3bc81581b2f1fce8a885de0ca0aa9f056fca8",
+    "assets/kar98k-wip/textures/wood-normal.png": "41c2341f099a1a15d8694d77ebfd9648aebe06d1ec7d686ec9fd94874e917f56",
+    "assets/kar98k-wip/materials.json": "ee9273d0acce5a1be41a66e2f4972a28dc5f5cf555d1f06f5d1cdd1cc6e5dc52"
+  }
+}

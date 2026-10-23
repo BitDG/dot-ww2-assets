@@ -1,0 +1,58 @@
+Degenerate faces by mesh {}
+{
+  status: 'passed',
+  file: 'assets/kar98k-wip/kar98k-exterior-wip.glb',
+  sha256: 'aa3c46d0420a1ddc2ada43b2eb5fae11b045159b28c2666fd766f2611b7e45da',
+  bytes: 1398628,
+  determinism: 'Two sequential exports byte-identical; separate fresh-process regeneration hash also checked in determinism.json',
+  meshes: 18,
+  triangles: 7448,
+  nonfinite: 0,
+  missingNormals: 0,
+  missingUVs: 0,
+  degenerateTriangles: 0,
+  degenerateByMesh: {},
+  animationClips: 0,
+  decodedImages: 5,
+  parts: [
+    'stock_shell',
+    'upper_wood_cover',
+    'butt_cap',
+    'external_guard_no_trigger',
+    'solid_ornamental_knob',
+    'decorative_band',
+    'front_contour_band',
+    'solid_front_visual_no_bore',
+    'closed_upper_metal_shell',
+    'rear_shell_rim',
+    'front_shell_rim',
+    'upper_shell_side_plate',
+    'underside_solid_detail',
+    'fixed_side_ornament',
+    'rear_top_visual_tab',
+    'rear_top_base',
+    'front_top_visual_tab',
+    'front_top_base'
+  ],
+  materials: [
+    'Original longitudinal wood / exterior shell',
+    'PGF deterministic dark metal'
+  ],
+  duplicateTriangles: 0,
+  materialParameters: [
+    {
+      name: 'Original longitudinal wood / exterior shell',
+      roughness: 0.3499999940395355,
+      metalness: 0,
+      hasNormalMap: true
+    },
+    {
+      name: 'PGF deterministic dark metal',
+      roughness: 1,
+      metalness: 1,
+      hasNormalMap: true
+    }
+  ],
+  artBounds: [ 4.075750018832085, 0.6792562849506738, 0.3570000115334988 ],
+  disposedResources: 25
+}

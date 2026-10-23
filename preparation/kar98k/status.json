@@ -35,7 +35,7 @@
     "showSling"
   ],
   "referenceViewsVerified": [],
-  "lastQualityStage": "2026-10-22 exterior geometry refinement: curved stock/handguard, layered closed metal, contoured bands and smooth sling",
+  "lastQualityStage": "2026-10-23 original nonperiodic wood and leather surface refinement; geometry unchanged",
   "implementedBuildParameters": [
     "detail",
     "artScale",
@@ -46,5 +46,6 @@
   "availableDetailTiers": [
     "standard",
     "showcase"
-  ]
+  ],
+  "lastEvidence": "evidence/kar98k-wip/surface-2026-10-23"
 }

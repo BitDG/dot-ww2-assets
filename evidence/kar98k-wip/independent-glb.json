@@ -1,8 +1,8 @@
 {
   "status": "passed",
   "file": "assets/kar98k-wip/kar98k-exterior-wip.glb",
-  "sha256": "b67499f14087c4cb84fff854103561fce71173738c06862bd2574d3dcb69f0b4",
-  "bytes": 1100156,
+  "sha256": "74b42621e12c6ea8f72685a9b2451da46173dc15e95d7b6efee02655cc2120c8",
+  "bytes": 3650984,
   "determinism": "Two sequential exports byte-identical; separate fresh-process regeneration hash also checked in determinism.json",
   "meshes": 27,
   "triangles": 22000,
@@ -12,7 +12,7 @@
   "degenerateTriangles": 0,
   "degenerateByMesh": {},
   "animationClips": 0,
-  "decodedImages": 5,
+  "decodedImages": 7,
   "parts": [
     "stock_shell",
     "upper_wood_cover",
@@ -45,7 +45,7 @@
   "materials": [
     "Original longitudinal wood / exterior shell",
     "PGF deterministic dark metal",
-    "Brown leather / original constant PBR"
+    "Brown leather / original stochastic PBR"
   ],
   "duplicateTriangles": 0,
   "materialParameters": [
@@ -62,10 +62,10 @@
       "hasNormalMap": true
     },
     {
-      "name": "Brown leather / original constant PBR",
-      "roughness": 0.800000011920929,
+      "name": "Brown leather / original stochastic PBR",
+      "roughness": 0.7200000286102295,
       "metalness": 0,
-      "hasNormalMap": false
+      "hasNormalMap": true
     }
   ],
   "artBounds": [
@@ -73,5 +73,5 @@
     0.9903049506247044,
     0.4200439900159836
   ],
-  "disposedResources": 35
+  "disposedResources": 37
 }

@@ -21,7 +21,9 @@ for key in ['base','orm','normal']:
   t.image.colorspace_settings.name='Non-Color';sep=nodes.new('ShaderNodeSeparateColor');links.new(t.outputs['Color'],sep.inputs['Color']);links.new(sep.outputs['Green'],p.inputs['Roughness']);links.new(sep.outputs['Blue'],p.inputs['Metallic'])
  else:
   t.image.colorspace_settings.name='Non-Color';normal=nodes.new('ShaderNodeNormalMap');normal.inputs['Strength'].default_value=.3;links.new(t.outputs['Color'],normal.inputs['Color']);links.new(normal.outputs['Normal'],p.inputs['Normal'])
-leather,_=material('Brown leather / original constant PBR',(.12,.047,.019),0,.8)
+leather,lp=material('Brown leather / original stochastic PBR',(.12,.047,.019),0,.72)
+lt=leather.node_tree.nodes.new('ShaderNodeTexImage');lt.image=bpy.data.images.load(OUT+'textures/leather-basecolor.png');leather.node_tree.links.new(lt.outputs['Color'],lp.inputs['Base Color'])
+lt=leather.node_tree.nodes.new('ShaderNodeTexImage');lt.image=bpy.data.images.load(OUT+'textures/leather-normal.png');lt.image.colorspace_settings.name='Non-Color';ln=leather.node_tree.nodes.new('ShaderNodeNormalMap');ln.inputs['Strength'].default_value=.35;leather.node_tree.links.new(lt.outputs['Color'],ln.inputs['Color']);leather.node_tree.links.new(ln.outputs['Normal'],lp.inputs['Normal'])
 def finish(o,mat,bevel=0):
  o.data.materials.append(mat);bpy.context.view_layer.objects.active=o;o.select_set(True)
  if bevel:

@@ -1,0 +1,269 @@
+Blender 4.3.2
+Read blend: "/workspace/dot-ww2-assets/assets/kar98k-wip/kar98k-exterior-wip.blend"
+Fra:1 Mem:22.97M (Peak 22.97M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | stock_shell
+Fra:1 Mem:22.97M (Peak 22.97M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | butt_cap
+Fra:1 Mem:25.56M (Peak 25.56M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | upper_shell_seam
+Fra:1 Mem:25.80M (Peak 25.80M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | shell_surface_rivet.001
+Fra:1 Mem:26.27M (Peak 26.27M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | shell_surface_rivet
+Fra:1 Mem:26.34M (Peak 26.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | band_surface_rivet.001
+Fra:1 Mem:26.41M (Peak 26.41M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | band_surface_rivet
+Fra:1 Mem:26.34M (Peak 26.41M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | external_guard_no_trigger
+Fra:1 Mem:26.56M (Peak 26.56M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | leather_attachment_fold.001
+Fra:1 Mem:26.79M (Peak 26.79M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | leather_attachment_fold
+Fra:1 Mem:26.82M (Peak 26.82M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front_top_base
+Fra:1 Mem:27.22M (Peak 27.22M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front_top_visual_tab
+Fra:1 Mem:27.27M (Peak 27.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | solid_ornamental_knob
+Fra:1 Mem:27.41M (Peak 27.41M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear_top_base
+Fra:1 Mem:27.49M (Peak 27.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear_top_visual_tab
+Fra:1 Mem:27.51M (Peak 27.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | decorative_band
+Fra:1 Mem:27.67M (Peak 27.67M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | fixed_side_ornament
+Fra:1 Mem:27.84M (Peak 27.84M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | underside_solid_detail
+Fra:1 Mem:27.87M (Peak 27.87M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front_contour_band
+Fra:1 Mem:27.88M (Peak 27.88M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | upper_shell_side_plate
+Fra:1 Mem:28.06M (Peak 28.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front_shell_rim
+Fra:1 Mem:28.10M (Peak 28.10M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | sling_visual
+Fra:1 Mem:28.32M (Peak 28.32M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear_shell_rim
+Fra:1 Mem:28.68M (Peak 28.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | closed_upper_metal_shell
+Fra:1 Mem:28.76M (Peak 28.76M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | solid_front_visual_no_bore
+Fra:1 Mem:28.83M (Peak 28.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | strap_keeper
+Fra:1 Mem:29.06M (Peak 29.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:28.95M (Peak 29.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading wood-basecolor
+Fra:1 Mem:28.95M (Peak 29.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading leather-normal
+Fra:1 Mem:28.95M (Peak 29.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading wood-normal
+Fra:1 Mem:28.95M (Peak 29.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading metal-base
+Fra:1 Mem:41.21M (Peak 41.21M) | Time:00:00.01 | Mem:0.25M, Peak:0.25M | Scene, ViewLayer | Updating Images | Loading metal-orm
+Fra:1 Mem:41.46M (Peak 41.46M) | Time:00:00.02 | Mem:0.50M, Peak:0.50M | Scene, ViewLayer | Updating Images | Loading metal-normal
+Fra:1 Mem:41.71M (Peak 41.71M) | Time:00:00.02 | Mem:0.75M, Peak:0.75M | Scene, ViewLayer | Updating Images | Loading leather-basecolor
+Fra:1 Mem:44.63M (Peak 69.74M) | Time:00:00.05 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:44.63M (Peak 69.74M) | Time:00:00.05 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:44.63M (Peak 69.74M) | Time:00:00.05 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:44.63M (Peak 69.74M) | Time:00:00.05 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:44.72M (Peak 69.74M) | Time:00:00.05 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:44.72M (Peak 69.74M) | Time:00:00.05 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:44.72M (Peak 69.74M) | Time:00:00.05 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:44.72M (Peak 69.74M) | Time:00:00.05 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:44.72M (Peak 69.74M) | Time:00:00.05 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:44.72M (Peak 69.74M) | Time:00:00.05 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:44.72M (Peak 69.74M) | Time:00:00.05 | Mem:16.76M, Peak:16.76M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:44.72M (Peak 69.74M) | Time:00:00.05 | Mem:16.76M, Peak:16.76M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:44.72M (Peak 69.74M) | Time:00:00.05 | Mem:16.76M, Peak:16.76M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:44.72M (Peak 69.74M) | Time:00:00.05 | Mem:16.76M, Peak:16.76M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:45.06M (Peak 69.74M) | Time:00:00.05 | Mem:16.76M, Peak:16.76M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:46.74M (Peak 69.74M) | Time:00:00.05 | Mem:16.76M, Peak:16.76M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:46.73M (Peak 69.74M) | Time:00:00.05 | Mem:18.43M, Peak:18.43M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:46.73M (Peak 69.74M) | Time:00:00.05 | Mem:18.43M, Peak:18.43M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:46.73M (Peak 69.74M) | Time:00:00.05 | Mem:19.10M, Peak:19.10M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:46.73M (Peak 69.74M) | Time:00:00.05 | Mem:19.84M, Peak:20.51M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:46.73M (Peak 69.74M) | Time:00:00.05 | Mem:19.84M, Peak:20.51M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:47.56M (Peak 69.74M) | Time:00:00.05 | Mem:19.84M, Peak:20.51M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:47.56M (Peak 69.74M) | Time:00:00.05 | Mem:20.67M, Peak:20.67M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:47.56M (Peak 69.74M) | Time:00:00.05 | Mem:20.67M, Peak:20.67M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:47.56M (Peak 69.74M) | Time:00:00.05 | Mem:20.67M, Peak:20.67M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:47.56M (Peak 69.74M) | Time:00:00.05 | Mem:20.67M, Peak:20.67M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:47.56M (Peak 69.74M) | Time:00:00.05 | Mem:20.67M, Peak:20.67M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:47.56M (Peak 69.74M) | Time:00:00.05 | Mem:20.75M, Peak:20.75M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:47.56M (Peak 69.74M) | Time:00:00.05 | Mem:20.75M, Peak:20.75M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:47.57M (Peak 69.74M) | Time:00:00.05 | Mem:20.75M, Peak:20.75M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:47.57M (Peak 69.74M) | Time:00:00.05 | Mem:20.75M, Peak:20.75M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:47.57M (Peak 69.74M) | Time:00:00.05 | Mem:20.67M, Peak:20.75M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:47.57M (Peak 69.74M) | Time:00:00.05 | Mem:20.76M, Peak:20.76M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:47.57M (Peak 69.74M) | Time:00:00.05 | Mem:20.76M, Peak:20.76M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:47.57M (Peak 69.74M) | Time:00:00.05 | Mem:20.76M, Peak:20.76M | Scene, ViewLayer | Sample 0/24
+Fra:1 Mem:65.38M (Peak 69.74M) | Time:00:00.13 | Remaining:00:01.84 | Mem:38.57M, Peak:38.57M | Scene, ViewLayer | Sample 1/24
+Fra:1 Mem:73.29M (Peak 89.11M) | Time:00:01.89 | Mem:38.57M, Peak:38.57M | Scene, ViewLayer | Sample 24/24
+Fra:1 Mem:73.29M (Peak 89.11M) | Time:00:01.89 | Mem:38.57M, Peak:38.57M | Scene, ViewLayer | Finished
+Saved: '/workspace/dot-ww2-assets/assets/kar98k-wip/side.png'
+Time: 00:02.12 (Saving: 00:00.22)
+
+Fra:1 Mem:26.31M (Peak 26.31M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | stock_shell
+Fra:1 Mem:26.31M (Peak 26.31M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | butt_cap
+Fra:1 Mem:26.78M (Peak 26.78M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | upper_shell_seam
+Fra:1 Mem:27.09M (Peak 27.09M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | shell_surface_rivet.001
+Fra:1 Mem:27.43M (Peak 27.43M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | external_guard_no_trigger
+Fra:1 Mem:27.49M (Peak 27.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | shell_surface_rivet
+Fra:1 Mem:27.71M (Peak 27.71M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | band_surface_rivet.001
+Fra:1 Mem:27.76M (Peak 27.76M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | band_surface_rivet
+Fra:1 Mem:27.81M (Peak 27.81M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | leather_attachment_fold.001
+Fra:1 Mem:27.94M (Peak 27.94M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | leather_attachment_fold
+Fra:1 Mem:27.86M (Peak 27.94M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | solid_ornamental_knob
+Fra:1 Mem:27.89M (Peak 27.94M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front_top_base
+Fra:1 Mem:27.95M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front_top_visual_tab
+Fra:1 Mem:27.97M (Peak 27.97M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear_top_base
+Fra:1 Mem:28.00M (Peak 28.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | decorative_band
+Fra:1 Mem:28.15M (Peak 28.15M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear_top_visual_tab
+Fra:1 Mem:28.24M (Peak 28.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | fixed_side_ornament
+Fra:1 Mem:28.23M (Peak 28.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front_contour_band
+Fra:1 Mem:28.40M (Peak 28.40M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | underside_solid_detail
+Fra:1 Mem:28.42M (Peak 28.42M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | upper_shell_side_plate
+Fra:1 Mem:28.45M (Peak 28.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front_shell_rim
+Fra:1 Mem:28.50M (Peak 28.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | sling_visual
+Fra:1 Mem:28.59M (Peak 28.59M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear_shell_rim
+Fra:1 Mem:28.81M (Peak 28.81M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | closed_upper_metal_shell
+Fra:1 Mem:28.86M (Peak 28.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | solid_front_visual_no_bore
+Fra:1 Mem:28.92M (Peak 28.92M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | strap_keeper
+Fra:1 Mem:29.06M (Peak 29.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:28.95M (Peak 29.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading wood-basecolor
+Fra:1 Mem:28.95M (Peak 29.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading leather-normal
+Fra:1 Mem:28.95M (Peak 29.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading wood-normal
+Fra:1 Mem:40.95M (Peak 40.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading metal-base
+Fra:1 Mem:41.21M (Peak 41.21M) | Time:00:00.01 | Mem:0.25M, Peak:0.25M | Scene, ViewLayer | Updating Images | Loading metal-orm
+Fra:1 Mem:41.46M (Peak 41.46M) | Time:00:00.01 | Mem:0.50M, Peak:0.50M | Scene, ViewLayer | Updating Images | Loading metal-normal
+Fra:1 Mem:41.71M (Peak 41.71M) | Time:00:00.01 | Mem:0.75M, Peak:0.75M | Scene, ViewLayer | Updating Images | Loading leather-basecolor
+Fra:1 Mem:44.63M (Peak 61.73M) | Time:00:00.04 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:44.63M (Peak 61.73M) | Time:00:00.04 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:44.63M (Peak 61.73M) | Time:00:00.04 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:44.63M (Peak 61.73M) | Time:00:00.04 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:44.72M (Peak 61.73M) | Time:00:00.04 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:44.72M (Peak 61.73M) | Time:00:00.04 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:44.72M (Peak 61.73M) | Time:00:00.04 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:44.72M (Peak 61.73M) | Time:00:00.04 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:44.72M (Peak 61.73M) | Time:00:00.04 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:44.72M (Peak 61.73M) | Time:00:00.04 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:44.72M (Peak 61.73M) | Time:00:00.04 | Mem:16.76M, Peak:16.76M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:44.72M (Peak 61.73M) | Time:00:00.04 | Mem:16.76M, Peak:16.76M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:44.72M (Peak 61.73M) | Time:00:00.04 | Mem:16.76M, Peak:16.76M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:44.72M (Peak 61.73M) | Time:00:00.04 | Mem:16.76M, Peak:16.76M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:45.06M (Peak 61.73M) | Time:00:00.04 | Mem:16.76M, Peak:16.76M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:46.74M (Peak 61.73M) | Time:00:00.04 | Mem:16.76M, Peak:16.76M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:46.73M (Peak 61.73M) | Time:00:00.04 | Mem:18.43M, Peak:18.43M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:46.73M (Peak 61.73M) | Time:00:00.04 | Mem:18.43M, Peak:18.43M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:46.73M (Peak 61.73M) | Time:00:00.04 | Mem:19.10M, Peak:19.10M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:46.73M (Peak 61.73M) | Time:00:00.05 | Mem:19.84M, Peak:20.51M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:46.73M (Peak 61.73M) | Time:00:00.05 | Mem:19.84M, Peak:20.51M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:47.56M (Peak 61.73M) | Time:00:00.05 | Mem:19.84M, Peak:20.51M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:47.56M (Peak 61.73M) | Time:00:00.05 | Mem:20.67M, Peak:20.67M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:47.56M (Peak 61.73M) | Time:00:00.05 | Mem:20.67M, Peak:20.67M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:47.56M (Peak 61.73M) | Time:00:00.05 | Mem:20.67M, Peak:20.67M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:47.56M (Peak 61.73M) | Time:00:00.05 | Mem:20.67M, Peak:20.67M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:47.56M (Peak 61.73M) | Time:00:00.05 | Mem:20.67M, Peak:20.67M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:47.56M (Peak 61.73M) | Time:00:00.05 | Mem:20.75M, Peak:20.75M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:47.56M (Peak 61.73M) | Time:00:00.05 | Mem:20.75M, Peak:20.75M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:47.57M (Peak 61.73M) | Time:00:00.05 | Mem:20.75M, Peak:20.75M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:47.57M (Peak 61.73M) | Time:00:00.05 | Mem:20.75M, Peak:20.75M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:47.57M (Peak 61.73M) | Time:00:00.05 | Mem:20.67M, Peak:20.75M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:47.57M (Peak 61.73M) | Time:00:00.05 | Mem:20.76M, Peak:20.76M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:47.57M (Peak 61.73M) | Time:00:00.05 | Mem:20.76M, Peak:20.76M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:47.57M (Peak 61.73M) | Time:00:00.05 | Mem:20.76M, Peak:20.76M | Scene, ViewLayer | Sample 0/24
+Fra:1 Mem:65.38M (Peak 65.38M) | Time:00:00.12 | Remaining:00:01.74 | Mem:38.57M, Peak:38.57M | Scene, ViewLayer | Sample 1/24
+Fra:1 Mem:73.29M (Peak 89.11M) | Time:00:01.76 | Mem:38.57M, Peak:38.57M | Scene, ViewLayer | Sample 24/24
+Fra:1 Mem:73.29M (Peak 89.11M) | Time:00:01.76 | Mem:38.57M, Peak:38.57M | Scene, ViewLayer | Finished
+Saved: '/workspace/dot-ww2-assets/assets/kar98k-wip/front.png'
+Time: 00:01.83 (Saving: 00:00.06)
+
+Fra:1 Mem:26.31M (Peak 26.31M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | stock_shell
+Fra:1 Mem:26.31M (Peak 26.31M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | butt_cap
+Fra:1 Mem:26.33M (Peak 26.33M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | upper_shell_seam
+Fra:1 Mem:27.35M (Peak 27.35M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | shell_surface_rivet.001
+Fra:1 Mem:27.50M (Peak 27.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | external_guard_no_trigger
+Fra:1 Mem:27.66M (Peak 27.66M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | shell_surface_rivet
+Fra:1 Mem:27.71M (Peak 27.71M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | band_surface_rivet.001
+Fra:1 Mem:27.76M (Peak 27.76M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | band_surface_rivet
+Fra:1 Mem:27.81M (Peak 27.81M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | leather_attachment_fold.001
+Fra:1 Mem:27.86M (Peak 27.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | leather_attachment_fold
+Fra:1 Mem:27.86M (Peak 27.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | solid_ornamental_knob
+Fra:1 Mem:27.88M (Peak 27.88M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front_top_base
+Fra:1 Mem:27.95M (Peak 27.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front_top_visual_tab
+Fra:1 Mem:27.97M (Peak 27.97M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear_top_base
+Fra:1 Mem:28.02M (Peak 28.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear_top_visual_tab
+Fra:1 Mem:28.02M (Peak 28.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | decorative_band
+Fra:1 Mem:28.11M (Peak 28.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | fixed_side_ornament
+Fra:1 Mem:28.35M (Peak 28.35M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | underside_solid_detail
+Fra:1 Mem:28.26M (Peak 28.35M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front_contour_band
+Fra:1 Mem:28.30M (Peak 28.35M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | upper_shell_side_plate
+Fra:1 Mem:28.43M (Peak 28.43M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front_shell_rim
+Fra:1 Mem:28.50M (Peak 28.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear_shell_rim
+Fra:1 Mem:28.55M (Peak 28.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | closed_upper_metal_shell
+Fra:1 Mem:28.60M (Peak 28.60M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | solid_front_visual_no_bore
+Fra:1 Mem:28.93M (Peak 28.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | strap_keeper
+Fra:1 Mem:28.83M (Peak 28.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | sling_visual
+Fra:1 Mem:29.06M (Peak 29.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:28.95M (Peak 29.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading leather-normal
+Fra:1 Mem:28.95M (Peak 29.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading metal-base
+Fra:1 Mem:41.21M (Peak 41.21M) | Time:00:00.01 | Mem:0.25M, Peak:0.25M | Scene, ViewLayer | Updating Images | Loading metal-orm
+Fra:1 Mem:41.46M (Peak 41.46M) | Time:00:00.01 | Mem:0.50M, Peak:0.50M | Scene, ViewLayer | Updating Images | Loading metal-normal
+Fra:1 Mem:41.71M (Peak 41.71M) | Time:00:00.01 | Mem:0.75M, Peak:0.75M | Scene, ViewLayer | Updating Images | Loading leather-basecolor
+Fra:1 Mem:44.63M (Peak 53.72M) | Time:00:00.04 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:44.63M (Peak 53.72M) | Time:00:00.04 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:44.63M (Peak 53.72M) | Time:00:00.04 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:44.63M (Peak 53.72M) | Time:00:00.04 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:44.72M (Peak 53.72M) | Time:00:00.04 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:44.72M (Peak 53.72M) | Time:00:00.04 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:44.72M (Peak 53.72M) | Time:00:00.04 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:44.72M (Peak 53.72M) | Time:00:00.04 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:44.72M (Peak 53.72M) | Time:00:00.04 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:44.72M (Peak 53.72M) | Time:00:00.04 | Mem:16.75M, Peak:16.75M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:44.72M (Peak 53.72M) | Time:00:00.04 | Mem:16.76M, Peak:16.76M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:44.72M (Peak 53.72M) | Time:00:00.04 | Mem:16.76M, Peak:16.76M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:44.72M (Peak 53.72M) | Time:00:00.04 | Mem:16.76M, Peak:16.76M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:44.72M (Peak 53.72M) | Time:00:00.04 | Mem:16.76M, Peak:16.76M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:45.06M (Peak 53.72M) | Time:00:00.04 | Mem:16.76M, Peak:16.76M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:46.74M (Peak 53.72M) | Time:00:00.04 | Mem:16.76M, Peak:16.76M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:46.73M (Peak 53.72M) | Time:00:00.04 | Mem:18.43M, Peak:18.43M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:46.73M (Peak 53.72M) | Time:00:00.04 | Mem:18.43M, Peak:18.43M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:46.73M (Peak 53.72M) | Time:00:00.04 | Mem:19.10M, Peak:19.10M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:46.73M (Peak 53.72M) | Time:00:00.05 | Mem:19.84M, Peak:20.51M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:46.73M (Peak 53.72M) | Time:00:00.05 | Mem:19.84M, Peak:20.51M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:47.56M (Peak 53.72M) | Time:00:00.05 | Mem:19.84M, Peak:20.51M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:47.56M (Peak 53.72M) | Time:00:00.05 | Mem:20.67M, Peak:20.67M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:47.56M (Peak 53.72M) | Time:00:00.05 | Mem:20.67M, Peak:20.67M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:47.56M (Peak 53.72M) | Time:00:00.05 | Mem:20.67M, Peak:20.67M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:47.56M (Peak 53.72M) | Time:00:00.05 | Mem:20.67M, Peak:20.67M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:47.56M (Peak 53.72M) | Time:00:00.05 | Mem:20.67M, Peak:20.67M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:47.56M (Peak 53.72M) | Time:00:00.05 | Mem:20.75M, Peak:20.75M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:47.57M (Peak 53.72M) | Time:00:00.05 | Mem:20.75M, Peak:20.75M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:47.57M (Peak 53.72M) | Time:00:00.05 | Mem:20.75M, Peak:20.75M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:47.57M (Peak 53.72M) | Time:00:00.05 | Mem:20.75M, Peak:20.75M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:47.57M (Peak 53.72M) | Time:00:00.05 | Mem:20.67M, Peak:20.75M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:47.57M (Peak 53.72M) | Time:00:00.05 | Mem:20.76M, Peak:20.76M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:47.57M (Peak 53.72M) | Time:00:00.05 | Mem:20.76M, Peak:20.76M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:47.57M (Peak 53.72M) | Time:00:00.05 | Mem:20.76M, Peak:20.76M | Scene, ViewLayer | Sample 0/24
+Fra:1 Mem:65.38M (Peak 65.38M) | Time:00:00.11 | Remaining:00:01.53 | Mem:38.57M, Peak:38.57M | Scene, ViewLayer | Sample 1/24
+Fra:1 Mem:73.29M (Peak 89.11M) | Time:00:01.35 | Mem:38.57M, Peak:38.57M | Scene, ViewLayer | Sample 24/24
+Fra:1 Mem:73.29M (Peak 89.11M) | Time:00:01.35 | Mem:38.57M, Peak:38.57M | Scene, ViewLayer | Finished
+Saved: '/workspace/dot-ww2-assets/assets/kar98k-wip/top.png'
+Time: 00:01.42 (Saving: 00:00.06)
+
+BlenderMCP addon registered
+Server thread started
+Connected to client: ('127.0.0.1', 54554)
+Client handler started
+Queued command: get_addon_info
+Executing handler for get_addon_info
+Handler execution complete
+Queued command: get_addon_info
+Executing handler for get_addon_info
+Handler execution complete
+Queued command: get_polyhaven_status
+Queued command: get_sketchfab_status
+Executing handler for get_sketchfab_status
+Handler execution complete
+Queued command: get_polypizza_status
+Executing handler for get_polypizza_status
+Handler execution complete
+Queued command: get_hunyuan3d_status
+Executing handler for get_hunyuan3d_status
+Handler execution complete
+Queued command: get_hyper3d_status
+Executing handler for get_hyper3d_status
+Handler execution complete
+Connected to client: ('127.0.0.1', 54568)
+Client handler started
+Queued command: get_addon_info
+Executing handler for get_addon_info
+Handler execution complete
+Queued command: get_telemetry_consent
+Executing handler for get_telemetry_consent
+Handler execution complete
+Queued command: execute_code
+Executing handler for execute_code
+Handler execution complete
+Client disconnected
+Client handler stopped
+Client disconnected
+Client handler stopped
+Error accepting connection: [Errno 9] Bad file descriptor
+Server thread stopped
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+
+Blender quit

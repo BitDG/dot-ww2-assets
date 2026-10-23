@@ -112,3 +112,7 @@ Kar98k 完成[馆藏参考与部件美术核验记录](preparation/kar98k/refere
 ## Kar98k 外形精修阶段
 
 同一资产已重塑木托连续曲率、握持处收腰、护木渐缩与金属/箍带层次，并细化背带曲线和接缝。材质颜色保持不变；[前后对比](assets/kar98k-wip/comparison/before-after.png) 使用相同相机灯光检视几何变化。展示档与标准档有真实几何差异，可在原 WIP 入口切换和下载。见 [当前说明](assets/kar98k-wip/README.zh-CN.md) 与 [本阶段证据](evidence/kar98k-wip/refinement-2026-10-22)。未取得新的可靠多视像素，不宣称历史精确复原；Firefox 和 Library 仍待解除既有阻塞，本轮没有重试其拒绝路径。
+
+## 2026-10-23 表面质量更新
+
+继续同一 Kar98k WIP，消减等距木纹的压纹感，加入非周期木纤维、细孔和皮背带微表面；未新增面数或未经证实的结构。[同机位上一版对比](assets/kar98k-wip/surface-comparison/before-after.png) · [当前说明](assets/kar98k-wip/README.zh-CN.md) · [本日证据](evidence/kar98k-wip/surface-2026-10-23)。真实参考、Firefox及Library限制不变，均未伪称验收完成。

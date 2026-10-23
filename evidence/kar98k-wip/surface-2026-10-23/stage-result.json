@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-23",
+  "status": "surface-stage-completed-WIP",
+  "baseline": "7f1aeab2d638de4bfc7a26e6cba729bffffae8a0",
+  "visualReview": {
+    "inspected": [
+      "surface-comparison/before-after.png",
+      "detail-sling.png",
+      "hero.png"
+    ],
+    "improvements": [
+      "Replaced equidistant embossed-looking wood stripes with irregular multiscale fibers and subdued variation",
+      "Original leather color and micro-normal maps reduce flat plastic appearance"
+    ],
+    "unchanged": [
+      "External geometry and UV byte-identical; no polygon increase",
+      "Remaining simplified accessories and conjectural silhouette are not historically accepted"
+    ],
+    "limitations": [
+      "Close-up renders retain sampling grain",
+      "No verified complete same-object reference multiview"
+    ]
+  },
+  "passed": [
+    "Actual task-local MCP modeling and GLB rendering",
+    "Two detail tiers and parameter extrema",
+    "Nine invalid parameter cases rejected",
+    "Fresh-process GLB byte determinism",
+    "GLB independent read; normals/UV finite, zero duplicate or degenerate triangles",
+    "Seven textures decoded and 37 resources disposed by validation",
+    "Ten renders from same fixed GLB, strict orthographic top",
+    "Same-camera previous/current comparison",
+    "Production build and asset HTTP byte checks",
+    "Geometry and UV identity against baseline"
+  ],
+  "failedOrUnavailable": [
+    "Initial cold-start read-only MCP handshake timed out; later real MCP sessions succeeded",
+    "New independent USHMM reference page returned 502; no pixels used"
+  ],
+  "notRun": [
+    "Firefox browser/GPU acceptance: existing denied download unchanged",
+    "Library upload: existing proxy403 unchanged; no retry and no new file IDs",
+    "Historical subtype/appearance acceptance"
+  ],
+  "quota": "No readable quota tool; no numerical allowance inferred",
+  "scope": "Nonfunctional external art only; PGF unchanged; no deployment"
+}

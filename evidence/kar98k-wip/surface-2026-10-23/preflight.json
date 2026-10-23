@@ -1,0 +1,9 @@
+{
+  "baselineMain": "7f1aeab2d638de4bfc7a26e6cba729bffffae8a0",
+  "initialWorktree": "clean",
+  "currentQuota": "unreadable: no quota/credit endpoint exposed; no arithmetic from another conversation used",
+  "dedup": "Same assets/kar98k-wip; no Kar98k paths in PGF local modules or tracked main tree",
+  "MCP": "Pinned source hashes matched; cold-start readonly probe timed out, subsequent actual initialize/status/modeling passed and socket closed",
+  "newInstall": false,
+  "PGFModified": false
+}

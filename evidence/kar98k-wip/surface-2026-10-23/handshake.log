@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/dot-ww2-assets/scripts/tooling/verify-blender-mcp.py", line 28, in <module>
+    else:raise TimeoutError('Blender startup timed out')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: Blender startup timed out

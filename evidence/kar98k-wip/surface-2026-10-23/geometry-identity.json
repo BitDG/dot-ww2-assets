@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "baseline": "7f1aeab",
+  "meshPrimitives": 27,
+  "checks": [
+    "Positions byte-identical",
+    "Normals byte-identical",
+    "UV layout byte-identical",
+    "Triangle indices byte-identical"
+  ],
+  "scope": "Surface textures changed; no new geometry or historical structure claimed"
+}
